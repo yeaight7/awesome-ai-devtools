@@ -15,10 +15,12 @@ export const INTERFACE_TYPES = [
 
 export const DEPLOYMENT_TYPES = ["hosted", "local", "self-hosted", "hybrid", "unknown"] as const;
 export const SOURCE_MODEL_TYPES = ["open-source", "source-available", "proprietary", "unknown"] as const;
+export const CURATION_STATUS_TYPES = ["reviewed", "draft"] as const;
 
 export type InterfaceType = (typeof INTERFACE_TYPES)[number];
 export type DeploymentType = (typeof DEPLOYMENT_TYPES)[number];
 export type SourceModelType = (typeof SOURCE_MODEL_TYPES)[number];
+export type CurationStatus = (typeof CURATION_STATUS_TYPES)[number];
 
 export interface Category {
   slug: string;
@@ -45,6 +47,8 @@ export interface Tool {
   deployment: DeploymentType;
   source_model: SourceModelType;
   license: string;
+  curation_status: CurationStatus;
+  review_notes?: string;
   added: string;
   last_checked: string;
   sources: string[];
@@ -104,6 +108,10 @@ export function normalizeTool(tool: Tool): Tool {
   normalized.deployment = tool.deployment;
   normalized.source_model = tool.source_model;
   normalized.license = tool.license;
+  normalized.curation_status = tool.curation_status;
+  if (tool.review_notes) {
+    normalized.review_notes = tool.review_notes.trim();
+  }
   normalized.added = tool.added;
   normalized.last_checked = tool.last_checked;
   normalized.sources = sortedUnique(tool.sources ?? []);
