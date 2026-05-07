@@ -1,0 +1,196 @@
+- slug: claude-code
+  name: Claude Code
+  description: Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context.
+  website_url: https://code.claude.com/docs/en/setup
+  docs_url: https://code.claude.com/docs/en/setup
+  categories:
+    - coding-agents
+    - terminal-agents
+  tags:
+    - agent
+    - mcp
+    - terminal
+  interfaces:
+    - cli
+  deployment: hybrid
+  source_model: proprietary
+  license: unknown
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://code.claude.com/docs/en/setup
+- slug: cline
+  name: Cline
+  description: Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension.
+  website_url: https://docs.cline.bot/introduction/overview
+  repo_url: https://github.com/cline/cline
+  docs_url: https://docs.cline.bot/introduction/overview
+  categories:
+    - browser-agents
+    - coding-agents
+    - ide-assistants
+  tags:
+    - agent
+    - browser-automation
+    - ide
+    - mcp
+    - vscode
+  interfaces:
+    - browser
+    - cli
+    - ide
+  deployment: hybrid
+  source_model: open-source
+  license: Apache-2.0
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://docs.cline.bot/introduction/overview
+    - https://github.com/cline/cline
+- slug: continue
+  name: Continue
+  description: Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows.
+  website_url: https://docs.continue.dev/
+  repo_url: https://github.com/continuedev/continue
+  docs_url: https://docs.continue.dev/
+  categories:
+    - ai-code-review-tools
+    - ide-assistants
+    - repo-automation-tools
+  tags:
+    - cli
+    - code-review
+    - ide
+    - jetbrains
+    - vscode
+  interfaces:
+    - cli
+    - ide
+  deployment: hybrid
+  source_model: open-source
+  license: Apache-2.0
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://docs.continue.dev/
+    - https://github.com/continuedev/continue
+- slug: cursor
+  name: Cursor
+  description: AI code editor built around chat, codebase context, agents, rules, MCP, and terminal-assisted development workflows.
+  website_url: https://cursor.com/
+  docs_url: https://cursor.com/docs
+  categories:
+    - coding-agents
+    - ide-assistants
+  tags:
+    - agent
+    - ide
+    - mcp
+  interfaces:
+    - cli
+    - desktop
+    - ide
+  deployment: hybrid
+  source_model: proprietary
+  license: unknown
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://cursor.com/
+    - https://cursor.com/docs
+- slug: github-copilot
+  name: GitHub Copilot
+  description: GitHub AI coding assistant for IDEs and GitHub workflows, including code suggestions, chat, and pull request support.
+  website_url: https://github.com/features/copilot
+  docs_url: https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot
+  categories:
+    - ai-code-review-tools
+    - ide-assistants
+  tags:
+    - code-review
+    - github
+    - ide
+  interfaces:
+    - github-app
+    - ide
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: unknown
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot
+    - https://github.com/features/copilot
+- slug: langfuse
+  name: Langfuse
+  description: Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations.
+  website_url: https://langfuse.com/docs
+  repo_url: https://github.com/langfuse/langfuse
+  docs_url: https://langfuse.com/docs
+  categories:
+    - agent-evals
+    - agent-observability
+    - self-hosted-ai-dev-stacks
+  tags:
+    - evals
+    - llm-apps
+    - observability
+    - self-hosted
+  interfaces:
+    - api
+    - web
+  deployment: hybrid
+  source_model: open-source
+  license: MIT except enterprise folders
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/langfuse/langfuse
+    - https://langfuse.com/docs
+- slug: mcp-inspector
+  name: MCP Inspector
+  description: Official visual and command-line testing tool for developing, inspecting, and debugging Model Context Protocol servers.
+  website_url: https://modelcontextprotocol.io/docs/tools/inspector
+  repo_url: https://github.com/modelcontextprotocol/inspector
+  docs_url: https://modelcontextprotocol.io/docs/tools/inspector
+  categories:
+    - mcp-tooling
+  tags:
+    - cli
+    - mcp
+  interfaces:
+    - cli
+    - mcp
+    - web
+  deployment: local
+  source_model: open-source
+  license: unknown
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/modelcontextprotocol/inspector
+    - https://modelcontextprotocol.io/docs/tools/inspector
+- slug: openai-codex-cli
+  name: OpenAI Codex CLI
+  description: Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace.
+  website_url: https://github.com/openai/codex
+  repo_url: https://github.com/openai/codex
+  docs_url: https://developers.openai.com/codex/cli/
+  categories:
+    - coding-agents
+    - terminal-agents
+  tags:
+    - agent
+    - cli
+    - local-first
+    - terminal
+  interfaces:
+    - cli
+  deployment: hybrid
+  source_model: open-source
+  license: Apache-2.0
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/openai/codex
