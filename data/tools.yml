@@ -6,6 +6,7 @@
   docs_url: https://aider.chat/docs/
   categories:
     - coding-agents
+    - terminal-agents
   tags:
     - agentic-coding
     - coding
@@ -15,7 +16,7 @@
   interfaces:
     - cli
   deployment: local
-  source_model: unknown
+  source_model: not specified
   license: Apache-2.0
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official repo and docs found. Strong fit for terminal-based repository editing. confidence: high uncertain: false"
@@ -31,7 +32,12 @@
   website_url: https://aws.amazon.com/q/developer/
   docs_url: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html
   categories:
+    - ai-code-review-tools
     - coding-agents
+    - ide-assistants
+    - repo-automation-tools
+    - terminal-agents
+    - test-generation-agents
   tags:
     - agentic-coding
     - code-review
@@ -44,8 +50,8 @@
     - github-app
     - ide-extension
   deployment: hybrid
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs cover IDE coding, CLI transformations, and GitHub agents. Public license not verified. confidence: high uncertain: true"
   added: 2026-05-07
@@ -61,6 +67,8 @@
   docs_url: https://ampcode.com/manual
   categories:
     - coding-agents
+    - repo-automation-tools
+    - terminal-agents
   tags:
     - agentic-coding
     - automation
@@ -72,8 +80,8 @@
     - api
     - cli
   deployment: hybrid
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official manual found. SDK and workspace settings indicate automation and MCP-related configuration. confidence: high uncertain: true"
   added: 2026-05-07
@@ -89,6 +97,9 @@
   docs_url: https://docs.augmentcode.com/introduction
   categories:
     - coding-agents
+    - ide-assistants
+    - mcp-clients
+    - terminal-agents
   tags:
     - agentic-coding
     - coding
@@ -100,8 +111,8 @@
     - cli
     - ide-extension
   deployment: hybrid
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs found for Agent and CLI workflows. Public license not verified. confidence: high uncertain: true"
   added: 2026-05-07
@@ -116,7 +127,8 @@
   website_url: https://bito.ai/product/ai-code-review-agent/
   docs_url: https://docs.bito.ai/ai-code-reviews-in-git/install-run-using-bito-cloud/guide-for-github
   categories:
-    - coding-agents
+    - ai-code-review-tools
+    - repo-automation-tools
   tags:
     - automation
     - code-review
@@ -125,8 +137,8 @@
   interfaces:
     - github-app
   deployment: cloud
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official product page and docs found. Strong fit for automated PR review; public license not verified. confidence: high uncertain: true"
   added: 2026-05-07
@@ -151,7 +163,7 @@
     - cli
   deployment: hybrid
   source_model: proprietary
-  license: unknown
+  license: not specified
   curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
@@ -192,7 +204,10 @@
   website_url: https://coderabbit.ai/
   docs_url: https://docs.coderabbit.ai/
   categories:
-    - coding-agents
+    - ai-code-review-tools
+    - ide-assistants
+    - repo-automation-tools
+    - terminal-agents
   tags:
     - agentic-coding
     - automation
@@ -205,8 +220,8 @@
     - github-app
     - ide-extension
   deployment: hybrid
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs cover PR review, IDE review, and CLI review. Public license not verified. confidence: high uncertain: true"
   added: 2026-05-07
@@ -261,7 +276,7 @@
     - ide
   deployment: hybrid
   source_model: proprietary
-  license: unknown
+  license: not specified
   curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
@@ -274,7 +289,10 @@
   website_url: https://factory.ai/
   docs_url: https://docs.factory.ai/welcome
   categories:
+    - ai-code-review-tools
     - coding-agents
+    - repo-automation-tools
+    - terminal-agents
   tags:
     - agentic-coding
     - automation
@@ -287,8 +305,8 @@
     - cli
     - desktop-app
   deployment: hybrid
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs cover Droid CLI, desktop app, and droid exec for automation. Public license not verified. confidence: high uncertain: true"
   added: 2026-05-07
@@ -305,6 +323,8 @@
   docs_url: https://developers.google.com/gemini-code-assist/docs/gemini-cli
   categories:
     - coding-agents
+    - mcp-clients
+    - terminal-agents
   tags:
     - agentic-coding
     - coding
@@ -316,7 +336,7 @@
     - cli
     - mcp-client
   deployment: local
-  source_model: unknown
+  source_model: not specified
   license: Apache-2.0
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs state Gemini CLI is an open-source AI agent for the terminal with MCP support. confidence: high uncertain: false"
@@ -331,7 +351,10 @@
   website_url: https://developers.google.com/gemini-code-assist
   docs_url: https://developers.google.com/gemini-code-assist/docs/overview
   categories:
+    - ai-code-review-tools
     - coding-agents
+    - ide-assistants
+    - repo-automation-tools
   tags:
     - agentic-coding
     - code-review
@@ -342,8 +365,8 @@
     - github-app
     - ide-extension
   deployment: cloud
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs found for IDE agent mode and GitHub code review. Public license not verified. confidence: high uncertain: true"
   added: 2026-05-07
@@ -370,7 +393,7 @@
     - web
   deployment: hosted
   source_model: proprietary
-  license: unknown
+  license: not specified
   curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
@@ -384,7 +407,11 @@
   repo_url: https://github.com/JetBrains/junie
   docs_url: https://www.jetbrains.com/help/ai-assistant/junie-agent.html
   categories:
+    - ai-code-review-tools
     - coding-agents
+    - ide-assistants
+    - terminal-agents
+    - test-generation-agents
   tags:
     - agentic-coding
     - coding
@@ -396,8 +423,8 @@
     - cli
     - ide-extension
   deployment: hybrid
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official website, docs, and repo found. Public licensing for the full product was not clearly verified. confidence: high uncertain: true"
   added: 2026-05-07
@@ -450,7 +477,7 @@
     - web
   deployment: local
   source_model: open-source
-  license: unknown
+  license: not specified
   curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
@@ -489,6 +516,10 @@
   docs_url: https://opencode.ai/docs/
   categories:
     - coding-agents
+    - ide-assistants
+    - mcp-clients
+    - repo-automation-tools
+    - terminal-agents
   tags:
     - agentic-coding
     - automation
@@ -505,7 +536,7 @@
     - ide-extension
     - mcp-client
   deployment: local
-  source_model: unknown
+  source_model: not specified
   license: MIT
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official site, docs, and repo found. Docs cover GitHub automation and MCP servers. confidence: high uncertain: false"
@@ -521,7 +552,9 @@
   website_url: https://www.qodo.ai/
   docs_url: https://docs.qodo.ai/
   categories:
-    - coding-agents
+    - ai-code-review-tools
+    - ide-assistants
+    - test-generation-agents
   tags:
     - agentic-coding
     - code-review
@@ -532,8 +565,8 @@
     - github-app
     - ide-extension
   deployment: cloud
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs found for Qodo IDE and review agent behavior. Public license not verified. confidence: high uncertain: true"
   added: 2026-05-07
@@ -549,6 +582,7 @@
   repo_url: https://github.com/QwenLM/qwen-code
   categories:
     - coding-agents
+    - terminal-agents
   tags:
     - agentic-coding
     - automation
@@ -559,7 +593,7 @@
   interfaces:
     - cli
   deployment: local
-  source_model: unknown
+  source_model: not specified
   license: Apache-2.0
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official repo found and category fit is strong for terminal-based repo work. confidence: high uncertain: false"
@@ -575,6 +609,10 @@
   docs_url: https://docs.refact.ai/
   categories:
     - coding-agents
+    - documentation-agents
+    - ide-assistants
+    - self-hosted-ai-dev-stacks
+    - test-generation-agents
   tags:
     - agentic-coding
     - coding
@@ -588,8 +626,8 @@
     - ide-extension
     - web-app
   deployment: hybrid
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official site and docs found. On-prem and SaaS deployment are mentioned; public license not verified. confidence: high uncertain: true"
   added: 2026-05-07
@@ -606,6 +644,9 @@
   docs_url: https://docs.roocode.com/
   categories:
     - coding-agents
+    - ide-assistants
+    - mcp-clients
+    - repo-automation-tools
   tags:
     - agentic-coding
     - coding
@@ -619,7 +660,7 @@
     - ide-extension
     - web-app
   deployment: hybrid
-  source_model: unknown
+  source_model: not specified
   license: Apache-2.0
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs cover local VS Code workflows and autonomous cloud agents. confidence: high uncertain: false"
@@ -635,7 +676,10 @@
   website_url: https://sweep.dev/
   docs_url: https://docs.sweep.dev/
   categories:
+    - ai-code-review-tools
     - coding-agents
+    - ide-assistants
+    - mcp-clients
   tags:
     - agentic-coding
     - code-review
@@ -646,8 +690,8 @@
   interfaces:
     - ide-extension
   deployment: hybrid
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs found for Agent, AI Code Review, and MCP servers. Public license not verified. confidence: high uncertain: true"
   added: 2026-05-07
@@ -663,7 +707,9 @@
   repo_url: https://github.com/TabbyML/tabby
   docs_url: https://tabby.tabbyml.com/docs/
   categories:
-    - coding-agents
+    - ide-assistants
+    - local-llm-developer-tools
+    - self-hosted-ai-dev-stacks
   tags:
     - coding
     - ide-assistant
@@ -674,8 +720,8 @@
     - api
     - ide-extension
   deployment: self-hosted
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official website and repo found. Open-source and self-hosted positioning are clear; public license was not verified from gathered sources. confidence: high uncertain: true"
   added: 2026-05-07
@@ -692,6 +738,7 @@
   docs_url: https://docs.windsurf.com/
   categories:
     - coding-agents
+    - ide-assistants
   tags:
     - agentic-coding
     - automation
@@ -701,8 +748,8 @@
   interfaces:
     - desktop-app
   deployment: hybrid
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official site and docs found. MCP support and public license were not verified. confidence: medium uncertain: true"
   added: 2026-05-07
@@ -717,7 +764,8 @@
   repo_url: https://github.com/zed-industries/zed
   docs_url: https://zed.dev/releases/stable/0.233.5
   categories:
-    - coding-agents
+    - ide-assistants
+    - mcp-clients
   tags:
     - agentic-coding
     - coding
@@ -729,8 +777,8 @@
     - desktop-app
     - mcp-client
   deployment: local
-  source_model: unknown
-  license: unknown
+  source_model: not specified
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official repo and release notes show built-in agent features and MCP support. Licensing appears mixed in the repo. confidence: high uncertain: true"
   added: 2026-05-07
