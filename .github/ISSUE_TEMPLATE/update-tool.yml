@@ -1,0 +1,26 @@
+name: Update a tool
+description: Report a factual update for an existing tool entry.
+title: "Update tool: "
+labels: ["tool-update"]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Tool slug
+      description: Existing slug from data/tools.yml.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Requested change
+      description: What metadata should change?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Official sources
+      description: Links that support the update.
+    validations:
+      required: true
