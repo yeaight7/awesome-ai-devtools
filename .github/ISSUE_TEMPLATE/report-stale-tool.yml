@@ -1,0 +1,26 @@
+name: Report stale tool metadata
+description: Report outdated or inaccurate metadata.
+title: "Stale metadata: "
+labels: ["stale-metadata"]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Tool slug
+      description: Existing slug from data/tools.yml.
+    validations:
+      required: true
+  - type: textarea
+    id: stale-field
+    attributes:
+      label: Stale or inaccurate field
+      description: Which field is stale, and what changed?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Official sources
+      description: Links showing current information.
+    validations:
+      required: true
