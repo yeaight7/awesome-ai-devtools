@@ -19,6 +19,8 @@ export function buildReadme(catalog: CatalogData): string {
     "",
     "# Awesome AI Devtools",
     "",
+    "<p align=\"center\"><img src=\"assets/hero.svg\" alt=\"Awesome AI Devtools ecosystem map\" width=\"100%\"></p>",
+    "",
     "<p align=\"center\"><strong>The open-source map of the AI developer tooling ecosystem.</strong></p>",
     "",
     "<p align=\"center\">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>",
