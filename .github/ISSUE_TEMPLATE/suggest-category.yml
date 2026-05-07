@@ -1,0 +1,25 @@
+name: Suggest a category
+description: Suggest a new category or category adjustment.
+title: "Suggest category: "
+labels: ["category"]
+body:
+  - type: input
+    id: category
+    attributes:
+      label: Category name
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Explain why existing categories are insufficient.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Example tools
+      description: List tools that would belong in this category.
+    validations:
+      required: true
