@@ -1,0 +1,33 @@
+name: Submit a tool
+description: Suggest a new AI developer tool for the directory.
+title: "Add tool: "
+labels: ["tool-submission"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      description: Official product or project name.
+    validations:
+      required: true
+  - type: input
+    id: official-url
+    attributes:
+      label: Official URL
+      description: Official website, docs, or repository.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Factual description
+      description: One neutral sentence. Do not use rankings or hype.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Official sources
+      description: Links that support the suggested metadata.
+    validations:
+      required: true
