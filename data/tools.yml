@@ -1,3 +1,75 @@
+- slug: agent-skills
+  name: Agent Skills
+  description: Python package to create, manage, and execute reusable code-based tool compositions for AI agents with MCP integration.
+  website_url: https://github.com/datalayer/agent-skills
+  repo_url: https://github.com/datalayer/agent-skills
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - coding
+    - library
+    - mcp
+    - open-source
+  interfaces:
+    - library
+    - mcp-server
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: BSD-3-Clause
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Skills are Python files that compose MCP tools. Includes SkillManager and MCP server for advanced use cases. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/datalayer/agent-skills
+- slug: agent-skills-specification
+  name: Agent Skills Specification
+  description: Open specification and documentation for Agent Skills format maintained by Anthropic with reference SDK and examples.
+  website_url: https://github.com/agentskills/agentskills
+  repo_url: https://github.com/agentskills/agentskills
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - open-source
+  interfaces:
+    - framework
+    - skill-pack
+  deployment: not specified
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Defines the open standard for skills folders, SKILL.md format, and progressive disclosure. Documentation under CC-BY-4.0. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/agentskills/agentskills
+- slug: agentskills-mcp
+  name: AgentSkills MCP
+  description: MCP server that brings Anthropic Agent Skills to any MCP-compatible agent with progressive disclosure architecture.
+  website_url: https://github.com/zouyingcao/agentskills-mcp
+  repo_url: https://github.com/zouyingcao/agentskills-mcp
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - automation
+    - mcp
+    - open-source
+  interfaces:
+    - mcp-server
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements progressive disclosure for efficient context window usage. License not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/zouyingcao/agentskills-mcp
 - slug: aider
   name: Aider
   description: Open-source terminal pair programmer that edits tracked files in a local Git repository.
@@ -90,6 +162,122 @@
     - https://ampcode.com/
     - https://ampcode.com/manual
     - https://ampcode.com/manual/sdk
+- slug: anki-mcp-server
+  name: Anki MCP Server
+  description: MCP server that lets AI assistants interact with Anki flashcards and spaced-repetition workflows.
+  website_url: https://ankimcp.ai
+  repo_url: https://github.com/ankimcp/anki-mcp-server
+  categories:
+    - mcp-servers
+  tags:
+    - database
+    - mcp
+  interfaces:
+    - mcp-server
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Requires AnkiConnect; local and remote modes are mentioned but license metadata was not verified. confidence: medium uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://ankimcp.ai
+    - https://github.com/ankimcp/anki-mcp-server
+    - https://mcpservers.org/servers/anki-mcp/anki-mcp-desktop
+- slug: anthropic-knowledge-work-plugins
+  name: Anthropic Knowledge Work Plugins
+  description: Official open-source plugins for Claude Cowork and Claude Code with skills, commands, and MCP connectors for knowledge workers.
+  website_url: https://github.com/anthropics/knowledge-work-plugins
+  repo_url: https://github.com/anthropics/knowledge-work-plugins
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - mcp
+    - open-source
+    - plugins
+    - workflow-library
+  interfaces:
+    - mcp-server
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official Anthropic repo. Each plugin contains skills, commands, and MCP connectors. License not verified in snippet. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/anthropics/knowledge-work-plugins
+- slug: anthropic-skills
+  name: Anthropic Skills
+  description: Official public repository of Agent Skills for Claude demonstrating creative, technical, and enterprise workflow patterns.
+  website_url: https://github.com/anthropics/skills
+  repo_url: https://github.com/anthropics/skills
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - coding
+    - open-source
+  interfaces:
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes document skills and example skills. Some skills are source-available, not open source. Mixed licensing within repo. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/anthropics/skills
+- slug: arxiv-mcp-server
+  name: ArXiv MCP Server
+  description: MCP server for searching arXiv papers and exposing academic paper content to AI assistants.
+  website_url: https://github.com/blazickjp/arxiv-mcp-server
+  repo_url: https://github.com/blazickjp/arxiv-mcp-server
+  categories:
+    - mcp-servers
+  tags:
+    - api
+    - mcp
+  interfaces:
+    - mcp-server
+  deployment: local
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs locally and can save papers locally; Claude Desktop packaging support is mentioned. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/blazickjp/arxiv-mcp-server
+- slug: astronomer-agents
+  name: Astronomer Agents
+  description: AI agent tooling for data engineering workflows with Airflow MCP server and skills for DAG development, lineage, and dbt integration.
+  website_url: https://github.com/astronomer/agents
+  repo_url: https://github.com/astronomer/agents
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - automation
+    - data-engineering
+    - mcp
+    - open-source
+  interfaces:
+    - mcp-server
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Bundles astro-airflow-mcp server with skills for data discovery, lineage, DAG development, and dbt. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/astronomer/agents
 - slug: augment-code
   name: Augment Code
   description: Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases.
@@ -121,6 +309,150 @@
     - https://docs.augmentcode.com/introduction
     - https://docs.augmentcode.com/using-augment/agent
     - https://www.augmentcode.com/
+- slug: awesome-agent-skills
+  name: Awesome Agent Skills
+  description: Community-curated directory of agent skills, tutorials, and guides for Claude, Copilot, Codex, and other AI assistants.
+  website_url: https://github.com/heilcheng/awesome-agent-skills
+  repo_url: https://github.com/heilcheng/awesome-agent-skills
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - coding
+    - open-source
+  interfaces:
+    - skill-pack
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Maintains a live directory at agent-skill.co. License not verified. confidence: medium uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/heilcheng/awesome-agent-skills
+- slug: awesome-codex-skills
+  name: Awesome Codex Skills
+  description: Curated list of practical Codex skills for automating workflows across the Codex CLI and API with installer scripts.
+  website_url: https://github.com/ComposioHQ/awesome-codex-skills
+  repo_url: https://github.com/ComposioHQ/awesome-codex-skills
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - automation
+    - coding
+    - mcp
+  interfaces:
+    - library
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes skills for PR review, CI fix, Sentry triage, webapp testing, and MCP builder. License not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/ComposioHQ/awesome-codex-skills
+- slug: awesome-cursorrules
+  name: Awesome Cursorrules
+  description: Community collection of configuration files that enhance Cursor AI editor with custom rules and behaviors.
+  website_url: https://github.com/PatrickJS/awesome-cursorrules
+  repo_url: https://github.com/PatrickJS/awesome-cursorrules
+  categories:
+    - agent-skill-packs
+  tags:
+    - coding
+    - open-source
+    - repo-editing
+  interfaces:
+    - template
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Awesome-list style repository. License not clearly visible in snippet. confidence: medium uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/PatrickJS/awesome-cursorrules
+- slug: awesome-github-copilot
+  name: Awesome GitHub Copilot
+  description: Community collection of custom agents, instructions, skills, hooks, workflows, and plugins for GitHub Copilot.
+  website_url: https://github.com/github/awesome-copilot
+  repo_url: https://github.com/github/awesome-copilot
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - open-source
+    - plugins
+    - workflow-library
+  interfaces:
+    - skill-pack
+    - template
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes agents, instructions, skills, hooks, agentic workflows, and plugins. Website offers search and filtering. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://awesome-copilot.github.com/tools/
+    - https://github.com/github/awesome-copilot
+- slug: awesome-rules
+  name: Awesome Rules
+  description: Collection of useful markdown rules with YAML frontmatter for coding assistants including testing, DevOps, and documentation categories.
+  website_url: https://github.com/continuedev/awesome-rules
+  repo_url: https://github.com/continuedev/awesome-rules
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - coding
+    - devops
+    - documentation
+    - open-source
+    - testing
+  interfaces:
+    - skill-pack
+    - template
+  deployment: local
+  source_model: not specified
+  license: CC0-1.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Inspired by amplified.dev standard. Rules cover languages, frameworks, code quality, testing, and DevOps. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/continuedev/awesome-rules
+- slug: azure-devops-skills
+  name: Azure DevOps Skills
+  description: Example skills for GitHub Copilot integrating with Azure DevOps via MCP server for work items, iterations, and builds.
+  website_url: https://github.com/microsoft/azure-devops-skills
+  repo_url: https://github.com/microsoft/azure-devops-skills
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - coding
+    - devops
+    - mcp
+    - open-source
+  interfaces:
+    - mcp-client
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Requires Azure DevOps MCP server. Intended for use with GitHub Copilot in VS Code. License not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/microsoft/azure-devops-skills
 - slug: bito-ai-code-review-agent
   name: Bito AI Code Review Agent
   description: Repository review agent for GitHub, GitLab, and Bitbucket pull or merge request workflows.
@@ -147,6 +479,77 @@
     - https://bito.ai/product/ai-code-review-agent/
     - https://docs.bito.ai/ai-code-reviews-in-git/agent-settings/repo-level-settings
     - https://docs.bito.ai/ai-code-reviews-in-git/install-run-using-bito-cloud/guide-for-github
+- slug: browserbase-mcp-server
+  name: Browserbase MCP Server
+  description: MCP server that lets AI agents control cloud browsers through Browserbase and Stagehand.
+  website_url: https://browserbase.com
+  repo_url: https://github.com/browserbase/mcp-server-browserbase
+  categories:
+    - mcp-servers
+  tags:
+    - browser-automation
+    - mcp
+  interfaces:
+    - mcp-server
+  deployment: hybrid
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides a hosted MCP endpoint and an npm package for local or self-hosted use. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://browserbase.com
+    - https://github.com/browserbase/mcp-server-browserbase
+- slug: cc-devops-skills
+  name: CC DevOps Skills
+  description: Practical agent skill pack with 31 skills for DevOps work in Claude Code and Codex including generators, validators, and debuggers.
+  website_url: https://github.com/akin-ozer/cc-devops-skills
+  repo_url: https://github.com/akin-ozer/cc-devops-skills
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - automation
+    - coding
+    - devops
+    - open-source
+  interfaces:
+    - cli
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes Terraform, Kubernetes, Helm, GitHub Actions, and Ansible validators and generators. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/akin-ozer/cc-devops-skills
+- slug: chrome-devtools-mcp
+  name: Chrome DevTools MCP
+  description: MCP server that gives AI agents Chrome DevTools debugging capabilities for web applications.
+  website_url: https://developer.chrome.com/blog/chrome-devtools-mcp
+  repo_url: https://github.com/ChromeDevTools/chrome-devtools-mcp
+  docs_url: https://developer.chrome.com/blog/chrome-devtools-mcp
+  categories:
+    - mcp-servers
+  tags:
+    - browser-automation
+    - devtools
+    - mcp
+  interfaces:
+    - mcp-server
+  deployment: local
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses Chrome and Puppeteer to expose DOM, console, network, and performance debugging to agents. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://developer.chrome.com/blog/chrome-devtools-mcp
+    - https://github.com/ChromeDevTools/chrome-devtools-mcp
 - slug: claude-code
   name: Claude Code
   description: Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context.
@@ -169,6 +572,31 @@
   last_checked: 2026-05-07
   sources:
     - https://code.claude.com/docs/en/setup
+- slug: claude-skills
+  name: Claude Skills
+  description: Repository of 232+ Claude Code skills and agent plugins convertible to 12 AI coding tools including Codex, Cursor, and Windsurf.
+  website_url: https://github.com/alirezarezvani/claude-skills
+  repo_url: https://github.com/alirezarezvani/claude-skills
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - automation
+    - coding
+    - open-source
+    - plugins
+  interfaces:
+    - cli
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports Claude Code, Codex, Cursor, Windsurf, Aider, and 7 other tools via conversion scripts. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/alirezarezvani/claude-skills
 - slug: cline
   name: Cline
   description: Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension.
@@ -198,6 +626,30 @@
   sources:
     - https://docs.cline.bot/introduction/overview
     - https://github.com/cline/cline
+- slug: cline-prompts
+  name: Cline Prompts
+  description: Official community-driven collection of .clinerules and prompt files for Cline from the Cline team.
+  website_url: https://github.com/cline/prompts
+  repo_url: https://github.com/cline/prompts
+  categories:
+    - agent-skill-packs
+  tags:
+    - coding
+    - open-source
+    - prompt-library
+    - repo-editing
+  interfaces:
+    - template
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official Cline community repo for sharing .clinerules. License not verified in snippet. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/cline/prompts
+    - https://www.reddit.com/r/CLine/comments/1kh8iwo/new_clinerules_library_github_repo_from_the_cline/
 - slug: coderabbit
   name: CodeRabbit
   description: AI code review agent for pull requests, local IDE review, and terminal-based review workflows.
@@ -230,6 +682,28 @@
     - https://coderabbit.ai/
     - https://coderabbit.ai/cli
     - https://docs.coderabbit.ai/
+- slug: context7-mcp-server
+  name: Context7 MCP Server
+  description: MCP server for retrieving up-to-date library documentation and code examples for AI coding assistants.
+  website_url: https://context7.com
+  repo_url: https://github.com/upstash/context7
+  categories:
+    - mcp-servers
+  tags:
+    - devtools
+    - mcp
+  interfaces:
+    - mcp-server
+  deployment: hybrid
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Category fit is strong for coding agents because it injects current documentation into prompts and tool calls. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://context7.com
+    - https://github.com/upstash/context7
 - slug: continue
   name: Continue
   description: Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows.
@@ -283,6 +757,219 @@
   sources:
     - https://cursor.com/
     - https://cursor.com/docs
+- slug: cursor-rules
+  name: Cursor Rules
+  description: Curated collection of .cursorrules files for Cursor IDE covering React, Next.js, Python, Node.js, and more frameworks.
+  website_url: https://github.com/survivorforge/cursor-rules
+  repo_url: https://github.com/survivorforge/cursor-rules
+  categories:
+    - agent-skill-packs
+  tags:
+    - coding
+    - open-source
+    - repo-editing
+  interfaces:
+    - template
+  deployment: local
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Framework-specific rules files with architecture patterns, testing strategies, and security guidelines. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/survivorforge/cursor-rules
+- slug: cursorrules-collection
+  name: Cursorrules Collection
+  description: 110+ tested .cursorrules and .mdc rule files for Cursor, Claude Code, Copilot, Windsurf, Gemini CLI, and Codex.
+  website_url: https://github.com/nedcodes-ok/cursorrules-collection
+  repo_url: https://github.com/nedcodes-ok/cursorrules-collection
+  categories:
+    - agent-skill-packs
+  tags:
+    - coding
+    - open-source
+    - repo-editing
+    - testing
+  interfaces:
+    - template
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes .mdc files for Cursor agent mode with frontmatter, globs, and descriptions. License not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/nedcodes-ok/cursorrules-collection
+- slug: custom-modes-for-roo-code
+  name: Custom Modes for Roo Code
+  description: Collection of 171 specialized AI agent configurations for Roo Code across 9 categories with security-first principles.
+  website_url: https://github.com/jtgsystems/Custom-Modes-Roo-Code
+  repo_url: https://github.com/jtgsystems/Custom-Modes-Roo-Code
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - coding
+    - open-source
+    - security
+  interfaces:
+    - skill-pack
+    - template
+  deployment: local
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: YAML-based configurations with validation scripts and VS Code conversion utilities. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/jtgsystems/Custom-Modes-Roo-Code
+- slug: dbt-agent-skills
+  name: dbt Agent Skills
+  description: Curated Agent Skills for working with dbt to help AI agents understand and execute analytics engineering workflows.
+  website_url: https://github.com/dbt-labs/dbt-agent-skills
+  repo_url: https://github.com/dbt-labs/dbt-agent-skills
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - coding
+    - data-engineering
+    - open-source
+  interfaces:
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes skills for dbt modeling, unit testing, semantic layer, mesh governance, and MCP server setup. License not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/dbt-labs/dbt-agent-skills
+- slug: devin
+  name: Devin
+  description: Cloud software engineering agent for teams that works on repositories and can run tasks in parallel.
+  website_url: https://devin.ai/
+  docs_url: https://docs.devin.ai/es/get-started/devin-intro
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - automation
+    - coding
+    - multi-agent
+    - repo-editing
+  interfaces:
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official Spanish website and docs checked; presents itself as a software engineer with parallel agents. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://devin.ai/
+    - https://docs.devin.ai/es/get-started/devin-intro
+- slug: dotskills
+  name: dotskills
+  description: Personal .skills repository for Codex, Cursor, and OpenClaw with reusable skill units bundling prompts, scripts, and validation workflows.
+  website_url: https://github.com/vincentkoc/dotskills
+  repo_url: https://github.com/vincentkoc/dotskills
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - automation
+    - coding
+  interfaces:
+    - skill-pack
+    - template
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Demonstrates the .skills dotfiles pattern for agent-first tooling. License not verified. confidence: medium uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/vincentkoc/dotskills
+- slug: e2b-mcp
+  name: e2b-mcp
+  description: CLI and API for running MCP servers inside isolated E2B cloud sandboxes.
+  website_url: https://e2b.dev
+  repo_url: https://github.com/cased/e2b-mcp
+  categories:
+    - mcp-servers
+  tags:
+    - devtools
+    - mcp
+    - server
+  interfaces:
+    - cli
+    - library
+  deployment: cloud
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs MCP servers inside E2B microVM sandboxes for isolation and automatic cleanup. confidence: medium uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://e2b.dev
+    - https://github.com/cased/e2b-mcp
+- slug: ellipsis
+  name: Ellipsis
+  description: GitHub agent that reviews pull requests, answers repo questions, and can generate changes or release notes.
+  website_url: https://www.ellipsis.dev/
+  docs_url: https://docs.ellipsis.dev/introduction
+  categories:
+    - coding-agents
+  tags:
+    - automation
+    - code-review
+    - coding
+    - debugging
+    - documentation
+    - repo-editing
+  interfaces:
+    - github-app
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs verify pull request review and asynchronous change generation from comments. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://docs.ellipsis.dev/features/code-review
+    - https://docs.ellipsis.dev/introduction
+    - https://www.ellipsis.dev/
+- slug: exa-mcp-server
+  name: Exa MCP Server
+  description: MCP server for connecting AI assistants to Exa web search, crawling, and research tools.
+  website_url: https://github.com/exa-labs/exa-mcp-server
+  repo_url: https://github.com/exa-labs/exa-mcp-server
+  categories:
+    - mcp-servers
+  tags:
+    - api
+    - mcp
+  interfaces:
+    - mcp-server
+  deployment: cloud
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes a remote MCP endpoint and npm package; exposes web search, code search, crawling, and research tools. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/exa-labs/exa-mcp-server
 - slug: factory-droid
   name: Factory Droid
   description: Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows.
@@ -400,6 +1087,161 @@
   sources:
     - https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot
     - https://github.com/features/copilot
+- slug: github-mcp-server
+  name: GitHub MCP Server
+  description: Official GitHub MCP server for repository access, issues, pull requests, code analysis, and workflow automation.
+  website_url: https://github.com/github/github-mcp-server
+  repo_url: https://github.com/github/github-mcp-server
+  categories:
+    - mcp-servers
+  tags:
+    - api
+    - github
+    - mcp
+  interfaces:
+    - mcp-server
+  deployment: hybrid
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers remote access through GitHub Copilot and local usage through Docker or VS Code. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/github/github-mcp-server
+- slug: google-mcp-servers
+  name: Google MCP Servers
+  description: Collection of Google MCP servers for Google Cloud services such as BigQuery, Maps, Cloud SQL, and Cloud Storage.
+  website_url: https://github.com/google/mcp
+  repo_url: https://github.com/google/mcp
+  categories:
+    - mcp-servers
+  tags:
+    - api
+    - database
+    - mcp
+  interfaces:
+    - mcp-server
+  deployment: cloud
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes GA and preview MCP servers for Google Cloud and related services. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/google/mcp
+- slug: goose
+  name: Goose
+  description: Open-source local agent with desktop, CLI, and API surfaces for editing, running, and testing code.
+  website_url: https://goose-docs.ai/
+  repo_url: https://github.com/aaif-goose/goose
+  docs_url: https://goose-docs.ai/docs/quickstart/
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - automation
+    - coding
+    - local-first
+    - mcp
+    - open-source
+    - repo-editing
+    - terminal-agent
+    - testing
+  interfaces:
+    - api
+    - cli
+    - desktop-app
+  deployment: local
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: General-purpose product, but official docs cover code task automation, testing, and MCP. confidence: medium uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/aaif-goose/goose
+    - https://goose-docs.ai/
+    - https://goose-docs.ai/docs/quickstart/
+- slug: helderberto-skills
+  name: helderberto/skills
+  description: Reusable AI agent skills for development workflows including code review, refactoring, TDD, security audit, and git automation.
+  website_url: https://github.com/helderberto/skills
+  repo_url: https://github.com/helderberto/skills
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - automation
+    - coding
+    - open-source
+    - security
+    - testing
+  interfaces:
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes 30+ skills covering a11y audit, architecture audit, atomic commits, diagnose, fortify, and safe-repo. License not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/helderberto/skills
+- slug: invariant-testing
+  name: Invariant Testing
+  description: Lightweight library for writing debuggable unit tests for AI agent applications with localized assertions.
+  website_url: https://github.com/invariantlabs-ai/testing
+  repo_url: https://github.com/invariantlabs-ai/testing
+  categories:
+    - agent-skill-packs
+  tags:
+    - coding
+    - debugging
+    - library
+    - open-source
+    - testing
+  interfaces:
+    - library
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides stacktrace-like debugging for agent behavior failures. License not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/invariantlabs-ai/testing
+- slug: jules
+  name: Jules
+  description: Google asynchronous coding agent for GitHub that fixes bugs, adds features, and updates documentation.
+  website_url: https://jules.google/
+  docs_url: https://jules.google/docs/
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - automation
+    - coding
+    - documentation
+    - repo-editing
+    - testing
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs verify GitHub integration and public API; public license not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://developers.google.com/jules/api
+    - https://jules.google/
+    - https://jules.google/docs/
 - slug: junie
   name: Junie
   description: JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes.
@@ -460,6 +1302,29 @@
   sources:
     - https://github.com/langfuse/langfuse
     - https://langfuse.com/docs
+- slug: mcp-bundles-mcpb
+  name: MCP Bundles (MCPB)
+  description: CLI tool for packaging local MCP servers into installable .mcpb files.
+  website_url: https://modelcontextprotocol.io/docs/develop/build-with-agent-skills
+  repo_url: https://github.com/modelcontextprotocol/mcpb
+  docs_url: https://modelcontextprotocol.io/docs/develop/build-with-agent-skills
+  categories:
+    - mcp-servers
+  tags:
+    - devtools
+    - mcp
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Formerly DXT/Desktop Extensions; creates installable .mcpb bundles for local MCP servers. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/modelcontextprotocol/mcpb
+    - https://modelcontextprotocol.io/docs/develop/build-with-agent-skills
 - slug: mcp-inspector
   name: MCP Inspector
   description: Official visual and command-line testing tool for developing, inspecting, and debugging Model Context Protocol servers.
@@ -484,6 +1349,53 @@
   sources:
     - https://github.com/modelcontextprotocol/inspector
     - https://modelcontextprotocol.io/docs/tools/inspector
+- slug: microsoft-skills
+  name: Microsoft Skills
+  description: Skills, custom agents, AGENTS.md templates, and MCP configurations for AI coding agents working with Azure SDKs and Microsoft AI Foundry.
+  website_url: https://github.com/microsoft/skills
+  repo_url: https://github.com/microsoft/skills
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - coding
+    - devops
+    - mcp
+    - open-source
+  interfaces:
+    - mcp-server
+    - skill-pack
+    - template
+  deployment: local
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes 132 skills, plugins for deep-wiki and azure-skills, and MCP server reference configs. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/microsoft/skills
+- slug: next-js-devtools-mcp
+  name: Next.js DevTools MCP
+  description: MCP server for exposing Next.js development tools and diagnostics to coding agents.
+  website_url: https://github.com/vercel/next-devtools-mcp
+  repo_url: https://github.com/vercel/next-devtools-mcp
+  categories:
+    - mcp-servers
+  tags:
+    - devtools
+    - mcp
+  interfaces:
+    - mcp-server
+  deployment: local
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides Next.js logs, errors, environment data, and development utilities through an npx-based MCP server. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/vercel/next-devtools-mcp
 - slug: openai-codex-cli
   name: OpenAI Codex CLI
   description: Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace.
@@ -546,6 +1458,138 @@
     - https://github.com/anomalyco/opencode
     - https://opencode.ai/
     - https://opencode.ai/docs/
+- slug: openhands
+  name: OpenHands
+  description: Open-source software agent platform with GUI, CLI, SDK, and self-hosted or cloud deployment options.
+  website_url: https://openhands.dev/
+  repo_url: https://github.com/OpenHands/OpenHands
+  docs_url: https://docs.openhands.dev/overview/quickstart
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - automation
+    - coding
+    - multi-agent
+    - open-source
+    - repo-editing
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+    - library
+    - web-app
+  deployment: hybrid
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Core MIT license and official docs verify local GUI, CLI, SDK, and OpenHands Cloud. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://docs.openhands.dev/overview/quickstart
+    - https://github.com/OpenHands/OpenHands
+    - https://openhands.dev/
+- slug: plandex
+  name: Plandex
+  description: Open-source terminal agent for long-running tasks across large projects and real repositories.
+  website_url: https://plandex.ai/
+  repo_url: https://github.com/plandex-ai/plandex
+  docs_url: https://docs.plandex.ai/quick-start
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - coding
+    - local-first
+    - open-source
+    - repo-editing
+    - terminal-agent
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official website says Plandex Cloud is being retired; this entry refers to the open-source CLI. confidence: medium uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://docs.plandex.ai/quick-start
+    - https://github.com/plandex-ai/plandex
+    - https://plandex.ai/
+- slug: playwright-code-runner
+  name: Playwright Code Runner
+  description: MCP-related tool for running Playwright code as part of browser automation workflows.
+  website_url: https://playwright.dev
+  repo_url: https://github.com/exe-language/playwright-mcp
+  categories:
+    - mcp-servers
+  tags:
+    - browser-automation
+    - devtools
+    - mcp
+  interfaces:
+    - mcp-client
+  deployment: local
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Metadata and official status are weakly supported; review before importing. confidence: low uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/exe-language/playwright-mcp
+    - https://playwright.dev
+- slug: playwright-mcp-server
+  name: Playwright MCP Server
+  description: MCP server that uses Playwright to let AI agents interact with web pages through accessibility snapshots.
+  website_url: https://playwright.dev/docs/getting-started-mcp
+  repo_url: https://github.com/microsoft/playwright-mcp
+  docs_url: https://playwright.dev/docs/getting-started-mcp
+  categories:
+    - mcp-servers
+  tags:
+    - browser-automation
+    - mcp
+  interfaces:
+    - mcp-server
+  deployment: local
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Works with VS Code, Cursor, Windsurf, Claude Desktop, and other MCP clients without requiring vision models. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/microsoft/playwright-mcp
+    - https://playwright.dev/docs/getting-started-mcp
+- slug: pulumi-agent-skills
+  name: Pulumi Agent Skills
+  description: Agent Skills for infrastructure-as-code workflows teaching AI assistants Pulumi migrations, components, and secrets management.
+  website_url: https://github.com/pulumi/agent-skills
+  repo_url: https://github.com/pulumi/agent-skills
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - automation
+    - coding
+    - devops
+    - open-source
+  interfaces:
+    - skill-pack
+    - template
+  deployment: local
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Organized into migration and authoring plugin groups. Works with Claude Code, Copilot, Cursor, Codex, and Gemini. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/pulumi/agent-skills
+    - https://www.pulumi.com/docs/ai/skills/
 - slug: qodo
   name: Qodo
   description: Code review and IDE assistant product focused on reviewing diffs, tests, and repository context.
@@ -670,6 +1714,204 @@
     - https://docs.roocode.com/
     - https://github.com/RooCodeInc/Roo-Code
     - https://roocode.com/
+- slug: roomode
+  name: roomode
+  description: CLI tool to create, list, export, and import custom modes for RooCode defined in markdown files.
+  website_url: https://github.com/upamune/roomode
+  repo_url: https://github.com/upamune/roomode
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - automation
+    - cli
+    - open-source
+  interfaces:
+    - cli
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports Homebrew and Go installation. License not verified in snippet. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/upamune/roomode
+- slug: rules
+  name: rules
+  description: CLI tool to create, manage, and convert rule sets for code guidance across Cursor, Continue.dev, Claude, Copilot, and Codex.
+  website_url: https://github.com/continuedev/rules
+  repo_url: https://github.com/continuedev/rules
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - automation
+    - cli
+    - coding
+    - open-source
+  interfaces:
+    - cli
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports rendering rules to Cursor, Continue, Windsurf, Claude, Copilot, Codex, Cline, and Cody formats. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/continuedev/rules
+- slug: servicegraph-mcp
+  name: ServiceGraph MCP
+  description: MCP server for exposing observability data such as service metrics and logs to AI agents.
+  website_url: https://github.com/servicegraph/mcp-server
+  repo_url: https://github.com/servicegraph/mcp-server
+  categories:
+    - mcp-servers
+  tags:
+    - api
+    - mcp
+  interfaces:
+    - mcp-server
+  deployment: cloud
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official source and current maintenance status were not fully verified. confidence: low uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/servicegraph/mcp-server
+    - https://mcpservers.org/servers/servicegraph/
+- slug: supabase-mcp-server
+  name: Supabase MCP Server
+  description: Official Supabase MCP server for connecting AI assistants to Supabase projects and database operations.
+  website_url: https://github.com/supabase-community/supabase-mcp
+  repo_url: https://github.com/supabase-community/supabase-mcp
+  categories:
+    - mcp-servers
+  tags:
+    - api
+    - database
+    - mcp
+  interfaces:
+    - mcp-server
+  deployment: cloud
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Exposes Supabase project management, table operations, configuration, and SQL tools through MCP. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/supabase-community/supabase-mcp
+- slug: superpowers
+  name: Superpowers
+  description: Core skills library for Claude Code with TDD, debugging, collaboration patterns, and systematic problem-solving techniques.
+  website_url: https://github.com/obra/superpowers
+  repo_url: https://github.com/obra/superpowers
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - coding
+    - debugging
+    - open-source
+    - testing
+  interfaces:
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Available via superpowers-marketplace plugin. Includes systematic-debugging and brainstorming skills. License not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/obra/superpowers
+    - https://github.com/obra/superpowers-marketplace
+- slug: superpowers-lab
+  name: Superpowers Lab
+  description: Experimental skills for Claude Code including semantic duplicate detection, tmux automation, and on-demand MCP server usage.
+  website_url: https://github.com/obra/superpowers-lab
+  repo_url: https://github.com/obra/superpowers-lab
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - coding
+    - debugging
+    - mcp
+    - open-source
+  interfaces:
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Experimental skills including finding-duplicate-functions, mcp-cli, and using-tmux-for-interactive-commands. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/obra/superpowers-lab
+- slug: swarms
+  name: Swarms
+  description: Multi-agent orchestration skills for Claude Code and Codex with dependency-aware planning and wave-based parallel execution.
+  website_url: https://github.com/am-will/swarms
+  repo_url: https://github.com/am-will/swarms
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - automation
+    - coding
+    - multi-agent
+    - open-source
+  interfaces:
+    - framework
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses subagents for parallel task execution. Requires enabling multi_agents feature in Codex config. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/am-will/swarms
+- slug: swe-agent
+  name: SWE-agent
+  description: Open-source agent for resolving real repository issues and automating software engineering tasks.
+  website_url: https://swe-agent.com/
+  repo_url: https://github.com/swe-agent/swe-agent
+  docs_url: https://swe-agent.com/latest/
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - automation
+    - coding
+    - debugging
+    - open-source
+    - repo-editing
+    - terminal-agent
+    - testing
+  interfaces:
+    - cli
+    - framework
+  deployment: local
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Active project with official docs and repo; oriented toward resolving real repository issues. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/swe-agent/swe-agent
+    - https://swe-agent.com/
+    - https://swe-agent.com/latest/
 - slug: sweep
   name: Sweep
   description: JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration.
@@ -757,6 +1999,33 @@
   sources:
     - https://docs.windsurf.com/
     - https://windsurf.com/
+- slug: wshobson-agents
+  name: wshobson/agents
+  description: Unified repository with 185 specialized agents, 16 orchestrators, 153 skills, and 100 commands for Claude Code automation.
+  website_url: https://github.com/wshobson/agents
+  repo_url: https://github.com/wshobson/agents
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - automation
+    - coding
+    - multi-agent
+    - open-source
+    - plugins
+  interfaces:
+    - cli
+    - framework
+    - skill-pack
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: 80 focused plugins with granular single-purpose design and progressive disclosure. License not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/wshobson/agents
 - slug: zed
   name: Zed
   description: Code editor with built-in agent workflows, external agent support, and MCP-connected coding assistance.
