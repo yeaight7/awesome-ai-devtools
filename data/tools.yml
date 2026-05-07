@@ -15,6 +15,7 @@
   deployment: hybrid
   source_model: proprietary
   license: unknown
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -42,6 +43,7 @@
   deployment: hybrid
   source_model: open-source
   license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -69,6 +71,7 @@
   deployment: hybrid
   source_model: open-source
   license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -93,6 +96,7 @@
   deployment: hybrid
   source_model: proprietary
   license: unknown
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -117,6 +121,7 @@
   deployment: hosted
   source_model: proprietary
   license: unknown
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -143,6 +148,7 @@
   deployment: hybrid
   source_model: open-source
   license: MIT except enterprise folders
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -166,6 +172,7 @@
   deployment: local
   source_model: open-source
   license: unknown
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -190,6 +197,7 @@
   deployment: hybrid
   source_model: open-source
   license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
