@@ -41,13 +41,16 @@ const sampleCatalog: CatalogData = {
   ]
 };
 
-test("buildReadme renders generated notice, comparison matrix, and category section", () => {
+test("buildReadme renders generated notice, storefront, and category section", () => {
   const readme = buildReadme(sampleCatalog);
 
   assert.match(readme, /<!-- GENERATED FILE: edit data\/tools\.yml/);
-  assert.match(readme, /## Comparison matrix/);
-  assert.match(readme, /\| Tool \| Categories \| Interfaces \| Deployment \| Source model \| License \| Status \|/);
-  assert.match(readme, /\| Sample Agent \| Coding agents \| cli \| local \| open-source \| MIT \| reviewed \|/);
+  assert.match(readme, /## Storefront/);
+  assert.doesNotMatch(readme, /Status/);
+  assert.doesNotMatch(readme, /unknown/i);
+  assert.doesNotMatch(readme, /curation_status|draft/i);
+  assert.match(readme, /\| Tool \| Good for \| Experience \| Links \|/);
+  assert.match(readme, /\| \[Sample Agent\]\(https:\/\/example\.com\) \| Small factual entry used to verify generated README output\. \| CLI · Local \| \[Website\]/);
   assert.match(readme, /### Coding agents/);
   assert.match(readme, /Small factual entry used to verify generated README output\./);
 });
