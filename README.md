@@ -2,238 +2,232 @@
 
 # Awesome AI Devtools
 
-A structured directory of AI tools for developers: coding agents, MCP, browser agents, agent skills, evals, observability, security, and self-hosted workflows.
+<p align="center"><strong>The open-source map of the AI developer tooling ecosystem.</strong></p>
+
+<p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
+
+<p align="center"><code>27 tools</code> <code>14 active shelves</code> <code>metadata-first</code> <code>generated README</code></p>
 
 ## Why this exists
 
-AI developer tooling changes quickly. This repository keeps tool entries in structured metadata so listings can be validated, sorted, generated, reviewed, and later filtered without turning the README into the source of truth.
+AI developer tooling changes quickly. This directory keeps entries in structured metadata so the public view can stay polished while the data remains sortable, reviewable, and validation-backed.
 
-The goal is not fake completeness or rankings. The goal is a useful, maintainable map of the AI developer tooling ecosystem.
+No rankings. No launch hype. Just a clean storefront for discovering tools worth a closer look.
 
-## Quick navigation
+## Storefront
 
-- 27 seed tools
-- 20 categories
-- 16 tags
-- [Comparison matrix](#comparison-matrix)
-- [Categories](#categories)
-- [Submit a tool](#submit-a-tool)
+| Shelf | What you will find | Tools |
+| --- | --- | ---: |
+| [Coding agents](#coding-agents) | Agentic tools that can inspect, modify, and reason about source code. | 18 |
+| [Terminal agents](#terminal-agents) | AI developer tools primarily operated from a command-line interface. | 12 |
+| [IDE assistants](#ide-assistants) | AI assistants embedded in editors or IDEs for coding workflows. | 17 |
+| [Browser agents](#browser-agents) | Tools that can inspect, drive, or test browser-based developer workflows. | 1 |
+| [MCP clients](#mcp-clients) | Applications and agents that connect to Model Context Protocol servers. | 6 |
+| [MCP tooling](#mcp-tooling) | Developer tools for building, testing, debugging, or managing MCP systems. | 1 |
+| [Agent observability](#agent-observability) | Tools for tracing, monitoring, and debugging agent or LLM application behavior. | 1 |
+| [Agent evals](#agent-evals) | Evaluation frameworks and systems for agents, LLM apps, and developer workflows. | 1 |
+| [Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) | Self-hostable platforms and infrastructure for AI developer workflows. | 3 |
+| [Local LLM developer tools](#local-llm-developer-tools) | Tools that help developers run or integrate local models in coding workflows. | 1 |
+| [Repo automation tools](#repo-automation-tools) | AI tools that automate repository checks, changes, pull requests, or maintenance. | 9 |
+| [AI code review tools](#ai-code-review-tools) | AI-assisted tools for reviewing changes, pull requests, and code quality. | 10 |
+| [Documentation agents](#documentation-agents) | AI tools that generate, maintain, or reason over developer documentation. | 1 |
+| [Test generation agents](#test-generation-agents) | AI tools that create, improve, or maintain automated tests. | 4 |
 
-## Comparison matrix
-
-| Tool | Categories | Interfaces | Deployment | Source model | License | Status |
-| --- | --- | --- | --- | --- | --- | --- |
-| Aider | Coding agents | cli | local | unknown | Apache-2.0 | draft |
-| Amazon Q Developer | Coding agents | cli, github-app, ide-extension | hybrid | unknown | unknown | draft |
-| Amp | Coding agents | api, cli | hybrid | unknown | unknown | draft |
-| Augment Code | Coding agents | cli, ide-extension | hybrid | unknown | unknown | draft |
-| Bito AI Code Review Agent | Coding agents | github-app | cloud | unknown | unknown | draft |
-| Claude Code | Coding agents, Terminal agents | cli | hybrid | proprietary | unknown | reviewed |
-| Cline | Browser agents, Coding agents, IDE assistants | browser, cli, ide | hybrid | open-source | Apache-2.0 | reviewed |
-| CodeRabbit | Coding agents | cli, github-app, ide-extension | hybrid | unknown | unknown | draft |
-| Continue | AI code review tools, IDE assistants, Repo automation tools | cli, ide | hybrid | open-source | Apache-2.0 | reviewed |
-| Cursor | Coding agents, IDE assistants | cli, desktop, ide | hybrid | proprietary | unknown | reviewed |
-| Factory Droid | Coding agents | api, cli, desktop-app | hybrid | unknown | unknown | draft |
-| Gemini CLI | Coding agents | cli, mcp-client | local | unknown | Apache-2.0 | draft |
-| Gemini Code Assist | Coding agents | github-app, ide-extension | cloud | unknown | unknown | draft |
-| GitHub Copilot | AI code review tools, IDE assistants | github-app, ide, web | hosted | proprietary | unknown | reviewed |
-| Junie | Coding agents | cli, ide-extension | hybrid | unknown | unknown | draft |
-| Langfuse | Agent evals, Agent observability, Self-hosted AI dev stacks | api, web | hybrid | open-source | MIT except enterprise folders | reviewed |
-| MCP Inspector | MCP tooling | cli, mcp, web | local | open-source | unknown | reviewed |
-| OpenAI Codex CLI | Coding agents, Terminal agents | cli | hybrid | open-source | Apache-2.0 | reviewed |
-| OpenCode | Coding agents | cli, desktop-app, github-app, ide-extension, mcp-client | local | unknown | MIT | draft |
-| Qodo | Coding agents | github-app, ide-extension | cloud | unknown | unknown | draft |
-| Qwen Code | Coding agents | cli | local | unknown | Apache-2.0 | draft |
-| Refact.ai | Coding agents | ide-extension, web-app | hybrid | unknown | unknown | draft |
-| Roo Code | Coding agents | cli, ide-extension, web-app | hybrid | unknown | Apache-2.0 | draft |
-| Sweep | Coding agents | ide-extension | hybrid | unknown | unknown | draft |
-| Tabby | Coding agents | api, ide-extension | self-hosted | unknown | unknown | draft |
-| Windsurf Editor | Coding agents | desktop-app | hybrid | unknown | unknown | draft |
-| Zed | Coding agents | desktop-app, mcp-client | local | unknown | unknown | draft |
-
-## Categories
+## Browse The Shelves
 
 ### Coding agents
 
 Agentic tools that can inspect, modify, and reason about source code.
 
-- [Aider](https://aider.chat/) - Open-source terminal pair programmer that edits tracked files in a local Git repository. _[website](https://aider.chat/) | [repo](https://github.com/Aider-AI/aider) | [docs](https://aider.chat/docs/)_
-
-- [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. _[website](https://aws.amazon.com/q/developer/) | [docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html)_
-
-- [Amp](https://ampcode.com/) - Terminal-centric coding agent with deep codebase context, editor links, and automation-oriented SDK features. _[website](https://ampcode.com/) | [docs](https://ampcode.com/manual)_
-
-- [Augment Code](https://www.augmentcode.com/) - Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases. _[website](https://www.augmentcode.com/) | [docs](https://docs.augmentcode.com/introduction)_
-
-- [Bito AI Code Review Agent](https://bito.ai/product/ai-code-review-agent/) - Repository review agent for GitHub, GitLab, and Bitbucket pull or merge request workflows. _[website](https://bito.ai/product/ai-code-review-agent/) | [docs](https://docs.bito.ai/ai-code-reviews-in-git/install-run-using-bito-cloud/guide-for-github)_
-
-- [Claude Code](https://code.claude.com/docs/en/setup) - Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context. _[website](https://code.claude.com/docs/en/setup) | [docs](https://code.claude.com/docs/en/setup)_
-
-- [Cline](https://docs.cline.bot/introduction/overview) - Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension. _[website](https://docs.cline.bot/introduction/overview) | [repo](https://github.com/cline/cline) | [docs](https://docs.cline.bot/introduction/overview)_
-
-- [CodeRabbit](https://coderabbit.ai/) - AI code review agent for pull requests, local IDE review, and terminal-based review workflows. _[website](https://coderabbit.ai/) | [docs](https://docs.coderabbit.ai/)_
-
-- [Cursor](https://cursor.com/) - AI code editor built around chat, codebase context, agents, rules, MCP, and terminal-assisted development workflows. _[website](https://cursor.com/) | [docs](https://cursor.com/docs)_
-
-- [Factory Droid](https://factory.ai/) - Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows. _[website](https://factory.ai/) | [docs](https://docs.factory.ai/welcome)_
-
-- [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) - Open-source terminal coding agent that uses tool calls and MCP servers to work on repository tasks. _[website](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | [repo](https://github.com/google-gemini/gemini-cli) | [docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli)_
-
-- [Gemini Code Assist](https://developers.google.com/gemini-code-assist) - Google's coding assistant for IDEs and GitHub with agent mode, PR summaries, and code review. _[website](https://developers.google.com/gemini-code-assist) | [docs](https://developers.google.com/gemini-code-assist/docs/overview)_
-
-- [Junie](https://www.jetbrains.com/junie/) - JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. _[website](https://www.jetbrains.com/junie/) | [repo](https://github.com/JetBrains/junie) | [docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html)_
-
-- [OpenAI Codex CLI](https://github.com/openai/codex) - Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace. _[website](https://github.com/openai/codex) | [repo](https://github.com/openai/codex) | [docs](https://developers.openai.com/codex/cli/)_
-
-- [OpenCode](https://opencode.ai/) - Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. _[website](https://opencode.ai/) | [repo](https://github.com/anomalyco/opencode) | [docs](https://opencode.ai/docs/)_
-
-- [Qodo](https://www.qodo.ai/) - Code review and IDE assistant product focused on reviewing diffs, tests, and repository context. _[website](https://www.qodo.ai/) | [docs](https://docs.qodo.ai/)_
-
-- [Qwen Code](https://qwen.ai/) - Open-source terminal coding agent optimized for Qwen models and large repository tasks. _[website](https://qwen.ai/) | [repo](https://github.com/QwenLM/qwen-code)_
-
-- [Refact.ai](https://refact.ai/) - Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. _[website](https://refact.ai/) | [docs](https://docs.refact.ai/)_
-
-- [Roo Code](https://roocode.com/) - Open-source coding agent for VS Code and cloud agents that can code, review, and automate repository tasks. _[website](https://roocode.com/) | [repo](https://github.com/RooCodeInc/Roo-Code) | [docs](https://docs.roocode.com/)_
-
-- [Sweep](https://sweep.dev/) - JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration. _[website](https://sweep.dev/) | [docs](https://docs.sweep.dev/)_
-
-- [Tabby](https://www.tabbyml.com/) - Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development. _[website](https://www.tabbyml.com/) | [repo](https://github.com/TabbyML/tabby) | [docs](https://tabby.tabbyml.com/docs/)_
-
-- [Windsurf Editor](https://windsurf.com/) - AI code editor with repo-aware agent workflows for multi-file edits and developer automation. _[website](https://windsurf.com/) | [docs](https://docs.windsurf.com/)_
-
-- [Zed](https://zed.dev/) - Code editor with built-in agent workflows, external agent support, and MCP-connected coding assistance. _[website](https://zed.dev/) | [repo](https://github.com/zed-industries/zed) | [docs](https://zed.dev/releases/stable/0.233.5)_
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Aider](https://aider.chat/) | Open-source terminal pair programmer that edits tracked files in a local Git repository. | CLI · Local | [Website](https://aider.chat/) / [Docs](https://aider.chat/docs/) / [Repo](https://github.com/Aider-AI/aider) |
+| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE extension · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
+| [Amp](https://ampcode.com/) | Terminal-centric coding agent with deep codebase context, editor links, and automation-oriented SDK features. | API · CLI · Hybrid | [Website](https://ampcode.com/) / [Docs](https://ampcode.com/manual) |
+| [Augment Code](https://www.augmentcode.com/) | Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases. | CLI · IDE extension · Hybrid | [Website](https://www.augmentcode.com/) / [Docs](https://docs.augmentcode.com/introduction) |
+| [Claude Code](https://code.claude.com/docs/en/setup) | Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context. | CLI · Hybrid | [Website](https://code.claude.com/docs/en/setup) / [Docs](https://code.claude.com/docs/en/setup) |
+| [Cline](https://docs.cline.bot/introduction/overview) | Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension. | Browser · CLI · IDE · Hybrid | [Website](https://docs.cline.bot/introduction/overview) / [Docs](https://docs.cline.bot/introduction/overview) / [Repo](https://github.com/cline/cline) |
+| [Cursor](https://cursor.com/) | AI code editor built around chat, codebase context, agents, rules, MCP, and terminal-assisted development workflows. | CLI · Desktop · IDE · Hybrid | [Website](https://cursor.com/) / [Docs](https://cursor.com/docs) |
+| [Factory Droid](https://factory.ai/) | Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows. | API · CLI · Desktop app · Hybrid | [Website](https://factory.ai/) / [Docs](https://docs.factory.ai/welcome) |
+| [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Open-source terminal coding agent that uses tool calls and MCP servers to work on repository tasks. | CLI · MCP client · Local | [Website](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
+| [Gemini Code Assist](https://developers.google.com/gemini-code-assist) | Google's coding assistant for IDEs and GitHub with agent mode, PR summaries, and code review. | GitHub app · IDE extension · Cloud | [Website](https://developers.google.com/gemini-code-assist) / [Docs](https://developers.google.com/gemini-code-assist/docs/overview) |
+| [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE extension · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
+| [OpenAI Codex CLI](https://github.com/openai/codex) | Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace. | CLI · Hybrid | [Website](https://github.com/openai/codex) / [Docs](https://developers.openai.com/codex/cli/) / [Repo](https://github.com/openai/codex) |
+| [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop app · GitHub app · IDE extension · MCP client · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
+| [Qwen Code](https://qwen.ai/) | Open-source terminal coding agent optimized for Qwen models and large repository tasks. | CLI · Local | [Website](https://qwen.ai/) / [Repo](https://github.com/QwenLM/qwen-code) |
+| [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE extension · Web app · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) |
+| [Roo Code](https://roocode.com/) | Open-source coding agent for VS Code and cloud agents that can code, review, and automate repository tasks. | CLI · IDE extension · Web app · Hybrid | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
+| [Sweep](https://sweep.dev/) | JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration. | IDE extension · Hybrid | [Website](https://sweep.dev/) / [Docs](https://docs.sweep.dev/) |
+| [Windsurf Editor](https://windsurf.com/) | AI code editor with repo-aware agent workflows for multi-file edits and developer automation. | Desktop app · Hybrid | [Website](https://windsurf.com/) / [Docs](https://docs.windsurf.com/) |
 
 ### Terminal agents
 
 AI developer tools primarily operated from a command-line interface.
 
-- [Claude Code](https://code.claude.com/docs/en/setup) - Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context. _[website](https://code.claude.com/docs/en/setup) | [docs](https://code.claude.com/docs/en/setup)_
-
-- [OpenAI Codex CLI](https://github.com/openai/codex) - Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace. _[website](https://github.com/openai/codex) | [repo](https://github.com/openai/codex) | [docs](https://developers.openai.com/codex/cli/)_
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Aider](https://aider.chat/) | Open-source terminal pair programmer that edits tracked files in a local Git repository. | CLI · Local | [Website](https://aider.chat/) / [Docs](https://aider.chat/docs/) / [Repo](https://github.com/Aider-AI/aider) |
+| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE extension · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
+| [Amp](https://ampcode.com/) | Terminal-centric coding agent with deep codebase context, editor links, and automation-oriented SDK features. | API · CLI · Hybrid | [Website](https://ampcode.com/) / [Docs](https://ampcode.com/manual) |
+| [Augment Code](https://www.augmentcode.com/) | Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases. | CLI · IDE extension · Hybrid | [Website](https://www.augmentcode.com/) / [Docs](https://docs.augmentcode.com/introduction) |
+| [Claude Code](https://code.claude.com/docs/en/setup) | Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context. | CLI · Hybrid | [Website](https://code.claude.com/docs/en/setup) / [Docs](https://code.claude.com/docs/en/setup) |
+| [CodeRabbit](https://coderabbit.ai/) | AI code review agent for pull requests, local IDE review, and terminal-based review workflows. | CLI · GitHub app · IDE extension · Hybrid | [Website](https://coderabbit.ai/) / [Docs](https://docs.coderabbit.ai/) |
+| [Factory Droid](https://factory.ai/) | Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows. | API · CLI · Desktop app · Hybrid | [Website](https://factory.ai/) / [Docs](https://docs.factory.ai/welcome) |
+| [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Open-source terminal coding agent that uses tool calls and MCP servers to work on repository tasks. | CLI · MCP client · Local | [Website](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
+| [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE extension · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
+| [OpenAI Codex CLI](https://github.com/openai/codex) | Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace. | CLI · Hybrid | [Website](https://github.com/openai/codex) / [Docs](https://developers.openai.com/codex/cli/) / [Repo](https://github.com/openai/codex) |
+| [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop app · GitHub app · IDE extension · MCP client · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
+| [Qwen Code](https://qwen.ai/) | Open-source terminal coding agent optimized for Qwen models and large repository tasks. | CLI · Local | [Website](https://qwen.ai/) / [Repo](https://github.com/QwenLM/qwen-code) |
 
 ### IDE assistants
 
 AI assistants embedded in editors or IDEs for coding workflows.
 
-- [Cline](https://docs.cline.bot/introduction/overview) - Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension. _[website](https://docs.cline.bot/introduction/overview) | [repo](https://github.com/cline/cline) | [docs](https://docs.cline.bot/introduction/overview)_
-
-- [Continue](https://docs.continue.dev/) - Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows. _[website](https://docs.continue.dev/) | [repo](https://github.com/continuedev/continue) | [docs](https://docs.continue.dev/)_
-
-- [Cursor](https://cursor.com/) - AI code editor built around chat, codebase context, agents, rules, MCP, and terminal-assisted development workflows. _[website](https://cursor.com/) | [docs](https://cursor.com/docs)_
-
-- [GitHub Copilot](https://github.com/features/copilot) - GitHub AI coding assistant for IDEs and GitHub workflows, including code suggestions, chat, and pull request support. _[website](https://github.com/features/copilot) | [docs](https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot)_
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE extension · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
+| [Augment Code](https://www.augmentcode.com/) | Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases. | CLI · IDE extension · Hybrid | [Website](https://www.augmentcode.com/) / [Docs](https://docs.augmentcode.com/introduction) |
+| [Cline](https://docs.cline.bot/introduction/overview) | Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension. | Browser · CLI · IDE · Hybrid | [Website](https://docs.cline.bot/introduction/overview) / [Docs](https://docs.cline.bot/introduction/overview) / [Repo](https://github.com/cline/cline) |
+| [CodeRabbit](https://coderabbit.ai/) | AI code review agent for pull requests, local IDE review, and terminal-based review workflows. | CLI · GitHub app · IDE extension · Hybrid | [Website](https://coderabbit.ai/) / [Docs](https://docs.coderabbit.ai/) |
+| [Continue](https://docs.continue.dev/) | Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows. | CLI · IDE · Hybrid | [Website](https://docs.continue.dev/) / [Docs](https://docs.continue.dev/) / [Repo](https://github.com/continuedev/continue) |
+| [Cursor](https://cursor.com/) | AI code editor built around chat, codebase context, agents, rules, MCP, and terminal-assisted development workflows. | CLI · Desktop · IDE · Hybrid | [Website](https://cursor.com/) / [Docs](https://cursor.com/docs) |
+| [Gemini Code Assist](https://developers.google.com/gemini-code-assist) | Google's coding assistant for IDEs and GitHub with agent mode, PR summaries, and code review. | GitHub app · IDE extension · Cloud | [Website](https://developers.google.com/gemini-code-assist) / [Docs](https://developers.google.com/gemini-code-assist/docs/overview) |
+| [GitHub Copilot](https://github.com/features/copilot) | GitHub AI coding assistant for IDEs and GitHub workflows, including code suggestions, chat, and pull request support. | GitHub app · IDE · Web · Hosted | [Website](https://github.com/features/copilot) / [Docs](https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot) |
+| [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE extension · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
+| [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop app · GitHub app · IDE extension · MCP client · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
+| [Qodo](https://www.qodo.ai/) | Code review and IDE assistant product focused on reviewing diffs, tests, and repository context. | GitHub app · IDE extension · Cloud | [Website](https://www.qodo.ai/) / [Docs](https://docs.qodo.ai/) |
+| [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE extension · Web app · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) |
+| [Roo Code](https://roocode.com/) | Open-source coding agent for VS Code and cloud agents that can code, review, and automate repository tasks. | CLI · IDE extension · Web app · Hybrid | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
+| [Sweep](https://sweep.dev/) | JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration. | IDE extension · Hybrid | [Website](https://sweep.dev/) / [Docs](https://docs.sweep.dev/) |
+| [Tabby](https://www.tabbyml.com/) | Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development. | API · IDE extension · Self-hosted | [Website](https://www.tabbyml.com/) / [Docs](https://tabby.tabbyml.com/docs/) / [Repo](https://github.com/TabbyML/tabby) |
+| [Windsurf Editor](https://windsurf.com/) | AI code editor with repo-aware agent workflows for multi-file edits and developer automation. | Desktop app · Hybrid | [Website](https://windsurf.com/) / [Docs](https://docs.windsurf.com/) |
+| [Zed](https://zed.dev/) | Code editor with built-in agent workflows, external agent support, and MCP-connected coding assistance. | Desktop app · MCP client · Local | [Website](https://zed.dev/) / [Docs](https://zed.dev/releases/stable/0.233.5) / [Repo](https://github.com/zed-industries/zed) |
 
 ### Browser agents
 
 Tools that can inspect, drive, or test browser-based developer workflows.
 
-- [Cline](https://docs.cline.bot/introduction/overview) - Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension. _[website](https://docs.cline.bot/introduction/overview) | [repo](https://github.com/cline/cline) | [docs](https://docs.cline.bot/introduction/overview)_
-
-### MCP tooling
-
-Developer tools for building, testing, debugging, or managing MCP systems.
-
-- [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) - Official visual and command-line testing tool for developing, inspecting, and debugging Model Context Protocol servers. _[website](https://modelcontextprotocol.io/docs/tools/inspector) | [repo](https://github.com/modelcontextprotocol/inspector) | [docs](https://modelcontextprotocol.io/docs/tools/inspector)_
-
-### Agent observability
-
-Tools for tracing, monitoring, and debugging agent or LLM application behavior.
-
-- [Langfuse](https://langfuse.com/docs) - Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations. _[website](https://langfuse.com/docs) | [repo](https://github.com/langfuse/langfuse) | [docs](https://langfuse.com/docs)_
-
-### Agent evals
-
-Evaluation frameworks and systems for agents, LLM apps, and developer workflows.
-
-- [Langfuse](https://langfuse.com/docs) - Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations. _[website](https://langfuse.com/docs) | [repo](https://github.com/langfuse/langfuse) | [docs](https://langfuse.com/docs)_
-
-### Self-hosted AI dev stacks
-
-Self-hostable platforms and infrastructure for AI developer workflows.
-
-- [Langfuse](https://langfuse.com/docs) - Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations. _[website](https://langfuse.com/docs) | [repo](https://github.com/langfuse/langfuse) | [docs](https://langfuse.com/docs)_
-
-### Repo automation tools
-
-AI tools that automate repository checks, changes, pull requests, or maintenance.
-
-- [Continue](https://docs.continue.dev/) - Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows. _[website](https://docs.continue.dev/) | [repo](https://github.com/continuedev/continue) | [docs](https://docs.continue.dev/)_
-
-### AI code review tools
-
-AI-assisted tools for reviewing changes, pull requests, and code quality.
-
-- [Continue](https://docs.continue.dev/) - Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows. _[website](https://docs.continue.dev/) | [repo](https://github.com/continuedev/continue) | [docs](https://docs.continue.dev/)_
-
-- [GitHub Copilot](https://github.com/features/copilot) - GitHub AI coding assistant for IDEs and GitHub workflows, including code suggestions, chat, and pull request support. _[website](https://github.com/features/copilot) | [docs](https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot)_
-
-### MCP servers
-
-Model Context Protocol servers that expose tools, resources, or prompts.
-
-_No seed entries yet._
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Cline](https://docs.cline.bot/introduction/overview) | Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension. | Browser · CLI · IDE · Hybrid | [Website](https://docs.cline.bot/introduction/overview) / [Docs](https://docs.cline.bot/introduction/overview) / [Repo](https://github.com/cline/cline) |
 
 ### MCP clients
 
 Applications and agents that connect to Model Context Protocol servers.
 
-_No seed entries yet._
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Augment Code](https://www.augmentcode.com/) | Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases. | CLI · IDE extension · Hybrid | [Website](https://www.augmentcode.com/) / [Docs](https://docs.augmentcode.com/introduction) |
+| [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Open-source terminal coding agent that uses tool calls and MCP servers to work on repository tasks. | CLI · MCP client · Local | [Website](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
+| [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop app · GitHub app · IDE extension · MCP client · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
+| [Roo Code](https://roocode.com/) | Open-source coding agent for VS Code and cloud agents that can code, review, and automate repository tasks. | CLI · IDE extension · Web app · Hybrid | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
+| [Sweep](https://sweep.dev/) | JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration. | IDE extension · Hybrid | [Website](https://sweep.dev/) / [Docs](https://docs.sweep.dev/) |
+| [Zed](https://zed.dev/) | Code editor with built-in agent workflows, external agent support, and MCP-connected coding assistance. | Desktop app · MCP client · Local | [Website](https://zed.dev/) / [Docs](https://zed.dev/releases/stable/0.233.5) / [Repo](https://github.com/zed-industries/zed) |
 
-### Agent skill packs
+### MCP tooling
 
-Reusable instruction, workflow, or capability packs for coding agents.
+Developer tools for building, testing, debugging, or managing MCP systems.
 
-_No seed entries yet._
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) | Official visual and command-line testing tool for developing, inspecting, and debugging Model Context Protocol servers. | CLI · MCP · Web · Local | [Website](https://modelcontextprotocol.io/docs/tools/inspector) / [Docs](https://modelcontextprotocol.io/docs/tools/inspector) / [Repo](https://github.com/modelcontextprotocol/inspector) |
 
-### Prompt and workflow libraries
+### Agent observability
 
-Collections of prompts, rules, playbooks, or reusable AI developer workflows.
+Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 
-_No seed entries yet._
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Langfuse](https://langfuse.com/docs) | Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations. | API · Web · Hybrid | [Website](https://langfuse.com/docs) / [Docs](https://langfuse.com/docs) / [Repo](https://github.com/langfuse/langfuse) |
 
-### AI devtools security
+### Agent evals
 
-Security tools and guidance for AI-assisted software development systems.
+Evaluation frameworks and systems for agents, LLM apps, and developer workflows.
 
-_No seed entries yet._
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Langfuse](https://langfuse.com/docs) | Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations. | API · Web · Hybrid | [Website](https://langfuse.com/docs) / [Docs](https://langfuse.com/docs) / [Repo](https://github.com/langfuse/langfuse) |
+
+### Self-hosted AI dev stacks
+
+Self-hostable platforms and infrastructure for AI developer workflows.
+
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Langfuse](https://langfuse.com/docs) | Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations. | API · Web · Hybrid | [Website](https://langfuse.com/docs) / [Docs](https://langfuse.com/docs) / [Repo](https://github.com/langfuse/langfuse) |
+| [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE extension · Web app · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) |
+| [Tabby](https://www.tabbyml.com/) | Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development. | API · IDE extension · Self-hosted | [Website](https://www.tabbyml.com/) / [Docs](https://tabby.tabbyml.com/docs/) / [Repo](https://github.com/TabbyML/tabby) |
 
 ### Local LLM developer tools
 
 Tools that help developers run or integrate local models in coding workflows.
 
-_No seed entries yet._
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Tabby](https://www.tabbyml.com/) | Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development. | API · IDE extension · Self-hosted | [Website](https://www.tabbyml.com/) / [Docs](https://tabby.tabbyml.com/docs/) / [Repo](https://github.com/TabbyML/tabby) |
 
-### Data and ML coding assistants
+### Repo automation tools
 
-AI coding tools focused on data, notebooks, machine learning, or analytics workflows.
+AI tools that automate repository checks, changes, pull requests, or maintenance.
 
-_No seed entries yet._
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE extension · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
+| [Amp](https://ampcode.com/) | Terminal-centric coding agent with deep codebase context, editor links, and automation-oriented SDK features. | API · CLI · Hybrid | [Website](https://ampcode.com/) / [Docs](https://ampcode.com/manual) |
+| [Bito AI Code Review Agent](https://bito.ai/product/ai-code-review-agent/) | Repository review agent for GitHub, GitLab, and Bitbucket pull or merge request workflows. | GitHub app · Cloud | [Website](https://bito.ai/product/ai-code-review-agent/) / [Docs](https://docs.bito.ai/ai-code-reviews-in-git/install-run-using-bito-cloud/guide-for-github) |
+| [CodeRabbit](https://coderabbit.ai/) | AI code review agent for pull requests, local IDE review, and terminal-based review workflows. | CLI · GitHub app · IDE extension · Hybrid | [Website](https://coderabbit.ai/) / [Docs](https://docs.coderabbit.ai/) |
+| [Continue](https://docs.continue.dev/) | Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows. | CLI · IDE · Hybrid | [Website](https://docs.continue.dev/) / [Docs](https://docs.continue.dev/) / [Repo](https://github.com/continuedev/continue) |
+| [Factory Droid](https://factory.ai/) | Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows. | API · CLI · Desktop app · Hybrid | [Website](https://factory.ai/) / [Docs](https://docs.factory.ai/welcome) |
+| [Gemini Code Assist](https://developers.google.com/gemini-code-assist) | Google's coding assistant for IDEs and GitHub with agent mode, PR summaries, and code review. | GitHub app · IDE extension · Cloud | [Website](https://developers.google.com/gemini-code-assist) / [Docs](https://developers.google.com/gemini-code-assist/docs/overview) |
+| [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop app · GitHub app · IDE extension · MCP client · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
+| [Roo Code](https://roocode.com/) | Open-source coding agent for VS Code and cloud agents that can code, review, and automate repository tasks. | CLI · IDE extension · Web app · Hybrid | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
+
+### AI code review tools
+
+AI-assisted tools for reviewing changes, pull requests, and code quality.
+
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE extension · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
+| [Bito AI Code Review Agent](https://bito.ai/product/ai-code-review-agent/) | Repository review agent for GitHub, GitLab, and Bitbucket pull or merge request workflows. | GitHub app · Cloud | [Website](https://bito.ai/product/ai-code-review-agent/) / [Docs](https://docs.bito.ai/ai-code-reviews-in-git/install-run-using-bito-cloud/guide-for-github) |
+| [CodeRabbit](https://coderabbit.ai/) | AI code review agent for pull requests, local IDE review, and terminal-based review workflows. | CLI · GitHub app · IDE extension · Hybrid | [Website](https://coderabbit.ai/) / [Docs](https://docs.coderabbit.ai/) |
+| [Continue](https://docs.continue.dev/) | Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows. | CLI · IDE · Hybrid | [Website](https://docs.continue.dev/) / [Docs](https://docs.continue.dev/) / [Repo](https://github.com/continuedev/continue) |
+| [Factory Droid](https://factory.ai/) | Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows. | API · CLI · Desktop app · Hybrid | [Website](https://factory.ai/) / [Docs](https://docs.factory.ai/welcome) |
+| [Gemini Code Assist](https://developers.google.com/gemini-code-assist) | Google's coding assistant for IDEs and GitHub with agent mode, PR summaries, and code review. | GitHub app · IDE extension · Cloud | [Website](https://developers.google.com/gemini-code-assist) / [Docs](https://developers.google.com/gemini-code-assist/docs/overview) |
+| [GitHub Copilot](https://github.com/features/copilot) | GitHub AI coding assistant for IDEs and GitHub workflows, including code suggestions, chat, and pull request support. | GitHub app · IDE · Web · Hosted | [Website](https://github.com/features/copilot) / [Docs](https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot) |
+| [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE extension · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
+| [Qodo](https://www.qodo.ai/) | Code review and IDE assistant product focused on reviewing diffs, tests, and repository context. | GitHub app · IDE extension · Cloud | [Website](https://www.qodo.ai/) / [Docs](https://docs.qodo.ai/) |
+| [Sweep](https://sweep.dev/) | JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration. | IDE extension · Hybrid | [Website](https://sweep.dev/) / [Docs](https://docs.sweep.dev/) |
 
 ### Documentation agents
 
 AI tools that generate, maintain, or reason over developer documentation.
 
-_No seed entries yet._
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE extension · Web app · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) |
 
 ### Test generation agents
 
 AI tools that create, improve, or maintain automated tests.
 
-_No seed entries yet._
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE extension · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
+| [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE extension · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
+| [Qodo](https://www.qodo.ai/) | Code review and IDE assistant product focused on reviewing diffs, tests, and repository context. | GitHub app · IDE extension · Cloud | [Website](https://www.qodo.ai/) / [Docs](https://docs.qodo.ai/) |
+| [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE extension · Web app · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) |
 
-### DevOps and SRE agents
-
-AI tools for infrastructure, deployment, operations, and reliability workflows.
-
-_No seed entries yet._
-
-## Recently added
+## New Arrivals
 
 - 2026-05-07: [Aider](https://aider.chat/)
 - 2026-05-07: [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 - 2026-05-07: [Amp](https://ampcode.com/)
 - 2026-05-07: [Augment Code](https://www.augmentcode.com/)
 - 2026-05-07: [Bito AI Code Review Agent](https://bito.ai/product/ai-code-review-agent/)
+- 2026-05-07: [Claude Code](https://code.claude.com/docs/en/setup)
+- 2026-05-07: [Cline](https://docs.cline.bot/introduction/overview)
+- 2026-05-07: [CodeRabbit](https://coderabbit.ai/)
 
 ## Submit a tool
 
@@ -245,7 +239,7 @@ npm run generate
 npm test
 ```
 
-Use official sources, keep descriptions factual, and leave uncertain metadata as `unknown` instead of guessing. See [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/submission-guide.md](docs/submission-guide.md).
+Use official sources, keep descriptions factual, and leave uncertain metadata as `not specified` instead of guessing. See [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/submission-guide.md](docs/submission-guide.md).
 
 ## Roadmap
 
