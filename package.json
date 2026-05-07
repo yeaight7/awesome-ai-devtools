@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "generate": "tsx scripts/generate-readme.ts",
+    "import:candidates": "tsx scripts/import-candidates.ts",
     "sort": "tsx scripts/sort-tools.ts",
     "validate": "tsx scripts/validate.ts",
     "check:types": "tsc --noEmit",
