@@ -13,8 +13,8 @@ export const INTERFACE_TYPES = [
   "browser"
 ] as const;
 
-export const DEPLOYMENT_TYPES = ["hosted", "local", "self-hosted", "hybrid", "unknown"] as const;
-export const SOURCE_MODEL_TYPES = ["open-source", "source-available", "proprietary", "unknown"] as const;
+export const DEPLOYMENT_TYPES = ["hosted", "local", "self-hosted", "hybrid", "not specified"] as const;
+export const SOURCE_MODEL_TYPES = ["open-source", "source-available", "proprietary", "not specified"] as const;
 export const CURATION_STATUS_TYPES = ["reviewed", "draft"] as const;
 
 export type InterfaceType = (typeof INTERFACE_TYPES)[number];
