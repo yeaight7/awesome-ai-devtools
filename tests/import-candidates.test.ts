@@ -51,19 +51,21 @@ const baseCatalog: CatalogData = {
   ]
 };
 
-test("importCandidateLines imports a valid JSONL candidate as a draft with conservative defaults", () => {
+test("importCandidateLines imports a valid JSONL candidate as a draft without curating taxonomy", () => {
   const jsonl = JSON.stringify({
     name: "New Agent",
     description: "Terminal coding agent candidate discovered during category research.",
     website_url: " https://example.com/new-agent ",
     repo_url: "https://github.com/example/new-agent",
-    categories: ["Coding agents"],
-    tags: ["CLI", "agent"],
-    interfaces: ["CLI"],
+    categories: ["Coding agents", "raw-category"],
+    tags: ["CLI", "agent", "repo-editing", "open-source"],
+    interfaces: ["CLI", "ide-extension", "web-app"],
+    deployment: "cloud",
+    source_model: "open source",
     sources: ["https://example.com/new-agent/docs"],
     notes: "Research agent says this needs human review.",
     confidence: "medium",
-    uncertain: ["license", "deployment"]
+    uncertain: true
   });
 
   const result = importCandidateLines(baseCatalog, jsonl, { today: "2026-05-08" });
@@ -71,18 +73,19 @@ test("importCandidateLines imports a valid JSONL candidate as a draft with conse
 
   assert.equal(result.imported.length, 1);
   assert.equal(result.rejected.length, 0);
+  assert.equal(result.droppedValues.length, 0);
   assert.equal(imported?.curation_status, "draft");
-  assert.equal(imported?.deployment, "unknown");
-  assert.equal(imported?.source_model, "unknown");
+  assert.equal(imported?.deployment, "cloud");
+  assert.equal(imported?.source_model, "open source");
   assert.equal(imported?.license, "unknown");
   assert.equal(imported?.added, "2026-05-08");
   assert.equal(imported?.last_checked, "2026-05-08");
-  assert.deepEqual(imported?.categories, ["coding-agents"]);
-  assert.deepEqual(imported?.tags, ["agent", "cli"]);
-  assert.deepEqual(imported?.interfaces, ["cli"]);
+  assert.deepEqual(imported?.categories, ["Coding agents", "raw-category"]);
+  assert.deepEqual(imported?.tags, ["agent", "CLI", "open-source", "repo-editing"]);
+  assert.deepEqual(imported?.interfaces, ["CLI", "ide-extension", "web-app"]);
   assert.match(imported?.review_notes ?? "", /Imported draft/);
   assert.match(imported?.review_notes ?? "", /confidence: medium/);
-  assert.match(imported?.review_notes ?? "", /uncertain: license, deployment/);
+  assert.match(imported?.review_notes ?? "", /uncertain: true/);
 });
 
 test("importCandidateLines skips duplicates by existing slug, name, repo URL, or website URL", () => {
@@ -118,7 +121,7 @@ test("importCandidateLines reports malformed JSONL with line number", () => {
   assert.match(result.rejected[0].reason, /Invalid JSON/);
 });
 
-test("importCandidateLines rejects candidates with no valid category, tag, or interface mapping", () => {
+test("importCandidateLines imports unknown category, tag, and interface values as draft text", () => {
   const result = importCandidateLines(
     baseCatalog,
     JSON.stringify({
@@ -132,10 +135,59 @@ test("importCandidateLines rejects candidates with no valid category, tag, or in
     }),
     { today: "2026-05-08" }
   );
+  const imported = result.catalog.tools.find((tool) => tool.slug === "ambiguous-tool");
 
-  assert.equal(result.imported.length, 0);
-  assert.equal(result.rejected.length, 1);
-  assert.match(result.rejected[0].reason, /no valid categories/);
+  assert.equal(result.imported.length, 1);
+  assert.equal(result.rejected.length, 0);
+  assert.deepEqual(imported?.categories, ["not-a-category"]);
+  assert.deepEqual(imported?.tags, ["not-a-tag"]);
+  assert.deepEqual(imported?.interfaces, ["not-an-interface"]);
+});
+
+test("importCandidateLines uses first valid source as website_url fallback", () => {
+  const result = importCandidateLines(
+    baseCatalog,
+    JSON.stringify({
+      name: "Source Only Tool",
+      description: "Candidate with source evidence but no dedicated URL fields should still import.",
+      categories: ["raw-category"],
+      tags: ["raw-tag"],
+      interfaces: ["raw-interface"],
+      sources: ["https://example.com/source-only"]
+    }),
+    { today: "2026-05-08" }
+  );
+  const imported = result.catalog.tools.find((tool) => tool.slug === "source-only-tool");
+
+  assert.equal(result.imported.length, 1);
+  assert.equal(result.rejected.length, 0);
+  assert.equal(imported?.website_url, "https://example.com/source-only");
+});
+
+test("importCandidateLines does not treat shared source fallback URLs as website duplicates", () => {
+  const candidates = [
+    {
+      name: "Source Only One",
+      description: "First candidate with shared source evidence and no dedicated website URL.",
+      categories: ["raw-category"],
+      tags: ["raw-tag"],
+      interfaces: ["raw-interface"],
+      sources: ["https://example.com/shared-list"]
+    },
+    {
+      name: "Source Only Two",
+      description: "Second candidate with shared source evidence and no dedicated website URL.",
+      categories: ["raw-category"],
+      tags: ["raw-tag"],
+      interfaces: ["raw-interface"],
+      sources: ["https://example.com/shared-list"]
+    }
+  ].map((candidate) => JSON.stringify(candidate));
+
+  const result = importCandidateLines(baseCatalog, candidates.join("\n"), { today: "2026-05-08" });
+
+  assert.equal(result.imported.length, 2);
+  assert.equal(result.skippedDuplicates.length, 0);
 });
 
 test("importCandidatesFromFile dry-run does not write tools or README files", () => {
