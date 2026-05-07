@@ -45,6 +45,7 @@ test("buildReadme renders generated notice, storefront, and category section", (
   const readme = buildReadme(sampleCatalog);
 
   assert.match(readme, /<!-- GENERATED FILE: edit data\/tools\.yml/);
+  assert.match(readme, /<img src="assets\/hero\.svg" alt="Awesome AI Devtools ecosystem map"/);
   assert.match(readme, /## Storefront/);
   assert.doesNotMatch(readme, /Status/);
   assert.doesNotMatch(readme, /unknown/i);
