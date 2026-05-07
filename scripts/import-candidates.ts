@@ -4,13 +4,7 @@ import { pathToFileURL } from "node:url";
 import { buildReadme } from "./generate-readme.ts";
 import {
   CatalogData,
-  DEPLOYMENT_TYPES,
-  DeploymentType,
-  INTERFACE_TYPES,
-  InterfaceType,
   ROOT_FILES,
-  SOURCE_MODEL_TYPES,
-  SourceModelType,
   Tool,
   isHttpUrl,
   loadCatalog,
@@ -86,8 +80,6 @@ export function importCandidateLines(catalog: CatalogData, content: string, opti
     rejected: [],
     droppedValues: []
   };
-  const categoryLookup = buildLookup(catalog.categories);
-  const tagLookup = buildLookup(catalog.tags);
   const indexes = buildIndexes(nextCatalog.tools);
 
   content.split(/\r?\n/).forEach((line, index) => {
@@ -111,8 +103,6 @@ export function importCandidateLines(catalog: CatalogData, content: string, opti
     const conversion = candidateToTool(candidate, {
       today,
       line: lineNumber,
-      categoryLookup,
-      tagLookup,
       indexes
     });
 
@@ -124,10 +114,6 @@ export function importCandidateLines(catalog: CatalogData, content: string, opti
     if (conversion.kind === "duplicate") {
       result.skippedDuplicates.push(conversion.issue);
       return;
-    }
-
-    if (conversion.droppedValues.length > 0) {
-      result.droppedValues.push(...conversion.droppedValues);
     }
 
     nextCatalog.tools.push(conversion.tool);
@@ -157,12 +143,10 @@ function candidateToTool(
   context: {
     today: string;
     line: number;
-    categoryLookup: Map<string, string>;
-    tagLookup: Map<string, string>;
     indexes: Indexes;
   }
 ):
-  | { kind: "imported"; tool: Tool; droppedValues: ImportIssue[] }
+  | { kind: "imported"; tool: Tool }
   | { kind: "duplicate"; issue: ImportIssue }
   | { kind: "rejected"; issue: ImportIssue } {
   const name = optionalString(candidate.name);
@@ -180,8 +164,10 @@ function candidateToTool(
     repo_url: optionalUrl(candidate.repo_url),
     docs_url: optionalUrl(candidate.docs_url)
   };
-  if (!urls.website_url && !urls.repo_url && !urls.docs_url) {
-    return reject(context.line, name, "at least one of website_url, repo_url, or docs_url must be a valid http(s) URL.");
+  const sources = collectSources(candidate.sources, urls);
+  const websiteUrl = urls.website_url ?? urls.docs_url ?? urls.repo_url ?? sources[0];
+  if (!websiteUrl) {
+    return reject(context.line, name, "at least one valid http(s) URL is required in URL fields or sources.");
   }
 
   const slug = normalizeSlug(optionalString(candidate.slug) ?? name);
@@ -201,45 +187,36 @@ function candidateToTool(
     };
   }
 
-  const droppedValues: ImportIssue[] = [];
-  const categories = mapKnownValues("categories", candidate.categories, context.categoryLookup, context.line, name, droppedValues);
+  const categories = stringArray(candidate.categories);
   if (categories.length === 0) {
-    return reject(context.line, name, "no valid categories mapped. Use exact category slug or display name.");
+    return reject(context.line, name, "categories must be a non-empty array of strings.");
   }
 
-  const tags = mapKnownValues("tags", candidate.tags, context.tagLookup, context.line, name, droppedValues);
+  const tags = stringArray(candidate.tags);
   if (tags.length === 0) {
-    return reject(context.line, name, "no valid tags mapped. Use exact tag slug or display name.");
+    return reject(context.line, name, "tags must be a non-empty array of strings.");
   }
 
-  const interfaces = mapEnums("interfaces", candidate.interfaces, INTERFACE_TYPES, context.line, name, droppedValues) as InterfaceType[];
+  const interfaces = stringArray(candidate.interfaces);
   if (interfaces.length === 0) {
-    return reject(context.line, name, "no valid interfaces mapped. Use known interface enum values.");
+    return reject(context.line, name, "interfaces must be a non-empty array of strings.");
   }
 
-  const deployment = mapEnumValue(candidate.deployment, DEPLOYMENT_TYPES) as DeploymentType | undefined;
-  const sourceModel = mapEnumValue(candidate.source_model, SOURCE_MODEL_TYPES) as SourceModelType | undefined;
-  const sources = collectSources(candidate.sources, urls);
   if (sources.length === 0) {
     return reject(context.line, name, "sources must include at least one valid http(s) URL.");
   }
 
-  const reviewNotes = buildReviewNotes(candidate, droppedValues);
-  const websiteUrl = urls.website_url ?? urls.docs_url ?? urls.repo_url;
-  if (!websiteUrl) {
-    return reject(context.line, name, "website_url fallback failed.");
-  }
-
+  const reviewNotes = buildReviewNotes(candidate);
   const tool: Tool = {
     slug,
     name,
     description,
     website_url: websiteUrl,
-    categories,
-    tags,
-    interfaces,
-    deployment: deployment ?? "unknown",
-    source_model: sourceModel ?? "unknown",
+    categories: sortedUnique(categories),
+    tags: sortedUnique(tags),
+    interfaces: sortedUnique(interfaces),
+    deployment: optionalString(candidate.deployment) ?? "unknown",
+    source_model: optionalString(candidate.source_model) ?? "unknown",
     license: optionalString(candidate.license) ?? "unknown",
     curation_status: "draft",
     review_notes: reviewNotes,
@@ -257,67 +234,8 @@ function candidateToTool(
 
   return {
     kind: "imported",
-    tool,
-    droppedValues
+    tool
   };
-}
-
-function buildLookup(items: Array<{ slug: string; name: string }>): Map<string, string> {
-  const lookup = new Map<string, string>();
-  for (const item of items) {
-    lookup.set(normalizeLookupKey(item.slug), item.slug);
-    lookup.set(normalizeLookupKey(item.name), item.slug);
-  }
-  return lookup;
-}
-
-function mapKnownValues(
-  field: string,
-  value: unknown,
-  lookup: Map<string, string>,
-  line: number,
-  name: string,
-  droppedValues: ImportIssue[]
-): string[] {
-  const mapped: string[] = [];
-  for (const item of stringArray(value)) {
-    const slug = lookup.get(normalizeLookupKey(item));
-    if (slug) {
-      mapped.push(slug);
-    } else {
-      droppedValues.push({ line, name, reason: `dropped unknown ${field} value "${item}".` });
-    }
-  }
-  return sortedUnique(mapped);
-}
-
-function mapEnums(
-  field: string,
-  value: unknown,
-  allowed: readonly string[],
-  line: number,
-  name: string,
-  droppedValues: ImportIssue[]
-): string[] {
-  const mapped: string[] = [];
-  for (const item of stringArray(value)) {
-    const normalized = normalizeEnum(item);
-    if (allowed.includes(normalized)) {
-      mapped.push(normalized);
-    } else {
-      droppedValues.push({ line, name, reason: `dropped unknown ${field} value "${item}".` });
-    }
-  }
-  return sortedUnique(mapped);
-}
-
-function mapEnumValue(value: unknown, allowed: readonly string[]): string | undefined {
-  const normalized = optionalString(value);
-  if (!normalized) {
-    return undefined;
-  }
-  const candidate = normalizeEnum(normalized);
-  return allowed.includes(candidate) ? candidate : undefined;
 }
 
 function collectSources(candidateSources: unknown, urls: { website_url?: string; repo_url?: string; docs_url?: string }): string[] {
@@ -327,22 +245,19 @@ function collectSources(candidateSources: unknown, urls: { website_url?: string;
   ]);
 }
 
-function buildReviewNotes(candidate: CandidateInput, droppedValues: ImportIssue[]): string {
+function buildReviewNotes(candidate: CandidateInput): string {
   const parts = ["Imported draft; verify metadata before marking reviewed."];
   const notes = optionalString(candidate.notes);
   const confidence = optionalString(candidate.confidence);
-  const uncertain = stringArray(candidate.uncertain);
+  const uncertain = uncertaintyText(candidate.uncertain);
   if (notes) {
     parts.push(`notes: ${notes}`);
   }
   if (confidence) {
     parts.push(`confidence: ${confidence}`);
   }
-  if (uncertain.length > 0) {
-    parts.push(`uncertain: ${uncertain.join(", ")}`);
-  }
-  if (droppedValues.length > 0) {
-    parts.push(`dropped: ${droppedValues.map((issue) => issue.reason.replace(/\.$/, "")).join("; ")}`);
+  if (uncertain) {
+    parts.push(`uncertain: ${uncertain}`);
   }
   return parts.join(" ");
 }
@@ -399,10 +314,6 @@ function normalizeLookupKey(value: string): string {
   return value.trim().toLowerCase();
 }
 
-function normalizeEnum(value: string): string {
-  return value.trim().toLowerCase().replace(/[_\s]+/g, "-");
-}
-
 function normalizeUrl(value: string): string {
   return value.trim().replace(/\/+$/, "").toLowerCase();
 }
@@ -423,6 +334,17 @@ function stringArray(value: unknown): string[] {
   return value.map(optionalString).filter((item): item is string => Boolean(item));
 }
 
+function uncertaintyText(value: unknown): string | undefined {
+  if (typeof value === "boolean") {
+    return String(value);
+  }
+  if (typeof value === "string" && value.trim() !== "") {
+    return value.trim();
+  }
+  const values = stringArray(value);
+  return values.length > 0 ? values.join(", ") : undefined;
+}
+
 function reject(line: number, name: string | undefined, reason: string): { kind: "rejected"; issue: ImportIssue } {
   return {
     kind: "rejected",
@@ -439,12 +361,11 @@ function printSummary(result: ImportSummary, dryRun: boolean): void {
   console.log(`- imported: ${result.imported.length}${result.imported.length ? ` (${result.imported.join(", ")})` : ""}`);
   console.log(`- skipped duplicates: ${result.skippedDuplicates.length}`);
   console.log(`- rejected: ${result.rejected.length}`);
-  console.log(`- dropped values: ${result.droppedValues.length}`);
   if (!dryRun && result.rejected.length > 0) {
     console.log("- write skipped: rejected candidates must be fixed first");
   }
 
-  for (const issue of [...result.skippedDuplicates, ...result.rejected, ...result.droppedValues]) {
+  for (const issue of [...result.skippedDuplicates, ...result.rejected]) {
     console.log(`- line ${issue.line}${issue.name ? ` (${issue.name})` : ""}: ${issue.reason}`);
   }
 }
