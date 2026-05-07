@@ -1,0 +1,48 @@
+- slug: agent
+  name: Agent
+  description: Uses agentic workflows beyond single-turn completion.
+- slug: browser-automation
+  name: Browser automation
+  description: Can inspect, drive, or test browser behavior.
+- slug: cli
+  name: CLI
+  description: Provides a command-line interface.
+- slug: cloud
+  name: Cloud
+  description: Provides hosted or cloud-managed functionality.
+- slug: code-review
+  name: Code review
+  description: Supports review of code changes or pull requests.
+- slug: evals
+  name: Evals
+  description: Supports evaluation of LLM, agent, or application behavior.
+- slug: github
+  name: GitHub
+  description: Integrates with GitHub workflows or pull requests.
+- slug: ide
+  name: IDE
+  description: Integrates with an editor or IDE.
+- slug: jetbrains
+  name: JetBrains
+  description: Supports JetBrains IDE workflows.
+- slug: llm-apps
+  name: LLM apps
+  description: Targets LLM application development and operations.
+- slug: local-first
+  name: Local-first
+  description: Runs primarily on the developer machine.
+- slug: mcp
+  name: MCP
+  description: Supports Model Context Protocol workflows.
+- slug: observability
+  name: Observability
+  description: Supports tracing, monitoring, debugging, or metrics.
+- slug: self-hosted
+  name: Self-hosted
+  description: Can be deployed and operated by the user.
+- slug: terminal
+  name: Terminal
+  description: Used from terminal-based workflows.
+- slug: vscode
+  name: VS Code
+  description: Supports Visual Studio Code workflows.
