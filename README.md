@@ -21,16 +21,16 @@ The goal is not fake completeness or rankings. The goal is a useful, maintainabl
 
 ## Comparison matrix
 
-| Tool | Categories | Interfaces | Deployment | Source model | License |
-| --- | --- | --- | --- | --- | --- |
-| Claude Code | Coding agents, Terminal agents | cli | hybrid | proprietary | unknown |
-| Cline | Browser agents, Coding agents, IDE assistants | browser, cli, ide | hybrid | open-source | Apache-2.0 |
-| Continue | AI code review tools, IDE assistants, Repo automation tools | cli, ide | hybrid | open-source | Apache-2.0 |
-| Cursor | Coding agents, IDE assistants | cli, desktop, ide | hybrid | proprietary | unknown |
-| GitHub Copilot | AI code review tools, IDE assistants | github-app, ide, web | hosted | proprietary | unknown |
-| Langfuse | Agent evals, Agent observability, Self-hosted AI dev stacks | api, web | hybrid | open-source | MIT except enterprise folders |
-| MCP Inspector | MCP tooling | cli, mcp, web | local | open-source | unknown |
-| OpenAI Codex CLI | Coding agents, Terminal agents | cli | hybrid | open-source | Apache-2.0 |
+| Tool | Categories | Interfaces | Deployment | Source model | License | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| Claude Code | Coding agents, Terminal agents | cli | hybrid | proprietary | unknown | reviewed |
+| Cline | Browser agents, Coding agents, IDE assistants | browser, cli, ide | hybrid | open-source | Apache-2.0 | reviewed |
+| Continue | AI code review tools, IDE assistants, Repo automation tools | cli, ide | hybrid | open-source | Apache-2.0 | reviewed |
+| Cursor | Coding agents, IDE assistants | cli, desktop, ide | hybrid | proprietary | unknown | reviewed |
+| GitHub Copilot | AI code review tools, IDE assistants | github-app, ide, web | hosted | proprietary | unknown | reviewed |
+| Langfuse | Agent evals, Agent observability, Self-hosted AI dev stacks | api, web | hybrid | open-source | MIT except enterprise folders | reviewed |
+| MCP Inspector | MCP tooling | cli, mcp, web | local | open-source | unknown | reviewed |
+| OpenAI Codex CLI | Coding agents, Terminal agents | cli | hybrid | open-source | Apache-2.0 | reviewed |
 
 ## Categories
 
