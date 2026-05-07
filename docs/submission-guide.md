@@ -11,9 +11,9 @@ The easiest useful contribution is one tool addition or one factual update.
 - `categories`: one or more slugs from `data/categories.yml`.
 - `tags`: one or more slugs from `data/tags.yml`.
 - `interfaces`: one or more allowed interface values.
-- `deployment`: `hosted`, `local`, `self-hosted`, `hybrid`, or `unknown`.
-- `source_model`: `open-source`, `source-available`, `proprietary`, or `unknown`.
-- `license`: SPDX-style value when known, otherwise `unknown`.
+- `deployment`: `hosted`, `local`, `self-hosted`, `hybrid`, or `not specified`.
+- `source_model`: `open-source`, `source-available`, `proprietary`, or `not specified`.
+- `license`: SPDX-style value when known, otherwise `not specified`.
 - `added`: date the entry was added.
 - `last_checked`: date the metadata was last checked.
 - `sources`: official URLs that support the entry.
