@@ -16,6 +16,7 @@ This repository is metadata-first. Do not hand-edit generated tool listings in `
 - Keep descriptions factual, neutral, and 40-160 characters.
 - Do not add subjective rankings, scores, hype language, or launch strategy.
 - Do not add large batches manually. Future bulk import needs a reviewed importer contract first.
+- Use `scripts/import-candidates.ts` for draft candidate batches. Imported entries remain drafts until reviewed.
 
 ## Scope Boundaries
 
