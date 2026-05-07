@@ -16,7 +16,7 @@ npm run sort
 
 ## Validation
 
-Validation blocks malformed data, unknown category/tag references, duplicate slugs, invalid URLs, invalid dates, invalid enum values, overlong or missing descriptions, unsorted data, and stale README output.
+Validation blocks malformed data, unrecognized category/tag references, duplicate slugs, invalid URLs, invalid dates, invalid enum values, overlong or missing descriptions, unsorted data, and stale README output.
 
 Run:
 
