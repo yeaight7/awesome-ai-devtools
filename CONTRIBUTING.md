@@ -18,6 +18,20 @@ npm run generate
 npm test
 ```
 
+## Import Draft Candidates
+
+For category research batches, use the draft importer instead of hand-copying fields:
+
+```bash
+npm run import:candidates -- path/to/candidates.jsonl --dry-run
+npm run import:candidates -- path/to/candidates.jsonl
+npm test
+```
+
+Imported entries are drafts. Review sources, categories, tags, and uncertain fields before changing `curation_status` from `draft` to `reviewed`.
+
+See `docs/ingestion.md` for the candidate format and review workflow.
+
 ## Data Quality Rules
 
 - Do not inflate the list with low-quality or barely related tools.
