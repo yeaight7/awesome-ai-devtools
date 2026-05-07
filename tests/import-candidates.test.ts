@@ -77,7 +77,7 @@ test("importCandidateLines imports a valid JSONL candidate as a draft without cu
   assert.equal(imported?.curation_status, "draft");
   assert.equal(imported?.deployment, "cloud");
   assert.equal(imported?.source_model, "open source");
-  assert.equal(imported?.license, "unknown");
+  assert.equal(imported?.license, "not specified");
   assert.equal(imported?.added, "2026-05-08");
   assert.equal(imported?.last_checked, "2026-05-08");
   assert.deepEqual(imported?.categories, ["Coding agents", "raw-category"]);
