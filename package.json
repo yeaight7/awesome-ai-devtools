@@ -1,0 +1,26 @@
+{
+  "name": "awesome-ai-devtools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Structured, validation-backed directory of AI developer tools.",
+  "type": "module",
+  "scripts": {
+    "generate": "tsx scripts/generate-readme.ts",
+    "sort": "tsx scripts/sort-tools.ts",
+    "validate": "tsx scripts/validate.ts",
+    "check:types": "tsc --noEmit",
+    "test:unit": "node --import tsx --test tests/*.test.ts",
+    "test": "npm run check:types && npm run test:unit && npm run validate"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
