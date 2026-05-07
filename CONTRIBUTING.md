@@ -8,7 +8,7 @@
 2. Use official product docs, official repositories, or official package pages as sources.
 3. Keep `description` factual and 40-160 characters.
 4. Use existing `categories` and `tags` when they fit.
-5. Use `unknown` rather than guessing uncertain metadata.
+5. Use `not specified` rather than guessing uncertain metadata.
 6. Run:
 
 ```bash
