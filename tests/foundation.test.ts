@@ -33,6 +33,7 @@ const sampleCatalog: CatalogData = {
       deployment: "local",
       source_model: "open-source",
       license: "MIT",
+      curation_status: "reviewed",
       added: "2026-05-07",
       last_checked: "2026-05-07",
       sources: ["https://example.com/docs"]
@@ -45,7 +46,8 @@ test("buildReadme renders generated notice, comparison matrix, and category sect
 
   assert.match(readme, /<!-- GENERATED FILE: edit data\/tools\.yml/);
   assert.match(readme, /## Comparison matrix/);
-  assert.match(readme, /\| Sample Agent \| Coding agents \| cli \| local \| open-source \| MIT \|/);
+  assert.match(readme, /\| Tool \| Categories \| Interfaces \| Deployment \| Source model \| License \| Status \|/);
+  assert.match(readme, /\| Sample Agent \| Coding agents \| cli \| local \| open-source \| MIT \| reviewed \|/);
   assert.match(readme, /### Coding agents/);
   assert.match(readme, /Small factual entry used to verify generated README output\./);
 });
