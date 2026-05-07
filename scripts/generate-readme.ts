@@ -42,8 +42,8 @@ export function buildReadme(catalog: CatalogData): string {
     "",
     "## Comparison matrix",
     "",
-    "| Tool | Categories | Interfaces | Deployment | Source model | License |",
-    "| --- | --- | --- | --- | --- | --- |",
+    "| Tool | Categories | Interfaces | Deployment | Source model | License | Status |",
+    "| --- | --- | --- | --- | --- | --- | --- |",
     ...sorted.map((tool) => renderMatrixRow(tool, categoryNames)),
     "",
     "## Categories",
@@ -117,7 +117,8 @@ function renderMatrixRow(tool: Tool, categoryNames: Map<string, string>): string
     escapeTable(tool.interfaces.join(", ")),
     escapeTable(tool.deployment),
     escapeTable(tool.source_model),
-    `${escapeTable(tool.license)} |`
+    escapeTable(tool.license),
+    `${escapeTable(tool.curation_status)} |`
   ].join(" | ");
 }
 
