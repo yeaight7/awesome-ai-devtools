@@ -4,6 +4,7 @@ import { pathToFileURL } from "node:url";
 import { buildReadme } from "./generate-readme.ts";
 import {
   CatalogData,
+  CURATION_STATUS_TYPES,
   DEPLOYMENT_TYPES,
   INTERFACE_TYPES,
   ROOT_FILES,
@@ -93,6 +94,7 @@ function validateTool(
   validateRequiredString(label, "deployment", tool.deployment, errors);
   validateRequiredString(label, "source_model", tool.source_model, errors);
   validateRequiredString(label, "license", tool.license, errors);
+  validateRequiredString(label, "curation_status", tool.curation_status, errors);
   validateRequiredString(label, "added", tool.added, errors);
   validateRequiredString(label, "last_checked", tool.last_checked, errors);
 
@@ -137,6 +139,14 @@ function validateTool(
 
   if (tool.source_model && !SOURCE_MODEL_TYPES.includes(tool.source_model)) {
     errors.push(`${label}: invalid source_model "${tool.source_model}". Allowed: ${SOURCE_MODEL_TYPES.join(", ")}.`);
+  }
+
+  if (tool.curation_status && !CURATION_STATUS_TYPES.includes(tool.curation_status)) {
+    errors.push(`${label}: invalid curation_status "${tool.curation_status}". Allowed: ${CURATION_STATUS_TYPES.join(", ")}.`);
+  }
+
+  if (tool.curation_status === "draft" && (typeof tool.review_notes !== "string" || tool.review_notes.trim() === "")) {
+    errors.push(`${label}: draft entries must include review_notes.`);
   }
 
   validateDate(label, "added", tool.added, errors);
