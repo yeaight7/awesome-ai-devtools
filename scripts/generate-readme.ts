@@ -6,71 +6,58 @@ import {
   ROOT_FILES,
   Tool,
   loadCatalog,
-  slugNameMap,
   sortTools
 } from "./lib.ts";
 
 export function buildReadme(catalog: CatalogData): string {
   const sorted = sortTools(catalog.tools);
-  const categoryNames = slugNameMap(catalog.categories);
   const toolsByCategory = groupToolsByCategory(sorted);
   const populatedCategories = catalog.categories.filter((category) => (toolsByCategory.get(category.slug) ?? []).length > 0);
-  const emptyCategories = catalog.categories.filter((category) => (toolsByCategory.get(category.slug) ?? []).length === 0);
-  const orderedCategories = [...populatedCategories, ...emptyCategories];
 
   const lines: string[] = [
     "<!-- GENERATED FILE: edit data/tools.yml, data/categories.yml, data/tags.yml, then run npm run generate. -->",
     "",
     "# Awesome AI Devtools",
     "",
-    "A structured directory of AI tools for developers: coding agents, MCP, browser agents, agent skills, evals, observability, security, and self-hosted workflows.",
+    "<p align=\"center\"><strong>The open-source map of the AI developer tooling ecosystem.</strong></p>",
+    "",
+    "<p align=\"center\">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>",
+    "",
+    `<p align="center"><code>${sorted.length} tools</code> <code>${populatedCategories.length} active shelves</code> <code>metadata-first</code> <code>generated README</code></p>`,
     "",
     "## Why this exists",
     "",
-    "AI developer tooling changes quickly. This repository keeps tool entries in structured metadata so listings can be validated, sorted, generated, reviewed, and later filtered without turning the README into the source of truth.",
+    "AI developer tooling changes quickly. This directory keeps entries in structured metadata so the public view can stay polished while the data remains sortable, reviewable, and validation-backed.",
     "",
-    "The goal is not fake completeness or rankings. The goal is a useful, maintainable map of the AI developer tooling ecosystem.",
+    "No rankings. No launch hype. Just a clean storefront for discovering tools worth a closer look.",
     "",
-    "## Quick navigation",
+    "## Storefront",
     "",
-    `- ${sorted.length} seed tools`,
-    `- ${catalog.categories.length} categories`,
-    `- ${catalog.tags.length} tags`,
-    "- [Comparison matrix](#comparison-matrix)",
-    "- [Categories](#categories)",
-    "- [Submit a tool](#submit-a-tool)",
+    "| Shelf | What you will find | Tools |",
+    "| --- | --- | ---: |",
+    ...populatedCategories.map((category) => renderShelfRow(category, toolsByCategory.get(category.slug) ?? [])),
     "",
-    "## Comparison matrix",
-    "",
-    "| Tool | Categories | Interfaces | Deployment | Source model | License | Status |",
-    "| --- | --- | --- | --- | --- | --- | --- |",
-    ...sorted.map((tool) => renderMatrixRow(tool, categoryNames)),
-    "",
-    "## Categories",
+    "## Browse The Shelves",
     ""
   ];
 
-  for (const category of orderedCategories) {
+  for (const category of populatedCategories) {
     const categoryTools = toolsByCategory.get(category.slug) ?? [];
     lines.push(`### ${category.name}`, "", category.description, "");
-
-    if (categoryTools.length === 0) {
-      lines.push("_No seed entries yet._", "");
-      continue;
-    }
-
+    lines.push("| Tool | Good for | Experience | Links |", "| --- | --- | --- | --- |");
     for (const tool of categoryTools) {
-      lines.push(renderToolBullet(tool), "");
+      lines.push(renderToolRow(tool));
     }
+    lines.push("");
   }
 
   lines.push(
-    "## Recently added",
+    "## New Arrivals",
     "",
     ...sorted
       .slice()
       .sort((left, right) => right.added.localeCompare(left.added) || left.name.localeCompare(right.name, "en"))
-      .slice(0, 5)
+      .slice(0, 8)
       .map((tool) => `- ${tool.added}: [${escapeMarkdown(tool.name)}](${tool.website_url})`),
     "",
     "## Submit a tool",
@@ -83,7 +70,7 @@ export function buildReadme(catalog: CatalogData): string {
     "npm test",
     "```",
     "",
-    "Use official sources, keep descriptions factual, and leave uncertain metadata as `unknown` instead of guessing. See [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/submission-guide.md](docs/submission-guide.md).",
+    "Use official sources, keep descriptions factual, and leave uncertain metadata as `not specified` instead of guessing. See [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/submission-guide.md](docs/submission-guide.md).",
     "",
     "## Roadmap",
     "",
@@ -109,27 +96,78 @@ function groupToolsByCategory(tools: Tool[]): Map<string, Tool[]> {
   return grouped;
 }
 
-function renderMatrixRow(tool: Tool, categoryNames: Map<string, string>): string {
-  const categories = tool.categories.map((slug) => categoryNames.get(slug) ?? slug).join(", ");
+function renderShelfRow(category: { slug: string; name: string; description: string }, tools: Tool[]): string {
+  return `| [${escapeTable(category.name)}](#${anchorFor(category.name)}) | ${escapeTable(category.description)} | ${tools.length} |`;
+}
+
+function renderToolRow(tool: Tool): string {
   return [
-    `| ${escapeTable(tool.name)}`,
-    escapeTable(categories),
-    escapeTable(tool.interfaces.join(", ")),
-    escapeTable(tool.deployment),
-    escapeTable(tool.source_model),
-    escapeTable(tool.license),
-    `${escapeTable(tool.curation_status)} |`
+    `| [${escapeTable(tool.name)}](${tool.website_url})`,
+    escapeTable(tool.description),
+    escapeTable(renderExperience(tool)),
+    `${renderLinks(tool)} |`
   ].join(" | ");
 }
 
-function renderToolBullet(tool: Tool): string {
+function renderLinks(tool: Tool): string {
   const links = [
-    `[website](${tool.website_url})`,
-    tool.repo_url ? `[repo](${tool.repo_url})` : undefined,
-    tool.docs_url ? `[docs](${tool.docs_url})` : undefined
+    `[Website](${tool.website_url})`,
+    tool.docs_url ? `[Docs](${tool.docs_url})` : undefined,
+    tool.repo_url ? `[Repo](${tool.repo_url})` : undefined
   ].filter(Boolean);
 
-  return `- [${escapeMarkdown(tool.name)}](${tool.website_url}) - ${tool.description} _${links.join(" | ")}_`;
+  return links.join(" / ");
+}
+
+function renderExperience(tool: Tool): string {
+  const values = [...tool.interfaces, tool.deployment]
+    .map(displayValue)
+    .filter((value) => value !== "");
+  return values.length > 0 ? values.join(" · ") : "See details";
+}
+
+function displayValue(value: string): string {
+  const normalized = value.trim().toLowerCase();
+  if (normalized === "" || normalized === "unknown" || normalized === "not specified") {
+    return "";
+  }
+
+  const labels: Record<string, string> = {
+    api: "API",
+    cli: "CLI",
+    mcp: "MCP",
+    ide: "IDE",
+    web: "Web",
+    desktop: "Desktop",
+    browser: "Browser",
+    "github-app": "GitHub app",
+    "ide-extension": "IDE extension",
+    "web-app": "Web app",
+    "desktop-app": "Desktop app",
+    "mcp-client": "MCP client",
+    local: "Local",
+    hosted: "Hosted",
+    cloud: "Cloud",
+    hybrid: "Hybrid",
+    "self-hosted": "Self-hosted"
+  };
+  return labels[normalized] ?? titleize(value);
+}
+
+function titleize(value: string): string {
+  return value
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function anchorFor(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
 }
 
 function escapeTable(value: string): string {
