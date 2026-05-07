@@ -1,3 +1,140 @@
+- slug: aider
+  name: Aider
+  description: Open-source terminal pair programmer that edits tracked files in a local Git repository.
+  website_url: https://aider.chat/
+  repo_url: https://github.com/Aider-AI/aider
+  docs_url: https://aider.chat/docs/
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - coding
+    - open-source
+    - repo-editing
+    - terminal-agent
+  interfaces:
+    - cli
+  deployment: local
+  source_model: unknown
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official repo and docs found. Strong fit for terminal-based repository editing. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://aider.chat/
+    - https://aider.chat/docs/
+    - https://github.com/Aider-AI/aider
+- slug: amazon-q-developer
+  name: Amazon Q Developer
+  description: AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations.
+  website_url: https://aws.amazon.com/q/developer/
+  docs_url: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - code-review
+    - coding
+    - ide-assistant
+    - terminal-agent
+    - testing
+  interfaces:
+    - cli
+    - github-app
+    - ide-extension
+  deployment: hybrid
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs cover IDE coding, CLI transformations, and GitHub agents. Public license not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://aws.amazon.com/q/developer/
+    - https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/amazon-q-for-github.html
+    - https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html
+- slug: amp
+  name: Amp
+  description: Terminal-centric coding agent with deep codebase context, editor links, and automation-oriented SDK features.
+  website_url: https://ampcode.com/
+  docs_url: https://ampcode.com/manual
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - automation
+    - coding
+    - mcp
+    - repo-editing
+    - terminal-agent
+  interfaces:
+    - api
+    - cli
+  deployment: hybrid
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official manual found. SDK and workspace settings indicate automation and MCP-related configuration. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://ampcode.com/
+    - https://ampcode.com/manual
+    - https://ampcode.com/manual/sdk
+- slug: augment-code
+  name: Augment Code
+  description: Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases.
+  website_url: https://www.augmentcode.com/
+  docs_url: https://docs.augmentcode.com/introduction
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - coding
+    - ide-assistant
+    - mcp
+    - repo-editing
+    - terminal-agent
+  interfaces:
+    - cli
+    - ide-extension
+  deployment: hybrid
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs found for Agent and CLI workflows. Public license not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://docs.augmentcode.com/introduction
+    - https://docs.augmentcode.com/using-augment/agent
+    - https://www.augmentcode.com/
+- slug: bito-ai-code-review-agent
+  name: Bito AI Code Review Agent
+  description: Repository review agent for GitHub, GitLab, and Bitbucket pull or merge request workflows.
+  website_url: https://bito.ai/product/ai-code-review-agent/
+  docs_url: https://docs.bito.ai/ai-code-reviews-in-git/install-run-using-bito-cloud/guide-for-github
+  categories:
+    - coding-agents
+  tags:
+    - automation
+    - code-review
+    - coding
+    - testing
+  interfaces:
+    - github-app
+  deployment: cloud
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official product page and docs found. Strong fit for automated PR review; public license not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://bito.ai/product/ai-code-review-agent/
+    - https://docs.bito.ai/ai-code-reviews-in-git/agent-settings/repo-level-settings
+    - https://docs.bito.ai/ai-code-reviews-in-git/install-run-using-bito-cloud/guide-for-github
 - slug: claude-code
   name: Claude Code
   description: Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context.
@@ -49,6 +186,35 @@
   sources:
     - https://docs.cline.bot/introduction/overview
     - https://github.com/cline/cline
+- slug: coderabbit
+  name: CodeRabbit
+  description: AI code review agent for pull requests, local IDE review, and terminal-based review workflows.
+  website_url: https://coderabbit.ai/
+  docs_url: https://docs.coderabbit.ai/
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - automation
+    - code-review
+    - coding
+    - debugging
+    - testing
+  interfaces:
+    - cli
+    - github-app
+    - ide-extension
+  deployment: hybrid
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs cover PR review, IDE review, and CLI review. Public license not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://coderabbit.ai/
+    - https://coderabbit.ai/cli
+    - https://docs.coderabbit.ai/
 - slug: continue
   name: Continue
   description: Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows.
@@ -102,6 +268,90 @@
   sources:
     - https://cursor.com/
     - https://cursor.com/docs
+- slug: factory-droid
+  name: Factory Droid
+  description: Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows.
+  website_url: https://factory.ai/
+  docs_url: https://docs.factory.ai/welcome
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - automation
+    - code-review
+    - coding
+    - repo-editing
+    - terminal-agent
+  interfaces:
+    - api
+    - cli
+    - desktop-app
+  deployment: hybrid
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs cover Droid CLI, desktop app, and droid exec for automation. Public license not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://docs.factory.ai/cli/getting-started/quickstart
+    - https://docs.factory.ai/welcome
+    - https://factory.ai/
+- slug: gemini-cli
+  name: Gemini CLI
+  description: Open-source terminal coding agent that uses tool calls and MCP servers to work on repository tasks.
+  website_url: https://developers.google.com/gemini-code-assist/docs/gemini-cli
+  repo_url: https://github.com/google-gemini/gemini-cli
+  docs_url: https://developers.google.com/gemini-code-assist/docs/gemini-cli
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - coding
+    - mcp
+    - open-source
+    - repo-editing
+    - terminal-agent
+  interfaces:
+    - cli
+    - mcp-client
+  deployment: local
+  source_model: unknown
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs state Gemini CLI is an open-source AI agent for the terminal with MCP support. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://developers.google.com/gemini-code-assist/docs/gemini-cli
+    - https://github.com/google-gemini/gemini-cli
+- slug: gemini-code-assist
+  name: Gemini Code Assist
+  description: Google's coding assistant for IDEs and GitHub with agent mode, PR summaries, and code review.
+  website_url: https://developers.google.com/gemini-code-assist
+  docs_url: https://developers.google.com/gemini-code-assist/docs/overview
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - code-review
+    - coding
+    - ide-assistant
+    - repo-editing
+  interfaces:
+    - github-app
+    - ide-extension
+  deployment: cloud
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs found for IDE agent mode and GitHub code review. Public license not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://developers.google.com/gemini-code-assist
+    - https://developers.google.com/gemini-code-assist/docs/overview
+    - https://developers.google.com/gemini-code-assist/docs/set-up-code-assist-github
 - slug: github-copilot
   name: GitHub Copilot
   description: GitHub AI coding assistant for IDEs and GitHub workflows, including code suggestions, chat, and pull request support.
@@ -127,6 +377,35 @@
   sources:
     - https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot
     - https://github.com/features/copilot
+- slug: junie
+  name: Junie
+  description: JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes.
+  website_url: https://www.jetbrains.com/junie/
+  repo_url: https://github.com/JetBrains/junie
+  docs_url: https://www.jetbrains.com/help/ai-assistant/junie-agent.html
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - coding
+    - ide-assistant
+    - repo-editing
+    - terminal-agent
+    - testing
+  interfaces:
+    - cli
+    - ide-extension
+  deployment: hybrid
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official website, docs, and repo found. Public licensing for the full product was not clearly verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/JetBrains/junie
+    - https://www.jetbrains.com/help/ai-assistant/junie-agent.html
+    - https://www.jetbrains.com/junie/
 - slug: langfuse
   name: Langfuse
   description: Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations.
@@ -202,3 +481,261 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/openai/codex
+- slug: opencode
+  name: OpenCode
+  description: Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows.
+  website_url: https://opencode.ai/
+  repo_url: https://github.com/anomalyco/opencode
+  docs_url: https://opencode.ai/docs/
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - automation
+    - coding
+    - ide-assistant
+    - mcp
+    - open-source
+    - repo-editing
+    - terminal-agent
+  interfaces:
+    - cli
+    - desktop-app
+    - github-app
+    - ide-extension
+    - mcp-client
+  deployment: local
+  source_model: unknown
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official site, docs, and repo found. Docs cover GitHub automation and MCP servers. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/anomalyco/opencode
+    - https://opencode.ai/
+    - https://opencode.ai/docs/
+- slug: qodo
+  name: Qodo
+  description: Code review and IDE assistant product focused on reviewing diffs, tests, and repository context.
+  website_url: https://www.qodo.ai/
+  docs_url: https://docs.qodo.ai/
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - code-review
+    - coding
+    - ide-assistant
+    - testing
+  interfaces:
+    - github-app
+    - ide-extension
+  deployment: cloud
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs found for Qodo IDE and review agent behavior. Public license not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://docs.qodo.ai/
+    - https://docs.qodo.ai/qodo-ide
+    - https://www.qodo.ai/
+- slug: qwen-code
+  name: Qwen Code
+  description: Open-source terminal coding agent optimized for Qwen models and large repository tasks.
+  website_url: https://qwen.ai/
+  repo_url: https://github.com/QwenLM/qwen-code
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - automation
+    - coding
+    - open-source
+    - repo-editing
+    - terminal-agent
+  interfaces:
+    - cli
+  deployment: local
+  source_model: unknown
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official repo found and category fit is strong for terminal-based repo work. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/QwenLM/qwen-code
+    - https://qwen.ai/
+- slug: refact-ai
+  name: Refact.ai
+  description: Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks.
+  website_url: https://refact.ai/
+  docs_url: https://docs.refact.ai/
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - coding
+    - debugging
+    - documentation
+    - ide-assistant
+    - repo-editing
+    - self-hosted
+    - testing
+  interfaces:
+    - ide-extension
+    - web-app
+  deployment: hybrid
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official site and docs found. On-prem and SaaS deployment are mentioned; public license not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://docs.refact.ai/
+    - https://refact.ai/
+    - https://refact.ai/blog/2025/how-to-create-an-mcp-server-using-refact-ai-agent/
+- slug: roo-code
+  name: Roo Code
+  description: Open-source coding agent for VS Code and cloud agents that can code, review, and automate repository tasks.
+  website_url: https://roocode.com/
+  repo_url: https://github.com/RooCodeInc/Roo-Code
+  docs_url: https://docs.roocode.com/
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - coding
+    - ide-assistant
+    - mcp
+    - multi-agent
+    - open-source
+    - repo-editing
+  interfaces:
+    - cli
+    - ide-extension
+    - web-app
+  deployment: hybrid
+  source_model: unknown
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs cover local VS Code workflows and autonomous cloud agents. confidence: high uncertain: false"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://docs.roocode.com/
+    - https://github.com/RooCodeInc/Roo-Code
+    - https://roocode.com/
+- slug: sweep
+  name: Sweep
+  description: JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration.
+  website_url: https://sweep.dev/
+  docs_url: https://docs.sweep.dev/
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - code-review
+    - coding
+    - ide-assistant
+    - mcp
+    - repo-editing
+  interfaces:
+    - ide-extension
+  deployment: hybrid
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs found for Agent, AI Code Review, and MCP servers. Public license not verified. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://docs.sweep.dev/
+    - https://docs.sweep.dev/agent
+    - https://sweep.dev/
+- slug: tabby
+  name: Tabby
+  description: Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development.
+  website_url: https://www.tabbyml.com/
+  repo_url: https://github.com/TabbyML/tabby
+  docs_url: https://tabby.tabbyml.com/docs/
+  categories:
+    - coding-agents
+  tags:
+    - coding
+    - ide-assistant
+    - open-source
+    - repo-editing
+    - self-hosted
+  interfaces:
+    - api
+    - ide-extension
+  deployment: self-hosted
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official website and repo found. Open-source and self-hosted positioning are clear; public license was not verified from gathered sources. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/TabbyML/tabby
+    - https://tabby.tabbyml.com/docs/
+    - https://www.tabbyml.com/
+    - https://www.tabbyml.com/agent
+- slug: windsurf-editor
+  name: Windsurf Editor
+  description: AI code editor with repo-aware agent workflows for multi-file edits and developer automation.
+  website_url: https://windsurf.com/
+  docs_url: https://docs.windsurf.com/
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - automation
+    - coding
+    - ide-assistant
+    - repo-editing
+  interfaces:
+    - desktop-app
+  deployment: hybrid
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official site and docs found. MCP support and public license were not verified. confidence: medium uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://docs.windsurf.com/
+    - https://windsurf.com/
+- slug: zed
+  name: Zed
+  description: Code editor with built-in agent workflows, external agent support, and MCP-connected coding assistance.
+  website_url: https://zed.dev/
+  repo_url: https://github.com/zed-industries/zed
+  docs_url: https://zed.dev/releases/stable/0.233.5
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - coding
+    - ide-assistant
+    - mcp
+    - open-source
+    - repo-editing
+  interfaces:
+    - desktop-app
+    - mcp-client
+  deployment: local
+  source_model: unknown
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official repo and release notes show built-in agent features and MCP support. Licensing appears mixed in the repo. confidence: high uncertain: true"
+  added: 2026-05-07
+  last_checked: 2026-05-07
+  sources:
+    - https://github.com/zed-industries/zed
+    - https://zed.dev/
+    - https://zed.dev/releases/stable/0.233.5
