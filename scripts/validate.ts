@@ -112,37 +112,16 @@ function validateTool(
   validateOptionalUrl(label, "repo_url", tool.repo_url, errors);
   validateOptionalUrl(label, "docs_url", tool.docs_url, errors);
 
-  validateStringArray(label, "categories", tool.categories, errors);
-  for (const category of stringItems(tool.categories)) {
-    if (!categories.has(category)) {
-      errors.push(`${label}: unknown category "${category}". Add it to data/categories.yml or remove the reference.`);
-    }
-  }
-
-  validateStringArray(label, "tags", tool.tags, errors);
-  for (const tag of stringItems(tool.tags)) {
-    if (!tags.has(tag)) {
-      errors.push(`${label}: unknown tag "${tag}". Add it to data/tags.yml or remove the reference.`);
-    }
-  }
-
-  validateStringArray(label, "interfaces", tool.interfaces, errors);
-  for (const value of stringItems(tool.interfaces)) {
-    if (!INTERFACE_TYPES.includes(value as (typeof INTERFACE_TYPES)[number])) {
-      errors.push(`${label}: invalid interface "${value}". Allowed: ${INTERFACE_TYPES.join(", ")}.`);
-    }
-  }
-
-  if (tool.deployment && !DEPLOYMENT_TYPES.includes(tool.deployment)) {
-    errors.push(`${label}: invalid deployment "${tool.deployment}". Allowed: ${DEPLOYMENT_TYPES.join(", ")}.`);
-  }
-
-  if (tool.source_model && !SOURCE_MODEL_TYPES.includes(tool.source_model)) {
-    errors.push(`${label}: invalid source_model "${tool.source_model}". Allowed: ${SOURCE_MODEL_TYPES.join(", ")}.`);
-  }
-
   if (tool.curation_status && !CURATION_STATUS_TYPES.includes(tool.curation_status)) {
     errors.push(`${label}: invalid curation_status "${tool.curation_status}". Allowed: ${CURATION_STATUS_TYPES.join(", ")}.`);
+  }
+
+  validateStringArray(label, "categories", tool.categories, errors);
+  validateStringArray(label, "tags", tool.tags, errors);
+  validateStringArray(label, "interfaces", tool.interfaces, errors);
+
+  if (tool.curation_status === "reviewed") {
+    validateReviewedTaxonomy(tool, label, categories, tags, errors);
   }
 
   if (tool.curation_status === "draft" && (typeof tool.review_notes !== "string" || tool.review_notes.trim() === "")) {
@@ -158,6 +137,40 @@ function validateTool(
   validateStringArray(label, "sources", tool.sources, errors);
   for (const source of stringItems(tool.sources)) {
     validateUrl(label, "sources", source, errors);
+  }
+}
+
+function validateReviewedTaxonomy(
+  tool: Tool,
+  label: string,
+  categories: Map<string, { slug: string }>,
+  tags: Map<string, { slug: string }>,
+  errors: string[]
+): void {
+  for (const category of stringItems(tool.categories)) {
+    if (!categories.has(category)) {
+      errors.push(`${label}: unknown category "${category}". Add it to data/categories.yml or remove the reference.`);
+    }
+  }
+
+  for (const tag of stringItems(tool.tags)) {
+    if (!tags.has(tag)) {
+      errors.push(`${label}: unknown tag "${tag}". Add it to data/tags.yml or remove the reference.`);
+    }
+  }
+
+  for (const value of stringItems(tool.interfaces)) {
+    if (!INTERFACE_TYPES.includes(value as (typeof INTERFACE_TYPES)[number])) {
+      errors.push(`${label}: invalid interface "${value}". Allowed: ${INTERFACE_TYPES.join(", ")}.`);
+    }
+  }
+
+  if (tool.deployment && !DEPLOYMENT_TYPES.includes(tool.deployment as (typeof DEPLOYMENT_TYPES)[number])) {
+    errors.push(`${label}: invalid deployment "${tool.deployment}". Allowed: ${DEPLOYMENT_TYPES.join(", ")}.`);
+  }
+
+  if (tool.source_model && !SOURCE_MODEL_TYPES.includes(tool.source_model as (typeof SOURCE_MODEL_TYPES)[number])) {
+    errors.push(`${label}: invalid source_model "${tool.source_model}". Allowed: ${SOURCE_MODEL_TYPES.join(", ")}.`);
   }
 }
 
