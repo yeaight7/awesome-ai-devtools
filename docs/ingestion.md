@@ -83,7 +83,7 @@ Drafts may contain raw research-agent categories, tags, interfaces, and enum-lik
 - verify category and tag fit
 - normalize interfaces, deployment, and source model to repo enums
 - rewrite descriptions if needed
-- replace `unknown` fields only with sourced facts
+- replace `not specified` fields only with sourced facts
 - keep evidence in `sources`
 
 ## Recover From A Bad Import
