@@ -21,9 +21,9 @@ Required fields:
 - `description`
 - `sources`
 - at least one of `website_url`, `repo_url`, or `docs_url`
-- non-empty valid `categories`
-- non-empty valid `tags`
-- non-empty valid `interfaces`
+- non-empty `categories`
+- non-empty `tags`
+- non-empty `interfaces`
 
 Optional fields:
 
@@ -35,9 +35,7 @@ Optional fields:
 - `confidence`
 - `uncertain`
 
-Categories and tags may use exact slugs or exact display names, case-insensitive. Unknown values are dropped if at least one valid value remains; otherwise the candidate is rejected.
-
-Safe enum normalization is supported for obvious casing and spacing differences, such as `open source` to `open-source`, `self hosted` to `self-hosted`, and `github app` to `github-app`.
+The importer preserves candidate categories, tags, interfaces, deployment, source model, license, notes, confidence, and uncertainty. It does not map, normalize, drop, or curate those values.
 
 ## Run Import
 
@@ -57,7 +55,7 @@ npm run generate
 npm test
 ```
 
-Rejected candidates block writes. Duplicate candidates are skipped and reported.
+Rejected candidates block writes. Duplicate candidates are skipped and reported. The importer uses the first valid `sources` URL as `website_url` only when no URL field is present.
 
 ## Duplicate Handling
 
@@ -79,10 +77,11 @@ curation_status: draft
 review_notes: Imported draft; verify metadata before marking reviewed.
 ```
 
-Before changing a draft to `reviewed`:
+Drafts may contain raw research-agent categories, tags, interfaces, and enum-like values. Before changing a draft to `reviewed`:
 
 - confirm official URLs
 - verify category and tag fit
+- normalize interfaces, deployment, and source model to repo enums
 - rewrite descriptions if needed
 - replace `unknown` fields only with sourced facts
 - keep evidence in `sources`
