@@ -43,9 +43,9 @@ export interface Tool {
   docs_url?: string;
   categories: string[];
   tags: string[];
-  interfaces: InterfaceType[];
-  deployment: DeploymentType;
-  source_model: SourceModelType;
+  interfaces: string[];
+  deployment: string;
+  source_model: string;
   license: string;
   curation_status: CurationStatus;
   review_notes?: string;
@@ -104,7 +104,7 @@ export function normalizeTool(tool: Tool): Tool {
 
   normalized.categories = sortedUnique(tool.categories ?? []);
   normalized.tags = sortedUnique(tool.tags ?? []);
-  normalized.interfaces = sortedUnique(tool.interfaces ?? []) as InterfaceType[];
+  normalized.interfaces = sortedUnique(tool.interfaces ?? []);
   normalized.deployment = tool.deployment;
   normalized.source_model = tool.source_model;
   normalized.license = tool.license;
