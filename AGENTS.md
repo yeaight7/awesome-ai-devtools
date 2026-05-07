@@ -12,7 +12,7 @@ This repository is metadata-first. Do not hand-edit generated tool listings in `
 ## Data Rules
 
 - Use official sources wherever possible.
-- Do not invent metadata. Use `unknown` for uncertain license, deployment, or source-model facts.
+- Do not invent metadata. Use `not specified` for uncertain license, deployment, or source-model facts.
 - Keep descriptions factual, neutral, and 40-160 characters.
 - Do not add subjective rankings, scores, hype language, or launch strategy.
 - Do not add large batches manually. Future bulk import needs a reviewed importer contract first.
