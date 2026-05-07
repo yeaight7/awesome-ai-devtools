@@ -1,0 +1,60 @@
+- slug: coding-agents
+  name: Coding agents
+  description: Agentic tools that can inspect, modify, and reason about source code.
+- slug: terminal-agents
+  name: Terminal agents
+  description: AI developer tools primarily operated from a command-line interface.
+- slug: ide-assistants
+  name: IDE assistants
+  description: AI assistants embedded in editors or IDEs for coding workflows.
+- slug: browser-agents
+  name: Browser agents
+  description: Tools that can inspect, drive, or test browser-based developer workflows.
+- slug: mcp-servers
+  name: MCP servers
+  description: Model Context Protocol servers that expose tools, resources, or prompts.
+- slug: mcp-clients
+  name: MCP clients
+  description: Applications and agents that connect to Model Context Protocol servers.
+- slug: mcp-tooling
+  name: MCP tooling
+  description: Developer tools for building, testing, debugging, or managing MCP systems.
+- slug: agent-skill-packs
+  name: Agent skill packs
+  description: Reusable instruction, workflow, or capability packs for coding agents.
+- slug: prompt-workflow-libraries
+  name: Prompt and workflow libraries
+  description: Collections of prompts, rules, playbooks, or reusable AI developer workflows.
+- slug: ai-devtools-security
+  name: AI devtools security
+  description: Security tools and guidance for AI-assisted software development systems.
+- slug: agent-observability
+  name: Agent observability
+  description: Tools for tracing, monitoring, and debugging agent or LLM application behavior.
+- slug: agent-evals
+  name: Agent evals
+  description: Evaluation frameworks and systems for agents, LLM apps, and developer workflows.
+- slug: self-hosted-ai-dev-stacks
+  name: Self-hosted AI dev stacks
+  description: Self-hostable platforms and infrastructure for AI developer workflows.
+- slug: local-llm-developer-tools
+  name: Local LLM developer tools
+  description: Tools that help developers run or integrate local models in coding workflows.
+- slug: repo-automation-tools
+  name: Repo automation tools
+  description: AI tools that automate repository checks, changes, pull requests, or maintenance.
+- slug: ai-code-review-tools
+  name: AI code review tools
+  description: AI-assisted tools for reviewing changes, pull requests, and code quality.
+- slug: data-ml-coding-assistants
+  name: Data and ML coding assistants
+  description: AI coding tools focused on data, notebooks, machine learning, or analytics workflows.
+- slug: documentation-agents
+  name: Documentation agents
+  description: AI tools that generate, maintain, or reason over developer documentation.
+- slug: test-generation-agents
+  name: Test generation agents
+  description: AI tools that create, improve, or maintain automated tests.
+- slug: devops-sre-agents
+  name: DevOps and SRE agents
+  description: AI tools for infrastructure, deployment, operations, and reliability workflows.
