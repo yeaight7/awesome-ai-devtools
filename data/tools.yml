@@ -400,6 +400,7 @@
   categories:
     - coding-agents
     - terminal-agents
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - coding
@@ -492,6 +493,7 @@
     - repo-automation-tools
     - terminal-agents
     - test-generation-agents
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - code-review
@@ -522,6 +524,7 @@
     - coding-agents
     - repo-automation-tools
     - terminal-agents
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - automation
@@ -855,6 +858,7 @@
     - ide-assistants
     - mcp-clients
     - terminal-agents
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - coding
@@ -1297,6 +1301,7 @@
   categories:
     - ai-code-review-tools
     - repo-automation-tools
+  primary_category: ai-code-review-tools
   tags:
     - automation
     - code-review
@@ -1697,6 +1702,7 @@
   categories:
     - coding-agents
     - terminal-agents
+  primary_category: coding-agents
   tags:
     - agent
     - mcp
@@ -1774,6 +1780,7 @@
     - browser-agents
     - coding-agents
     - ide-assistants
+  primary_category: coding-agents
   tags:
     - agent
     - browser-automation
@@ -1857,6 +1864,7 @@
     - ide-assistants
     - repo-automation-tools
     - terminal-agents
+  primary_category: ai-code-review-tools
   tags:
     - agentic-coding
     - automation
@@ -1980,6 +1988,7 @@
     - ai-code-review-tools
     - ide-assistants
     - repo-automation-tools
+  primary_category: ide-assistants
   tags:
     - cli
     - code-review
@@ -2006,6 +2015,7 @@
   categories:
     - coding-agents
     - ide-assistants
+  primary_category: ide-assistants
   tags:
     - agent
     - ide
@@ -2155,6 +2165,7 @@
   categories:
     - data-ml-coding-assistants
     - repo-automation-tools
+  primary_category: data-ml-coding-assistants
   tags:
     - automation
     - code-review
@@ -2911,6 +2922,7 @@
     - coding-agents
     - repo-automation-tools
     - terminal-agents
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - automation
@@ -3100,6 +3112,7 @@
     - coding-agents
     - mcp-clients
     - terminal-agents
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - coding
@@ -3129,6 +3142,7 @@
     - coding-agents
     - ide-assistants
     - repo-automation-tools
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - code-review
@@ -3287,6 +3301,7 @@
   categories:
     - ai-code-review-tools
     - ide-assistants
+  primary_category: ide-assistants
   tags:
     - code-review
     - github
@@ -3967,6 +3982,7 @@
     - ide-assistants
     - terminal-agents
     - test-generation-agents
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - coding
@@ -4120,6 +4136,7 @@
     - agent-evals
     - agent-observability
     - self-hosted-ai-dev-stacks
+  primary_category: agent-observability
   tags:
     - evals
     - llm-apps
@@ -5986,6 +6003,7 @@
   categories:
     - coding-agents
     - terminal-agents
+  primary_category: coding-agents
   tags:
     - agent
     - cli
@@ -6101,6 +6119,7 @@
     - mcp-clients
     - repo-automation-tools
     - terminal-agents
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - automation
@@ -6728,6 +6747,7 @@
     - ai-code-review-tools
     - ide-assistants
     - test-generation-agents
+  primary_category: test-generation-agents
   tags:
     - agentic-coding
     - code-review
@@ -6783,6 +6803,7 @@
   categories:
     - coding-agents
     - terminal-agents
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - automation
@@ -6993,6 +7014,7 @@
     - ide-assistants
     - self-hosted-ai-dev-stacks
     - test-generation-agents
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - coding
@@ -7193,6 +7215,7 @@
     - ide-assistants
     - mcp-clients
     - repo-automation-tools
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - coding
@@ -7799,6 +7822,7 @@
     - coding-agents
     - ide-assistants
     - mcp-clients
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - code-review
@@ -7861,6 +7885,7 @@
     - ide-assistants
     - local-llm-developer-tools
     - self-hosted-ai-dev-stacks
+  primary_category: self-hosted-ai-dev-stacks
   tags:
     - coding
     - ide-assistant
@@ -8541,6 +8566,7 @@
   categories:
     - coding-agents
     - ide-assistants
+  primary_category: ide-assistants
   tags:
     - agentic-coding
     - automation
@@ -8644,6 +8670,7 @@
   categories:
     - ide-assistants
     - mcp-clients
+  primary_category: ide-assistants
   tags:
     - agentic-coding
     - coding
