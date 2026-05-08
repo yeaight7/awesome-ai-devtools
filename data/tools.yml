@@ -74,7 +74,7 @@
     - mcp
     - skill-pack
     - template
-  deployment: hybrid
+  deployment: local
   source_model: open-source
   license: Apache-2.0
   curation_status: reviewed
