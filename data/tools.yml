@@ -43,6 +43,7 @@
   interfaces:
     - cli
     - mcp
+    - local
   deployment: not specified
   source_model: open-source
   license: Apache-2.0
@@ -1800,6 +1801,34 @@
     - https://docs.ellipsis.dev/features/code-review
     - https://docs.ellipsis.dev/introduction
     - https://www.ellipsis.dev/
+- slug: everything-claude-code
+  name: Everything Claude Code
+  description: Agent harness performance system with skills, hooks, MCP configs, memory optimization, and cross-harness workflows.
+  website_url: https://github.com/affaan-m/everything-claude-code
+  repo_url: https://github.com/affaan-m/everything-claude-code
+  docs_url: https://github.com/affaan-m/everything-claude-code#readme
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - automation
+    - coding
+    - mcp
+    - open-source
+    - plugins
+    - security
+    - workflow-library
+  interfaces:
+    - cli
+    - mcp
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/affaan-m/everything-claude-code
 - slug: evidently-ai
   name: Evidently AI
   description: Open-source library and cloud service for evaluating, testing, and monitoring ML and LLM systems, including RAG and agents.
