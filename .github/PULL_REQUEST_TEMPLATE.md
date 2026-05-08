@@ -5,7 +5,7 @@
 ## Data Sources
 
 - [ ] Official sources used for new or changed tool metadata.
-- [ ] Uncertain metadata marked as `unknown`.
+- [ ] Uncertain metadata marked as `not specified`.
 - [ ] Descriptions are factual and neutral.
 
 ## Checks
