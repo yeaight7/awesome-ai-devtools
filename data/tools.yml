@@ -233,6 +233,38 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/zouyingcao/agentskills-mcp
+- slug: ai-document-creator
+  name: AI Document Creator
+  description: GitHub app that auto-generates and updates multi-level repository documentation via pull requests.
+  website_url: https://woden-ai.com
+  docs_url: https://github.com/marketplace/ai-document-creator
+  categories:
+    - documentation-agents
+  tags:
+    - agents
+    - automation
+    - codebase-docs
+    - developer-experience
+    - docs-as-code
+    - documentation
+    - markdown
+    - pull-requests
+    - repo-analysis
+  interfaces:
+    - github-app
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Watches repos and PRs to build and sync per-file, directory, and repository index docs using AI, configurable via .github/wai-docbot.yml. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/apps/ai-document-creator
+    - https://github.com/marketplace/ai-document-creator
+    - https://woden-ai.com
+    - https://woden-ai.com/setup/docbot
 - slug: ai-agent-browser-use-webui
   name: AI-Agent (Browser-Use WebUI)
   description: Open-source web UI that lets AI control browsers via Browser Use, handling tasks like opening pages, filling forms, and running workflows.
@@ -259,6 +291,62 @@
   sources:
     - https://github.com/browser-use/browser-use
     - https://github.com/kiranimmadi2/AI-Agent
+- slug: ai-doc-gen
+  name: ai-doc-gen
+  description: Multi-agent CLI that analyzes codebases and generates repository documentation and READMEs using LLMs.
+  website_url: https://github.com/divar-ir/ai-doc-gen
+  repo_url: https://github.com/divar-ir/ai-doc-gen
+  docs_url: https://github.com/divar-ir/ai-doc-gen
+  categories:
+    - documentation-agents
+  tags:
+    - agents
+    - automation
+    - codebase-docs
+    - documentation
+    - markdown
+    - open-source
+    - repo-analysis
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates comprehensive README-style docs from repositories with multi-agent analysis and GitLab integration for merge requests. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/divar-ir/ai-doc-gen
+    - https://www.libhunt.com/compare-ai-doc-gen-vs-agentUniverse
+- slug: ai-smart-doc-generator
+  name: ai-smart-doc-generator
+  description: Production-ready app that analyzes uploaded project archives and generates functional, technical, or architecture docs.
+  website_url: https://github.com/madakkuni/ai-smart-doc-generator
+  repo_url: https://github.com/madakkuni/ai-smart-doc-generator
+  docs_url: https://github.com/madakkuni/ai-smart-doc-generator
+  categories:
+    - documentation-agents
+  tags:
+    - automation
+    - codebase-docs
+    - documentation
+    - markdown
+    - open-source
+    - repo-analysis
+  interfaces:
+    - web-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Parses ZIP projects, detects tech stack, and emits Markdown reports for functional, technical, and architecture documentation. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/madakkuni/ai-smart-doc-generator
+    - https://github.com/topics/ai-documentation-generator
+    - https://github.com/topics/genai-documentation
 - slug: aider
   name: Aider
   description: Open-source terminal pair programmer that edits tracked files in a local Git repository.
@@ -286,6 +374,35 @@
     - https://aider.chat/
     - https://aider.chat/docs/
     - https://github.com/Aider-AI/aider
+- slug: aigne-docsmith
+  name: AIGNE DocSmith
+  description: AI-driven documentation generator that builds structured multi-language docs directly from code repositories.
+  website_url: https://www.aigne.io
+  repo_url: https://github.com/AIGNE-io/aigne-doc-smith
+  docs_url: https://github.com/AIGNE-io/aigne-doc-smith
+  categories:
+    - documentation-agents
+  tags:
+    - agents
+    - api-docs
+    - automation
+    - codebase-docs
+    - documentation
+    - markdown
+    - open-source
+  interfaces:
+    - cli
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Analyzes workspaces to generate technical docs, user guides, API references, tutorials, and localized documentation with one-click publishing workflows. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/AIGNE-io/aigne-doc-smith
+    - https://shyft.ai/skills/aigne-doc-smith
+    - https://www.aigne.io
 - slug: amazon-cloudwatch-genai-observability
   name: Amazon CloudWatch GenAI Observability
   description: CloudWatch capabilities for monitoring and tracing generative AI agents, workloads, and quality metrics on AWS.
@@ -716,6 +833,58 @@
     - https://docs.augmentcode.com/introduction
     - https://docs.augmentcode.com/using-augment/agent
     - https://www.augmentcode.com/
+- slug: auto-documentation-docstrings-action
+  name: Auto Documentation & Docstrings Action
+  description: GitHub Action that auto-generates docstrings and documentation files for multi-language codebases using LLMs.
+  website_url: https://github.com/marketplace/actions/auto-documentation-docstrings
+  docs_url: https://github.com/marketplace/actions/auto-documentation-docstrings
+  categories:
+    - documentation-agents
+  tags:
+    - automation
+    - codebase-docs
+    - developer-experience
+    - documentation
+    - pull-requests
+    - repo-analysis
+  interfaces:
+    - github-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Identifies under-documented files, generates language-specific docstrings, and can create branches with documentation changes for review. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/auto-documentation-docstrings
+- slug: autocodedocs
+  name: AutoCodeDocs
+  description: Hosted tool that analyzes code and generates structured Markdown documentation, READMEs, and API references.
+  website_url: https://autocodedocs.ai
+  docs_url: https://autocodedocs.ai
+  categories:
+    - documentation-agents
+  tags:
+    - api-docs
+    - automation
+    - codebase-docs
+    - developer-experience
+    - documentation
+    - markdown
+  interfaces:
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Drag-and-drop web app that outputs Markdown and Swagger/OpenAPI, adds inline comments, and supports many languages without setup. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://autocodedocs.ai
+    - https://dynamicbusiness.com/ai-tools/autocodedocs-ai-code-documentation.html
+    - https://www.eliteai.tools/tool/autocodedocs
 - slug: autogptq
   name: AutoGPTQ
   description: Python library for GPTQ weight-only quantization of Transformer language models for efficient local inference.
@@ -887,6 +1056,32 @@
   sources:
     - https://awslabs.github.io/agent-evaluation/
     - https://github.com/awslabs/agent-evaluation
+- slug: aws-documentation-mcp-server
+  name: AWS Documentation MCP Server
+  description: MCP server that exposes AWS documentation search and retrieval tools to AI assistants.
+  website_url: https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server
+  repo_url: https://github.com/awslabs/mcp
+  docs_url: https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server
+  categories:
+    - documentation-agents
+  tags:
+    - ai-search
+    - developer-experience
+    - documentation
+    - mcp
+    - open-source
+  interfaces:
+    - mcp-server
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements tools to read AWS docs as Markdown, search docs via official APIs, fetch sections, and get content recommendations for use in MCP clients. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/awslabs/mcp
+    - https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server
 - slug: azure-devops-skills
   name: Azure DevOps Skills
   description: Example skills for GitHub Copilot integrating with Azure DevOps via MCP server for work items, iterations, and builds.
@@ -1388,6 +1583,37 @@
   sources:
     - https://github.com/cline/prompts
     - https://www.reddit.com/r/CLine/comments/1kh8iwo/new_clinerules_library_github_repo_from_the_cline/
+- slug: code2docs
+  name: Code2Docs
+  description: AI system and CLI that converts GitHub repositories into structured markdown documentation and exports docs.
+  website_url: https://github.com/code2docs-ai
+  repo_url: https://github.com/xKarinSan/Code2Docs
+  docs_url: https://github.com/code2docs-ai
+  categories:
+    - documentation-agents
+  tags:
+    - automation
+    - codebase-docs
+    - developer-experience
+    - docs-as-code
+    - documentation
+    - markdown
+    - open-source
+    - repo-analysis
+  interfaces:
+    - cli
+    - web-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides web UI, GitHub Action workflows, and a CLI that parse repositories to generate usage guides, API docs, testing instructions, and README content. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/code2docs-ai
+    - https://github.com/xKarinSan/Code2Docs
+    - https://www.automateed.com/code2docs-review
 - slug: coderabbit
   name: CodeRabbit
   description: AI code review agent for pull requests, local IDE review, and terminal-based review workflows.
@@ -1748,6 +1974,38 @@
     - https://deepchecks.com/deepchecks-llm-evaluation/
     - https://deepchecks.com/llm-evaluation/
     - https://github.com/deepchecks/llm-evals-demos
+- slug: deepdocs
+  name: DeepDocs
+  description: GitHub-native AI agent that keeps READMEs, API docs, SDK guides, and tutorials in sync with code changes.
+  website_url: https://deepdocs.dev
+  docs_url: https://deepdocs.dev/homepage/
+  categories:
+    - documentation-agents
+  tags:
+    - agents
+    - api-docs
+    - automation
+    - codebase-docs
+    - developer-experience
+    - docs-as-code
+    - documentation
+    - markdown
+    - pull-requests
+    - repo-analysis
+  interfaces:
+    - github-app
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs in CI and GitHub to detect outdated docs, auto-edit documentation after PRs, and report what changed and why. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://aitools.inc/tools/deepdocs
+    - https://deepdocs.dev
+    - https://deepdocs.dev/homepage/
 - slug: deepeval
   name: DeepEval
   description: Python framework for unit testing and benchmarking LLM applications, RAG systems, and agents with research-backed metrics.
@@ -1814,6 +2072,34 @@
     - https://genezio-deepteam.readthedocs.io/en/latest/
     - https://github.com/confident-ai/deepteam
     - https://www.helpnetsecurity.com/2025/11/26/deepteam-open-source-llm-red-teaming-framework/
+- slug: deepwiki
+  name: DeepWiki
+  description: AI-powered service that turns GitHub repositories into interactive wiki-style documentation with Q&A.
+  website_url: https://deepwiki.com
+  docs_url: https://deepwiki.directory
+  categories:
+    - documentation-agents
+  tags:
+    - agents
+    - ai-search
+    - codebase-docs
+    - developer-experience
+    - documentation
+    - markdown
+    - repo-analysis
+  interfaces:
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Analyzes codebase structure and existing docs to generate architecture overviews, component explanations, and supports natural-language questions per repo. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://deepwiki.com
+    - https://deepwiki.directory
+    - https://dev.to/czmilo/deepwiki-ai-driven-revolution-in-code-documentation-1jb4
 - slug: devbox-ai-dev-stack
   name: DevBox AI Dev Stack
   description: Zero-trust dev environment repository including an AI dev stack installer for Docker-based tools on a VPS.
@@ -1842,6 +2128,29 @@
   sources:
     - https://github.com/gl0bal01/devbox
     - https://github.com/gl0bal01/devbox#readme
+- slug: developer-documentation-ai-assistant
+  name: Developer Documentation AI Assistant
+  description: Open-source RAG-based system for citation-aware AI search over developer documentation.
+  website_url: https://www.linkedin.com/posts/ephrem0001_developerproductivity-documentation-aitools-activity-7370959376548929536-mLz5
+  categories:
+    - documentation-agents
+  tags:
+    - ai-search
+    - developer-experience
+    - documentation
+    - open-source
+    - rag
+  interfaces:
+    - framework
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements dual-stage retrieval and citation-aware RAG to deliver fully attributed technical answers and reduce hallucinations for documentation queries. confidence: low uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://www.linkedin.com/posts/ephrem0001_developerproductivity-documentation-aitools-activity-7370959376548929536-mLz5
 - slug: devin
   name: Devin
   description: Cloud software engineering agent for teams that works on repositories and can run tasks in parallel.
@@ -1935,6 +2244,167 @@
     - https://docs.docker.com/ai/model-runner/
     - https://localaimaster.com/blog/docker-model-runner-guide
     - https://www.docker.com/products/model-runner
+- slug: docmind
+  name: DocMind
+  description: CLI that uses GitHub API and LLMs to generate detailed README files for public repositories.
+  website_url: https://github.com/kanugurajesh/DocMind
+  repo_url: https://github.com/kanugurajesh/DocMind
+  docs_url: https://github.com/kanugurajesh/DocMind
+  categories:
+    - documentation-agents
+  tags:
+    - automation
+    - codebase-docs
+    - documentation
+    - markdown
+    - open-source
+    - repo-analysis
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Fetches repository structure, feeds it to an LLM via LangChain, and synthesizes comprehensive README content including installation, usage, and features. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/kanugurajesh/DocMind
+- slug: docs-dev
+  name: Docs.dev
+  description: AI-assisted docs-as-code platform that generates and audits Markdown documentation from your codebase.
+  website_url: https://docs.dev
+  docs_url: https://learn.docs.dev/
+  categories:
+    - documentation-agents
+  tags:
+    - automation
+    - codebase-docs
+    - developer-experience
+    - docs-as-code
+    - documentation
+    - markdown
+    - repo-analysis
+  interfaces:
+    - github-app
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Connects to GitHub to generate docs from code and existing markdown, audit and analyze large doc sets, and can be triggered directly from GitHub comments. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.dev
+    - https://learn.docs.dev/
+    - https://news.ycombinator.com/item?id=43472239
+- slug: docudoodle
+  name: Docudoodle
+  description: PHP-focused AI documentation generator that creates Markdown docs from existing codebases.
+  website_url: https://github.com/genericmilk/docudoodle
+  repo_url: https://github.com/genericmilk/docudoodle
+  docs_url: https://github.com/genericmilk/docudoodle
+  categories:
+    - documentation-agents
+  tags:
+    - automation
+    - codebase-docs
+    - documentation
+    - markdown
+    - open-source
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Analyzes PHP applications to generate detailed Markdown documentation while skipping already documented files to support incremental top-up runs. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/genericmilk/docudoodle
+- slug: documentation-ai
+  name: Documentation.AI
+  description: AI documentation platform for product docs, API references, and internal knowledge with assistant and automation.
+  website_url: https://documentation.ai
+  docs_url: https://documentation.ai
+  categories:
+    - documentation-agents
+  tags:
+    - ai-search
+    - api-docs
+    - developer-experience
+    - docs-as-code
+    - documentation
+    - markdown
+    - rag
+  interfaces:
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates and updates API docs and help centers, offers interactive API playgrounds, and plans agent features that monitor commits and support signals for outdated docs. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://documentation.ai
+    - https://documentation.ai/blog/ai-tools-for-documentation
+    - https://documentation.ai/blog/api-documentation-tools
+- slug: docuwriter-ai
+  name: DocuWriter.ai
+  description: AI code documentation tool that generates comprehensive docs, API references, and diagrams from repositories.
+  website_url: https://www.docuwriter.ai
+  docs_url: https://www.docuwriter.ai/code-documentation
+  categories:
+    - documentation-agents
+  tags:
+    - api-docs
+    - automation
+    - codebase-docs
+    - developer-experience
+    - docs-as-code
+    - documentation
+    - markdown
+    - repo-analysis
+  interfaces:
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Connects to Git repositories or accepts source uploads to produce end-user, API, library, database, and deployment documentation plus UML and DocBlock comments. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://www.docuwriter.ai
+    - https://www.docuwriter.ai/ai-code-documentation-generator
+    - https://www.docuwriter.ai/code-documentation
+- slug: docwhizz
+  name: DocWhizz
+  description: AI assistant embedded in developer docs that answers API questions and highlights documentation gaps.
+  website_url: https://www.docwhizz.com
+  docs_url: https://www.docwhizz.com
+  categories:
+    - documentation-agents
+  tags:
+    - ai-search
+    - api-docs
+    - developer-experience
+    - documentation
+  interfaces:
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides plug-and-play chat assistant for API docs that gives personalized examples, analytics, and feedback to improve documentation quality over time. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://aitools.fyi/compare/docwhizz-vs-code-llama
+    - https://www.docwhizz.com
 - slug: dotskills
   name: dotskills
   description: Personal .skills repository for Codex, Cursor, and OpenClaw with reusable skill units bundling prompts, scripts, and validation workflows.
@@ -2431,6 +2901,115 @@
     - https://developers.google.com/gemini-code-assist
     - https://developers.google.com/gemini-code-assist/docs/overview
     - https://developers.google.com/gemini-code-assist/docs/set-up-code-assist-github
+- slug: generate-ai-documentation-action
+  name: Generate AI Documentation Action
+  description: GitHub Action that generates full HTML documentation pages from source code using OpenAI models.
+  website_url: https://github.com/marketplace/actions/generate-ai-documentation
+  docs_url: https://github.com/marketplace/actions/generate-ai-documentation
+  categories:
+    - documentation-agents
+  tags:
+    - automation
+    - codebase-docs
+    - developer-experience
+    - documentation
+    - pull-requests
+    - repo-analysis
+  interfaces:
+    - github-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Scans code folders, sends files to OpenAI, and writes styled Tailwind HTML docs under docs/ with per-file explanations and usage examples. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/generate-ai-documentation
+- slug: gitbook-ai-assistant-agent
+  name: GitBook AI (Assistant & Agent)
+  description: AI-native documentation assistant and agent for writing, updating, and searching GitBook docs.
+  website_url: https://www.gitbook.com
+  docs_url: https://gitbook.com/docs
+  categories:
+    - documentation-agents
+  tags:
+    - ai-search
+    - api-docs
+    - developer-experience
+    - docs-as-code
+    - documentation
+    - markdown
+    - mcp
+    - mdx
+  interfaces:
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides AI Assistant trained on docs, GitBook Agent for editing and maintaining documentation, semantic AI search, and MCP connections to external tools. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://gitbook.com/docs
+    - https://gitbook.com/docs/getting-started/ai-documentation
+    - https://www.gitbook.com
+- slug: gitcrafts
+  name: GitCrafts
+  description: Hosted assistant that generates professional documentation for GitHub repositories using AI.
+  website_url: https://gitcrafts.pro
+  docs_url: https://gitcrafts.pro
+  categories:
+    - documentation-agents
+  tags:
+    - automation
+    - codebase-docs
+    - developer-experience
+    - documentation
+    - markdown
+    - repo-analysis
+  interfaces:
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Connects to GitHub, lets users pick repos and doc types, and outputs docs as files or ZIPs for inclusion in projects. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://gitcrafts.pro
+    - https://www.gitcrafts.pro/pricing
+    - https://www.reddit.com/r/nairobitechies/comments/1pn4fsn/i_built_gitcrafts_an_ai_documentation_generator/
+- slug: gitdocs-ai
+  name: Gitdocs AI
+  description: AI-powered README generator and developer documentation platform integrated with Git hosting.
+  website_url: https://www.gitdocs.cloud
+  docs_url: https://gitdocs.space
+  categories:
+    - documentation-agents
+  tags:
+    - automation
+    - codebase-docs
+    - developer-experience
+    - docs-as-code
+    - documentation
+    - markdown
+    - repo-analysis
+  interfaces:
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Analyzes repositories to generate or improve READMEs, supports customizable templates, Git integration, and direct commits back to repos. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://dev.to/abhas_kumar_/introducing-gitdocs-ai-supercharge-your-github-repositories-with-ai-powered-documentation-2l0o
+    - https://gitdocs.space
+    - https://www.gitdocs.cloud
 - slug: github-copilot
   name: GitHub Copilot
   description: GitHub AI coding assistant for IDEs and GitHub workflows, including code suggestions, chat, and pull request support.
@@ -2477,6 +3056,60 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/github/github-mcp-server
+- slug: github-pages-documentation-mcp-server
+  name: GitHub Pages Documentation MCP Server
+  description: MCP server that analyzes repos and generates GitHub Pages documentation workflows and content.
+  website_url: https://www.pulsemcp.com/servers/tosin2013-github-pages-docs
+  docs_url: https://www.pulsemcp.com/servers/tosin2013-github-pages-docs
+  categories:
+    - documentation-agents
+  tags:
+    - automation
+    - developer-experience
+    - docs-as-code
+    - documentation
+    - markdown
+    - mcp
+    - repo-analysis
+  interfaces:
+    - mcp-server
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates Diataxis-structured documentation, recommends static site generators, and creates full deployment workflows for GitHub Pages from repository analysis. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://www.pulsemcp.com/servers/tosin2013-github-pages-docs
+- slug: google-developer-knowledge-api-mcp-server
+  name: Google Developer Knowledge API & MCP Server
+  description: API and MCP server that let AI tools search and retrieve Google developer documentation as Markdown.
+  website_url: https://developers.google.com/knowledge/api
+  docs_url: https://developers.google.com/knowledge/mcp
+  categories:
+    - documentation-agents
+  tags:
+    - agents
+    - ai-search
+    - api-docs
+    - developer-experience
+    - documentation
+    - mcp
+  interfaces:
+    - api
+    - mcp-server
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides SearchDocumentChunks, GetDocument, and AnswerQuery endpoints plus an MCP server so IDEs and agents can ground answers in up-to-date Google docs. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://developers.google.com/knowledge/api
+    - https://developers.google.com/knowledge/mcp
+    - https://developers.googleblog.com/introducing-the-developer-knowledge-api-and-mcp-server/
 - slug: google-mcp-servers
   name: Google MCP Servers
   description: Collection of Google MCP servers for Google Cloud services such as BigQuery, Maps, Cloud SQL, and Cloud Storage.
@@ -3379,6 +4012,31 @@
     - https://github.com/run-llama/llama_index
     - https://www.llamaindex.ai
     - https://www.llamaindex.ai/blog/using-llamaindex-and-llamafile-to-build-a-local-private-research-assistant
+- slug: llamaindex-documentation-mcp-server
+  name: LlamaIndex Documentation MCP Server
+  description: Self-hosted MCP server that indexes and serves LlamaIndex documentation over HTTP for AI tooling.
+  website_url: https://github.com/LiteObject/llamaindex-mcp-server
+  repo_url: https://github.com/LiteObject/llamaindex-mcp-server
+  docs_url: https://github.com/LiteObject/llamaindex-mcp-server
+  categories:
+    - documentation-agents
+  tags:
+    - ai-search
+    - developer-experience
+    - documentation
+    - mcp
+    - open-source
+  interfaces:
+    - mcp-server
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs as a FastAPI service with search and fetch endpoints, containerized deployment, caching, and VS Code Copilot MCP integration for LlamaIndex docs. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/LiteObject/llamaindex-mcp-server
 - slug: llm-agents-evaluation-framework
   name: LLM Agents Evaluation Framework
   description: Framework for evaluating and monitoring LLM-based agents with support for RAG agents and multiple configuration variants.
@@ -4200,6 +4858,39 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/microsoft/skills
+- slug: mintlify
+  name: Mintlify
+  description: AI-native documentation platform that generates and maintains docs and API references from repositories.
+  website_url: https://www.mintlify.com
+  docs_url: https://www.mintlify.com/docs
+  categories:
+    - documentation-agents
+  tags:
+    - ai-search
+    - api-docs
+    - automation
+    - codebase-docs
+    - developer-experience
+    - docs-as-code
+    - documentation
+    - markdown
+    - mdx
+    - pull-requests
+    - repo-analysis
+  interfaces:
+    - github-app
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes repo-to-site generator, continuous documentation via GitHub apps that scan PRs, interactive API playgrounds, and AI-native reading and maintenance features. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://www.mintlify.com
+    - https://www.mintlify.com/blog/auto-generate-docs-from-repos
+    - https://www.mintlify.com/docs
 - slug: mistral-inference
   name: Mistral Inference
   description: Official inference library for running Mistral models via CLI and Python on local or server hardware.
@@ -5421,6 +6112,33 @@
     - https://posthog.com/docs/ai-engineering
     - https://posthog.com/docs/ai-engineering/llm-analytics
     - https://www.youtube.com/watch?v=wonEbaSnzOI
+- slug: proactive-documentation-assistant
+  name: Proactive Documentation Assistant
+  description: Agent that monitors Git repos and suggests README and docstring updates based on code changes.
+  website_url: https://github.com/hans992/Proactive_Documentation_Assistant
+  repo_url: https://github.com/hans992/Proactive_Documentation_Assistant
+  docs_url: https://github.com/hans992/Proactive_Documentation_Assistant
+  categories:
+    - documentation-agents
+  tags:
+    - agents
+    - automation
+    - codebase-docs
+    - documentation
+    - markdown
+    - open-source
+    - repo-analysis
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses GitPython, AST, and an LLM to analyze changed Python code and existing README content to propose docstring and README edits stored for review. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/hans992/Proactive_Documentation_Assistant
 - slug: promptfoo
   name: Promptfoo
   description: Open-source framework and CLI for testing prompts, models, RAG pipelines, and LLM security via automated evals and red teaming.
@@ -5594,6 +6312,34 @@
     - https://docs.qodo.ai/
     - https://docs.qodo.ai/qodo-ide
     - https://www.qodo.ai/
+- slug: quickgithub
+  name: QuickGitHub
+  description: Open-source service that generates multi-page system design documentation for any public GitHub repository.
+  website_url: https://quickgithub.com
+  repo_url: https://github.com/stym06/quickgithub
+  docs_url: https://github.com/stym06/quickgithub
+  categories:
+    - documentation-agents
+  tags:
+    - ai-search
+    - codebase-docs
+    - developer-experience
+    - documentation
+    - markdown
+    - repo-analysis
+  interfaces:
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Produces system overview, architecture diagrams, tech stack, key modules, entry points, dependencies, setup guides, and a Q&A chat for repositories. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/stym06/quickgithub
+    - https://news.ycombinator.com/item?id=46988855
+    - https://quickgithub.com
 - slug: qwen-code
   name: Qwen Code
   description: Open-source terminal coding agent optimized for Qwen models and large repository tasks.
@@ -5743,6 +6489,35 @@
     - https://docs.ragas.io/en/latest/
     - https://docs.ragas.io/en/latest/tutorials/rag/
     - https://github.com/vibrantlabsai/ragas
+- slug: readme-agent-ask-ai
+  name: ReadMe Agent & Ask AI
+  description: AI documentation assistant for ReadMe that edits docs and answers user questions grounded in API docs.
+  website_url: https://readme.com
+  docs_url: https://docs.readme.com/main/docs/aiagent
+  categories:
+    - documentation-agents
+  tags:
+    - agents
+    - ai-search
+    - api-docs
+    - developer-experience
+    - docs-as-code
+    - documentation
+    - markdown
+    - mdx
+  interfaces:
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Agent Owlbert can write and refactor docs, fix linter errors, audit content, and Ask AI provides source-linked answers to users based on the hub documentation. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.readme.com/main/docs/aiagent
+    - https://docs.readme.com/main/docs/ask-ai
+    - https://readme.com
 - slug: redis-ollama-rag-stack
   name: Redis + Ollama RAG Stack
   description: Docker-based stack using RedisVL, Ollama, FastAPI, and RQ worker to build a local RAG pipeline.
@@ -5808,6 +6583,33 @@
     - https://docs.refact.ai/
     - https://refact.ai/
     - https://refact.ai/blog/2025/how-to-create-an-mcp-server-using-refact-ai-agent/
+- slug: repogpt
+  name: RepoGPT
+  description: Open-source GitHub assistant that can generate documentation and answer questions about repositories.
+  website_url: https://github.com/mbarinov/repogpt
+  repo_url: https://github.com/mbarinov/repogpt
+  docs_url: https://github.com/mbarinov/repogpt
+  categories:
+    - documentation-agents
+  tags:
+    - agents
+    - ai-search
+    - codebase-docs
+    - developer-experience
+    - documentation
+    - open-source
+    - repo-analysis
+  interfaces:
+    - web-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides chat interface over repositories with features for documentation generation and code insights backed by vector search. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/mbarinov/repogpt
 - slug: respan
   name: Respan
   description: LLM engineering platform that unifies observability, evals, prompt optimization, and gateway for AI applications.
@@ -6211,6 +7013,33 @@
   sources:
     - https://github.com/steel-dev/steel-browser
     - https://steel.dev
+- slug: stenography
+  name: Stenography
+  description: AI-powered codebase documenter with API and editor extensions for automatic code explanations and docs.
+  website_url: https://stenography.dev
+  docs_url: https://stenography.dev
+  categories:
+    - documentation-agents
+  tags:
+    - ai-search
+    - api-docs
+    - codebase-docs
+    - developer-experience
+    - documentation
+  interfaces:
+    - api
+    - ide-extension
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers an API plus VS Code and Chrome extensions that parse code and return plain-English explanations, suggestions, and linked documentation in real time. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://stenography.dev
+    - https://theresanaiforthat.com/ai/stenography/
+    - https://www.toolscope.io/tools/stenography
 - slug: supabase-mcp-server
   name: Supabase MCP Server
   description: Official Supabase MCP server for connecting AI assistants to Supabase projects and database operations.
