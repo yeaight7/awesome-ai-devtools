@@ -23,12 +23,82 @@ const ARTIFACT_PATTERNS: RegExp[] = [/\[web:/, /filecite/, /<file_attachment/, /
 const TOOL_DESCRIPTION_MIN = 40;
 const TOOL_DESCRIPTION_MAX = 180;
 const KNOWN_EVIDENCE_HOSTS = new Set([
+  // Package registries and ecosystems
   "arxiv.org",
   "crates.io",
+  "ecosyste.ms",
+  "hexdocs.pm",
   "marketplace.visualstudio.com",
   "npmjs.com",
   "pkg.go.dev",
-  "pypi.org"
+  "pypi.org",
+  // Documentation hosting
+  "github.io",
+  "githubusercontent.com",
+  "mintlify.wiki",
+  "readthedocs.io",
+  // Research
+  "aclanthology.org",
+  "tmlr.org",
+  // MCP ecosystem
+  "mcpservers.org",
+  "modelcontextprotocol.info",
+  "modelcontextprotocol.io",
+  "smithery.ai",
+  // Community and news
+  "dev.to",
+  "dzone.com",
+  "helpnetsecurity.com",
+  "linkedin.com",
+  "reddit.com",
+  "venturebeat.com",
+  "ycombinator.com",
+  "youtube.com",
+  // Official tech company sites used as evidence
+  "ai-sdk.dev",
+  "augmentcode.com",
+  "browserless.io",
+  "cognee.ai",
+  "composio.dev",
+  "digitalocean.com",
+  "go.dev",
+  "google.com",
+  "googleblog.com",
+  "ibm.com",
+  "langchain.com",
+  "lfaidata.foundation",
+  "lobehub.com",
+  "mem0.ai",
+  "microsoft.com",
+  "mistral.ai",
+  "newreleases.io",
+  "openai.com",
+  "openobserve.ai",
+  "pulumi.com",
+  "redhat.com",
+  // Education and tutorials
+  "datacamp.com",
+  "realpython.com",
+  // Secondary evidence: blogs, adopter sites, tracking
+  "automateed.com",
+  "byteiota.com",
+  "colaberry.ai",
+  "davemateer.com",
+  "discoveredlabs.com",
+  "dynamicbusiness.com",
+  "f4.fund",
+  "fluidattacks.com",
+  "latitude.so",
+  "localaimaster.com",
+  "meoadvisors.com",
+  "noze.it",
+  "pamelafox.org",
+  "progress.com",
+  "serverspace.io",
+  "shyft.ai",
+  "starlog.is",
+  "sumbits.ai",
+  "theodo.com",
 ]);
 
 export interface ValidationOptions {
