@@ -67,6 +67,7 @@ const START_HERE_GROUPS = [
 ] as const;
 
 const MATRIX_LIMIT = 50;
+export const DRAFT_QUEUE_LIMIT = 20;
 
 export function buildReadme(catalog: CatalogData): string {
   const sorted = sortTools(catalog.tools);
@@ -106,7 +107,7 @@ export function buildReadme(catalog: CatalogData): string {
     "",
     "| Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |",
     "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
-    ...selectMatrixTools(reviewedTools).map((tool) => renderMatrixRow(tool, categoryBySlug)),
+    ...selectMatrixTools(reviewedTools).map((tool) => renderMatrixRow(tool, catalog.categories)),
     "",
     "## Browse The Shelves",
     ""
@@ -141,7 +142,13 @@ export function buildReadme(catalog: CatalogData): string {
       ? [
           "| Tool | Suggested shelf | Review note | Links |",
           "| --- | --- | --- | --- |",
-          ...draftTools.map((tool) => renderReviewQueueRow(tool, categoryBySlug)),
+          ...draftTools.slice(0, DRAFT_QUEUE_LIMIT).map((tool) => renderReviewQueueRow(tool, catalog.categories)),
+          ...(draftTools.length > DRAFT_QUEUE_LIMIT
+            ? [
+                "",
+                `_Showing ${DRAFT_QUEUE_LIMIT} of ${draftTools.length} draft entries. Full queue in \`data/tools.yml\`._`
+              ]
+            : []),
           ""
         ]
       : []),
@@ -229,10 +236,10 @@ function renderToolRow(tool: Tool): string {
   ].join(" | ");
 }
 
-function renderMatrixRow(tool: Tool, categoryBySlug: Map<string, Category>): string {
+function renderMatrixRow(tool: Tool, orderedCategories: Category[]): string {
   return [
     `| [${escapeTable(tool.name)}](${tool.website_url})`,
-    escapeTable(mainShelf(tool, categoryBySlug)),
+    escapeTable(mainShelf(tool, orderedCategories)),
     yesNo(isOpenSource(tool)),
     yesNo(isLocal(tool)),
     yesNo(isSelfHosted(tool)),
@@ -243,10 +250,10 @@ function renderMatrixRow(tool: Tool, categoryBySlug: Map<string, Category>): str
   ].join(" | ");
 }
 
-function renderReviewQueueRow(tool: Tool, categoryBySlug: Map<string, Category>): string {
+function renderReviewQueueRow(tool: Tool, orderedCategories: Category[]): string {
   return [
     `| [${escapeTable(tool.name)}](${tool.website_url})`,
-    escapeTable(mainShelf(tool, categoryBySlug)),
+    escapeTable(mainShelf(tool, orderedCategories)),
     escapeTable(tool.review_notes ?? "Needs metadata review."),
     `${renderLinks(tool)} |`
   ].join(" | ");
@@ -303,8 +310,9 @@ function matrixScore(tool: Tool): number {
   return score;
 }
 
-function mainShelf(tool: Tool, categoryBySlug: Map<string, Category>): string {
-  return categoryBySlug.get(tool.categories[0])?.name ?? titleize(tool.categories[0] ?? "not specified");
+function mainShelf(tool: Tool, orderedCategories: Category[]): string {
+  const match = orderedCategories.find((cat) => tool.categories.includes(cat.slug));
+  return match?.name ?? titleize(tool.categories[0] ?? "not specified");
 }
 
 function isOpenSource(tool: Tool): boolean {
