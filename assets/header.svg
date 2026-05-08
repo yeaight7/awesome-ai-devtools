@@ -1,0 +1,94 @@
+<svg width="1000" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- CRT screen glow -->
+    <filter id="crtGlow">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scanlines -->
+    <pattern id="scanlines" x="0" y="0" width="100%" height="4" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="100%" height="2" fill="#000000" opacity="0.5"/>
+    </pattern>
+
+    <!-- Warm orange phosphor gradient (Anthropic-inspired) -->
+    <linearGradient id="phosphor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1c3036;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#11162f;stop-opacity:1"/>
+    </linearGradient>
+
+    <!-- Vignette -->
+    <radialGradient id="vignette">
+      <stop offset="70%" style="stop-color:#000000;stop-opacity:0"/>
+	  <stop offset="85%" style="stop-color:#000000;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.4"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Monitor bezel -->
+  <rect width="1000" height="250" rx="6" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="4"/>
+
+  <!-- Screen background -->
+  <rect x="8" y="8" width="984" height="234" rx="8" fill="url(#phosphor)"/>
+
+  <!-- Scanlines -->
+  <rect x="8" y="8" width="984" height="234" rx="8" fill="url(#scanlines)"/>
+
+  <!-- Content with CRT glow -->
+  <g filter="url(#crtGlow)">
+    <!-- Title -->
+    <text x="500" y="100" font-family="monospace" font-size="50" font-weight="bold" fill="#00E7FF" text-anchor="middle" letter-spacing="2">
+      AWESOME AI DEVTOOLS
+      <animate attributeName="opacity" values="1;0.95;1" dur="0.15s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Cursor blink after title -->
+    <rect x="780" y="64" width="16" height="40" fill="#00E7FF">
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Separator line -->
+    <line x1="220" y1="115" x2="775" y2="115" stroke="#00E7FF" stroke-width="2" opacity="0.6"/>
+
+    <!-- Tagline -->
+    <text x="500" y="140" font-family="monospace" font-size="18" fill="#00E7FF" text-anchor="middle" opacity="0.9" letter-spacing="1">
+      All roads lead here - awesome-ai-devtools will guide you now
+    </text>
+
+    <!-- Bottom info line -->
+    <text x="500" y="180" font-family="monospace" font-size="14" fill="#00E7FF" text-anchor="middle" opacity="0.7">
+      [ TERMINAL READY ] [ PRESS ANY KEY TO CONTINUE ]
+    </text>
+  </g>
+
+  <!-- Screen glare -->
+  <ellipse cx="200" cy="60" rx="150" ry="80" fill="#ffffff" opacity="0.02"/>
+
+  <!-- Vignette effect -->
+  <rect x="8" y="8" width="984" height="234" rx="10" fill="url(#vignette)"/>
+
+  <!-- Occasional static flash -->
+  <rect x="8" y="8" width="984" height="234" rx="4" fill="#FF4DA6" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0.03;0;0;0;0;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Glitch effect -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0;0;0;0" dur="7s" repeatCount="indefinite"/>
+    <rect x="100" y="45" width="200" height="2" fill="#FF4DA6"/>
+    <rect x="750" y="180" width="150" height="2" fill="#FF4DA6"/>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0;0;0;0;0;0" dur="7s" repeatCount="indefinite"/>
+    <rect x="750" y="45" width="200" height="2" fill="#6e05f8"/>
+    <rect x="100" y="180" width="150" height="2" fill="#6e05f8"/>
+  </g>
+
+  <!-- Power LED indicator -->
+  <circle cx="975" cy="25" r="3" fill="#00E7FF" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
