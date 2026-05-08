@@ -16,6 +16,9 @@
 - slug: automation
   name: Automation
   description: Automates developer workflows or repetitive tasks.
+- slug: browser-agents
+  name: Browser agents
+  description: AI agents that control or automate web browsers.
 - slug: browser-automation
   name: Browser automation
   description: Can inspect, drive, or test browser behavior.
@@ -31,12 +34,18 @@
 - slug: coding
   name: Coding
   description: Helps with writing, editing, or generating code.
+- slug: computer-use
+  name: Computer use
+  description: Agents that can interact with desktop GUI or OS.
 - slug: cost-tracking
   name: Cost tracking
   description: Tracks token usage, API costs, or spend for LLM workloads.
 - slug: data-engineering
   name: Data engineering
   description: Supports data pipeline, warehouse, or analytics development.
+- slug: data-extraction
+  name: Data extraction
+  description: Extracts structured data from websites or documents.
 - slug: database
   name: Database
   description: Integrates with or manages databases.
@@ -46,6 +55,9 @@
 - slug: debugging
   name: Debugging
   description: Helps identify and fix bugs in code or agent behavior.
+- slug: desktop-app
+  name: Desktop app
+  description: Distributed as a native desktop application.
 - slug: devops
   name: DevOps
   description: Supports DevOps workflows, CI/CD, or infrastructure tasks.
@@ -58,15 +70,27 @@
 - slug: documentation
   name: Documentation
   description: Generates or manages code documentation.
+- slug: embeddings
+  name: Embeddings
+  description: Generates or manages text/vector embeddings.
 - slug: evals
   name: Evals
   description: Supports evaluation of LLM, agent, or application behavior.
 - slug: experiments
   name: Experiments
   description: Supports ML or LLM experiment tracking and comparison.
+- slug: framework
+  name: Framework
+  description: Provides a framework or scaffolding for AI applications.
 - slug: github
   name: GitHub
   description: Integrates with GitHub workflows or pull requests.
+- slug: gpu
+  name: GPU
+  description: Requires or benefits from GPU acceleration.
+- slug: headless-browser
+  name: Headless browser
+  description: Drives a headless (UI-less) browser for automation.
 - slug: ide
   name: IDE
   description: Integrates with an editor or IDE.
@@ -94,6 +118,9 @@
 - slug: local-first
   name: Local-first
   description: Runs primarily on the developer machine.
+- slug: local-llm
+  name: Local LLM
+  description: Runs large language models locally on developer hardware.
 - slug: low-code
   name: Low-code
   description: Offers a low-code or no-code interface for AI workflows.
@@ -112,18 +139,30 @@
 - slug: observability
   name: Observability
   description: Supports tracing, monitoring, debugging, or metrics.
+- slug: offline
+  name: Offline
+  description: Can operate without internet connectivity.
 - slug: open-source
   name: Open source
   description: Released under an OSI-approved open-source license.
+- slug: openai-compatible
+  name: OpenAI-compatible
+  description: Exposes an API compatible with the OpenAI API format.
 - slug: opentelemetry
   name: OpenTelemetry
   description: Implements or integrates with OpenTelemetry tracing standards.
+- slug: playwright
+  name: Playwright
+  description: Built on or integrates with Playwright for browser automation.
 - slug: plugins
   name: Plugins
   description: Provides a plugin or extension system.
 - slug: prompt-management
   name: Prompt management
   description: Manages, versions, or experiments with prompts.
+- slug: quantization
+  name: Quantization
+  description: Supports or specializes in model quantization for efficiency.
 - slug: rag
   name: RAG
   description: Supports retrieval-augmented generation workflows.
@@ -160,6 +199,15 @@
 - slug: vscode
   name: VS Code
   description: Supports Visual Studio Code workflows.
+- slug: web-app
+  name: Web app
+  description: Provided as a browser-based web application.
+- slug: web-automation
+  name: Web automation
+  description: Automates tasks on websites or web applications.
+- slug: web-scraping
+  name: Web scraping
+  description: Scrapes or crawls web pages to extract content.
 - slug: workflow-automation
   name: Workflow automation
   description: Automates complex multi-step developer workflows.
