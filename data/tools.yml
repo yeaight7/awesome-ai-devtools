@@ -24,7 +24,7 @@
     - https://github.com/vercel-labs/agent-browser
 - slug: agent-powerups
   name: Agent Powerups
-  description: Curated power-ups for coding agents. Skills, slash commands, MCP configs, hooks, AGENTS.md templates and workflows for software engineering. Claude Code, Codex, Gemini CLI and more
+  description: Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents.
   website_url: https://github.com/yeaight7/agent-powerups
   repo_url: https://github.com/yeaight7/agent-powerups
   categories:
@@ -186,9 +186,9 @@
     - web-automation
   interfaces:
     - web-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Draft: needs-human-review."
   added: 2026-05-08
@@ -445,7 +445,6 @@
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
-    - https://docs.clore.ai/guides/ai-platforms-and-agents/anythingllm
     - https://docs.useanything.com
     - https://github.com/Mintplex-Labs/anything-llm
     - https://useanything.com
@@ -484,7 +483,6 @@
     - https://arize.com/ai-agents/agent-observability/
     - https://arize.com/docs/ax/observe/quickstart-llm
     - https://arize.com/whats-an-agent-observability-platform/
-    - https://galileo.ai/blog/galileo-vs-arize
 - slug: arize-phoenix
   name: Arize Phoenix
   description: Open-source AI observability platform with tracing, evals, datasets, and experiments for LLM, agent, and RAG systems.
@@ -3111,7 +3109,7 @@
     - template
   deployment: self-hosted
   source_model: open-source
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: Blog post entry; low quality signal — consider removing.
   added: 2026-05-08
@@ -3201,7 +3199,7 @@
     - web-app
   deployment: local
   source_model: open-source
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: GitHub Gist entry; low quality signal — consider removing.
   added: 2026-05-08
@@ -3850,7 +3848,7 @@
     - web-app
   deployment: self-hosted
   source_model: open-source
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: Tutorial blog entry; low quality signal — consider removing.
   added: 2026-05-08
@@ -4295,9 +4293,9 @@
     - api
     - browser-extension
     - framework
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Draft: needs-human-review."
   added: 2026-05-08
@@ -5446,9 +5444,9 @@
     - web-automation
   interfaces:
     - desktop-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Draft: needs-human-review."
   added: 2026-05-08
@@ -5474,9 +5472,9 @@
     - web-scraping
   interfaces:
     - mcp-server
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Draft: needs-human-review."
   added: 2026-05-08
@@ -5501,9 +5499,9 @@
   interfaces:
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Draft: needs-human-review."
   added: 2026-05-08
