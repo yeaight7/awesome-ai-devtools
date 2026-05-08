@@ -40,9 +40,9 @@
   interfaces:
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements multi-dimension scoring, training loops and prompt optimization to track agent improvements and regressions over time. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -200,9 +200,9 @@
     - cli
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides multimodal attacks, fuzzing, RL-based probes and reporting to evaluate LLM and agent robustness against jailbreaks and data leaks. confidence: high uncertain: true"
   added: 2026-05-08
@@ -645,9 +645,9 @@
   interfaces:
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides utilities for prompt testing and response validation for PHP-based LLM features, as described in GitHub topic listing. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -877,7 +877,7 @@
     - cli
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
   license: Apache-2.0
   curation_status: draft
@@ -1195,9 +1195,9 @@
     - security
   interfaces:
     - framework
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides configurable MCP server setup and reusable tools for managing DIDs, verifiable credentials, and trust registries in identity-focused agents. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -1710,9 +1710,9 @@
     - api
     - framework
     - web-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports automated scoring, golden set management, CI/CD validation and monitoring for quality, safety and regression across LLM workflows. confidence: high uncertain: true"
   added: 2026-05-08
@@ -1744,9 +1744,9 @@
     - cli
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides 50+ plug-and-play metrics including hallucination, faithfulness, toxicity, RAG and agent-specific metrics with pytest-like workflow. confidence: high uncertain: true"
   added: 2026-05-08
@@ -1776,9 +1776,9 @@
     - cli
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs local red-team campaigns using jailbreaks, prompt injections and other attacks, powered by DeepEval metrics for risk scoring. confidence: high uncertain: true"
   added: 2026-05-08
@@ -2740,7 +2740,7 @@
     - cli
   deployment: local
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: IBM-maintained CLI aimed at providing a feature-rich terminal interface to Model Context Protocol servers. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -2979,9 +2979,9 @@
   interfaces:
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers reusable evaluation components intended to plug into LangSmith and LangChain workflows for scoring LLM outputs. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -3007,9 +3007,9 @@
   interfaces:
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides output-based metrics like toxicity probability, stereotype fraction and counterfactual fairness tailored to specific LLM use cases. confidence: high uncertain: true"
   added: 2026-05-08
@@ -3101,9 +3101,9 @@
     - api
     - framework
     - web-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports datasets, evaluators, regression tests and CI integration for prompts, RAG, and agents with trace-linked experiment comparisons. confidence: high uncertain: true"
   added: 2026-05-08
@@ -3371,9 +3371,9 @@
   interfaces:
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides tools to generate agent variants, run evaluations, and compare configurations for a conversational RAG agent example. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -3424,9 +3424,9 @@
   interfaces:
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes implementations of CoT, Self-Consistency, ReAct, Tree-of-Thoughts and multi-agent debate for systematic evaluation of inference-time methods. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -3743,9 +3743,9 @@
     - model-context-protocol
   interfaces:
     - framework
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Enhanced fork of the TypeScript MCP Framework providing similar directory-based server scaffolding with additional features and transports. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -3864,9 +3864,9 @@
     - sdk
   interfaces:
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: C# SDK offers official MCP client and server packages for .NET with stable releases and Microsoft-supported guidance. confidence: high uncertain: false"
   added: 2026-05-08
@@ -3892,9 +3892,9 @@
     - registry
   interfaces:
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: CSV-style registry of known MCP clients keyed by clientinfo.name, useful for analytics, observability, and client-specific configuration. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -3922,9 +3922,9 @@
   interfaces:
     - cli
     - framework
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Framework built on the official TypeScript SDK with directory-based discovery, Zod-validated tools, stdio/SSE/HTTP transports, and optional OAuth/JWT/API-key auth. confidence: high uncertain: false"
   added: 2026-05-08
@@ -3979,7 +3979,7 @@
     - api
   deployment: hybrid
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official MCP Registry offering an open REST API and self-hostable service for server metadata and discovery. confidence: high uncertain: false"
   added: 2026-05-08
@@ -4009,7 +4009,7 @@
     - mcp-server
   deployment: self-hosted
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Acts as an MCP retriever over MCPulse or other registries, providing retrieve_mcps tools for semantic server discovery from MCP clients. confidence: medium uncertain: false"
   added: 2026-05-08
@@ -4033,9 +4033,9 @@
     - sdk
   interfaces:
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Rust SDK provides a core MCP engine with crate releases tracking protocol versions and transport fixes. confidence: high uncertain: false"
   added: 2026-05-08
@@ -4059,9 +4059,9 @@
     - template
   interfaces:
     - template
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides a scaffolded MCP server structure focused on component registries, giving developers a ready-made layout for tools, prompts, and resources. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -4084,9 +4084,9 @@
     - sdk
   interfaces:
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: MCP-B runtime provides a WebMCP polyfill so sites can expose tools and context to agents before native browser support exists. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -4115,7 +4115,7 @@
     - cli
   deployment: local
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Node-based CLI that can run MCP servers from configs or NPM, list tools, inspect schemas, and script tool calls with OAuth support. confidence: high uncertain: false"
   added: 2026-05-08
@@ -4139,9 +4139,9 @@
     - validation
   interfaces:
     - web-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Online scanner that analyzes MCP servers for issues like injection, insecure input handling, and other security weaknesses before deployment. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -4380,9 +4380,9 @@
     - registry
   interfaces:
     - desktop-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Raycast extension that surfaces MCP registries, lets developers search servers, and integrates installs into the Raycast client. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -4407,9 +4407,9 @@
     - validation
   interfaces:
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Houses the canonical MCP spec and JSON schemas that SDKs and validators rely on for protocol correctness. confidence: high uncertain: true"
   added: 2026-05-08
@@ -4434,9 +4434,9 @@
     - sdk
   interfaces:
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: TypeScript SDK implements the full MCP spec for creating servers and clients using stdio and Streamable HTTP. confidence: high uncertain: false"
   added: 2026-05-08
@@ -4608,9 +4608,9 @@
   interfaces:
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements answer relevance, context relevance and groundedness scores for RAG pipelines using open RAG-eval models specialized for this task. confidence: high uncertain: true"
   added: 2026-05-08
@@ -4775,9 +4775,9 @@
     - cli
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements UMBRELA, AutoNuggetizer and TREC-RAG metrics with connectors for Vectara, LangChain and LlamaIndex, no gold answers required. confidence: high uncertain: true"
   added: 2026-05-08
@@ -4913,9 +4913,9 @@
     - cli
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs untrusted model-generated code against test suites to compute pass rates for programming tasks, widely used for code LLM benchmarking. confidence: high uncertain: true"
   added: 2026-05-08
@@ -5418,9 +5418,9 @@
     - framework
     - library
     - web-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: YAML-driven eval suites for prompts, agents, and RAG with CI and red-teaming workflows documented. confidence: high uncertain: true"
   added: 2026-05-08
@@ -5446,9 +5446,9 @@
     - registry
   interfaces:
     - desktop-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Desktop UI inside Raycast to search, inspect, and open MCP servers indexed by the PulseMCP registry API. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -5475,7 +5475,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Online registry providing searchable MCP server catalog and JSON server descriptors used by clients and ecosystem tools. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -5529,9 +5529,9 @@
     - cli
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Benchmarks LLMs on specification-to-RTL tasks across several Python hardware DSLs with test benches and workflow scripts. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -5644,9 +5644,9 @@
     - cli
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Extends LM evaluation harness to support RAG by preparing retrieved documents and running standard benchmarks with retrieval augmentation. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -5673,9 +5673,9 @@
   interfaces:
     - cli
     - framework
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes scripts for dataset prep, embedding generation, retrieval, answer generation and metric-based evaluation for RAG systems. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -5703,9 +5703,9 @@
     - cli
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Focuses on retrieval and generation quality for RAG with metrics like faithfulness, answer relevancy and context relevancy, plus project templates. confidence: high uncertain: true"
   added: 2026-05-08
@@ -5834,7 +5834,7 @@
     - cli
     - framework
     - web-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
   license: MIT
   curation_status: draft
@@ -6091,7 +6091,7 @@
     - cli
   deployment: local
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Client-agnostic CLI for managing MCP servers: search registries, add/remove servers per client, call tools, and publish MCP servers or bundles. confidence: high uncertain: false"
   added: 2026-05-08
@@ -6120,7 +6120,7 @@
     - mcp-server
   deployment: self-hosted
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: MCP server exposing tools like find-mcp, collect-config, and install-mcp to automate discovery and installation via Smithery. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -6606,9 +6606,9 @@
     - cli
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers a modular catalog of tasks, datasets, templates and metrics, including LLM-as-judge, usable standalone or with HELM and LM-eval-harness. confidence: high uncertain: true"
   added: 2026-05-08
@@ -6667,9 +6667,9 @@
   interfaces:
     - framework
     - web-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Lets teams visually compare metrics from Open RAG Eval runs, exploring hallucination, citations and other scores across test queries. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -6697,9 +6697,9 @@
     - cli
     - framework
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports creating eval projects, running experiments and comparing techniques for agent behavior, with GitHub Actions usage implied. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -6894,9 +6894,9 @@
     - model-context-protocol
   interfaces:
     - web-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Browser-based inspector that detects WebMCP tools on pages, shows schemas, readiness scoring, and export options for MCP-compatible agents. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -6922,9 +6922,9 @@
     - sdk
   interfaces:
     - library
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Library and proposal for treating web pages as MCP servers by registering tools via navigator.modelContext for browser-based agents. confidence: high uncertain: false"
   added: 2026-05-08
