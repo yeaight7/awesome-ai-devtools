@@ -24,7 +24,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 - [Agent Skills](https://github.com/datalayer/agent-skills) - Python package to create, manage, and execute reusable code-based tool compositions for AI agents with MCP integration.
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - Repository of 232+ Claude Code skills and agent plugins convertible to 12 AI coding tools including Codex, Cursor, and Windsurf.
 - [Anthropic Skills](https://github.com/anthropics/skills) - Official public repository of Agent Skills for Claude demonstrating creative, technical, and enterprise workflow patterns.
-- [Cursor Rules](https://github.com/survivorforge/cursor-rules) - Curated collection of .cursorrules files for Cursor IDE covering React, Next.js, Python, Node.js, and more frameworks.
+- [Superpowers](https://github.com/obra/superpowers) - Core skills library for Claude Code with TDD, debugging, collaboration patterns, and systematic problem-solving techniques.
 
 ### Open-source coding agents
 
@@ -96,7 +96,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 | [Agent Skills](https://github.com/datalayer/agent-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Website](https://github.com/datalayer/agent-skills) / [Repo](https://github.com/datalayer/agent-skills) |
 | [Claude Skills](https://github.com/alirezarezvani/claude-skills) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Website](https://github.com/alirezarezvani/claude-skills) / [Repo](https://github.com/alirezarezvani/claude-skills) |
 | [Anthropic Skills](https://github.com/anthropics/skills) | Agent skill packs | Yes | Yes | No | No | No | No | [Website](https://github.com/anthropics/skills) / [Repo](https://github.com/anthropics/skills) |
-| [Cursor Rules](https://github.com/survivorforge/cursor-rules) | Agent skill packs | Yes | Yes | No | No | No | No | [Website](https://github.com/survivorforge/cursor-rules) / [Repo](https://github.com/survivorforge/cursor-rules) |
+| [Superpowers](https://github.com/obra/superpowers) | Agent skill packs | Yes | Yes | No | No | No | No | [Website](https://github.com/obra/superpowers) / [Repo](https://github.com/obra/superpowers) |
 | [Aider](https://aider.chat/) | Coding agents | Yes | Yes | No | Yes | No | No | [Website](https://aider.chat/) / [Docs](https://aider.chat/docs/) / [Repo](https://github.com/Aider-AI/aider) |
 | [Cline](https://docs.cline.bot/introduction/overview) | Browser agents | Yes | No | No | Yes | Yes | Yes | [Website](https://docs.cline.bot/introduction/overview) / [Docs](https://docs.cline.bot/introduction/overview) / [Repo](https://github.com/cline/cline) |
 | [OpenCode](https://opencode.ai/) | Coding agents | Yes | Yes | No | Yes | Yes | Yes | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
