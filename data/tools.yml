@@ -1,6 +1,6 @@
 - slug: agent-powerups
   name: Agent Powerups
-  description: Curated power-ups for coding agents. Skills, slash commands, MCP configs, hooks, AGENTS.md templates, and workflows for serious software engineering. Claude Code, Codex, Gemini CLI and more
+  description: Curated power-ups for coding agents. Skills, slash commands, MCP configs, hooks, AGENTS.md templates and workflows for software engineering. Claude Code, Codex, Gemini CLI and more
   website_url: https://github.com/yeaight7/agent-powerups
   repo_url: https://github.com/yeaight7/agent-powerups
   categories:
