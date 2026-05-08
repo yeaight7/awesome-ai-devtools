@@ -1,3 +1,28 @@
+- slug: agent-browser
+  name: Agent Browser
+  description: Rust-based headless browser automation CLI designed for AI agents, wrapping Chromium control behind a simple command-line tool.[web:38]
+  website_url: https://github.com/vercel-labs/agent-browser
+  repo_url: https://github.com/vercel-labs/agent-browser
+  docs_url: https://github.com/vercel-labs/agent-browser
+  categories:
+    - browser-agents
+  tags:
+    - automation
+    - browser-agents
+    - browser-automation
+    - headless-browser
+    - web-automation
+  interfaces:
+    - cli
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Downloads and manages Chromium, exposing commands suitable for LLM workflows that need scripted page navigation and interaction.[web:38] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/vercel-labs/agent-browser
 - slug: agent-powerups
   name: Agent Powerups
   description: Curated power-ups for coding agents. Skills, slash commands, MCP configs, hooks, AGENTS.md templates and workflows for software engineering. Claude Code, Codex, Gemini CLI and more
@@ -71,6 +96,61 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/agentskills/agentskills
+- slug: agent-e
+  name: Agent-E
+  description: Open-source agent system focused on browser automation, offering a natural-language web automation API and local agent runtime.[web:59][web:61][web:67]
+  website_url: https://github.com/EmergenceAI/Agent-E
+  repo_url: https://github.com/EmergenceAI/Agent-E
+  docs_url: https://github.com/EmergenceAI/Agent-E
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - web-automation
+    - web-scraping
+  interfaces:
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses an agent framework (AG2) to fill forms, search sites, and manage browser workflows; also powers a managed web-automation API.[web:61][web:59] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://awesome.ecosyste.ms/projects/github.com%2FEmergenceAI%2FAgent-E
+    - https://github.com/EmergenceAI/Agent-E
+- slug: agent-webvoyager
+  name: Agent-WebVoyager
+  description: Implementation showcasing an autonomous WebVoyager-style agent that navigates and extracts data from sites via visual interactions.[web:92]
+  website_url: https://github.com/mrmoxon/Agent-WebVoyager
+  repo_url: https://github.com/mrmoxon/Agent-WebVoyager
+  docs_url: https://github.com/mrmoxon/Agent-WebVoyager
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - browser-agents
+    - browser-automation
+    - data-extraction
+    - web-automation
+    - web-scraping
+  interfaces:
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses GPT-4V and LangSmith-backed tools to perform complex browsing tasks such as meta-webscrapes without site-specific APIs.[web:92] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/mrmoxon/Agent-WebVoyager
 - slug: agentskills-mcp
   name: AgentSkills MCP
   description: MCP server that brings Anthropic Agent Skills to any MCP-compatible agent with progressive disclosure architecture.
@@ -93,6 +173,32 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/zouyingcao/agentskills-mcp
+- slug: ai-agent-browser-use-webui
+  name: AI-Agent (Browser-Use WebUI)
+  description: Open-source web UI that lets AI control browsers via Browser Use, handling tasks like opening pages, filling forms, and running workflows.[web:69]
+  website_url: https://github.com/kiranimmadi2/AI-Agent
+  repo_url: https://github.com/kiranimmadi2/AI-Agent
+  docs_url: https://github.com/kiranimmadi2/AI-Agent
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - web-automation
+  interfaces:
+    - web-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements a Browser Use WebUI variant so developers can run and monitor natural-language browser agents locally.[web:69] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/browser-use/browser-use
+    - https://github.com/kiranimmadi2/AI-Agent
 - slug: aider
   name: Aider
   description: Open-source terminal pair programmer that edits tracked files in a local Git repository.
@@ -216,6 +322,34 @@
     - https://ampcode.com/
     - https://ampcode.com/manual
     - https://ampcode.com/manual/sdk
+- slug: anchor-browser
+  name: Anchor Browser
+  description: Cloud-hosted browser fleet built for AI agents, providing human-like Chromium instances and deterministic browser task execution APIs.[web:74][web:72][web:79]
+  website_url: https://anchorbrowser.io
+  docs_url: https://anchorbrowser.io
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - headless-browser
+    - web-automation
+    - web-scraping
+  interfaces:
+    - api
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Combines AI planning with deterministic scripts, offering Captcha bypass, anti-bot features, and remote browser sessions for agent workflows.[web:72][web:74][web:79] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://aiagentstore.ai/ai-agent/anchor-browser
+    - https://anchorbrowser.io
+    - https://www.browserless.io/blog/browserless-vs-anchor-browser
 - slug: anki-mcp-server
   name: Anki MCP Server
   description: MCP server that lets AI assistants interact with Anki flashcards and spaced-repetition workflows.
@@ -498,6 +632,33 @@
     - https://docs.augmentcode.com/introduction
     - https://docs.augmentcode.com/using-augment/agent
     - https://www.augmentcode.com/
+- slug: autogptq
+  name: AutoGPTQ
+  description: Python library for GPTQ weight-only quantization of Transformer language models for efficient local inference. [web:97][web:94][web:100]
+  website_url: https://github.com/AutoGPTQ/AutoGPTQ#readme
+  repo_url: https://github.com/AutoGPTQ/AutoGPTQ
+  docs_url: https://github.com/AutoGPTQ/AutoGPTQ#readme
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - devtools
+    - gpu
+    - open-source
+    - quantization
+  interfaces:
+    - library
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers APIs to quantize HF models to low-bit GPTQ formats, reducing memory and speeding up inference for local runtimes. [web:97][web:94][web:100] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/AutoGPTQ/AutoGPTQ
+    - https://github.com/AutoGPTQ/AutoGPTQ#readme
+    - https://github.com/huggingface/optimum/blob/main/docs/source/llm_quantization/usage_guides/quantization.mdx
+    - https://github.com/PanQiWei/AutoGPTQ/blob/main/docs/tutorial/01-Quick-Start.md
 - slug: awesome-agent-skills
   name: Awesome Agent Skills
   description: Community-curated directory of agent skills, tutorials, and guides for Claude, Copilot, Codex, and other AI assistants.
@@ -697,6 +858,91 @@
     - https://meoadvisors.com/ai-platforms/mlops-llmops/braintrust/
     - https://www.braintrust.dev
     - https://www.braintrust.dev/articles/best-ai-observability-platforms-2025
+- slug: browser-mcp
+  name: Browser MCP
+  description: Local MCP server and browser extension that connect AI apps to your real browser profile for automating web tasks using AI tools.[web:34]
+  website_url: https://browsermcp.io
+  docs_url: https://browsermcp.io
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - computer-use
+    - mcp
+    - web-automation
+  interfaces:
+    - browser-extension
+    - mcp-server
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Lets editors like Claude, Cursor, and VS Code automate navigation, form filling, and testing via tools that operate inside your logged-in browser.[web:34] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://aiagentstore.ai/ai-agent/browser-mcp
+    - https://browsermcp.io
+- slug: browser-use
+  name: Browser Use
+  description: Open-source Python library that lets AI agents control browsers via Playwright using natural language to navigate, extract, and automate web tasks.[web:6][web:18][web:24]
+  website_url: https://browser-use.com
+  repo_url: https://github.com/browser-use/browser-use
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - browser-agents
+    - browser-automation
+    - headless-browser
+    - playwright
+    - tool-calling
+    - web-automation
+  interfaces:
+    - api
+    - framework
+    - library
+  deployment: hybrid
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Bridges LLMs and Playwright/Chrome DevTools to build browser agents for navigation, form filling, and structured extraction.[web:18][web:19][web:21] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://browser-use.com
+    - https://dzone.com/articles/build-ai-browser-agent-llms-playwright-browser-use
+    - https://github.com/browser-use/browser-use
+- slug: browserbase
+  name: Browserbase
+  description: Cloud headless browser infrastructure built for AI agents and web automation, providing scalable browser sessions with anti-detection features.[web:25][web:42]
+  website_url: https://www.browserbase.com
+  repo_url: https://github.com/browserbase/integrations
+  docs_url: https://www.browserbase.com
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - headless-browser
+    - web-automation
+  interfaces:
+    - api
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Exposes hosted browser sessions with recording, stealth, and global infrastructure used by SDKs like Stagehand and various AI agent integrations.[web:25][web:42] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/browserbase/integrations
+    - https://www.browserbase.com
 - slug: browserbase-mcp-server
   name: Browserbase MCP Server
   description: MCP server that lets AI agents control cloud browsers through Browserbase and Stagehand.
@@ -718,6 +964,61 @@
   sources:
     - https://browserbase.com
     - https://github.com/browserbase/mcp-server-browserbase
+- slug: browserless
+  name: Browserless
+  description: Hosted headless Chrome service that exposes browser automation via APIs and MCP so AI agents can scrape, capture, and audit real web pages.[web:32][web:88][web:91]
+  website_url: https://www.browserless.io
+  docs_url: https://www.browserless.io/blog/announcing-browserless-mcp-with-ai
+  categories:
+    - browser-agents
+  tags:
+    - automation
+    - browser-agents
+    - browser-automation
+    - data-extraction
+    - headless-browser
+    - mcp
+    - web-automation
+    - web-scraping
+  interfaces:
+    - api
+    - mcp-server
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: MCP server exposes hosted Puppeteer-based browser tools so MCP clients can navigate, scrape, and run custom browser code without managing Chrome.[web:32][web:91][web:94] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://composio.dev/toolkits/browserless
+    - https://www.browserless.io
+    - https://www.browserless.io/blog/announcing-browserless-mcp-with-ai
+- slug: browserpilot
+  name: BrowserPilot
+  description: Python library that offers an intelligent web browsing agent controlled by natural language commands over a ChromeDriver-driven browser.[web:14]
+  website_url: https://github.com/handrew/browserpilot
+  repo_url: https://github.com/handrew/browserpilot
+  docs_url: https://github.com/handrew/browserpilot
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - web-automation
+  interfaces:
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses GPT models and Selenium/Chromedriver so developers can define tasks in plain English instead of brittle scraping scripts.[web:14] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/handrew/browserpilot
 - slug: cc-devops-skills
   name: CC DevOps Skills
   description: Practical agent skill pack with 31 skills for DevOps work in Claude Code and Codex including generators, validators, and debuggers.
@@ -741,6 +1042,68 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/akin-ozer/cc-devops-skills
+- slug: charlotte-mcp-server
+  name: Charlotte MCP Server
+  description: Open-source MCP server that renders web pages into structured, token-efficient representations using headless Chromium for agents.[web:71][web:73][web:81]
+  website_url: https://vibehackers.io/mcp/charlotte
+  repo_url: https://github.com/TickTockBent/charlotte
+  docs_url: https://vibehackers.io/mcp/charlotte
+  categories:
+    - browser-agents
+  tags:
+    - automation
+    - browser-agents
+    - browser-automation
+    - data-extraction
+    - headless-browser
+    - mcp
+    - web-automation
+  interfaces:
+    - mcp-server
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Maintains persistent Chromium sessions and exposes tools for navigation, observation, and structured extraction with multiple detail levels.[web:73][web:76][web:81] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/TickTockBent/charlotte
+    - https://vibehackers.io/mcp/charlotte
+    - https://www.colaberry.ai/aixcelerator/mcp/charlotte
+- slug: chromadb
+  name: ChromaDB
+  description: Lightweight vector database and Python library for local embeddings storage and RAG-style similarity search. [web:103][web:115]
+  website_url: https://www.trychroma.com
+  repo_url: https://github.com/chroma-core/chroma
+  docs_url: https://docs.trychroma.com
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - devtools
+    - docker
+    - embeddings
+    - local-first
+    - offline
+    - open-source
+    - rag
+    - self-hosted
+  interfaces:
+    - api
+    - library
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides in-memory and persistent local clients for embeddings and supports HTTP server mode for external LLM pipelines. [web:103][web:107][web:115] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.trychroma.com
+    - https://github.com/chroma-core/chroma
+    - https://realpython.com/chromadb-vector-database/
+    - https://www.trychroma.com
 - slug: chrome-devtools-mcp
   name: Chrome DevTools MCP
   description: MCP server that gives AI agents Chrome DevTools debugging capabilities for web applications.
@@ -1280,6 +1643,40 @@
     - https://docs.dify.ai
     - https://github.com/langgenius/dify
     - https://www.noze.it/en/insights/dify-llmops/
+- slug: docker-model-runner
+  name: Docker Model Runner
+  description: Docker Desktop-integrated local model runtime that runs GGUF models via an OpenAI-compatible API. [web:77][web:82][web:85]
+  website_url: https://www.docker.com/products/model-runner
+  docs_url: https://docs.docker.com/ai/model-runner/
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - cli
+    - devtools
+    - docker
+    - gpu
+    - inference
+    - local-first
+    - local-llm
+    - model-serving
+    - offline
+    - openai-compatible
+  interfaces:
+    - api
+    - cli
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides a local-first llama.cpp-powered runtime reachable via OpenAI-style endpoints from apps and CI environments. [web:77][web:82][web:85] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://dev.to/docker/from-zero-to-local-llm-a-developers-guide-to-docker-model-runner-4oi2
+    - https://docs.docker.com/ai/model-runner/
+    - https://localaimaster.com/blog/docker-model-runner-guide
+    - https://www.docker.com/products/model-runner
 - slug: dotskills
   name: dotskills
   description: Personal .skills repository for Codex, Cursor, and OpenClaw with reusable skill units bundling prompts, scripts, and validation workflows.
@@ -1473,6 +1870,35 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/exa-labs/exa-mcp-server
+- slug: exllamav2
+  name: ExLlamaV2
+  description: Inference library for running GPTQ-quantized LLMs on modern consumer GPUs with high performance. [web:95][web:93]
+  website_url: https://github.com/turboderp-org/exllamav2#readme
+  repo_url: https://github.com/turboderp-org/exllamav2
+  docs_url: https://github.com/turboderp-org/exllamav2#readme
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - devtools
+    - gpu
+    - inference
+    - local-llm
+    - open-source
+    - quantization
+  interfaces:
+    - cli
+    - library
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides Python/CUDA kernels for fast GPTQ inference, often used behind local servers such as TabbyAPI. [web:95][web:93] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/transformerlab/transformerlab-inference/blob/main/docs/exllama_v2.md
+    - https://github.com/turboderp-org/exllamav2
+    - https://github.com/turboderp-org/exllamav2#readme
 - slug: factory-droid
   name: Factory Droid
   description: Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows.
@@ -1537,6 +1963,67 @@
     - https://www.fiddler.ai/llmops
     - https://www.fiddler.ai/resources/ai-observability-for-llm-applications-and-ml-models
     - https://www.youtube.com/watch?v=073FciDBzOY
+- slug: firecrawl
+  name: Firecrawl
+  description: Open-source web data API for AI that lets agents search, scrape, and interact with the web at scale via HTTP, SDKs, CLI, and MCP.[web:84][web:87][web:90]
+  website_url: https://www.firecrawl.dev
+  repo_url: https://github.com/firecrawl/firecrawl
+  docs_url: https://www.firecrawl.dev
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - data-extraction
+    - mcp
+    - web-automation
+    - web-scraping
+  interfaces:
+    - api
+    - cli
+    - library
+    - mcp-server
+  deployment: hybrid
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Hosted API and OSS stack provide crawling, rendering, extraction, and an MCP server plus agent skills so LLMs can navigate and operate pages.[web:84][web:87][web:90] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/firecrawl/firecrawl
+    - https://www.firecrawl.dev
+    - https://www.firecrawl.dev/blog/best-browser-agents
+- slug: firecrawl-web-agent
+  name: Firecrawl Web Agent
+  description: Autonomous web data agent built on Firecrawl and browser-use to execute web tasks over an HTTP API for downstream applications.[web:68]
+  website_url: https://github.com/firecrawl/web-agent
+  repo_url: https://github.com/firecrawl/web-agent
+  docs_url: https://github.com/firecrawl/web-agent
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - data-extraction
+    - web-automation
+    - web-scraping
+  interfaces:
+    - api
+    - framework
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs a simple web agent server that accepts task descriptions and uses Firecrawl plus Playwright-based automation to navigate and extract data.[web:68] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/firecrawl/firecrawl
+    - https://github.com/firecrawl/web-agent
 - slug: flexible-graphrag-observability-stack
   name: Flexible GraphRAG Observability Stack
   description: Observability setup in Flexible GraphRAG that instruments LlamaIndex RAG apps with OTEL traces, metrics, and Grafana dashboards.
@@ -1760,6 +2247,44 @@
     - https://github.com/aaif-goose/goose
     - https://goose-docs.ai/
     - https://goose-docs.ai/docs/quickstart/
+- slug: gpt4all
+  name: GPT4All
+  description: Local LLM desktop client and Python library with optional OpenAI-compatible API server on localhost. [web:63][web:31][web:37]
+  website_url: https://gpt4all.io
+  repo_url: https://github.com/nomic-ai/gpt4all
+  docs_url: https://docs.gpt4all.io
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - desktop-app
+    - devtools
+    - embeddings
+    - inference
+    - local-first
+    - local-llm
+    - model-serving
+    - offline
+    - open-source
+    - openai-compatible
+    - rag
+    - self-hosted
+  interfaces:
+    - api
+    - desktop-app
+    - library
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Cross-platform app runs GGUF models offline and can expose them via /v1 OpenAI-style endpoints on port 4891. [web:31][web:37][web:40] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.gpt4all.io
+    - https://docs.gpt4all.io/gpt4all_api_server/home.html
+    - https://github.com/nomic-ai/gpt4all
+    - https://gpt4all.io
 - slug: grafana-genai-observability
   name: Grafana GenAI Observability
   description: Grafana Cloud dashboards and metrics for monitoring LLM application performance, token usage, and cost.
@@ -1883,6 +2408,36 @@
     - https://github.com/Helicone/helicone
     - https://mintlify.wiki/helicone/helicone/observability/overview
     - https://www.helicone.ai
+- slug: hyperagent
+  name: HyperAgent
+  description: TypeScript SDK and CLI that layers AI commands like page.ai and executeTask on top of Playwright for intelligent browser automation.[web:7]
+  website_url: https://github.com/hyperbrowserai/HyperAgent
+  repo_url: https://github.com/hyperbrowserai/HyperAgent
+  docs_url: https://github.com/hyperbrowserai/HyperAgent
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - headless-browser
+    - playwright
+    - tool-calling
+    - web-automation
+  interfaces:
+    - cli
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports AI-driven commands with fallback to raw Playwright and can scale via Hyperbrowser cloud headless browser infrastructure.[web:7] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/hyperbrowserai/HyperAgent
+    - https://www.npmjs.com/package/@hyperbrowser/agent
 - slug: ibm-instana-genai-observability
   name: IBM Instana GenAI Observability
   description: Instana module that provides GenAI observability for LLM and agentic workloads with unified tracing and metrics.
@@ -1913,6 +2468,33 @@
     - https://www.ibm.com/docs/en/instana-observability
     - https://www.ibm.com/instana
     - https://www.ibm.com/new/announcements/drive-operational-efficiency-with-gen-ai-observability
+- slug: intel-neural-compressor
+  name: Intel Neural Compressor
+  description: Open-source compression toolkit supporting quantization and pruning for deep learning and LLM workloads. [web:160]
+  website_url: https://github.com/intel/neural-compressor
+  repo_url: https://github.com/intel/neural-compressor
+  docs_url: https://intel.github.io/neural-compressor
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - devtools
+    - gpu
+    - llmops
+    - open-source
+    - quantization
+  interfaces:
+    - library
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports static and dynamic quantization plus other compression techniques across frameworks, including LLM-focused recipes. [web:160] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/intel/neural-compressor
+    - https://github.com/intel/neural-compressor#readme
+    - https://intel.github.io/neural-compressor
 - slug: invariant-testing
   name: Invariant Testing
   description: Lightweight library for writing debuggable unit tests for AI agent applications with localized assertions.
@@ -2065,6 +2647,41 @@
     - https://docs.mem0.ai/integrations/keywords
     - https://keywordsai.co
     - https://www.cognee.ai/blog/deep-dives/observability-for-semantic-workflows
+- slug: koboldcpp
+  name: KoboldCpp
+  description: Single-file local LLM server and web UI for GGUF models with Kobold-style API and OpenAI-like integrations. [web:35][web:44][web:99]
+  website_url: https://koboldcpp.com
+  repo_url: https://github.com/LostRuins/koboldcpp
+  docs_url: https://github.com/LostRuins/koboldcpp/wiki
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - devtools
+    - gpu
+    - inference
+    - local-first
+    - local-llm
+    - model-serving
+    - offline
+    - open-source
+    - self-hosted
+    - web-app
+  interfaces:
+    - api
+    - cli
+    - web-app
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides portable executable with built-in web UI, HTTP server and KoboldAI-compatible endpoint for local GGUF models. [web:35][web:38][web:41][web:99] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/LostRuins/koboldcpp
+    - https://github.com/LostRuins/koboldcpp/wiki
+    - https://koboldcpp.com
 - slug: langfuse
   name: Langfuse
   description: Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations.
@@ -2203,6 +2820,301 @@
     - https://github.com/langwatch/langwatch
     - https://langwatch.ai
     - https://langwatch.ai/llm-observability
+- slug: lavague
+  name: LaVague
+  description: Large Action Model framework that turns natural language instructions into Selenium-based browser interactions for AI web agents.[web:48][web:51][web:57]
+  website_url: https://github.com/lavague-ai/LaVague
+  repo_url: https://github.com/lavague-ai/LaVague
+  docs_url: https://github.com/lavague-ai/LaVague
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - web-automation
+  interfaces:
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Focuses on privacy-friendly, often local models and generates Selenium code to automate personal and logged-in web tasks for users.[web:48][web:51] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/lavague-ai
+    - https://github.com/lavague-ai/LaVague
+    - https://sumbits.ai/links/176
+- slug: llama-cpp-python
+  name: llama-cpp-python
+  description: Python bindings and OpenAI-compatible web server for llama.cpp, exposing local models via HTTP and Python APIs. [web:12][web:113][web:145]
+  website_url: https://llama-cpp-python.readthedocs.io
+  repo_url: https://github.com/abetlen/llama-cpp-python
+  docs_url: https://llama-cpp-python.readthedocs.io
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - cli
+    - devtools
+    - embeddings
+    - gpu
+    - inference
+    - local-first
+    - local-llm
+    - model-serving
+    - open-source
+    - openai-compatible
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+    - library
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Installs llama.cpp with Python wheels and can run a drop-in OpenAI API server for local GGUF models. [web:12][web:113][web:145] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/abetlen/llama-cpp-python
+    - https://llama-cpp-python.readthedocs.io
+    - https://llama-cpp-python.readthedocs.io/en/latest/server/
+- slug: llama-cpp
+  name: llama.cpp
+  description: C/C++ LLM inference library and tools for running quantized models on CPUs and GPUs with optional HTTP and OpenAI-style servers. [web:15][web:9][web:108]
+  website_url: https://github.com/ggml-org/llama.cpp/tree/master/examples
+  repo_url: https://github.com/ggml-org/llama.cpp
+  docs_url: https://github.com/ggml-org/llama.cpp/tree/master/examples
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - cli
+    - devtools
+    - docker
+    - embeddings
+    - gpu
+    - inference
+    - local-first
+    - local-llm
+    - model-serving
+    - open-source
+    - openai-compatible
+    - quantization
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+    - library
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides CLI binaries, a C API, HTTP server, embeddings tooling, and quantization utilities for GGUF models on varied hardware. [web:9][web:15][web:108] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/crc-org/llama.cpp/blob/main/docs/build.md
+    - https://github.com/ggml-org/llama.cpp
+    - https://github.com/ggml-org/llama.cpp/discussions/7712
+    - https://github.com/ggml-org/llama.cpp/tree/master/examples
+- slug: llamafile
+  name: Llamafile
+  description: Single-file local LLM runtime bundling llama.cpp and web UI, with an OpenAI-compatible /v1 chat completions endpoint. [web:127][web:137][web:134]
+  website_url: https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md
+  repo_url: https://github.com/Mozilla-Ocho/llamafile
+  docs_url: https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - devtools
+    - inference
+    - local-first
+    - local-llm
+    - model-serving
+    - offline
+    - open-source
+    - openai-compatible
+    - self-hosted
+    - web-app
+  interfaces:
+    - api
+    - cli
+    - web-app
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Starts a browser UI on port 8080 and exposes OpenAI-style /v1 endpoints for local development without cloud APIs. [web:137][web:134][web:140] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - http://blog.pamelafox.org/2024/01/using-llamafile-for-local-dev-for.html
+    - https://github.com/Mozilla-Ocho/llamafile
+    - https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md
+- slug: llamaindex
+  name: LlamaIndex
+  description: Framework for building RAG and agent systems that can target local LLMs and embedding backends like Ollama or llamafile. [web:102][web:106][web:110]
+  website_url: https://www.llamaindex.ai
+  repo_url: https://github.com/run-llama/llama_index
+  docs_url: https://developers.llamaindex.ai
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - devtools
+    - embeddings
+    - framework
+    - local-llm
+    - rag
+  interfaces:
+    - framework
+    - library
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Docs show configuration for Ollama and llamafile backends to keep both LLM and embeddings fully local. [web:102][web:106][web:110][web:114] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://developers.llamaindex.ai
+    - https://developers.llamaindex.ai/python/framework/getting_started/starter_example_local/
+    - https://github.com/run-llama/llama_index
+    - https://www.llamaindex.ai
+    - https://www.llamaindex.ai/blog/using-llamaindex-and-llamafile-to-build-a-local-private-research-assistant
+- slug: llm-compressor
+  name: LLM Compressor
+  description: Compression and quantization library for optimizing LLMs for deployment with vLLM. [web:161][web:167][web:165]
+  website_url: https://docs.vllm.ai/projects/llm-compressor/en/latest/
+  repo_url: https://github.com/vllm-project/llm-compressor
+  docs_url: https://docs.vllm.ai/projects/llm-compressor/en/latest/
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - devtools
+    - gpu
+    - llmops
+    - open-source
+    - quantization
+  interfaces:
+    - library
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides a toolkit of quantization and compression schemes to produce smaller, faster models tailored for vLLM inference. [web:167][web:165][web:169] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://developers.redhat.com/articles/2024/08/14/llm-compressor-here-faster-inference-vllm
+    - https://docs.vllm.ai/projects/llm-compressor/en/latest/
+    - https://github.com/vllm-project/llm-compressor
+- slug: llm-llamafile
+  name: llm-llamafile
+  description: Plugin for the `llm` CLI that lets you use a locally running llamafile server as an LLM provider. [web:124]
+  website_url: https://github.com/simonw/llm-llamafile#readme
+  repo_url: https://github.com/simonw/llm-llamafile
+  docs_url: https://github.com/simonw/llm-llamafile#readme
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - cli
+    - devtools
+    - local-first
+    - local-llm
+    - open-source
+  interfaces:
+    - cli
+    - library
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Configures the LLM CLI to talk to llamafile’s OpenAI-compatible endpoint on localhost:8080 for local workflows. [web:124] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/simonw/llm-llamafile
+    - https://github.com/simonw/llm-llamafile#readme
+- slug: lm-studio
+  name: LM Studio
+  description: Cross-platform desktop app and SDKs to discover, run, and serve local LLMs with an OpenAI-compatible server mode. [web:8][web:5][web:16]
+  website_url: https://lmstudio.ai
+  repo_url: https://github.com/lmstudio-ai
+  docs_url: https://lmstudio.ai/docs
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - desktop-app
+    - devtools
+    - embeddings
+    - gpu
+    - inference
+    - local-first
+    - local-llm
+    - model-serving
+    - offline
+    - open-source
+    - openai-compatible
+    - rag
+  interfaces:
+    - api
+    - cli
+    - desktop-app
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Desktop UI plus local server exposing /v1 OpenAI-style API on localhost; supports GGUF and MLX backends and built-in RAG. [web:5][web:8][web:16] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://cookbook.openai.com/articles/gpt-oss/run-locally-lmstudio
+    - https://github.com/lmstudio-ai
+    - https://lmstudio.ai
+    - https://lmstudio.ai/docs
+- slug: lmdeploy
+  name: LMDeploy
+  description: OpenAI-compatible API server for deploying multimodal models with LMDeploy on GPUs, locally or via Docker. [web:125]
+  website_url: https://lmdeploy.readthedocs.io
+  repo_url: https://github.com/InternLM/lmdeploy
+  docs_url: https://lmdeploy.readthedocs.io/en/latest/multi_modal/api_server_vl.html
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - devtools
+    - docker
+    - gpu
+    - inference
+    - local-llm
+    - model-serving
+    - open-source
+    - openai-compatible
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: `lmdeploy serve api_server` starts an OpenAI-style REST service; docs include Docker recipes for local GPU servers. [web:125] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/InternLM/lmdeploy
+    - https://lmdeploy.readthedocs.io
+    - https://lmdeploy.readthedocs.io/en/latest/multi_modal/api_server_vl.html
 - slug: local-ai-ml-development-stack-rene-zander
   name: Local AI ML Development Stack (Rene Zander)
   description: Comprehensive Docker Compose AI dev stack with Ollama, Qdrant, Postgres, Redis, LiteLLM, n8n, Prometheus, and Grafana.[web:238]
@@ -2325,6 +3237,44 @@
   last_checked: 2026-05-08
   sources:
     - https://gist.github.com/fuzboxz/a338e1966888d40f0e5e37c36f50a758
+- slug: localai
+  name: LocalAI
+  description: Self-hosted REST server that emulates the OpenAI API to run local ggml/llama.cpp and related models on your own hardware. [web:64][web:23][web:20]
+  website_url: https://localai.io
+  repo_url: https://github.com/go-skynet/LocalAI
+  docs_url: https://localai.io/docs
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - devtools
+    - docker
+    - embeddings
+    - gpu
+    - inference
+    - local-first
+    - local-llm
+    - model-serving
+    - offline
+    - open-source
+    - openai-compatible
+    - rag
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Designed as a drop-in OpenAI alternative; serves chat, embeddings, images and audio from local models via HTTP. [web:64][web:23][web:29] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/go-skynet/LocalAI
+    - https://localai.io
+    - https://localai.io/docs
+    - https://pkg.go.dev/github.com/go-skynet/LocalAI
 - slug: lunary
   name: Lunary
   description: Open-source observability and prompt platform for LLM chatbots with analytics, logs, traces, and evaluations.
@@ -2505,6 +3455,106 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/microsoft/skills
+- slug: mistral-inference
+  name: Mistral Inference
+  description: Official inference library for running Mistral models via CLI and Python on local or server hardware. [web:156]
+  website_url: https://github.com/mistralai/mistral-inference#readme
+  repo_url: https://github.com/mistralai/mistral-inference
+  docs_url: https://github.com/mistralai/mistral-inference#readme
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - cli
+    - devtools
+    - gpu
+    - inference
+    - library
+    - local-llm
+    - model-serving
+    - open-source
+  interfaces:
+    - cli
+    - library
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides command-line and Python interfaces for serving and querying Mistral models without relying on hosted APIs. [web:156] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/mistralai/mistral-inference
+    - https://github.com/mistralai/mistral-inference#readme
+- slug: mistral-rs
+  name: mistral.rs
+  description: Rust-based engine for fast, flexible LLM inference with OpenAI-compatible APIs, web UI, and extensive quantization options. [web:147][web:151]
+  website_url: https://github.com/EricLBuehler/mistral.rs/blob/master/docs/README.md
+  repo_url: https://github.com/EricLBuehler/mistral.rs
+  docs_url: https://github.com/EricLBuehler/mistral.rs/blob/master/docs/README.md
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - devtools
+    - embeddings
+    - gpu
+    - inference
+    - local-llm
+    - model-serving
+    - open-source
+    - openai-compatible
+    - quantization
+    - self-hosted
+    - web-app
+  interfaces:
+    - api
+    - cli
+    - library
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: `mistralrs serve --ui` runs a web chat and OpenAI-style API; supports many model families and mixed quantization backends. [web:147][web:151][web:149] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/EricLBuehler/mistral.rs
+    - https://github.com/EricLBuehler/mistral.rs/blob/master/docs/README.md
+    - https://github.com/EricLBuehler/mistral.rs/blob/master/README.md
+- slug: mlc-llm
+  name: MLC LLM
+  description: Universal LLM deployment engine and compiler for running quantized models natively across many hardware backends. [web:47][web:59]
+  website_url: https://mlc.ai
+  repo_url: https://github.com/mlc-ai/mlc-llm
+  docs_url: https://llmc-en.readthedocs.io/en/stable/backend/mlcllm.html
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - devtools
+    - gpu
+    - inference
+    - local-llm
+    - model-serving
+    - open-source
+    - quantization
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+    - library
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Compiles models to MLCEngine and offers OpenAI-compatible REST server plus language bindings for local deployment on GPUs and edge. [web:47][web:59] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/mlc-ai/mlc-llm
+    - https://llmc-en.readthedocs.io/en/stable/backend/mlcllm.html
+    - https://mlc.ai
 - slug: mlflow-ai-observability
   name: MLflow AI Observability
   description: MLflow extensions for LLM and agent observability with tracing, evaluation, and integration with TruLens scorers.
@@ -2542,6 +3592,66 @@
     - https://mlflow.org/blog/mlflow-trulens-evaluation/
     - https://mlflow.org/docs/latest/llm/index.html
     - https://mlflow.org/top-5-agent-observability-tools
+- slug: mlx-engine-for-lm-studio
+  name: MLX Engine for LM Studio
+  description: Apple MLX-based inference engine used by LM Studio to run quantized text and vision models locally on macOS. [web:135]
+  website_url: https://github.com/lmstudio-ai/mlx-engine#readme
+  repo_url: https://github.com/lmstudio-ai/mlx-engine
+  docs_url: https://github.com/lmstudio-ai/mlx-engine#readme
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - devtools
+    - gpu
+    - inference
+    - local-llm
+    - open-source
+  interfaces:
+    - library
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides MLX-based backend used by LM Studio and a standalone demo script for local LLM and VLM inference. [web:135] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/lmstudio-ai/mlx-engine
+    - https://github.com/lmstudio-ai/mlx-engine#readme
+- slug: mlx-lm
+  name: mlx-lm
+  description: Apple MLX-based Python package for running and fine-tuning LLMs on Apple silicon, with an HTTP server similar to OpenAI chat API. [web:132][web:141]
+  website_url: https://github.com/ml-explore/mlx-lm#readme
+  repo_url: https://github.com/ml-explore/mlx-lm
+  docs_url: https://github.com/ml-explore/mlx-lm#readme
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - cli
+    - devtools
+    - gpu
+    - inference
+    - local-first
+    - local-llm
+    - model-serving
+    - open-source
+    - openai-compatible
+  interfaces:
+    - api
+    - cli
+    - library
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports interactive chat, generation CLI and an HTTP server exposing /v1/chat/completions on localhost:8080. [web:132][web:141] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/ml-explore/mlx-lm
+    - https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/SERVER.md
+    - https://github.com/ml-explore/mlx-lm#readme
 - slug: monocle
   name: Monocle
   description: Linux Foundation project providing a framework to trace GenAI app code and agent workflows with minimal code changes.
@@ -2719,6 +3829,42 @@
     - https://f4.fund/startups/okahu
     - https://github.com/okahu-demos
     - https://www.okahu.ai
+- slug: ollama
+  name: Ollama
+  description: Local LLM runtime and model manager that runs open models on your machine with an OpenAI-compatible Chat Completions API. [web:13][web:28]
+  website_url: https://ollama.com
+  docs_url: https://docs.ollama.com
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - cli
+    - devtools
+    - docker
+    - gpu
+    - inference
+    - local-first
+    - local-llm
+    - model-serving
+    - offline
+    - open-source
+    - openai-compatible
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: CLI tool and background service for running, pulling, and serving models locally with OpenAI-style endpoints at localhost. [web:13][web:28][web:126] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.ollama.com
+    - https://docs.ollama.com/api/openai-compatibility
+    - https://ollama.com
+    - https://ollama.com/blog/openai-compatibility
 - slug: ollama-open-webui-stack
   name: Ollama + Open WebUI Stack
   description: Docker Compose example bundling Ollama and Open WebUI into a self-hosted ChatGPT-like environment.[web:214][web:209]
@@ -2816,6 +3962,34 @@
     - https://docs.openwebui.com
     - https://github.com/open-webui/open-webui
     - https://openwebui.com
+- slug: openagents-web-agent
+  name: OpenAgents Web Agent
+  description: Web Agent inside the OpenAgents platform that performs autonomous web browsing with open-source code and UI for real-world tasks.[web:47]
+  website_url: https://openagents.org
+  repo_url: https://github.com/xlang-ai/openagents
+  docs_url: https://github.com/xlang-ai/openagents
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - web-automation
+  interfaces:
+    - framework
+    - web-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides an end-user web UI and backend agents; one of the bundled agents is a Web Agent for autonomous browsing similar to ChatGPT’s browsing.[web:47] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://aiagentstore.ai/ai-agent/web-agent
+    - https://github.com/xlang-ai/openagents
+    - https://openagents.org
 - slug: openai-codex-cli
   name: OpenAI Codex CLI
   description: Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace.
@@ -2840,6 +4014,32 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/openai/codex
+- slug: openai-computer-use
+  name: OpenAI Computer Use
+  description: OpenAI API capability that lets models operate software through the UI, including navigating and interacting with browser windows.[web:29]
+  website_url: https://developers.openai.com
+  docs_url: https://developers.openai.com/api/docs/guides/tools-computer-use
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - computer-use
+    - web-automation
+  interfaces:
+    - api
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides tools for inspecting screenshots and returning interface actions, enabling agents to click, type, scroll, and handle dialogs in browsers.[web:29] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://developers.openai.com
+    - https://developers.openai.com/api/docs/guides/tools-computer-use
 - slug: openai-traces-and-evals
   name: OpenAI Traces and Evals
   description: Built-in OpenAI platform capabilities for tracing agent workflows and running evaluations on traces and datasets.
@@ -3113,6 +4313,35 @@
     - https://github.com/opensearch-project/genai-observability-sdk-py
     - https://github.com/opensearch-project/genai-observability-sdk-py#readme
     - https://opensearch.org
+- slug: openwebagent
+  name: OpenWebAgent
+  description: Toolkit with browser extension and backend server that enables LLM-based web agents to automate tasks on real webpages.[web:44]
+  website_url: https://github.com/THUDM/OpenWebAgent
+  repo_url: https://github.com/THUDM/OpenWebAgent
+  docs_url: https://github.com/THUDM/OpenWebAgent
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - web-automation
+    - web-scraping
+  interfaces:
+    - api
+    - browser-extension
+    - framework
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides Chrome plugin and server code so users can plug in their own models and get an operational web browsing agent.[web:44] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://arxiv.org/html/2401.13919v4
+    - https://github.com/THUDM/OpenWebAgent
 - slug: paddler
   name: Paddler
   description: Open-source LLMOps platform for hosting and scaling AI models in your own infrastructure.[web:230]
@@ -3682,6 +4911,94 @@
   sources:
     - https://github.com/servicegraph/mcp-server
     - https://mcpservers.org/servers/servicegraph/
+- slug: skyvern
+  name: Skyvern
+  description: AI browser automation framework that uses LLMs and computer vision to automate multi-step workflows across websites via an API and SDK.[web:2][web:70][web:75]
+  website_url: https://pypi.org/project/skyvern/0.1.70/
+  repo_url: https://github.com/Skyvern-AI/skyvern
+  docs_url: https://pypi.org/project/skyvern/0.1.70/
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - data-extraction
+    - headless-browser
+    - web-automation
+  interfaces:
+    - api
+    - library
+  deployment: hybrid
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers open-source runtime and managed Skyvern Cloud for vision-based web automation with JSON APIs.[web:2][web:70][web:75] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/Skyvern-AI/skyvern
+    - https://pypi.org/project/skyvern/0.1.70/
+    - https://www.ycombinator.com/companies/skyvern
+- slug: stagehand
+  name: Stagehand
+  description: AI browser automation framework that mixes natural language actions with Playwright code for reliable production browser agents.[web:17][web:20][web:22]
+  website_url: https://stagehand.dev
+  repo_url: https://github.com/browserbase/stagehand
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - headless-browser
+    - playwright
+    - tool-calling
+    - web-automation
+  interfaces:
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides act/observe/extract/agent primitives and integrates with computer-use models; can run against local or remote browsers including Browserbase.[web:17][web:20][web:22] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/browserbase/stagehand
+    - https://github.com/browserbase/stagehand/discussions/635
+    - https://stagehand.dev
+- slug: steel-browser
+  name: Steel Browser
+  description: Open-source browser API that lets AI apps and agents perform programmatic browsing tasks without managing browser processes directly.[web:30]
+  website_url: https://steel.dev
+  repo_url: https://github.com/steel-dev/steel-browser
+  docs_url: https://github.com/steel-dev/steel-browser
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - headless-browser
+    - web-automation
+  interfaces:
+    - api
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Manages sessions, pages, and browser processes behind an HTTP API so AI agents can execute complex web tasks via a unified endpoint.[web:30] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/steel-dev/steel-browser
+    - https://steel.dev
 - slug: supabase-mcp-server
   name: Supabase MCP Server
   description: Official Supabase MCP server for connecting AI assistants to Supabase projects and database operations.
@@ -3896,6 +5213,128 @@
     - https://tabby.tabbyml.com/docs/
     - https://www.tabbyml.com/
     - https://www.tabbyml.com/agent
+- slug: tabbyapi
+  name: TabbyAPI
+  description: FastAPI-based backend server for ExLlamaV2 that exposes local text generation over HTTP for coding and chat workloads. [web:150][web:95]
+  website_url: https://github.com/theroyallab/tabbyAPI#readme
+  repo_url: https://github.com/theroyallab/tabbyAPI
+  docs_url: https://github.com/theroyallab/tabbyAPI#readme
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - coding
+    - devtools
+    - gpu
+    - inference
+    - local-llm
+    - model-serving
+    - open-source
+    - self-hosted
+  interfaces:
+    - api
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official backend server for ExLlamaV2, providing an HTTP API suitable for local or remote LLM inference. [web:95][web:150] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/theroyallab/tabbyAPI
+    - https://github.com/theroyallab/tabbyAPI#readme
+    - https://github.com/turboderp-org/exllamav2
+- slug: tarsier
+  name: Tarsier
+  description: Vision utility library that gives web interaction agents structured, OCR-backed views of pages by tagging interactable elements.[web:46][web:49]
+  website_url: https://github.com/reworkd/tarsier
+  repo_url: https://github.com/reworkd/tarsier
+  docs_url: https://github.com/reworkd/tarsier
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - browser-agents
+    - data-extraction
+    - web-automation
+  interfaces:
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides visual tagging and text representations so LLM web agents can map IDs like CLICK [23] back to real page elements.[web:46][web:52] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - http://github.com/reworkd/tarsier
+    - https://bestofai.com/article/github-reworkdtarsier-vision-utilities-for-web-interaction-agents
+    - https://github.com/reworkd/tarsier
+- slug: text-generation-inference
+  name: Text Generation Inference
+  description: High-performance Rust and Python server for deploying and serving open-source LLMs via HTTP and gRPC. [web:78][web:83]
+  website_url: https://huggingface.co/docs/text-generation-inference
+  repo_url: https://github.com/huggingface/text-generation-inference
+  docs_url: https://huggingface.co/docs/text-generation-inference/index
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - devtools
+    - docker
+    - gpu
+    - inference
+    - local-llm
+    - model-serving
+    - open-source
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Toolkit used in production at Hugging Face to host models like Llama and Falcon, with optimization features for server inference. [web:78][web:83] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/huggingface/text-generation-inference
+    - https://huggingface.co/docs/text-generation-inference
+    - https://huggingface.co/docs/text-generation-inference/index
+- slug: text-generation-webui
+  name: text-generation-webui
+  description: Self-hosted Gradio/Web UI and API for running diverse local text generation models on CPUs and GPUs. [web:18][web:21][web:24]
+  website_url: https://github.com/oobabooga/text-generation-webui#readme
+  repo_url: https://github.com/oobabooga/text-generation-webui
+  docs_url: https://github.com/oobabooga/text-generation-webui#readme
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - devtools
+    - docker
+    - gpu
+    - inference
+    - local-llm
+    - model-serving
+    - open-source
+    - self-hosted
+    - web-app
+  interfaces:
+    - cli
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports HF transformers, GGUF, GPTQ, AWQ and more with browser UI and scripts for local installation. [web:18][web:21][web:24] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://davemateer.com/2023/10/25/llm-open-source-model-use
+    - https://github.com/oobabooga/text-generation-webui
+    - https://github.com/oobabooga/text-generation-webui#readme
+    - https://github.com/ymcui/Chinese-LLaMA-Alpaca-3/wiki/text-generation-webui_en
 - slug: traceloop-openllmetry
   name: Traceloop OpenLLMetry
   description: Open-source OpenTelemetry extensions and SDKs for providing LLM and RAG observability across backends.
@@ -3999,6 +5438,210 @@
     - https://github.com/untrace-dev/untrace-sdk
     - https://untrace.dev
     - https://untrace.dev/docs
+- slug: vllm
+  name: vLLM
+  description: High-throughput LLM inference engine with an OpenAI-compatible HTTP server for serving models locally or on servers. [web:42][web:36]
+  website_url: https://vllm.ai
+  repo_url: https://github.com/vllm-project/vllm
+  docs_url: https://docs.vllm.ai/en/stable/serving/openai_compatible_server.html
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - api
+    - devtools
+    - docker
+    - gpu
+    - inference
+    - llmops
+    - local-llm
+    - model-serving
+    - open-source
+    - openai-compatible
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+    - library
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: `python -m vllm.entrypoints.openai.api_server` spins up /v1 chat and completions endpoints consumable by OpenAI clients. [web:42][web:36][web:33] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.vllm.ai/en/stable
+    - https://docs.vllm.ai/en/stable/serving/openai_compatible_server.html
+    - https://github.com/vllm-project/vllm
+    - https://raw.githubusercontent.com/openai/openai-cookbook/main/articles/gpt-oss/run-vllm.md
+    - https://vllm.ai
+- slug: vs-code-browser-agent-tools
+  name: VS Code Browser Agent Tools
+  description: Visual Studio Code Copilot feature set that lets AI agents open pages, read content, click elements, and run Playwright code in an integrated browser.[web:31]
+  website_url: https://code.visualstudio.com
+  docs_url: https://code.visualstudio.com/docs/copilot/guides/browser-agent-testing-guide
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - browser-agents
+    - browser-automation
+    - playwright
+    - testing
+    - web-automation
+  interfaces:
+    - desktop-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Exposes navigation, interaction, and custom Playwright automation tools so Copilot-style agents can build and test web apps in a closed loop.[web:31] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://code.visualstudio.com
+    - https://code.visualstudio.com/docs/copilot/guides/browser-agent-testing-guide
+- slug: web-browser-mcp-server
+  name: Web Browser MCP Server
+  description: Playwright-based MCP server offering a headless browsing API with multi-tab support and advanced element interaction for agents.[web:37]
+  website_url: https://mcpmarket.com/server/web-browser-1
+  docs_url: https://mcpmarket.com/server/web-browser-1
+  categories:
+    - browser-agents
+  tags:
+    - browser-agents
+    - browser-automation
+    - data-extraction
+    - headless-browser
+    - mcp
+    - playwright
+    - web-automation
+    - web-scraping
+  interfaces:
+    - mcp-server
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Exposes tools for navigation, content extraction, and interaction over MCP with security-focused configuration and resource management.[web:37] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://mcpmarket.com/server/web-browser-1
+    - https://www.webfuse.com/blog/the-top-5-best-mcp-servers-for-ai-agent-browser-automation
+- slug: web-voyager
+  name: web-voyager
+  description: Experimental continuously learning web-browsing agent extending the Voyager architecture to browser environments using code as action space.[web:95]
+  website_url: https://github.com/ElianBelot/web-voyager
+  repo_url: https://github.com/ElianBelot/web-voyager
+  docs_url: https://github.com/ElianBelot/web-voyager
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - web-automation
+  interfaces:
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Defines multiple sub-agents to propose tasks, generate code, critique outcomes, and manage reusable browser skills for ongoing exploration.[web:95] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/ElianBelot/web-voyager
+- slug: webagent-webagent-cloud
+  name: Webagent (webagent-cloud)
+  description: Simple web agent server built on Browser Use that exposes browser automation to other apps via HTTP APIs.[web:63]
+  website_url: https://github.com/webagent-cloud/webagent
+  repo_url: https://github.com/webagent-cloud/webagent
+  docs_url: https://github.com/webagent-cloud/webagent
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - web-automation
+  interfaces:
+    - api
+    - framework
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports local and Docker deployment with Playwright included, letting clients submit tasks like visiting URLs and extracting structured results.[web:63] confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/webagent-cloud/webagent
+- slug: webllm
+  name: WebLLM
+  description: In-browser LLM inference engine using WebGPU that exposes an OpenAI-compatible API surface for local models. [web:55]
+  website_url: https://webllm.mlc.ai
+  repo_url: https://github.com/mlc-ai/web-llm
+  docs_url: https://github.com/mlc-ai/web-llm#readme
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - devtools
+    - inference
+    - local-first
+    - local-llm
+    - model-serving
+    - offline
+    - open-source
+    - openai-compatible
+    - web-app
+  interfaces:
+    - library
+    - web-app
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs models entirely in the browser with WebGPU and offers OpenAI-style API semantics for client-side apps. [web:55] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/mlc-ai/web-llm
+    - https://github.com/mlc-ai/web-llm#readme
+    - https://webllm.mlc.ai
+- slug: webvoyager
+  name: WebVoyager
+  description: LMM-powered web agent that completes end-to-end tasks on real websites using visual and textual signals in a Selenium environment.[web:83][web:89]
+  website_url: https://github.com/MinorJerry/WebVoyager
+  repo_url: https://github.com/MinorJerry/WebVoyager
+  docs_url: https://github.com/MinorJerry/WebVoyager
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - data-extraction
+    - web-automation
+  interfaces:
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements a multimodal agent that observes screenshots and DOM text, plans actions, and executes clicks, typing, and scrolling via Selenium.[web:83][web:89] confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://aiagentstore.ai/ai-agent/webvoyager
+    - https://arxiv.org/html/2401.13919v4
+    - https://github.com/MinorJerry/WebVoyager
 - slug: weights-biases-weave
   name: Weights & Biases Weave
   description: Framework and UI for debugging, tracing, and monitoring LLM applications with W&B observability.
