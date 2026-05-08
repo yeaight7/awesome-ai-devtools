@@ -300,6 +300,45 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/anthropics/skills
+- slug: anythingllm
+  name: AnythingLLM
+  description: Self-hosted RAG and agent platform with no-code agent builder and Docker Compose deployment options.[web:210]
+  website_url: https://useanything.com
+  repo_url: https://github.com/Mintplex-Labs/anything-llm
+  docs_url: https://docs.useanything.com
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - automation
+    - devtools
+    - docker
+    - llmops
+    - local-first
+    - model-serving
+    - open-source
+    - rag
+    - self-hosted
+    - vector-database
+    - workflow-automation
+  interfaces:
+    - api
+    - cli
+    - template
+    - web-app
+  deployment: hybrid
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Combines document RAG, AI agents, and visual builder; can run fully self-hosted with Docker or Docker Compose including embedded vector DB.[web:210] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.clore.ai/guides/ai-platforms-and-agents/anythingllm
+    - https://docs.useanything.com
+    - https://github.com/Mintplex-Labs/anything-llm
+    - https://useanything.com
 - slug: arize-ax
   name: Arize AX
   description: Commercial agent and LLM observability platform built on Phoenix for tracing, evaluation, and monitoring production AI systems.
@@ -424,6 +463,39 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/astronomer/agents
+- slug: athenaeum
+  name: Athenaeum
+  description: Self-hosted semantic library platform with embeddings, chat UI, pgvector, and MCP server support.[web:222]
+  website_url: https://github.com/herakles-dev/athenaeum#readme
+  repo_url: https://github.com/herakles-dev/athenaeum
+  docs_url: https://github.com/herakles-dev/athenaeum#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - api
+    - devtools
+    - docker
+    - local-first
+    - mcp
+    - open-source
+    - rag
+    - self-hosted
+    - vector-database
+  interfaces:
+    - api
+    - mcp-server
+    - template
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: make run starts PostgreSQL, API, and frontend; offers local embeddings, multi-library semantic search, AI chat, and MCP server integration.[web:222] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/herakles-dev/athenaeum
+    - https://github.com/herakles-dev/athenaeum#readme
 - slug: augment-code
   name: Augment Code
   description: Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases.
@@ -780,6 +852,38 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/alirezarezvani/claude-skills
+- slug: clawix-ai-platform
+  name: Clawix AI Platform
+  description: Open-source, self-hosted multi-agent AI orchestration platform running agents in isolated Docker containers.[web:243]
+  website_url: https://github.com/ClawixAI/clawix#readme
+  repo_url: https://github.com/ClawixAI/clawix
+  docs_url: https://github.com/ClawixAI/clawix#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - automation
+    - devtools
+    - docker
+    - llmops
+    - open-source
+    - self-hosted
+    - workflow-automation
+  interfaces:
+    - cli
+    - framework
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Described as self-hosted agent orchestration with Docker-based isolation and platform features.[web:243] confidence: low uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/ClawixAI/clawix
+    - https://github.com/ClawixAI/clawix#readme
 - slug: cline
   name: Cline
   description: Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension.
@@ -1143,6 +1247,36 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/dbt-labs/dbt-agent-skills
+- slug: devbox-ai-dev-stack
+  name: DevBox AI Dev Stack
+  description: Zero-trust dev environment repository including an AI dev stack installer for Docker-based tools on a VPS.[web:205]
+  website_url: https://github.com/gl0bal01/devbox#readme
+  repo_url: https://github.com/gl0bal01/devbox
+  docs_url: https://github.com/gl0bal01/devbox#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - automation
+    - devtools
+    - docker
+    - llmops
+    - open-source
+    - self-hosted
+    - workflow-automation
+  interfaces:
+    - cli
+    - template
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Repo includes ai-dev-stack.sh and references docker-compose-based AI stack as part of a dev environment.[web:205] confidence: low uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/gl0bal01/devbox
+    - https://github.com/gl0bal01/devbox#readme
 - slug: devin
   name: Devin
   description: Cloud software engineering agent for teams that works on repositories and can run tasks in parallel.
@@ -1168,6 +1302,45 @@
   sources:
     - https://devin.ai/
     - https://docs.devin.ai/es/get-started/devin-intro
+- slug: dify
+  name: Dify
+  description: Open-source LLMOps platform with visual studio for chatbots, workflows, agents, and RAG that supports self-hosted deployment.[web:233]
+  website_url: https://dify.ai
+  repo_url: https://github.com/langgenius/dify
+  docs_url: https://docs.dify.ai
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - automation
+    - devtools
+    - docker
+    - kubernetes
+    - llmops
+    - low-code
+    - model-serving
+    - open-source
+    - rag
+    - self-hosted
+    - workflow-automation
+  interfaces:
+    - api
+    - framework
+    - template
+    - web-app
+  deployment: hybrid
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports managed SaaS and self-hosted deployment via Docker and Helm charts, targeting chatbot, workflow, agent, and RAG use cases.[web:233] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://dify.ai
+    - https://docs.dify.ai
+    - https://github.com/langgenius/dify
+    - https://www.noze.it/en/insights/dify-llmops/
 - slug: dotskills
   name: dotskills
   description: Personal .skills repository for Codex, Cursor, and OpenClaw with reusable skill units bundling prompts, scripts, and validation workflows.
@@ -1191,6 +1364,40 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/vincentkoc/dotskills
+- slug: drmllm
+  name: DrMLlm
+  description: Self-hosted, air-gapped MLOps/LLMOps platform for traditional ML and LLMs with observability on private infrastructure.[web:225]
+  website_url: https://github.com/Vybhav448/DrMLlm#readme
+  repo_url: https://github.com/Vybhav448/DrMLlm
+  docs_url: https://github.com/Vybhav448/DrMLlm#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - api
+    - devtools
+    - docker
+    - inference
+    - kubernetes
+    - llmops
+    - model-serving
+    - observability
+    - open-source
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+    - framework
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements sovereign MLOps/LLMOps with vLLM, TensorRT-LLM, Prometheus, Grafana, and self-hosted storage; Docker-based and Kubernetes aware.[web:225] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/Vybhav448/DrMLlm
+    - https://github.com/Vybhav448/DrMLlm#readme
 - slug: dunetrace
   name: Dunetrace
   description: Open-source anomaly detection layer that monitors agent traces for structural failures and alerts in real time.
@@ -1662,6 +1869,39 @@
   sources:
     - https://grafana.com
     - https://grafana.com/docs/grafana-cloud/monitor-applications/ai-observability/genai/observability/
+- slug: harbor-cli-stack
+  name: Harbor CLI Stack
+  description: CLI tool that spins up a local LLM stack (Ollama, Open WebUI, others) with a single command using container orchestration.[web:241]
+  website_url: https://github.com/harbor-ai/harbor#readme
+  repo_url: https://github.com/harbor-ai/harbor
+  docs_url: https://github.com/harbor-ai/harbor#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - automation
+    - cli
+    - devtools
+    - docker
+    - llmops
+    - local-first
+    - open-source
+    - self-hosted
+    - workflow-automation
+  interfaces:
+    - cli
+    - template
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: CLI manages a pre-defined local LLM stack, abstracting Docker Compose for Open WebUI and Ollama.[web:241] confidence: low uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/harbor-ai/harbor
+    - https://github.com/harbor-ai/harbor#readme
+    - https://www.reddit.com/r/LocalLLM/comments/1q7qb62/harbor_manage_local_llm_stack_with_a_single/
 - slug: helderberto-skills
   name: helderberto/skills
   description: Reusable AI agent skills for development workflows including code review, refactoring, TDD, security audit, and git automation.
@@ -1783,6 +2023,42 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/invariantlabs-ai/testing
+- slug: jan-server
+  name: Jan Server
+  description: Self-hosted agentic AI platform powered by local models with Docker Compose-based infrastructure files.[web:232]
+  website_url: https://jan.ai
+  repo_url: https://github.com/janhq/server
+  docs_url: https://github.com/janhq/server#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - automation
+    - devtools
+    - docker
+    - llmops
+    - local-first
+    - model-serving
+    - open-source
+    - rag
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+    - framework
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Repository includes infra/docker compose files for running Jan as a self-hosted multi-agent platform.[web:232] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/janhq/server
+    - https://github.com/janhq/server#readme
+    - https://jan.ai
 - slug: jules
   name: Jules
   description: Google asynchronous coding agent for GitHub that fixes bugs, adds features, and updates documentation.
@@ -2022,6 +2298,130 @@
     - https://github.com/langwatch/langwatch
     - https://langwatch.ai
     - https://langwatch.ai/llm-observability
+- slug: local-ai-ml-development-stack-rene-zander
+  name: Local AI ML Development Stack (Rene Zander)
+  description: Comprehensive Docker Compose AI dev stack with Ollama, Qdrant, Postgres, Redis, LiteLLM, n8n, Prometheus, and Grafana.[web:238]
+  website_url: https://renezander.com/blog/docker-compose-ai-development-stack/
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - automation
+    - devtools
+    - docker
+    - llmops
+    - local-first
+    - model-serving
+    - observability
+    - rag
+    - self-hosted
+    - vector-database
+    - workflow-automation
+  interfaces:
+    - cli
+    - template
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Tutorial provides full Compose YAML for a multi-service AI dev environment with observability and workflow tooling.[web:238] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://renezander.com/blog/docker-compose-ai-development-stack/
+- slug: local-llm-docker-mythrantic
+  name: Local LLM Docker (mythrantic)
+  description: Docker Compose setup for running Ollama and a web UI in containers with GPU optional.[web:187]
+  website_url: https://github.com/mythrantic/ollama-docker#readme
+  repo_url: https://github.com/mythrantic/ollama-docker
+  docs_url: https://github.com/mythrantic/ollama-docker#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - api
+    - devtools
+    - docker
+    - local-first
+    - model-serving
+    - open-source
+    - self-hosted
+  interfaces:
+    - template
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Project focuses on deploying Ollama with Ollama-webui via Compose, giving a basic local LLM stack.[web:187] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/mythrantic/ollama-docker
+    - https://github.com/mythrantic/ollama-docker#readme
+- slug: local-llm-stack-dalekurt
+  name: Local LLM Stack (dalekurt)
+  description: Docker Compose environment for local LLM development with AnythingLLM, Flowise, Open WebUI, n8n, Qdrant, and Ollama.[web:234]
+  website_url: https://github.com/dalekurt/local-llm-stack#readme
+  repo_url: https://github.com/dalekurt/local-llm-stack
+  docs_url: https://github.com/dalekurt/local-llm-stack#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - automation
+    - devtools
+    - docker
+    - llmops
+    - local-first
+    - model-serving
+    - open-source
+    - rag
+    - self-hosted
+    - vector-database
+    - workflow-automation
+  interfaces:
+    - cli
+    - template
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Compose stack integrating AnythingLLM, Flowise, Open WebUI, n8n, Qdrant, and Ollama for a complete local AI workbench.[web:234] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/dalekurt/local-llm-stack
+    - https://github.com/dalekurt/local-llm-stack#readme
+- slug: local-llm-stack-windows-nvidia
+  name: Local LLM Stack (Windows + NVIDIA)
+  description: Docker Compose-based local LLM stack for Windows with Ollama, Open WebUI, Caddy, and Watchtower.[web:235]
+  website_url: https://gist.github.com/fuzboxz/a338e1966888d40f0e5e37c36f50a758
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - api
+    - devtools
+    - docker
+    - local-first
+    - model-serving
+    - rag
+    - self-hosted
+  interfaces:
+    - cli
+    - template
+    - web-app
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides Compose YAML for a GPU-accelerated local AI environment with Ollama and Open WebUI.[web:235] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://gist.github.com/fuzboxz/a338e1966888d40f0e5e37c36f50a758
 - slug: lunary
   name: Lunary
   description: Open-source observability and prompt platform for LLM chatbots with analytics, logs, traces, and evaluations.
@@ -2304,6 +2704,71 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/vercel/next-devtools-mcp
+- slug: nosia
+  name: Nosia
+  description: Self-hosted RAG platform with OpenAI-compatible API, Docker Compose deployment, and web UI for chat over private documents.[web:213]
+  website_url: https://nosia.ai
+  docs_url: https://nosia.ai/readme/
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - api
+    - automation
+    - devtools
+    - docker
+    - llmops
+    - local-first
+    - open-source
+    - rag
+    - self-hosted
+    - vector-database
+    - workflow-automation
+  interfaces:
+    - api
+    - cli
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides Docker Compose one-command setup with RAG, semantic search, OpenAI-compatible APIs, multi-tenancy, and document ingestion.[web:213] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://nosia.ai
+    - https://nosia.ai/readme/
+- slug: nosia-installer-stack
+  name: Nosia Installer Stack
+  description: Scripted Docker Compose stack that installs Nosia plus dependencies for self-hosted RAG and chat on local infrastructure.[web:213]
+  website_url: https://get.nosia.ai
+  docs_url: https://nosia.ai/readme/
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - api
+    - automation
+    - devtools
+    - docker
+    - local-first
+    - open-source
+    - rag
+    - self-hosted
+    - vector-database
+    - workflow-automation
+  interfaces:
+    - cli
+    - template
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: One-command installer provisions Docker, Docker Compose, and a preconfigured Nosia RAG stack.[web:213] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://get.nosia.ai
+    - https://nosia.ai/readme/
 - slug: noveum-ai-agent-monitoring
   name: Noveum AI Agent Monitoring
   description: Enterprise AI agent monitoring platform with real-time tracing of LLM calls, RAG steps, and tool interactions.
@@ -2367,6 +2832,106 @@
     - https://f4.fund/startups/okahu
     - https://github.com/okahu-demos
     - https://www.okahu.ai
+- slug: ollama-open-webui-stack
+  name: Ollama + Open WebUI Stack
+  description: Docker Compose example bundling Ollama and Open WebUI into a self-hosted ChatGPT-like environment.[web:214][web:209]
+  website_url: https://localaimaster.com/blog/ollama-open-webui-docker-setup
+  docs_url: https://docs.openwebui.com/getting-started/quick-start/
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - api
+    - devtools
+    - docker
+    - local-first
+    - model-serving
+    - open-source
+    - self-hosted
+  interfaces:
+    - template
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Multiple guides and examples show Compose files running Ollama plus Open WebUI as a small self-hosted AI stack.[web:214][web:209][web:215][web:218] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.openwebui.com/getting-started/quick-start/
+    - https://localaimaster.com/blog/ollama-open-webui-docker-setup
+    - https://oneuptime.com/blog/post/2026-02-08-how-to-run-open-webui-in-docker-for-chatgpt-alternative/view
+- slug: onyx
+  name: Onyx
+  description: Open-source self-hostable AI platform offering chat UI with agents, RAG, MCP tools, and multi-provider model support.[web:239]
+  website_url: https://onyx.dotenv.dev
+  repo_url: https://github.com/onyx-dot-app/onyx
+  docs_url: https://github.com/onyx-dot-app/onyx#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - automation
+    - devtools
+    - docker
+    - llmops
+    - local-first
+    - mcp
+    - model-serving
+    - open-source
+    - rag
+    - self-hosted
+    - workflow-automation
+  interfaces:
+    - api
+    - mcp-server
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes Docker-based installer and supports both cloud and self-hosted LLM backends with agents, RAG, and MCP integration.[web:239] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/onyx-dot-app/onyx
+    - https://github.com/onyx-dot-app/onyx#readme
+    - https://onyx.dotenv.dev
+- slug: open-webui-platform
+  name: Open WebUI Platform
+  description: Self-hosted AI platform and UI that supports Ollama and OpenAI-compatible APIs and can run entirely offline.[web:217]
+  website_url: https://openwebui.com
+  repo_url: https://github.com/open-webui/open-webui
+  docs_url: https://docs.openwebui.com
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - devtools
+    - docker
+    - llmops
+    - local-first
+    - model-serving
+    - open-source
+    - rag
+    - self-hosted
+  interfaces:
+    - api
+    - template
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Docs provide Compose examples and emphasize self-hosted platform capabilities beyond a simple UI.[web:217][web:215] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.openwebui.com
+    - https://github.com/open-webui/open-webui
+    - https://openwebui.com
 - slug: openai-codex-cli
   name: OpenAI Codex CLI
   description: Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace.
@@ -2607,6 +3172,40 @@
     - https://openobserve.ai/blog/llm-observability-tools/
     - https://openobserve.ai/blog/observability-for-ai-applications-using-openobserve-and-openlit/
     - https://openobserve.ai/docs
+- slug: openrag
+  name: OpenRAG
+  description: Open-source RAG stack combining Langflow, Docling, and OpenSearch with single-command Docker Compose deployment.[web:216]
+  website_url: https://github.com/langflow-ai/openrag
+  repo_url: https://github.com/langflow-ai/openrag
+  docs_url: https://github.com/langflow-ai/openrag#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - devtools
+    - docker
+    - llmops
+    - open-source
+    - rag
+    - self-hosted
+    - vector-database
+    - workflow-automation
+  interfaces:
+    - api
+    - template
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Containerized agentic search platform bundling workflow orchestration, document parsing, and OpenSearch into a ready-to-run stack.[web:216] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://byteiota.com/openrag-tutorial-15-minute-agentic-search-setup/
+    - https://github.com/langflow-ai/openrag
+    - https://github.com/langflow-ai/openrag#readme
 - slug: opensearch-genai-observability-sdk
   name: OpenSearch GenAI Observability SDK
   description: OpenTelemetry-native Python SDK for one-line LLM observability using OpenSearch and Data Prepper as backend.
@@ -2641,6 +3240,40 @@
     - https://github.com/opensearch-project/genai-observability-sdk-py
     - https://github.com/opensearch-project/genai-observability-sdk-py#readme
     - https://opensearch.org
+- slug: paddler
+  name: Paddler
+  description: Open-source LLMOps platform for hosting and scaling AI models in your own infrastructure.[web:230]
+  website_url: https://github.com/intentee/paddler#readme
+  repo_url: https://github.com/intentee/paddler
+  docs_url: https://github.com/intentee/paddler#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - api
+    - devtools
+    - docker
+    - inference
+    - kubernetes
+    - llmops
+    - model-serving
+    - open-source
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+    - framework
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Targets organizations hosting open-source models on their own infrastructure; repo includes deployment configuration.[web:230] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/distantmagic/paddler
+    - https://github.com/intentee/paddler
+    - https://github.com/intentee/paddler#readme
 - slug: plandex
   name: Plandex
   description: Open-source terminal agent for long-running tasks across large projects and real repositories.
@@ -2715,6 +3348,40 @@
   sources:
     - https://github.com/microsoft/playwright-mcp
     - https://playwright.dev/docs/getting-started-mcp
+- slug: pleng
+  name: Pleng
+  description: Self-hosted AI platform engineer that installs a Docker-based PaaS with AI agents and automation on your own cloud.[web:229]
+  website_url: https://pleng.dev
+  repo_url: https://github.com/mutonby/pleng
+  docs_url: https://github.com/mutonby/pleng#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - automation
+    - devtools
+    - docker
+    - llmops
+    - open-source
+    - self-hosted
+    - workflow-automation
+  interfaces:
+    - cli
+    - framework
+    - template
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Installer script provisions Docker, network, and services; positions itself as self-hosted AI platform engineer.[web:229] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/mutonby/pleng
+    - https://github.com/mutonby/pleng#readme
+    - https://pleng.dev
 - slug: posthog-llm-analytics
   name: PostHog LLM Analytics
   description: LLM observability product in PostHog that captures traces, spans, and sessions for AI-powered applications.
@@ -2834,6 +3501,70 @@
   sources:
     - https://github.com/QwenLM/qwen-code
     - https://qwen.ai/
+- slug: rag-containers
+  name: RAG Containers
+  description: Ready-to-use containerized RAG system with TEI embeddings, LanceDB or Qdrant, and Gradio UI via Docker Compose.[web:204]
+  website_url: https://github.com/plaggy/rag-containers#readme
+  repo_url: https://github.com/plaggy/rag-containers
+  docs_url: https://github.com/plaggy/rag-containers#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - api
+    - devtools
+    - docker
+    - model-serving
+    - open-source
+    - rag
+    - self-hosted
+    - vector-database
+  interfaces:
+    - cli
+    - template
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides CPU and GPU compose files for a full RAG stack with vector DB, embeddings, and UI.[web:204] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/plaggy/rag-containers
+    - https://github.com/plaggy/rag-containers#readme
+- slug: redis-ollama-rag-stack
+  name: Redis + Ollama RAG Stack
+  description: Docker-based stack using RedisVL, Ollama, FastAPI, and RQ worker to build a local RAG pipeline.[web:196]
+  website_url: https://github.com/TtheBC01/redis-ollama-RAG#readme
+  repo_url: https://github.com/TtheBC01/redis-ollama-RAG
+  docs_url: https://github.com/TtheBC01/redis-ollama-RAG#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - api
+    - devtools
+    - docker
+    - local-first
+    - model-serving
+    - open-source
+    - rag
+    - self-hosted
+    - vector-database
+    - workflow-automation
+  interfaces:
+    - api
+    - cli
+    - template
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Compose stack creates services for Redis, Ollama, FastAPI gateway, and RQ worker for embeddings and retrieval.[web:196] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/TtheBC01/redis-ollama-RAG
+    - https://github.com/TtheBC01/redis-ollama-RAG#readme
 - slug: refact-ai
   name: Refact.ai
   description: Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks.
@@ -2981,6 +3712,110 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/continuedev/rules
+- slug: scalable-agentic-rag-platform-fareedkhan-dev
+  name: Scalable Agentic RAG Platform (FareedKhan-dev)
+  description: Production-grade agentic RAG platform with Kubernetes, Ray, LangGraph, and multi-plane architecture.[web:240]
+  website_url: https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme
+  repo_url: https://github.com/FareedKhan-dev/scalable-rag-pipeline
+  docs_url: https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - devtools
+    - kubernetes
+    - llmops
+    - open-source
+    - rag
+    - self-hosted
+    - workflow-automation
+  interfaces:
+    - cli
+    - framework
+    - template
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses Terraform, Kubernetes, Ray, and LangGraph to define a full self-hosted agentic RAG system; includes docker-compose.yml for local phases.[web:240] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/FareedKhan-dev/scalable-rag-pipeline
+    - https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme
+- slug: self-hosted-ai-package
+  name: Self-hosted AI Package
+  description: Open-source Docker Compose starter kit bundling Ollama, n8n, Supabase, Open WebUI, Flowise, Neo4j, Langfuse, and related tools.[web:180][web:206]
+  website_url: https://sourceforge.net/projects/self-hosted-ai-package.mirror/
+  repo_url: https://github.com/coleam00/ai-agents-masterclass
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - automation
+    - devtools
+    - docker
+    - llmops
+    - local-first
+    - model-serving
+    - open-source
+    - rag
+    - self-hosted
+    - vector-database
+    - workflow-automation
+  interfaces:
+    - api
+    - template
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Compose-based stack combining multiple AI services including Ollama, n8n, Supabase, Open WebUI, Flowise, Neo4j, and Langfuse.[web:180][web:206][web:195] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/coleam00/ai-agents-masterclass
+    - https://sourceforge.net/projects/self-hosted-ai-package.mirror/
+- slug: self-hosted-ai-starter-kit-n8n
+  name: Self-hosted AI Starter Kit (n8n)
+  description: Docker Compose-based local AI and low-code stack bundling n8n, Ollama, Qdrant, PostgreSQL, and related services.[web:192][web:228]
+  website_url: https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/
+  repo_url: https://github.com/n8n-io/self-hosted-ai-starter-kit
+  docs_url: https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - automation
+    - devtools
+    - docker
+    - llmops
+    - local-first
+    - model-serving
+    - open-source
+    - rag
+    - self-hosted
+    - vector-database
+    - workflow-automation
+  interfaces:
+    - api
+    - cli
+    - template
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Open Docker Compose template for a local AI and low-code environment including n8n, Ollama, Qdrant, PostgreSQL, and more.[web:192][web:228][web:195] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/
+    - https://github.com/n8n-io/self-hosted-ai-starter-kit
 - slug: servicegraph-mcp
   name: ServiceGraph MCP
   description: MCP server for exposing observability data such as service metrics and logs to AI agents.
@@ -3160,6 +3995,41 @@
     - https://docs.sweep.dev/
     - https://docs.sweep.dev/agent
     - https://sweep.dev/
+- slug: synaplan-ai-platform
+  name: Synaplan AI Platform
+  description: Open-source, self-hosted AI platform with full stack deployment via Docker Compose and local inference via Ollama.[web:224]
+  website_url: https://synaplan.com/solutions/developers
+  docs_url: https://synaplan.com/docs
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - automation
+    - devtools
+    - docker
+    - llmops
+    - local-first
+    - model-serving
+    - open-source
+    - rag
+    - self-hosted
+    - vector-database
+    - workflow-automation
+  interfaces:
+    - api
+    - template
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: API-first AI infrastructure advertised as deployable in minutes using Docker Compose with local LLM inference.[web:224] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://synaplan.com/docs
+    - https://synaplan.com/solutions/developers
 - slug: tabby
   name: Tabby
   description: Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development.
@@ -3395,6 +4265,37 @@
   sources:
     - https://docs.windsurf.com/
     - https://windsurf.com/
+- slug: winy-rag-sample-stack
+  name: Winy RAG Sample Stack
+  description: Sample RAG application with Ollama, Qdrant, and Streamlit web app orchestrated via Docker Compose.[web:202]
+  website_url: https://github.com/mfranzon/winy
+  repo_url: https://github.com/mfranzon/winy
+  docs_url: https://github.com/mfranzon/winy#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - api
+    - devtools
+    - docker
+    - model-serving
+    - open-source
+    - rag
+    - self-hosted
+    - vector-database
+  interfaces:
+    - template
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Docker Compose defines LLM (Ollama), vector DB (Qdrant), and Streamlit UI for a local RAG stack.[web:202] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/mfranzon/winy
+    - https://github.com/mfranzon/winy#readme
+    - https://matsuand.github.io/docker.docs-ja/guides/rag-ollama/containerize/
 - slug: wshobson-agents
   name: wshobson/agents
   description: Unified repository with 185 specialized agents, 16 orchestrators, 153 skills, and 100 commands for Claude Code automation.
