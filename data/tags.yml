@@ -1,6 +1,21 @@
 - slug: agent
   name: Agent
   description: Uses agentic workflows beyond single-turn completion.
+- slug: agent-skills
+  name: Agent skills
+  description: Reusable skill packs, instructions, or workflows for coding agents.
+- slug: agentic-coding
+  name: Agentic coding
+  description: Performs coding tasks autonomously with multi-step reasoning.
+- slug: agents
+  name: Agents
+  description: Supports building or running AI agents.
+- slug: api
+  name: API
+  description: Provides an API for integration.
+- slug: automation
+  name: Automation
+  description: Automates developer workflows or repetitive tasks.
 - slug: browser-automation
   name: Browser automation
   description: Can inspect, drive, or test browser behavior.
@@ -13,36 +28,141 @@
 - slug: code-review
   name: Code review
   description: Supports review of code changes or pull requests.
+- slug: coding
+  name: Coding
+  description: Helps with writing, editing, or generating code.
+- slug: cost-tracking
+  name: Cost tracking
+  description: Tracks token usage, API costs, or spend for LLM workloads.
+- slug: data-engineering
+  name: Data engineering
+  description: Supports data pipeline, warehouse, or analytics development.
+- slug: database
+  name: Database
+  description: Integrates with or manages databases.
+- slug: datasets
+  name: Datasets
+  description: Manages datasets for training, evaluation, or fine-tuning.
+- slug: debugging
+  name: Debugging
+  description: Helps identify and fix bugs in code or agent behavior.
+- slug: devops
+  name: DevOps
+  description: Supports DevOps workflows, CI/CD, or infrastructure tasks.
+- slug: devtools
+  name: Developer tools
+  description: General developer tooling for productivity or workflow.
+- slug: docker
+  name: Docker
+  description: Uses Docker or container-based deployment.
+- slug: documentation
+  name: Documentation
+  description: Generates or manages code documentation.
 - slug: evals
   name: Evals
   description: Supports evaluation of LLM, agent, or application behavior.
+- slug: experiments
+  name: Experiments
+  description: Supports ML or LLM experiment tracking and comparison.
 - slug: github
   name: GitHub
   description: Integrates with GitHub workflows or pull requests.
 - slug: ide
   name: IDE
   description: Integrates with an editor or IDE.
+- slug: ide-assistant
+  name: IDE assistant
+  description: Acts as an AI assistant inside an editor or IDE.
+- slug: inference
+  name: Inference
+  description: Runs or serves LLM inference.
 - slug: jetbrains
   name: JetBrains
   description: Supports JetBrains IDE workflows.
+- slug: kubernetes
+  name: Kubernetes
+  description: Supports Kubernetes or container orchestration workflows.
+- slug: library
+  name: Library
+  description: Distributed as a code library or SDK.
 - slug: llm-apps
   name: LLM apps
   description: Targets LLM application development and operations.
+- slug: llmops
+  name: LLMOps
+  description: Supports LLM operations, deployment, and lifecycle management.
 - slug: local-first
   name: Local-first
   description: Runs primarily on the developer machine.
+- slug: low-code
+  name: Low-code
+  description: Offers a low-code or no-code interface for AI workflows.
 - slug: mcp
   name: MCP
   description: Supports Model Context Protocol workflows.
+- slug: model-serving
+  name: Model serving
+  description: Serves or hosts LLM models for inference.
+- slug: monitoring
+  name: Monitoring
+  description: Monitors production LLM or agent behavior over time.
+- slug: multi-agent
+  name: Multi-agent
+  description: Supports workflows involving multiple collaborating agents.
 - slug: observability
   name: Observability
   description: Supports tracing, monitoring, debugging, or metrics.
+- slug: open-source
+  name: Open source
+  description: Released under an OSI-approved open-source license.
+- slug: opentelemetry
+  name: OpenTelemetry
+  description: Implements or integrates with OpenTelemetry tracing standards.
+- slug: plugins
+  name: Plugins
+  description: Provides a plugin or extension system.
+- slug: prompt-management
+  name: Prompt management
+  description: Manages, versions, or experiments with prompts.
+- slug: rag
+  name: RAG
+  description: Supports retrieval-augmented generation workflows.
+- slug: repo-editing
+  name: Repo editing
+  description: Can read and modify files in a code repository.
+- slug: security
+  name: Security
+  description: Addresses security review, scanning, or hardening workflows.
 - slug: self-hosted
   name: Self-hosted
   description: Can be deployed and operated by the user.
+- slug: server
+  name: Server
+  description: Runs as a background server or service.
 - slug: terminal
   name: Terminal
   description: Used from terminal-based workflows.
+- slug: terminal-agent
+  name: Terminal agent
+  description: Operates as an agent from the command line.
+- slug: testing
+  name: Testing
+  description: Supports test generation, execution, or coverage analysis.
+- slug: tool-calling
+  name: Tool calling
+  description: Implements or traces LLM tool/function calling.
+- slug: tracing
+  name: Tracing
+  description: Traces LLM calls, agent steps, or spans.
+- slug: vector-database
+  name: Vector database
+  description: Integrates with a vector store or embedding database.
 - slug: vscode
   name: VS Code
   description: Supports Visual Studio Code workflows.
+- slug: workflow-automation
+  name: Workflow automation
+  description: Automates complex multi-step developer workflows.
+- slug: workflow-library
+  name: Workflow library
+  description: A collection of reusable AI developer workflow definitions.
