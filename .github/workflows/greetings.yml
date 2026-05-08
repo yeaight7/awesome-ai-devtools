@@ -1,0 +1,19 @@
+name: Greetings
+
+on:
+  issues:
+  pull_request_target:
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Thanks for opening your first issue in Awesome AI Devtools. This repo is metadata-first, so please include official sources and mark uncertain metadata as `not specified`."
+          pr-message: "Thanks for your first pull request to Awesome AI Devtools. Please make sure tool metadata comes from official sources and that `npm run sort`, `npm run generate`, and `npm test` pass."
