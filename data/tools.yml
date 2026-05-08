@@ -1061,6 +1061,33 @@
     - https://github.com/TickTockBent/charlotte
     - https://vibehackers.io/mcp/charlotte
     - https://www.colaberry.ai/aixcelerator/mcp/charlotte
+- slug: cheqd-mcp-toolkit
+  name: cheqd MCP Toolkit
+  description: Modular MCP toolkit and server framework for decentralized identity workflows on the Cheqd network.
+  website_url: https://github.com/cheqd/mcp-toolkit
+  repo_url: https://github.com/cheqd/mcp-toolkit
+  docs_url: https://github.com/cheqd/mcp-toolkit#readme
+  categories:
+    - mcp-tooling
+  tags:
+    - devtools
+    - framework
+    - mcp
+    - model-context-protocol
+    - open-source
+    - security
+  interfaces:
+    - framework
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides configurable MCP server setup and reusable tools for managing DIDs, verifiable credentials, and trust registries in identity-focused agents. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/cheqd/mcp-toolkit
+    - https://github.com/cheqd/mcp-toolkit#readme
 - slug: chromadb
   name: ChromaDB
   description: Lightweight vector database and Python library for local embeddings storage and RAG-style similarity search.
@@ -2479,6 +2506,33 @@
     - https://www.ibm.com/docs/en/instana-observability
     - https://www.ibm.com/instana
     - https://www.ibm.com/new/announcements/drive-operational-efficiency-with-gen-ai-observability
+- slug: ibm-mcp-cli
+  name: IBM MCP CLI
+  description: IBM command-line interface for interacting with MCP servers from scripts and terminals.
+  website_url: https://github.com/IBM/mcp-cli
+  repo_url: https://github.com/IBM/mcp-cli
+  docs_url: https://github.com/IBM/mcp-cli
+  categories:
+    - mcp-tooling
+  tags:
+    - cli
+    - devtools
+    - mcp
+    - model-context-protocol
+    - open-source
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: IBM-maintained CLI aimed at providing a feature-rich terminal interface to Model Context Protocol servers. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/IBM/mcp-cli
+    - https://github.com/modelcontextprotocol
+    - https://www.reddit.com/r/golang/comments/1jzbzyf/mcp_server_sdk_in_go/
 - slug: intel-neural-compressor
   name: Intel Neural Compressor
   description: Open-source compression toolkit supporting quantization and pruning for deep learning and LLM workloads.
@@ -3313,6 +3367,32 @@
     - https://github.com/BerriAI/litellm/blob/main/docs/my-website/docs/observability/lunary_integration.md
     - https://github.com/lunary-ai/lunary
     - https://lunary.ai
+- slug: magnolia-mcp-framework
+  name: Magnolia MCP Framework
+  description: Forked TypeScript MCP framework adding features on top of mcp-framework for building MCP servers.
+  website_url: https://www.npmjs.com/package/@magnolia-solutions/mcp-framework
+  docs_url: https://www.npmjs.com/package/@magnolia-solutions/mcp-framework
+  categories:
+    - mcp-tooling
+  tags:
+    - cli
+    - devtools
+    - framework
+    - mcp
+    - model-context-protocol
+  interfaces:
+    - framework
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Enhanced fork of the TypeScript MCP Framework providing similar directory-based server scaffolding with additional features and transports. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/QuantGeekDev/mcp-framework
+    - https://lobehub.com/nl/mcp/quantgeekdev-mcp-framework
+    - https://www.npmjs.com/package/@magnolia-solutions/mcp-framework
 - slug: mastra-observability
   name: Mastra Observability
   description: Observability module in Mastra for tracing, monitoring, and evaluating LLM agents and workflows via OpenTelemetry.
@@ -3407,6 +3487,92 @@
   sources:
     - https://github.com/modelcontextprotocol/mcpb
     - https://modelcontextprotocol.io/docs/develop/build-with-agent-skills
+- slug: mcp-c-sdk
+  name: MCP C# SDK
+  description: Official C# SDK for MCP servers and clients, maintained with Microsoft and published to NuGet.
+  website_url: https://csharp.sdk.modelcontextprotocol.io
+  repo_url: https://github.com/modelcontextprotocol/csharp-sdk
+  docs_url: https://csharp.sdk.modelcontextprotocol.io
+  categories:
+    - mcp-tooling
+  tags:
+    - devtools
+    - mcp
+    - model-context-protocol
+    - open-source
+    - sdk
+  interfaces:
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: C# SDK offers official MCP client and server packages for .NET with stable releases and Microsoft-supported guidance. confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://csharp.sdk.modelcontextprotocol.io
+    - https://devblogs.microsoft.com/dotnet/release-v10-of-the-official-mcp-csharp-sdk/
+    - https://github.com/modelcontextprotocol/csharp-sdk
+- slug: mcp-clients-registry
+  name: MCP Clients Registry
+  description: Community-maintained registry mapping MCP client identifiers to official client names and metadata.
+  website_url: https://github.com/TianqiZhang/mcp-client-registry
+  repo_url: https://github.com/TianqiZhang/mcp-client-registry
+  docs_url: https://github.com/TianqiZhang/mcp-client-registry
+  categories:
+    - mcp-tooling
+  tags:
+    - client-management
+    - devtools
+    - mcp
+    - model-context-protocol
+    - open-source
+    - registry
+  interfaces:
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: CSV-style registry of known MCP clients keyed by clientinfo.name, useful for analytics, observability, and client-specific configuration. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/TianqiZhang/mcp-client-registry
+    - https://mcpservers.org/
+    - https://modelcontextprotocol.io
+- slug: mcp-framework-quantgeekdev
+  name: MCP Framework (QuantGeekDev)
+  description: TypeScript-first framework and CLI for building MCP servers with automatic discovery and multi-transport support.
+  website_url: https://mcp-framework.com/
+  repo_url: https://github.com/QuantGeekDev/mcp-framework
+  docs_url: https://mcp-framework.com/
+  categories:
+    - mcp-tooling
+  tags:
+    - cli
+    - devtools
+    - framework
+    - mcp
+    - model-context-protocol
+    - open-source
+    - security
+  interfaces:
+    - cli
+    - framework
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Framework built on the official TypeScript SDK with directory-based discovery, Zod-validated tools, stdio/SSE/HTTP transports, and optional OAuth/JWT/API-key auth. confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/QuantGeekDev/mcp-framework
+    - https://lobehub.com/nl/mcp/quantgeekdev-mcp-framework
+    - https://mcp-framework.com/
+    - https://www.augmentcode.com/mcp/mcp-framework
 - slug: mcp-inspector
   name: MCP Inspector
   description: Official visual and command-line testing tool for developing, inspecting, and debugging Model Context Protocol servers.
@@ -3431,6 +3597,198 @@
   sources:
     - https://github.com/modelcontextprotocol/inspector
     - https://modelcontextprotocol.io/docs/tools/inspector
+- slug: mcp-registry
+  name: MCP Registry
+  description: Community-driven registry service and REST API for publishing and discovering Model Context Protocol servers.
+  website_url: https://registry.modelcontextprotocol.io
+  repo_url: https://github.com/modelcontextprotocol/registry
+  docs_url: https://modelcontextprotocol.io/registry/about
+  categories:
+    - mcp-tooling
+  tags:
+    - devtools
+    - mcp
+    - model-context-protocol
+    - open-source
+    - publishing
+    - registry
+    - security
+    - server-management
+  interfaces:
+    - api
+  deployment: hybrid
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official MCP Registry offering an open REST API and self-hostable service for server metadata and discovery. confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/modelcontextprotocol/registry
+    - https://modelcontextprotocol.info/tools/registry/
+    - https://modelcontextprotocol.io/registry/about
+    - https://registry.modelcontextprotocol.io
+    - https://registry.modelcontextprotocol.io/v0/servers?limit=10
+- slug: mcp-registry-server-kbb99
+  name: MCP Registry Server (KBB99)
+  description: MCP server that exposes semantic search and retrieval over an MCP registry for discovering other servers.
+  website_url: https://mcpservers.org/servers/KBB99/mcp-registry-server
+  repo_url: https://github.com/KBB99/mcp-registry-server
+  docs_url: https://github.com/KBB99/mcp-registry-server
+  categories:
+    - mcp-tooling
+  tags:
+    - devtools
+    - mcp
+    - model-context-protocol
+    - open-source
+    - proxy
+    - registry
+  interfaces:
+    - mcp-server
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Acts as an MCP retriever over MCPulse or other registries, providing retrieve_mcps tools for semantic server discovery from MCP clients. confidence: medium uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/KBB99/mcp-registry-server
+    - https://mcpservers.org/servers/KBB99/mcp-registry-server
+- slug: mcp-rust-sdk-rmcp
+  name: MCP Rust SDK (rmcp)
+  description: Rust SDK for implementing MCP clients and servers, published as the rmcp crate.
+  website_url: https://crates.io/crates/rmcp
+  repo_url: https://github.com/modelcontextprotocol/rust-sdk
+  docs_url: https://crates.io/crates/rmcp
+  categories:
+    - mcp-tooling
+  tags:
+    - devtools
+    - mcp
+    - model-context-protocol
+    - open-source
+    - sdk
+  interfaces:
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Rust SDK provides a core MCP engine with crate releases tracking protocol versions and transport fixes. confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://crates.io/crates/rmcp
+    - https://github.com/modelcontextprotocol/rust-sdk
+    - https://newreleases.io/project/github/modelcontextprotocol/rust-sdk/release/rmcp-v1.5.0
+- slug: mcp-server-starter-template
+  name: MCP Server Starter Template
+  description: Starter project template for building Model Context Protocol servers for UI libraries and component registries.
+  website_url: https://mcpservers.org/servers/revskill10/hello-mcp
+  docs_url: https://mcpservers.org/servers/revskill10/hello-mcp
+  categories:
+    - mcp-tooling
+  tags:
+    - devtools
+    - mcp
+    - model-context-protocol
+    - open-source
+    - template
+  interfaces:
+    - template
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides a scaffolded MCP server structure focused on component registries, giving developers a ready-made layout for tools, prompts, and resources. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://mcpservers.org
+    - https://mcpservers.org/servers/revskill10/hello-mcp
+    - https://modelcontextprotocol.io/examples
+- slug: mcp-b-webmcp-polyfill-runtime
+  name: MCP-B WebMCP Polyfill Runtime
+  description: Polyfill and runtime stack that brings the Web Model Context API and WebMCP behavior to current browsers.
+  website_url: https://docs.mcp-b.ai/explanation/webmcp-vs-mcp
+  docs_url: https://docs.mcp-b.ai/explanation/webmcp-vs-mcp
+  categories:
+    - mcp-tooling
+  tags:
+    - devtools
+    - mcp
+    - model-context-protocol
+    - sdk
+  interfaces:
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: MCP-B runtime provides a WebMCP polyfill so sites can expose tools and context to agents before native browser support exists. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.mcp-b.ai
+    - https://docs.mcp-b.ai/explanation/webmcp-vs-mcp
+    - https://webmcp.dev
+- slug: mcp-cli-wong2
+  name: mcp-cli (wong2)
+  description: Interactive and non-interactive CLI inspector for running, listing, and calling MCP server tools, resources, and prompts.
+  website_url: https://www.npmjs.com/package/@wong2/mcp-cli
+  repo_url: https://github.com/wong2/mcp-cli
+  docs_url: https://github.com/wong2/mcp-cli
+  categories:
+    - mcp-tooling
+  tags:
+    - cli
+    - debugging
+    - devtools
+    - mcp
+    - model-context-protocol
+    - open-source
+    - testing
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Node-based CLI that can run MCP servers from configs or NPM, list tools, inspect schemas, and script tool calls with OAuth support. confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/wong2/mcp-cli
+    - https://www.npmjs.com/package/@wong2/mcp-cli
+- slug: mcpscan-ai
+  name: mcpscan.ai
+  description: Web-based security scanner for discovering vulnerabilities in MCP server implementations and configurations.
+  website_url: https://mcpscan.ai
+  docs_url: https://mcpscan.ai
+  categories:
+    - mcp-tooling
+  tags:
+    - devtools
+    - mcp
+    - model-context-protocol
+    - security
+    - testing
+    - validation
+  interfaces:
+    - web-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Online scanner that analyzes MCP servers for issues like injection, insecure input handling, and other security weaknesses before deployment. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://arxiv.org/html/2510.23673v1
+    - https://fluidattacks.com/blog/model-context-protocol-mcp-security
+    - https://mcpscan.ai
 - slug: microsoft-skills
   name: Microsoft Skills
   description: Skills, custom agents, AGENTS.md templates, and MCP configurations for AI coding agents working with Azure SDKs and Microsoft AI Foundry.
@@ -3646,6 +4004,88 @@
     - https://github.com/ml-explore/mlx-lm
     - https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/SERVER.md
     - https://github.com/ml-explore/mlx-lm#readme
+- slug: model-context-protocol-registry-raycast-extension
+  name: Model Context Protocol Registry (Raycast Extension)
+  description: Raycast desktop extension for browsing and installing MCP servers from registries.
+  website_url: https://www.raycast.com/raycast/model-context-protocol-registry
+  docs_url: https://www.raycast.com/raycast/model-context-protocol-registry
+  categories:
+    - mcp-tooling
+  tags:
+    - client-management
+    - devtools
+    - mcp
+    - model-context-protocol
+    - registry
+  interfaces:
+    - desktop-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Raycast extension that surfaces MCP registries, lets developers search servers, and integrates installs into the Raycast client. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://modelcontextprotocol.info/tools/registry/
+    - https://raycast.com
+    - https://www.raycast.com/raycast/model-context-protocol-registry
+- slug: model-context-protocol-specification-repo
+  name: Model Context Protocol Specification Repo
+  description: Official repository containing the MCP specification, schemas, and documentation website sources.
+  website_url: https://modelcontextprotocol.io
+  repo_url: https://github.com/modelcontextprotocol/modelcontextprotocol
+  docs_url: https://github.com/modelcontextprotocol/modelcontextprotocol
+  categories:
+    - mcp-tooling
+  tags:
+    - devtools
+    - mcp
+    - model-context-protocol
+    - open-source
+    - validation
+  interfaces:
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Houses the canonical MCP spec and JSON schemas that SDKs and validators rely on for protocol correctness. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/modelcontextprotocol
+    - https://github.com/modelcontextprotocol/modelcontextprotocol
+    - https://modelcontextprotocol.io
+- slug: model-context-protocol-typescript-sdk
+  name: Model Context Protocol TypeScript SDK
+  description: Official TypeScript SDK for building MCP servers and clients with stdio and HTTP transports.
+  website_url: https://modelcontextprotocol.io/docs/sdk
+  repo_url: https://github.com/modelcontextprotocol/typescript-sdk
+  docs_url: https://www.npmjs.com/package/@modelcontextprotocol/sdk
+  categories:
+    - mcp-tooling
+  tags:
+    - devtools
+    - mcp
+    - model-context-protocol
+    - open-source
+    - sdk
+  interfaces:
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: TypeScript SDK implements the full MCP spec for creating servers and clients using stdio and Streamable HTTP. confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/modelcontextprotocol
+    - https://github.com/modelcontextprotocol/typescript-sdk
+    - https://modelcontextprotocol.info/docs/quickstart/server/
+    - https://modelcontextprotocol.io/docs/sdk
+    - https://www.npmjs.com/package/@modelcontextprotocol/sdk
 - slug: monocle
   name: Monocle
   description: Linux Foundation project providing a framework to trace GenAI app code and agent workflows with minimal code changes.
@@ -4503,6 +4943,60 @@
     - https://posthog.com/docs/ai-engineering
     - https://posthog.com/docs/ai-engineering/llm-analytics
     - https://www.youtube.com/watch?v=wonEbaSnzOI
+- slug: pulsemcp-raycast-extension
+  name: PulseMCP Raycast Extension
+  description: Raycast extension for searching and viewing MCP servers from the PulseMCP registry.
+  website_url: https://www.raycast.com/ismi/pulsemcp
+  docs_url: https://www.raycast.com/ismi/pulsemcp
+  categories:
+    - mcp-tooling
+  tags:
+    - client-management
+    - devtools
+    - mcp
+    - model-context-protocol
+    - registry
+  interfaces:
+    - desktop-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Desktop UI inside Raycast to search, inspect, and open MCP servers indexed by the PulseMCP registry API. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://www.pulsemcp.com
+    - https://www.pulsemcp.com/servers/maorfr-registry
+    - https://www.raycast.com/ismi/pulsemcp
+- slug: pulsemcp-registry
+  name: PulseMCP Registry
+  description: MCP-focused registry and API that aggregates, enriches, and exposes metadata about public MCP servers.
+  website_url: https://www.pulsemcp.com
+  docs_url: https://www.pulsemcp.com/api
+  categories:
+    - mcp-tooling
+  tags:
+    - devtools
+    - mcp
+    - model-context-protocol
+    - observability
+    - registry
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Online registry providing searchable MCP server catalog and JSON server descriptors used by clients and ecosystem tools. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://www.pulsemcp.com
+    - https://www.pulsemcp.com/api
+    - https://www.pulsemcp.com/servers/maorfr-registry
+    - https://www.youtube.com/watch?v=jI9NTVX68T0
 - slug: pulumi-agent-skills
   name: Pulumi Agent Skills
   description: Agent Skills for infrastructure-as-code workflows teaching AI assistants Pulumi migrations, components, and secrets management.
@@ -4932,6 +5426,64 @@
     - https://github.com/Skyvern-AI/skyvern
     - https://pypi.org/project/skyvern/0.1.70/
     - https://www.ycombinator.com/companies/skyvern
+- slug: smithery-cli
+  name: Smithery CLI
+  description: CLI to search, install, run, publish, and inspect MCP servers and skills across clients.
+  website_url: https://smithery.ai
+  repo_url: https://github.com/smithery-ai/cli
+  docs_url: https://smithery.ai/docs/concepts/cli
+  categories:
+    - mcp-tooling
+  tags:
+    - automation
+    - cli
+    - devtools
+    - mcp
+    - model-context-protocol
+    - open-source
+    - publishing
+    - registry
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Client-agnostic CLI for managing MCP servers: search registries, add/remove servers per client, call tools, and publish MCP servers or bundles. confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/smithery-ai/cli
+    - https://smithery.ai
+    - https://smithery.ai/docs/concepts/cli
+- slug: smithery-mcp-installer-server
+  name: Smithery MCP Installer Server
+  description: Official MCP server for Smithery CLI that finds, configures, and installs MCP servers for local clients.
+  website_url: https://github.com/smithery-ai/smithery-cli-mcp
+  repo_url: https://github.com/smithery-ai/smithery-cli-mcp
+  docs_url: https://github.com/smithery-ai/smithery-cli-mcp
+  categories:
+    - mcp-tooling
+  tags:
+    - automation
+    - devtools
+    - mcp
+    - model-context-protocol
+    - open-source
+    - registry
+    - server-management
+  interfaces:
+    - mcp-server
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: MCP server exposing tools like find-mcp, collect-config, and install-mcp to automate discovery and installation via Smithery. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/smithery-ai/smithery-cli-mcp
+    - https://smithery.ai/docs/concepts/cli
 - slug: stagehand
   name: Stagehand
   description: AI browser automation framework that mixes natural language actions with Playwright code for reliable production browser agents.
@@ -5595,6 +6147,61 @@
     - https://github.com/mlc-ai/web-llm
     - https://github.com/mlc-ai/web-llm#readme
     - https://webllm.mlc.ai
+- slug: webmcp-devtools-tool-inspector-auditor
+  name: WebMCP DevTools — Tool Inspector & Auditor
+  description: Chrome DevTools-style inspector for discovering, auditing, and exporting WebMCP tools on MCP-enabled websites.
+  website_url: https://chromewebstore.google.com/detail/webmcp-devtools-%E2%80%94-tool-in/mkoppddbmiankfpbapbaodmamhocbbhi
+  docs_url: https://webmcp.dev
+  categories:
+    - mcp-tooling
+  tags:
+    - debugging
+    - devtools
+    - inspector
+    - mcp
+    - model-context-protocol
+  interfaces:
+    - web-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Browser-based inspector that detects WebMCP tools on pages, shows schemas, readiness scoring, and export options for MCP-compatible agents. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://chromewebstore.google.com/detail/webmcp-devtools-%E2%80%94-tool-in/mkoppddbmiankfpbapbaodmamhocbbhi
+    - https://docs.mcp-b.ai/explanation/webmcp-vs-mcp
+    - https://webmcp.dev
+- slug: webmcp-javascript-library
+  name: WebMCP JavaScript Library
+  description: JavaScript library and runtime for exposing website functionality as WebMCP tools to MCP-aware agents.
+  website_url: https://webmcp.dev
+  repo_url: https://github.com/webmachinelearning/webmcp
+  docs_url: https://docs.mcp-b.ai/explanation/webmcp-vs-mcp
+  categories:
+    - mcp-tooling
+  tags:
+    - devtools
+    - local-first
+    - mcp
+    - model-context-protocol
+    - open-source
+    - sdk
+  interfaces:
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Library and proposal for treating web pages as MCP servers by registering tools via navigator.modelContext for browser-based agents. confidence: high uncertain: false"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://discoveredlabs.com/blog/google-webmcp-explained-the-complete-guide-to-web-model-context-protocol-for-ai-agents
+    - https://docs.mcp-b.ai/explanation/webmcp-vs-mcp
+    - https://github.com/webmachinelearning/webmcp
+    - https://webmcp.dev
 - slug: webvoyager
   name: WebVoyager
   description: LMM-powered web agent that completes end-to-end tasks on real websites using visual and textual signals in a Selenium environment.
