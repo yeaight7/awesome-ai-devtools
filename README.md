@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>79 tools</code> <code>16 active shelves</code> <code>metadata-first</code> <code>generated README</code></p>
+<p align="center"><code>119 tools</code> <code>16 active shelves</code> <code>metadata-first</code> <code>generated README</code></p>
 
 ## Why this exists
 
@@ -27,8 +27,8 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 | [MCP servers](#mcp-servers) | Model Context Protocol servers that expose tools, resources, or prompts. | 15 |
 | [MCP clients](#mcp-clients) | Applications and agents that connect to Model Context Protocol servers. | 6 |
 | [MCP tooling](#mcp-tooling) | Developer tools for building, testing, debugging, or managing MCP systems. | 1 |
-| [Agent skill packs](#agent-skill-packs) | Reusable instruction, workflow, or capability packs for coding agents. | 30 |
-| [Agent observability](#agent-observability) | Tools for tracing, monitoring, and debugging agent or LLM application behavior. | 1 |
+| [Agent skill packs](#agent-skill-packs) | Reusable instruction, workflow, or capability packs for coding agents. | 31 |
+| [Agent observability](#agent-observability) | Tools for tracing, monitoring, and debugging agent or LLM application behavior. | 40 |
 | [Agent evals](#agent-evals) | Evaluation frameworks and systems for agents, LLM apps, and developer workflows. | 1 |
 | [Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) | Self-hostable platforms and infrastructure for AI developer workflows. | 3 |
 | [Local LLM developer tools](#local-llm-developer-tools) | Tools that help developers run or integrate local models in coding workflows. | 1 |
@@ -171,6 +171,7 @@ Reusable instruction, workflow, or capability packs for coding agents.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
+| [Agent Powerups](https://github.com/yeaight7/agent-powerups) | Curated power-ups for coding agents. Skills, slash commands, MCP configs, hooks, AGENTS.md templates, and workflows for serious software engineering. Claude Code, Codex, Gemini CLI and more | CLI · Library · Mcp Server · Skill Pack · Template | [Website](https://github.com/yeaight7/agent-powerups) / [Repo](https://github.com/yeaight7/agent-powerups) |
 | [Agent Skills](https://github.com/datalayer/agent-skills) | Python package to create, manage, and execute reusable code-based tool compositions for AI agents with MCP integration. | Library · Mcp Server · Skill Pack · Local | [Website](https://github.com/datalayer/agent-skills) / [Repo](https://github.com/datalayer/agent-skills) |
 | [Agent Skills Specification](https://github.com/agentskills/agentskills) | Open specification and documentation for Agent Skills format maintained by Anthropic with reference SDK and examples. | Framework · Skill Pack | [Website](https://github.com/agentskills/agentskills) / [Repo](https://github.com/agentskills/agentskills) |
 | [AgentSkills MCP](https://github.com/zouyingcao/agentskills-mcp) | MCP server that brings Anthropic Agent Skills to any MCP-compatible agent with progressive disclosure architecture. | Mcp Server · Skill Pack · Local | [Website](https://github.com/zouyingcao/agentskills-mcp) / [Repo](https://github.com/zouyingcao/agentskills-mcp) |
@@ -208,7 +209,46 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
+| [Amazon CloudWatch GenAI Observability](https://aws.amazon.com/cloudwatch/) | CloudWatch capabilities for monitoring and tracing generative AI agents, workloads, and quality metrics on AWS. | API · Web app · Cloud | [Website](https://aws.amazon.com/cloudwatch/) / [Docs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GenAI-observability.html) / [Repo](https://github.com/aws-samples/sample-amazon-cloudwatch-generative-ai-observability) |
+| [Arize AX](https://arize.com/ai-agents/agent-observability/) | Commercial agent and LLM observability platform built on Phoenix for tracing, evaluation, and monitoring production AI systems. | API · Web app · Cloud | [Website](https://arize.com/ai-agents/agent-observability/) / [Docs](https://arize.com/docs/ax/observe/quickstart-llm) |
+| [Arize Phoenix](https://arize.com/phoenix) | Open-source AI observability platform with tracing, evals, datasets, and experiments for LLM, agent, and RAG systems. | API · Library · Web app · Self-hosted | [Website](https://arize.com/phoenix) / [Docs](https://arize.com/docs/phoenix) / [Repo](https://github.com/arize-ai/phoenix) |
+| [Braintrust](https://www.braintrust.dev) | AI observability and evaluation platform that logs LLM and agent traces and turns production logs into test datasets. | API · Web app · Cloud | [Website](https://www.braintrust.dev) / [Docs](https://docs.braintrust.dev) |
+| [Comet Opik](https://www.comet.com) | Open-source LLM observability framework for tracing, evaluating, and monitoring LLM, RAG, and agent workflows. | API · Library · Web app · Hybrid | [Website](https://www.comet.com) / [Docs](https://docs.comet.com/docs/opik-overview) / [Repo](https://github.com/comet-ml/opik) |
+| [Confident AI](https://www.confident-ai.com) | Evaluation and observability platform that traces LLM apps and runs DeepEval metrics on components and end-to-end workflows. | API · Library · Web app · Cloud | [Website](https://www.confident-ai.com) / [Docs](https://www.confident-ai.com/docs) |
+| [Datadog LLM Observability](https://www.datadoghq.com/product/ai/llm-observability/) | Datadog product for tracing, monitoring, and evaluating LLM and agent applications with integrated APM views. | API · Library · Web app · Cloud | [Website](https://www.datadoghq.com/product/ai/llm-observability/) / [Docs](https://docs.datadoghq.com/tracing/llm_observability/) / [Repo](https://github.com/DataDog/llm-observability) |
+| [Dunetrace](https://dunetrace.dev) | Open-source anomaly detection layer that monitors agent traces for structural failures and alerts in real time. | API · Library · Self-hosted | [Website](https://dunetrace.dev) / [Docs](https://github.com/dunetrace/dunetrace#readme) / [Repo](https://github.com/dunetrace/dunetrace) |
+| [Evidently AI](https://www.evidentlyai.com) | Open-source library and cloud service for evaluating, testing, and monitoring ML and LLM systems, including RAG and agents. | API · Library · Web app · Hybrid | [Website](https://www.evidentlyai.com) / [Docs](https://docs.evidentlyai.com) / [Repo](https://github.com/evidentlyai/evidently) |
+| [Fiddler AI Observability](https://www.fiddler.ai) | AI observability and security platform for monitoring, alerting, and troubleshooting LLM and ML applications. | API · Web app · Cloud | [Website](https://www.fiddler.ai) / [Docs](https://docs.fiddler.ai) |
+| [Flexible GraphRAG Observability Stack](https://github.com/stevereiner/flexible-graphrag) | Observability setup in Flexible GraphRAG that instruments LlamaIndex RAG apps with OTEL traces, metrics, and Grafana dashboards. | CLI · Library · Self-hosted | [Website](https://github.com/stevereiner/flexible-graphrag) / [Docs](https://github.com/stevereiner/flexible-graphrag/blob/main/docs/DEVELOPER/OBSERVABILITY/OBSERVABILITY.md) / [Repo](https://github.com/stevereiner/flexible-graphrag) |
+| [Galileo AI](https://galileo.ai) | Agent-centric observability and evaluation platform with tracing, guardrails, and Luna models for RAG and agents. | API · Web app · Cloud | [Website](https://galileo.ai) / [Docs](https://docs.galileo.ai) |
+| [Grafana GenAI Observability](https://grafana.com) | Grafana Cloud dashboards and metrics for monitoring LLM application performance, token usage, and cost. | API · Web app · Cloud | [Website](https://grafana.com) / [Docs](https://grafana.com/docs/grafana-cloud/monitor-applications/ai-observability/genai/observability/) |
+| [Helicone](https://www.helicone.ai) | Open-source LLM observability platform and gateway for logging, tracing, and evaluating LLM and agent requests. | API · Library · Web app · Self-hosted | [Website](https://www.helicone.ai) / [Docs](https://docs.helicone.ai) / [Repo](https://github.com/Helicone/helicone) |
+| [IBM Instana GenAI Observability](https://www.ibm.com/instana) | Instana module that provides GenAI observability for LLM and agentic workloads with unified tracing and metrics. | API · Web app · Cloud | [Website](https://www.ibm.com/instana) / [Docs](https://www.ibm.com/docs/en/instana-observability) |
+| [Keywords AI](https://keywordsai.co) | LLM observability platform offering real-time traces, logs, metrics, and quality scores across many models. | API · Web app · Cloud | [Website](https://keywordsai.co) / [Docs](https://docs.keywordsai.co) |
 | [Langfuse](https://langfuse.com/docs) | Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations. | API · Web · Hybrid | [Website](https://langfuse.com/docs) / [Docs](https://langfuse.com/docs) / [Repo](https://github.com/langfuse/langfuse) |
+| [LangSmith](https://www.langchain.com/langsmith-platform) | Hosted observability and evaluation platform for tracing, debugging, and monitoring LangChain and other LLM or agent applications. | API · Library · Web app · Cloud | [Website](https://www.langchain.com/langsmith-platform) / [Docs](https://www.langchain.com/langsmith/observability) |
+| [Langtrace](https://langtrace.ai) | Open-source OpenTelemetry-based observability tool and dashboard for tracing, evaluating, and debugging LLM applications. | API · Library · Web app · Self-hosted | [Website](https://langtrace.ai) / [Docs](https://docs.langtrace.ai) / [Repo](https://github.com/Scale3-Labs/langtrace) |
+| [LangWatch](https://langwatch.ai) | LLM observability and evaluation platform focused on tracing, debugging, and optimizing AI agents and applications. | API · Library · Web app · Hybrid | [Website](https://langwatch.ai) / [Docs](https://docs.langwatch.ai) / [Repo](https://github.com/langwatch/langwatch) |
+| [Lunary](https://lunary.ai) | Open-source observability and prompt platform for LLM chatbots with analytics, logs, traces, and evaluations. | API · Library · Web app · Hybrid | [Website](https://lunary.ai) / [Docs](https://docs.lunary.ai) / [Repo](https://github.com/lunary-ai/lunary) |
+| [Mastra Observability](https://mastra.ai) | Observability module in Mastra for tracing, monitoring, and evaluating LLM agents and workflows via OpenTelemetry. | API · Library · Web app · Hybrid | [Website](https://mastra.ai) / [Docs](https://mastra.ai/docs/observability) |
+| [Maxim AI](https://getmaxim.ai) | End-to-end AI evaluation and observability platform for testing and monitoring agents and LLM applications. | API · Library · Web app · Cloud | [Website](https://getmaxim.ai) / [Docs](https://docs.getbifrost.ai/features/observability/maxim) / [Repo](https://github.com/maximhq) |
+| [MLflow AI Observability](https://mlflow.org) | MLflow extensions for LLM and agent observability with tracing, evaluation, and integration with TruLens scorers. | API · CLI · Library · Web app · Hybrid | [Website](https://mlflow.org) / [Docs](https://mlflow.org/docs/latest/llm/index.html) / [Repo](https://github.com/mlflow/mlflow) |
+| [Monocle](https://monocle2ai.org) | Linux Foundation project providing a framework to trace GenAI app code and agent workflows with minimal code changes. | API · Library · Local | [Website](https://monocle2ai.org) / [Docs](https://docs.monocle.sh) / [Repo](https://github.com/monocle2ai/monocle) |
+| [Noveum AI Agent Monitoring](https://noveum.ai/en/solutions/ai-agent-monitoring) | Enterprise AI agent monitoring platform with real-time tracing of LLM calls, RAG steps, and tool interactions. | API · Web app · Cloud | [Website](https://noveum.ai/en/solutions/ai-agent-monitoring) |
+| [Okahu](https://www.okahu.ai) | AI observability platform and tools for debugging, testing, and monitoring agentic and LLM-based applications. | API · Web app · Cloud | [Website](https://www.okahu.ai) / [Docs](https://docs.okahu.ai) / [Repo](https://github.com/okahu-demos) |
+| [OpenAI Traces and Evals](https://platform.openai.com) | Built-in OpenAI platform capabilities for tracing agent workflows and running evaluations on traces and datasets. | API · Web app · Cloud | [Website](https://platform.openai.com) / [Docs](https://developers.openai.com/api/docs/guides/agent-evals) / [Repo](https://github.com/openai/evals) |
+| [OpenInference](https://arize-ai.github.io/openinference/) | Open-source OpenTelemetry-based specification and instrumentations for tracing AI and LLM applications. | Library · Local | [Website](https://arize-ai.github.io/openinference/) / [Docs](https://arize-ai.github.io/openinference/) / [Repo](https://github.com/Arize-ai/openinference) |
+| [OpenLIT](https://openlit.io) | Open-source OpenTelemetry-native observability and evaluations platform for GenAI and LLM applications. | API · CLI · Library · Web app · Self-hosted | [Website](https://openlit.io) / [Docs](https://docs.openlit.io) / [Repo](https://github.com/openlit/openlit) |
+| [OpenObserve LLM Observability](https://openobserve.ai) | Open-source observability platform that unifies infrastructure and LLM observability with logs, metrics, and traces. | API · Web app · Hybrid | [Website](https://openobserve.ai) / [Docs](https://openobserve.ai/docs) / [Repo](https://github.com/openobserve/openobserve) |
+| [OpenSearch GenAI Observability SDK](https://opensearch.org) | OpenTelemetry-native Python SDK for one-line LLM observability using OpenSearch and Data Prepper as backend. | Library · Local | [Website](https://opensearch.org) / [Docs](https://github.com/opensearch-project/genai-observability-sdk-py#readme) / [Repo](https://github.com/opensearch-project/genai-observability-sdk-py) |
+| [PostHog LLM Analytics](https://posthog.com) | LLM observability product in PostHog that captures traces, spans, and sessions for AI-powered applications. | API · Library · Web app · Cloud | [Website](https://posthog.com) / [Docs](https://posthog.com/docs/ai-engineering/llm-analytics) / [Repo](https://github.com/PostHog/posthog) |
+| [Respan](https://respan.ai) | LLM engineering platform that unifies observability, evals, prompt optimization, and gateway for AI applications. | API · Web app · Cloud | [Website](https://respan.ai) |
+| [Traceloop OpenLLMetry](https://traceloop.com) | Open-source OpenTelemetry extensions and SDKs for providing LLM and RAG observability across backends. | API · Library · Local | [Website](https://traceloop.com) / [Docs](https://docs.traceloop.com) / [Repo](https://github.com/traceloop/openllmetry) |
+| [TruLens](https://www.trulens.org) | Open-source library for tracing and evaluating AI agents, RAG systems, and LLM applications with feedback functions. | Library · Web app · Local | [Website](https://www.trulens.org) / [Docs](https://www.trulens.org/docs) / [Repo](https://github.com/truera/trulens) |
+| [Untrace](https://untrace.dev) | Trace-routing platform that captures LLM traces once and forwards them to multiple observability backends. | API · Library · Cloud | [Website](https://untrace.dev) / [Docs](https://untrace.dev/docs) / [Repo](https://github.com/untrace-dev/untrace-sdk) |
+| [Weights & Biases Weave](https://wandb.ai) | Framework and UI for debugging, tracing, and monitoring LLM applications with W&B observability. | API · Library · Web app · Hybrid | [Website](https://wandb.ai) / [Docs](https://docs.wandb.ai/guides/weave) / [Repo](https://github.com/wandb/weave) |
+| [WhyLabs OpenLLMTelemetry](https://whylabs.ai) | Python library that instruments LLM calls and sends OpenTelemetry traces and safeguards data to WhyLabs. | API · Library · Local | [Website](https://whylabs.ai) / [Docs](https://docs.whylabs.ai/docs/openllmtelemetry) / [Repo](https://github.com/whylabs/openllmtelemetry) |
+| [Zenity AI Observability Platform](https://zenity.io/platform/ai-observability) | Security-focused AI observability platform for discovering and monitoring agents across SaaS, endpoints, and environments. | API · Web app · Cloud | [Website](https://zenity.io/platform/ai-observability) |
 
 ### Agent evals
 
@@ -290,14 +330,14 @@ AI tools that create, improve, or maintain automated tests.
 
 ## New Arrivals
 
-- 2026-05-07: [Agent Skills](https://github.com/datalayer/agent-skills)
-- 2026-05-07: [Agent Skills Specification](https://github.com/agentskills/agentskills)
-- 2026-05-07: [AgentSkills MCP](https://github.com/zouyingcao/agentskills-mcp)
-- 2026-05-07: [Aider](https://aider.chat/)
-- 2026-05-07: [Amazon Q Developer](https://aws.amazon.com/q/developer/)
-- 2026-05-07: [Amp](https://ampcode.com/)
-- 2026-05-07: [Anki MCP Server](https://ankimcp.ai)
-- 2026-05-07: [Anthropic Knowledge Work Plugins](https://github.com/anthropics/knowledge-work-plugins)
+- 2026-05-08: [Agent Powerups](https://github.com/yeaight7/agent-powerups)
+- 2026-05-08: [Amazon CloudWatch GenAI Observability](https://aws.amazon.com/cloudwatch/)
+- 2026-05-08: [Arize AX](https://arize.com/ai-agents/agent-observability/)
+- 2026-05-08: [Arize Phoenix](https://arize.com/phoenix)
+- 2026-05-08: [Braintrust](https://www.braintrust.dev)
+- 2026-05-08: [Comet Opik](https://www.comet.com)
+- 2026-05-08: [Confident AI](https://www.confident-ai.com)
+- 2026-05-08: [Datadog LLM Observability](https://www.datadoghq.com/product/ai/llm-observability/)
 
 ## Submit a tool
 
@@ -317,4 +357,3 @@ Use official sources, keep descriptions factual, and leave uncertain metadata as
 - Add contribution-friendly seed coverage category by category.
 - Build generated filters and richer comparison views after the data model settles.
 - Design a future importer after the schema, validator, and generator have real usage.
-
