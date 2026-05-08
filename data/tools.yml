@@ -22,6 +22,34 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/vercel-labs/agent-browser
+- slug: agent-eval-framework
+  name: Agent Eval Framework
+  description: Python package for production-grade evaluation and continuous improvement of AI agents across multiple quality dimensions.
+  website_url: https://github.com/goker/agent-eval-framework
+  repo_url: https://github.com/goker/agent-eval-framework
+  docs_url: https://github.com/goker/agent-eval-framework
+  categories:
+    - agent-evals
+  tags:
+    - agent-evals
+    - evals
+    - experiments
+    - open-source
+    - regression-testing
+    - testing
+  interfaces:
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements multi-dimension scoring, training loops and prompt optimization to track agent improvements and regressions over time. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/goker/agent-eval-framework
+    - https://pypi.org/project/agent-eval-framework/
 - slug: agent-powerups
   name: Agent Powerups
   description: Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents.
@@ -151,6 +179,38 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/mrmoxon/Agent-WebVoyager
+- slug: agentic-security
+  name: Agentic Security
+  description: Open-source vulnerability scanner and red-teaming kit for LLM agents and workflows focused on security evaluation.
+  website_url: https://github.com/msoedov/agentic_security
+  repo_url: https://github.com/msoedov/agentic_security
+  docs_url: https://github.com/msoedov/agentic_security
+  categories:
+    - agent-evals
+  tags:
+    - agent-evals
+    - evals
+    - local-first
+    - open-source
+    - red-teaming
+    - safety
+    - security
+    - testing
+  interfaces:
+    - cli
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides multimodal attacks, fuzzing, RL-based probes and reporting to evaluate LLM and agent robustness against jailbreaks and data leaks. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/msoedov/agentic_security
+    - https://starlog.is/articles/cybersecurity/msoedov-agentic-security/
+    - https://www.linkedin.com/posts/kongsec_github-msoedovagenticsecurity-agentic-activity-7209892356588765185-jnW9
 - slug: agentskills-mcp
   name: AgentSkills MCP
   description: MCP server that brings Anthropic Agent Skills to any MCP-compatible agent with progressive disclosure architecture.
@@ -568,6 +628,33 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/astronomer/agents
+- slug: async-labs-llm-eval-php
+  name: Async Labs LLM Eval (PHP)
+  description: PHP package for evaluating LLM outputs to test prompts and validate responses in PHP applications.
+  website_url: https://github.com/Aysnc-Labs/llm-eval
+  repo_url: https://github.com/Aysnc-Labs/llm-eval
+  docs_url: https://github.com/Aysnc-Labs/llm-eval
+  categories:
+    - agent-evals
+  tags:
+    - evals
+    - llm-evals
+    - open-source
+    - regression-testing
+    - testing
+  interfaces:
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides utilities for prompt testing and response validation for PHP-based LLM features, as described in GitHub topic listing. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/Aysnc-Labs/llm-eval
+    - https://github.com/topics/llm-evaluation-framework?l=php
 - slug: athenaeum
   name: Athenaeum
   description: Self-hosted semantic library platform with embeddings, chat UI, pgvector, and MCP server support.
@@ -770,6 +857,36 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/continuedev/awesome-rules
+- slug: aws-agent-evaluation
+  name: AWS Agent Evaluation
+  description: Generative AI-powered framework from AWS Labs to test virtual agents via multi-turn conversations and CI-friendly workflows.
+  website_url: https://awslabs.github.io/agent-evaluation/
+  repo_url: https://github.com/awslabs/agent-evaluation
+  docs_url: https://awslabs.github.io/agent-evaluation/
+  categories:
+    - agent-evals
+  tags:
+    - agent-evals
+    - benchmarking
+    - ci
+    - cloud
+    - evals
+    - experiments
+    - testing
+  interfaces:
+    - cli
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements an evaluator agent that orchestrates concurrent multi-turn conversations with target agents and can be wired into CI/CD. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://awslabs.github.io/agent-evaluation/
+    - https://github.com/awslabs/agent-evaluation
 - slug: azure-devops-skills
   name: Azure DevOps Skills
   description: Example skills for GitHub Copilot integrating with Azure DevOps via MCP server for work items, iterations, and builds.
@@ -1571,6 +1688,105 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/dbt-labs/dbt-agent-skills
+- slug: deepchecks-llm-evaluation
+  name: Deepchecks LLM Evaluation
+  description: Enterprise platform and tooling for evaluating, comparing, and monitoring LLM-based applications across quality and safety metrics.
+  website_url: https://deepchecks.com/llm-evaluation/
+  repo_url: https://github.com/deepchecks/llm-evals-demos
+  docs_url: https://deepchecks.com/deepchecks-llm-evaluation/
+  categories:
+    - agent-evals
+  tags:
+    - benchmarking
+    - datasets
+    - evals
+    - experiments
+    - llm-evals
+    - llmops
+    - observability
+    - safety
+    - testing
+  interfaces:
+    - api
+    - framework
+    - web-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports automated scoring, golden set management, CI/CD validation and monitoring for quality, safety and regression across LLM workflows. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://deepchecks.com/deepchecks-llm-evaluation/
+    - https://deepchecks.com/llm-evaluation/
+    - https://github.com/deepchecks/llm-evals-demos
+- slug: deepeval
+  name: DeepEval
+  description: Python framework for unit testing and benchmarking LLM applications, RAG systems, and agents with research-backed metrics.
+  website_url: https://deepeval.com
+  repo_url: https://github.com/confident-ai/deepeval
+  docs_url: https://github.com/confident-ai/deepeval
+  categories:
+    - agent-evals
+  tags:
+    - agent-evals
+    - benchmarking
+    - datasets
+    - evals
+    - experiments
+    - llm-evals
+    - local-first
+    - open-source
+    - rag
+    - testing
+  interfaces:
+    - cli
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides 50+ plug-and-play metrics including hallucination, faithfulness, toxicity, RAG and agent-specific metrics with pytest-like workflow. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://deepeval.com
+    - https://github.com/confident-ai/deepeval
+    - https://www.datacamp.com/tutorial/deepeval
+- slug: deepteam
+  name: DeepTeam
+  description: Open-source LLM red teaming framework for simulating attacks and evaluating safety of LLM systems using DeepEval metrics.
+  website_url: https://github.com/confident-ai/deepteam
+  repo_url: https://github.com/confident-ai/deepteam
+  docs_url: https://github.com/confident-ai/deepteam
+  categories:
+    - agent-evals
+  tags:
+    - agent-evals
+    - evals
+    - llm-evals
+    - open-source
+    - red-teaming
+    - safety
+    - security
+    - testing
+  interfaces:
+    - cli
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs local red-team campaigns using jailbreaks, prompt injections and other attacks, powered by DeepEval metrics for risk scoring. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://genezio-deepteam.readthedocs.io/en/latest/
+    - https://github.com/confident-ai/deepteam
+    - https://www.helpnetsecurity.com/2025/11/26/deepteam-open-source-llm-red-teaming-framework/
 - slug: devbox-ai-dev-stack
   name: DevBox AI Dev Stack
   description: Zero-trust dev environment repository including an AI dev stack installer for Docker-based tools on a VPS.
@@ -2745,6 +2961,64 @@
     - https://github.com/LostRuins/koboldcpp
     - https://github.com/LostRuins/koboldcpp/wiki
     - https://koboldcpp.com
+- slug: langchain-openevals
+  name: LangChain OpenEvals
+  description: Open-source collection of ready-made evaluators for LLM applications in the LangChain ecosystem.
+  website_url: https://github.com/langchain-ai/openevals
+  repo_url: https://github.com/langchain-ai/openevals
+  docs_url: https://github.com/langchain-ai/openevals
+  categories:
+    - agent-evals
+  tags:
+    - datasets
+    - evals
+    - experiments
+    - llm-evals
+    - open-source
+    - testing
+  interfaces:
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers reusable evaluation components intended to plug into LangSmith and LangChain workflows for scoring LLM outputs. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.langchain.com/langsmith/evaluation-types
+    - https://github.com/langchain-ai/openevals
+- slug: langfair
+  name: LangFair
+  description: Python library for use-case level LLM bias and fairness assessment using bring-your-own-prompts workflows.
+  website_url: https://cvs-health.github.io/langfair/
+  repo_url: https://github.com/cvs-health/langfair
+  docs_url: https://cvs-health.github.io/langfair/
+  categories:
+    - agent-evals
+  tags:
+    - datasets
+    - evals
+    - llm-evals
+    - open-source
+    - safety
+    - testing
+  interfaces:
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides output-based metrics like toxicity probability, stereotype fraction and counterfactual fairness tailored to specific LLM use cases. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://cvs-health.github.io/langfair/
+    - https://github.com/cvs-health/langfair
+    - https://latitude.so/blog/identify-reduce-dataset-bias-llms
+    - https://pypi.org/project/langfair/
 - slug: langfuse
   name: Langfuse
   description: Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations.
@@ -2807,6 +3081,37 @@
     - https://digitalocean.com/community/tutorials/langsmith-debudding-evaluating-llm-agents
     - https://www.langchain.com/langsmith-platform
     - https://www.langchain.com/langsmith/observability
+- slug: langsmith-evaluations
+  name: LangSmith Evaluations
+  description: Hosted evaluation and tracing platform for LLM apps and agents with dataset-based and online eval workflows.
+  website_url: https://www.langchain.com/langsmith/evaluation
+  docs_url: https://docs.smith.langchain.com
+  categories:
+    - agent-evals
+  tags:
+    - agent-evals
+    - datasets
+    - evals
+    - experiments
+    - llm-evals
+    - llmops
+    - observability
+    - testing
+  interfaces:
+    - api
+    - framework
+    - web-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports datasets, evaluators, regression tests and CI integration for prompts, RAG, and agents with trace-linked experiment comparisons. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.langchain.com/langsmith/evaluation-types
+    - https://docs.smith.langchain.com
+    - https://www.langchain.com/langsmith/evaluation
 - slug: langtrace
   name: Langtrace
   description: Open-source OpenTelemetry-based observability tool and dashboard for tracing, evaluating, and debugging LLM applications.
@@ -3047,6 +3352,35 @@
     - https://github.com/run-llama/llama_index
     - https://www.llamaindex.ai
     - https://www.llamaindex.ai/blog/using-llamaindex-and-llamafile-to-build-a-local-private-research-assistant
+- slug: llm-agents-evaluation-framework
+  name: LLM Agents Evaluation Framework
+  description: Framework for evaluating and monitoring LLM-based agents with support for RAG agents and multiple configuration variants.
+  website_url: https://github.com/vladfeigin/llm-agents-evaluation
+  repo_url: https://github.com/vladfeigin/llm-agents-evaluation
+  docs_url: https://github.com/vladfeigin/llm-agents-evaluation
+  categories:
+    - agent-evals
+  tags:
+    - agent-evals
+    - benchmarking
+    - evals
+    - experiments
+    - open-source
+    - rag
+    - testing
+  interfaces:
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides tools to generate agent variants, run evaluations, and compare configurations for a conversational RAG agent example. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://deepchecks.com/llm-agent-evaluation/
+    - https://github.com/vladfeigin/llm-agents-evaluation
 - slug: llm-compressor
   name: LLM Compressor
   description: Compression and quantization library for optimizing LLMs for deployment with vLLM.
@@ -3073,6 +3407,33 @@
     - https://developers.redhat.com/articles/2024/08/14/llm-compressor-here-faster-inference-vllm
     - https://docs.vllm.ai/projects/llm-compressor/en/latest/
     - https://github.com/vllm-project/llm-compressor
+- slug: llm-evaluation-framework-inference-time
+  name: LLM Evaluation Framework (Inference-Time)
+  description: Research framework implementing multiple inference-time methods to evaluate LLM reliability across reasoning strategies.
+  website_url: https://github.com/mmjerge/LLM-Evaluation-Framework
+  repo_url: https://github.com/mmjerge/LLM-Evaluation-Framework
+  docs_url: https://github.com/mmjerge/LLM-Evaluation-Framework
+  categories:
+    - agent-evals
+  tags:
+    - benchmarking
+    - evals
+    - experiments
+    - llm-evals
+    - open-source
+  interfaces:
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes implementations of CoT, Self-Consistency, ReAct, Tree-of-Thoughts and multi-agent debate for systematic evaluation of inference-time methods. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/mmjerge/LLM-Evaluation-Framework
+    - https://tmlr.org
 - slug: llm-llamafile
   name: llm-llamafile
   description: Plugin for the `llm` CLI that lets you use a locally running llamafile server as an LLM provider.
@@ -4228,6 +4589,36 @@
   sources:
     - https://noveum.ai
     - https://noveum.ai/en/solutions/ai-agent-monitoring
+- slug: nuclia-eval
+  name: nuclia-eval
+  description: Python library for evaluating RAG experiences with Nuclia’s REMi models using RAG triad metrics.
+  website_url: https://pypi.org/project/nuclia-eval/
+  repo_url: https://github.com/nuclia/nuclia-eval
+  docs_url: https://github.com/nuclia/nuclia-eval
+  categories:
+    - agent-evals
+  tags:
+    - datasets
+    - evals
+    - llm-evals
+    - local-first
+    - open-source
+    - rag
+    - testing
+  interfaces:
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements answer relevance, context relevance and groundedness scores for RAG pipelines using open RAG-eval models specialized for this task. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/nuclia/nuclia-eval
+    - https://pypi.org/project/nuclia-eval/
+    - https://www.progress.com/blogs/llama-remi-v1-the-next-evolution-in-rag-evaluation
 - slug: okahu
   name: Okahu
   description: AI observability platform and tools for debugging, testing, and monitoring agentic and LLM-based applications.
@@ -4364,6 +4755,37 @@
     - https://github.com/onyx-dot-app/onyx
     - https://github.com/onyx-dot-app/onyx#readme
     - https://onyx.dotenv.dev
+- slug: open-rag-eval
+  name: Open RAG Eval
+  description: Python toolkit from Vectara for evaluating and comparing RAG pipelines using TREC-RAG style metrics.
+  website_url: https://www.vectara.com/blog/introducing-open-rag-eval-the-open-source-framework-for-comparing-rag-solutions
+  repo_url: https://github.com/vectara/open-rag-eval
+  docs_url: https://docs.vectara.com/docs/hallucination-and-evaluation/open-eval-framework
+  categories:
+    - agent-evals
+  tags:
+    - benchmarking
+    - datasets
+    - evals
+    - experiments
+    - llm-evals
+    - open-source
+    - rag
+  interfaces:
+    - cli
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements UMBRELA, AutoNuggetizer and TREC-RAG metrics with connectors for Vectara, LangChain and LlamaIndex, no gold answers required. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.vectara.com/docs/hallucination-and-evaluation/open-eval-framework
+    - https://github.com/vectara/open-rag-eval
+    - https://www.vectara.com/blog/introducing-open-rag-eval-the-open-source-framework-for-comparing-rag-solutions
 - slug: open-webui-platform
   name: Open WebUI Platform
   description: Self-hosted AI platform and UI that supports Ollama and OpenAI-compatible APIs and can run entirely offline.
@@ -4472,6 +4894,35 @@
   sources:
     - https://developers.openai.com
     - https://developers.openai.com/api/docs/guides/tools-computer-use
+- slug: openai-humaneval-harness
+  name: OpenAI HumanEval Harness
+  description: Evaluation harness and dataset for assessing LLM code generation via functional correctness tests.
+  website_url: https://github.com/openai/human-eval
+  repo_url: https://github.com/openai/human-eval
+  docs_url: https://github.com/openai/human-eval
+  categories:
+    - agent-evals
+  tags:
+    - benchmarking
+    - datasets
+    - evals
+    - llm-evals
+    - open-source
+    - testing
+  interfaces:
+    - cli
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs untrusted model-generated code against test suites to compute pass rates for programming tasks, widely used for code LLM benchmarking. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://arxiv.org/abs/2107.03374
+    - https://github.com/openai/human-eval
 - slug: openai-traces-and-evals
   name: OpenAI Traces and Evals
   description: Built-in OpenAI platform capabilities for tracing agent workflows and running evaluations on traces and datasets.
@@ -4943,6 +5394,43 @@
     - https://posthog.com/docs/ai-engineering
     - https://posthog.com/docs/ai-engineering/llm-analytics
     - https://www.youtube.com/watch?v=wonEbaSnzOI
+- slug: promptfoo
+  name: Promptfoo
+  description: Open-source framework and CLI for testing prompts, models, RAG pipelines, and LLM security via automated evals and red teaming.
+  website_url: https://www.promptfoo.dev
+  repo_url: https://github.com/promptfoo/promptfoo
+  docs_url: https://www.promptfoo.dev/docs
+  categories:
+    - agent-evals
+  tags:
+    - agent-evals
+    - ci
+    - evals
+    - llm-evals
+    - open-source
+    - prompts
+    - rag
+    - red-teaming
+    - safety
+    - testing
+  interfaces:
+    - cli
+    - framework
+    - library
+    - web-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: YAML-driven eval suites for prompts, agents, and RAG with CI and red-teaming workflows documented. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/promptfoo/promptfoo
+    - https://www.promptfoo.dev
+    - https://www.promptfoo.dev/docs
+    - https://www.promptfoo.dev/docs/integrations/ci-cd/
+    - https://www.promptfoo.dev/docs/red-team/
 - slug: pulsemcp-raycast-extension
   name: PulseMCP Raycast Extension
   description: Raycast extension for searching and viewing MCP servers from the PulseMCP registry.
@@ -5022,6 +5510,35 @@
   sources:
     - https://github.com/pulumi/agent-skills
     - https://www.pulumi.com/docs/ai/skills/
+- slug: pyhdl-eval
+  name: PyHDL-Eval
+  description: Domain-specific LLM evaluation framework for assessing hardware design code generation using Python-embedded DSLs and RTL tasks.
+  website_url: https://github.com/cornell-brg/pyhdl-eval
+  repo_url: https://github.com/cornell-brg/pyhdl-eval
+  docs_url: https://github.com/cornell-brg/pyhdl-eval
+  categories:
+    - agent-evals
+  tags:
+    - benchmarking
+    - datasets
+    - evals
+    - llm-evals
+    - open-source
+    - testing
+  interfaces:
+    - cli
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Benchmarks LLMs on specification-to-RTL tasks across several Python hardware DSLs with test benches and workflow scripts. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/cornell-brg/pyhdl-eval
+    - https://github.com/cornell-brg/pyhdl-eval#readme
 - slug: qodo
   name: Qodo
   description: Code review and IDE assistant product focused on reviewing diffs, tests, and repository context.
@@ -5107,6 +5624,98 @@
   sources:
     - https://github.com/plaggy/rag-containers
     - https://github.com/plaggy/rag-containers#readme
+- slug: rag-evaluation-harnesses
+  name: RAG Evaluation Harnesses
+  description: Evaluation harness adapted from lm-evaluation-harness for retrieval-augmented generation tasks.
+  website_url: https://github.com/RulinShao/RAG-evaluation-harnesses
+  repo_url: https://github.com/RulinShao/RAG-evaluation-harnesses
+  docs_url: https://github.com/RulinShao/RAG-evaluation-harnesses
+  categories:
+    - agent-evals
+  tags:
+    - benchmarking
+    - datasets
+    - evals
+    - experiments
+    - llm-evals
+    - open-source
+    - rag
+  interfaces:
+    - cli
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Extends LM evaluation harness to support RAG by preparing retrieved documents and running standard benchmarks with retrieval augmentation. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/aws-samples/rag-evaluation
+    - https://github.com/RulinShao/RAG-evaluation-harnesses
+- slug: rag-evaluation-pipeline-hotpotqa
+  name: RAG Evaluation Pipeline (HotpotQA)
+  description: Modular Python pipeline for evaluating RAG systems on HotpotQA using retrieval and generation metrics.
+  website_url: https://github.com/nagi1995/rag_evaluation
+  repo_url: https://github.com/nagi1995/rag_evaluation
+  docs_url: https://github.com/nagi1995/rag_evaluation
+  categories:
+    - agent-evals
+  tags:
+    - benchmarking
+    - datasets
+    - evals
+    - llm-evals
+    - open-source
+    - rag
+    - testing
+  interfaces:
+    - cli
+    - framework
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes scripts for dataset prep, embedding generation, retrieval, answer generation and metric-based evaluation for RAG systems. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/nagi1995/rag_evaluation
+    - https://github.com/nagi1995/rag_evaluation#readme
+- slug: ragas
+  name: RAGAS
+  description: Open-source toolkit for automated evaluation of RAG systems using reference-free and reference-based metrics.
+  website_url: https://docs.ragas.io
+  repo_url: https://github.com/vibrantlabsai/ragas
+  docs_url: https://docs.ragas.io/en/latest/
+  categories:
+    - agent-evals
+  tags:
+    - benchmarking
+    - datasets
+    - evals
+    - experiments
+    - llm-evals
+    - open-source
+    - rag
+  interfaces:
+    - cli
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Focuses on retrieval and generation quality for RAG with metrics like faithfulness, answer relevancy and context relevancy, plus project templates. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://aclanthology.org/2024.eacl-demo.16/
+    - https://docs.ragas.io
+    - https://docs.ragas.io/en/latest/
+    - https://docs.ragas.io/en/latest/tutorials/rag/
+    - https://github.com/vibrantlabsai/ragas
 - slug: redis-ollama-rag-stack
   name: Redis + Ollama RAG Stack
   description: Docker-based stack using RedisVL, Ollama, FastAPI, and RQ worker to build a local RAG pipeline.
@@ -5201,6 +5810,41 @@
   last_checked: 2026-05-08
   sources:
     - https://respan.ai
+- slug: rhesis-ai
+  name: Rhesis AI
+  description: Open-source collaborative testing platform for LLM and agentic applications with UI, SDK, and CI integration.
+  website_url: https://www.rhesis.ai
+  repo_url: https://github.com/rhesis-ai/rhesis
+  docs_url: https://docs.rhesis.ai
+  categories:
+    - agent-evals
+  tags:
+    - agent-evals
+    - datasets
+    - evals
+    - experiments
+    - llm-evals
+    - observability
+    - open-source
+    - red-teaming
+    - self-hosted
+    - testing
+  interfaces:
+    - api
+    - cli
+    - framework
+    - web-app
+  deployment: unknown
+  source_model: not specified
+  license: MIT
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Enables generation and execution of single- and multi-turn tests, integrates DeepEval/RAGAS metrics, supports Docker self-hosting and managed cloud. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.rhesis.ai
+    - https://github.com/rhesis-ai/rhesis
+    - https://www.rhesis.ai
 - slug: roo-code
   name: Roo Code
   description: Open-source coding agent for VS Code and cloud agents that can code, review, and automate repository tasks.
@@ -5943,6 +6587,37 @@
     - https://www.trulens.org
     - https://www.trulens.org/cookbook/frameworks/llamaindex/llama_index_evaluate_agent_workflow_multi/
     - https://www.trulens.org/docs
+- slug: unitxt
+  name: Unitxt
+  description: IBM-backed library and catalog for textual data preparation and evaluation of generative language models across many tasks.
+  website_url: https://www.unitxt.ai
+  repo_url: https://github.com/ibm/unitxt
+  docs_url: https://www.unitxt.ai/en/main/docs/introduction.html
+  categories:
+    - agent-evals
+  tags:
+    - benchmarking
+    - datasets
+    - evals
+    - experiments
+    - llm-evals
+    - open-source
+  interfaces:
+    - cli
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers a modular catalog of tasks, datasets, templates and metrics, including LLM-as-judge, usable standalone or with HELM and LM-eval-harness. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/ibm/unitxt
+    - https://www.ibm.com/granite/docs/use-cases/unitxt
+    - https://www.unitxt.ai
+    - https://www.unitxt.ai/en/main/docs/introduction.html
 - slug: untrace
   name: Untrace
   description: Trace-routing platform that captures LLM traces once and forwards them to multiple observability backends.
@@ -5975,6 +6650,63 @@
     - https://github.com/untrace-dev/untrace-sdk
     - https://untrace.dev
     - https://untrace.dev/docs
+- slug: vectara-open-evaluation-ui
+  name: Vectara Open Evaluation UI
+  description: Web UI for loading reports from Open RAG Eval and comparing RAG configurations across queries and metrics.
+  website_url: https://www.vectara.com/blog/open-evaluation
+  docs_url: https://docs.vectara.com/docs/hallucination-and-evaluation/open-eval-framework
+  categories:
+    - agent-evals
+  tags:
+    - benchmarking
+    - evals
+    - experiments
+    - llm-evals
+    - observability
+    - rag
+  interfaces:
+    - framework
+    - web-app
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Lets teams visually compare metrics from Open RAG Eval runs, exploring hallucination, citations and other scores across test queries. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.vectara.com/docs/hallucination-and-evaluation/open-eval-framework
+    - https://www.vectara.com/blog/open-evaluation
+- slug: vercel-labs-agent-eval
+  name: Vercel Labs Agent Eval
+  description: Open-source toolkit from Vercel Labs for running controlled experiments and measuring pass rates of AI agents.
+  website_url: https://github.com/vercel-labs/agent-eval
+  repo_url: https://github.com/vercel-labs/agent-eval
+  docs_url: https://github.com/vercel-labs/agent-eval
+  categories:
+    - agent-evals
+  tags:
+    - agent-evals
+    - benchmarking
+    - ci
+    - evals
+    - experiments
+    - open-source
+    - testing
+  interfaces:
+    - cli
+    - framework
+    - library
+  deployment: unknown
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports creating eval projects, running experiments and comparing techniques for agent behavior, with GitHub Actions usage implied. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/vercel-labs/agent-eval
+    - https://github.com/vercel-labs/agent-eval/releases
 - slug: vllm
   name: vLLM
   description: High-throughput LLM inference engine with an OpenAI-compatible HTTP server for serving models locally or on servers.
