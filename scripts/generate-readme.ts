@@ -166,11 +166,12 @@ export function buildReadme(catalog: CatalogData): string {
     "",
     "## Roadmap",
     "",
-    "- Keep the metadata schema small and strict.",
-    "- Review and promote imported draft entries category by category.",
-    "- Add generated comparison matrices and filter-friendly views.",
-    "- Expand thin shelves such as evals, MCP tooling, docs, and tests.",
-    "- Add stale-entry checks for metadata freshness.",
+    "- Review and promote the ~47 queued draft entries, prioritising thin shelves.",
+    "- Expand thin shelves: test generation agents (4 reviewed), MCP clients (6), data and ML coding assistants (1).",
+    "- Populate empty shelves when quality entries are found: AI devtools security, DevOps/SRE agents, prompt and workflow libraries.",
+    "- Add stale-entry and broken-link checks.",
+    "- Improve generated filter views and category-level comparisons.",
+    "- Keep the schema small and strict as the catalog grows.",
     ""
   );
 
@@ -268,18 +269,35 @@ function renderLinks(tool: Tool): string {
   const repoNorm = tool.repo_url ? normalizeUrl(tool.repo_url) : null;
   const docsNorm = tool.docs_url ? normalizeUrl(tool.docs_url) : null;
 
-  const websiteDuplicated = (repoNorm !== null && websiteNorm === repoNorm) || (docsNorm !== null && websiteNorm === docsNorm);
+  const websiteMatchesRepo = repoNorm !== null && websiteNorm === repoNorm;
+  const websiteMatchesDocs = docsNorm !== null && websiteNorm === docsNorm;
 
   const links: string[] = [];
-  if (!websiteDuplicated) {
+
+  if (websiteMatchesRepo) {
+    // Repo and Website are the same URL — Repo label is more informative.
+    // Docs (if distinct) will appear before Repo below.
+  } else if (websiteMatchesDocs) {
+    // Docs and Website are the same URL — show Docs label to avoid a bare Website link.
+    links.push(`[Docs](${tool.docs_url!})`);
+  } else {
     links.push(`[Website](${tool.website_url})`);
   }
-  if (docsNorm !== null && docsNorm !== websiteNorm && (repoNorm === null || docsNorm !== repoNorm)) {
-    links.push(`[Docs](${tool.docs_url})`);
+
+  // Add Docs when it is distinct from both website and repo.
+  if (docsNorm !== null && !websiteMatchesDocs && (repoNorm === null || docsNorm !== repoNorm)) {
+    links.push(`[Docs](${tool.docs_url!})`);
   }
+
   if (repoNorm !== null) {
-    links.push(`[Repo](${tool.repo_url})`);
+    links.push(`[Repo](${tool.repo_url!})`);
   }
+
+  // Fallback: tool always has a website_url — never leave an empty cell.
+  if (links.length === 0) {
+    links.push(`[Website](${tool.website_url})`);
+  }
+
   return links.join(" / ");
 }
 
