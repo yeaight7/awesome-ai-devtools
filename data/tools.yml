@@ -255,7 +255,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Watches repos and PRs to build and sync per-file, directory, and repository index docs using AI, configurable via .github/wai-docbot.yml. confidence: high uncertain: true"
   added: 2026-05-08
@@ -311,7 +311,7 @@
     - cli
   deployment: local
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates comprehensive README-style docs from repositories with multi-agent analysis and GitLab integration for merge requests. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -336,9 +336,9 @@
     - repo-analysis
   interfaces:
     - web-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Parses ZIP projects, detects tech stack, and emits Markdown reports for functional, technical, and architecture documentation. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -392,9 +392,9 @@
     - open-source
   interfaces:
     - cli
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Analyzes workspaces to generate technical docs, user guides, API references, tutorials, and localized documentation with one-click publishing workflows. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -851,7 +851,7 @@
     - github-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Identifies under-documented files, generates language-specific docstrings, and can create branches with documentation changes for review. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -876,7 +876,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Drag-and-drop web app that outputs Markdown and Swagger/OpenAPI, adds inline comments, and supports many languages without setup. confidence: high uncertain: true"
   added: 2026-05-08
@@ -1074,7 +1074,7 @@
     - mcp-server
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements tools to read AWS docs as Markdown, search docs via official APIs, fetch sections, and get content recommendations for use in MCP clients. confidence: high uncertain: true"
   added: 2026-05-08
@@ -1603,9 +1603,9 @@
   interfaces:
     - cli
     - web-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides web UI, GitHub Action workflows, and a CLI that parse repositories to generate usage guides, API docs, testing instructions, and README content. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -1997,7 +1997,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs in CI and GitHub to detect outdated docs, auto-edit documentation after PRs, and report what changed and why. confidence: high uncertain: true"
   added: 2026-05-08
@@ -2091,7 +2091,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Analyzes codebase structure and existing docs to generate architecture overviews, component explanations, and supports natural-language questions per repo. confidence: high uncertain: true"
   added: 2026-05-08
@@ -2142,9 +2142,9 @@
     - rag
   interfaces:
     - framework
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements dual-stage retrieval and citation-aware RAG to deliver fully attributed technical answers and reduce hallucinations for documentation queries. confidence: low uncertain: true"
   added: 2026-05-08
@@ -2263,7 +2263,7 @@
     - cli
   deployment: local
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Fetches repository structure, feeds it to an LLM via LangChain, and synthesizes comprehensive README content including installation, usage, and features. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -2290,7 +2290,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Connects to GitHub to generate docs from code and existing markdown, audit and analyze large doc sets, and can be triggered directly from GitHub comments. confidence: high uncertain: true"
   added: 2026-05-08
@@ -2317,7 +2317,7 @@
     - cli
   deployment: local
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Analyzes PHP applications to generate detailed Markdown documentation while skipping already documented files to support incremental top-up runs. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -2343,7 +2343,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates and updates API docs and help centers, offers interactive API playgrounds, and plans agent features that monitor commits and support signals for outdated docs. confidence: high uncertain: true"
   added: 2026-05-08
@@ -2372,7 +2372,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Connects to Git repositories or accepts source uploads to produce end-user, API, library, database, and deployment documentation plus UML and DocBlock comments. confidence: high uncertain: true"
   added: 2026-05-08
@@ -2397,7 +2397,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides plug-and-play chat assistant for API docs that gives personalized examples, analytics, and feedback to improve documentation quality over time. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -2919,7 +2919,7 @@
     - github-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Scans code folders, sends files to OpenAI, and writes styled Tailwind HTML docs under docs/ with per-file explanations and usage examples. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -2946,7 +2946,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides AI Assistant trained on docs, GitBook Agent for editing and maintaining documentation, semantic AI search, and MCP connections to external tools. confidence: high uncertain: true"
   added: 2026-05-08
@@ -2973,7 +2973,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Connects to GitHub, lets users pick repos and doc types, and outputs docs as files or ZIPs for inclusion in projects. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -3001,7 +3001,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Analyzes repositories to generate or improve READMEs, supports customizable templates, Git integration, and direct commits back to repos. confidence: high uncertain: true"
   added: 2026-05-08
@@ -3075,7 +3075,7 @@
     - mcp-server
   deployment: self-hosted
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates Diataxis-structured documentation, recommends static site generators, and creates full deployment workflows for GitHub Pages from repository analysis. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -3101,7 +3101,7 @@
     - mcp-server
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides SearchDocumentChunks, GetDocument, and AnswerQuery endpoints plus an MCP server so IDEs and agents can ground answers in up-to-date Google docs. confidence: high uncertain: true"
   added: 2026-05-08
@@ -4030,7 +4030,7 @@
     - mcp-server
   deployment: self-hosted
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs as a FastAPI service with search and fetch endpoints, containerized deployment, caching, and VS Code Copilot MCP integration for LlamaIndex docs. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -4882,7 +4882,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes repo-to-site generator, continuous documentation via GitHub apps that scan PRs, interactive API playgrounds, and AI-native reading and maintenance features. confidence: high uncertain: true"
   added: 2026-05-08
@@ -6132,7 +6132,7 @@
     - cli
   deployment: local
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses GitPython, AST, and an LLM to analyze changed Python code and existing README content to propose docstring and README edits stored for review. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -6331,7 +6331,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Produces system overview, architecture diagrams, tech stack, key modules, entry points, dependencies, setup guides, and a Q&A chat for repositories. confidence: high uncertain: true"
   added: 2026-05-08
@@ -6509,7 +6509,7 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Agent Owlbert can write and refactor docs, fix linter errors, audit content, and Ask AI provides source-linked answers to users based on the hub documentation. confidence: high uncertain: true"
   added: 2026-05-08
@@ -6601,9 +6601,9 @@
     - repo-analysis
   interfaces:
     - web-app
-  deployment: unknown
+  deployment: not specified
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides chat interface over repositories with features for documentation generation and code insights backed by vector search. confidence: medium uncertain: true"
   added: 2026-05-08
@@ -7031,7 +7031,7 @@
     - ide-extension
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
   review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers an API plus VS Code and Chrome extensions that parse code and return plain-English explanations, suggestions, and linked documentation in real time. confidence: high uncertain: true"
   added: 2026-05-08
