@@ -17,6 +17,7 @@ This repository is metadata-first. Do not hand-edit generated tool listings in `
 - Do not add subjective rankings, scores, hype language, or launch strategy.
 - Do not add large batches manually. Future bulk import needs a reviewed importer contract first.
 - Use `scripts/import-candidates.ts` for draft candidate batches. Imported entries remain drafts until reviewed.
+- When promoting a multi-category tool to `reviewed`, set `primary_category` to the single category slug that best represents its primary workflow. Validation will block promotion without it.
 
 ## Scope Boundaries
 
