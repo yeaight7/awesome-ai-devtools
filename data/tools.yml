@@ -1,3 +1,51 @@
+- slug: action-to-update-github-action-documentation
+  name: Action to update GitHub Action documentation
+  description: GitHub Action that updates action and workflow documentation files, such as README, from action.yml definitions.
+  website_url: https://github.com/marketplace/actions/action-to-update-github-action-documentation
+  docs_url: https://github.com/marketplace/actions/action-to-update-github-action-documentation
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - documentation
+    - github
+    - repo-automation
+    - workflow-automation
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Wraps action-docs to regenerate README or other docs from workflow or action definition files during CI.[web:70] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/action-to-update-github-action-documentation
+- slug: action-github-changelog-generator
+  name: action-github-changelog-generator
+  description: GitHub Action wrapping github-changelog-generator to build release changelogs from tags, issues, labels, and pull requests.
+  website_url: https://github.com/marketplace/actions/generate-changelog
+  docs_url: https://github.com/marketplace/actions/generate-changelog
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - changelog
+    - github
+    - release-management
+    - repo-automation
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates markdown changelog output and exposes it for later steps such as GitHub Release creation.[web:75] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/generate-changelog
 - slug: agent-browser
   name: Agent Browser
   description: Rust-based headless browser automation CLI designed for AI agents, wrapping Chromium control behind a simple command-line tool.
@@ -858,6 +906,79 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/marketplace/actions/auto-documentation-docstrings
+- slug: auto-changelog-cookpete
+  name: auto-changelog (cookpete)
+  description: CLI tool that generates a changelog from git tags and commit history for use in release workflows.
+  website_url: https://github.com/cookpete/auto-changelog
+  repo_url: https://github.com/cookpete/auto-changelog
+  docs_url: https://github.com/cookpete/auto-changelog
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - changelog
+    - github
+    - open-source
+    - repo-automation
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Consumes git history to produce release notes and changelog sections used by various projects.[web:28] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/cookpete/auto-changelog
+- slug: auto-generate-changelog
+  name: auto-generate-changelog
+  description: GitHub Action that generates a CHANGELOG.md from conventional commits when releases are created or edited.
+  website_url: https://github.com/marketplace/actions/auto-generate-changelog
+  docs_url: https://github.com/marketplace/actions/auto-generate-changelog
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - changelog
+    - github
+    - release-management
+    - repo-automation
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates and commits changelog content based on conventional commit types on release events.[web:22] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/auto-generate-changelog
+- slug: auto-merge-pull-request
+  name: Auto-Merge Pull Request
+  description: GitHub Action that enables GitHub’s auto-merge on qualifying pull requests based on labels and status checks.
+  website_url: https://github.com/marketplace/actions/auto-merge-pull-request
+  docs_url: https://github.com/marketplace/actions/auto-merge-pull-request
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - ci
+    - github
+    - pull-requests
+    - repo-automation
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Configures auto-merge for PRs when required reviews, checks, and label conditions are met.[web:77] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/auto-merge-pull-request
 - slug: autocodedocs
   name: AutoCodeDocs
   description: Hosted tool that analyzes code and generates structured Markdown documentation, READMEs, and API references.
@@ -911,6 +1032,79 @@
     - https://github.com/AutoGPTQ/AutoGPTQ#readme
     - https://github.com/huggingface/optimum/blob/main/docs/source/llm_quantization/usage_guides/quantization.mdx
     - https://github.com/PanQiWei/AutoGPTQ/blob/main/docs/tutorial/01-Quick-Start.md
+- slug: automatic-pull-request-autopr
+  name: Automatic Pull Request (AutoPR)
+  description: GitHub Action and bot that plans fixes, writes code, and opens pull requests in response to labeled issues.
+  website_url: https://github.com/marketplace/actions/automatic-pull-request
+  docs_url: https://github.com/marketplace/actions/automatic-pull-request
+  categories:
+    - repo-automation-tools
+  tags:
+    - agents
+    - automation
+    - github
+    - issues
+    - pull-requests
+    - repo-automation
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: AutoPR generates branches and PRs when issues are labeled, acting as an autonomous code-fixing agent.[web:11] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/automatic-pull-request
+- slug: automatic-pull-request-review
+  name: Automatic Pull Request Review
+  description: GitHub Action that automates pull request reviews based on pull_request webhook events and configured rules.
+  website_url: https://github.com/marketplace/actions/automatic-pull-request-review
+  docs_url: https://github.com/marketplace/actions/automatic-pull-request-review
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - code-review
+    - github
+    - pull-requests
+    - repo-automation
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Can auto-approve or comment on PRs, for example automatically approving Dependabot pull requests.[web:2] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/automatic-pull-request-review
+- slug: automerge-action
+  name: automerge-action
+  description: GitHub Action that automatically merges pull requests labeled for automerge once checks and reviews pass.
+  website_url: https://github.com/marketplace/actions/merge-pull-requests-automerge-action
+  docs_url: https://github.com/marketplace/actions/merge-pull-requests-automerge-action
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - ci
+    - github
+    - pull-requests
+    - repo-automation
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Keeps PR branches up to date and merges them automatically when branch protection requirements are satisfied.[web:74] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/merge-pull-requests-automerge-action
 - slug: awesome-agent-skills
   name: Awesome Agent Skills
   description: Community-curated directory of agent skills, tutorials, and guides for Claude, Copilot, Codex, and other AI assistants.
@@ -1345,6 +1539,32 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/akin-ozer/cc-devops-skills
+- slug: changelog-generator-jaywcjlove
+  name: changelog-generator (jaywcjlove)
+  description: GitHub Action and CLI that computes markdown changelogs between git references and outputs them for releases.
+  website_url: https://github.com/jaywcjlove/changelog-generator
+  repo_url: https://github.com/jaywcjlove/changelog-generator
+  docs_url: https://github.com/jaywcjlove/changelog-generator
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - changelog
+    - github
+    - release-management
+    - repo-automation
+  interfaces:
+    - cli
+    - github-app
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides an action to generate changelog text from commit ranges and feed it into GitHub Releases.[web:80] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/jaywcjlove/changelog-generator
 - slug: charlotte-mcp-server
   name: Charlotte MCP Server
   description: Open-source MCP server that renders web pages into structured, token-efficient representations using headless Chromium for agents.
@@ -1455,6 +1675,32 @@
   sources:
     - https://developer.chrome.com/blog/chrome-devtools-mcp
     - https://github.com/ChromeDevTools/chrome-devtools-mcp
+- slug: ci-debug-action
+  name: ci-debug-action
+  description: GitHub Action that analyzes failed CI runs with an AI model and posts root-cause analysis comments on pull requests.
+  website_url: https://github.com/alpacahq/ci-debug-action
+  repo_url: https://github.com/alpacahq/ci-debug-action
+  docs_url: https://github.com/alpacahq/ci-debug-action
+  categories:
+    - repo-automation-tools
+  tags:
+    - agents
+    - automation
+    - ci
+    - github
+    - pull-requests
+    - repo-automation
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses Pydantic AI with Gemini to classify CI failures and provide actionable recommendations in PR comments.[web:42] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/alpacahq/ci-debug-action
 - slug: claude-code
   name: Claude Code
   description: Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context.
@@ -2100,6 +2346,30 @@
     - https://deepwiki.com
     - https://deepwiki.directory
     - https://dev.to/czmilo/deepwiki-ai-driven-revolution-in-code-documentation-1jb4
+- slug: dependencies-autoupdate-action
+  name: Dependencies Autoupdate Action
+  description: Language-agnostic GitHub Action that runs dependency update commands and opens pull requests with updated dependencies.
+  website_url: https://github.com/marketplace/actions/dependencies-autoupdate
+  docs_url: https://github.com/marketplace/actions/dependencies-autoupdate
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - dependency-updates
+    - github
+    - repo-automation
+    - workflow-automation
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs a configurable update command, validates it, and creates PRs when dependency changes are detected.[web:3] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/dependencies-autoupdate
 - slug: devbox-ai-dev-stack
   name: DevBox AI Dev Stack
   description: Zero-trust dev environment repository including an AI dev stack installer for Docker-based tools on a VPS.
@@ -2926,6 +3196,31 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/marketplace/actions/generate-ai-documentation
+- slug: git-housekeeper
+  name: git-housekeeper
+  description: Node-based CLI utility that reviews remote branches, helps decide which to keep, and batch-deletes unused ones.
+  website_url: https://github.com/mediamonks/git-housekeeper
+  repo_url: https://github.com/mediamonks/git-housekeeper
+  docs_url: https://github.com/mediamonks/git-housekeeper
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - github
+    - open-source
+    - repo-automation
+    - workflow-automation
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides interactive and Google Sheets–driven workflows to clean up remote and tracking branches in repositories.[web:76] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/mediamonks/git-housekeeper
 - slug: gitbook-ai-assistant-agent
   name: GitBook AI (Assistant & Agent)
   description: AI-native documentation assistant and agent for writing, updating, and searching GitBook docs.
@@ -3035,6 +3330,53 @@
   sources:
     - https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot
     - https://github.com/features/copilot
+- slug: github-dependabot
+  name: GitHub Dependabot
+  description: GitHub-native service that configures and runs automated security and version dependency update pull requests.
+  website_url: https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook/analyze-security/manage-dependency-updates
+  docs_url: https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook/analyze-security/manage-dependency-updates
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - dependency-updates
+    - github
+    - repo-automation
+  interfaces:
+    - github-app
+  deployment: cloud
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Docs show configuring Dependabot security and version updates via YAML to keep dependencies current.[web:12] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook/analyze-security/manage-dependency-updates
+- slug: github-maintenance-action
+  name: GitHub Maintenance Action
+  description: GitHub Action that automates housekeeping of workflow runs, artifacts, and logs to keep repositories clean.
+  website_url: https://github.com/marketplace/actions/github-maintenance-action
+  docs_url: https://github.com/marketplace/actions/github-maintenance-action
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - ci
+    - github
+    - repo-automation
+    - workflow-automation
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Deletes old workflow runs, logs, and artifacts based on configurable retention rules and supports dry-run mode.[web:73] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/github-maintenance-action
 - slug: github-mcp-server
   name: GitHub MCP Server
   description: Official GitHub MCP server for repository access, issues, pull requests, code analysis, and workflow automation.
@@ -3082,6 +3424,80 @@
   last_checked: 2026-05-08
   sources:
     - https://www.pulsemcp.com/servers/tosin2013-github-pages-docs
+- slug: github-pull-request-action
+  name: GitHub Pull Request Action
+  description: GitHub Action that creates and updates pull requests between branches, adding labels, reviewers, and metadata.
+  website_url: https://github.com/marketplace/actions/auto-pull-request
+  docs_url: https://github.com/marketplace/actions/auto-pull-request
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - github
+    - pull-requests
+    - repo-automation
+    - workflow-automation
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates creation of PRs on branch pushes, with options for reviewers, assignees, templates, and draft mode.[web:8] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/auto-pull-request
+- slug: github-stacked-prs-gh-stack
+  name: GitHub Stacked PRs (gh stack)
+  description: Native GitHub feature and gh CLI support for creating and managing stacked pull requests for large changes.
+  website_url: https://github.github.com/gh-stack/
+  docs_url: https://github.github.com/gh-stack/
+  categories:
+    - repo-automation-tools
+  tags:
+    - github
+    - pull-requests
+    - repo-automation
+    - workflow-automation
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides first-class stacked PR support via GitHub and the gh stack CLI, enabling ordered PR stacks and bulk merges.[web:23] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.github.com/gh-stack/
+- slug: github-stale-action
+  name: GitHub Stale Action
+  description: Official GitHub Action that marks inactive issues and pull requests as stale and optionally closes them.
+  website_url: https://github.com/actions/stale
+  repo_url: https://github.com/actions/stale
+  docs_url: https://github.com/actions/stale
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - github
+    - issues
+    - pull-requests
+    - repo-automation
+    - triage
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Maintains stale labels and closes inactive issues/PRs based on configurable inactivity windows.[web:46][web:58] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/actions/stale
+    - https://github.com/marketplace/actions/stale-for-actions
 - slug: google-developer-knowledge-api-mcp-server
   name: Google Developer Knowledge API & MCP Server
   description: API and MCP server that let AI tools search and retrieve Google developer documentation as Markdown.
@@ -3459,6 +3875,56 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/invariantlabs-ai/testing
+- slug: issue-triage-action
+  name: Issue triage Action
+  description: GitHub Action that detects stale issues, comments, labels them, and optionally closes them after configured time.
+  website_url: https://github.com/marketplace/actions/issue-triage
+  docs_url: https://github.com/marketplace/actions/issue-triage
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - github
+    - issues
+    - repo-automation
+    - triage
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides staleAfter and closeAfter configuration plus customizable comments and labels for stale issues.[web:30] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/issue-triage
+- slug: issue-label-bot
+  name: Issue-Label Bot
+  description: GitHub App that uses machine learning to automatically label issues as bug, feature request, or question.
+  website_url: https://github.com/marketplace/issue-labeler-bot
+  docs_url: https://probot.github.io/apps/issuelabeler/
+  categories:
+    - repo-automation-tools
+  tags:
+    - agents
+    - automation
+    - github
+    - issues
+    - repo-automation
+    - triage
+  interfaces:
+    - github-app
+  deployment: cloud
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Classifies issues from title and body and applies configured labels, reducing manual triage effort.[web:72][web:69][web:65] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/issue-labeler-bot
+    - https://probot.github.io/apps/issuelabeler/
 - slug: jan-server
   name: Jan Server
   description: Self-hosted agentic AI platform powered by local models with Docker Compose-based infrastructure files.
@@ -6176,6 +6642,31 @@
     - https://www.promptfoo.dev/docs
     - https://www.promptfoo.dev/docs/integrations/ci-cd/
     - https://www.promptfoo.dev/docs/red-team/
+- slug: pull-request-labeler-actions-labeler
+  name: Pull Request Labeler (actions/labeler)
+  description: GitHub Action that automatically labels pull requests based on changed file paths or branch names.
+  website_url: https://github.com/marketplace/actions/labeler
+  docs_url: https://github.com/marketplace/actions/labeler
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - github
+    - issues
+    - pull-requests
+    - repo-automation
+    - triage
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Reads a labeler configuration file and applies or syncs labels to PRs, enabling label-based workflows.[web:64] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/labeler
 - slug: pulsemcp-raycast-extension
   name: PulseMCP Raycast Extension
   description: Raycast extension for searching and viewing MCP servers from the PulseMCP registry.
@@ -6583,6 +7074,87 @@
     - https://docs.refact.ai/
     - https://refact.ai/
     - https://refact.ai/blog/2025/how-to-create-an-mcp-server-using-refact-ai-agent/
+- slug: release-please
+  name: Release Please
+  description: Tool and GitHub Action that automates changelog updates, GitHub releases, and version bumps using Conventional Commits.
+  website_url: https://github.com/googleapis/release-please-action
+  repo_url: https://github.com/googleapis/release-please
+  docs_url: https://github.com/googleapis/release-please-action
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - changelog
+    - github
+    - release-management
+    - repo-automation
+  interfaces:
+    - cli
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Maintains release PRs that update changelog, tag versions, and create GitHub Releases when merged.[web:54][web:45][web:51] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/googleapis/release-please
+    - https://github.com/googleapis/release-please-action
+    - https://www.theodo.com/blog/automate-your-github-releases-with-release-please
+- slug: release-it
+  name: release-it
+  description: Generic CLI tool to automate versioning, tagging, changelog, and package publishing as part of release workflows.
+  website_url: https://github.com/release-it/release-it
+  repo_url: https://github.com/release-it/release-it
+  docs_url: https://github.com/release-it/release-it
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - changelog
+    - github
+    - release-management
+    - repo-automation
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates version bumps and can publish to various registries when run from CI like GitHub Actions.[web:25] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/release-it/release-it
+- slug: renovate
+  name: Renovate
+  description: Automated dependency update bot that scans repositories and opens pull requests to keep dependencies up to date.
+  website_url: https://docs.renovatebot.com
+  repo_url: https://github.com/renovatebot/renovate
+  docs_url: https://docs.renovatebot.com
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - dependency-updates
+    - github
+    - open-source
+    - repo-automation
+  interfaces:
+    - cli
+    - github-app
+  deployment: hybrid
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates dependency checks across many platforms and creates update PRs on GitHub and other git forges.[web:19][web:27][web:24] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.renovatebot.com
+    - https://github.com/renovatebot/renovate
+    - https://serverspace.io/support/help/renovate-automatic-dependency-updates-github-bot-for-projects/
 - slug: repogpt
   name: RepoGPT
   description: Open-source GitHub assistant that can generate documentation and answer questions about repositories.
@@ -6849,6 +7421,32 @@
   sources:
     - https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/
     - https://github.com/n8n-io/self-hosted-ai-starter-kit
+- slug: semantic-release
+  name: semantic-release
+  description: CLI tool that automates semantic versioning, changelog generation, tagging, and publishing from commit history.
+  website_url: https://semantic-release.gitbook.io/semantic-release/recipes/ci-configurations/github-actions
+  repo_url: https://github.com/semantic-release/semantic-release
+  docs_url: https://semantic-release.gitbook.io/semantic-release/recipes/ci-configurations/github-actions
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - changelog
+    - github
+    - release-management
+    - repo-automation
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates version calculation, changelog, and release publishing, commonly wired into GitHub Actions workflows.[web:44][web:56] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/semantic-release/semantic-release
+    - https://semantic-release.gitbook.io/semantic-release/recipes/ci-configurations/github-actions
 - slug: servicegraph-mcp
   name: ServiceGraph MCP
   description: MCP server for exposing observability data such as service metrics and logs to AI agents.
@@ -6870,6 +7468,32 @@
   sources:
     - https://github.com/servicegraph/mcp-server
     - https://mcpservers.org/servers/servicegraph/
+- slug: shelfi-ai-github-bot
+  name: Shelfi AI GitHub Bot
+  description: AI-powered GitHub bot that analyzes pull requests and suggests documentation updates tied to code changes.
+  website_url: https://shelfi.sh/features/github-ai-bot/
+  docs_url: https://shelfi.sh/features/github-ai-bot/
+  categories:
+    - repo-automation-tools
+  tags:
+    - agents
+    - automation
+    - documentation
+    - github
+    - pull-requests
+    - repo-automation
+  interfaces:
+    - github-app
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Scans commits and PRs, identifies impacted docs, and posts suggested documentation edits directly in pull request reviews.[web:37] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://shelfi.sh/features/github-ai-bot/
 - slug: skyvern
   name: Skyvern
   description: AI browser automation framework that uses LLMs and computer vision to automate multi-step workflows across websites via an API and SDK.
@@ -6957,6 +7581,56 @@
   sources:
     - https://github.com/smithery-ai/smithery-cli-mcp
     - https://smithery.ai/docs/concepts/cli
+- slug: stack-attack
+  name: stack-attack
+  description: CLI tool that helps developers create, manipulate, and land stacks of pull requests instead of single large PRs.
+  website_url: https://github.com/taneliang/stack-attack
+  repo_url: https://github.com/taneliang/stack-attack
+  docs_url: https://github.com/taneliang/stack-attack
+  categories:
+    - repo-automation-tools
+  tags:
+    - github
+    - open-source
+    - pull-requests
+    - repo-automation
+    - workflow-automation
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements a stacked pull request workflow inspired by large internal tooling to keep changes reviewable.[web:29] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/taneliang/stack-attack
+- slug: stack-pr
+  name: stack-pr
+  description: CLI tool that manages stacked pull requests on GitHub, creating and updating PR stacks from a series of commits.
+  website_url: https://github.com/modular/stack-pr
+  repo_url: https://github.com/modular/stack-pr
+  docs_url: https://github.com/modular/stack-pr
+  categories:
+    - repo-automation-tools
+  tags:
+    - github
+    - open-source
+    - pull-requests
+    - repo-automation
+    - workflow-automation
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Helps submit, view, and land stacks of dependent PRs derived from sequential commits in a branch.[web:18][web:21] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/modular/stack-pr
 - slug: stagehand
   name: Stagehand
   description: AI browser automation framework that mixes natural language actions with Playwright code for reliable production browser agents.
@@ -6986,6 +7660,30 @@
     - https://github.com/browserbase/stagehand
     - https://github.com/browserbase/stagehand/discussions/635
     - https://stagehand.dev
+- slug: stale-repos-action
+  name: stale-repos Action
+  description: GitHub Action that identifies inactive repositories in an organization and reports them for archival decisions.
+  website_url: https://github.com/marketplace/actions/stale-repos
+  docs_url: https://github.com/marketplace/actions/stale-repos
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - devops
+    - github
+    - repo-automation
+    - workflow-automation
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Scans organization repositories and flags those without activity for a configurable period as stale.[web:55] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/stale-repos
 - slug: steel-browser
   name: Steel Browser
   description: Open-source browser API that lets AI apps and agents perform programmatic browsing tasks without managing browser processes directly.
@@ -7506,6 +8204,31 @@
     - https://github.com/untrace-dev/untrace-sdk
     - https://untrace.dev
     - https://untrace.dev/docs
+- slug: updatebot
+  name: UpdateBot
+  description: Bot that scans git repositories and automatically updates dependencies across multiple projects via configuration.
+  website_url: https://github.com/jenkins-x/updatebot
+  repo_url: https://github.com/jenkins-x/updatebot
+  docs_url: https://github.com/jenkins-x/updatebot
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - dependency-updates
+    - devops
+    - github
+    - repo-automation
+  interfaces:
+    - cli
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses a YAML config to find repositories and apply dependency updates automatically via git operations.[web:35] confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/jenkins-x/updatebot
 - slug: vectara-open-evaluation-ui
   name: Vectara Open Evaluation UI
   description: Web UI for loading reports from Open RAG Eval and comparing RAG configurations across queries and metrics.
@@ -7939,6 +8662,30 @@
     - https://github.com/mfranzon/winy
     - https://github.com/mfranzon/winy#readme
     - https://matsuand.github.io/docker.docs-ja/guides/rag-ollama/containerize/
+- slug: workflow-housekeeper
+  name: Workflow Housekeeper
+  description: GitHub Action that prunes old workflow runs, retaining only recent history by time or count criteria.
+  website_url: https://github.com/marketplace/actions/workflow-housekeeper
+  docs_url: https://github.com/marketplace/actions/workflow-housekeeper
+  categories:
+    - repo-automation-tools
+  tags:
+    - automation
+    - ci
+    - github
+    - repo-automation
+    - workflow-automation
+  interfaces:
+    - github-app
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Helps control Actions run history with options to keep a time window or number of runs and supports dry runs.[web:78] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/marketplace/actions/workflow-housekeeper
 - slug: wshobson-agents
   name: wshobson/agents
   description: Unified repository with 185 specialized agents, 16 orchestrators, 153 skills, and 100 commands for Claude Code automation.
