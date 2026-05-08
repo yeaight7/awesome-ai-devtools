@@ -42,8 +42,8 @@
     - workflow-library
   interfaces:
     - cli
-    - mcp
     - local
+    - mcp
   deployment: not specified
   source_model: open-source
   license: Apache-2.0
