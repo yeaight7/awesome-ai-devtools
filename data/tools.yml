@@ -17,7 +17,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Wraps action-docs to regenerate README or other docs from workflow or action definition files during CI.[web:70] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Wraps action-docs to regenerate README or other docs from workflow or action definition files during CI. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -950,14 +950,14 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates and commits changelog content based on conventional commit types on release events.[web:22] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates and commits changelog content based on conventional commit types on release events. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
     - https://github.com/marketplace/actions/auto-generate-changelog
 - slug: auto-merge-pull-request
   name: Auto-Merge Pull Request
-  description: GitHub Action that enables GitHub’s auto-merge on qualifying pull requests based on labels and status checks.
+  description: GitHub Action that enables GitHub's auto-merge on qualifying pull requests based on labels and status checks.
   website_url: https://github.com/marketplace/actions/auto-merge-pull-request
   docs_url: https://github.com/marketplace/actions/auto-merge-pull-request
   categories:
@@ -974,7 +974,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Configures auto-merge for PRs when required reviews, checks, and label conditions are met.[web:77] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Configures auto-merge for PRs when required reviews, checks, and label conditions are met. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1052,7 +1052,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: AutoPR generates branches and PRs when issues are labeled, acting as an autonomous code-fixing agent.[web:11] confidence: medium uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: AutoPR generates branches and PRs when issues are labeled, acting as an autonomous code-fixing agent. confidence: medium uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1076,7 +1076,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Can auto-approve or comment on PRs, for example automatically approving Dependabot pull requests.[web:2] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Can auto-approve or comment on PRs, for example automatically approving Dependabot pull requests. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1100,7 +1100,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Keeps PR branches up to date and merges them automatically when branch protection requirements are satisfied.[web:74] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Keeps PR branches up to date and merges them automatically when branch protection requirements are satisfied. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1560,7 +1560,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides an action to generate changelog text from commit ranges and feed it into GitHub Releases.[web:80] confidence: medium uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides an action to generate changelog text from commit ranges and feed it into GitHub Releases. confidence: medium uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1696,7 +1696,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses Pydantic AI with Gemini to classify CI failures and provide actionable recommendations in PR comments.[web:42] confidence: medium uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses Pydantic AI with Gemini to classify CI failures and provide actionable recommendations in PR comments. confidence: medium uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2365,7 +2365,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs a configurable update command, validates it, and creates PRs when dependency changes are detected.[web:3] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs a configurable update command, validates it, and creates PRs when dependency changes are detected. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3216,7 +3216,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides interactive and Google Sheets–driven workflows to clean up remote and tracking branches in repositories.[web:76] confidence: medium uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides interactive and Google Sheets–driven workflows to clean up remote and tracking branches in repositories. confidence: medium uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3348,7 +3348,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Docs show configuring Dependabot security and version updates via YAML to keep dependencies current.[web:12] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Docs show configuring Dependabot security and version updates via YAML to keep dependencies current. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3372,7 +3372,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Deletes old workflow runs, logs, and artifacts based on configurable retention rules and supports dry-run mode.[web:73] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Deletes old workflow runs, logs, and artifacts based on configurable retention rules and supports dry-run mode. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3443,7 +3443,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates creation of PRs on branch pushes, with options for reviewers, assignees, templates, and draft mode.[web:8] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates creation of PRs on branch pushes, with options for reviewers, assignees, templates, and draft mode. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3466,7 +3466,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides first-class stacked PR support via GitHub and the gh stack CLI, enabling ordered PR stacks and bulk merges.[web:23] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides first-class stacked PR support via GitHub and the gh stack CLI, enabling ordered PR stacks and bulk merges. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3492,7 +3492,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Maintains stale labels and closes inactive issues/PRs based on configurable inactivity windows.[web:46][web:58] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Maintains stale labels and closes inactive issues/PRs based on configurable inactivity windows. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3894,7 +3894,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides staleAfter and closeAfter configuration plus customizable comments and labels for stale issues.[web:30] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides staleAfter and closeAfter configuration plus customizable comments and labels for stale issues. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3919,7 +3919,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Classifies issues from title and body and applies configured labels, reducing manual triage effort.[web:72][web:69][web:65] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Classifies issues from title and body and applies configured labels, reducing manual triage effort. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6662,7 +6662,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Reads a labeler configuration file and applies or syncs labels to PRs, enabling label-based workflows.[web:64] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Reads a labeler configuration file and applies or syncs labels to PRs, enabling label-based workflows. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7095,7 +7095,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Maintains release PRs that update changelog, tag versions, and create GitHub Releases when merged.[web:54][web:45][web:51] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Maintains release PRs that update changelog, tag versions, and create GitHub Releases when merged. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7122,7 +7122,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates version bumps and can publish to various registries when run from CI like GitHub Actions.[web:25] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates version bumps and can publish to various registries when run from CI like GitHub Actions. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7148,7 +7148,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates dependency checks across many platforms and creates update PRs on GitHub and other git forges.[web:19][web:27][web:24] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates dependency checks across many platforms and creates update PRs on GitHub and other git forges. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7441,7 +7441,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates version calculation, changelog, and release publishing, commonly wired into GitHub Actions workflows.[web:44][web:56] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates version calculation, changelog, and release publishing, commonly wired into GitHub Actions workflows. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7489,7 +7489,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Scans commits and PRs, identifies impacted docs, and posts suggested documentation edits directly in pull request reviews.[web:37] confidence: medium uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Scans commits and PRs, identifies impacted docs, and posts suggested documentation edits directly in pull request reviews. confidence: medium uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7601,7 +7601,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements a stacked pull request workflow inspired by large internal tooling to keep changes reviewable.[web:29] confidence: medium uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements a stacked pull request workflow inspired by large internal tooling to keep changes reviewable. confidence: medium uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7626,7 +7626,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Helps submit, view, and land stacks of dependent PRs derived from sequential commits in a branch.[web:18][web:21] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Helps submit, view, and land stacks of dependent PRs derived from sequential commits in a branch. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7679,7 +7679,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Scans organization repositories and flags those without activity for a configurable period as stale.[web:55] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Scans organization repositories and flags those without activity for a configurable period as stale. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -8224,7 +8224,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses a YAML config to find repositories and apply dependency updates automatically via git operations.[web:35] confidence: medium uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses a YAML config to find repositories and apply dependency updates automatically via git operations. confidence: medium uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -8681,7 +8681,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Helps control Actions run history with options to keep a time window or number of runs and supports dry runs.[web:78] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Helps control Actions run history with options to keep a time window or number of runs and supports dry runs. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
