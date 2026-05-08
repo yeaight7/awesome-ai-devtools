@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>200 tools</code> <code>16 active shelves</code> <code>metadata-first</code> <code>generated README</code></p>
+<p align="center"><code>200 tools</code> <code>181 reviewed</code> <code>19 draft</code> <code>16 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -16,26 +16,132 @@ AI developer tooling changes quickly. This directory keeps entries in structured
 
 No rankings. No launch hype. Just a clean storefront for discovering tools worth a closer look.
 
-## Storefront
+## Start here
 
-| Shelf | What you will find | Tools |
-| --- | --- | ---: |
-| [Coding agents](#coding-agents) | Agentic tools that can inspect, modify, and reason about source code. | 25 |
-| [Terminal agents](#terminal-agents) | AI developer tools primarily operated from a command-line interface. | 12 |
-| [IDE assistants](#ide-assistants) | AI assistants embedded in editors or IDEs for coding workflows. | 17 |
-| [Browser agents](#browser-agents) | Tools that can inspect, drive, or test browser-based developer workflows. | 28 |
-| [MCP servers](#mcp-servers) | Model Context Protocol servers that expose tools, resources, or prompts. | 15 |
-| [MCP clients](#mcp-clients) | Applications and agents that connect to Model Context Protocol servers. | 6 |
-| [MCP tooling](#mcp-tooling) | Developer tools for building, testing, debugging, or managing MCP systems. | 1 |
-| [Agent skill packs](#agent-skill-packs) | Reusable instruction, workflow, or capability packs for coding agents. | 31 |
-| [Agent observability](#agent-observability) | Tools for tracing, monitoring, and debugging agent or LLM application behavior. | 40 |
-| [Agent evals](#agent-evals) | Evaluation frameworks and systems for agents, LLM apps, and developer workflows. | 1 |
-| [Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) | Self-hostable platforms and infrastructure for AI developer workflows. | 30 |
-| [Local LLM developer tools](#local-llm-developer-tools) | Tools that help developers run or integrate local models in coding workflows. | 28 |
-| [Repo automation tools](#repo-automation-tools) | AI tools that automate repository checks, changes, pull requests, or maintenance. | 9 |
-| [AI code review tools](#ai-code-review-tools) | AI-assisted tools for reviewing changes, pull requests, and code quality. | 10 |
-| [Documentation agents](#documentation-agents) | AI tools that generate, maintain, or reason over developer documentation. | 1 |
-| [Test generation agents](#test-generation-agents) | AI tools that create, improve, or maintain automated tests. | 4 |
+### Agent skills and plugins
+
+- [Agent Powerups](https://github.com/yeaight7/agent-powerups) - Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents.
+- [Agent Skills](https://github.com/datalayer/agent-skills) - Python package to create, manage, and execute reusable code-based tool compositions for AI agents with MCP integration.
+- [Claude Skills](https://github.com/alirezarezvani/claude-skills) - Repository of 232+ Claude Code skills and agent plugins convertible to 12 AI coding tools including Codex, Cursor, and Windsurf.
+- [Anthropic Skills](https://github.com/anthropics/skills) - Official public repository of Agent Skills for Claude demonstrating creative, technical, and enterprise workflow patterns.
+- [Cursor Rules](https://github.com/survivorforge/cursor-rules) - Curated collection of .cursorrules files for Cursor IDE covering React, Next.js, Python, Node.js, and more frameworks.
+
+### Open-source coding agents
+
+- [Aider](https://aider.chat/) - Open-source terminal pair programmer that edits tracked files in a local Git repository.
+- [Cline](https://docs.cline.bot/introduction/overview) - Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension.
+- [OpenCode](https://opencode.ai/) - Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows.
+- [OpenHands](https://openhands.dev/) - Open-source software agent platform with GUI, CLI, SDK, and self-hosted or cloud deployment options.
+- [Continue](https://docs.continue.dev/) - Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows.
+
+### Self-hosted AI dev stacks
+
+- [AnythingLLM](https://useanything.com) - Self-hosted RAG and agent platform with no-code agent builder and Docker Compose deployment options.
+- [Dify](https://dify.ai) - Open-source LLMOps platform with visual studio for chatbots, workflows, agents, and RAG that supports self-hosted deployment.
+- [Onyx](https://onyx.dotenv.dev) - Open-source self-hostable AI platform offering chat UI with agents, RAG, MCP tools, and multi-provider model support.
+- [Open WebUI Platform](https://openwebui.com) - Self-hosted AI platform and UI that supports Ollama and OpenAI-compatible APIs and can run entirely offline.
+- [Tabby](https://www.tabbyml.com/) - Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development.
+
+### MCP tools
+
+- [Chrome DevTools MCP](https://developer.chrome.com/blog/chrome-devtools-mcp) - MCP server that gives AI agents Chrome DevTools debugging capabilities for web applications.
+- [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official GitHub MCP server for repository access, issues, pull requests, code analysis, and workflow automation.
+- [Context7 MCP Server](https://context7.com) - MCP server for retrieving up-to-date library documentation and code examples for AI coding assistants.
+- [Browserbase MCP Server](https://browserbase.com) - MCP server that lets AI agents control cloud browsers through Browserbase and Stagehand.
+- [Agent Powerups](https://github.com/yeaight7/agent-powerups) - Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents.
+
+### Observability and evals
+
+- [Arize Phoenix](https://arize.com/phoenix) - Open-source AI observability platform with tracing, evals, datasets, and experiments for LLM, agent, and RAG systems.
+- [Comet Opik](https://www.comet.com) - Open-source LLM observability framework for tracing, evaluating, and monitoring LLM, RAG, and agent workflows.
+- [Helicone](https://www.helicone.ai) - Open-source LLM observability platform and gateway for logging, tracing, and evaluating LLM and agent requests.
+- [Langfuse](https://langfuse.com/docs) - Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations.
+- [OpenLIT](https://openlit.io) - Open-source OpenTelemetry-native observability and evaluations platform for GenAI and LLM applications.
+
+### Local-first picks
+
+- [Ollama](https://ollama.com) - Local LLM runtime and model manager that runs open models on your machine with an OpenAI-compatible Chat Completions API.
+- [LM Studio](https://lmstudio.ai) - Cross-platform desktop app and SDKs to discover, run, and serve local LLMs with an OpenAI-compatible server mode.
+- [Llamafile](https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md) - Single-file local LLM runtime bundling llama.cpp and web UI, with an OpenAI-compatible /v1 chat completions endpoint.
+- [LocalAI](https://localai.io) - Self-hosted REST server that emulates the OpenAI API to run local ggml/llama.cpp and related models on your own hardware.
+- [vLLM](https://vllm.ai) - High-throughput LLM inference engine with an OpenAI-compatible HTTP server for serving models locally or on servers.
+
+## Explore by intent
+
+### Build with agents
+
+[Coding agents](#coding-agents) (25) · [Terminal agents](#terminal-agents) (12) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (23)
+
+### Extend agents
+
+[MCP servers](#mcp-servers) (15) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (1) · [Agent skill packs](#agent-skill-packs) (29)
+
+### Operate agents
+
+[Agent observability](#agent-observability) (36) · [Agent evals](#agent-evals) (1)
+
+### Run locally/self-host
+
+[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (22) · [Local LLM developer tools](#local-llm-developer-tools) (28)
+
+### Automate repo work
+
+[Repo automation tools](#repo-automation-tools) (9) · [AI code review tools](#ai-code-review-tools) (10) · [Documentation agents](#documentation-agents) (1) · [Test generation agents](#test-generation-agents) (4)
+
+## Comparison Matrix
+
+| Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Agent Powerups](https://github.com/yeaight7/agent-powerups) | Agent skill packs | Yes | No | No | Yes | No | Yes | [Website](https://github.com/yeaight7/agent-powerups) / [Repo](https://github.com/yeaight7/agent-powerups) |
+| [Agent Skills](https://github.com/datalayer/agent-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Website](https://github.com/datalayer/agent-skills) / [Repo](https://github.com/datalayer/agent-skills) |
+| [Claude Skills](https://github.com/alirezarezvani/claude-skills) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Website](https://github.com/alirezarezvani/claude-skills) / [Repo](https://github.com/alirezarezvani/claude-skills) |
+| [Anthropic Skills](https://github.com/anthropics/skills) | Agent skill packs | Yes | Yes | No | No | No | No | [Website](https://github.com/anthropics/skills) / [Repo](https://github.com/anthropics/skills) |
+| [Cursor Rules](https://github.com/survivorforge/cursor-rules) | Agent skill packs | Yes | Yes | No | No | No | No | [Website](https://github.com/survivorforge/cursor-rules) / [Repo](https://github.com/survivorforge/cursor-rules) |
+| [Aider](https://aider.chat/) | Coding agents | Yes | Yes | No | Yes | No | No | [Website](https://aider.chat/) / [Docs](https://aider.chat/docs/) / [Repo](https://github.com/Aider-AI/aider) |
+| [Cline](https://docs.cline.bot/introduction/overview) | Browser agents | Yes | No | No | Yes | Yes | Yes | [Website](https://docs.cline.bot/introduction/overview) / [Docs](https://docs.cline.bot/introduction/overview) / [Repo](https://github.com/cline/cline) |
+| [OpenCode](https://opencode.ai/) | Coding agents | Yes | Yes | No | Yes | Yes | Yes | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
+| [OpenHands](https://openhands.dev/) | Coding agents | Yes | No | Yes | Yes | No | No | [Website](https://openhands.dev/) / [Docs](https://docs.openhands.dev/overview/quickstart) / [Repo](https://github.com/OpenHands/OpenHands) |
+| [Continue](https://docs.continue.dev/) | AI code review tools | Yes | No | No | Yes | Yes | No | [Website](https://docs.continue.dev/) / [Docs](https://docs.continue.dev/) / [Repo](https://github.com/continuedev/continue) |
+| [AnythingLLM](https://useanything.com) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://useanything.com) / [Docs](https://docs.useanything.com) / [Repo](https://github.com/Mintplex-Labs/anything-llm) |
+| [Dify](https://dify.ai) | Self-hosted AI dev stacks | Yes | No | Yes | No | No | No | [Website](https://dify.ai) / [Docs](https://docs.dify.ai) / [Repo](https://github.com/langgenius/dify) |
+| [Onyx](https://onyx.dotenv.dev) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | Yes | [Website](https://onyx.dotenv.dev) / [Docs](https://github.com/onyx-dot-app/onyx#readme) / [Repo](https://github.com/onyx-dot-app/onyx) |
+| [Open WebUI Platform](https://openwebui.com) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | No | [Website](https://openwebui.com) / [Docs](https://docs.openwebui.com) / [Repo](https://github.com/open-webui/open-webui) |
+| [Tabby](https://www.tabbyml.com/) | IDE assistants | Yes | No | Yes | No | Yes | No | [Website](https://www.tabbyml.com/) / [Docs](https://tabby.tabbyml.com/docs/) / [Repo](https://github.com/TabbyML/tabby) |
+| [Chrome DevTools MCP](https://developer.chrome.com/blog/chrome-devtools-mcp) | MCP servers | Yes | Yes | No | No | No | Yes | [Website](https://developer.chrome.com/blog/chrome-devtools-mcp) / [Docs](https://developer.chrome.com/blog/chrome-devtools-mcp) / [Repo](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
+| [GitHub MCP Server](https://github.com/github/github-mcp-server) | MCP servers | Yes | No | No | No | No | Yes | [Website](https://github.com/github/github-mcp-server) / [Repo](https://github.com/github/github-mcp-server) |
+| [Context7 MCP Server](https://context7.com) | MCP servers | Yes | No | No | No | No | Yes | [Website](https://context7.com) / [Repo](https://github.com/upstash/context7) |
+| [Browserbase MCP Server](https://browserbase.com) | MCP servers | Yes | No | No | No | No | Yes | [Website](https://browserbase.com) / [Repo](https://github.com/browserbase/mcp-server-browserbase) |
+| [Arize Phoenix](https://arize.com/phoenix) | Agent observability | Yes | No | Yes | No | No | No | [Website](https://arize.com/phoenix) / [Docs](https://arize.com/docs/phoenix) / [Repo](https://github.com/arize-ai/phoenix) |
+| [Comet Opik](https://www.comet.com) | Agent observability | Yes | No | No | No | No | No | [Website](https://www.comet.com) / [Docs](https://docs.comet.com/docs/opik-overview) / [Repo](https://github.com/comet-ml/opik) |
+| [Helicone](https://www.helicone.ai) | Agent observability | Yes | No | Yes | No | No | No | [Website](https://www.helicone.ai) / [Docs](https://docs.helicone.ai) / [Repo](https://github.com/Helicone/helicone) |
+| [Langfuse](https://langfuse.com/docs) | Agent evals | Yes | No | Yes | No | No | No | [Website](https://langfuse.com/docs) / [Docs](https://langfuse.com/docs) / [Repo](https://github.com/langfuse/langfuse) |
+| [OpenLIT](https://openlit.io) | Agent observability | Yes | No | Yes | Yes | No | No | [Website](https://openlit.io) / [Docs](https://docs.openlit.io) / [Repo](https://github.com/openlit/openlit) |
+| [Ollama](https://ollama.com) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://ollama.com) / [Docs](https://docs.ollama.com) / [Repo](https://github.com/ollama/ollama) |
+| [LM Studio](https://lmstudio.ai) | Local LLM developer tools | Yes | Yes | No | Yes | No | No | [Website](https://lmstudio.ai) / [Docs](https://lmstudio.ai/docs) / [Repo](https://github.com/lmstudio-ai) |
+| [Llamafile](https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md) / [Docs](https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md) / [Repo](https://github.com/Mozilla-Ocho/llamafile) |
+| [LocalAI](https://localai.io) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://localai.io) / [Docs](https://localai.io/docs) / [Repo](https://github.com/go-skynet/LocalAI) |
+| [vLLM](https://vllm.ai) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Website](https://vllm.ai) / [Docs](https://docs.vllm.ai/en/stable/serving/openai_compatible_server.html) / [Repo](https://github.com/vllm-project/vllm) |
+| [Athenaeum](https://github.com/herakles-dev/athenaeum#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | Yes | [Website](https://github.com/herakles-dev/athenaeum#readme) / [Docs](https://github.com/herakles-dev/athenaeum#readme) / [Repo](https://github.com/herakles-dev/athenaeum) |
+| [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Website](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
+| [Goose](https://goose-docs.ai/) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Website](https://goose-docs.ai/) / [Docs](https://goose-docs.ai/docs/quickstart/) / [Repo](https://github.com/aaif-goose/goose) |
+| [KoboldCpp](https://koboldcpp.com) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://koboldcpp.com) / [Docs](https://github.com/LostRuins/koboldcpp/wiki) / [Repo](https://github.com/LostRuins/koboldcpp) |
+| [llama-cpp-python](https://llama-cpp-python.readthedocs.io) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://llama-cpp-python.readthedocs.io) / [Docs](https://llama-cpp-python.readthedocs.io) / [Repo](https://github.com/abetlen/llama-cpp-python) |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/examples) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://github.com/ggml-org/llama.cpp/tree/master/examples) / [Docs](https://github.com/ggml-org/llama.cpp/tree/master/examples) / [Repo](https://github.com/ggml-org/llama.cpp) |
+| [MCP Bundles (MCPB)](https://modelcontextprotocol.io/docs/develop/build-with-agent-skills) | MCP servers | Yes | Yes | No | Yes | No | Yes | [Website](https://modelcontextprotocol.io/docs/develop/build-with-agent-skills) / [Docs](https://modelcontextprotocol.io/docs/develop/build-with-agent-skills) / [Repo](https://github.com/modelcontextprotocol/mcpb) |
+| [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Website](https://modelcontextprotocol.io/docs/tools/inspector) / [Docs](https://modelcontextprotocol.io/docs/tools/inspector) / [Repo](https://github.com/modelcontextprotocol/inspector) |
+| [Redis + Ollama RAG Stack](https://github.com/TtheBC01/redis-ollama-RAG#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://github.com/TtheBC01/redis-ollama-RAG#readme) / [Docs](https://github.com/TtheBC01/redis-ollama-RAG#readme) / [Repo](https://github.com/TtheBC01/redis-ollama-RAG) |
+| [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
+| [Zed](https://zed.dev/) | IDE assistants | Yes | Yes | No | No | Yes | Yes | [Website](https://zed.dev/) / [Docs](https://zed.dev/releases/stable/0.233.5) / [Repo](https://github.com/zed-industries/zed) |
+| [Nosia](https://nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://nosia.ai) / [Docs](https://nosia.ai/readme/) |
+| [Nosia Installer Stack](https://get.nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://get.nosia.ai) / [Docs](https://nosia.ai/readme/) |
+| [Roo Code](https://roocode.com/) | Coding agents | Yes | No | No | Yes | Yes | Yes | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
+| [AgentSkills MCP](https://github.com/zouyingcao/agentskills-mcp) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Website](https://github.com/zouyingcao/agentskills-mcp) / [Repo](https://github.com/zouyingcao/agentskills-mcp) |
+| [Anki MCP Server](https://ankimcp.ai) | MCP servers | Yes | Yes | No | No | No | Yes | [Website](https://ankimcp.ai) / [Repo](https://github.com/ankimcp/anki-mcp-server) |
+| [Anthropic Knowledge Work Plugins](https://github.com/anthropics/knowledge-work-plugins) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Website](https://github.com/anthropics/knowledge-work-plugins) / [Repo](https://github.com/anthropics/knowledge-work-plugins) |
+| [ArXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server) | MCP servers | Yes | Yes | No | No | No | Yes | [Website](https://github.com/blazickjp/arxiv-mcp-server) / [Repo](https://github.com/blazickjp/arxiv-mcp-server) |
+| [Astronomer Agents](https://github.com/astronomer/agents) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Website](https://github.com/astronomer/agents) / [Repo](https://github.com/astronomer/agents) |
+| [Azure DevOps Skills](https://github.com/microsoft/azure-devops-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Website](https://github.com/microsoft/azure-devops-skills) / [Repo](https://github.com/microsoft/azure-devops-skills) |
+| [Charlotte MCP Server](https://vibehackers.io/mcp/charlotte) | Browser agents | Yes | No | Yes | No | No | Yes | [Website](https://vibehackers.io/mcp/charlotte) / [Docs](https://vibehackers.io/mcp/charlotte) / [Repo](https://github.com/TickTockBent/charlotte) |
 
 ## Browse The Shelves
 
@@ -123,7 +229,6 @@ Tools that can inspect, drive, or test browser-based developer workflows.
 | [Agent Browser](https://github.com/vercel-labs/agent-browser) | Rust-based headless browser automation CLI designed for AI agents, wrapping Chromium control behind a simple command-line tool. | CLI | [Website](https://github.com/vercel-labs/agent-browser) / [Docs](https://github.com/vercel-labs/agent-browser) / [Repo](https://github.com/vercel-labs/agent-browser) |
 | [Agent-E](https://github.com/EmergenceAI/Agent-E) | Open-source agent system focused on browser automation, offering a natural-language web automation API and local agent runtime. | Framework · Library | [Website](https://github.com/EmergenceAI/Agent-E) / [Docs](https://github.com/EmergenceAI/Agent-E) / [Repo](https://github.com/EmergenceAI/Agent-E) |
 | [Agent-WebVoyager](https://github.com/mrmoxon/Agent-WebVoyager) | Implementation showcasing an autonomous WebVoyager-style agent that navigates and extracts data from sites via visual interactions. | Framework · Library | [Website](https://github.com/mrmoxon/Agent-WebVoyager) / [Docs](https://github.com/mrmoxon/Agent-WebVoyager) / [Repo](https://github.com/mrmoxon/Agent-WebVoyager) |
-| [AI-Agent (Browser-Use WebUI)](https://github.com/kiranimmadi2/AI-Agent) | Open-source web UI that lets AI control browsers via Browser Use, handling tasks like opening pages, filling forms, and running workflows. | Web app | [Website](https://github.com/kiranimmadi2/AI-Agent) / [Docs](https://github.com/kiranimmadi2/AI-Agent) / [Repo](https://github.com/kiranimmadi2/AI-Agent) |
 | [Anchor Browser](https://anchorbrowser.io) | Cloud-hosted browser fleet built for AI agents, providing human-like Chromium instances and deterministic browser task execution APIs. | API · Hosted | [Website](https://anchorbrowser.io) / [Docs](https://anchorbrowser.io) |
 | [Browser MCP](https://browsermcp.io) | Local MCP server and browser extension that connect AI apps to your real browser profile for automating web tasks using AI tools. | Browser · MCP · Local | [Website](https://browsermcp.io) / [Docs](https://browsermcp.io) |
 | [Browser Use](https://browser-use.com) | Open-source Python library that lets AI agents control browsers via Playwright using natural language to navigate, extract, and automate web tasks. | API · Framework · Library · Hybrid | [Website](https://browser-use.com) / [Repo](https://github.com/browser-use/browser-use) |
@@ -138,14 +243,10 @@ Tools that can inspect, drive, or test browser-based developer workflows.
 | [LaVague](https://github.com/lavague-ai/LaVague) | Large Action Model framework that turns natural language instructions into Selenium-based browser interactions for AI web agents. | Framework · Library | [Website](https://github.com/lavague-ai/LaVague) / [Docs](https://github.com/lavague-ai/LaVague) / [Repo](https://github.com/lavague-ai/LaVague) |
 | [OpenAgents Web Agent](https://openagents.org) | Web Agent inside the OpenAgents platform that performs autonomous web browsing with open-source code and UI for real-world tasks. | Framework · Web | [Website](https://openagents.org) / [Docs](https://github.com/xlang-ai/openagents) / [Repo](https://github.com/xlang-ai/openagents) |
 | [OpenAI Computer Use](https://developers.openai.com) | OpenAI API capability that lets models operate software through the UI, including navigating and interacting with browser windows. | API · Hosted | [Website](https://developers.openai.com) / [Docs](https://developers.openai.com/api/docs/guides/tools-computer-use) |
-| [OpenWebAgent](https://github.com/THUDM/OpenWebAgent) | Toolkit with browser extension and backend server that enables LLM-based web agents to automate tasks on real webpages. | API · Browser Extension · Framework | [Website](https://github.com/THUDM/OpenWebAgent) / [Docs](https://github.com/THUDM/OpenWebAgent) / [Repo](https://github.com/THUDM/OpenWebAgent) |
 | [Skyvern](https://pypi.org/project/skyvern/0.1.70/) | AI browser automation framework that uses LLMs and computer vision to automate multi-step workflows across websites via an API and SDK. | API · Library · Hybrid | [Website](https://pypi.org/project/skyvern/0.1.70/) / [Docs](https://pypi.org/project/skyvern/0.1.70/) / [Repo](https://github.com/Skyvern-AI/skyvern) |
 | [Stagehand](https://stagehand.dev) | AI browser automation framework that mixes natural language actions with Playwright code for reliable production browser agents. | Framework · Library | [Website](https://stagehand.dev) / [Repo](https://github.com/browserbase/stagehand) |
 | [Steel Browser](https://steel.dev) | Open-source browser API that lets AI apps and agents perform programmatic browsing tasks without managing browser processes directly. | API · Library | [Website](https://steel.dev) / [Docs](https://github.com/steel-dev/steel-browser) / [Repo](https://github.com/steel-dev/steel-browser) |
 | [Tarsier](https://github.com/reworkd/tarsier) | Vision utility library that gives web interaction agents structured, OCR-backed views of pages by tagging interactable elements. | Library | [Website](https://github.com/reworkd/tarsier) / [Docs](https://github.com/reworkd/tarsier) / [Repo](https://github.com/reworkd/tarsier) |
-| [VS Code Browser Agent Tools](https://code.visualstudio.com) | Visual Studio Code Copilot feature set that lets AI agents open pages, read content, click elements, and run Playwright code in an integrated browser. | Desktop app | [Website](https://code.visualstudio.com) / [Docs](https://code.visualstudio.com/docs/copilot/guides/browser-agent-testing-guide) |
-| [Web Browser MCP Server](https://mcpmarket.com/server/web-browser-1) | Playwright-based MCP server offering a headless browsing API with multi-tab support and advanced element interaction for agents. | Mcp Server | [Website](https://mcpmarket.com/server/web-browser-1) / [Docs](https://mcpmarket.com/server/web-browser-1) |
-| [web-voyager](https://github.com/ElianBelot/web-voyager) | Experimental continuously learning web-browsing agent extending the Voyager architecture to browser environments using code as action space. | Framework · Library | [Website](https://github.com/ElianBelot/web-voyager) / [Docs](https://github.com/ElianBelot/web-voyager) / [Repo](https://github.com/ElianBelot/web-voyager) |
 | [Webagent (webagent-cloud)](https://github.com/webagent-cloud/webagent) | Simple web agent server built on Browser Use that exposes browser automation to other apps via HTTP APIs. | API · Framework | [Website](https://github.com/webagent-cloud/webagent) / [Docs](https://github.com/webagent-cloud/webagent) / [Repo](https://github.com/webagent-cloud/webagent) |
 | [WebVoyager](https://github.com/MinorJerry/WebVoyager) | LMM-powered web agent that completes end-to-end tasks on real websites using visual and textual signals in a Selenium environment. | Framework · Library | [Website](https://github.com/MinorJerry/WebVoyager) / [Docs](https://github.com/MinorJerry/WebVoyager) / [Repo](https://github.com/MinorJerry/WebVoyager) |
 
@@ -198,7 +299,7 @@ Reusable instruction, workflow, or capability packs for coding agents.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
-| [Agent Powerups](https://github.com/yeaight7/agent-powerups) | Curated power-ups for coding agents. Skills, slash commands, MCP configs, hooks, AGENTS.md templates and workflows for software engineering. Claude Code, Codex, Gemini CLI and more | CLI · MCP | [Website](https://github.com/yeaight7/agent-powerups) / [Repo](https://github.com/yeaight7/agent-powerups) |
+| [Agent Powerups](https://github.com/yeaight7/agent-powerups) | Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents. | CLI · MCP | [Website](https://github.com/yeaight7/agent-powerups) / [Repo](https://github.com/yeaight7/agent-powerups) |
 | [Agent Skills](https://github.com/datalayer/agent-skills) | Python package to create, manage, and execute reusable code-based tool compositions for AI agents with MCP integration. | MCP · Local | [Website](https://github.com/datalayer/agent-skills) / [Repo](https://github.com/datalayer/agent-skills) |
 | [Agent Skills Specification](https://github.com/agentskills/agentskills) | Open specification and documentation for Agent Skills format maintained by Anthropic with reference SDK and examples. | Framework · Skill Pack | [Website](https://github.com/agentskills/agentskills) / [Repo](https://github.com/agentskills/agentskills) |
 | [AgentSkills MCP](https://github.com/zouyingcao/agentskills-mcp) | MCP server that brings Anthropic Agent Skills to any MCP-compatible agent with progressive disclosure architecture. | MCP · Local | [Website](https://github.com/zouyingcao/agentskills-mcp) / [Repo](https://github.com/zouyingcao/agentskills-mcp) |
@@ -206,14 +307,12 @@ Reusable instruction, workflow, or capability packs for coding agents.
 | [Anthropic Skills](https://github.com/anthropics/skills) | Official public repository of Agent Skills for Claude demonstrating creative, technical, and enterprise workflow patterns. | Skill Pack · Local | [Website](https://github.com/anthropics/skills) / [Repo](https://github.com/anthropics/skills) |
 | [Astronomer Agents](https://github.com/astronomer/agents) | AI agent tooling for data engineering workflows with Airflow MCP server and skills for DAG development, lineage, and dbt integration. | MCP · Local | [Website](https://github.com/astronomer/agents) / [Repo](https://github.com/astronomer/agents) |
 | [Awesome Agent Skills](https://github.com/heilcheng/awesome-agent-skills) | Community-curated directory of agent skills, tutorials, and guides for Claude, Copilot, Codex, and other AI assistants. | Skill Pack | [Website](https://github.com/heilcheng/awesome-agent-skills) / [Repo](https://github.com/heilcheng/awesome-agent-skills) |
-| [Awesome Codex Skills](https://github.com/ComposioHQ/awesome-codex-skills) | Curated list of practical Codex skills for automating workflows across the Codex CLI and API with installer scripts. | Library · Skill Pack · Local | [Website](https://github.com/ComposioHQ/awesome-codex-skills) / [Repo](https://github.com/ComposioHQ/awesome-codex-skills) |
 | [Awesome Cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | Community collection of configuration files that enhance Cursor AI editor with custom rules and behaviors. | Template · Local | [Website](https://github.com/PatrickJS/awesome-cursorrules) / [Repo](https://github.com/PatrickJS/awesome-cursorrules) |
 | [Awesome GitHub Copilot](https://github.com/github/awesome-copilot) | Community collection of custom agents, instructions, skills, hooks, workflows, and plugins for GitHub Copilot. | Skill Pack · Template | [Website](https://github.com/github/awesome-copilot) / [Repo](https://github.com/github/awesome-copilot) |
 | [Awesome Rules](https://github.com/continuedev/awesome-rules) | Collection of useful markdown rules with YAML frontmatter for coding assistants including testing, DevOps, and documentation categories. | Skill Pack · Template · Local | [Website](https://github.com/continuedev/awesome-rules) / [Repo](https://github.com/continuedev/awesome-rules) |
 | [Azure DevOps Skills](https://github.com/microsoft/azure-devops-skills) | Example skills for GitHub Copilot integrating with Azure DevOps via MCP server for work items, iterations, and builds. | MCP · Local | [Website](https://github.com/microsoft/azure-devops-skills) / [Repo](https://github.com/microsoft/azure-devops-skills) |
 | [CC DevOps Skills](https://github.com/akin-ozer/cc-devops-skills) | Practical agent skill pack with 31 skills for DevOps work in Claude Code and Codex including generators, validators, and debuggers. | CLI · Local | [Website](https://github.com/akin-ozer/cc-devops-skills) / [Repo](https://github.com/akin-ozer/cc-devops-skills) |
 | [Claude Skills](https://github.com/alirezarezvani/claude-skills) | Repository of 232+ Claude Code skills and agent plugins convertible to 12 AI coding tools including Codex, Cursor, and Windsurf. | CLI · Local | [Website](https://github.com/alirezarezvani/claude-skills) / [Repo](https://github.com/alirezarezvani/claude-skills) |
-| [Cline Prompts](https://github.com/cline/prompts) | Official community-driven collection of .clinerules and prompt files for Cline from the Cline team. | Template · Local | [Website](https://github.com/cline/prompts) / [Repo](https://github.com/cline/prompts) |
 | [Cursor Rules](https://github.com/survivorforge/cursor-rules) | Curated collection of .cursorrules files for Cursor IDE covering React, Next.js, Python, Node.js, and more frameworks. | Template · Local | [Website](https://github.com/survivorforge/cursor-rules) / [Repo](https://github.com/survivorforge/cursor-rules) |
 | [Cursorrules Collection](https://github.com/nedcodes-ok/cursorrules-collection) | 110+ tested .cursorrules and .mdc rule files for Cursor, Claude Code, Copilot, Windsurf, Gemini CLI, and Codex. | Template · Local | [Website](https://github.com/nedcodes-ok/cursorrules-collection) / [Repo](https://github.com/nedcodes-ok/cursorrules-collection) |
 | [Custom Modes for Roo Code](https://github.com/jtgsystems/Custom-Modes-Roo-Code) | Collection of 171 specialized AI agent configurations for Roo Code across 9 categories with security-first principles. | Skill Pack · Template · Local | [Website](https://github.com/jtgsystems/Custom-Modes-Roo-Code) / [Repo](https://github.com/jtgsystems/Custom-Modes-Roo-Code) |
@@ -242,7 +341,6 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 | [Braintrust](https://www.braintrust.dev) | AI observability and evaluation platform that logs LLM and agent traces and turns production logs into test datasets. | API · Web · Hosted | [Website](https://www.braintrust.dev) / [Docs](https://docs.braintrust.dev) |
 | [Comet Opik](https://www.comet.com) | Open-source LLM observability framework for tracing, evaluating, and monitoring LLM, RAG, and agent workflows. | API · Web · Hybrid | [Website](https://www.comet.com) / [Docs](https://docs.comet.com/docs/opik-overview) / [Repo](https://github.com/comet-ml/opik) |
 | [Confident AI](https://www.confident-ai.com) | Evaluation and observability platform that traces LLM apps and runs DeepEval metrics on components and end-to-end workflows. | API · Web · Hosted | [Website](https://www.confident-ai.com) / [Docs](https://www.confident-ai.com/docs) |
-| [Datadog LLM Observability](https://www.datadoghq.com/product/ai/llm-observability/) | Datadog product for tracing, monitoring, and evaluating LLM and agent applications with integrated APM views. | API · Library · Web app · Cloud | [Website](https://www.datadoghq.com/product/ai/llm-observability/) / [Docs](https://docs.datadoghq.com/tracing/llm_observability/) / [Repo](https://github.com/DataDog/llm-observability) |
 | [Dunetrace](https://dunetrace.dev) | Open-source anomaly detection layer that monitors agent traces for structural failures and alerts in real time. | API · Self-hosted | [Website](https://dunetrace.dev) / [Docs](https://github.com/dunetrace/dunetrace#readme) / [Repo](https://github.com/dunetrace/dunetrace) |
 | [Evidently AI](https://www.evidentlyai.com) | Open-source library and cloud service for evaluating, testing, and monitoring ML and LLM systems, including RAG and agents. | API · Web · Hybrid | [Website](https://www.evidentlyai.com) / [Docs](https://docs.evidentlyai.com) / [Repo](https://github.com/evidentlyai/evidently) |
 | [Fiddler AI Observability](https://www.fiddler.ai) | AI observability and security platform for monitoring, alerting, and troubleshooting LLM and ML applications. | API · Web · Hosted | [Website](https://www.fiddler.ai) / [Docs](https://docs.fiddler.ai) |
@@ -256,13 +354,11 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 | [LangSmith](https://www.langchain.com/langsmith-platform) | Hosted observability and evaluation platform for tracing, debugging, and monitoring LangChain and other LLM or agent applications. | API · Web · Hosted | [Website](https://www.langchain.com/langsmith-platform) / [Docs](https://www.langchain.com/langsmith/observability) |
 | [Langtrace](https://langtrace.ai) | Open-source OpenTelemetry-based observability tool and dashboard for tracing, evaluating, and debugging LLM applications. | API · Web · Self-hosted | [Website](https://langtrace.ai) / [Docs](https://docs.langtrace.ai) / [Repo](https://github.com/Scale3-Labs/langtrace) |
 | [LangWatch](https://langwatch.ai) | LLM observability and evaluation platform focused on tracing, debugging, and optimizing AI agents and applications. | API · Web · Hybrid | [Website](https://langwatch.ai) / [Docs](https://docs.langwatch.ai) / [Repo](https://github.com/langwatch/langwatch) |
-| [Lunary](https://lunary.ai) | Open-source observability and prompt platform for LLM chatbots with analytics, logs, traces, and evaluations. | API · Library · Web app · Hybrid | [Website](https://lunary.ai) / [Docs](https://docs.lunary.ai) / [Repo](https://github.com/lunary-ai/lunary) |
 | [Mastra Observability](https://mastra.ai) | Observability module in Mastra for tracing, monitoring, and evaluating LLM agents and workflows via OpenTelemetry. | API · Web · Hybrid | [Website](https://mastra.ai) / [Docs](https://mastra.ai/docs/observability) / [Repo](https://github.com/mastra-ai/mastra) |
 | [Maxim AI](https://getmaxim.ai) | End-to-end AI evaluation and observability platform for testing and monitoring agents and LLM applications. | API · Web · Hosted | [Website](https://getmaxim.ai) / [Docs](https://docs.getbifrost.ai/features/observability/maxim) / [Repo](https://github.com/maximhq) |
 | [MLflow AI Observability](https://mlflow.org) | MLflow extensions for LLM and agent observability with tracing, evaluation, and integration with TruLens scorers. | API · CLI · Web · Hybrid | [Website](https://mlflow.org) / [Docs](https://mlflow.org/docs/latest/llm/index.html) / [Repo](https://github.com/mlflow/mlflow) |
 | [Monocle](https://monocle2ai.org) | Linux Foundation project providing a framework to trace GenAI app code and agent workflows with minimal code changes. | API · Local | [Website](https://monocle2ai.org) / [Docs](https://docs.monocle.sh) / [Repo](https://github.com/monocle2ai/monocle) |
 | [Noveum AI Agent Monitoring](https://noveum.ai/en/solutions/ai-agent-monitoring) | Enterprise AI agent monitoring platform with real-time tracing of LLM calls, RAG steps, and tool interactions. | API · Web · Hosted | [Website](https://noveum.ai/en/solutions/ai-agent-monitoring) |
-| [Okahu](https://www.okahu.ai) | AI observability platform and tools for debugging, testing, and monitoring agentic and LLM-based applications. | API · Web app · Cloud | [Website](https://www.okahu.ai) / [Docs](https://docs.okahu.ai) / [Repo](https://github.com/okahu-demos) |
 | [OpenAI Traces and Evals](https://platform.openai.com) | Built-in OpenAI platform capabilities for tracing agent workflows and running evaluations on traces and datasets. | API · Web · Hosted | [Website](https://platform.openai.com) / [Docs](https://developers.openai.com/api/docs/guides/agent-evals) / [Repo](https://github.com/openai/evals) |
 | [OpenInference](https://arize-ai.github.io/openinference/) | Open-source OpenTelemetry-based specification and instrumentations for tracing AI and LLM applications. | Library · Local | [Website](https://arize-ai.github.io/openinference/) / [Docs](https://arize-ai.github.io/openinference/) / [Repo](https://github.com/Arize-ai/openinference) |
 | [OpenLIT](https://openlit.io) | Open-source OpenTelemetry-native observability and evaluations platform for GenAI and LLM applications. | API · CLI · Web · Self-hosted | [Website](https://openlit.io) / [Docs](https://docs.openlit.io) / [Repo](https://github.com/openlit/openlit) |
@@ -272,7 +368,6 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 | [Respan](https://respan.ai) | LLM engineering platform that unifies observability, evals, prompt optimization, and gateway for AI applications. | API · Web · Hosted | [Website](https://respan.ai) |
 | [Traceloop OpenLLMetry](https://traceloop.com) | Open-source OpenTelemetry extensions and SDKs for providing LLM and RAG observability across backends. | API · Local | [Website](https://traceloop.com) / [Docs](https://docs.traceloop.com) / [Repo](https://github.com/traceloop/openllmetry) |
 | [TruLens](https://www.trulens.org) | Open-source library for tracing and evaluating AI agents, RAG systems, and LLM applications with feedback functions. | Web · Local | [Website](https://www.trulens.org) / [Docs](https://www.trulens.org/docs) / [Repo](https://github.com/truera/trulens) |
-| [Untrace](https://untrace.dev) | Trace-routing platform that captures LLM traces once and forwards them to multiple observability backends. | API · Library · Cloud | [Website](https://untrace.dev) / [Docs](https://untrace.dev/docs) / [Repo](https://github.com/untrace-dev/untrace-sdk) |
 | [Weights & Biases Weave](https://wandb.ai) | Framework and UI for debugging, tracing, and monitoring LLM applications with W&B observability. | API · Web · Hybrid | [Website](https://wandb.ai) / [Docs](https://docs.wandb.ai/guides/weave) / [Repo](https://github.com/wandb/weave) |
 | [WhyLabs OpenLLMTelemetry](https://whylabs.ai) | Python library that instruments LLM calls and sends OpenTelemetry traces and safeguards data to WhyLabs. | API · Local | [Website](https://whylabs.ai) / [Docs](https://docs.whylabs.ai/docs/openllmtelemetry) / [Repo](https://github.com/whylabs/openllmtelemetry) |
 | [Zenity AI Observability Platform](https://zenity.io/platform/ai-observability) | Security-focused AI observability platform for discovering and monitoring agents across SaaS, endpoints, and environments. | API · Web · Hosted | [Website](https://zenity.io/platform/ai-observability) |
@@ -296,23 +391,15 @@ Self-hostable platforms and infrastructure for AI developer workflows.
 | [Clawix AI Platform](https://github.com/ClawixAI/clawix#readme) | Open-source, self-hosted multi-agent AI orchestration platform running agents in isolated Docker containers. | CLI · Web · Self-hosted | [Website](https://github.com/ClawixAI/clawix#readme) / [Docs](https://github.com/ClawixAI/clawix#readme) / [Repo](https://github.com/ClawixAI/clawix) |
 | [DevBox AI Dev Stack](https://github.com/gl0bal01/devbox#readme) | Zero-trust dev environment repository including an AI dev stack installer for Docker-based tools on a VPS. | CLI · Self-hosted | [Website](https://github.com/gl0bal01/devbox#readme) / [Docs](https://github.com/gl0bal01/devbox#readme) / [Repo](https://github.com/gl0bal01/devbox) |
 | [Dify](https://dify.ai) | Open-source LLMOps platform with visual studio for chatbots, workflows, agents, and RAG that supports self-hosted deployment. | API · Web · Hybrid | [Website](https://dify.ai) / [Docs](https://docs.dify.ai) / [Repo](https://github.com/langgenius/dify) |
-| [DrMLlm](https://github.com/Vybhav448/DrMLlm#readme) | Self-hosted, air-gapped MLOps/LLMOps platform for traditional ML and LLMs with observability on private infrastructure. | API · CLI · Framework · Web app · Self-hosted | [Website](https://github.com/Vybhav448/DrMLlm#readme) / [Docs](https://github.com/Vybhav448/DrMLlm#readme) / [Repo](https://github.com/Vybhav448/DrMLlm) |
-| [Harbor CLI Stack](https://github.com/harbor-ai/harbor#readme) | CLI tool that spins up a local LLM stack (Ollama, Open WebUI, others) with a single command using container orchestration. | CLI · Template · Local | [Website](https://github.com/harbor-ai/harbor#readme) / [Docs](https://github.com/harbor-ai/harbor#readme) / [Repo](https://github.com/harbor-ai/harbor) |
-| [Jan Server](https://jan.ai) | Self-hosted agentic AI platform powered by local models with Docker Compose-based infrastructure files. | API · CLI · Framework · Web app · Self-hosted | [Website](https://jan.ai) / [Docs](https://github.com/janhq/server#readme) / [Repo](https://github.com/janhq/server) |
 | [Langfuse](https://langfuse.com/docs) | Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations. | API · Web · Hybrid | [Website](https://langfuse.com/docs) / [Docs](https://langfuse.com/docs) / [Repo](https://github.com/langfuse/langfuse) |
-| [Local AI ML Development Stack (Rene Zander)](https://renezander.com/blog/docker-compose-ai-development-stack/) | Comprehensive Docker Compose AI dev stack with Ollama, Qdrant, Postgres, Redis, LiteLLM, n8n, Prometheus, and Grafana. | CLI · Template · Self-hosted | [Website](https://renezander.com/blog/docker-compose-ai-development-stack/) |
 | [Local LLM Docker (mythrantic)](https://github.com/mythrantic/ollama-docker#readme) | Docker Compose setup for running Ollama and a web UI in containers with GPU optional. | Web · Self-hosted | [Website](https://github.com/mythrantic/ollama-docker#readme) / [Docs](https://github.com/mythrantic/ollama-docker#readme) / [Repo](https://github.com/mythrantic/ollama-docker) |
-| [Local LLM Stack (dalekurt)](https://github.com/dalekurt/local-llm-stack#readme) | Docker Compose environment for local LLM development with AnythingLLM, Flowise, Open WebUI, n8n, Qdrant, and Ollama. | CLI · Template · Web app · Self-hosted | [Website](https://github.com/dalekurt/local-llm-stack#readme) / [Docs](https://github.com/dalekurt/local-llm-stack#readme) / [Repo](https://github.com/dalekurt/local-llm-stack) |
-| [Local LLM Stack (Windows + NVIDIA)](https://gist.github.com/fuzboxz/a338e1966888d40f0e5e37c36f50a758) | Docker Compose-based local LLM stack for Windows with Ollama, Open WebUI, Caddy, and Watchtower. | CLI · Template · Web app · Local | [Website](https://gist.github.com/fuzboxz/a338e1966888d40f0e5e37c36f50a758) |
 | [Nosia](https://nosia.ai) | Self-hosted RAG platform with OpenAI-compatible API, Docker Compose deployment, and web UI for chat over private documents. | API · CLI · Web · Self-hosted | [Website](https://nosia.ai) / [Docs](https://nosia.ai/readme/) |
 | [Nosia Installer Stack](https://get.nosia.ai) | Scripted Docker Compose stack that installs Nosia plus dependencies for self-hosted RAG and chat on local infrastructure. | CLI · Web · Self-hosted | [Website](https://get.nosia.ai) / [Docs](https://nosia.ai/readme/) |
-| [Ollama + Open WebUI Stack](https://localaimaster.com/blog/ollama-open-webui-docker-setup) | Docker Compose example bundling Ollama and Open WebUI into a self-hosted ChatGPT-like environment. | Template · Web app · Self-hosted | [Website](https://localaimaster.com/blog/ollama-open-webui-docker-setup) / [Docs](https://docs.openwebui.com/getting-started/quick-start/) |
 | [Onyx](https://onyx.dotenv.dev) | Open-source self-hostable AI platform offering chat UI with agents, RAG, MCP tools, and multi-provider model support. | API · MCP · Web · Self-hosted | [Website](https://onyx.dotenv.dev) / [Docs](https://github.com/onyx-dot-app/onyx#readme) / [Repo](https://github.com/onyx-dot-app/onyx) |
 | [Open WebUI Platform](https://openwebui.com) | Self-hosted AI platform and UI that supports Ollama and OpenAI-compatible APIs and can run entirely offline. | API · Web · Self-hosted | [Website](https://openwebui.com) / [Docs](https://docs.openwebui.com) / [Repo](https://github.com/open-webui/open-webui) |
 | [OpenRAG](https://github.com/langflow-ai/openrag) | Open-source RAG stack combining Langflow, Docling, and OpenSearch with single-command Docker Compose deployment. | API · Web · Self-hosted | [Website](https://github.com/langflow-ai/openrag) / [Docs](https://github.com/langflow-ai/openrag#readme) / [Repo](https://github.com/langflow-ai/openrag) |
 | [Paddler](https://github.com/intentee/paddler#readme) | Open-source LLMOps platform for hosting and scaling AI models in your own infrastructure. | API · CLI · Web · Self-hosted | [Website](https://github.com/intentee/paddler#readme) / [Docs](https://github.com/intentee/paddler#readme) / [Repo](https://github.com/intentee/paddler) |
 | [Pleng](https://pleng.dev) | Self-hosted AI platform engineer that installs a Docker-based PaaS with AI agents and automation on your own cloud. | CLI · Web · Self-hosted | [Website](https://pleng.dev) / [Docs](https://github.com/mutonby/pleng#readme) / [Repo](https://github.com/mutonby/pleng) |
-| [RAG Containers](https://github.com/plaggy/rag-containers#readme) | Ready-to-use containerized RAG system with TEI embeddings, LanceDB or Qdrant, and Gradio UI via Docker Compose. | CLI · Template · Web app · Self-hosted | [Website](https://github.com/plaggy/rag-containers#readme) / [Docs](https://github.com/plaggy/rag-containers#readme) / [Repo](https://github.com/plaggy/rag-containers) |
 | [Redis + Ollama RAG Stack](https://github.com/TtheBC01/redis-ollama-RAG#readme) | Docker-based stack using RedisVL, Ollama, FastAPI, and RQ worker to build a local RAG pipeline. | API · CLI · Self-hosted | [Website](https://github.com/TtheBC01/redis-ollama-RAG#readme) / [Docs](https://github.com/TtheBC01/redis-ollama-RAG#readme) / [Repo](https://github.com/TtheBC01/redis-ollama-RAG) |
 | [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE · Web · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) / [Repo](https://github.com/smallcloudai/refact-vscode) |
 | [Scalable Agentic RAG Platform (FareedKhan-dev)](https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme) | Production-grade agentic RAG platform with Kubernetes, Ray, LangGraph, and multi-plane architecture. | CLI · Self-hosted | [Website](https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme) / [Docs](https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme) / [Repo](https://github.com/FareedKhan-dev/scalable-rag-pipeline) |
@@ -415,10 +502,36 @@ AI tools that create, improve, or maintain automated tests.
 - 2026-05-08: [Agent Powerups](https://github.com/yeaight7/agent-powerups)
 - 2026-05-08: [Agent-E](https://github.com/EmergenceAI/Agent-E)
 - 2026-05-08: [Agent-WebVoyager](https://github.com/mrmoxon/Agent-WebVoyager)
-- 2026-05-08: [AI-Agent (Browser-Use WebUI)](https://github.com/kiranimmadi2/AI-Agent)
 - 2026-05-08: [Amazon CloudWatch GenAI Observability](https://aws.amazon.com/cloudwatch/)
 - 2026-05-08: [Anchor Browser](https://anchorbrowser.io)
 - 2026-05-08: [AnythingLLM](https://useanything.com)
+- 2026-05-08: [Arize AX](https://arize.com/ai-agents/agent-observability/)
+
+## Needs review
+
+Draft entries stay out of the main shelves until their metadata and sources are reviewed.
+
+| Tool | Suggested shelf | Review note | Links |
+| --- | --- | --- | --- |
+| [AI-Agent (Browser-Use WebUI)](https://github.com/kiranimmadi2/AI-Agent) | Browser agents | Draft: needs-human-review. | [Website](https://github.com/kiranimmadi2/AI-Agent) / [Docs](https://github.com/kiranimmadi2/AI-Agent) / [Repo](https://github.com/kiranimmadi2/AI-Agent) |
+| [Awesome Codex Skills](https://github.com/ComposioHQ/awesome-codex-skills) | Agent skill packs | Repo exists but has no license file; verify before promoting. | [Website](https://github.com/ComposioHQ/awesome-codex-skills) / [Repo](https://github.com/ComposioHQ/awesome-codex-skills) |
+| [Cline Prompts](https://github.com/cline/prompts) | Agent skill packs | Repo exists but has no license file; verify before promoting. | [Website](https://github.com/cline/prompts) / [Repo](https://github.com/cline/prompts) |
+| [Datadog LLM Observability](https://www.datadoghq.com/product/ai/llm-observability/) | Agent observability | Repo exists but has no license file; verify before promoting. | [Website](https://www.datadoghq.com/product/ai/llm-observability/) / [Docs](https://docs.datadoghq.com/tracing/llm_observability/) / [Repo](https://github.com/DataDog/llm-observability) |
+| [DrMLlm](https://github.com/Vybhav448/DrMLlm#readme) | Self-hosted AI dev stacks | Obscure/personal repo; verify tool quality and metadata. | [Website](https://github.com/Vybhav448/DrMLlm#readme) / [Docs](https://github.com/Vybhav448/DrMLlm#readme) / [Repo](https://github.com/Vybhav448/DrMLlm) |
+| [Harbor CLI Stack](https://github.com/harbor-ai/harbor#readme) | Self-hosted AI dev stacks | GitHub repo harbor-ai/harbor returns 404; verify correct repo URL. | [Website](https://github.com/harbor-ai/harbor#readme) / [Docs](https://github.com/harbor-ai/harbor#readme) / [Repo](https://github.com/harbor-ai/harbor) |
+| [Jan Server](https://jan.ai) | Self-hosted AI dev stacks | GitHub repo janhq/server returns 404; verify correct repo URL. | [Website](https://jan.ai) / [Docs](https://github.com/janhq/server#readme) / [Repo](https://github.com/janhq/server) |
+| [Local AI ML Development Stack (Rene Zander)](https://renezander.com/blog/docker-compose-ai-development-stack/) | Self-hosted AI dev stacks | Blog post entry; low quality signal — consider removing. | [Website](https://renezander.com/blog/docker-compose-ai-development-stack/) |
+| [Local LLM Stack (dalekurt)](https://github.com/dalekurt/local-llm-stack#readme) | Self-hosted AI dev stacks | Repo exists but has no license file; verify before promoting. | [Website](https://github.com/dalekurt/local-llm-stack#readme) / [Docs](https://github.com/dalekurt/local-llm-stack#readme) / [Repo](https://github.com/dalekurt/local-llm-stack) |
+| [Local LLM Stack (Windows + NVIDIA)](https://gist.github.com/fuzboxz/a338e1966888d40f0e5e37c36f50a758) | Self-hosted AI dev stacks | GitHub Gist entry; low quality signal — consider removing. | [Website](https://gist.github.com/fuzboxz/a338e1966888d40f0e5e37c36f50a758) |
+| [Lunary](https://lunary.ai) | Agent observability | GitHub repo lunary-ai/lunary returns 404; verify correct repo URL. | [Website](https://lunary.ai) / [Docs](https://docs.lunary.ai) / [Repo](https://github.com/lunary-ai/lunary) |
+| [Okahu](https://www.okahu.ai) | Agent observability | GitHub repo okahu-demos is an org, not a specific repo; verify URL. | [Website](https://www.okahu.ai) / [Docs](https://docs.okahu.ai) / [Repo](https://github.com/okahu-demos) |
+| [Ollama + Open WebUI Stack](https://localaimaster.com/blog/ollama-open-webui-docker-setup) | Self-hosted AI dev stacks | Tutorial blog entry; low quality signal — consider removing. | [Website](https://localaimaster.com/blog/ollama-open-webui-docker-setup) / [Docs](https://docs.openwebui.com/getting-started/quick-start/) |
+| [OpenWebAgent](https://github.com/THUDM/OpenWebAgent) | Browser agents | Draft: needs-human-review. | [Website](https://github.com/THUDM/OpenWebAgent) / [Docs](https://github.com/THUDM/OpenWebAgent) / [Repo](https://github.com/THUDM/OpenWebAgent) |
+| [RAG Containers](https://github.com/plaggy/rag-containers#readme) | Self-hosted AI dev stacks | Repo exists but has no license file; verify before promoting. | [Website](https://github.com/plaggy/rag-containers#readme) / [Docs](https://github.com/plaggy/rag-containers#readme) / [Repo](https://github.com/plaggy/rag-containers) |
+| [Untrace](https://untrace.dev) | Agent observability | GitHub repo untrace-dev/untrace-sdk returns 404; verify correct repo URL. | [Website](https://untrace.dev) / [Docs](https://untrace.dev/docs) / [Repo](https://github.com/untrace-dev/untrace-sdk) |
+| [VS Code Browser Agent Tools](https://code.visualstudio.com) | Browser agents | Draft: needs-human-review. | [Website](https://code.visualstudio.com) / [Docs](https://code.visualstudio.com/docs/copilot/guides/browser-agent-testing-guide) |
+| [Web Browser MCP Server](https://mcpmarket.com/server/web-browser-1) | Browser agents | Draft: needs-human-review. | [Website](https://mcpmarket.com/server/web-browser-1) / [Docs](https://mcpmarket.com/server/web-browser-1) |
+| [web-voyager](https://github.com/ElianBelot/web-voyager) | Browser agents | Draft: needs-human-review. | [Website](https://github.com/ElianBelot/web-voyager) / [Docs](https://github.com/ElianBelot/web-voyager) / [Repo](https://github.com/ElianBelot/web-voyager) |
 
 ## Submit a tool
 
@@ -435,7 +548,8 @@ Use official sources, keep descriptions factual, and leave uncertain metadata as
 ## Roadmap
 
 - Keep the metadata schema small and strict.
-- Add contribution-friendly seed coverage category by category.
-- Build generated filters and richer comparison views after the data model settles.
-- Design a future importer after the schema, validator, and generator have real usage.
+- Review and promote imported draft entries category by category.
+- Add generated comparison matrices and filter-friendly views.
+- Expand thin shelves such as evals, MCP tooling, docs, and tests.
+- Add stale-entry checks for metadata freshness.
 
