@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>200 tools</code> <code>181 reviewed</code> <code>19 draft</code> <code>16 active reviewed shelves</code></p>
+<p align="center"><code>201 tools</code> <code>182 reviewed</code> <code>19 draft</code> <code>16 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -74,7 +74,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (15) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (1) · [Agent skill packs](#agent-skill-packs) (29)
+[MCP servers](#mcp-servers) (15) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (1) · [Agent skill packs](#agent-skill-packs) (30)
 
 ### Operate agents
 
@@ -122,6 +122,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 | [LocalAI](https://localai.io) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://localai.io) / [Docs](https://localai.io/docs) / [Repo](https://github.com/go-skynet/LocalAI) |
 | [vLLM](https://vllm.ai) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Website](https://vllm.ai) / [Docs](https://docs.vllm.ai/en/stable/serving/openai_compatible_server.html) / [Repo](https://github.com/vllm-project/vllm) |
 | [Athenaeum](https://github.com/herakles-dev/athenaeum#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | Yes | [Website](https://github.com/herakles-dev/athenaeum#readme) / [Docs](https://github.com/herakles-dev/athenaeum#readme) / [Repo](https://github.com/herakles-dev/athenaeum) |
+| [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) | Agent skill packs | Yes | Yes | No | Yes | No | Yes | [Website](https://github.com/affaan-m/everything-claude-code) / [Docs](https://github.com/affaan-m/everything-claude-code#readme) / [Repo](https://github.com/affaan-m/everything-claude-code) |
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Website](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
 | [Goose](https://goose-docs.ai/) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Website](https://goose-docs.ai/) / [Docs](https://goose-docs.ai/docs/quickstart/) / [Repo](https://github.com/aaif-goose/goose) |
 | [KoboldCpp](https://koboldcpp.com) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://koboldcpp.com) / [Docs](https://github.com/LostRuins/koboldcpp/wiki) / [Repo](https://github.com/LostRuins/koboldcpp) |
@@ -141,7 +142,6 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 | [ArXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server) | MCP servers | Yes | Yes | No | No | No | Yes | [Website](https://github.com/blazickjp/arxiv-mcp-server) / [Repo](https://github.com/blazickjp/arxiv-mcp-server) |
 | [Astronomer Agents](https://github.com/astronomer/agents) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Website](https://github.com/astronomer/agents) / [Repo](https://github.com/astronomer/agents) |
 | [Azure DevOps Skills](https://github.com/microsoft/azure-devops-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Website](https://github.com/microsoft/azure-devops-skills) / [Repo](https://github.com/microsoft/azure-devops-skills) |
-| [Charlotte MCP Server](https://vibehackers.io/mcp/charlotte) | Browser agents | Yes | No | Yes | No | No | Yes | [Website](https://vibehackers.io/mcp/charlotte) / [Docs](https://vibehackers.io/mcp/charlotte) / [Repo](https://github.com/TickTockBent/charlotte) |
 
 ## Browse The Shelves
 
@@ -299,7 +299,7 @@ Reusable instruction, workflow, or capability packs for coding agents.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
-| [Agent Powerups](https://github.com/yeaight7/agent-powerups) | Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents. | CLI · MCP | [Website](https://github.com/yeaight7/agent-powerups) / [Repo](https://github.com/yeaight7/agent-powerups) |
+| [Agent Powerups](https://github.com/yeaight7/agent-powerups) | Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents. | CLI · Local · MCP | [Website](https://github.com/yeaight7/agent-powerups) / [Repo](https://github.com/yeaight7/agent-powerups) |
 | [Agent Skills](https://github.com/datalayer/agent-skills) | Python package to create, manage, and execute reusable code-based tool compositions for AI agents with MCP integration. | MCP · Local | [Website](https://github.com/datalayer/agent-skills) / [Repo](https://github.com/datalayer/agent-skills) |
 | [Agent Skills Specification](https://github.com/agentskills/agentskills) | Open specification and documentation for Agent Skills format maintained by Anthropic with reference SDK and examples. | Framework · Skill Pack | [Website](https://github.com/agentskills/agentskills) / [Repo](https://github.com/agentskills/agentskills) |
 | [AgentSkills MCP](https://github.com/zouyingcao/agentskills-mcp) | MCP server that brings Anthropic Agent Skills to any MCP-compatible agent with progressive disclosure architecture. | MCP · Local | [Website](https://github.com/zouyingcao/agentskills-mcp) / [Repo](https://github.com/zouyingcao/agentskills-mcp) |
@@ -318,6 +318,7 @@ Reusable instruction, workflow, or capability packs for coding agents.
 | [Custom Modes for Roo Code](https://github.com/jtgsystems/Custom-Modes-Roo-Code) | Collection of 171 specialized AI agent configurations for Roo Code across 9 categories with security-first principles. | Skill Pack · Template · Local | [Website](https://github.com/jtgsystems/Custom-Modes-Roo-Code) / [Repo](https://github.com/jtgsystems/Custom-Modes-Roo-Code) |
 | [dbt Agent Skills](https://github.com/dbt-labs/dbt-agent-skills) | Curated Agent Skills for working with dbt to help AI agents understand and execute analytics engineering workflows. | Skill Pack · Local | [Website](https://github.com/dbt-labs/dbt-agent-skills) / [Repo](https://github.com/dbt-labs/dbt-agent-skills) |
 | [dotskills](https://github.com/vincentkoc/dotskills) | Personal .skills repository for Codex, Cursor, and OpenClaw with reusable skill units bundling prompts, scripts, and validation workflows. | Skill Pack · Template · Local | [Website](https://github.com/vincentkoc/dotskills) / [Repo](https://github.com/vincentkoc/dotskills) |
+| [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) | Agent harness performance system with skills, hooks, MCP configs, memory optimization, and cross-harness workflows. | CLI · MCP · Local | [Website](https://github.com/affaan-m/everything-claude-code) / [Docs](https://github.com/affaan-m/everything-claude-code#readme) / [Repo](https://github.com/affaan-m/everything-claude-code) |
 | [helderberto/skills](https://github.com/helderberto/skills) | Reusable AI agent skills for development workflows including code review, refactoring, TDD, security audit, and git automation. | Skill Pack · Local | [Website](https://github.com/helderberto/skills) / [Repo](https://github.com/helderberto/skills) |
 | [Invariant Testing](https://github.com/invariantlabs-ai/testing) | Lightweight library for writing debuggable unit tests for AI agent applications with localized assertions. | Library · Skill Pack · Local | [Website](https://github.com/invariantlabs-ai/testing) / [Repo](https://github.com/invariantlabs-ai/testing) |
 | [Microsoft Skills](https://github.com/microsoft/skills) | Skills, custom agents, AGENTS.md templates, and MCP configurations for AI coding agents working with Azure SDKs and Microsoft AI Foundry. | MCP · Local | [Website](https://github.com/microsoft/skills) / [Repo](https://github.com/microsoft/skills) |
