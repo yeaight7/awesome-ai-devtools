@@ -454,3 +454,64 @@ test("renderLinks suppresses duplicate website link when trailing slashes differ
   assert.match(readme, /Slash Normalization Tool.*\[Repo\]/);
   assert.doesNotMatch(readme, /Slash Normalization Tool.*\[Website\].*\[Repo\]/);
 });
+
+test("renderLinks returns non-empty Docs link when website_url equals docs_url and there is no repo", () => {
+  const websiteDocsCatalog: CatalogData = {
+    ...sampleCatalog,
+    tools: [
+      {
+        ...sampleCatalog.tools[0],
+        slug: "docs-only",
+        name: "Docs Only Tool With Sufficient Name Length For Test",
+        website_url: "https://docs.example.com",
+        repo_url: undefined,
+        docs_url: "https://docs.example.com"
+      }
+    ]
+  };
+
+  const readme = buildReadme(websiteDocsCatalog);
+  // Must not be an empty links cell
+  assert.match(readme, /Docs Only Tool.*\[Docs\]/);
+  assert.doesNotMatch(readme, /Docs Only Tool.*\[Website\].*\[Docs\]/);
+});
+
+test("renderLinks shows Docs and Repo when website_url equals docs_url and repo is distinct", () => {
+  const websiteDocsRepoCatalog: CatalogData = {
+    ...sampleCatalog,
+    tools: [
+      {
+        ...sampleCatalog.tools[0],
+        slug: "docs-repo",
+        name: "Docs Repo Tool With Sufficient Name Length For Test",
+        website_url: "https://docs.example.com",
+        repo_url: "https://github.com/example/docs-repo",
+        docs_url: "https://docs.example.com"
+      }
+    ]
+  };
+
+  const readme = buildReadme(websiteDocsRepoCatalog);
+  // Docs + Repo, no duplicate Website
+  assert.match(readme, /Docs Repo Tool.*\[Docs\].*\[Repo\]/);
+  assert.doesNotMatch(readme, /Docs Repo Tool.*\[Website\]/);
+});
+
+test("renderLinks shows Website, Docs, and Repo when all three URLs are distinct", () => {
+  const allDistinctCatalog: CatalogData = {
+    ...sampleCatalog,
+    tools: [
+      {
+        ...sampleCatalog.tools[0],
+        slug: "all-distinct",
+        name: "All Distinct Links Tool With Sufficient Name Length",
+        website_url: "https://alltool.example.com",
+        repo_url: "https://github.com/example/all-distinct",
+        docs_url: "https://docs.alltool.example.com"
+      }
+    ]
+  };
+
+  const readme = buildReadme(allDistinctCatalog);
+  assert.match(readme, /All Distinct Links Tool.*\[Website\].*\[Docs\].*\[Repo\]/);
+});
