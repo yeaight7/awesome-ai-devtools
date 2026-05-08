@@ -1,6 +1,9 @@
 - slug: agent
   name: Agent
   description: Uses agentic workflows beyond single-turn completion.
+- slug: agent-evals
+  name: Agent Evals
+  description: Frameworks and tools for evaluating agent behavior and performance.
 - slug: agent-skills
   name: Agent skills
   description: Reusable skill packs, instructions, or workflows for coding agents.
@@ -10,27 +13,48 @@
 - slug: agents
   name: Agents
   description: Supports building or running AI agents.
+- slug: ai-search
+  name: AI Search
+  description: AI-powered search and retrieval over codebases, docs, or knowledge bases.
 - slug: api
   name: API
   description: Provides an API for integration.
+- slug: api-docs
+  name: API Docs
+  description: Tools for generating or managing API reference documentation.
 - slug: automation
   name: Automation
   description: Automates developer workflows or repetitive tasks.
+- slug: benchmarking
+  name: Benchmarking
+  description: Standardized benchmarks and harnesses for measuring LLM or agent quality.
 - slug: browser-agents
   name: Browser agents
   description: AI agents that control or automate web browsers.
 - slug: browser-automation
   name: Browser automation
   description: Can inspect, drive, or test browser behavior.
+- slug: changelog
+  name: Changelog
+  description: Automated changelog generation from commits, tags, or PRs.
+- slug: ci
+  name: CI
+  description: Continuous integration tooling, pipelines, and automation.
 - slug: cli
   name: CLI
   description: Provides a command-line interface.
+- slug: client-management
+  name: Client Management
+  description: Tools for managing MCP client connections and sessions.
 - slug: cloud
   name: Cloud
   description: Provides hosted or cloud-managed functionality.
 - slug: code-review
   name: Code review
   description: Supports review of code changes or pull requests.
+- slug: codebase-docs
+  name: Codebase Docs
+  description: Tools for generating documentation directly from source code.
 - slug: coding
   name: Coding
   description: Helps with writing, editing, or generating code.
@@ -55,9 +79,15 @@
 - slug: debugging
   name: Debugging
   description: Helps identify and fix bugs in code or agent behavior.
+- slug: dependency-updates
+  name: Dependency Updates
+  description: Automated dependency upgrades and security patch PRs.
 - slug: desktop-app
   name: Desktop app
   description: Distributed as a native desktop application.
+- slug: developer-experience
+  name: Developer Experience
+  description: Tools that improve the day-to-day experience of software developers.
 - slug: devops
   name: DevOps
   description: Supports DevOps workflows, CI/CD, or infrastructure tasks.
@@ -67,6 +97,9 @@
 - slug: docker
   name: Docker
   description: Uses Docker or container-based deployment.
+- slug: docs-as-code
+  name: Docs as Code
+  description: Treating documentation as versioned source code with tooling support.
 - slug: documentation
   name: Documentation
   description: Generates or manages code documentation.
@@ -100,6 +133,9 @@
 - slug: inference
   name: Inference
   description: Runs or serves LLM inference.
+- slug: issues
+  name: Issues
+  description: Tools for managing, triaging, or automating GitHub/GitLab issues.
 - slug: jetbrains
   name: JetBrains
   description: Supports JetBrains IDE workflows.
@@ -112,6 +148,9 @@
 - slug: llm-apps
   name: LLM apps
   description: Targets LLM application development and operations.
+- slug: llm-evals
+  name: LLM Evals
+  description: Evaluation harnesses and metrics for language model outputs.
 - slug: llmops
   name: LLMOps
   description: Supports LLM operations, deployment, and lifecycle management.
@@ -124,9 +163,18 @@
 - slug: low-code
   name: Low-code
   description: Offers a low-code or no-code interface for AI workflows.
+- slug: markdown
+  name: Markdown
+  description: Tools producing or processing Markdown documentation.
 - slug: mcp
   name: MCP
   description: Supports Model Context Protocol workflows.
+- slug: mdx
+  name: MDX
+  description: Tools working with MDX (Markdown + JSX) documentation.
+- slug: model-context-protocol
+  name: Model Context Protocol
+  description: Tools that implement, extend, or interact with the MCP specification.
 - slug: model-serving
   name: Model serving
   description: Serves or hosts LLM models for inference.
@@ -160,15 +208,51 @@
 - slug: prompt-management
   name: Prompt management
   description: Manages, versions, or experiments with prompts.
+- slug: prompts
+  name: Prompts
+  description: Prompt libraries, templates, and management tools for LLMs.
+- slug: proxy
+  name: Proxy
+  description: Proxy or gateway layer for routing requests to AI models or services.
+- slug: publishing
+  name: Publishing
+  description: Tools for packaging and publishing software artifacts or packages.
+- slug: pull-requests
+  name: Pull Requests
+  description: Automation and tooling around pull request creation, review, and merging.
 - slug: quantization
   name: Quantization
   description: Supports or specializes in model quantization for efficiency.
 - slug: rag
   name: RAG
   description: Supports retrieval-augmented generation workflows.
+- slug: red-teaming
+  name: Red Teaming
+  description: Adversarial testing tools for finding LLM vulnerabilities and failure modes.
+- slug: registry
+  name: Registry
+  description: Registries and directories for discovering or distributing tools and servers.
+- slug: regression-testing
+  name: Regression Testing
+  description: Tools for detecting regressions in LLM or agent behavior over time.
+- slug: release-management
+  name: Release Management
+  description: Tooling for versioning, tagging, and releasing software.
+- slug: repo-analysis
+  name: Repo Analysis
+  description: Tools that analyze repository structure, code, or history.
+- slug: repo-automation
+  name: Repo Automation
+  description: Automation of repetitive repository maintenance tasks.
 - slug: repo-editing
   name: Repo editing
   description: Can read and modify files in a code repository.
+- slug: safety
+  name: Safety
+  description: Tools for evaluating and enforcing LLM safety, alignment, and guardrails.
+- slug: sdk
+  name: SDK
+  description: Software development kits for building applications on a platform or protocol.
 - slug: security
   name: Security
   description: Addresses security review, scanning, or hardening workflows.
@@ -178,6 +262,9 @@
 - slug: server
   name: Server
   description: Runs as a background server or service.
+- slug: server-management
+  name: Server Management
+  description: Tools for managing MCP or AI server deployments and lifecycle.
 - slug: terminal
   name: Terminal
   description: Used from terminal-based workflows.
@@ -193,6 +280,12 @@
 - slug: tracing
   name: Tracing
   description: Traces LLM calls, agent steps, or spans.
+- slug: triage
+  name: Triage
+  description: Tools for triaging and prioritizing issues, bugs, or review queues.
+- slug: validation
+  name: Validation
+  description: Schema, data, or output validation utilities for AI workflows.
 - slug: vector-database
   name: Vector database
   description: Integrates with a vector store or embedding database.
