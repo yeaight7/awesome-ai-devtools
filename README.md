@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>247 tools</code> <code>182 reviewed</code> <code>65 draft</code> <code>16 active reviewed shelves</code></p>
+<p align="center"><code>248 tools</code> <code>183 reviewed</code> <code>65 draft</code> <code>17 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -86,7 +86,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Automate repo work
 
-[Repo automation tools](#repo-automation-tools) (9) · [AI code review tools](#ai-code-review-tools) (10) · [Documentation agents](#documentation-agents) (1) · [Test generation agents](#test-generation-agents) (4)
+[Repo automation tools](#repo-automation-tools) (10) · [AI code review tools](#ai-code-review-tools) (10) · [Documentation agents](#documentation-agents) (1) · [Test generation agents](#test-generation-agents) (4)
 
 ## Comparison Matrix
 
@@ -456,6 +456,7 @@ AI tools that automate repository checks, changes, pull requests, or maintenance
 | [Bito AI Code Review Agent](https://bito.ai/product/ai-code-review-agent/) | Repository review agent for GitHub, GitLab, and Bitbucket pull or merge request workflows. | GitHub app · Hosted | [Website](https://bito.ai/product/ai-code-review-agent/) / [Docs](https://docs.bito.ai/ai-code-reviews-in-git/install-run-using-bito-cloud/guide-for-github) |
 | [CodeRabbit](https://coderabbit.ai/) | AI code review agent for pull requests, local IDE review, and terminal-based review workflows. | CLI · GitHub app · IDE · Hybrid | [Website](https://coderabbit.ai/) / [Docs](https://docs.coderabbit.ai/) |
 | [Continue](https://docs.continue.dev/) | Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows. | CLI · IDE · Hybrid | [Website](https://docs.continue.dev/) / [Docs](https://docs.continue.dev/) / [Repo](https://github.com/continuedev/continue) |
+| [dbt-semguard](https://github.com/yeaight7/dbt-semguard) | CLI and GitHub Action that detects breaking or risky semantic changes in dbt metrics before production. | CLI · Hybrid | [Website](https://github.com/yeaight7/dbt-semguard) / [Docs](https://github.com/yeaight7/dbt-semguard#readme) / [Repo](https://github.com/yeaight7/dbt-semguard) |
 | [Factory Droid](https://factory.ai/) | Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows. | API · CLI · Desktop · Hybrid | [Website](https://factory.ai/) / [Docs](https://docs.factory.ai/welcome) |
 | [Gemini Code Assist](https://developers.google.com/gemini-code-assist) | Google's coding assistant for IDEs and GitHub with agent mode, PR summaries, and code review. | GitHub app · IDE · Hosted | [Website](https://developers.google.com/gemini-code-assist) / [Docs](https://developers.google.com/gemini-code-assist/docs/overview) |
 | [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop · GitHub app · IDE · MCP · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
@@ -477,6 +478,14 @@ AI-assisted tools for reviewing changes, pull requests, and code quality.
 | [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
 | [Qodo](https://www.qodo.ai/) | Code review and IDE assistant product focused on reviewing diffs, tests, and repository context. | GitHub app · IDE · Hosted | [Website](https://www.qodo.ai/) / [Docs](https://docs.qodo.ai/) |
 | [Sweep](https://sweep.dev/) | JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration. | IDE · Hybrid | [Website](https://sweep.dev/) / [Docs](https://docs.sweep.dev/) / [Repo](https://github.com/sweepai/sweep) |
+
+### Data and ML coding assistants
+
+AI coding tools focused on data, notebooks, machine learning, or analytics workflows.
+
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [dbt-semguard](https://github.com/yeaight7/dbt-semguard) | CLI and GitHub Action that detects breaking or risky semantic changes in dbt metrics before production. | CLI · Hybrid | [Website](https://github.com/yeaight7/dbt-semguard) / [Docs](https://github.com/yeaight7/dbt-semguard#readme) / [Repo](https://github.com/yeaight7/dbt-semguard) |
 
 ### Documentation agents
 
