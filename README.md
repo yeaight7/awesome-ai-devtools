@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>119 tools</code> <code>16 active shelves</code> <code>metadata-first</code> <code>generated README</code></p>
+<p align="center"><code>146 tools</code> <code>16 active shelves</code> <code>metadata-first</code> <code>generated README</code></p>
 
 ## Why this exists
 
@@ -30,7 +30,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 | [Agent skill packs](#agent-skill-packs) | Reusable instruction, workflow, or capability packs for coding agents. | 31 |
 | [Agent observability](#agent-observability) | Tools for tracing, monitoring, and debugging agent or LLM application behavior. | 40 |
 | [Agent evals](#agent-evals) | Evaluation frameworks and systems for agents, LLM apps, and developer workflows. | 1 |
-| [Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) | Self-hostable platforms and infrastructure for AI developer workflows. | 3 |
+| [Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) | Self-hostable platforms and infrastructure for AI developer workflows. | 30 |
 | [Local LLM developer tools](#local-llm-developer-tools) | Tools that help developers run or integrate local models in coding workflows. | 1 |
 | [Repo automation tools](#repo-automation-tools) | AI tools that automate repository checks, changes, pull requests, or maintenance. | 9 |
 | [AI code review tools](#ai-code-review-tools) | AI-assisted tools for reviewing changes, pull requests, and code quality. | 10 |
@@ -264,9 +264,36 @@ Self-hostable platforms and infrastructure for AI developer workflows.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
+| [AnythingLLM](https://useanything.com) | Self-hosted RAG and agent platform with no-code agent builder and Docker Compose deployment options.\[web:210\] | API · CLI · Template · Web app · Hybrid | [Website](https://useanything.com) / [Docs](https://docs.useanything.com) / [Repo](https://github.com/Mintplex-Labs/anything-llm) |
+| [Athenaeum](https://github.com/herakles-dev/athenaeum#readme) | Self-hosted semantic library platform with embeddings, chat UI, pgvector, and MCP server support.\[web:222\] | API · Mcp Server · Template · Web app · Self-hosted | [Website](https://github.com/herakles-dev/athenaeum#readme) / [Docs](https://github.com/herakles-dev/athenaeum#readme) / [Repo](https://github.com/herakles-dev/athenaeum) |
+| [Clawix AI Platform](https://github.com/ClawixAI/clawix#readme) | Open-source, self-hosted multi-agent AI orchestration platform running agents in isolated Docker containers.\[web:243\] | CLI · Framework · Web app · Self-hosted | [Website](https://github.com/ClawixAI/clawix#readme) / [Docs](https://github.com/ClawixAI/clawix#readme) / [Repo](https://github.com/ClawixAI/clawix) |
+| [DevBox AI Dev Stack](https://github.com/gl0bal01/devbox#readme) | Zero-trust dev environment repository including an AI dev stack installer for Docker-based tools on a VPS.\[web:205\] | CLI · Template · Self-hosted | [Website](https://github.com/gl0bal01/devbox#readme) / [Docs](https://github.com/gl0bal01/devbox#readme) / [Repo](https://github.com/gl0bal01/devbox) |
+| [Dify](https://dify.ai) | Open-source LLMOps platform with visual studio for chatbots, workflows, agents, and RAG that supports self-hosted deployment.\[web:233\] | API · Framework · Template · Web app · Hybrid | [Website](https://dify.ai) / [Docs](https://docs.dify.ai) / [Repo](https://github.com/langgenius/dify) |
+| [DrMLlm](https://github.com/Vybhav448/DrMLlm#readme) | Self-hosted, air-gapped MLOps/LLMOps platform for traditional ML and LLMs with observability on private infrastructure.\[web:225\] | API · CLI · Framework · Web app · Self-hosted | [Website](https://github.com/Vybhav448/DrMLlm#readme) / [Docs](https://github.com/Vybhav448/DrMLlm#readme) / [Repo](https://github.com/Vybhav448/DrMLlm) |
+| [Harbor CLI Stack](https://github.com/harbor-ai/harbor#readme) | CLI tool that spins up a local LLM stack (Ollama, Open WebUI, others) with a single command using container orchestration.\[web:241\] | CLI · Template · Local | [Website](https://github.com/harbor-ai/harbor#readme) / [Docs](https://github.com/harbor-ai/harbor#readme) / [Repo](https://github.com/harbor-ai/harbor) |
+| [Jan Server](https://jan.ai) | Self-hosted agentic AI platform powered by local models with Docker Compose-based infrastructure files.\[web:232\] | API · CLI · Framework · Web app · Self-hosted | [Website](https://jan.ai) / [Docs](https://github.com/janhq/server#readme) / [Repo](https://github.com/janhq/server) |
 | [Langfuse](https://langfuse.com/docs) | Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations. | API · Web · Hybrid | [Website](https://langfuse.com/docs) / [Docs](https://langfuse.com/docs) / [Repo](https://github.com/langfuse/langfuse) |
+| [Local AI ML Development Stack (Rene Zander)](https://renezander.com/blog/docker-compose-ai-development-stack/) | Comprehensive Docker Compose AI dev stack with Ollama, Qdrant, Postgres, Redis, LiteLLM, n8n, Prometheus, and Grafana.\[web:238\] | CLI · Template · Self-hosted | [Website](https://renezander.com/blog/docker-compose-ai-development-stack/) |
+| [Local LLM Docker (mythrantic)](https://github.com/mythrantic/ollama-docker#readme) | Docker Compose setup for running Ollama and a web UI in containers with GPU optional.\[web:187\] | Template · Web app · Self-hosted | [Website](https://github.com/mythrantic/ollama-docker#readme) / [Docs](https://github.com/mythrantic/ollama-docker#readme) / [Repo](https://github.com/mythrantic/ollama-docker) |
+| [Local LLM Stack (dalekurt)](https://github.com/dalekurt/local-llm-stack#readme) | Docker Compose environment for local LLM development with AnythingLLM, Flowise, Open WebUI, n8n, Qdrant, and Ollama.\[web:234\] | CLI · Template · Web app · Self-hosted | [Website](https://github.com/dalekurt/local-llm-stack#readme) / [Docs](https://github.com/dalekurt/local-llm-stack#readme) / [Repo](https://github.com/dalekurt/local-llm-stack) |
+| [Local LLM Stack (Windows + NVIDIA)](https://gist.github.com/fuzboxz/a338e1966888d40f0e5e37c36f50a758) | Docker Compose-based local LLM stack for Windows with Ollama, Open WebUI, Caddy, and Watchtower.\[web:235\] | CLI · Template · Web app · Local | [Website](https://gist.github.com/fuzboxz/a338e1966888d40f0e5e37c36f50a758) |
+| [Nosia](https://nosia.ai) | Self-hosted RAG platform with OpenAI-compatible API, Docker Compose deployment, and web UI for chat over private documents.\[web:213\] | API · CLI · Web app · Self-hosted | [Website](https://nosia.ai) / [Docs](https://nosia.ai/readme/) |
+| [Nosia Installer Stack](https://get.nosia.ai) | Scripted Docker Compose stack that installs Nosia plus dependencies for self-hosted RAG and chat on local infrastructure.\[web:213\] | CLI · Template · Web app · Self-hosted | [Website](https://get.nosia.ai) / [Docs](https://nosia.ai/readme/) |
+| [Ollama + Open WebUI Stack](https://localaimaster.com/blog/ollama-open-webui-docker-setup) | Docker Compose example bundling Ollama and Open WebUI into a self-hosted ChatGPT-like environment.\[web:214\]\[web:209\] | Template · Web app · Self-hosted | [Website](https://localaimaster.com/blog/ollama-open-webui-docker-setup) / [Docs](https://docs.openwebui.com/getting-started/quick-start/) |
+| [Onyx](https://onyx.dotenv.dev) | Open-source self-hostable AI platform offering chat UI with agents, RAG, MCP tools, and multi-provider model support.\[web:239\] | API · Mcp Server · Web app · Self-hosted | [Website](https://onyx.dotenv.dev) / [Docs](https://github.com/onyx-dot-app/onyx#readme) / [Repo](https://github.com/onyx-dot-app/onyx) |
+| [Open WebUI Platform](https://openwebui.com) | Self-hosted AI platform and UI that supports Ollama and OpenAI-compatible APIs and can run entirely offline.\[web:217\] | API · Template · Web app · Self-hosted | [Website](https://openwebui.com) / [Docs](https://docs.openwebui.com) / [Repo](https://github.com/open-webui/open-webui) |
+| [OpenRAG](https://github.com/langflow-ai/openrag) | Open-source RAG stack combining Langflow, Docling, and OpenSearch with single-command Docker Compose deployment.\[web:216\] | API · Template · Web app · Self-hosted | [Website](https://github.com/langflow-ai/openrag) / [Docs](https://github.com/langflow-ai/openrag#readme) / [Repo](https://github.com/langflow-ai/openrag) |
+| [Paddler](https://github.com/intentee/paddler#readme) | Open-source LLMOps platform for hosting and scaling AI models in your own infrastructure.\[web:230\] | API · CLI · Framework · Web app · Self-hosted | [Website](https://github.com/intentee/paddler#readme) / [Docs](https://github.com/intentee/paddler#readme) / [Repo](https://github.com/intentee/paddler) |
+| [Pleng](https://pleng.dev) | Self-hosted AI platform engineer that installs a Docker-based PaaS with AI agents and automation on your own cloud.\[web:229\] | CLI · Framework · Template · Web app · Self-hosted | [Website](https://pleng.dev) / [Docs](https://github.com/mutonby/pleng#readme) / [Repo](https://github.com/mutonby/pleng) |
+| [RAG Containers](https://github.com/plaggy/rag-containers#readme) | Ready-to-use containerized RAG system with TEI embeddings, LanceDB or Qdrant, and Gradio UI via Docker Compose.\[web:204\] | CLI · Template · Web app · Self-hosted | [Website](https://github.com/plaggy/rag-containers#readme) / [Docs](https://github.com/plaggy/rag-containers#readme) / [Repo](https://github.com/plaggy/rag-containers) |
+| [Redis + Ollama RAG Stack](https://github.com/TtheBC01/redis-ollama-RAG#readme) | Docker-based stack using RedisVL, Ollama, FastAPI, and RQ worker to build a local RAG pipeline.\[web:196\] | API · CLI · Template · Self-hosted | [Website](https://github.com/TtheBC01/redis-ollama-RAG#readme) / [Docs](https://github.com/TtheBC01/redis-ollama-RAG#readme) / [Repo](https://github.com/TtheBC01/redis-ollama-RAG) |
 | [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE extension · Web app · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) |
+| [Scalable Agentic RAG Platform (FareedKhan-dev)](https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme) | Production-grade agentic RAG platform with Kubernetes, Ray, LangGraph, and multi-plane architecture.\[web:240\] | CLI · Framework · Template · Self-hosted | [Website](https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme) / [Docs](https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme) / [Repo](https://github.com/FareedKhan-dev/scalable-rag-pipeline) |
+| [Self-hosted AI Package](https://sourceforge.net/projects/self-hosted-ai-package.mirror/) | Open-source Docker Compose starter kit bundling Ollama, n8n, Supabase, Open WebUI, Flowise, Neo4j, Langfuse, and related tools.\[web:180\]\[web:206\] | API · Template · Web app · Self-hosted | [Website](https://sourceforge.net/projects/self-hosted-ai-package.mirror/) / [Repo](https://github.com/coleam00/ai-agents-masterclass) |
+| [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Docker Compose-based local AI and low-code stack bundling n8n, Ollama, Qdrant, PostgreSQL, and related services.\[web:192\]\[web:228\] | API · CLI · Template · Web app · Self-hosted | [Website](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
+| [Synaplan AI Platform](https://synaplan.com/solutions/developers) | Open-source, self-hosted AI platform with full stack deployment via Docker Compose and local inference via Ollama.\[web:224\] | API · Template · Web app · Self-hosted | [Website](https://synaplan.com/solutions/developers) / [Docs](https://synaplan.com/docs) |
 | [Tabby](https://www.tabbyml.com/) | Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development. | API · IDE extension · Self-hosted | [Website](https://www.tabbyml.com/) / [Docs](https://tabby.tabbyml.com/docs/) / [Repo](https://github.com/TabbyML/tabby) |
+| [Winy RAG Sample Stack](https://github.com/mfranzon/winy) | Sample RAG application with Ollama, Qdrant, and Streamlit web app orchestrated via Docker Compose.\[web:202\] | Template · Web app · Self-hosted | [Website](https://github.com/mfranzon/winy) / [Docs](https://github.com/mfranzon/winy#readme) / [Repo](https://github.com/mfranzon/winy) |
 
 ### Local LLM developer tools
 
@@ -332,12 +359,12 @@ AI tools that create, improve, or maintain automated tests.
 
 - 2026-05-08: [Agent Powerups](https://github.com/yeaight7/agent-powerups)
 - 2026-05-08: [Amazon CloudWatch GenAI Observability](https://aws.amazon.com/cloudwatch/)
+- 2026-05-08: [AnythingLLM](https://useanything.com)
 - 2026-05-08: [Arize AX](https://arize.com/ai-agents/agent-observability/)
 - 2026-05-08: [Arize Phoenix](https://arize.com/phoenix)
+- 2026-05-08: [Athenaeum](https://github.com/herakles-dev/athenaeum#readme)
 - 2026-05-08: [Braintrust](https://www.braintrust.dev)
-- 2026-05-08: [Comet Opik](https://www.comet.com)
-- 2026-05-08: [Confident AI](https://www.confident-ai.com)
-- 2026-05-08: [Datadog LLM Observability](https://www.datadoghq.com/product/ai/llm-observability/)
+- 2026-05-08: [Clawix AI Platform](https://github.com/ClawixAI/clawix#readme)
 
 ## Submit a tool
 
