@@ -1,3 +1,36 @@
+- slug: agent-powerups
+  name: Agent Powerups
+  description: Curated power-ups for coding agents. Skills, slash commands, MCP configs, hooks, AGENTS.md templates, and workflows for serious software engineering. Claude Code, Codex, Gemini CLI and more
+  website_url: https://github.com/yeaight7/agent-powerups
+  repo_url: https://github.com/yeaight7/agent-powerups
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - coding
+    - data-engineering
+    - devops
+    - devtools
+    - library
+    - mcp
+    - open-source
+    - plugins
+    - workflow-library
+  interfaces:
+    - cli
+    - library
+    - mcp-server
+    - skill-pack
+    - template
+  deployment: not specified
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "User written entry; verify metadata before marking reviewed. notes: i, the user, didn't provide any notes. confidence: idk uncertain: idk"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/yeaight7/agent-powerups
 - slug: agent-skills
   name: Agent Skills
   description: Python package to create, manage, and execute reusable code-based tool compositions for AI agents with MCP integration.
@@ -98,6 +131,41 @@
     - https://aider.chat/
     - https://aider.chat/docs/
     - https://github.com/Aider-AI/aider
+- slug: amazon-cloudwatch-genai-observability
+  name: Amazon CloudWatch GenAI Observability
+  description: CloudWatch capabilities for monitoring and tracing generative AI agents, workloads, and quality metrics on AWS.
+  website_url: https://aws.amazon.com/cloudwatch/
+  repo_url: https://github.com/aws-samples/sample-amazon-cloudwatch-generative-ai-observability
+  docs_url: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GenAI-observability.html
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - debugging
+    - evals
+    - llmops
+    - monitoring
+    - observability
+    - opentelemetry
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Adds GenAI-specific dashboards, metrics, and tracing for Bedrock agents and other AI workloads, integrating with AgentCore and OTEL.[web:117][web:122][web:140] confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://aws.amazon.com/cloudwatch/
+    - https://aws.amazon.com/cloudwatch/features/generative-ai-observability/
+    - https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GenAI-observability.html
+    - https://github.com/aws-samples/sample-amazon-cloudwatch-generative-ai-observability
 - slug: amazon-q-developer
   name: Amazon Q Developer
   description: AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations.
@@ -232,6 +300,84 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/anthropics/skills
+- slug: arize-ax
+  name: Arize AX
+  description: Commercial agent and LLM observability platform built on Phoenix for tracing, evaluation, and monitoring production AI systems.
+  website_url: https://arize.com/ai-agents/agent-observability/
+  docs_url: https://arize.com/docs/ax/observe/quickstart-llm
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - cost-tracking
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - opentelemetry
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides multi-agent tracing, Agent Visibility graphs, OpenInference-based instrumentation, and large-scale evals on LLM traces. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://arize.com/ai-agents/agent-observability/
+    - https://arize.com/docs/ax/observe/quickstart-llm
+    - https://arize.com/whats-an-agent-observability-platform/
+    - https://galileo.ai/blog/galileo-vs-arize
+- slug: arize-phoenix
+  name: Arize Phoenix
+  description: Open-source AI observability platform with tracing, evals, datasets, and experiments for LLM, agent, and RAG systems.
+  website_url: https://arize.com/phoenix
+  repo_url: https://github.com/arize-ai/phoenix
+  docs_url: https://arize.com/docs/phoenix
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - opentelemetry
+    - prompt-management
+    - rag
+    - self-hosted
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Built on OpenTelemetry and OpenInference; supports tracing LLM apps, evaluations for RAG, prompt management, and runs locally or containerized. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://arize.com/docs/phoenix
+    - https://arize.com/phoenix
+    - https://docs.mistral.ai/resources/cookbooks/third_party-phoenix-arize_phoenix_evaluate_rag
+    - https://github.com/arize-ai/phoenix
 - slug: arxiv-mcp-server
   name: ArXiv MCP Server
   description: MCP server for searching arXiv papers and exposing academic paper content to AI assistants.
@@ -479,6 +625,43 @@
     - https://bito.ai/product/ai-code-review-agent/
     - https://docs.bito.ai/ai-code-reviews-in-git/agent-settings/repo-level-settings
     - https://docs.bito.ai/ai-code-reviews-in-git/install-run-using-bito-cloud/guide-for-github
+- slug: braintrust
+  name: Braintrust
+  description: AI observability and evaluation platform that logs LLM and agent traces and turns production logs into test datasets.
+  website_url: https://www.braintrust.dev
+  docs_url: https://docs.braintrust.dev
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - cost-tracking
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - prompt-management
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Connects observability to improvement by converting traces into eval cases and surfacing eval results in CI and PR workflows. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.braintrust.dev
+    - https://meoadvisors.com/ai-platforms/mlops-llmops/braintrust/
+    - https://www.braintrust.dev
+    - https://www.braintrust.dev/articles/best-ai-observability-platforms-2025
 - slug: browserbase-mcp-server
   name: Browserbase MCP Server
   description: MCP server that lets AI agents control cloud browsers through Browserbase and Stagehand.
@@ -682,6 +865,81 @@
     - https://coderabbit.ai/
     - https://coderabbit.ai/cli
     - https://docs.coderabbit.ai/
+- slug: comet-opik
+  name: Comet Opik
+  description: Open-source LLM observability framework for tracing, evaluating, and monitoring LLM, RAG, and agent workflows.
+  website_url: https://www.comet.com
+  repo_url: https://github.com/comet-ml/opik
+  docs_url: https://docs.comet.com/docs/opik-overview
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - opentelemetry
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: hybrid
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers tracing, dashboards, automated evals, and Comet integration to debug and optimize RAG chatbots, code assistants, and agentic pipelines. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.comet.com/docs/opik-overview
+    - https://github.com/comet-ml/opik
+    - https://www.comet.com
+    - https://www.comet.com/site/opik/
+    - https://www.youtube.com/watch?v=V17CvwJK0Jc
+- slug: confident-ai
+  name: Confident AI
+  description: Evaluation and observability platform that traces LLM apps and runs DeepEval metrics on components and end-to-end workflows.
+  website_url: https://www.confident-ai.com
+  docs_url: https://www.confident-ai.com/docs
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: The @observe decorator traces LLM apps, capturing spans for components and enabling 40+ DeepEval metrics and online monitoring. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://www.confident-ai.com
+    - https://www.confident-ai.com/docs
+    - https://www.confident-ai.com/docs/getting-started/setup-tracing
 - slug: context7-mcp-server
   name: Context7 MCP Server
   description: MCP server for retrieving up-to-date library documentation and code examples for AI coding assistants.
@@ -826,6 +1084,42 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/jtgsystems/Custom-Modes-Roo-Code
+- slug: datadog-llm-observability
+  name: Datadog LLM Observability
+  description: Datadog product for tracing, monitoring, and evaluating LLM and agent applications with integrated APM views.
+  website_url: https://www.datadoghq.com/product/ai/llm-observability/
+  repo_url: https://github.com/DataDog/llm-observability
+  docs_url: https://docs.datadoghq.com/tracing/llm_observability/
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - cost-tracking
+    - debugging
+    - evals
+    - llmops
+    - monitoring
+    - observability
+    - opentelemetry
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides end-to-end traces across AI agents with visibility into prompts, tools, latency, token usage, and errors using Datadog tracing SDKs. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.datadoghq.com/tracing/llm_observability/
+    - https://github.com/DataDog/llm-observability
+    - https://www.datadoghq.com/product/ai/llm-observability/
 - slug: dbt-agent-skills
   name: dbt Agent Skills
   description: Curated Agent Skills for working with dbt to help AI agents understand and execute analytics engineering workflows.
@@ -897,6 +1191,41 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/vincentkoc/dotskills
+- slug: dunetrace
+  name: Dunetrace
+  description: Open-source anomaly detection layer that monitors agent traces for structural failures and alerts in real time.
+  website_url: https://dunetrace.dev
+  repo_url: https://github.com/dunetrace/dunetrace
+  docs_url: https://github.com/dunetrace/dunetrace#readme
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - automation
+    - debugging
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Watches structural patterns of agent runs, detects anomalous tool or LLM usage, and sends alerts while integrating with tools like Langfuse. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://dunetrace.dev
+    - https://github.com/dunetrace
+    - https://github.com/dunetrace/dunetrace
+    - https://github.com/dunetrace/dunetrace#readme
 - slug: e2b-mcp
   name: e2b-mcp
   description: CLI and API for running MCP servers inside isolated E2B cloud sandboxes.
@@ -949,6 +1278,43 @@
     - https://docs.ellipsis.dev/features/code-review
     - https://docs.ellipsis.dev/introduction
     - https://www.ellipsis.dev/
+- slug: evidently-ai
+  name: Evidently AI
+  description: Open-source library and cloud service for evaluating, testing, and monitoring ML and LLM systems, including RAG and agents.
+  website_url: https://www.evidentlyai.com
+  repo_url: https://github.com/evidentlyai/evidently
+  docs_url: https://docs.evidentlyai.com
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - rag
+    - self-hosted
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: hybrid
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides reports, test suites, and a monitoring UI for data, ML, and LLM quality, including live monitoring for chatbots, RAG, and assistants. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.evidentlyai.com
+    - https://github.com/evidentlyai/evidently
+    - https://www.evidentlyai.com
+    - https://www.evidentlyai.com/evidently-oss
 - slug: exa-mcp-server
   name: Exa MCP Server
   description: MCP server for connecting AI assistants to Exa web search, crawling, and research tools.
@@ -1002,6 +1368,109 @@
     - https://docs.factory.ai/cli/getting-started/quickstart
     - https://docs.factory.ai/welcome
     - https://factory.ai/
+- slug: fiddler-ai-observability
+  name: Fiddler AI Observability
+  description: AI observability and security platform for monitoring, alerting, and troubleshooting LLM and ML applications.
+  website_url: https://www.fiddler.ai
+  docs_url: https://docs.fiddler.ai
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - debugging
+    - evals
+    - llmops
+    - monitoring
+    - observability
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Tracks hallucinations, jailbreaks, PII, drift, and LLM metrics with dashboards and alerts for generative and predictive models. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.fiddler.ai
+    - https://www.fiddler.ai
+    - https://www.fiddler.ai/llmops
+    - https://www.fiddler.ai/resources/ai-observability-for-llm-applications-and-ml-models
+    - https://www.youtube.com/watch?v=073FciDBzOY
+- slug: flexible-graphrag-observability-stack
+  name: Flexible GraphRAG Observability Stack
+  description: Observability setup in Flexible GraphRAG that instruments LlamaIndex RAG apps with OTEL traces, metrics, and Grafana dashboards.
+  website_url: https://github.com/stevereiner/flexible-graphrag
+  repo_url: https://github.com/stevereiner/flexible-graphrag
+  docs_url: https://github.com/stevereiner/flexible-graphrag/blob/main/docs/DEVELOPER/OBSERVABILITY/OBSERVABILITY.md
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - opentelemetry
+    - rag
+    - self-hosted
+    - tool-calling
+    - tracing
+  interfaces:
+    - cli
+    - library
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses OpenTelemetry, OpenInference, Jaeger, Prometheus, and Grafana to provide production-grade observability for GraphRAG-based RAG pipelines. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/stevereiner/flexible-graphrag
+    - https://github.com/stevereiner/flexible-graphrag/blob/main/docs/DEVELOPER/OBSERVABILITY/OBSERVABILITY.md
+- slug: galileo-ai
+  name: Galileo AI
+  description: Agent-centric observability and evaluation platform with tracing, guardrails, and Luna models for RAG and agents.
+  website_url: https://galileo.ai
+  docs_url: https://docs.galileo.ai
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - cost-tracking
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - prompt-management
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides agent tracing, semantic quality metrics, eval-to-guardrail lifecycle, and framework-agnostic OpenTelemetry-based integration. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.galileo.ai
+    - https://galileo.ai
+    - https://galileo.ai/blog/best-llm-observability-tools-compared-for-2024
+    - https://galileo.ai/blog/llm-monitoring-vs-observability-understanding-the-key-differences
 - slug: gemini-cli
   name: Gemini CLI
   description: Open-source terminal coding agent that uses tool calls and MCP servers to work on repository tasks.
@@ -1164,6 +1633,35 @@
     - https://github.com/aaif-goose/goose
     - https://goose-docs.ai/
     - https://goose-docs.ai/docs/quickstart/
+- slug: grafana-genai-observability
+  name: Grafana GenAI Observability
+  description: Grafana Cloud dashboards and metrics for monitoring LLM application performance, token usage, and cost.
+  website_url: https://grafana.com
+  docs_url: https://grafana.com/docs/grafana-cloud/monitor-applications/ai-observability/genai/observability/
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - cost-tracking
+    - llmops
+    - monitoring
+    - observability
+    - opentelemetry
+    - rag
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides GenAI Observability dashboard for LLM apps with request monitoring, token usage, cost analysis, and error tracking. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://grafana.com
+    - https://grafana.com/docs/grafana-cloud/monitor-applications/ai-observability/genai/observability/
 - slug: helderberto-skills
   name: helderberto/skills
   description: Reusable AI agent skills for development workflows including code review, refactoring, TDD, security audit, and git automation.
@@ -1189,6 +1687,77 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/helderberto/skills
+- slug: helicone
+  name: Helicone
+  description: Open-source LLM observability platform and gateway for logging, tracing, and evaluating LLM and agent requests.
+  website_url: https://www.helicone.ai
+  repo_url: https://github.com/Helicone/helicone
+  docs_url: https://docs.helicone.ai
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - cost-tracking
+    - datasets
+    - debugging
+    - evals
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - prompt-management
+    - rag
+    - self-hosted
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Proxy-based logging for OpenAI-style APIs with sessions, traces, cost metrics, prompt management, and evaluations on open-source or hosted deployments. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.helicone.ai
+    - https://github.com/Helicone/helicone
+    - https://mintlify.wiki/helicone/helicone/observability/overview
+    - https://www.helicone.ai
+- slug: ibm-instana-genai-observability
+  name: IBM Instana GenAI Observability
+  description: Instana module that provides GenAI observability for LLM and agentic workloads with unified tracing and metrics.
+  website_url: https://www.ibm.com/instana
+  docs_url: https://www.ibm.com/docs/en/instana-observability
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - llmops
+    - monitoring
+    - observability
+    - opentelemetry
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Built for platform and SRE teams to debug opaque GenAI pipelines, control token costs, and correlate AI telemetry with infrastructure. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://www.ibm.com/docs/en/instana-observability
+    - https://www.ibm.com/instana
+    - https://www.ibm.com/new/announcements/drive-operational-efficiency-with-gen-ai-observability
 - slug: invariant-testing
   name: Invariant Testing
   description: Lightweight library for writing debuggable unit tests for AI agent applications with localized assertions.
@@ -1275,6 +1844,40 @@
     - https://github.com/JetBrains/junie
     - https://www.jetbrains.com/help/ai-assistant/junie-agent.html
     - https://www.jetbrains.com/junie/
+- slug: keywords-ai
+  name: Keywords AI
+  description: LLM observability platform offering real-time traces, logs, metrics, and quality scores across many models.
+  website_url: https://keywordsai.co
+  docs_url: https://docs.keywordsai.co
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - cost-tracking
+    - debugging
+    - evals
+    - llmops
+    - monitoring
+    - observability
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Tracks token usage, latency, and workflows with an SDK; integrates with tools like cognee and Mem0 for semantic pipelines and memory observability. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.keywordsai.co
+    - https://docs.mem0.ai/integrations/keywords
+    - https://keywordsai.co
+    - https://www.cognee.ai/blog/deep-dives/observability-for-semantic-workflows
 - slug: langfuse
   name: Langfuse
   description: Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations.
@@ -1302,6 +1905,237 @@
   sources:
     - https://github.com/langfuse/langfuse
     - https://langfuse.com/docs
+- slug: langsmith
+  name: LangSmith
+  description: Hosted observability and evaluation platform for tracing, debugging, and monitoring LangChain and other LLM or agent applications.
+  website_url: https://www.langchain.com/langsmith-platform
+  docs_url: https://www.langchain.com/langsmith/observability
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - cost-tracking
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - prompt-management
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides end-to-end tracing, execution visualization, cost and latency tracking, and production-grounded evals for LangChain-based agents. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://digitalocean.com/community/tutorials/langsmith-debudding-evaluating-llm-agents
+    - https://www.langchain.com/langsmith-platform
+    - https://www.langchain.com/langsmith/observability
+- slug: langtrace
+  name: Langtrace
+  description: Open-source OpenTelemetry-based observability tool and dashboard for tracing, evaluating, and debugging LLM applications.
+  website_url: https://langtrace.ai
+  repo_url: https://github.com/Scale3-Labs/langtrace
+  docs_url: https://docs.langtrace.ai
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - opentelemetry
+    - rag
+    - self-hosted
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: AGPL-3.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides SDKs and dashboard for OpenTelemetry traces from LLM apps, focusing on usage, accuracy, latency, and cost metrics. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.langtrace.ai
+    - https://github.com/Scale3-Labs/langtrace
+    - https://github.com/Scale3-Labs/langtrace-docs/blob/main/introduction.mdx
+    - https://langtrace.ai
+- slug: langwatch
+  name: LangWatch
+  description: LLM observability and evaluation platform focused on tracing, debugging, and optimizing AI agents and applications.
+  website_url: https://langwatch.ai
+  repo_url: https://github.com/langwatch/langwatch
+  docs_url: https://docs.langwatch.ai
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - opentelemetry
+    - prompt-management
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: hybrid
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Open-source LLMOps platform that provides traces, spans, RAG breakdowns, cost tracking, and guardrails for agent workflows. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.langwatch.ai
+    - https://github.com/langwatch/langwatch
+    - https://langwatch.ai
+    - https://langwatch.ai/llm-observability
+- slug: lunary
+  name: Lunary
+  description: Open-source observability and prompt platform for LLM chatbots with analytics, logs, traces, and evaluations.
+  website_url: https://lunary.ai
+  repo_url: https://github.com/lunary-ai/lunary
+  docs_url: https://docs.lunary.ai
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - cost-tracking
+    - datasets
+    - debugging
+    - evals
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - prompt-management
+    - rag
+    - self-hosted
+    - tracing
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: hybrid
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Tracks conversations, feedback, costs, and traces for LLM chatbots with self-hostable stack and hosted cloud offering. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.lunary.ai
+    - https://github.com/BerriAI/litellm/blob/main/docs/my-website/docs/observability/lunary_integration.md
+    - https://github.com/lunary-ai/lunary
+    - https://lunary.ai
+- slug: mastra-observability
+  name: Mastra Observability
+  description: Observability module in Mastra for tracing, monitoring, and evaluating LLM agents and workflows via OpenTelemetry.
+  website_url: https://mastra.ai
+  docs_url: https://mastra.ai/docs/observability
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - automation
+    - debugging
+    - evals
+    - llmops
+    - monitoring
+    - observability
+    - opentelemetry
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: hybrid
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Decorators capture LLM calls, agent decision paths, tool invocations, and export telemetry to OpenTelemetry-compatible platforms like PostHog. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://mastra.ai
+    - https://mastra.ai/ai-agent-observability
+    - https://mastra.ai/docs
+    - https://mastra.ai/docs/observability
+    - https://mastra.ai/docs/observability/tracing/exporters/posthog
+- slug: maxim-ai
+  name: Maxim AI
+  description: End-to-end AI evaluation and observability platform for testing and monitoring agents and LLM applications.
+  website_url: https://getmaxim.ai
+  repo_url: https://github.com/maximhq
+  docs_url: https://docs.getbifrost.ai/features/observability/maxim
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - automation
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides prompt testing, simulation, multi-agent workflow observability, and integrations via plugins and SDKs for AI gateways. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://ai-sdk.dev/v7/providers/observability/maxim
+    - https://docs.getbifrost.ai/features/observability/maxim
+    - https://getmaxim.ai
+    - https://github.com/maximhq
 - slug: mcp-bundles-mcpb
   name: MCP Bundles (MCPB)
   description: CLI tool for packaging local MCP servers into installable .mcpb files.
@@ -1375,6 +2209,80 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/microsoft/skills
+- slug: mlflow-ai-observability
+  name: MLflow AI Observability
+  description: MLflow extensions for LLM and agent observability with tracing, evaluation, and integration with TruLens scorers.
+  website_url: https://mlflow.org
+  repo_url: https://github.com/mlflow/mlflow
+  docs_url: https://mlflow.org/docs/latest/llm/index.html
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - cost-tracking
+    - datasets
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - opentelemetry
+    - rag
+    - tracing
+  interfaces:
+    - api
+    - cli
+    - library
+    - web-app
+  deployment: hybrid
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Adds LLM trace capture, evaluation, and TruLens-based agent trace scorers on top of MLflow tracking for AI applications. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/mlflow/mlflow
+    - https://mlflow.org
+    - https://mlflow.org/blog/mlflow-trulens-evaluation/
+    - https://mlflow.org/docs/latest/llm/index.html
+    - https://mlflow.org/top-5-agent-observability-tools
+- slug: monocle
+  name: Monocle
+  description: Linux Foundation project providing a framework to trace GenAI app code and agent workflows with minimal code changes.
+  website_url: https://monocle2ai.org
+  repo_url: https://github.com/monocle2ai/monocle
+  docs_url: https://docs.monocle.sh
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - library
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - opentelemetry
+    - rag
+    - self-hosted
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Community-driven OSS for tracing GenAI applications, emitting traces compatible with cloud-native observability stacks. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.monocle.sh
+    - https://github.com/monocle2ai/monocle
+    - https://lfaidata.foundation/projects/monocle/
+    - https://monocle2ai.org
 - slug: next-js-devtools-mcp
   name: Next.js DevTools MCP
   description: MCP server for exposing Next.js development tools and diagnostics to coding agents.
@@ -1396,6 +2304,69 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/vercel/next-devtools-mcp
+- slug: noveum-ai-agent-monitoring
+  name: Noveum AI Agent Monitoring
+  description: Enterprise AI agent monitoring platform with real-time tracing of LLM calls, RAG steps, and tool interactions.
+  website_url: https://noveum.ai/en/solutions/ai-agent-monitoring
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - llmops
+    - monitoring
+    - observability
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Captures hierarchical traces for AI pipelines, including RAG retrieval context and tool calls, aimed at production agent monitoring. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://noveum.ai
+    - https://noveum.ai/en/solutions/ai-agent-monitoring
+- slug: okahu
+  name: Okahu
+  description: AI observability platform and tools for debugging, testing, and monitoring agentic and LLM-based applications.
+  website_url: https://www.okahu.ai
+  repo_url: https://github.com/okahu-demos
+  docs_url: https://docs.okahu.ai
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - debugging
+    - evals
+    - llmops
+    - monitoring
+    - observability
+    - opentelemetry
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Focuses on observability, validations, and evaluations for AI workloads, contributing to Monocle and offering developer tools for agent debugging. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.okahu.ai
+    - https://f4.fund/startups/okahu
+    - https://github.com/okahu-demos
+    - https://www.okahu.ai
 - slug: openai-codex-cli
   name: OpenAI Codex CLI
   description: Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace.
@@ -1420,6 +2391,42 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/openai/codex
+- slug: openai-traces-and-evals
+  name: OpenAI Traces and Evals
+  description: Built-in OpenAI platform capabilities for tracing agent workflows and running evaluations on traces and datasets.
+  website_url: https://platform.openai.com
+  repo_url: https://github.com/openai/evals
+  docs_url: https://developers.openai.com/api/docs/guides/agent-evals
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - automation
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Dashboard logs, traces, and grades agent workflows with graders, datasets, and eval runs integrated into the OpenAI platform. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://developers.openai.com/api/docs/guides/agent-evals
+    - https://platform.openai.com
+    - https://www.youtube.com/watch?v=T2ytN20H-BQ
 - slug: opencode
   name: OpenCode
   description: Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows.
@@ -1490,6 +2497,150 @@
     - https://docs.openhands.dev/overview/quickstart
     - https://github.com/OpenHands/OpenHands
     - https://openhands.dev/
+- slug: openinference
+  name: OpenInference
+  description: Open-source OpenTelemetry-based specification and instrumentations for tracing AI and LLM applications.
+  website_url: https://arize-ai.github.io/openinference/
+  repo_url: https://github.com/Arize-ai/openinference
+  docs_url: https://arize-ai.github.io/openinference/
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - library
+    - llmops
+    - observability
+    - open-source
+    - opentelemetry
+    - rag
+    - self-hosted
+    - tool-calling
+    - tracing
+  interfaces:
+    - library
+  deployment: local
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Defines semantic conventions and provides instrumentations for OpenAI, agents, LangChain, LlamaIndex, DSPy, Bedrock, MCP, and more. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://arize-ai.github.io/openinference/
+    - https://github.com/Arize-ai/openinference
+    - https://github.com/Arize-ai/openinference/tree/main/python/instrumentation/openinference-instrumentation-openai
+- slug: openlit
+  name: OpenLIT
+  description: Open-source OpenTelemetry-native observability and evaluations platform for GenAI and LLM applications.
+  website_url: https://openlit.io
+  repo_url: https://github.com/openlit/openlit
+  docs_url: https://docs.openlit.io
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - opentelemetry
+    - prompt-management
+    - rag
+    - self-hosted
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - cli
+    - library
+    - web-app
+  deployment: self-hosted
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers OpenTelemetry-native monitoring for LLMs, vector databases, and GPUs with zero-code auto-instrumentation and multiple telemetry destinations. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.openlit.io
+    - https://github.com/openlit/openlit
+    - https://openlit.io
+    - https://openobserve.ai/blog/observability-for-ai-applications-using-openobserve-and-openlit/
+- slug: openobserve-llm-observability
+  name: OpenObserve LLM Observability
+  description: Open-source observability platform that unifies infrastructure and LLM observability with logs, metrics, and traces.
+  website_url: https://openobserve.ai
+  repo_url: https://github.com/openobserve/openobserve
+  docs_url: https://openobserve.ai/docs
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - opentelemetry
+    - rag
+    - self-hosted
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - web-app
+  deployment: hybrid
+  source_model: not specified
+  license: AGPL-3.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides OpenTelemetry-native LLM trace ingestion, dashboards, alerts, and correlation with infrastructure metrics in one stack. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/openobserve/openobserve
+    - https://openobserve.ai
+    - https://openobserve.ai/blog/llm-observability-tools/
+    - https://openobserve.ai/blog/observability-for-ai-applications-using-openobserve-and-openlit/
+    - https://openobserve.ai/docs
+- slug: opensearch-genai-observability-sdk
+  name: OpenSearch GenAI Observability SDK
+  description: OpenTelemetry-native Python SDK for one-line LLM observability using OpenSearch and Data Prepper as backend.
+  website_url: https://opensearch.org
+  repo_url: https://github.com/opensearch-project/genai-observability-sdk-py
+  docs_url: https://github.com/opensearch-project/genai-observability-sdk-py#readme
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - library
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - opentelemetry
+    - rag
+    - self-hosted
+    - tool-calling
+    - tracing
+  interfaces:
+    - library
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides decorators and auto-configuration to emit GenAI semantic OTEL traces for LLM apps into OpenSearch-based observability pipeline. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/MicrosoftDocs/azure-management-docs/blob/main/articles/azure-arc/edge-rag/observability-metrics.md
+    - https://github.com/opensearch-project/genai-observability-sdk-py
+    - https://github.com/opensearch-project/genai-observability-sdk-py#readme
+    - https://opensearch.org
 - slug: plandex
   name: Plandex
   description: Open-source terminal agent for long-running tasks across large projects and real repositories.
@@ -1564,6 +2715,43 @@
   sources:
     - https://github.com/microsoft/playwright-mcp
     - https://playwright.dev/docs/getting-started-mcp
+- slug: posthog-llm-analytics
+  name: PostHog LLM Analytics
+  description: LLM observability product in PostHog that captures traces, spans, and sessions for AI-powered applications.
+  website_url: https://posthog.com
+  repo_url: https://github.com/PostHog/posthog
+  docs_url: https://posthog.com/docs/ai-engineering/llm-analytics
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - cost-tracking
+    - debugging
+    - llmops
+    - monitoring
+    - observability
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Models LLM activity as traces and spans with session grouping, capturing prompts, generations, and custom spans for AI workflows. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/PostHog/posthog
+    - https://hexdocs.pm/posthog/PostHog.LLMAnalytics.html
+    - https://posthog.com
+    - https://posthog.com/docs/ai-engineering
+    - https://posthog.com/docs/ai-engineering/llm-analytics
+    - https://www.youtube.com/watch?v=wonEbaSnzOI
 - slug: pulumi-agent-skills
   name: Pulumi Agent Skills
   description: Agent Skills for infrastructure-as-code workflows teaching AI assistants Pulumi migrations, components, and secrets management.
@@ -1680,6 +2868,36 @@
     - https://docs.refact.ai/
     - https://refact.ai/
     - https://refact.ai/blog/2025/how-to-create-an-mcp-server-using-refact-ai-agent/
+- slug: respan
+  name: Respan
+  description: LLM engineering platform that unifies observability, evals, prompt optimization, and gateway for AI applications.
+  website_url: https://respan.ai
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - prompt-management
+    - rag
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides observability, evaluations, and prompt workflows within a single LLM engineering platform; specific tracing implementation details not fully documented. confidence: low uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://respan.ai
 - slug: roo-code
   name: Roo Code
   description: Open-source coding agent for VS Code and cloud agents that can code, review, and automate repository tasks.
@@ -1973,6 +3191,184 @@
     - https://tabby.tabbyml.com/docs/
     - https://www.tabbyml.com/
     - https://www.tabbyml.com/agent
+- slug: traceloop-openllmetry
+  name: Traceloop OpenLLMetry
+  description: Open-source OpenTelemetry extensions and SDKs for providing LLM and RAG observability across backends.
+  website_url: https://traceloop.com
+  repo_url: https://github.com/traceloop/openllmetry
+  docs_url: https://docs.traceloop.com
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - library
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - opentelemetry
+    - rag
+    - self-hosted
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+  deployment: local
+  source_model: not specified
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides OpenTelemetry-based instrumentations and an SDK for LLM providers and vector DBs, emitting standard traces to many observability tools. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.traceloop.com
+    - https://github.com/traceloop/openllmetry
+    - https://github.com/traceloop/openllmetry-js
+    - https://github.com/traceloop/openllmetry-ruby
+    - https://traceloop.com
+- slug: trulens
+  name: TruLens
+  description: Open-source library for tracing and evaluating AI agents, RAG systems, and LLM applications with feedback functions.
+  website_url: https://www.trulens.org
+  repo_url: https://github.com/truera/trulens
+  docs_url: https://www.trulens.org/docs
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - library
+    - llmops
+    - monitoring
+    - observability
+    - open-source
+    - opentelemetry
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - library
+    - web-app
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Combines OpenTelemetry-based tracing with LLM feedback functions to evaluate multi-agent workflows, RAG pipelines, and agent trajectories. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/truera/trulens
+    - https://www.trulens.org
+    - https://www.trulens.org/cookbook/frameworks/llamaindex/llama_index_evaluate_agent_workflow_multi/
+    - https://www.trulens.org/docs
+- slug: untrace
+  name: Untrace
+  description: Trace-routing platform that captures LLM traces once and forwards them to multiple observability backends.
+  website_url: https://untrace.dev
+  repo_url: https://github.com/untrace-dev/untrace-sdk
+  docs_url: https://untrace.dev/docs
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - automation
+    - llmops
+    - monitoring
+    - observability
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides SDK and proxy to capture LLM traces and route them to tools like LangSmith, Langfuse, Helicone, or custom OTEL collectors. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/untrace-dev/untrace-sdk
+    - https://untrace.dev
+    - https://untrace.dev/docs
+- slug: weights-biases-weave
+  name: Weights & Biases Weave
+  description: Framework and UI for debugging, tracing, and monitoring LLM applications with W&B observability.
+  website_url: https://wandb.ai
+  repo_url: https://github.com/wandb/weave
+  docs_url: https://docs.wandb.ai/guides/weave
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - datasets
+    - debugging
+    - evals
+    - experiments
+    - llmops
+    - monitoring
+    - observability
+    - rag
+    - tracing
+  interfaces:
+    - api
+    - library
+    - web-app
+  deployment: hybrid
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Weave provides tracing, evaluation, and monitoring capabilities for LLM apps, integrated with W&B experiment tracking and production monitoring. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.wandb.ai/guides/weave
+    - https://github.com/wandb/weave
+    - https://venturebeat.com/ai/weights-biases-new-llmops-capabilities-ai-development-model-monitoring
+    - https://wandb.ai
+    - https://wandb.ai/onlineinference/genai-research/reports/A-guide-to-LLM-debugging-tracing-and-monitoring--VmlldzoxMzk1MjAyOQ
+- slug: whylabs-openllmtelemetry
+  name: WhyLabs OpenLLMTelemetry
+  description: Python library that instruments LLM calls and sends OpenTelemetry traces and safeguards data to WhyLabs.
+  website_url: https://whylabs.ai
+  repo_url: https://github.com/whylabs/openllmtelemetry
+  docs_url: https://docs.whylabs.ai/docs/openllmtelemetry
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - library
+    - llmops
+    - monitoring
+    - observability
+    - opentelemetry
+    - rag
+    - tool-calling
+    - tracing
+  interfaces:
+    - api
+    - library
+  deployment: local
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Auto-instruments OpenAI and other LLM interactions to capture traces and monitoring signals for WhyLabs observability backend. confidence: high uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://docs.whylabs.ai
+    - https://docs.whylabs.ai/docs/openllmtelemetry
+    - https://github.com/whylabs/openllmtelemetry
+    - https://whylabs.ai
 - slug: windsurf-editor
   name: Windsurf Editor
   description: AI code editor with repo-aware agent workflows for multi-file edits and developer automation.
@@ -2056,3 +3452,29 @@
     - https://github.com/zed-industries/zed
     - https://zed.dev/
     - https://zed.dev/releases/stable/0.233.5
+- slug: zenity-ai-observability-platform
+  name: Zenity AI Observability Platform
+  description: Security-focused AI observability platform for discovering and monitoring agents across SaaS, endpoints, and environments.
+  website_url: https://zenity.io/platform/ai-observability
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - api
+    - llmops
+    - monitoring
+    - observability
+    - tool-calling
+  interfaces:
+    - api
+    - web-app
+  deployment: cloud
+  source_model: not specified
+  license: unknown
+  curation_status: draft
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides continuous discovery of AI agents, behavioral metadata, and relationship mapping rather than deep span-level tracing. confidence: medium uncertain: true"
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://zenity.io
+    - https://zenity.io/platform/ai-observability
