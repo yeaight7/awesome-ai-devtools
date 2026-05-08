@@ -42,9 +42,11 @@
     - workflow-library
   interfaces:
     - cli
-    - local
+    - desktop
     - mcp
-  deployment: not specified
+    - skill-pack
+    - template
+  deployment: hybrid
   source_model: open-source
   license: Apache-2.0
   curation_status: reviewed
