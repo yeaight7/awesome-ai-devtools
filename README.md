@@ -171,7 +171,7 @@ Reusable instruction, workflow, or capability packs for coding agents.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
-| [Agent Powerups](https://github.com/yeaight7/agent-powerups) | Curated power-ups for coding agents. Skills, slash commands, MCP configs, hooks, AGENTS.md templates, and workflows for serious software engineering. Claude Code, Codex, Gemini CLI and more | CLI · Library · Mcp Server · Skill Pack · Template | [Website](https://github.com/yeaight7/agent-powerups) / [Repo](https://github.com/yeaight7/agent-powerups) |
+| [Agent Powerups](https://github.com/yeaight7/agent-powerups) | Curated power-ups for coding agents. Skills, slash commands, MCP configs, hooks, AGENTS.md templates and workflows for software engineering. Claude Code, Codex, Gemini CLI and more | CLI · Library · Mcp Server · Skill Pack · Template | [Website](https://github.com/yeaight7/agent-powerups) / [Repo](https://github.com/yeaight7/agent-powerups) |
 | [Agent Skills](https://github.com/datalayer/agent-skills) | Python package to create, manage, and execute reusable code-based tool compositions for AI agents with MCP integration. | Library · Mcp Server · Skill Pack · Local | [Website](https://github.com/datalayer/agent-skills) / [Repo](https://github.com/datalayer/agent-skills) |
 | [Agent Skills Specification](https://github.com/agentskills/agentskills) | Open specification and documentation for Agent Skills format maintained by Anthropic with reference SDK and examples. | Framework · Skill Pack | [Website](https://github.com/agentskills/agentskills) / [Repo](https://github.com/agentskills/agentskills) |
 | [AgentSkills MCP](https://github.com/zouyingcao/agentskills-mcp) | MCP server that brings Anthropic Agent Skills to any MCP-compatible agent with progressive disclosure architecture. | Mcp Server · Skill Pack · Local | [Website](https://github.com/zouyingcao/agentskills-mcp) / [Repo](https://github.com/zouyingcao/agentskills-mcp) |
@@ -357,3 +357,4 @@ Use official sources, keep descriptions factual, and leave uncertain metadata as
 - Add contribution-friendly seed coverage category by category.
 - Build generated filters and richer comparison views after the data model settles.
 - Design a future importer after the schema, validator, and generator have real usage.
+
