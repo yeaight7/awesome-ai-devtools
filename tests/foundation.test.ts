@@ -105,7 +105,7 @@ test("buildReadme renders grouped navigation, start here, matrix, reviewed shelv
   assert.match(readme, /## Comparison Matrix/);
   assert.match(readme, /\| Tool \| Main shelf \| OSS \| Local \| Self-hosted \| CLI \| IDE \| MCP \| Links \|/);
   assert.match(readme, /\| \[Sample Agent\]\(https:\/\/example\.com\) \| Coding agents \| Yes \| Yes \| No \| Yes \| No \| No \| \[Website\]/);
-  assert.match(readme, /\| \[Agent Powerups\]\(https:\/\/github\.com\/yeaight7\/agent-powerups\) \| Agent skill packs \| Yes \| No \| Yes \| Yes \| No \| Yes \| \[Website\]/);
+  assert.match(readme, /\| \[Agent Powerups\]\(https:\/\/github\.com\/yeaight7\/agent-powerups\) \| Agent skill packs \| Yes \| No \| Yes \| Yes \| No \| Yes \| \[Repo\]/);
   assert.match(readme, /## Needs review/);
   assert.match(readme, /Draft Agent/);
   assert.doesNotMatch(readme, /unknown/i);
@@ -299,4 +299,158 @@ test("buildReadme truncates draft queue to DRAFT_QUEUE_LIMIT when there are many
   // Truncation notice must be present
   assert.match(readme, new RegExp(`Showing ${DRAFT_QUEUE_LIMIT} of ${DRAFT_QUEUE_LIMIT + 5}`));
   assert.match(readme, /data\/tools\.yml/);
+});
+
+test("validateCatalog enforces primary_category rules for reviewed multi-category tools", () => {
+  const base = sampleCatalog.tools[0]; // single-category reviewed tool
+
+  const multiCatTool = {
+    ...base,
+    slug: "multi-cat",
+    name: "Multi Cat Tool With Long Name To Pass Validation Length Check",
+    categories: ["coding-agents", "agent-skill-packs"]
+  };
+
+  // Reviewed multi-cat tool without primary_category must fail
+  const missingResult = validateCatalog(
+    { ...sampleCatalog, tools: [multiCatTool] },
+    { checkGeneratedReadme: false, checkSorted: false }
+  );
+  assert.equal(missingResult.ok, false);
+  assert(missingResult.errors.some((e) => e.includes("primary_category")));
+
+  // With valid primary_category that is in categories — must pass
+  const validResult = validateCatalog(
+    { ...sampleCatalog, tools: [{ ...multiCatTool, primary_category: "coding-agents" }] },
+    { checkGeneratedReadme: false, checkSorted: false }
+  );
+  assert.equal(validResult.ok, true);
+
+  // primary_category known in catalog but absent from tool's categories — must fail
+  // Use a catalog that has a third category not in the tool's categories array
+  const extendedCats = [
+    ...sampleCatalog.categories,
+    { slug: "mcp-servers", name: "MCP servers", description: "MCP servers." }
+  ];
+  const notInCatsResult = validateCatalog(
+    { categories: extendedCats, tags: sampleCatalog.tags, tools: [{ ...multiCatTool, primary_category: "mcp-servers" }] },
+    { checkGeneratedReadme: false, checkSorted: false }
+  );
+  assert.equal(notInCatsResult.ok, false);
+  assert(notInCatsResult.errors.some((e) => e.includes("must also be listed in categories")));
+
+  // primary_category unknown slug — must fail
+  const unknownSlugResult = validateCatalog(
+    { ...sampleCatalog, tools: [{ ...multiCatTool, primary_category: "nonexistent-category" }] },
+    { checkGeneratedReadme: false, checkSorted: false }
+  );
+  assert.equal(unknownSlugResult.ok, false);
+  assert(unknownSlugResult.errors.some((e) => e.includes("is not a known category slug")));
+
+  // Draft multi-cat tool without primary_category must pass
+  const draftMultiCat = {
+    ...sampleCatalog.tools[2], // draft tool
+    slug: "draft-multi-cat",
+    name: "Draft Multi Category Tool Which Needs A Longer Name For Validation",
+    categories: ["coding-agents", "agent-skill-packs"]
+  };
+  const draftResult = validateCatalog(
+    { ...sampleCatalog, tools: [draftMultiCat] },
+    { checkGeneratedReadme: false, checkSorted: false }
+  );
+  assert.equal(draftResult.ok, true);
+});
+
+test("primary_category drives mainShelf in generated matrix", () => {
+  // canonical order: coding-agents (0), agent-skill-packs (1)
+  // tool has categories alphabetically: ["agent-skill-packs", "coding-agents"]
+  // primary_category: agent-skill-packs — should override canonical order
+  const overrideCatalog: CatalogData = {
+    ...sampleCatalog,
+    tools: [
+      {
+        slug: "override-tool",
+        name: "Override Tool With Sufficient Name Length Here",
+        description: "A tool used to verify primary_category overrides canonical shelf order in README.",
+        website_url: "https://override.example.com",
+        categories: ["agent-skill-packs", "coding-agents"],
+        primary_category: "agent-skill-packs",
+        tags: ["terminal"],
+        interfaces: ["cli"],
+        deployment: "local",
+        source_model: "open-source",
+        license: "MIT",
+        curation_status: "reviewed",
+        added: "2026-05-08",
+        last_checked: "2026-05-08",
+        sources: ["https://override.example.com"]
+      }
+    ]
+  };
+
+  const readme = buildReadme(overrideCatalog);
+  // canonical order would pick "coding-agents" → "Coding agents"
+  // but primary_category = agent-skill-packs → matrix must show "Agent skill packs"
+  assert.match(readme, /\| \[Override Tool With Sufficient Name Length Here\].*\| Agent skill packs \|/);
+  assert.doesNotMatch(readme, /\| \[Override Tool With Sufficient Name Length Here\].*\| Coding agents \|/);
+});
+
+test("renderLinks suppresses duplicate website link when website_url equals repo_url", () => {
+  const repoOnlyCatalog: CatalogData = {
+    ...sampleCatalog,
+    tools: [
+      {
+        ...sampleCatalog.tools[0],
+        slug: "github-only",
+        name: "GitHub Only Tool With Long Enough Name For Test",
+        website_url: "https://github.com/example/github-only",
+        repo_url: "https://github.com/example/github-only",
+        docs_url: undefined
+      }
+    ]
+  };
+
+  const readme = buildReadme(repoOnlyCatalog);
+  // Should show [Repo] but not [Website] for this tool
+  assert.match(readme, /GitHub Only Tool.*\[Repo\]/);
+  assert.doesNotMatch(readme, /GitHub Only Tool.*\[Website\].*\[Repo\]/);
+});
+
+test("renderLinks keeps both links when website_url and repo_url differ", () => {
+  const bothLinksCatalog: CatalogData = {
+    ...sampleCatalog,
+    tools: [
+      {
+        ...sampleCatalog.tools[0],
+        slug: "both-links",
+        name: "Both Links Tool With Long Enough Name For This Test",
+        website_url: "https://bothtool.example.com",
+        repo_url: "https://github.com/example/both-links",
+        docs_url: undefined
+      }
+    ]
+  };
+
+  const readme = buildReadme(bothLinksCatalog);
+  assert.match(readme, /Both Links Tool.*\[Website\].*\[Repo\]/);
+});
+
+test("renderLinks suppresses duplicate website link when trailing slashes differ", () => {
+  const trailingSlashCatalog: CatalogData = {
+    ...sampleCatalog,
+    tools: [
+      {
+        ...sampleCatalog.tools[0],
+        slug: "slash-tool",
+        name: "Slash Normalization Tool With Long Enough Name For Test",
+        website_url: "https://github.com/example/slash-tool/",
+        repo_url: "https://github.com/example/slash-tool",
+        docs_url: undefined
+      }
+    ]
+  };
+
+  const readme = buildReadme(trailingSlashCatalog);
+  assert.match(readme, /Slash Normalization Tool.*\[Repo\]/);
+  assert.doesNotMatch(readme, /Slash Normalization Tool.*\[Website\].*\[Repo\]/);
 });
