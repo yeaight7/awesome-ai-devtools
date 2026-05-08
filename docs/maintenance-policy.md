@@ -6,7 +6,11 @@ Structured YAML in `data/` is the source of truth. `README.md` is generated.
 
 ## Sorting
 
-Tools are sorted by display name using English locale comparison, then by slug as a tiebreaker. Tool category, tag, interface, and source arrays are normalized alphabetically.
+Tools are sorted by display name using English locale comparison, then by slug as a tiebreaker. Tool category, tag, interface, and source arrays are normalized alphabetically. `primary_category` is preserved as-is during sorting; it is not sorted into the category array.
+
+## Primary Category
+
+Reviewed tools that belong to more than one category must set `primary_category` to one of the slugs in their `categories` list. This controls which shelf is shown in the comparison matrix and the review queue. Single-category tools do not need it.
 
 Run:
 
