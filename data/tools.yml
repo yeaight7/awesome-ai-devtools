@@ -41,7 +41,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates markdown changelog output and exposes it for later steps such as GitHub Release creation.[web:75] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates markdown changelog output and exposes it for later steps such as GitHub Release creation. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -926,7 +926,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Consumes git history to produce release notes and changelog sections used by various projects.[web:28] confidence: high uncertain: true"
+  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Consumes git history to produce release notes and changelog sections used by various projects. confidence: high uncertain: true"
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
