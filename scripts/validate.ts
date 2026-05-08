@@ -142,8 +142,19 @@ function validateTool(
   validateStringArray(label, "tags", tool.tags, errors);
   validateStringArray(label, "interfaces", tool.interfaces, errors);
 
+  if (tool.primary_category !== undefined) {
+    if (!categories.has(tool.primary_category)) {
+      errors.push(`${label}: primary_category "${tool.primary_category}" is not a known category slug.`);
+    } else if (!stringItems(tool.categories).includes(tool.primary_category)) {
+      errors.push(`${label}: primary_category "${tool.primary_category}" must also be listed in categories.`);
+    }
+  }
+
   if (tool.curation_status === "reviewed") {
     validateReviewedTaxonomy(tool, label, categories, tags, errors);
+    if (stringItems(tool.categories).length > 1 && !tool.primary_category) {
+      errors.push(`${label}: reviewed tools with multiple categories must set primary_category.`);
+    }
   }
 
   if (tool.curation_status === "draft" && (typeof tool.review_notes !== "string" || tool.review_notes.trim() === "")) {
