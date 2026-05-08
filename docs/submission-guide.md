@@ -6,7 +6,7 @@ The easiest useful contribution is one tool addition or one factual update.
 
 - `slug`: stable kebab-case identifier.
 - `name`: official tool name.
-- `description`: factual, neutral, 40-160 characters.
+- `description`: factual, neutral, 40-180 characters.
 - `website_url`: official website, docs, or repository URL.
 - `categories`: one or more slugs from `data/categories.yml`.
 - `tags`: one or more slugs from `data/tags.yml`.
