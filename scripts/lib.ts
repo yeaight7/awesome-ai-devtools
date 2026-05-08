@@ -46,6 +46,7 @@ export interface Tool {
   repo_url?: string;
   docs_url?: string;
   categories: string[];
+  primary_category?: string;
   tags: string[];
   interfaces: string[];
   deployment: string;
@@ -107,6 +108,9 @@ export function normalizeTool(tool: Tool): Tool {
   }
 
   normalized.categories = sortedUnique(tool.categories ?? []);
+  if (tool.primary_category) {
+    normalized.primary_category = tool.primary_category;
+  }
   normalized.tags = sortedUnique(tool.tags ?? []);
   normalized.interfaces = sortedUnique(tool.interfaces ?? []);
   normalized.deployment = tool.deployment;
