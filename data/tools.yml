@@ -18,15 +18,11 @@
     - workflow-library
   interfaces:
     - cli
-    - library
-    - mcp-server
-    - skill-pack
-    - template
+    - mcp
   deployment: not specified
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "User written entry; verify metadata before marking reviewed. notes: i, the user, didn't provide any notes. confidence: idk uncertain: idk"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -45,14 +41,11 @@
     - mcp
     - open-source
   interfaces:
-    - library
-    - mcp-server
-    - skill-pack
+    - mcp
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: BSD-3-Clause
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Skills are Python files that compose MCP tools. Includes SkillManager and MCP server for advanced use cases. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -71,10 +64,9 @@
     - framework
     - skill-pack
   deployment: not specified
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Defines the open standard for skills folders, SKILL.md format, and progressive disclosure. Documentation under CC-BY-4.0. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -92,13 +84,11 @@
     - mcp
     - open-source
   interfaces:
-    - mcp-server
-    - skill-pack
+    - mcp
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements progressive disclosure for efficient context window usage. License not verified. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -121,10 +111,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official repo and docs found. Strong fit for terminal-based repository editing. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -153,12 +142,11 @@
     - tracing
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Adds GenAI-specific dashboards, metrics, and tracing for Bedrock agents and other AI workloads, integrating with AgentCore and OTEL.[web:117][web:122][web:140] confidence: high uncertain: true"
+    - web
+  deployment: hosted
+  source_model: open-source
+  license: MIT-0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -188,12 +176,11 @@
   interfaces:
     - cli
     - github-app
-    - ide-extension
+    - ide
   deployment: hybrid
-  source_model: not specified
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs cover IDE coding, CLI transformations, and GitHub agents. Public license not verified. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -220,10 +207,9 @@
     - api
     - cli
   deployment: hybrid
-  source_model: not specified
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official manual found. SDK and workspace settings indicate automation and MCP-related configuration. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -241,12 +227,11 @@
     - database
     - mcp
   interfaces:
-    - mcp-server
+    - mcp
   deployment: local
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Requires AnkiConnect; local and remote modes are mentioned but license metadata was not verified. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -267,13 +252,11 @@
     - plugins
     - workflow-library
   interfaces:
-    - mcp-server
-    - skill-pack
+    - mcp
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official Anthropic repo. Each plugin contains skills, commands, and MCP connectors. License not verified in snippet. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -292,10 +275,9 @@
   interfaces:
     - skill-pack
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes document skills and example skills. Some skills are source-available, not open source. Mixed licensing within repo. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -325,13 +307,11 @@
   interfaces:
     - api
     - cli
-    - template
-    - web-app
+    - web
   deployment: hybrid
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Combines document RAG, AI agents, and visual builder; can run fully self-hosted with Docker or Docker Compose including embedded vector DB.[web:210] confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -363,12 +343,11 @@
     - tracing
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides multi-agent tracing, Agent Visibility graphs, OpenInference-based instrumentation, and large-scale evals on LLM traces. confidence: high uncertain: true"
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -403,13 +382,11 @@
     - tracing
   interfaces:
     - api
-    - library
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Built on OpenTelemetry and OpenInference; supports tracing LLM apps, evaluations for RAG, prompt management, and runs locally or containerized. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -428,12 +405,11 @@
     - api
     - mcp
   interfaces:
-    - mcp-server
+    - mcp
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs locally and can save papers locally; Claude Desktop packaging support is mentioned. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -452,13 +428,11 @@
     - mcp
     - open-source
   interfaces:
-    - mcp-server
-    - skill-pack
+    - mcp
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Bundles astro-airflow-mcp server with skills for data discovery, lineage, DAG development, and dbt. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -483,14 +457,12 @@
     - vector-database
   interfaces:
     - api
-    - mcp-server
-    - template
-    - web-app
+    - mcp
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: make run starts PostgreSQL, API, and frontend; offers local embeddings, multi-library semantic search, AI chat, and MCP server integration.[web:222] confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -515,12 +487,11 @@
     - terminal-agent
   interfaces:
     - cli
-    - ide-extension
+    - ide
   deployment: hybrid
-  source_model: not specified
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs found for Agent and CLI workflows. Public license not verified. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -541,10 +512,9 @@
   interfaces:
     - skill-pack
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Maintains a live directory at agent-skill.co. License not verified. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -568,7 +538,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes skills for PR review, CI fix, Sentry triage, webapp testing, and MCP builder. License not verified. confidence: high uncertain: true"
+  review_notes: Repo exists but has no license file; verify before promoting.
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -587,10 +557,9 @@
   interfaces:
     - template
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Awesome-list style repository. License not clearly visible in snippet. confidence: medium uncertain: true"
+  source_model: open-source
+  license: CC0-1.0
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -611,10 +580,9 @@
     - skill-pack
     - template
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes agents, instructions, skills, hooks, agentic workflows, and plugins. Website offers search and filtering. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -638,10 +606,9 @@
     - skill-pack
     - template
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: CC0-1.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Inspired by amplified.dev standard. Rules cover languages, frameworks, code quality, testing, and DevOps. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -660,13 +627,11 @@
     - mcp
     - open-source
   interfaces:
-    - mcp-client
-    - skill-pack
+    - mcp
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Requires Azure DevOps MCP server. Intended for use with GitHub Copilot in VS Code. License not verified. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -686,11 +651,10 @@
     - testing
   interfaces:
     - github-app
-  deployment: cloud
-  source_model: not specified
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official product page and docs found. Strong fit for automated PR review; public license not verified. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -721,12 +685,11 @@
     - tracing
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Connects observability to improvement by converting traces into eval cases and surfacing eval results in CI and PR workflows. confidence: high uncertain: true"
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -745,12 +708,11 @@
     - browser-automation
     - mcp
   interfaces:
-    - mcp-server
+    - mcp
   deployment: hybrid
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides a hosted MCP endpoint and an npm package for local or self-hosted use. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -771,12 +733,10 @@
     - open-source
   interfaces:
     - cli
-    - skill-pack
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes Terraform, Kubernetes, Helm, GitHub Actions, and Ansible validators and generators. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -794,12 +754,11 @@
     - devtools
     - mcp
   interfaces:
-    - mcp-server
+    - mcp
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses Chrome and Puppeteer to expose DOM, console, network, and performance debugging to agents. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -842,12 +801,10 @@
     - plugins
   interfaces:
     - cli
-    - skill-pack
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports Claude Code, Codex, Cursor, Windsurf, Aider, and 7 other tools via conversion scripts. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -872,13 +829,11 @@
     - workflow-automation
   interfaces:
     - cli
-    - framework
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Described as self-hosted agent orchestration with Docker-based isolation and platform features.[web:243] confidence: low uncertain: true"
+  source_model: open-source
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -931,7 +886,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official Cline community repo for sharing .clinerules. License not verified in snippet. confidence: high uncertain: true"
+  review_notes: Repo exists but has no license file; verify before promoting.
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -957,12 +912,11 @@
   interfaces:
     - cli
     - github-app
-    - ide-extension
+    - ide
   deployment: hybrid
-  source_model: not specified
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs cover PR review, IDE review, and CLI review. Public license not verified. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -994,13 +948,11 @@
     - tracing
   interfaces:
     - api
-    - library
-    - web-app
+    - web
   deployment: hybrid
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers tracing, dashboards, automated evals, and Comet integration to debug and optimize RAG chatbots, code assistants, and agentic pipelines. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1031,13 +983,11 @@
     - tracing
   interfaces:
     - api
-    - library
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: The @observe decorator traces LLM apps, capturing spans for components and enabling 40+ DeepEval metrics and online monitoring. confidence: high uncertain: true"
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1055,12 +1005,11 @@
     - devtools
     - mcp
   interfaces:
-    - mcp-server
+    - mcp
   deployment: hybrid
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Category fit is strong for coding agents because it injects current documentation into prompts and tool calls. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1133,10 +1082,9 @@
   interfaces:
     - template
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Framework-specific rules files with architecture patterns, testing strategies, and security guidelines. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1156,10 +1104,9 @@
   interfaces:
     - template
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes .mdc files for Cursor agent mode with frontmatter, globs, and descriptions. License not verified. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1180,10 +1127,9 @@
     - skill-pack
     - template
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: YAML-based configurations with validation scripts and VS Code conversion utilities. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1215,9 +1161,9 @@
     - web-app
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides end-to-end traces across AI agents with visibility into prompts, tools, latency, token usage, and errors using Datadog tracing SDKs. confidence: high uncertain: true"
+  review_notes: Repo exists but has no license file; verify before promoting.
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1239,10 +1185,9 @@
   interfaces:
     - skill-pack
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes skills for dbt modeling, unit testing, semantic layer, mesh governance, and MCP server setup. License not verified. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1266,12 +1211,10 @@
     - workflow-automation
   interfaces:
     - cli
-    - template
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Repo includes ai-dev-stack.sh and references docker-compose-based AI stack as part of a dev environment.[web:205] confidence: low uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1291,12 +1234,11 @@
     - multi-agent
     - repo-editing
   interfaces:
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official Spanish website and docs checked; presents itself as a software engineer with parallel agents. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1326,14 +1268,11 @@
     - workflow-automation
   interfaces:
     - api
-    - framework
-    - template
-    - web-app
+    - web
   deployment: hybrid
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports managed SaaS and self-hosted deployment via Docker and Helm charts, targeting chatbot, workflow, agent, and RAG use cases.[web:233] confidence: high uncertain: true"
+  source_model: source-available
+  license: NOASSERTION
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1356,10 +1295,9 @@
     - skill-pack
     - template
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Demonstrates the .skills dotfiles pattern for agent-first tooling. License not verified. confidence: medium uncertain: true"
+  source_model: open-source
+  license: AGPL-3.0
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1390,9 +1328,9 @@
     - web-app
   deployment: self-hosted
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements sovereign MLOps/LLMOps with vLLM, TensorRT-LLM, Prometheus, Grafana, and self-hosted storage; Docker-based and Kubernetes aware.[web:225] confidence: medium uncertain: true"
+  review_notes: Obscure/personal repo; verify tool quality and metadata.
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1420,12 +1358,10 @@
     - tracing
   interfaces:
     - api
-    - library
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Watches structural patterns of agent runs, detects anomalous tool or LLM usage, and sends alerts while integrating with tools like Langfuse. confidence: medium uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1446,12 +1382,10 @@
     - server
   interfaces:
     - cli
-    - library
-  deployment: cloud
-  source_model: not specified
+  deployment: hosted
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs MCP servers inside E2B microVM sandboxes for isolation and automatic cleanup. confidence: medium uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1473,12 +1407,11 @@
     - repo-editing
   interfaces:
     - github-app
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs verify pull request review and asynchronous change generation from comments. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1508,13 +1441,11 @@
     - self-hosted
   interfaces:
     - api
-    - library
-    - web-app
+    - web
   deployment: hybrid
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides reports, test suites, and a monitoring UI for data, ML, and LLM quality, including live monitoring for chatbots, RAG, and assistants. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1533,12 +1464,11 @@
     - api
     - mcp
   interfaces:
-    - mcp-server
-  deployment: cloud
-  source_model: not specified
+    - mcp
+  deployment: hosted
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes a remote MCP endpoint and npm package; exposes web search, code search, crawling, and research tools. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1563,12 +1493,11 @@
   interfaces:
     - api
     - cli
-    - desktop-app
+    - desktop
   deployment: hybrid
-  source_model: not specified
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs cover Droid CLI, desktop app, and droid exec for automation. Public license not verified. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1595,12 +1524,11 @@
     - tracing
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Tracks hallucinations, jailbreaks, PII, drift, and LLM metrics with dashboards and alerts for generative and predictive models. confidence: high uncertain: true"
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1630,12 +1558,10 @@
     - tracing
   interfaces:
     - cli
-    - library
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses OpenTelemetry, OpenInference, Jaeger, Prometheus, and Grafana to provide production-grade observability for GraphRAG-based RAG pipelines. confidence: medium uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1665,12 +1591,11 @@
     - tracing
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides agent tracing, semantic quality metrics, eval-to-guardrail lifecycle, and framework-agnostic OpenTelemetry-based integration. confidence: high uncertain: true"
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1697,12 +1622,11 @@
     - terminal-agent
   interfaces:
     - cli
-    - mcp-client
+    - mcp
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs state Gemini CLI is an open-source AI agent for the terminal with MCP support. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1726,12 +1650,11 @@
     - repo-editing
   interfaces:
     - github-app
-    - ide-extension
-  deployment: cloud
-  source_model: not specified
+    - ide
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs found for IDE agent mode and GitHub code review. Public license not verified. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1775,12 +1698,11 @@
     - github
     - mcp
   interfaces:
-    - mcp-server
+    - mcp
   deployment: hybrid
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers remote access through GitHub Copilot and local usage through Docker or VS Code. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1797,12 +1719,11 @@
     - database
     - mcp
   interfaces:
-    - mcp-server
-  deployment: cloud
-  source_model: not specified
+    - mcp
+  deployment: hosted
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes GA and preview MCP servers for Google Cloud and related services. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1828,12 +1749,11 @@
   interfaces:
     - api
     - cli
-    - desktop-app
+    - desktop
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: General-purpose product, but official docs cover code task automation, testing, and MCP. confidence: medium uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1858,12 +1778,11 @@
     - rag
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides GenAI Observability dashboard for LLM apps with request monitoring, token usage, cost analysis, and error tracking. confidence: medium uncertain: true"
+    - web
+  deployment: hosted
+  source_model: open-source
+  license: AGPL-3.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1892,10 +1811,10 @@
     - cli
     - template
   deployment: local
-  source_model: not specified
-  license: unknown
+  source_model: open-source
+  license: MIT
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: CLI manages a pre-defined local LLM stack, abstracting Docker Compose for Open WebUI and Ollama.[web:241] confidence: low uncertain: true"
+  review_notes: GitHub repo harbor-ai/harbor returns 404; verify correct repo URL.
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1919,10 +1838,9 @@
   interfaces:
     - skill-pack
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes 30+ skills covering a11y audit, architecture audit, atomic commits, diagnose, fortify, and safe-repo. License not verified. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1953,13 +1871,11 @@
     - tracing
   interfaces:
     - api
-    - library
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Proxy-based logging for OpenAI-style APIs with sessions, traces, cost metrics, prompt management, and evaluations on open-source or hosted deployments. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1986,12 +1902,11 @@
     - tracing
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Built for platform and SRE teams to debug opaque GenAI pipelines, control token costs, and correlate AI telemetry with infrastructure. confidence: medium uncertain: true"
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2015,10 +1930,9 @@
     - library
     - skill-pack
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides stacktrace-like debugging for agent behavior failures. License not verified. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -2049,10 +1963,10 @@
     - framework
     - web-app
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
+  source_model: open-source
+  license: MIT
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Repository includes infra/docker compose files for running Jan as a self-hosted multi-agent platform.[web:232] confidence: medium uncertain: true"
+  review_notes: GitHub repo janhq/server returns 404; verify correct repo URL.
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2075,12 +1989,11 @@
     - testing
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs verify GitHub integration and public API; public license not verified. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -2108,12 +2021,11 @@
     - testing
   interfaces:
     - cli
-    - ide-extension
+    - ide
   deployment: hybrid
-  source_model: not specified
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official website, docs, and repo found. Public licensing for the full product was not clearly verified. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -2141,12 +2053,11 @@
     - tracing
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Tracks token usage, latency, and workflows with an SDK; integrates with tools like cognee and Mem0 for semantic pipelines and memory observability. confidence: medium uncertain: true"
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2205,13 +2116,11 @@
     - tracing
   interfaces:
     - api
-    - library
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides end-to-end tracing, execution visualization, cost and latency tracking, and production-grounded evals for LangChain-based agents. confidence: high uncertain: true"
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2244,13 +2153,11 @@
     - tracing
   interfaces:
     - api
-    - library
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
+  source_model: open-source
   license: AGPL-3.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides SDKs and dashboard for OpenTelemetry traces from LLM apps, focusing on usage, accuracy, latency, and cost metrics. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2284,13 +2191,11 @@
     - tracing
   interfaces:
     - api
-    - library
-    - web-app
+    - web
   deployment: hybrid
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Open-source LLMOps platform that provides traces, spans, RAG breakdowns, cost tracking, and guardrails for agent workflows. confidence: high uncertain: true"
+  source_model: source-available
+  license: BSL-1.1
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2322,10 +2227,10 @@
     - cli
     - template
   deployment: self-hosted
-  source_model: not specified
+  source_model: open-source
   license: unknown
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Tutorial provides full Compose YAML for a multi-service AI dev environment with observability and workflow tooling.[web:238] confidence: medium uncertain: true"
+  review_notes: Blog post entry; low quality signal — consider removing.
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2347,13 +2252,11 @@
     - open-source
     - self-hosted
   interfaces:
-    - template
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Project focuses on deploying Ollama with Ollama-webui via Compose, giving a basic local LLM stack.[web:187] confidence: medium uncertain: true"
+  source_model: source-available
+  license: NOASSERTION
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2387,9 +2290,9 @@
     - web-app
   deployment: self-hosted
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Compose stack integrating AnythingLLM, Flowise, Open WebUI, n8n, Qdrant, and Ollama for a complete local AI workbench.[web:234] confidence: high uncertain: true"
+  review_notes: Repo exists but has no license file; verify before promoting.
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2414,10 +2317,10 @@
     - template
     - web-app
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: unknown
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides Compose YAML for a GPU-accelerated local AI environment with Ollama and Open WebUI.[web:235] confidence: medium uncertain: true"
+  review_notes: GitHub Gist entry; low quality signal — consider removing.
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2450,10 +2353,10 @@
     - library
     - web-app
   deployment: hybrid
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Tracks conversations, feedback, costs, and traces for LLM chatbots with self-hostable stack and hosted cloud offering. confidence: high uncertain: true"
+  review_notes: GitHub repo lunary-ai/lunary returns 404; verify correct repo URL.
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2465,6 +2368,7 @@
   name: Mastra Observability
   description: Observability module in Mastra for tracing, monitoring, and evaluating LLM agents and workflows via OpenTelemetry.
   website_url: https://mastra.ai
+  repo_url: https://github.com/mastra-ai/mastra
   docs_url: https://mastra.ai/docs/observability
   categories:
     - agent-observability
@@ -2483,13 +2387,11 @@
     - tracing
   interfaces:
     - api
-    - library
-    - web-app
+    - web
   deployment: hybrid
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Decorators capture LLM calls, agent decision paths, tool invocations, and export telemetry to OpenTelemetry-compatible platforms like PostHog. confidence: medium uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2522,13 +2424,11 @@
     - tracing
   interfaces:
     - api
-    - library
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides prompt testing, simulation, multi-agent workflow observability, and integrations via plugins and SDKs for AI gateways. confidence: high uncertain: true"
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2550,10 +2450,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Formerly DXT/Desktop Extensions; creates installable .mcpb bundles for local MCP servers. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -2597,14 +2496,11 @@
     - mcp
     - open-source
   interfaces:
-    - mcp-server
-    - skill-pack
-    - template
+    - mcp
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes 132 skills, plugins for deep-wiki and azure-skills, and MCP server reference configs. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -2633,13 +2529,11 @@
   interfaces:
     - api
     - cli
-    - library
-    - web-app
+    - web
   deployment: hybrid
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Adds LLM trace capture, evaluation, and TruLens-based agent trace scorers on top of MLflow tracking for AI applications. confidence: medium uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2670,12 +2564,10 @@
     - tracing
   interfaces:
     - api
-    - library
   deployment: local
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Community-driven OSS for tracing GenAI applications, emitting traces compatible with cloud-native observability stacks. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2694,12 +2586,11 @@
     - devtools
     - mcp
   interfaces:
-    - mcp-server
+    - mcp
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides Next.js logs, errors, environment data, and development utilities through an npx-based MCP server. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -2726,12 +2617,11 @@
   interfaces:
     - api
     - cli
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides Docker Compose one-command setup with RAG, semantic search, OpenAI-compatible APIs, multi-tenancy, and document ingestion.[web:213] confidence: high uncertain: true"
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2757,13 +2647,11 @@
     - workflow-automation
   interfaces:
     - cli
-    - template
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: One-command installer provisions Docker, Docker Compose, and a preconfigured Nosia RAG stack.[web:213] confidence: medium uncertain: true"
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2786,12 +2674,11 @@
     - tracing
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Captures hierarchical traces for AI pipelines, including RAG retrieval context and tool calls, aimed at production agent monitoring. confidence: medium uncertain: true"
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2821,10 +2708,10 @@
     - api
     - web-app
   deployment: cloud
-  source_model: not specified
-  license: unknown
+  source_model: open-source
+  license: Apache-2.0
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Focuses on observability, validations, and evaluations for AI workloads, contributing to Monocle and offering developer tools for agent debugging. confidence: medium uncertain: true"
+  review_notes: GitHub repo okahu-demos is an org, not a specific repo; verify URL.
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2851,10 +2738,10 @@
     - template
     - web-app
   deployment: self-hosted
-  source_model: not specified
+  source_model: open-source
   license: unknown
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Multiple guides and examples show Compose files running Ollama plus Open WebUI as a small self-hosted AI stack.[web:214][web:209][web:215][web:218] confidence: medium uncertain: true"
+  review_notes: Tutorial blog entry; low quality signal — consider removing.
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2885,13 +2772,12 @@
     - workflow-automation
   interfaces:
     - api
-    - mcp-server
-    - web-app
+    - mcp
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes Docker-based installer and supports both cloud and self-hosted LLM backends with agents, RAG, and MCP integration.[web:239] confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2919,13 +2805,11 @@
     - self-hosted
   interfaces:
     - api
-    - template
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Docs provide Compose examples and emphasize self-hosted platform capabilities beyond a simple UI.[web:217][web:215] confidence: high uncertain: true"
+  source_model: source-available
+  license: NOASSERTION
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2980,12 +2864,11 @@
     - tracing
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Dashboard logs, traces, and grades agent workflows with graders, datasets, and eval runs integrated into the OpenAI platform. confidence: high uncertain: true"
+    - web
+  deployment: hosted
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3015,15 +2898,14 @@
     - terminal-agent
   interfaces:
     - cli
-    - desktop-app
+    - desktop
     - github-app
-    - ide-extension
-    - mcp-client
+    - ide
+    - mcp
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official site, docs, and repo found. Docs cover GitHub automation and MCP servers. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3049,13 +2931,11 @@
   interfaces:
     - api
     - cli
-    - library
-    - web-app
+    - web
   deployment: hybrid
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Core MIT license and official docs verify local GUI, CLI, SDK, and OpenHands Cloud. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3084,10 +2964,9 @@
   interfaces:
     - library
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Defines semantic conventions and provides instrumentations for OpenAI, agents, LangChain, LlamaIndex, DSPy, Bedrock, MCP, and more. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3122,13 +3001,11 @@
   interfaces:
     - api
     - cli
-    - library
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers OpenTelemetry-native monitoring for LLMs, vector databases, and GPUs with zero-code auto-instrumentation and multiple telemetry destinations. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3158,12 +3035,11 @@
     - tracing
   interfaces:
     - api
-    - web-app
+    - web
   deployment: hybrid
-  source_model: not specified
+  source_model: open-source
   license: AGPL-3.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides OpenTelemetry-native LLM trace ingestion, dashboards, alerts, and correlation with infrastructure metrics in one stack. confidence: medium uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3193,13 +3069,11 @@
     - workflow-automation
   interfaces:
     - api
-    - template
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Containerized agentic search platform bundling workflow orchestration, document parsing, and OpenSearch into a ready-to-run stack.[web:216] confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3229,10 +3103,9 @@
   interfaces:
     - library
   deployment: local
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides decorators and auto-configuration to emit GenAI semantic OTEL traces for LLM apps into OpenSearch-based observability pipeline. confidence: medium uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3261,13 +3134,11 @@
   interfaces:
     - api
     - cli
-    - framework
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Targets organizations hosting open-source models on their own infrastructure; repo includes deployment configuration.[web:230] confidence: medium uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3292,10 +3163,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official website says Plandex Cloud is being retired; this entry refers to the open-source CLI. confidence: medium uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3314,12 +3184,11 @@
     - devtools
     - mcp
   interfaces:
-    - mcp-client
+    - mcp
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Metadata and official status are weakly supported; review before importing. confidence: low uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3337,12 +3206,11 @@
     - browser-automation
     - mcp
   interfaces:
-    - mcp-server
+    - mcp
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Works with VS Code, Cursor, Windsurf, Claude Desktop, and other MCP clients without requiring vision models. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3368,14 +3236,11 @@
     - workflow-automation
   interfaces:
     - cli
-    - framework
-    - template
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Installer script provisions Docker, network, and services; positions itself as self-hosted AI platform engineer.[web:229] confidence: medium uncertain: true"
+  source_model: open-source
+  license: AGPL-3.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3403,13 +3268,11 @@
     - tracing
   interfaces:
     - api
-    - library
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Models LLM activity as traces and spans with session grouping, capturing prompts, generations, and custom spans for AI workflows. confidence: high uncertain: true"
+    - web
+  deployment: hosted
+  source_model: source-available
+  license: NOASSERTION
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3436,10 +3299,9 @@
     - skill-pack
     - template
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Organized into migration and authoring plugin groups. Works with Claude Code, Copilot, Cursor, Codex, and Gemini. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3462,12 +3324,11 @@
     - testing
   interfaces:
     - github-app
-    - ide-extension
-  deployment: cloud
-  source_model: not specified
+    - ide
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs found for Qodo IDE and review agent behavior. Public license not verified. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3492,10 +3353,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official repo found and category fit is strong for terminal-based repo work. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3524,9 +3384,9 @@
     - web-app
   deployment: self-hosted
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides CPU and GPU compose files for a full RAG stack with vector DB, embeddings, and UI.[web:204] confidence: high uncertain: true"
+  review_notes: Repo exists but has no license file; verify before promoting.
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3554,12 +3414,10 @@
   interfaces:
     - api
     - cli
-    - template
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Compose stack creates services for Redis, Ollama, FastAPI gateway, and RQ worker for embeddings and retrieval.[web:196] confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3569,6 +3427,7 @@
   name: Refact.ai
   description: Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks.
   website_url: https://refact.ai/
+  repo_url: https://github.com/smallcloudai/refact-vscode
   docs_url: https://docs.refact.ai/
   categories:
     - coding-agents
@@ -3586,13 +3445,12 @@
     - self-hosted
     - testing
   interfaces:
-    - ide-extension
-    - web-app
+    - ide
+    - web
   deployment: hybrid
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official site and docs found. On-prem and SaaS deployment are mentioned; public license not verified. confidence: high uncertain: true"
+  source_model: source-available
+  license: NOASSERTION
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3619,12 +3477,11 @@
     - rag
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides observability, evaluations, and prompt workflows within a single LLM engineering platform; specific tracing implementation details not fully documented. confidence: low uncertain: true"
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3650,13 +3507,12 @@
     - repo-editing
   interfaces:
     - cli
-    - ide-extension
-    - web-app
+    - ide
+    - web
   deployment: hybrid
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs cover local VS Code workflows and autonomous cloud agents. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3677,12 +3533,10 @@
     - open-source
   interfaces:
     - cli
-    - skill-pack
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports Homebrew and Go installation. License not verified in snippet. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3702,12 +3556,10 @@
     - open-source
   interfaces:
     - cli
-    - skill-pack
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports rendering rules to Cursor, Continue, Windsurf, Claude, Copilot, Codex, Cline, and Cody formats. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3732,13 +3584,10 @@
     - workflow-automation
   interfaces:
     - cli
-    - framework
-    - template
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses Terraform, Kubernetes, Ray, and LangGraph to define a full self-hosted agentic RAG system; includes docker-compose.yml for local phases.[web:240] confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3767,13 +3616,11 @@
     - workflow-automation
   interfaces:
     - api
-    - template
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Compose-based stack combining multiple AI services including Ollama, n8n, Supabase, Open WebUI, Flowise, Neo4j, and Langfuse.[web:180][web:206][web:195] confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3804,13 +3651,11 @@
   interfaces:
     - api
     - cli
-    - template
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Open Docker Compose template for a local AI and low-code environment including n8n, Ollama, Qdrant, PostgreSQL, and more.[web:192][web:228][web:195] confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3827,12 +3672,11 @@
     - api
     - mcp
   interfaces:
-    - mcp-server
-  deployment: cloud
-  source_model: not specified
+    - mcp
+  deployment: hosted
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official source and current maintenance status were not fully verified. confidence: low uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3850,12 +3694,11 @@
     - database
     - mcp
   interfaces:
-    - mcp-server
-  deployment: cloud
-  source_model: not specified
+    - mcp
+  deployment: hosted
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Exposes Supabase project management, table operations, configuration, and SQL tools through MCP. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3876,10 +3719,9 @@
   interfaces:
     - skill-pack
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Available via superpowers-marketplace plugin. Includes systematic-debugging and brainstorming skills. License not verified. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3901,10 +3743,9 @@
   interfaces:
     - skill-pack
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Experimental skills including finding-duplicate-functions, mcp-cli, and using-tmux-for-interactive-commands. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3926,10 +3767,9 @@
     - framework
     - skill-pack
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses subagents for parallel task execution. Requires enabling multi_agents feature in Codex config. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3953,12 +3793,10 @@
     - testing
   interfaces:
     - cli
-    - framework
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Active project with official docs and repo; oriented toward resolving real repository issues. confidence: high uncertain: false"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -3969,6 +3807,7 @@
   name: Sweep
   description: JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration.
   website_url: https://sweep.dev/
+  repo_url: https://github.com/sweepai/sweep
   docs_url: https://docs.sweep.dev/
   categories:
     - ai-code-review-tools
@@ -3983,12 +3822,11 @@
     - mcp
     - repo-editing
   interfaces:
-    - ide-extension
+    - ide
   deployment: hybrid
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official docs found for Agent, AI Code Review, and MCP servers. Public license not verified. confidence: high uncertain: true"
+  source_model: source-available
+  license: NOASSERTION
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -4018,13 +3856,11 @@
     - workflow-automation
   interfaces:
     - api
-    - template
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: API-first AI infrastructure advertised as deployable in minutes using Docker Compose with local LLM inference.[web:224] confidence: medium uncertain: true"
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4048,12 +3884,11 @@
     - self-hosted
   interfaces:
     - api
-    - ide-extension
+    - ide
   deployment: self-hosted
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official website and repo found. Open-source and self-hosted positioning are clear; public license was not verified from gathered sources. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -4084,12 +3919,10 @@
     - tracing
   interfaces:
     - api
-    - library
   deployment: local
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides OpenTelemetry-based instrumentations and an SDK for LLM providers and vector DBs, emitting standard traces to many observability tools. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4122,13 +3955,11 @@
     - tool-calling
     - tracing
   interfaces:
-    - library
-    - web-app
+    - web
   deployment: local
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Combines OpenTelemetry-based tracing with LLM feedback functions to evaluate multi-agent workflows, RAG pipelines, and agent trajectories. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4159,9 +3990,9 @@
     - library
   deployment: cloud
   source_model: not specified
-  license: unknown
+  license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides SDK and proxy to capture LLM traces and route them to tools like LangSmith, Langfuse, Helicone, or custom OTEL collectors. confidence: medium uncertain: true"
+  review_notes: GitHub repo untrace-dev/untrace-sdk returns 404; verify correct repo URL.
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4190,13 +4021,11 @@
     - tracing
   interfaces:
     - api
-    - library
-    - web-app
+    - web
   deployment: hybrid
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Weave provides tracing, evaluation, and monitoring capabilities for LLM apps, integrated with W&B experiment tracking and production monitoring. confidence: medium uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4226,12 +4055,10 @@
     - tracing
   interfaces:
     - api
-    - library
   deployment: local
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Auto-instruments OpenAI and other LLM interactions to capture traces and monitoring signals for WhyLabs observability backend. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4254,12 +4081,11 @@
     - ide-assistant
     - repo-editing
   interfaces:
-    - desktop-app
+    - desktop
   deployment: hybrid
-  source_model: not specified
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official site and docs found. MCP support and public license were not verified. confidence: medium uncertain: true"
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -4283,13 +4109,11 @@
     - self-hosted
     - vector-database
   interfaces:
-    - template
-    - web-app
+    - web
   deployment: self-hosted
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Docker Compose defines LLM (Ollama), vector DB (Qdrant), and Streamlit UI for a local RAG stack.[web:202] confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4312,13 +4136,10 @@
     - plugins
   interfaces:
     - cli
-    - framework
-    - skill-pack
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: 80 focused plugins with granular single-purpose design and progressive disclosure. License not verified. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -4340,13 +4161,12 @@
     - open-source
     - repo-editing
   interfaces:
-    - desktop-app
-    - mcp-client
+    - desktop
+    - mcp
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official repo and release notes show built-in agent features and MCP support. Licensing appears mixed in the repo. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -4368,12 +4188,11 @@
     - tool-calling
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
-  license: unknown
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides continuous discovery of AI agents, behavioral metadata, and relationship mapping rather than deep span-level tracing. confidence: medium uncertain: true"
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
