@@ -24,6 +24,65 @@ body:
       description: One neutral sentence. Do not use rankings or hype.
     validations:
       required: true
+  - type: input
+    id: suggested-category
+    attributes:
+      label: Suggested category
+      description: Closest shelf from data/categories.yml, if known.
+    validations:
+      required: false
+  - type: dropdown
+    id: interface
+    attributes:
+      label: Primary interface
+      description: How developers mainly use this tool.
+      options:
+        - CLI
+        - IDE/editor
+        - Web app
+        - API
+        - MCP
+        - Library/framework
+        - Desktop app
+        - Other / not specified
+    validations:
+      required: false
+  - type: dropdown
+    id: deployment
+    attributes:
+      label: Deployment model
+      description: Where the tool primarily runs.
+      options:
+        - hosted
+        - local
+        - self-hosted
+        - hybrid
+        - not specified
+    validations:
+      required: false
+  - type: dropdown
+    id: source-model
+    attributes:
+      label: Source model
+      description: Mark uncertain values conservatively.
+      options:
+        - open-source
+        - source-available
+        - proprietary
+        - not specified
+    validations:
+      required: false
+  - type: dropdown
+    id: mcp-support
+    attributes:
+      label: MCP support
+      description: Whether the tool supports Model Context Protocol.
+      options:
+        - "yes"
+        - "no"
+        - not specified
+    validations:
+      required: false
   - type: textarea
     id: sources
     attributes:
