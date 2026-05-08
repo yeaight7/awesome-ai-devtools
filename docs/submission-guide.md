@@ -22,6 +22,7 @@ The easiest useful contribution is one tool addition or one factual update.
 
 - `repo_url`: official source repository.
 - `docs_url`: official documentation.
+- `primary_category`: the main shelf for README display. Required for reviewed tools that belong to more than one category. Must be one of the slugs already in `categories`. Use the category that best represents the tool's primary workflow (e.g., a coding agent that also does code review should use `coding-agents`, not `ai-code-review-tools`).
 
 ## Before Opening A PR
 
