@@ -42,7 +42,7 @@ const INTENT_GROUPS = [
 const START_HERE_GROUPS = [
   {
     heading: "Agent skills and plugins",
-    slugs: ["agent-powerups", "agent-skills", "claude-skills", "anthropic-skills", "cursor-rules"]
+    slugs: ["agent-powerups", "agent-skills", "claude-skills", "anthropic-skills", "superpowers"]
   },
   {
     heading: "Open-source coding agents",
