@@ -10,7 +10,7 @@
 4. Use existing `categories` and `tags` when they fit.
 5. Use `not specified` rather than guessing uncertain metadata.
 6. If a reviewed tool belongs to more than one category, set `primary_category` to the slug that best represents its primary workflow.
-6. Run:
+7. Run:
 
 ```bash
 npm install
