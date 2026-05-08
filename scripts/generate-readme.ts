@@ -259,13 +259,27 @@ function renderReviewQueueRow(tool: Tool, orderedCategories: Category[]): string
   ].join(" | ");
 }
 
-function renderLinks(tool: Tool): string {
-  const links = [
-    `[Website](${tool.website_url})`,
-    tool.docs_url ? `[Docs](${tool.docs_url})` : undefined,
-    tool.repo_url ? `[Repo](${tool.repo_url})` : undefined
-  ].filter(Boolean);
+function normalizeUrl(url: string): string {
+  return url.trim().replace(/\/+$/, "");
+}
 
+function renderLinks(tool: Tool): string {
+  const websiteNorm = normalizeUrl(tool.website_url);
+  const repoNorm = tool.repo_url ? normalizeUrl(tool.repo_url) : null;
+  const docsNorm = tool.docs_url ? normalizeUrl(tool.docs_url) : null;
+
+  const websiteDuplicated = (repoNorm !== null && websiteNorm === repoNorm) || (docsNorm !== null && websiteNorm === docsNorm);
+
+  const links: string[] = [];
+  if (!websiteDuplicated) {
+    links.push(`[Website](${tool.website_url})`);
+  }
+  if (docsNorm !== null && docsNorm !== websiteNorm && (repoNorm === null || docsNorm !== repoNorm)) {
+    links.push(`[Docs](${tool.docs_url})`);
+  }
+  if (repoNorm !== null) {
+    links.push(`[Repo](${tool.repo_url})`);
+  }
   return links.join(" / ");
 }
 
@@ -311,6 +325,11 @@ function matrixScore(tool: Tool): number {
 }
 
 function mainShelf(tool: Tool, orderedCategories: Category[]): string {
+  const primarySlug = tool.primary_category;
+  if (primarySlug) {
+    const primary = orderedCategories.find((cat) => cat.slug === primarySlug);
+    if (primary) return primary.name;
+  }
   const match = orderedCategories.find((cat) => tool.categories.includes(cat.slug));
   return match?.name ?? titleize(tool.categories[0] ?? "not specified");
 }
