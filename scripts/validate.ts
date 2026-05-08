@@ -21,6 +21,14 @@ import {
 const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const TOOL_DESCRIPTION_MIN = 40;
 const TOOL_DESCRIPTION_MAX = 180;
+const KNOWN_EVIDENCE_HOSTS = new Set([
+  "arxiv.org",
+  "crates.io",
+  "marketplace.visualstudio.com",
+  "npmjs.com",
+  "pkg.go.dev",
+  "pypi.org"
+]);
 
 export interface ValidationOptions {
   readmeContent?: string;
@@ -32,10 +40,12 @@ export interface ValidationOptions {
 export interface ValidationResult {
   ok: boolean;
   errors: string[];
+  warnings: string[];
 }
 
 export function validateCatalog(catalog: CatalogData, options: ValidationOptions = {}): ValidationResult {
   const errors: string[] = [];
+  const warnings: string[] = [];
   const checkGeneratedReadme = options.checkGeneratedReadme ?? true;
   const checkSorted = options.checkSorted ?? true;
   const categories = slugItemMap(catalog.categories);
@@ -56,7 +66,7 @@ export function validateCatalog(catalog: CatalogData, options: ValidationOptions
   }
 
   for (const tool of catalog.tools) {
-    validateTool(tool, categories, tags, errors);
+    validateTool(tool, categories, tags, errors, warnings);
   }
 
   if (checkSorted && options.toolsFileContent !== undefined) {
@@ -75,7 +85,8 @@ export function validateCatalog(catalog: CatalogData, options: ValidationOptions
 
   return {
     ok: errors.length === 0,
-    errors
+    errors,
+    warnings
   };
 }
 
@@ -83,7 +94,8 @@ function validateTool(
   tool: Tool,
   categories: Map<string, { slug: string }>,
   tags: Map<string, { slug: string }>,
-  errors: string[]
+  errors: string[],
+  warnings: string[]
 ): void {
   const label = `tool ${tool.slug ?? "<missing slug>"}`;
 
@@ -97,6 +109,9 @@ function validateTool(
   validateRequiredString(label, "curation_status", tool.curation_status, errors);
   validateRequiredString(label, "added", tool.added, errors);
   validateRequiredString(label, "last_checked", tool.last_checked, errors);
+  validateNotUnknown(label, "deployment", tool.deployment, errors);
+  validateNotUnknown(label, "source_model", tool.source_model, errors);
+  validateNotUnknown(label, "license", tool.license, errors);
 
   if (tool.slug && !SLUG_PATTERN.test(tool.slug)) {
     errors.push(`${label}: slug must match ${SLUG_PATTERN}.`);
@@ -137,6 +152,10 @@ function validateTool(
   validateStringArray(label, "sources", tool.sources, errors);
   for (const source of stringItems(tool.sources)) {
     validateUrl(label, "sources", source, errors);
+  }
+
+  if (tool.curation_status === "reviewed") {
+    validateReviewedSourceHosts(tool, label, warnings);
   }
 }
 
@@ -201,6 +220,12 @@ function validateRequiredString(label: string, field: string, value: unknown, er
   }
 }
 
+function validateNotUnknown(label: string, field: string, value: unknown, errors: string[]): void {
+  if (typeof value === "string" && value.trim().toLowerCase() === "unknown") {
+    errors.push(`${label}: ${field} must use "not specified" instead of "unknown".`);
+  }
+}
+
 function validateStringArray(label: string, field: string, value: unknown, errors: string[]): void {
   if (!Array.isArray(value) || value.length === 0 || value.some((item) => typeof item !== "string" || item.trim() === "")) {
     errors.push(`${label}: ${field} must be a non-empty array of strings.`);
@@ -222,6 +247,33 @@ function validateOptionalUrl(label: string, field: string, value: unknown, error
 function validateDate(label: string, field: string, value: unknown, errors: string[]): void {
   if (typeof value !== "string" || !isValidDate(value)) {
     errors.push(`${label}: ${field} must be a valid YYYY-MM-DD date.`);
+  }
+}
+
+function validateReviewedSourceHosts(tool: Tool, label: string, warnings: string[]): void {
+  const officialHosts = new Set(
+    [tool.website_url, tool.docs_url, tool.repo_url]
+      .filter((value): value is string => typeof value === "string")
+      .map(registrableHost)
+      .filter((value) => value !== "")
+  );
+
+  for (const source of stringItems(tool.sources)) {
+    const sourceHost = registrableHost(source);
+    if (sourceHost === "" || officialHosts.has(sourceHost) || KNOWN_EVIDENCE_HOSTS.has(sourceHost)) {
+      continue;
+    }
+    warnings.push(`${label}: source host "${sourceHost}" is not an official website, docs, repo, or known package/evidence host.`);
+  }
+}
+
+function registrableHost(value: string): string {
+  try {
+    const host = new URL(value).hostname.toLowerCase().replace(/^www\./, "");
+    const parts = host.split(".");
+    return parts.length >= 2 ? parts.slice(-2).join(".") : host;
+  } catch {
+    return "";
   }
 }
 
