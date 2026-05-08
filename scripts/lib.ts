@@ -3,14 +3,18 @@ import { join } from "node:path";
 import YAML from "yaml";
 
 export const INTERFACE_TYPES = [
-  "cli",
-  "ide",
-  "web",
-  "desktop",
   "api",
+  "browser",
+  "cli",
+  "desktop",
+  "framework",
   "github-app",
+  "ide",
+  "library",
   "mcp",
-  "browser"
+  "skill-pack",
+  "template",
+  "web"
 ] as const;
 
 export const DEPLOYMENT_TYPES = ["hosted", "local", "self-hosted", "hybrid", "not specified"] as const;
