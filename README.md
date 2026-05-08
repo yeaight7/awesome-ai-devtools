@@ -21,7 +21,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 ### Agent skills and plugins
 
 - [Agent Powerups](https://github.com/yeaight7/agent-powerups) - Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents.
-- [Agent Skills](https://github.com/datalayer/agent-skills) - Python package to create, manage, and execute reusable code-based tool compositions for AI agents with MCP integration.
+- [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) - Agent harness performance system with skills, hooks, MCP configs, memory optimization, and cross-harness workflows.
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - Repository of 232+ Claude Code skills and agent plugins convertible to 12 AI coding tools including Codex, Cursor, and Windsurf.
 - [Anthropic Skills](https://github.com/anthropics/skills) - Official public repository of Agent Skills for Claude demonstrating creative, technical, and enterprise workflow patterns.
 - [Superpowers](https://github.com/obra/superpowers) - Core skills library for Claude Code with TDD, debugging, collaboration patterns, and systematic problem-solving techniques.
@@ -93,7 +93,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Agent Powerups](https://github.com/yeaight7/agent-powerups) | Agent skill packs | Yes | No | No | Yes | No | Yes | [Website](https://github.com/yeaight7/agent-powerups) / [Repo](https://github.com/yeaight7/agent-powerups) |
-| [Agent Skills](https://github.com/datalayer/agent-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Website](https://github.com/datalayer/agent-skills) / [Repo](https://github.com/datalayer/agent-skills) |
+| [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) | Agent skill packs | Yes | Yes | No | Yes | No | Yes | [Website](https://github.com/affaan-m/everything-claude-code) / [Docs](https://github.com/affaan-m/everything-claude-code#readme) / [Repo](https://github.com/affaan-m/everything-claude-code) |
 | [Claude Skills](https://github.com/alirezarezvani/claude-skills) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Website](https://github.com/alirezarezvani/claude-skills) / [Repo](https://github.com/alirezarezvani/claude-skills) |
 | [Anthropic Skills](https://github.com/anthropics/skills) | Agent skill packs | Yes | Yes | No | No | No | No | [Website](https://github.com/anthropics/skills) / [Repo](https://github.com/anthropics/skills) |
 | [Superpowers](https://github.com/obra/superpowers) | Agent skill packs | Yes | Yes | No | No | No | No | [Website](https://github.com/obra/superpowers) / [Repo](https://github.com/obra/superpowers) |
@@ -122,7 +122,6 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 | [LocalAI](https://localai.io) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://localai.io) / [Docs](https://localai.io/docs) / [Repo](https://github.com/go-skynet/LocalAI) |
 | [vLLM](https://vllm.ai) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Website](https://vllm.ai) / [Docs](https://docs.vllm.ai/en/stable/serving/openai_compatible_server.html) / [Repo](https://github.com/vllm-project/vllm) |
 | [Athenaeum](https://github.com/herakles-dev/athenaeum#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | Yes | [Website](https://github.com/herakles-dev/athenaeum#readme) / [Docs](https://github.com/herakles-dev/athenaeum#readme) / [Repo](https://github.com/herakles-dev/athenaeum) |
-| [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) | Agent skill packs | Yes | Yes | No | Yes | No | Yes | [Website](https://github.com/affaan-m/everything-claude-code) / [Docs](https://github.com/affaan-m/everything-claude-code#readme) / [Repo](https://github.com/affaan-m/everything-claude-code) |
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Website](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
 | [Goose](https://goose-docs.ai/) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Website](https://goose-docs.ai/) / [Docs](https://goose-docs.ai/docs/quickstart/) / [Repo](https://github.com/aaif-goose/goose) |
 | [KoboldCpp](https://koboldcpp.com) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://koboldcpp.com) / [Docs](https://github.com/LostRuins/koboldcpp/wiki) / [Repo](https://github.com/LostRuins/koboldcpp) |
@@ -136,6 +135,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 | [Nosia](https://nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://nosia.ai) / [Docs](https://nosia.ai/readme/) |
 | [Nosia Installer Stack](https://get.nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://get.nosia.ai) / [Docs](https://nosia.ai/readme/) |
 | [Roo Code](https://roocode.com/) | Coding agents | Yes | No | No | Yes | Yes | Yes | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
+| [Agent Skills](https://github.com/datalayer/agent-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Website](https://github.com/datalayer/agent-skills) / [Repo](https://github.com/datalayer/agent-skills) |
 | [AgentSkills MCP](https://github.com/zouyingcao/agentskills-mcp) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Website](https://github.com/zouyingcao/agentskills-mcp) / [Repo](https://github.com/zouyingcao/agentskills-mcp) |
 | [Anki MCP Server](https://ankimcp.ai) | MCP servers | Yes | Yes | No | No | No | Yes | [Website](https://ankimcp.ai) / [Repo](https://github.com/ankimcp/anki-mcp-server) |
 | [Anthropic Knowledge Work Plugins](https://github.com/anthropics/knowledge-work-plugins) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Website](https://github.com/anthropics/knowledge-work-plugins) / [Repo](https://github.com/anthropics/knowledge-work-plugins) |
