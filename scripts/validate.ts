@@ -19,6 +19,7 @@ import {
 } from "./lib.ts";
 
 const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const ARTIFACT_PATTERNS: RegExp[] = [/\[web:/, /filecite/, /<file_attachment/, /【/, /】/];
 const TOOL_DESCRIPTION_MIN = 40;
 const TOOL_DESCRIPTION_MAX = 180;
 const KNOWN_EVIDENCE_HOSTS = new Set([
@@ -123,6 +124,12 @@ function validateTool(
     );
   }
 
+  validateNoArtifacts(label, "name", tool.name, errors);
+  validateNoArtifacts(label, "description", tool.description, errors);
+  validateNoArtifacts(label, "website_url", tool.website_url, errors);
+  validateNoArtifacts(label, "docs_url", tool.docs_url, errors);
+  validateNoArtifacts(label, "repo_url", tool.repo_url, errors);
+
   validateUrl(label, "website_url", tool.website_url, errors);
   validateOptionalUrl(label, "repo_url", tool.repo_url, errors);
   validateOptionalUrl(label, "docs_url", tool.docs_url, errors);
@@ -214,6 +221,16 @@ function validateSlugSet(label: string, items: Array<{ slug?: string }>, errors:
   }
 }
 
+function validateNoArtifacts(label: string, field: string, value: unknown, errors: string[]): void {
+  if (typeof value !== "string") return;
+  for (const pattern of ARTIFACT_PATTERNS) {
+    if (pattern.test(value)) {
+      errors.push(`${label}: ${field} contains a research or citation artifact.`);
+      return;
+    }
+  }
+}
+
 function validateRequiredString(label: string, field: string, value: unknown, errors: string[]): void {
   if (typeof value !== "string" || value.trim() === "") {
     errors.push(`${label}: missing required ${field}.`);
@@ -295,10 +312,18 @@ if (isCliEntrypoint()) {
 
   if (!result.ok) {
     for (const error of result.errors) {
-      console.error(`- ${error}`);
+      console.error(`error: ${error}`);
     }
     process.exit(1);
   }
 
-  console.log("Validation passed.");
+  for (const warning of result.warnings) {
+    console.warn(`warning: ${warning}`);
+  }
+
+  if (result.warnings.length > 0) {
+    console.log(`Validation passed with ${result.warnings.length} warning(s).`);
+  } else {
+    console.log("Validation passed.");
+  }
 }
