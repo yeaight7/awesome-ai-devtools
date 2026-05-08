@@ -372,7 +372,7 @@ function anchorFor(value: string): string {
 }
 
 function escapeTable(value: string): string {
-  return escapeMarkdown(value).replace(/\|/g, "\\|");
+  return value.replace(/[\\|\[\]]/g, (match) => `\\${match}`);
 }
 
 function escapeMarkdown(value: string): string {
