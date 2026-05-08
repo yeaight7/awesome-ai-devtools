@@ -362,7 +362,6 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/divar-ir/ai-doc-gen
-    - https://www.libhunt.com/compare-ai-doc-gen-vs-agentUniverse
 - slug: ai-smart-doc-generator
   name: ai-smart-doc-generator
   description: Production-ready app that analyzes uploaded project archives and generates functional, technical, or architecture docs.
@@ -569,7 +568,6 @@
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
-    - https://aiagentstore.ai/ai-agent/anchor-browser
     - https://anchorbrowser.io
     - https://www.browserless.io/blog/browserless-vs-anchor-browser
 - slug: anki-mcp-server
@@ -1001,7 +999,6 @@
   sources:
     - https://autocodedocs.ai
     - https://dynamicbusiness.com/ai-tools/autocodedocs-ai-code-documentation.html
-    - https://www.eliteai.tools/tool/autocodedocs
 - slug: autogptq
   name: AutoGPTQ
   description: Python library for GPTQ weight-only quantization of Transformer language models for efficient local inference.
@@ -1380,7 +1377,6 @@
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
-    - https://aiagentstore.ai/ai-agent/browser-mcp
     - https://browsermcp.io
 - slug: browser-use
   name: Browser Use
@@ -2245,7 +2241,6 @@
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
-    - https://aitools.inc/tools/deepdocs
     - https://deepdocs.dev
     - https://deepdocs.dev/homepage/
 - slug: deepeval
@@ -2661,7 +2656,6 @@
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
-    - https://aitools.fyi/compare/docwhizz-vs-code-llama
     - https://www.docwhizz.com
 - slug: dotskills
   name: dotskills
@@ -5991,7 +5985,6 @@
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
-    - https://aiagentstore.ai/ai-agent/web-agent
     - https://github.com/xlang-ai/openagents
     - https://openagents.org
 - slug: openai-codex-cli
@@ -7688,8 +7681,6 @@
   last_checked: 2026-05-08
   sources:
     - https://stenography.dev
-    - https://theresanaiforthat.com/ai/stenography/
-    - https://www.toolscope.io/tools/stenography
 - slug: supabase-mcp-server
   name: Supabase MCP Server
   description: Official Supabase MCP server for connecting AI assistants to Supabase projects and database operations.
@@ -7959,7 +7950,6 @@
   last_checked: 2026-05-08
   sources:
     - http://github.com/reworkd/tarsier
-    - https://bestofai.com/article/github-reworkdtarsier-vision-utilities-for-web-interaction-agents
     - https://github.com/reworkd/tarsier
 - slug: text-generation-inference
   name: Text Generation Inference
@@ -8488,7 +8478,6 @@
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
-    - https://aiagentstore.ai/ai-agent/webvoyager
     - https://arxiv.org/html/2401.13919v4
     - https://github.com/MinorJerry/WebVoyager
 - slug: weights-biases-weave
