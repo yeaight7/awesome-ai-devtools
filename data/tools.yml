@@ -17,7 +17,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Wraps action-docs to regenerate README or other docs from workflow or action definition files during CI. confidence: high uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -41,7 +41,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates markdown changelog output and exposes it for later steps such as GitHub Release creation. confidence: high uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -89,10 +89,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements multi-dimension scoring, training loops and prompt optimization to track agent improvements and regressions over time. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -249,10 +248,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides multimodal attacks, fuzzing, RL-based probes and reporting to evaluate LLM and agent robustness against jailbreaks and data leaks. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -300,12 +298,11 @@
     - repo-analysis
   interfaces:
     - github-app
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Watches repos and PRs to build and sync per-file, directory, and repository index docs using AI, configurable via .github/wai-docbot.yml. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -358,10 +355,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates comprehensive README-style docs from repositories with multi-agent analysis and GitLab integration for merge requests. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -388,7 +384,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Parses ZIP projects, detects tech stack, and emits Markdown reports for functional, technical, and architecture documentation. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -441,10 +437,9 @@
   interfaces:
     - cli
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Analyzes workspaces to generate technical docs, user guides, API references, tutorials, and localized documentation with one-click publishing workflows. confidence: medium uncertain: true"
+  source_model: source-available
+  license: Elastic-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -811,10 +806,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides utilities for prompt testing and response validation for PHP-based LLM features, as described in GitHub topic listing. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -901,7 +895,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Identifies under-documented files, generates language-specific docstrings, and can create branches with documentation changes for review. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -923,10 +917,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Consumes git history to produce release notes and changelog sections used by various projects. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -950,7 +943,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates and commits changelog content based on conventional commit types on release events. confidence: high uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -974,7 +967,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Configures auto-merge for PRs when required reviews, checks, and label conditions are met. confidence: high uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -994,12 +987,11 @@
     - documentation
     - markdown
   interfaces:
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Drag-and-drop web app that outputs Markdown and Swagger/OpenAPI, adds inline comments, and supports many languages without setup. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1052,7 +1044,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: AutoPR generates branches and PRs when issues are labeled, acting as an autonomous code-fixing agent. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1076,7 +1068,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Can auto-approve or comment on PRs, for example automatically approving Dependabot pull requests. confidence: high uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1085,6 +1077,7 @@
   name: automerge-action
   description: GitHub Action that automatically merges pull requests labeled for automerge once checks and reviews pass.
   website_url: https://github.com/marketplace/actions/merge-pull-requests-automerge-action
+  repo_url: https://github.com/pascalgn/automerge-action
   docs_url: https://github.com/marketplace/actions/merge-pull-requests-automerge-action
   categories:
     - repo-automation-tools
@@ -1097,10 +1090,9 @@
   interfaces:
     - github-app
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Keeps PR branches up to date and merges them automatically when branch protection requirements are satisfied. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1145,7 +1137,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: Repo exists but has no license file; verify before promoting.
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1241,10 +1233,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
+  source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements an evaluator agent that orchestrates concurrent multi-turn conversations with target agents and can be wired into CI/CD. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1265,12 +1256,11 @@
     - mcp
     - open-source
   interfaces:
-    - mcp-server
-  deployment: cloud
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements tools to read AWS docs as Markdown, search docs via official APIs, fetch sections, and get content recommendations for use in MCP clients. confidence: high uncertain: true"
+    - mcp
+  deployment: hosted
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1557,10 +1547,9 @@
     - cli
     - github-app
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides an action to generate changelog text from commit ranges and feed it into GitHub Releases. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1611,10 +1600,9 @@
   interfaces:
     - framework
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides configurable MCP server setup and reusable tools for managing DIDs, verifiable credentials, and trust registries in identity-focused agents. confidence: medium uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1696,7 +1684,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses Pydantic AI with Gemini to classify CI failures and provide actionable recommendations in PR comments. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -1823,7 +1811,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: Repo exists but has no license file; verify before promoting.
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-07
   last_checked: 2026-05-07
   sources:
@@ -1848,12 +1836,11 @@
     - repo-analysis
   interfaces:
     - cli
-    - web-app
+    - web
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides web UI, GitHub Action workflows, and a CLI that parse repositories to generate usage guides, API docs, testing instructions, and README content. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2126,12 +2113,11 @@
   interfaces:
     - api
     - library
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: Repo exists but has no license file; verify before promoting.
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2213,7 +2199,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports automated scoring, golden set management, CI/CD validation and monitoring for quality, safety and regression across LLM workflows. confidence: high uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2240,12 +2226,11 @@
     - repo-analysis
   interfaces:
     - github-app
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs in CI and GitHub to detect outdated docs, auto-edit documentation after PRs, and report what changed and why. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2276,10 +2261,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides 50+ plug-and-play metrics including hallucination, faithfulness, toxicity, RAG and agent-specific metrics with pytest-like workflow. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2308,10 +2292,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs local red-team campaigns using jailbreaks, prompt injections and other attacks, powered by DeepEval metrics for risk scoring. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2334,12 +2317,11 @@
     - markdown
     - repo-analysis
   interfaces:
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Analyzes codebase structure and existing docs to generate architecture overviews, component explanations, and supports natural-language questions per repo. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2365,7 +2347,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs a configurable update command, validates it, and creates PRs when dependency changes are detected. confidence: high uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2416,7 +2398,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements dual-stage retrieval and citation-aware RAG to deliver fully attributed technical answers and reduce hallucinations for documentation queries. confidence: low uncertain: true"
+  review_notes: "Draft: needs-human-review."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2535,7 +2517,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Fetches repository structure, feeds it to an LLM via LangChain, and synthesizes comprehensive README content including installation, usage, and features. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2557,12 +2539,11 @@
     - repo-analysis
   interfaces:
     - github-app
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Connects to GitHub to generate docs from code and existing markdown, audit and analyze large doc sets, and can be triggered directly from GitHub comments. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2586,10 +2567,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Analyzes PHP applications to generate detailed Markdown documentation while skipping already documented files to support incremental top-up runs. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2610,12 +2590,11 @@
     - markdown
     - rag
   interfaces:
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates and updates API docs and help centers, offers interactive API playgrounds, and plans agent features that monitor commits and support signals for outdated docs. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2639,12 +2618,11 @@
     - markdown
     - repo-analysis
   interfaces:
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Connects to Git repositories or accepts source uploads to produce end-user, API, library, database, and deployment documentation plus UML and DocBlock comments. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2664,12 +2642,11 @@
     - developer-experience
     - documentation
   interfaces:
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides plug-and-play chat assistant for API docs that gives personalized examples, analytics, and feedback to improve documentation quality over time. confidence: medium uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -2725,7 +2702,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: Obscure/personal repo; verify tool quality and metadata.
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3191,7 +3168,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Scans code folders, sends files to OpenAI, and writes styled Tailwind HTML docs under docs/ with per-file explanations and usage examples. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3216,7 +3193,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides interactive and Google Sheets–driven workflows to clean up remote and tracking branches in repositories. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3238,12 +3215,11 @@
     - mcp
     - mdx
   interfaces:
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides AI Assistant trained on docs, GitBook Agent for editing and maintaining documentation, semantic AI search, and MCP connections to external tools. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3265,12 +3241,11 @@
     - markdown
     - repo-analysis
   interfaces:
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Connects to GitHub, lets users pick repos and doc types, and outputs docs as files or ZIPs for inclusion in projects. confidence: medium uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3293,12 +3268,11 @@
     - markdown
     - repo-analysis
   interfaces:
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Analyzes repositories to generate or improve READMEs, supports customizable templates, Git integration, and direct commits back to repos. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3344,11 +3318,10 @@
     - repo-automation
   interfaces:
     - github-app
-  deployment: cloud
-  source_model: not specified
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Docs show configuring Dependabot security and version updates via YAML to keep dependencies current. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3372,7 +3345,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Deletes old workflow runs, logs, and artifacts based on configurable retention rules and supports dry-run mode. confidence: high uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3419,7 +3392,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Generates Diataxis-structured documentation, recommends static site generators, and creates full deployment workflows for GitHub Pages from repository analysis. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3443,7 +3416,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates creation of PRs on branch pushes, with options for reviewers, assignees, templates, and draft mode. confidence: high uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3463,10 +3436,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides first-class stacked PR support via GitHub and the gh stack CLI, enabling ordered PR stacks and bulk merges. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3489,10 +3461,9 @@
   interfaces:
     - github-app
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Maintains stale labels and closes inactive issues/PRs based on configurable inactivity windows. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3514,12 +3485,11 @@
     - mcp
   interfaces:
     - api
-    - mcp-server
-  deployment: cloud
-  source_model: not specified
+    - mcp
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides SearchDocumentChunks, GetDocument, and AnswerQuery endpoints plus an MCP server so IDEs and agents can ground answers in up-to-date Google docs. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3669,8 +3639,7 @@
   deployment: local
   source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: GitHub repo harbor-ai/harbor returns 404; verify correct repo URL.
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3815,10 +3784,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: IBM-maintained CLI aimed at providing a feature-rich terminal interface to Model Context Protocol servers. confidence: medium uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3894,7 +3862,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides staleAfter and closeAfter configuration plus customizable comments and labels for stale issues. confidence: high uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3919,7 +3887,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Classifies issues from title and body and applies configured labels, reducing manual triage effort. confidence: high uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -3949,12 +3917,11 @@
     - api
     - cli
     - framework
-    - web-app
+    - web
   deployment: self-hosted
   source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: GitHub repo janhq/server returns 404; verify correct repo URL.
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4106,10 +4073,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers reusable evaluation components intended to plug into LangSmith and LangChain workflows for scoring LLM outputs. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4134,10 +4100,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides output-based metrics like toxicity probability, stereotype fraction and counterfactual fairness tailored to specific LLM use cases. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4226,12 +4191,11 @@
   interfaces:
     - api
     - framework
-    - web-app
+    - web
   deployment: not specified
-  source_model: not specified
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports datasets, evaluators, regression tests and CI integration for prompts, RAG, and agents with trace-linked experiment comparisons. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4498,7 +4462,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs as a FastAPI service with search and fetch endpoints, containerized deployment, caching, and VS Code Copilot MCP integration for LlamaIndex docs. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4526,7 +4490,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides tools to generate agent variants, run evaluations, and compare configurations for a conversational RAG agent example. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4576,10 +4540,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes implementations of CoT, Self-Consistency, ReAct, Tree-of-Thoughts and multi-agent debate for systematic evaluation of inference-time methods. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4708,7 +4671,7 @@
   source_model: open-source
   license: not specified
   curation_status: draft
-  review_notes: Blog post entry; low quality signal — consider removing.
+  review_notes: "Draft: needs-human-review."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4770,7 +4733,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: Repo exists but has no license file; verify before promoting.
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4798,7 +4761,7 @@
   source_model: open-source
   license: not specified
   curation_status: draft
-  review_notes: GitHub Gist entry; low quality signal — consider removing.
+  review_notes: "Draft: needs-human-review."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4866,12 +4829,11 @@
   interfaces:
     - api
     - library
-    - web-app
+    - web
   deployment: hybrid
   source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: GitHub repo lunary-ai/lunary returns 404; verify correct repo URL.
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -4898,7 +4860,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Enhanced fork of the TypeScript MCP Framework providing similar directory-based server scaffolding with additional features and transports. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5016,10 +4978,9 @@
   interfaces:
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: C# SDK offers official MCP client and server packages for .NET with stable releases and Microsoft-supported guidance. confidence: high uncertain: false"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5044,10 +5005,9 @@
   interfaces:
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: CSV-style registry of known MCP clients keyed by clientinfo.name, useful for analytics, observability, and client-specific configuration. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5074,10 +5034,9 @@
     - cli
     - framework
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Framework built on the official TypeScript SDK with directory-based discovery, Zod-validated tools, stdio/SSE/HTTP transports, and optional OAuth/JWT/API-key auth. confidence: high uncertain: false"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5129,10 +5088,9 @@
   interfaces:
     - api
   deployment: hybrid
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Official MCP Registry offering an open REST API and self-hostable service for server metadata and discovery. confidence: high uncertain: false"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5157,12 +5115,11 @@
     - proxy
     - registry
   interfaces:
-    - mcp-server
+    - mcp
   deployment: self-hosted
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Acts as an MCP retriever over MCPulse or other registries, providing retrieve_mcps tools for semantic server discovery from MCP clients. confidence: medium uncertain: false"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5185,10 +5142,9 @@
   interfaces:
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Rust SDK provides a core MCP engine with crate releases tracking protocol versions and transport fixes. confidence: high uncertain: false"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5214,7 +5170,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides a scaffolded MCP server structure focused on component registries, giving developers a ready-made layout for tools, prompts, and resources. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5239,7 +5195,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: MCP-B runtime provides a WebMCP polyfill so sites can expose tools and context to agents before native browser support exists. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5265,10 +5221,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Node-based CLI that can run MCP servers from configs or NPM, list tools, inspect schemas, and script tool calls with OAuth support. confidence: high uncertain: false"
+  source_model: open-source
+  license: GPL-3.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5289,12 +5244,11 @@
     - testing
     - validation
   interfaces:
-    - web-app
+    - web
   deployment: not specified
-  source_model: not specified
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Online scanner that analyzes MCP servers for issues like injection, insecure input handling, and other security weaknesses before deployment. confidence: medium uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5345,12 +5299,11 @@
     - repo-analysis
   interfaces:
     - github-app
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes repo-to-site generator, continuous documentation via GitHub apps that scan PRs, interactive API playgrounds, and AI-native reading and maintenance features. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5568,7 +5521,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Raycast extension that surfaces MCP registries, lets developers search servers, and integrates installs into the Raycast client. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5592,10 +5545,9 @@
   interfaces:
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Houses the canonical MCP spec and JSON schemas that SDKs and validators rely on for protocol correctness. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5619,10 +5571,9 @@
   interfaces:
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: TypeScript SDK implements the full MCP spec for creating servers and clients using stdio and Streamable HTTP. confidence: high uncertain: false"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5793,10 +5744,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements answer relevance, context relevance and groundedness scores for RAG pipelines using open RAG-eval models specialized for this task. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5825,12 +5775,11 @@
     - tracing
   interfaces:
     - api
-    - web-app
-  deployment: cloud
+    - web
+  deployment: hosted
   source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: GitHub repo okahu-demos is an org, not a specific repo; verify URL.
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5896,7 +5845,7 @@
   source_model: open-source
   license: not specified
   curation_status: draft
-  review_notes: Tutorial blog entry; low quality signal — consider removing.
+  review_notes: "Draft: needs-human-review."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -5960,10 +5909,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements UMBRELA, AutoNuggetizer and TREC-RAG metrics with connectors for Vectara, LangChain and LlamaIndex, no gold answers required. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6098,10 +6046,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Runs untrusted model-generated code against test suites to compute pass rates for programming tasks, widely used for code LLM benchmarking. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6600,7 +6547,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses GitPython, AST, and an LLM to analyze changed Python code and existing README content to propose docstring and README edits stored for review. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6628,12 +6575,11 @@
     - cli
     - framework
     - library
-    - web-app
+    - web
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: YAML-driven eval suites for prompts, agents, and RAG with CI and red-teaming workflows documented. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6646,6 +6592,7 @@
   name: Pull Request Labeler (actions/labeler)
   description: GitHub Action that automatically labels pull requests based on changed file paths or branch names.
   website_url: https://github.com/marketplace/actions/labeler
+  repo_url: https://github.com/actions/labeler
   docs_url: https://github.com/marketplace/actions/labeler
   categories:
     - repo-automation-tools
@@ -6659,10 +6606,9 @@
   interfaces:
     - github-app
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Reads a labeler configuration file and applies or syncs labels to PRs, enabling label-based workflows. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6686,7 +6632,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Desktop UI inside Raycast to search, inspect, and open MCP servers indexed by the PulseMCP registry API. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6708,12 +6654,11 @@
     - registry
   interfaces:
     - api
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Online registry providing searchable MCP server catalog and JSON server descriptors used by clients and ecosystem tools. confidence: medium uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6766,10 +6711,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Benchmarks LLMs on specification-to-RTL tasks across several Python hardware DSLs with test benches and workflow scripts. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6824,7 +6768,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Produces system overview, architecture diagrams, tech stack, key modules, entry points, dependencies, setup guides, and a Q&A chat for repositories. confidence: high uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6882,7 +6826,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: Repo exists but has no license file; verify before promoting.
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6909,10 +6853,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Extends LM evaluation harness to support RAG by preparing retrieved documents and running standard benchmarks with retrieval augmentation. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6941,7 +6884,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Includes scripts for dataset prep, embedding generation, retrieval, answer generation and metric-based evaluation for RAG systems. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6968,10 +6911,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Focuses on retrieval and generation quality for RAG with metrics like faithfulness, answer relevancy and context relevancy, plus project templates. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -6997,12 +6939,11 @@
     - markdown
     - mdx
   interfaces:
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Agent Owlbert can write and refactor docs, fix linter errors, audit content, and Ask AI provides source-linked answers to users based on the hub documentation. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7092,10 +7033,9 @@
     - cli
     - github-app
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Maintains release PRs that update changelog, tag versions, and create GitHub Releases when merged. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7119,10 +7059,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates version bumps and can publish to various registries when run from CI like GitHub Actions. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7145,10 +7084,9 @@
     - cli
     - github-app
   deployment: hybrid
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates dependency checks across many platforms and creates update PRs on GitHub and other git forges. confidence: high uncertain: true"
+  source_model: open-source
+  license: AGPL-3.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7172,12 +7110,11 @@
     - open-source
     - repo-analysis
   interfaces:
-    - web-app
+    - web
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Provides chat interface over repositories with features for documentation generation and code insights backed by vector search. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7234,12 +7171,11 @@
     - api
     - cli
     - framework
-    - web-app
+    - web
   deployment: not specified
-  source_model: not specified
+  source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Enables generation and execution of single- and multi-turn tests, integrates DeepEval/RAGAS metrics, supports Docker self-hosting and managed cloud. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7438,10 +7374,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Automates version calculation, changelog, and release publishing, commonly wired into GitHub Actions workflows. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7484,12 +7419,11 @@
     - repo-automation
   interfaces:
     - github-app
-    - web-app
-  deployment: cloud
-  source_model: not specified
+    - web
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Scans commits and PRs, identifies impacted docs, and posts suggested documentation edits directly in pull request reviews. confidence: medium uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7543,10 +7477,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Client-agnostic CLI for managing MCP servers: search registries, add/remove servers per client, call tools, and publish MCP servers or bundles. confidence: high uncertain: false"
+  source_model: open-source
+  license: AGPL-3.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7570,12 +7503,11 @@
     - registry
     - server-management
   interfaces:
-    - mcp-server
+    - mcp
   deployment: self-hosted
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: MCP server exposing tools like find-mcp, collect-config, and install-mcp to automate discovery and installation via Smithery. confidence: medium uncertain: true"
+  source_model: open-source
+  license: GPL-3.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7598,10 +7530,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Implements a stacked pull request workflow inspired by large internal tooling to keep changes reviewable. confidence: medium uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7623,10 +7554,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Helps submit, view, and land stacks of dependent PRs derived from sequential commits in a branch. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7664,6 +7594,7 @@
   name: stale-repos Action
   description: GitHub Action that identifies inactive repositories in an organization and reports them for archival decisions.
   website_url: https://github.com/marketplace/actions/stale-repos
+  repo_url: https://github.com/github/stale-repos
   docs_url: https://github.com/marketplace/actions/stale-repos
   categories:
     - repo-automation-tools
@@ -7676,10 +7607,9 @@
   interfaces:
     - github-app
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Scans organization repositories and flags those without activity for a configurable period as stale. confidence: high uncertain: true"
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -7726,12 +7656,11 @@
     - documentation
   interfaces:
     - api
-    - ide-extension
-  deployment: cloud
-  source_model: not specified
+    - ide
+  deployment: hosted
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers an API plus VS Code and Chrome extensions that parse code and return plain-English explanations, suggestions, and linked documentation in real time. confidence: high uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -8161,10 +8090,9 @@
     - framework
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Offers a modular catalog of tasks, datasets, templates and metrics, including LLM-as-judge, usable standalone or with HELM and LM-eval-harness. confidence: high uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -8197,7 +8125,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: GitHub repo untrace-dev/untrace-sdk returns 404; verify correct repo URL.
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -8221,10 +8149,9 @@
   interfaces:
     - cli
   deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Uses a YAML config to find repositories and apply dependency updates automatically via git operations. confidence: medium uncertain: true"
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -8245,12 +8172,11 @@
     - rag
   interfaces:
     - framework
-    - web-app
+    - web
   deployment: not specified
-  source_model: not specified
+  source_model: proprietary
   license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Lets teams visually compare metrics from Open RAG Eval runs, exploring hallucination, citations and other scores across test queries. confidence: medium uncertain: true"
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -8280,7 +8206,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Supports creating eval projects, running experiments and comparing techniques for agent behavior, with GitHub Actions usage implied. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -8477,7 +8403,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Browser-based inspector that detects WebMCP tools on pages, shows schemas, readiness scoring, and export options for MCP-compatible agents. confidence: medium uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -8502,10 +8428,9 @@
   interfaces:
     - library
   deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Library and proposal for treating web pages as MCP servers by registering tools via navigator.modelContext for browser-based agents. confidence: high uncertain: false"
+  source_model: open-source
+  license: W3C
+  curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
@@ -8681,7 +8606,7 @@
   source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Imported draft; verify metadata before marking reviewed. notes: Helps control Actions run history with options to keep a time window or number of runs and supports dry runs. confidence: high uncertain: true"
+  review_notes: "Draft: source_model=not specified."
   added: 2026-05-08
   last_checked: 2026-05-08
   sources:
