@@ -45,7 +45,7 @@
     </text>
 
     <!-- Cursor blink after title -->
-    <rect x="1040" y="200" width="25" height="70" fill="#00E7FF">
+    <rect x="1060" y="200" width="25" height="70" fill="#00E7FF">
       <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
     </rect>
 
