@@ -2,6 +2,7 @@ import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import {
+  Category,
   CatalogData,
   ROOT_FILES,
   Tool,
@@ -9,10 +10,72 @@ import {
   sortTools
 } from "./lib.ts";
 
+const INTENT_GROUPS = [
+  {
+    heading: "Build with agents",
+    slugs: ["coding-agents", "terminal-agents", "ide-assistants", "browser-agents"]
+  },
+  {
+    heading: "Extend agents",
+    slugs: ["mcp-servers", "mcp-clients", "mcp-tooling", "agent-skill-packs", "prompt-workflow-libraries"]
+  },
+  {
+    heading: "Operate agents",
+    slugs: ["agent-observability", "agent-evals", "ai-devtools-security"]
+  },
+  {
+    heading: "Run locally/self-host",
+    slugs: ["self-hosted-ai-dev-stacks", "local-llm-developer-tools"]
+  },
+  {
+    heading: "Automate repo work",
+    slugs: [
+      "repo-automation-tools",
+      "ai-code-review-tools",
+      "documentation-agents",
+      "test-generation-agents",
+      "devops-sre-agents"
+    ]
+  }
+] as const;
+
+const START_HERE_GROUPS = [
+  {
+    heading: "Agent skills and plugins",
+    slugs: ["agent-powerups", "agent-skills", "claude-skills", "anthropic-skills", "cursor-rules"]
+  },
+  {
+    heading: "Open-source coding agents",
+    slugs: ["aider", "cline", "opencode", "openhands", "continue"]
+  },
+  {
+    heading: "Self-hosted AI dev stacks",
+    slugs: ["anythingllm", "dify", "onyx", "open-webui-platform", "tabby"]
+  },
+  {
+    heading: "MCP tools",
+    slugs: ["chrome-devtools-mcp", "github-mcp-server", "context7-mcp-server", "browserbase-mcp-server", "agent-powerups"]
+  },
+  {
+    heading: "Observability and evals",
+    slugs: ["arize-phoenix", "comet-opik", "helicone", "langfuse", "openlit"]
+  },
+  {
+    heading: "Local-first picks",
+    slugs: ["ollama", "lm-studio", "llamafile", "localai", "vllm"]
+  }
+] as const;
+
+const MATRIX_LIMIT = 50;
+
 export function buildReadme(catalog: CatalogData): string {
   const sorted = sortTools(catalog.tools);
-  const toolsByCategory = groupToolsByCategory(sorted);
-  const populatedCategories = catalog.categories.filter((category) => (toolsByCategory.get(category.slug) ?? []).length > 0);
+  const reviewedTools = sorted.filter((tool) => tool.curation_status === "reviewed");
+  const draftTools = sorted.filter((tool) => tool.curation_status === "draft");
+  const reviewedByCategory = groupToolsByCategory(reviewedTools);
+  const populatedCategories = catalog.categories.filter((category) => (reviewedByCategory.get(category.slug) ?? []).length > 0);
+  const categoryBySlug = new Map(catalog.categories.map((category) => [category.slug, category]));
+  const reviewedBySlug = new Map(reviewedTools.map((tool) => [tool.slug, tool]));
 
   const lines: string[] = [
     "<!-- GENERATED FILE: edit data/tools.yml, data/categories.yml, data/tags.yml, then run npm run generate. -->",
@@ -25,7 +88,7 @@ export function buildReadme(catalog: CatalogData): string {
     "",
     "<p align=\"center\">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>",
     "",
-    `<p align="center"><code>${sorted.length} tools</code> <code>${populatedCategories.length} active shelves</code> <code>metadata-first</code> <code>generated README</code></p>`,
+    `<p align="center"><code>${sorted.length} tools</code> <code>${reviewedTools.length} reviewed</code> <code>${draftTools.length} draft</code> <code>${populatedCategories.length} active reviewed shelves</code></p>`,
     "",
     "## Why this exists",
     "",
@@ -33,18 +96,24 @@ export function buildReadme(catalog: CatalogData): string {
     "",
     "No rankings. No launch hype. Just a clean storefront for discovering tools worth a closer look.",
     "",
-    "## Storefront",
+    "## Start here",
     "",
-    "| Shelf | What you will find | Tools |",
-    "| --- | --- | ---: |",
-    ...populatedCategories.map((category) => renderShelfRow(category, toolsByCategory.get(category.slug) ?? [])),
+    ...renderStartHere(reviewedBySlug),
+    "## Explore by intent",
+    "",
+    ...renderIntentGroups(categoryBySlug, reviewedByCategory),
+    "## Comparison Matrix",
+    "",
+    "| Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |",
+    "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+    ...selectMatrixTools(reviewedTools).map((tool) => renderMatrixRow(tool, categoryBySlug)),
     "",
     "## Browse The Shelves",
     ""
   ];
 
   for (const category of populatedCategories) {
-    const categoryTools = toolsByCategory.get(category.slug) ?? [];
+    const categoryTools = reviewedByCategory.get(category.slug) ?? [];
     lines.push(`### ${category.name}`, "", category.description, "");
     lines.push("| Tool | Good for | Experience | Links |", "| --- | --- | --- | --- |");
     for (const tool of categoryTools) {
@@ -56,12 +125,26 @@ export function buildReadme(catalog: CatalogData): string {
   lines.push(
     "## New Arrivals",
     "",
-    ...sorted
+    ...reviewedTools
       .slice()
       .sort((left, right) => right.added.localeCompare(left.added) || left.name.localeCompare(right.name, "en"))
       .slice(0, 8)
       .map((tool) => `- ${tool.added}: [${escapeMarkdown(tool.name)}](${tool.website_url})`),
     "",
+    "## Needs review",
+    "",
+    draftTools.length === 0
+      ? "No draft entries are waiting for review."
+      : "Draft entries stay out of the main shelves until their metadata and sources are reviewed.",
+    "",
+    ...(draftTools.length > 0
+      ? [
+          "| Tool | Suggested shelf | Review note | Links |",
+          "| --- | --- | --- | --- |",
+          ...draftTools.map((tool) => renderReviewQueueRow(tool, categoryBySlug)),
+          ""
+        ]
+      : []),
     "## Submit a tool",
     "",
     "Add or update one tool by editing `data/tools.yml`, then run:",
@@ -77,9 +160,10 @@ export function buildReadme(catalog: CatalogData): string {
     "## Roadmap",
     "",
     "- Keep the metadata schema small and strict.",
-    "- Add contribution-friendly seed coverage category by category.",
-    "- Build generated filters and richer comparison views after the data model settles.",
-    "- Design a future importer after the schema, validator, and generator have real usage.",
+    "- Review and promote imported draft entries category by category.",
+    "- Add generated comparison matrices and filter-friendly views.",
+    "- Expand thin shelves such as evals, MCP tooling, docs, and tests.",
+    "- Add stale-entry checks for metadata freshness.",
     ""
   );
 
@@ -98,8 +182,42 @@ function groupToolsByCategory(tools: Tool[]): Map<string, Tool[]> {
   return grouped;
 }
 
-function renderShelfRow(category: { slug: string; name: string; description: string }, tools: Tool[]): string {
-  return `| [${escapeTable(category.name)}](#${anchorFor(category.name)}) | ${escapeTable(category.description)} | ${tools.length} |`;
+function renderStartHere(reviewedBySlug: Map<string, Tool>): string[] {
+  const lines: string[] = [];
+  for (const group of START_HERE_GROUPS) {
+    const tools = group.slugs.map((slug) => reviewedBySlug.get(slug)).filter((tool): tool is Tool => tool !== undefined);
+    if (tools.length === 0) {
+      continue;
+    }
+
+    lines.push(`### ${group.heading}`, "");
+    for (const tool of tools) {
+      lines.push(`- [${escapeMarkdown(tool.name)}](${tool.website_url}) - ${escapeMarkdown(tool.description)}`);
+    }
+    lines.push("");
+  }
+  return lines;
+}
+
+function renderIntentGroups(categoryBySlug: Map<string, Category>, toolsByCategory: Map<string, Tool[]>): string[] {
+  const lines: string[] = [];
+  for (const group of INTENT_GROUPS) {
+    const shelves = group.slugs
+      .map((slug) => categoryBySlug.get(slug))
+      .filter((category): category is Category => category !== undefined && (toolsByCategory.get(category.slug) ?? []).length > 0);
+    if (shelves.length === 0) {
+      continue;
+    }
+
+    lines.push(`### ${group.heading}`, "");
+    lines.push(
+      shelves
+        .map((category) => `[${escapeMarkdown(category.name)}](#${anchorFor(category.name)}) (${toolsByCategory.get(category.slug)?.length ?? 0})`)
+        .join(" · ")
+    );
+    lines.push("");
+  }
+  return lines;
 }
 
 function renderToolRow(tool: Tool): string {
@@ -107,6 +225,29 @@ function renderToolRow(tool: Tool): string {
     `| [${escapeTable(tool.name)}](${tool.website_url})`,
     escapeTable(tool.description),
     escapeTable(renderExperience(tool)),
+    `${renderLinks(tool)} |`
+  ].join(" | ");
+}
+
+function renderMatrixRow(tool: Tool, categoryBySlug: Map<string, Category>): string {
+  return [
+    `| [${escapeTable(tool.name)}](${tool.website_url})`,
+    escapeTable(mainShelf(tool, categoryBySlug)),
+    yesNo(isOpenSource(tool)),
+    yesNo(isLocal(tool)),
+    yesNo(isSelfHosted(tool)),
+    yesNo(hasInterfaceOrTag(tool, "cli", ["terminal"])),
+    yesNo(hasInterfaceOrTag(tool, "ide", ["vscode", "jetbrains", "ide-assistant"])),
+    yesNo(hasInterfaceOrTag(tool, "mcp", ["mcp"])),
+    `${renderLinks(tool)} |`
+  ].join(" | ");
+}
+
+function renderReviewQueueRow(tool: Tool, categoryBySlug: Map<string, Category>): string {
+  return [
+    `| [${escapeTable(tool.name)}](${tool.website_url})`,
+    escapeTable(mainShelf(tool, categoryBySlug)),
+    escapeTable(tool.review_notes ?? "Needs metadata review."),
     `${renderLinks(tool)} |`
   ].join(" | ");
 }
@@ -126,6 +267,64 @@ function renderExperience(tool: Tool): string {
     .map(displayValue)
     .filter((value) => value !== "");
   return values.length > 0 ? values.join(" · ") : "See details";
+}
+
+function selectMatrixTools(tools: Tool[]): Tool[] {
+  const bySlug = new Map(tools.map((tool) => [tool.slug, tool]));
+  const selected = new Map<string, Tool>();
+  for (const group of START_HERE_GROUPS) {
+    for (const slug of group.slugs) {
+      const tool = bySlug.get(slug);
+      if (tool) {
+        selected.set(tool.slug, tool);
+      }
+    }
+  }
+
+  for (const tool of tools.slice().sort((left, right) => matrixScore(right) - matrixScore(left) || left.name.localeCompare(right.name, "en"))) {
+    if (selected.size >= MATRIX_LIMIT) {
+      break;
+    }
+    selected.set(tool.slug, tool);
+  }
+
+  return Array.from(selected.values()).slice(0, MATRIX_LIMIT);
+}
+
+function matrixScore(tool: Tool): number {
+  let score = 0;
+  if (isOpenSource(tool)) score += 4;
+  if (isSelfHosted(tool)) score += 3;
+  if (isLocal(tool)) score += 3;
+  if (hasInterfaceOrTag(tool, "mcp", ["mcp"])) score += 3;
+  if (hasInterfaceOrTag(tool, "cli", ["terminal"])) score += 2;
+  if (hasInterfaceOrTag(tool, "ide", ["vscode", "jetbrains", "ide-assistant"])) score += 2;
+  if (tool.repo_url) score += 1;
+  return score;
+}
+
+function mainShelf(tool: Tool, categoryBySlug: Map<string, Category>): string {
+  return categoryBySlug.get(tool.categories[0])?.name ?? titleize(tool.categories[0] ?? "not specified");
+}
+
+function isOpenSource(tool: Tool): boolean {
+  return tool.source_model === "open-source" || tool.tags.includes("open-source");
+}
+
+function isLocal(tool: Tool): boolean {
+  return tool.deployment === "local" || tool.tags.includes("local-first") || tool.tags.includes("offline");
+}
+
+function isSelfHosted(tool: Tool): boolean {
+  return tool.deployment === "self-hosted" || tool.tags.includes("self-hosted");
+}
+
+function hasInterfaceOrTag(tool: Tool, value: string, tagValues: string[]): boolean {
+  return tool.interfaces.includes(value) || tagValues.some((tag) => tool.tags.includes(tag));
+}
+
+function yesNo(value: boolean): string {
+  return value ? "Yes" : "No";
 }
 
 function displayValue(value: string): string {
