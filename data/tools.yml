@@ -1688,6 +1688,33 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/dbt-labs/dbt-agent-skills
+- slug: dbt-semguard
+  name: dbt-semguard
+  description: CLI and GitHub Action that detects breaking or risky semantic changes in dbt metrics before production.
+  website_url: https://github.com/yeaight7/dbt-semguard
+  repo_url: https://github.com/yeaight7/dbt-semguard
+  docs_url: https://github.com/yeaight7/dbt-semguard#readme
+  categories:
+    - data-ml-coding-assistants
+    - repo-automation-tools
+  tags:
+    - automation
+    - code-review
+    - data-engineering
+    - devtools
+    - github
+    - open-source
+    - testing
+  interfaces:
+    - cli
+  deployment: hybrid
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-05-08
+  last_checked: 2026-05-08
+  sources:
+    - https://github.com/yeaight7/dbt-semguard
 - slug: deepchecks-llm-evaluation
   name: Deepchecks LLM Evaluation
   description: Enterprise platform and tooling for evaluating, comparing, and monitoring LLM-based applications across quality and safety metrics.
