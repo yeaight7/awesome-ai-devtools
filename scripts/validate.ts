@@ -20,7 +20,7 @@ import {
 
 const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const TOOL_DESCRIPTION_MIN = 40;
-const TOOL_DESCRIPTION_MAX = 160;
+const TOOL_DESCRIPTION_MAX = 180;
 
 export interface ValidationOptions {
   readmeContent?: string;
