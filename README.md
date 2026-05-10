@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>308 tools</code> <code>261 reviewed</code> <code>47 draft</code> <code>17 active reviewed shelves</code></p>
+<p align="center"><code>309 tools</code> <code>262 reviewed</code> <code>47 draft</code> <code>17 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,7 +70,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (25) · [Terminal agents](#terminal-agents) (12) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (23)
+[Coding agents](#coding-agents) (25) · [Terminal agents](#terminal-agents) (13) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (23)
 
 ### Extend agents
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (39) · [Agent evals](#agent-evals) (21)
+[Agent observability](#agent-observability) (40) · [Agent evals](#agent-evals) (21)
 
 ### Run locally/self-host
 
@@ -183,6 +183,7 @@ AI developer tools primarily operated from a command-line interface.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
+| [agenttrace](https://luoyuctl.github.io/agenttrace/) | Local CLI/TUI that turns AI coding agent session logs into cost, token, latency, failure, and health reports. | CLI · Local | [Website](https://luoyuctl.github.io/agenttrace/) / [Docs](https://github.com/luoyuctl/agenttrace#readme) / [Repo](https://github.com/luoyuctl/agenttrace) |
 | [Aider](https://aider.chat/) | Open-source terminal pair programmer that edits tracked files in a local Git repository. | CLI · Local | [Website](https://aider.chat/) / [Docs](https://aider.chat/docs/) / [Repo](https://github.com/Aider-AI/aider) |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
 | [Amp](https://ampcode.com/) | Terminal-centric coding agent with deep codebase context, editor links, and automation-oriented SDK features. | API · CLI · Hybrid | [Website](https://ampcode.com/) / [Docs](https://ampcode.com/manual) |
@@ -352,6 +353,7 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
+| [agenttrace](https://luoyuctl.github.io/agenttrace/) | Local CLI/TUI that turns AI coding agent session logs into cost, token, latency, failure, and health reports. | CLI · Local | [Website](https://luoyuctl.github.io/agenttrace/) / [Docs](https://github.com/luoyuctl/agenttrace#readme) / [Repo](https://github.com/luoyuctl/agenttrace) |
 | [Amazon CloudWatch GenAI Observability](https://aws.amazon.com/cloudwatch/) | CloudWatch capabilities for monitoring and tracing generative AI agents, workloads, and quality metrics on AWS. | API · Web · Hosted | [Website](https://aws.amazon.com/cloudwatch/) / [Docs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GenAI-observability.html) / [Repo](https://github.com/aws-samples/sample-amazon-cloudwatch-generative-ai-observability) |
 | [Arize AX](https://arize.com/ai-agents/agent-observability/) | Commercial agent and LLM observability platform built on Phoenix for tracing, evaluation, and monitoring production AI systems. | API · Web · Hosted | [Website](https://arize.com/ai-agents/agent-observability/) / [Docs](https://arize.com/docs/ax/observe/quickstart-llm) |
 | [Arize Phoenix](https://arize.com/phoenix) | Open-source AI observability platform with tracing, evals, datasets, and experiments for LLM, agent, and RAG systems. | API · Web · Self-hosted | [Website](https://arize.com/phoenix) / [Docs](https://arize.com/docs/phoenix) / [Repo](https://github.com/arize-ai/phoenix) |
@@ -586,6 +588,7 @@ AI tools that create, improve, or maintain automated tests.
 
 ## New Arrivals
 
+- 2026-05-10: [agenttrace](https://luoyuctl.github.io/agenttrace/)
 - 2026-05-08: [Agent Browser](https://github.com/vercel-labs/agent-browser)
 - 2026-05-08: [Agent Eval Framework](https://github.com/goker/agent-eval-framework)
 - 2026-05-08: [Agent Powerups](https://github.com/yeaight7/agent-powerups)
@@ -593,7 +596,6 @@ AI tools that create, improve, or maintain automated tests.
 - 2026-05-08: [Agent-WebVoyager](https://github.com/mrmoxon/Agent-WebVoyager)
 - 2026-05-08: [Agentic Security](https://github.com/msoedov/agentic_security)
 - 2026-05-08: [AI Document Creator](https://woden-ai.com)
-- 2026-05-08: [ai-doc-gen](https://github.com/divar-ir/ai-doc-gen)
 
 ## Needs review
 
