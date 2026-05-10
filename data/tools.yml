@@ -279,6 +279,36 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/zouyingcao/agentskills-mcp
+- slug: agenttrace
+  name: agenttrace
+  description: Local CLI/TUI that turns AI coding agent session logs into cost, token, latency, failure, and health reports.
+  website_url: https://luoyuctl.github.io/agenttrace/
+  repo_url: https://github.com/luoyuctl/agenttrace
+  docs_url: https://github.com/luoyuctl/agenttrace#readme
+  categories:
+    - agent-observability
+    - terminal-agents
+  primary_category: agent-observability
+  tags:
+    - cli
+    - cost-tracking
+    - debugging
+    - local-first
+    - observability
+    - open-source
+    - terminal
+    - tracing
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-05-10
+  last_checked: 2026-05-10
+  sources:
+    - https://github.com/luoyuctl/agenttrace
+    - https://luoyuctl.github.io/agenttrace/
 - slug: ai-document-creator
   name: AI Document Creator
   description: GitHub app that auto-generates and updates multi-level repository documentation via pull requests.
