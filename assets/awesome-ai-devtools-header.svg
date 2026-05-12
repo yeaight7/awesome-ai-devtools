@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+    <defs>
+        <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#020617" />
+            <stop offset="100%" stop-color="#0B1121" />
+        </linearGradient>
+
+        <radialGradient id="ambient-glow" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.15" />
+            <stop offset="50%" stop-color="#A855F7" stop-opacity="0.10" />
+            <stop offset="100%" stop-color="#5c015d" stop-opacity="0.05" />
+        </radialGradient>
+
+        <!-- <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0d1117" />
+            <stop offset="100%" stop-color="#010409" />
+        </linearGradient> -->
+
+        <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#6500bd" /> <stop offset="100%" stop-color="#3b95f6" /> </linearGradient>
+
+        <!-- <radialGradient id="ambient-glow" cx="80%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.15" />
+            <stop offset="60%" stop-color="#10B981" stop-opacity="0.05" />
+            <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+        </radialGradient> -->
+
+        <linearGradient id="glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2" />
+            <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+        </linearGradient>
+
+        <pattern id="hex-bg" x="0" y="0" width="40" height="69.282" patternUnits="userSpaceOnUse">
+            <path d="M 40 17.321 L 20 5.774 L 0 17.321 L 0 40.415 L 20 51.962 L 40 40.415 Z" fill="none" stroke="#161b22" stroke-width="1.5" />
+            <path d="M 20 40.415 L 0 51.962 L 0 75.056 L 20 86.603 L 40 75.056 L 40 51.962 Z" fill="none" stroke="#161b22" stroke-width="1.5" />
+        </pattern>
+
+        <filter id="glass-blur" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+        </filter>
+        
+        <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#000000" flood-opacity="0.6"/>
+        </filter>
+    </defs>
+
+    <rect width="100%" height="100%" fill="url(#bg-grad)" />
+    
+    <path d="M0 186 C245 260, 334 358, 486 287 S730 197, 870 273 S1025 350, 1120 0" fill="none" stroke="#830fcb" opacity="0.2" stroke-width="3"/>
+    <path d="M0 248 C195 310, 246 142, 358 80 S680 210, 700 57 S800 180, 1150 220 S1220 197, 1300 0" fill="none" stroke="#27aedf" opacity="0.2" stroke-width="2"/>
+    <path d="M0 330 C200 400, 350 220, 480 310 S650 390, 800 290 S1000 360, 1120 280" fill="none" stroke="#b42ed5" opacity="0.2" stroke-width="2"/>
+    
+    <rect width="100%" height="100%" fill="url(#hex-bg)" />
+    <rect width="100%" height="100%" fill="url(#ambient-glow)" />
+
+    <g transform="translate(80, 85)" filter="url(#shadow)">
+        <rect x="0" y="0" width="60" height="60" rx="16" fill="#161b22" stroke="url(#glass-border)" stroke-width="2" />
+        <path d="M 30 14 L 33.5 25.5 L 45 27 L 36 34.5 L 39 46 L 30 39.5 L 21 46 L 24 34.5 L 15 27 L 26.5 25.5 Z" fill="url(#text-grad)" />
+    </g>
+
+    <text x="80" y="195" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="52" letter-spacing="-1.5">
+        <tspan fill="#FFFFFF">Awesome </tspan>
+        <tspan fill="url(#text-grad)">AI Devtools</tspan>
+    </text>
+
+    <text x="80" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="500" fill="#c9d1d9">
+        A curated, structured repository for the AI engineering stack.
+    </text>
+    <text x="80" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#8b949e">
+        Frameworks • Agent Skill Packs • Local Models • Tooling
+    </text>
+
+    <!-- <g stroke="#30363d" stroke-width="2" fill="none" stroke-dasharray="4 6" stroke-linecap="round">
+        <path d="M 680 180 L 1050 180" />
+        <path d="M 800 100 L 800 260" />
+        <path d="M 940 100 L 940 260" />
+    </g> -->
+
+    <g filter="url(#shadow)">
+        
+        <g transform="translate(710, 60)">
+            <rect width="180" height="70" rx="12" fill="#161b22" fill-opacity="0.8" stroke="url(#glass-border)" stroke-width="1.5" />
+            <circle cx="25" cy="35" r="6" fill="#10B981" />
+            <text x="45" y="31" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Agent Skills</text>
+            <text x="45" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#8b949e">Packs &amp; Plugins</text>
+        </g>
+
+        <g transform="translate(900, 100)">
+            <rect width="180" height="70" rx="12" fill="#161b22" fill-opacity="0.8" stroke="url(#glass-border)" stroke-width="1.5" />
+            <circle cx="25" cy="35" r="6" fill="#3B82F6" />
+            <text x="45" y="31" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Frameworks</text>
+            <text x="45" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#8b949e">LangChain, LlamaIndex</text>
+        </g>
+
+        <g transform="translate(680, 160)">
+            <rect width="180" height="70" rx="12" fill="#161b22" fill-opacity="0.8" stroke="url(#glass-border)" stroke-width="1.5" />
+            <circle cx="25" cy="35" r="6" fill="#8B5CF6" />
+            <text x="45" y="31" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Local Run</text>
+            <text x="45" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#8b949e">Ollama, vLLM, GGUF</text>
+        </g>
+
+        <g transform="translate(860, 220)">
+            <rect width="180" height="70" rx="12" fill="#161b22" fill-opacity="0.8" stroke="url(#glass-border)" stroke-width="1.5" />
+            <circle cx="25" cy="35" r="6" fill="#F59E0B" />
+            <text x="45" y="31" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Data &amp; RAG</text>
+            <text x="45" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#8b949e">Vector DBs, Parsers</text>
+        </g>
+
+    </g>
+
+</svg>
