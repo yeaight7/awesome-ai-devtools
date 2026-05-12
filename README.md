@@ -2,7 +2,7 @@
 
 # Awesome AI Devtools
 
-<p align="center"><img src="assets/hero.svg" alt="Awesome AI Devtools ecosystem map" width="100%"></p>
+<p align="center"><img src="assets/awesome-ai-devtools-header.svg" alt="Awesome AI Devtools ecosystem map" width="100%"></p>
 
 <p align="center"><strong>The open-source map of the AI developer tooling ecosystem.</strong></p>
 
