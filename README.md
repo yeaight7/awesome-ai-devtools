@@ -13,6 +13,7 @@
 ## Why this exists
 
 AI developer tooling changes quickly. This directory keeps entries in structured metadata so the public view can stay polished while the data remains sortable, reviewable, and validation-backed.
+
 No rankings. No launch hype. Just a clean storefront for discovering tools worth a closer look.
 
 ## Start here
