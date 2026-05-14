@@ -51,7 +51,7 @@
     <path d="M0 248 C195 310, 246 142, 358 80 S680 210, 700 57 S800 180, 1150 220 S1220 197, 1200 0" fill="none" stroke="#27aedf" opacity="0.2" stroke-width="2"/>
     <path d="M0 330 C200 400, 350 220, 480 310 S650 390, 800 290 S1000 360, 1200 280" fill="none" stroke="#b42ed5" opacity="0.2" stroke-width="2"/>
     
-    <rect width="100%" height="100%" fill="url(#hex-bg)" />
+    <rect width="100%" height="100%" rx="50" fill="url(#hex-bg)" />
     <rect width="100%" height="100%" fill="url(#ambient-glow)" />
 
     <g transform="translate(80, 85)" filter="url(#shadow)">
