@@ -45,7 +45,7 @@
         </filter>
     </defs>
 
-    <rect width="100%" height="100%" fill="url(#bg-grad)" />
+    <rect width="100%" height="100%" rx="50" fill="url(#bg-grad)" />
     
     <path d="M0 186 C245 260, 334 358, 486 287 S730 197, 870 273 S1025 350, 1120 0" fill="none" stroke="#830fcb" opacity="0.2" stroke-width="3"/>
     <path d="M0 248 C195 310, 246 142, 358 80 S680 210, 700 57 S800 180, 1150 220 S1220 197, 1200 0" fill="none" stroke="#27aedf" opacity="0.2" stroke-width="2"/>
