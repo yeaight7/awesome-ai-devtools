@@ -94,7 +94,7 @@ test("buildReadme renders grouped navigation, start here, matrix, reviewed shelv
   const readme = buildReadme(sampleCatalog);
 
   assert.match(readme, /<!-- GENERATED FILE: edit data\/tools\.yml/);
-  assert.match(readme, /<img src="assets\/hero\.svg" alt="Awesome AI Devtools ecosystem map"/);
+  assert.match(readme, /<img src="assets\/awesome-ai-devtools-header\.svg" alt="Awesome AI Devtools ecosystem map"/);
   assert.match(readme, /<code>3 tools<\/code> <code>2 reviewed<\/code> <code>1 draft<\/code> <code>2 active reviewed shelves<\/code>/);
   assert.match(readme, /## Start here/);
   assert.match(readme, /### Agent skills and plugins/);
