@@ -40,6 +40,9 @@
 - slug: ci
   name: CI
   description: Continuous integration tooling, pipelines, and automation.
+- slug: claude
+  name: Claude
+  description: Built for or specifically integrates with Anthropic's Claude models.
 - slug: cli
   name: CLI
   description: Provides a command-line interface.
@@ -49,6 +52,12 @@
 - slug: cloud
   name: Cloud
   description: Provides hosted or cloud-managed functionality.
+- slug: code-completion
+  name: Code completion
+  description: Provides inline or autocomplete code suggestions in editors.
+- slug: code-coverage
+  name: Code coverage
+  description: Measures or improves test coverage of a codebase.
 - slug: code-review
   name: Code review
   description: Supports review of code changes or pull requests.
@@ -115,6 +124,9 @@
 - slug: framework
   name: Framework
   description: Provides a framework or scaffolding for AI applications.
+- slug: gateway
+  name: Gateway
+  description: Acts as an API gateway or proxy layer routing requests to AI models.
 - slug: github
   name: GitHub
   description: Integrates with GitHub workflows or pull requests.
@@ -220,6 +232,9 @@
 - slug: pull-requests
   name: Pull Requests
   description: Automation and tooling around pull request creation, review, and merging.
+- slug: python
+  name: Python
+  description: Targets Python codebases or is distributed as a Python library.
 - slug: quantization
   name: Quantization
   description: Supports or specializes in model quantization for efficiency.
@@ -253,6 +268,9 @@
 - slug: sdk
   name: SDK
   description: Software development kits for building applications on a platform or protocol.
+- slug: search
+  name: Search
+  description: Full-text, semantic, or hybrid search capabilities over documents or data.
 - slug: security
   name: Security
   description: Addresses security review, scanning, or hardening workflows.
@@ -265,12 +283,24 @@
 - slug: server-management
   name: Server Management
   description: Tools for managing MCP or AI server deployments and lifecycle.
+- slug: structured-output
+  name: Structured output
+  description: Enforces or generates structured data (JSON, schemas) from LLM outputs.
+- slug: summarization
+  name: Summarization
+  description: Summarizes code, documents, or other content using AI.
+- slug: swarm
+  name: Swarm
+  description: Coordinates multiple agents in a swarm or collective execution pattern.
 - slug: terminal
   name: Terminal
   description: Used from terminal-based workflows.
 - slug: terminal-agent
   name: Terminal agent
   description: Operates as an agent from the command line.
+- slug: test-generation
+  name: Test generation
+  description: Automatically generates unit, integration, or other tests from code.
 - slug: testing
   name: Testing
   description: Supports test generation, execution, or coverage analysis.
