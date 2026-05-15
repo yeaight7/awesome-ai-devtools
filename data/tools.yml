@@ -448,6 +448,32 @@
     - https://aider.chat/
     - https://aider.chat/docs/
     - https://github.com/Aider-AI/aider
+- slug: aiflow-dev
+  name: AIFLow Dev
+  description: Node-based canvas for building AI agent workflows and tools with support for multi-step, multi-agent orchestrations.
+  website_url: https://github.com/aiflow-dev/aiflow
+  repo_url: https://github.com/aiflow-dev/aiflow
+  docs_url: https://github.com/aiflow-dev/aiflow#readme
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - automation
+    - low-code
+    - open-source
+    - workflow-automation
+  interfaces:
+    - api
+    - web
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: position vs. Dify / AnythingLLM."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/aiflow-dev/aiflow
 - slug: aigne-docsmith
   name: AIGNE DocSmith
   description: AI-driven documentation generator that builds structured multi-language docs directly from code repositories.
@@ -1128,6 +1154,32 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/marketplace/actions/merge-pull-requests-automerge-action
+- slug: autopilot
+  name: Autopilot
+  description: Open-source AI software engineer that plans, edits, runs, and tests code changes over a repository via CLI and web UI.
+  website_url: https://github.com/princeton-nlp/Autopilot
+  repo_url: https://github.com/princeton-nlp/Autopilot
+  docs_url: https://github.com/princeton-nlp/Autopilot#readme
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - agents
+    - automation
+    - open-source
+    - repo-editing
+  interfaces:
+    - cli
+    - web
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: confirm stability and supported providers."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/princeton-nlp/Autopilot
 - slug: awesome-agent-skills
   name: Awesome Agent Skills
   description: Community-curated directory of agent skills, tutorials, and guides for Claude, Copilot, Codex, and other AI assistants.
@@ -1936,6 +1988,31 @@
     - https://coderabbit.ai/
     - https://coderabbit.ai/cli
     - https://docs.coderabbit.ai/
+- slug: codium-ai-testgen
+  name: CodiumAI TestGen
+  description: Extension and CLI that generates unit tests from code and docstrings for multiple languages using AI.
+  website_url: https://github.com/Codium-ai/codiumai-vscode-release
+  repo_url: https://github.com/Codium-ai/codiumai-vscode-release
+  docs_url: https://github.com/Codium-ai/codiumai-vscode-release#readme
+  categories:
+    - ide-assistants
+    - test-generation-agents
+  tags:
+    - open-source
+    - test-generation
+    - testing
+    - vscode
+  interfaces:
+    - ide
+  deployment: hybrid
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: VS Code-focused; categorize under test-generation."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/Codium-ai/codiumai-vscode-release
 - slug: comet-opik
   name: Comet Opik
   description: Open-source LLM observability framework for tracing, evaluating, and monitoring LLM, RAG, and agent workflows.
@@ -2057,6 +2134,33 @@
   sources:
     - https://docs.continue.dev/
     - https://github.com/continuedev/continue
+- slug: crewai
+  name: CrewAI
+  description: Python framework for building multi-agent AI crews with role-based agents, tools, and process orchestration.
+  website_url: https://github.com/crewAIInc/crewAI
+  repo_url: https://github.com/crewAIInc/crewAI
+  docs_url: https://docs.crewai.com
+  categories:
+    - coding-agents
+  tags:
+    - agents
+    - multi-agent
+    - open-source
+    - python
+    - tools
+  interfaces:
+    - framework
+    - library
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: primarily framework, but widely used for agentic dev."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://docs.crewai.com
+    - https://github.com/crewAIInc/crewAI
 - slug: cursor
   name: Cursor
   description: AI code editor built around chat, codebase context, agents, rules, MCP, and terminal-assisted development workflows.
@@ -2487,6 +2591,31 @@
   sources:
     - https://devin.ai/
     - https://docs.devin.ai/es/get-started/devin-intro
+- slug: diffblue-cover-community
+  name: Diffblue Cover Community
+  description: Java-focused AI unit test generator that integrates with Maven/Gradle and can run in CI pipelines.
+  website_url: https://github.com/diffblue/cover-community-edition
+  repo_url: https://github.com/diffblue/cover-community-edition
+  docs_url: https://github.com/diffblue/cover-community-edition#readme
+  categories:
+    - test-generation-agents
+  tags:
+    - ci
+    - java
+    - open-source
+    - testing
+    - unit-tests
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: Java-only but strong test-generation example."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/diffblue/cover-community-edition
 - slug: dify
   name: Dify
   description: Open-source LLMOps platform with visual studio for chatbots, workflows, agents, and RAG that supports self-hosted deployment.
@@ -3771,6 +3900,30 @@
     - https://github.com/Helicone/helicone
     - https://mintlify.wiki/helicone/helicone/observability/overview
     - https://www.helicone.ai
+- slug: honeycomb-ai-observability
+  name: Honeycomb AI Observability
+  description: Honeycomb configuration and sample code for tracing LLM and agent workloads via OpenTelemetry into Honeycomb.
+  website_url: https://github.com/honeycombio/examples/tree/main/ai-observability
+  repo_url: https://github.com/honeycombio/examples
+  docs_url: https://github.com/honeycombio/examples/tree/main/ai-observability
+  categories:
+    - agent-observability
+  tags:
+    - examples
+    - observability
+    - opentelemetry
+    - tracing
+  interfaces:
+    - framework
+  deployment: hosted
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: example config rather than a product, but fits observability patterns."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/honeycombio/examples
 - slug: hyperagent
   name: HyperAgent
   description: TypeScript SDK and CLI that layers AI commands like page.ai and executeTask on top of Playwright for intelligent browser automation.
@@ -4370,6 +4523,32 @@
     - https://github.com/lavague-ai
     - https://github.com/lavague-ai/LaVague
     - https://sumbits.ai/links/176
+- slug: litellm-otel
+  name: LiteLLM OTEL Observability
+  description: LiteLLM OpenTelemetry exporter for tracing LLM and agent calls across providers with standardized spans.
+  website_url: https://github.com/BerriAI/litellm
+  repo_url: https://github.com/BerriAI/litellm
+  docs_url: https://github.com/BerriAI/litellm/tree/main/docs/my-website/docs/observability
+  categories:
+    - agent-observability
+  tags:
+    - gateway
+    - llmops
+    - open-source
+    - opentelemetry
+    - tracing
+  interfaces:
+    - api
+    - library
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: categorize only the observability component of LiteLLM."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/BerriAI/litellm
 - slug: llama-cpp-python
   name: llama-cpp-python
   description: Python bindings and OpenAI-compatible web server for llama.cpp, exposing local models via HTTP and Python APIs.
@@ -5733,6 +5912,30 @@
     - https://github.com/monocle2ai/monocle
     - https://lfaidata.foundation/projects/monocle/
     - https://monocle2ai.org
+- slug: newrelic-ai-monitoring
+  name: New Relic AI Monitoring
+  description: Example instruments and quickstarts for sending LLM and agent telemetry into New Relic for tracing and dashboards.
+  website_url: https://github.com/newrelic/ai-examples
+  repo_url: https://github.com/newrelic/ai-examples
+  docs_url: https://github.com/newrelic/ai-examples#readme
+  categories:
+    - agent-observability
+  tags:
+    - dashboards
+    - llmops
+    - observability
+    - tracing
+  interfaces:
+    - framework
+  deployment: hosted
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: example repo but valuable for AI observability patterns."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/newrelic/ai-examples
 - slug: next-js-devtools-mcp
   name: Next.js DevTools MCP
   description: MCP server for exposing Next.js development tools and diagnostics to coding agents.
@@ -6346,6 +6549,32 @@
     - https://github.com/openlit/openlit
     - https://openlit.io
     - https://openobserve.ai/blog/observability-for-ai-applications-using-openobserve-and-openlit/
+- slug: openllmetry
+  name: openllmetry
+  description: Open-source observability stack for LLM apps and agents built on OpenTelemetry, with collectors and dashboards for traces and metrics.
+  website_url: https://github.com/traceloop/openllmetry
+  repo_url: https://github.com/traceloop/openllmetry
+  docs_url: https://github.com/traceloop/openllmetry#readme
+  categories:
+    - agent-observability
+  tags:
+    - llmops
+    - observability
+    - open-source
+    - opentelemetry
+    - tracing
+  interfaces:
+    - api
+    - web
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: position as competitor/alternative to Langfuse/Langtrace."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/traceloop/openllmetry
 - slug: openobserve-llm-observability
   name: OpenObserve LLM Observability
   description: Open-source observability platform that unifies infrastructure and LLM observability with logs, metrics, and traces.
@@ -6672,6 +6901,34 @@
   sources:
     - https://github.com/ka-brian/pr-test-generator
     - https://github.com/marketplace/actions/pr-test-generator
+- slug: pr-agent
+  name: PR-Agent
+  description: AI-powered GitHub app and CLI that reviews pull requests, suggests fixes, and can generate tests for changes.
+  website_url: https://github.com/Codium-ai/pr-agent
+  repo_url: https://github.com/Codium-ai/pr-agent
+  docs_url: https://github.com/Codium-ai/pr-agent#readme
+  categories:
+    - ai-code-review-tools
+    - repo-automation-tools
+    - test-generation-agents
+  tags:
+    - automation
+    - code-review
+    - github
+    - open-source
+    - testing
+  interfaces:
+    - cli
+    - github-app
+  deployment: hybrid
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: overlap with CodeRabbit/Continue but focused on AI PR review."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/Codium-ai/pr-agent
 - slug: proactive-documentation-assistant
   name: Proactive Documentation Assistant
   description: Agent that monitors Git repos and suggests README and docstring updates based on code changes.
@@ -6699,6 +6956,31 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/hans992/Proactive_Documentation_Assistant
+- slug: promptfoo
+  name: promptfoo
+  description: CLI and framework for testing and evaluating LLM prompts with regression tests, grids, and CI integration.
+  website_url: https://github.com/promptfoo/promptfoo
+  repo_url: https://github.com/promptfoo/promptfoo
+  docs_url: https://promptfoo.dev
+  categories:
+    - agent-evals
+  tags:
+    - cli
+    - evals
+    - open-source
+    - regression-testing
+    - testing
+  interfaces:
+    - cli
+    - framework
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/promptfoo/promptfoo
 - slug: promptfoo
   name: Promptfoo
   description: Open-source framework and CLI for testing prompts, models, RAG pipelines, and LLM security via automated evals and red teaming.
@@ -6919,6 +7201,33 @@
   license: not specified
   curation_status: draft
   review_notes: "Draft: needs-human-review for language support, model configuration, and license details."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/qodo-ai/qodo-cover
+- slug: qodo-cover
+  name: Qodo-Cover
+  description: AI-powered tool that automatically generates unit tests and improves code coverage, runnable as a CLI or in CI.
+  website_url: https://github.com/qodo-ai/qodo-cover
+  repo_url: https://github.com/qodo-ai/qodo-cover
+  docs_url: https://github.com/qodo-ai/qodo-cover#readme
+  categories:
+    - repo-automation-tools
+    - test-generation-agents
+  tags:
+    - ci
+    - code-coverage
+    - github
+    - open-source
+    - test-generation
+    - testing
+  interfaces:
+    - cli
+    - github-app
+  deployment: hybrid
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-15
   last_checked: 2026-05-15
   sources:
@@ -7416,6 +7725,39 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/upamune/roomode
+- slug: ruflo
+  name: Ruflo
+  description: Enterprise-grade multi-agent orchestration framework for Claude that deploys 60+ specialized AI agents with shared memory, RAG, and swarm coordination across machines and teams.
+  website_url: https://github.com/ruvnet/ruflo
+  repo_url: https://github.com/ruvnet/ruflo
+  docs_url: https://github.com/ruvnet/ruflo#readme
+  categories:
+    - coding-agents
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agentic-coding
+    - agents
+    - automation
+    - claude
+    - mcp
+    - multi-agent
+    - open-source
+    - rag
+    - swarm
+  interfaces:
+    - api
+    - cli
+    - web
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/ruvnet/ruflo
+    - https://myaiguide.co/repos/ruflo
+    - https://www.agentupdate.ai/product/ruflo/
 - slug: rules
   name: rules
   description: CLI tool to create, manage, and convert rule sets for code guidance across Cursor, Continue.dev, Claude, Copilot, and Codex.
@@ -7439,6 +7781,31 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/continuedev/rules
+- slug: sanctum
+  name: Sanctum
+  description: Self-hosted AI coding agent that runs inside your infra with filesystem, git, and shell access to implement changes securely.
+  website_url: https://github.com/hotcoder/sanctum
+  repo_url: https://github.com/hotcoder/sanctum
+  docs_url: https://github.com/hotcoder/sanctum#readme
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - agents
+    - open-source
+    - repo-editing
+    - terminal-agent
+  interfaces:
+    - cli
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: verify language/runtime support."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/hotcoder/sanctum
 - slug: scalable-agentic-rag-platform-fareedkhan-dev
   name: Scalable Agentic RAG Platform (FareedKhan-dev)
   description: Production-grade agentic RAG platform with Kubernetes, Ray, LangGraph, and multi-plane architecture.
@@ -8248,6 +8615,33 @@
     - https://www.trulens.org
     - https://www.trulens.org/cookbook/frameworks/llamaindex/llama_index_evaluate_agent_workflow_multi/
     - https://www.trulens.org/docs
+- slug: trulens
+  name: TruLens
+  description: Python library and dashboard for evaluating and monitoring LLM, RAG, and agent pipelines with quality metrics.
+  website_url: https://github.com/truera/trulens
+  repo_url: https://github.com/truera/trulens
+  docs_url: https://www.trulens.org
+  categories:
+    - agent-evals
+    - agent-observability
+  tags:
+    - evals
+    - observability
+    - open-source
+    - python
+    - rag
+  interfaces:
+    - framework
+    - web
+  deployment: hybrid
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: complement to DeepEval/LangSmith/Langfuse."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/truera/trulens
 - slug: unitxt
   name: Unitxt
   description: IBM-backed library and catalog for textual data preparation and evaluation of generative language models across many tasks.
@@ -8813,6 +9207,32 @@
   license: not specified
   curation_status: draft
   review_notes: "Draft: confirm supported Python versions and recommended LLM backends."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/Wytamma/write-the
+- slug: write-the
+  name: write-the
+  description: AI-powered Python tool that auto-generates documentation and tests from code, and assists with refactoring.
+  website_url: https://github.com/Wytamma/write-the
+  repo_url: https://github.com/Wytamma/write-the
+  docs_url: https://github.com/Wytamma/write-the#readme
+  categories:
+    - documentation-agents
+    - test-generation-agents
+  tags:
+    - cli
+    - documentation
+    - open-source
+    - python
+    - test-generation
+  interfaces:
+    - cli
+    - library
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
   added: 2026-05-15
   last_checked: 2026-05-15
   sources:
