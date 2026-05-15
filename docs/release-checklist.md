@@ -23,8 +23,8 @@ Use this checklist before tagging a new release.
 This repository releases as a **GitHub release only** — do not publish to npm.
 
 ```bash
-git tag v0.1.0
-git push origin v0.1.0
+git tag v0.1.1
+git push origin v0.1.1
 ```
 
 Then create a GitHub release from the tag with a short changelog summary.
