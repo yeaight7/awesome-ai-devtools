@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>331 tools</code> <code>266 reviewed</code> <code>65 draft</code> <code>17 active reviewed shelves</code></p>
+<p align="center"><code>339 tools</code> <code>266 reviewed</code> <code>73 draft</code> <code>17 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -631,7 +631,7 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | [Dependencies Autoupdate Action](https://github.com/marketplace/actions/dependencies-autoupdate) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/dependencies-autoupdate) |
 | [Developer Documentation AI Assistant](https://www.linkedin.com/posts/ephrem0001_developerproductivity-documentation-aitools-activity-7370959376548929536-mLz5) | Documentation agents | Draft: needs-human-review. | [Website](https://www.linkedin.com/posts/ephrem0001_developerproductivity-documentation-aitools-activity-7370959376548929536-mLz5) |
 
-_Showing 20 of 65 draft entries. Full queue in `data/tools.yml`._
+_Showing 20 of 73 draft entries. Full queue in `data/tools.yml`._
 
 ## Submit a tool
 
