@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>347 tools</code> <code>267 reviewed</code> <code>80 draft</code> <code>17 active reviewed shelves</code></p>
+<p align="center"><code>355 tools</code> <code>271 reviewed</code> <code>84 draft</code> <code>17 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -40,7 +40,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 - [Dify](https://dify.ai) - Open-source LLMOps platform with visual studio for chatbots, workflows, agents, and RAG that supports self-hosted deployment.
 - [Onyx](https://onyx.dotenv.dev) - Open-source self-hostable AI platform offering chat UI with agents, RAG, MCP tools, and multi-provider model support.
 - [Open WebUI Platform](https://openwebui.com) - Self-hosted AI platform and UI that supports Ollama and OpenAI-compatible APIs and can run entirely offline.
-- [Tabby](https://www.tabbyml.com/) - Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development.
+- [Tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant with OpenAI-compatible API and IDE plugins for VS Code and JetBrains.
 
 ### MCP tools
 
@@ -64,13 +64,13 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 - [LM Studio](https://lmstudio.ai) - Cross-platform desktop app and SDKs to discover, run, and serve local LLMs with an OpenAI-compatible server mode.
 - [Llamafile](https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md) - Single-file local LLM runtime bundling llama.cpp and web UI, with an OpenAI-compatible /v1 chat completions endpoint.
 - [LocalAI](https://localai.io) - Self-hosted REST server that emulates the OpenAI API to run local ggml/llama.cpp and related models on your own hardware.
-- [vLLM](https://vllm.ai) - High-throughput LLM inference engine with an OpenAI-compatible HTTP server for serving models locally or on servers.
+- [vLLM](https://github.com/vllm-project/vllm) - High-throughput LLM inference engine with OpenAI-compatible API for serving large models on GPUs.
 
 ## Explore by intent
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (26) · [Terminal agents](#terminal-agents) (13) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (23)
+[Coding agents](#coding-agents) (26) · [Terminal agents](#terminal-agents) (13) · [IDE assistants](#ide-assistants) (18) · [Browser agents](#browser-agents) (23)
 
 ### Extend agents
 
@@ -82,7 +82,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Run locally/self-host
 
-[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (25) · [Local LLM developer tools](#local-llm-developer-tools) (28)
+[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (25) · [Local LLM developer tools](#local-llm-developer-tools) (32)
 
 ### Automate repo work
 
@@ -106,7 +106,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 | [Dify](https://dify.ai) | Self-hosted AI dev stacks | Yes | No | Yes | No | No | No | [Website](https://dify.ai) / [Docs](https://docs.dify.ai) / [Repo](https://github.com/langgenius/dify) |
 | [Onyx](https://onyx.dotenv.dev) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | Yes | [Website](https://onyx.dotenv.dev) / [Docs](https://github.com/onyx-dot-app/onyx#readme) / [Repo](https://github.com/onyx-dot-app/onyx) |
 | [Open WebUI Platform](https://openwebui.com) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | No | [Website](https://openwebui.com) / [Docs](https://docs.openwebui.com) / [Repo](https://github.com/open-webui/open-webui) |
-| [Tabby](https://www.tabbyml.com/) | Self-hosted AI dev stacks | Yes | No | Yes | No | Yes | No | [Website](https://www.tabbyml.com/) / [Docs](https://tabby.tabbyml.com/docs/) / [Repo](https://github.com/TabbyML/tabby) |
+| [Tabby](https://github.com/TabbyML/tabby) | IDE assistants | Yes | No | Yes | No | No | No | [Docs](https://tabby.tabbyml.com) / [Repo](https://github.com/TabbyML/tabby) |
 | [Chrome DevTools MCP](https://developer.chrome.com/blog/chrome-devtools-mcp) | MCP servers | Yes | Yes | No | No | No | Yes | [Docs](https://developer.chrome.com/blog/chrome-devtools-mcp) / [Repo](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
 | [GitHub MCP Server](https://github.com/github/github-mcp-server) | MCP servers | Yes | No | No | No | No | Yes | [Repo](https://github.com/github/github-mcp-server) |
 | [Context7 MCP Server](https://context7.com) | MCP servers | Yes | No | No | No | No | Yes | [Website](https://context7.com) / [Repo](https://github.com/upstash/context7) |
@@ -120,7 +120,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 | [LM Studio](https://lmstudio.ai) | Local LLM developer tools | Yes | Yes | No | Yes | No | No | [Website](https://lmstudio.ai) / [Docs](https://lmstudio.ai/docs) / [Repo](https://github.com/lmstudio-ai) |
 | [Llamafile](https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Docs](https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md) / [Repo](https://github.com/Mozilla-Ocho/llamafile) |
 | [LocalAI](https://localai.io) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://localai.io) / [Docs](https://localai.io/docs) / [Repo](https://github.com/go-skynet/LocalAI) |
-| [vLLM](https://vllm.ai) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Website](https://vllm.ai) / [Docs](https://docs.vllm.ai/en/stable/serving/openai_compatible_server.html) / [Repo](https://github.com/vllm-project/vllm) |
+| [vLLM](https://github.com/vllm-project/vllm) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Docs](https://docs.vllm.ai) / [Repo](https://github.com/vllm-project/vllm) |
 | [Athenaeum](https://github.com/herakles-dev/athenaeum#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | Yes | [Docs](https://github.com/herakles-dev/athenaeum#readme) / [Repo](https://github.com/herakles-dev/athenaeum) |
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
 | [Goose](https://goose-docs.ai/) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Website](https://goose-docs.ai/) / [Docs](https://goose-docs.ai/docs/quickstart/) / [Repo](https://github.com/aaif-goose/goose) |
@@ -219,6 +219,7 @@ AI assistants embedded in editors or IDEs for coding workflows.
 | [Roo Code](https://roocode.com/) | Open-source coding agent for VS Code and cloud agents that can code, review, and automate repository tasks. | CLI · IDE · Web · Hybrid | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
 | [Sweep](https://sweep.dev/) | JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration. | IDE · Hybrid | [Website](https://sweep.dev/) / [Docs](https://docs.sweep.dev/) / [Repo](https://github.com/sweepai/sweep) |
 | [Tabby](https://www.tabbyml.com/) | Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development. | API · IDE · Self-hosted | [Website](https://www.tabbyml.com/) / [Docs](https://tabby.tabbyml.com/docs/) / [Repo](https://github.com/TabbyML/tabby) |
+| [Tabby](https://github.com/TabbyML/tabby) | Self-hosted AI coding assistant with OpenAI-compatible API and IDE plugins for VS Code and JetBrains. | API · Web · Self-hosted | [Docs](https://tabby.tabbyml.com) / [Repo](https://github.com/TabbyML/tabby) |
 | [Windsurf Editor](https://windsurf.com/) | AI code editor with repo-aware agent workflows for multi-file edits and developer automation. | Desktop · Hybrid | [Website](https://windsurf.com/) / [Docs](https://docs.windsurf.com/) |
 | [Zed](https://zed.dev/) | Code editor with built-in agent workflows, external agent support, and MCP-connected coding assistance. | Desktop · MCP · Local | [Website](https://zed.dev/) / [Docs](https://zed.dev/releases/stable/0.233.5) / [Repo](https://github.com/zed-industries/zed) |
 
@@ -467,8 +468,10 @@ Tools that help developers run or integrate local models in coding workflows.
 | [Docker Model Runner](https://www.docker.com/products/model-runner) | Docker Desktop-integrated local model runtime that runs GGUF models via an OpenAI-compatible API. | API · CLI · Local | [Website](https://www.docker.com/products/model-runner) / [Docs](https://docs.docker.com/ai/model-runner/) |
 | [ExLlamaV2](https://github.com/turboderp-org/exllamav2#readme) | Inference library for running GPTQ-quantized LLMs on modern consumer GPUs with high performance. | CLI · Library · Local | [Docs](https://github.com/turboderp-org/exllamav2#readme) / [Repo](https://github.com/turboderp-org/exllamav2) |
 | [GPT4All](https://gpt4all.io) | Local LLM desktop client and Python library with optional OpenAI-compatible API server on localhost. | API · Desktop · Library · Local | [Website](https://gpt4all.io) / [Docs](https://docs.gpt4all.io) / [Repo](https://github.com/nomic-ai/gpt4all) |
+| [Haystack](https://github.com/deepset-ai/haystack) | Open-source framework for building RAG pipelines, agents, and semantic search over private data. | API · Framework · Local | [Docs](https://docs.haystack.deepset.ai) / [Repo](https://github.com/deepset-ai/haystack) |
 | [Intel Neural Compressor](https://github.com/intel/neural-compressor) | Open-source compression toolkit supporting quantization and pruning for deep learning and LLM workloads. | Library · Local | [Docs](https://intel.github.io/neural-compressor) / [Repo](https://github.com/intel/neural-compressor) |
 | [KoboldCpp](https://koboldcpp.com) | Single-file local LLM server and web UI for GGUF models with Kobold-style API and OpenAI-like integrations. | API · CLI · Web · Local | [Website](https://koboldcpp.com) / [Docs](https://github.com/LostRuins/koboldcpp/wiki) / [Repo](https://github.com/LostRuins/koboldcpp) |
+| [LiteLLM Gateway](https://github.com/BerriAI/litellm) | Drop-in proxy that unifies many LLM providers behind an OpenAI-compatible API, with logging and rate limiting. | API · CLI · Self-hosted | [Docs](https://docs.litellm.ai) / [Repo](https://github.com/BerriAI/litellm) |
 | [llama-cpp-python](https://llama-cpp-python.readthedocs.io) | Python bindings and OpenAI-compatible web server for llama.cpp, exposing local models via HTTP and Python APIs. | API · CLI · Library · Self-hosted | [Docs](https://llama-cpp-python.readthedocs.io) / [Repo](https://github.com/abetlen/llama-cpp-python) |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/examples) | C/C++ LLM inference library and tools for running quantized models on CPUs and GPUs with optional HTTP and OpenAI-style servers. | API · CLI · Library · Self-hosted | [Docs](https://github.com/ggml-org/llama.cpp/tree/master/examples) / [Repo](https://github.com/ggml-org/llama.cpp) |
 | [Llamafile](https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md) | Single-file local LLM runtime bundling llama.cpp and web UI, with an OpenAI-compatible /v1 chat completions endpoint. | API · CLI · Web · Local | [Docs](https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md) / [Repo](https://github.com/Mozilla-Ocho/llamafile) |
@@ -485,10 +488,12 @@ Tools that help developers run or integrate local models in coding workflows.
 | [mlx-lm](https://github.com/ml-explore/mlx-lm#readme) | Apple MLX-based Python package for running and fine-tuning LLMs on Apple silicon, with an HTTP server similar to OpenAI chat API. | API · CLI · Library · Local | [Docs](https://github.com/ml-explore/mlx-lm#readme) / [Repo](https://github.com/ml-explore/mlx-lm) |
 | [Ollama](https://ollama.com) | Local LLM runtime and model manager that runs open models on your machine with an OpenAI-compatible Chat Completions API. | API · CLI · Local | [Website](https://ollama.com) / [Docs](https://docs.ollama.com) / [Repo](https://github.com/ollama/ollama) |
 | [Tabby](https://www.tabbyml.com/) | Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development. | API · IDE · Self-hosted | [Website](https://www.tabbyml.com/) / [Docs](https://tabby.tabbyml.com/docs/) / [Repo](https://github.com/TabbyML/tabby) |
+| [Tabby](https://github.com/TabbyML/tabby) | Self-hosted AI coding assistant with OpenAI-compatible API and IDE plugins for VS Code and JetBrains. | API · Web · Self-hosted | [Docs](https://tabby.tabbyml.com) / [Repo](https://github.com/TabbyML/tabby) |
 | [TabbyAPI](https://github.com/theroyallab/tabbyAPI#readme) | FastAPI-based backend server for ExLlamaV2 that exposes local text generation over HTTP for coding and chat workloads. | API · Self-hosted | [Docs](https://github.com/theroyallab/tabbyAPI#readme) / [Repo](https://github.com/theroyallab/tabbyAPI) |
 | [Text Generation Inference](https://huggingface.co/docs/text-generation-inference) | High-performance Rust and Python server for deploying and serving open-source LLMs via HTTP and gRPC. | API · CLI · Self-hosted | [Website](https://huggingface.co/docs/text-generation-inference) / [Docs](https://huggingface.co/docs/text-generation-inference/index) / [Repo](https://github.com/huggingface/text-generation-inference) |
 | [text-generation-webui](https://github.com/oobabooga/text-generation-webui#readme) | Self-hosted Gradio/Web UI and API for running diverse local text generation models on CPUs and GPUs. | CLI · Web · Self-hosted | [Docs](https://github.com/oobabooga/text-generation-webui#readme) / [Repo](https://github.com/oobabooga/text-generation-webui) |
 | [vLLM](https://vllm.ai) | High-throughput LLM inference engine with an OpenAI-compatible HTTP server for serving models locally or on servers. | API · CLI · Library · Self-hosted | [Website](https://vllm.ai) / [Docs](https://docs.vllm.ai/en/stable/serving/openai_compatible_server.html) / [Repo](https://github.com/vllm-project/vllm) |
+| [vLLM](https://github.com/vllm-project/vllm) | High-throughput LLM inference engine with OpenAI-compatible API for serving large models on GPUs. | API · CLI · Self-hosted | [Docs](https://docs.vllm.ai) / [Repo](https://github.com/vllm-project/vllm) |
 | [WebLLM](https://webllm.mlc.ai) | In-browser LLM inference engine using WebGPU that exposes an OpenAI-compatible API surface for local models. | Library · Web · Local | [Website](https://webllm.mlc.ai) / [Docs](https://github.com/mlc-ai/web-llm#readme) / [Repo](https://github.com/mlc-ai/web-llm) |
 
 ### Repo automation tools
@@ -596,14 +601,14 @@ AI tools that create, improve, or maintain automated tests.
 
 ## New Arrivals
 
+- 2026-05-15: [Haystack](https://github.com/deepset-ai/haystack)
+- 2026-05-15: [LiteLLM Gateway](https://github.com/BerriAI/litellm)
 - 2026-05-15: [promptfoo](https://github.com/promptfoo/promptfoo)
 - 2026-05-15: [Qodo-Cover](https://github.com/qodo-ai/qodo-cover)
 - 2026-05-15: [RepoMix](https://github.com/microsoft/repomix)
 - 2026-05-15: [Ruflo](https://github.com/ruvnet/ruflo)
-- 2026-05-15: [write-the](https://github.com/Wytamma/write-the)
-- 2026-05-10: [agenttrace](https://luoyuctl.github.io/agenttrace/)
-- 2026-05-08: [Agent Browser](https://github.com/vercel-labs/agent-browser)
-- 2026-05-08: [Agent Eval Framework](https://github.com/goker/agent-eval-framework)
+- 2026-05-15: [Tabby](https://github.com/TabbyML/tabby)
+- 2026-05-15: [vLLM](https://github.com/vllm-project/vllm)
 
 ## Needs review
 
@@ -629,10 +634,10 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | [Cline Prompts](https://github.com/cline/prompts) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/cline/prompts) |
 | [Code Summarizer Action](https://github.com/marketplace/actions/code-summarizer) | Repo automation tools | Draft: verify current marketplace listing and name. | [Website](https://github.com/marketplace/actions/code-summarizer) / [Docs](https://github.com/kubescape/code-summarizer#readme) / [Repo](https://github.com/kubescape/code-summarizer) |
 | [Codebrush](https://github.com/tldraw/codebrush) | Data and ML coding assistants | Draft: narrow language focus but good DX tool. | [Docs](https://github.com/tldraw/codebrush#readme) / [Repo](https://github.com/tldraw/codebrush) |
+| [CodeGeeX](https://github.com/THUDM/CodeGeeX2) | IDE assistants | Draft: more of a model + extension than generic stack. | [Docs](https://github.com/THUDM/CodeGeeX2#readme) / [Repo](https://github.com/THUDM/CodeGeeX2) |
 | [Codex Docs](https://github.com/codex-src/codex-docs) | Documentation agents | Draft: self-hosted docs portal with AI features. | [Docs](https://github.com/codex-src/codex-docs#readme) / [Repo](https://github.com/codex-src/codex-docs) |
-| [CodiumAI TestGen](https://github.com/Codium-ai/codiumai-vscode-release) | IDE assistants | Draft: VS Code-focused; categorize under test-generation. | [Docs](https://github.com/Codium-ai/codiumai-vscode-release#readme) / [Repo](https://github.com/Codium-ai/codiumai-vscode-release) |
 
-_Showing 20 of 80 draft entries. Full queue in `data/tools.yml`._
+_Showing 20 of 84 draft entries. Full queue in `data/tools.yml`._
 
 ## Submit a tool
 
