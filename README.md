@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>309 tools</code> <code>262 reviewed</code> <code>47 draft</code> <code>17 active reviewed shelves</code></p>
+<p align="center"><code>315 tools</code> <code>262 reviewed</code> <code>53 draft</code> <code>17 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -613,6 +613,7 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | [Automatic Pull Request (AutoPR)](https://github.com/marketplace/actions/automatic-pull-request) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/automatic-pull-request) |
 | [Automatic Pull Request Review](https://github.com/marketplace/actions/automatic-pull-request-review) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/automatic-pull-request-review) |
 | [Awesome Codex Skills](https://github.com/ComposioHQ/awesome-codex-skills) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/ComposioHQ/awesome-codex-skills) |
+| [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers) | MCP servers | Draft: curated list rather than a runtime tool, but matches existing awesome-* style entries. | [Repo](https://github.com/appcypher/awesome-mcp-servers) |
 | [ci-debug-action](https://github.com/alpacahq/ci-debug-action) | Repo automation tools | Draft: source_model=not specified. | [Repo](https://github.com/alpacahq/ci-debug-action) |
 | [Cline Prompts](https://github.com/cline/prompts) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/cline/prompts) |
 | [Deepchecks LLM Evaluation](https://deepchecks.com/llm-evaluation/) | Agent evals | Draft: source_model=not specified. | [Website](https://deepchecks.com/llm-evaluation/) / [Docs](https://deepchecks.com/deepchecks-llm-evaluation/) / [Repo](https://github.com/deepchecks/llm-evals-demos) |
@@ -622,9 +623,8 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | [DrMLlm](https://github.com/Vybhav448/DrMLlm#readme) | Self-hosted AI dev stacks | Draft: source_model=not specified. | [Docs](https://github.com/Vybhav448/DrMLlm#readme) / [Repo](https://github.com/Vybhav448/DrMLlm) |
 | [Generate AI Documentation Action](https://github.com/marketplace/actions/generate-ai-documentation) | Documentation agents | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/generate-ai-documentation) |
 | [git-housekeeper](https://github.com/mediamonks/git-housekeeper) | Repo automation tools | Draft: source_model=not specified. | [Repo](https://github.com/mediamonks/git-housekeeper) |
-| [GitHub Maintenance Action](https://github.com/marketplace/actions/github-maintenance-action) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/github-maintenance-action) |
 
-_Showing 20 of 47 draft entries. Full queue in `data/tools.yml`._
+_Showing 20 of 53 draft entries. Full queue in `data/tools.yml`._
 
 ## Submit a tool
 
