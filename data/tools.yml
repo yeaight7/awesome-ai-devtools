@@ -7546,31 +7546,6 @@
   sources:
     - https://github.com/hans992/Proactive_Documentation_Assistant
 - slug: promptfoo
-  name: promptfoo
-  description: CLI and framework for testing and evaluating LLM prompts with regression tests, grids, and CI integration.
-  website_url: https://github.com/promptfoo/promptfoo
-  repo_url: https://github.com/promptfoo/promptfoo
-  docs_url: https://promptfoo.dev
-  categories:
-    - agent-evals
-  tags:
-    - cli
-    - evals
-    - open-source
-    - regression-testing
-    - testing
-  interfaces:
-    - cli
-    - framework
-  deployment: local
-  source_model: open-source
-  license: MIT
-  curation_status: reviewed
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/promptfoo/promptfoo
-- slug: promptfoo
   name: Promptfoo
   description: Open-source framework and CLI for testing prompts, models, RAG pipelines, and LLM security via automated evals and red teaming.
   website_url: https://www.promptfoo.dev
@@ -7817,34 +7792,6 @@
     - https://www.qodo.ai/
 - slug: qodo-cover
   name: Qodo-Cover
-  description: AI-powered tool that automatically generates unit tests and improves code coverage, runnable as a CLI or in GitHub CI workflows.
-  website_url: https://github.com/qodo-ai/qodo-cover
-  repo_url: https://github.com/qodo-ai/qodo-cover
-  docs_url: https://github.com/qodo-ai/qodo-cover#readme
-  categories:
-    - repo-automation-tools
-    - test-generation-agents
-  tags:
-    - automation
-    - ci
-    - code-coverage
-    - github
-    - test-generation
-    - testing
-  interfaces:
-    - cli
-    - github-app
-  deployment: hybrid
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Draft: needs-human-review for language support, model configuration, and license details."
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/qodo-ai/qodo-cover
-- slug: qodo-cover
-  name: Qodo-Cover
   description: AI-powered tool that automatically generates unit tests and improves code coverage, runnable as a CLI or in CI.
   website_url: https://github.com/qodo-ai/qodo-cover
   repo_url: https://github.com/qodo-ai/qodo-cover
@@ -7852,6 +7799,7 @@
   categories:
     - repo-automation-tools
     - test-generation-agents
+  primary_category: test-generation-agents
   tags:
     - ci
     - code-coverage
@@ -8395,6 +8343,7 @@
   categories:
     - coding-agents
     - self-hosted-ai-dev-stacks
+  primary_category: coding-agents
   tags:
     - agentic-coding
     - agents
@@ -9112,31 +9061,6 @@
     - https://tabby.tabbyml.com/docs/
     - https://www.tabbyml.com/
     - https://www.tabbyml.com/agent
-- slug: tabby
-  name: Tabby
-  description: Self-hosted AI coding assistant with OpenAI-compatible API and IDE plugins for VS Code and JetBrains.
-  website_url: https://github.com/TabbyML/tabby
-  repo_url: https://github.com/TabbyML/tabby
-  docs_url: https://tabby.tabbyml.com
-  categories:
-    - ide-assistants
-    - local-llm-developer-tools
-  tags:
-    - code-completion
-    - coding
-    - open-source
-    - self-hosted
-  interfaces:
-    - api
-    - web
-  deployment: self-hosted
-  source_model: open-source
-  license: Apache-2.0
-  curation_status: reviewed
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/TabbyML/tabby
 - slug: tabbyapi
   name: TabbyAPI
   description: FastAPI-based backend server for ExLlamaV2 that exposes local text generation over HTTP for coding and chat workloads.
@@ -9247,30 +9171,6 @@
     - https://github.com/huggingface/text-generation-inference
     - https://huggingface.co/docs/text-generation-inference
     - https://huggingface.co/docs/text-generation-inference/index
-- slug: text-generation-inference
-  name: Text Generation Inference
-  description: Hugging Face LLM inference server for text-generation models with gRPC and OpenAI-compatible HTTP APIs.
-  website_url: https://github.com/huggingface/text-generation-inference
-  repo_url: https://github.com/huggingface/text-generation-inference
-  docs_url: https://github.com/huggingface/text-generation-inference#readme
-  categories:
-    - local-llm-developer-tools
-  tags:
-    - gpu
-    - inference
-    - model-serving
-    - open-source
-  interfaces:
-    - api
-  deployment: self-hosted
-  source_model: open-source
-  license: Apache-2.0
-  curation_status: draft
-  review_notes: "Draft: already widely used as backend for Hugging Face Inference."
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/huggingface/text-generation-inference
 - slug: text-generation-webui
   name: text-generation-webui
   description: Self-hosted Gradio/Web UI and API for running diverse local text generation models on CPUs and GPUs.
@@ -9374,33 +9274,6 @@
     - https://www.trulens.org
     - https://www.trulens.org/cookbook/frameworks/llamaindex/llama_index_evaluate_agent_workflow_multi/
     - https://www.trulens.org/docs
-- slug: trulens
-  name: TruLens
-  description: Python library and dashboard for evaluating and monitoring LLM, RAG, and agent pipelines with quality metrics.
-  website_url: https://github.com/truera/trulens
-  repo_url: https://github.com/truera/trulens
-  docs_url: https://www.trulens.org
-  categories:
-    - agent-evals
-    - agent-observability
-  tags:
-    - evals
-    - observability
-    - open-source
-    - python
-    - rag
-  interfaces:
-    - framework
-    - web
-  deployment: hybrid
-  source_model: open-source
-  license: Apache-2.0
-  curation_status: draft
-  review_notes: "Draft: complement to DeepEval/LangSmith/Langfuse."
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/truera/trulens
 - slug: unitxt
   name: Unitxt
   description: IBM-backed library and catalog for textual data preparation and evaluation of generative language models across many tasks.
@@ -9579,30 +9452,6 @@
     - https://github.com/vllm-project/vllm
     - https://raw.githubusercontent.com/openai/openai-cookbook/main/articles/gpt-oss/run-vllm.md
     - https://vllm.ai
-- slug: vllm
-  name: vLLM
-  description: High-throughput LLM inference engine with OpenAI-compatible API for serving large models on GPUs.
-  website_url: https://github.com/vllm-project/vllm
-  repo_url: https://github.com/vllm-project/vllm
-  docs_url: https://docs.vllm.ai
-  categories:
-    - local-llm-developer-tools
-  tags:
-    - gpu
-    - inference
-    - open-source
-    - openai-compatible
-  interfaces:
-    - api
-    - cli
-  deployment: self-hosted
-  source_model: open-source
-  license: Apache-2.0
-  curation_status: reviewed
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/vllm-project/vllm
 - slug: vs-code-browser-agent-tools
   name: VS Code Browser Agent Tools
   description: Visual Studio Code Copilot feature set that lets AI agents open pages, read content, click elements, and run Playwright code in an integrated browser.
@@ -9992,34 +9841,6 @@
     - https://github.com/marketplace/actions/workflow-housekeeper
 - slug: write-the
   name: write-the
-  description: AI-powered Python tool that auto-generates documentation and tests from code, and assists with refactoring to improve code quality.
-  website_url: https://github.com/Wytamma/write-the
-  repo_url: https://github.com/Wytamma/write-the
-  docs_url: https://github.com/Wytamma/write-the#readme
-  categories:
-    - documentation-agents
-    - test-generation-agents
-  tags:
-    - automation
-    - cli
-    - documentation
-    - python
-    - refactoring
-    - test-generation
-  interfaces:
-    - cli
-    - library
-  deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Draft: confirm supported Python versions and recommended LLM backends."
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/Wytamma/write-the
-- slug: write-the
-  name: write-the
   description: AI-powered Python tool that auto-generates documentation and tests from code, and assists with refactoring.
   website_url: https://github.com/Wytamma/write-the
   repo_url: https://github.com/Wytamma/write-the
@@ -10027,6 +9848,7 @@
   categories:
     - documentation-agents
     - test-generation-agents
+  primary_category: documentation-agents
   tags:
     - cli
     - documentation
