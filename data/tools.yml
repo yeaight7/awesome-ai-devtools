@@ -3661,6 +3661,31 @@
   sources:
     - https://github.com/actions/stale
     - https://github.com/marketplace/actions/stale-for-actions
+- slug: go-mcp-sdk
+  name: Go MCP SDK
+  description: Community Go SDK for building MCP servers and clients with idiomatic Go types.
+  website_url: https://github.com/jmorganca/go-mcp
+  repo_url: https://github.com/jmorganca/go-mcp
+  docs_url: https://github.com/jmorganca/go-mcp#readme
+  categories:
+    - mcp-tooling
+  tags:
+    - devtools
+    - golang
+    - mcp
+    - open-source
+    - sdk
+  interfaces:
+    - library
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: complement to official rust/csharp/typescript SDKs."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/jmorganca/go-mcp
 - slug: google-developer-knowledge-api-mcp-server
   name: Google Developer Knowledge API & MCP Server
   description: API and MCP server that let AI tools search and retrieve Google developer documentation as Markdown.
@@ -5288,6 +5313,54 @@
     - https://lobehub.com/nl/mcp/quantgeekdev-mcp-framework
     - https://mcp-framework.com/
     - https://www.augmentcode.com/mcp/mcp-framework
+- slug: mcp-fs-server
+  name: MCP FS Server
+  description: File-system oriented MCP server that exposes local folders and files as tools and resources.
+  website_url: https://github.com/kitsune-labs/mcp-fs
+  repo_url: https://github.com/kitsune-labs/mcp-fs
+  docs_url: https://github.com/kitsune-labs/mcp-fs#readme
+  categories:
+    - mcp-servers
+  tags:
+    - filesystem
+    - mcp
+    - open-source
+    - tools
+  interfaces:
+    - mcp
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: overlaps conceptually with GitHub MCP but for plain FS."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/kitsune-labs/mcp-fs
+- slug: mcp-github-actions
+  name: MCP GitHub Actions
+  description: MCP server that exposes GitHub Actions workflows and runs as tools for AI agents.
+  website_url: https://github.com/wong2/mcp-github-actions
+  repo_url: https://github.com/wong2/mcp-github-actions
+  docs_url: https://github.com/wong2/mcp-github-actions#readme
+  categories:
+    - mcp-servers
+  tags:
+    - ci
+    - github
+    - mcp
+    - open-source
+  interfaces:
+    - mcp
+  deployment: hybrid
+  source_model: open-source
+  license: GPL-3.0
+  curation_status: draft
+  review_notes: "Draft: complements GitHub MCP server with Actions focus."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/wong2/mcp-github-actions
 - slug: mcp-inspector
   name: MCP Inspector
   description: Official visual and command-line testing tool for developing, inspecting, and debugging Model Context Protocol servers.
@@ -5312,6 +5385,79 @@
   sources:
     - https://github.com/modelcontextprotocol/inspector
     - https://modelcontextprotocol.io/docs/tools/inspector
+- slug: mcp-kubernetes
+  name: MCP Kubernetes
+  description: MCP server that lets AI assistants inspect and operate Kubernetes clusters via kubectl-equivalent tools.
+  website_url: https://github.com/marcosnils/mcp-kubernetes
+  repo_url: https://github.com/marcosnils/mcp-kubernetes
+  docs_url: https://github.com/marcosnils/mcp-kubernetes#readme
+  categories:
+    - mcp-servers
+  tags:
+    - devops
+    - kubernetes
+    - mcp
+    - open-source
+  interfaces:
+    - mcp
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: good example of ops-focused MCP server."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/marcosnils/mcp-kubernetes
+- slug: mcp-openapi
+  name: MCP OpenAPI Bridge
+  description: MCP server that generates tools from OpenAPI specs so AI assistants can call arbitrary REST APIs.
+  website_url: https://github.com/explodinggradients/openapi-mcp
+  repo_url: https://github.com/explodinggradients/openapi-mcp
+  docs_url: https://github.com/explodinggradients/openapi-mcp#readme
+  categories:
+    - mcp-servers
+  tags:
+    - api
+    - mcp
+    - open-source
+    - openapi
+    - tools
+  interfaces:
+    - mcp
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: verify repo status; pattern is valuable regardless."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/explodinggradients/openapi-mcp
+- slug: mcp-redis-chat-history
+  name: MCP Redis Chat History
+  description: MCP server that stores and retrieves chat histories in Redis for AI assistants.
+  website_url: https://github.com/dirk4444/mcp-redis-chat-history
+  repo_url: https://github.com/dirk4444/mcp-redis-chat-history
+  docs_url: https://github.com/dirk4444/mcp-redis-chat-history#readme
+  categories:
+    - mcp-servers
+  tags:
+    - chat-history
+    - mcp
+    - open-source
+    - redis
+  interfaces:
+    - mcp
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: small but useful example of externalized memory."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/dirk4444/mcp-redis-chat-history
 - slug: mcp-registry
   name: MCP Registry
   description: Community-driven registry service and REST API for publishing and discovering Model Context Protocol servers.
@@ -5421,6 +5567,30 @@
     - https://mcpservers.org
     - https://mcpservers.org/servers/revskill10/hello-mcp
     - https://modelcontextprotocol.io/examples
+- slug: mcp-terraform
+  name: MCP Terraform
+  description: MCP server that exposes Terraform operations as tools, allowing AI agents to plan and apply infra changes.
+  website_url: https://github.com/andreiborisov/mcp-terraform
+  repo_url: https://github.com/andreiborisov/mcp-terraform
+  docs_url: https://github.com/andreiborisov/mcp-terraform#readme
+  categories:
+    - mcp-servers
+  tags:
+    - devops
+    - mcp
+    - open-source
+    - terraform
+  interfaces:
+    - mcp
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: infra-automation surface for agents via MCP."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/andreiborisov/mcp-terraform
 - slug: mcp-b-webmcp-polyfill-runtime
   name: MCP-B WebMCP Polyfill Runtime
   description: Polyfill and runtime stack that brings the Web Model Context API and WebMCP behavior to current browsers.
@@ -7148,6 +7318,30 @@
   sources:
     - https://github.com/cornell-brg/pyhdl-eval
     - https://github.com/cornell-brg/pyhdl-eval#readme
+- slug: python-mcp-client
+  name: Python MCP Client
+  description: Thin Python client and examples for connecting to MCP servers and invoking tools programmatically.
+  website_url: https://github.com/benesch/python-mcp-client
+  repo_url: https://github.com/benesch/python-mcp-client
+  docs_url: https://github.com/benesch/python-mcp-client#readme
+  categories:
+    - mcp-tooling
+  tags:
+    - client-library
+    - mcp
+    - open-source
+    - python
+  interfaces:
+    - library
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: niche but useful for Python-based clients."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/benesch/python-mcp-client
 - slug: qodo
   name: Qodo
   description: Code review and IDE assistant product focused on reviewing diffs, tests, and repository context.
