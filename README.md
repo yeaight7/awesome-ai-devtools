@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>315 tools</code> <code>262 reviewed</code> <code>53 draft</code> <code>17 active reviewed shelves</code></p>
+<p align="center"><code>331 tools</code> <code>266 reviewed</code> <code>65 draft</code> <code>17 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,7 +70,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (25) · [Terminal agents](#terminal-agents) (13) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (23)
+[Coding agents](#coding-agents) (26) · [Terminal agents](#terminal-agents) (13) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (23)
 
 ### Extend agents
 
@@ -78,15 +78,15 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (40) · [Agent evals](#agent-evals) (21)
+[Agent observability](#agent-observability) (40) · [Agent evals](#agent-evals) (22)
 
 ### Run locally/self-host
 
-[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (24) · [Local LLM developer tools](#local-llm-developer-tools) (28)
+[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (25) · [Local LLM developer tools](#local-llm-developer-tools) (28)
 
 ### Automate repo work
 
-[Repo automation tools](#repo-automation-tools) (26) · [AI code review tools](#ai-code-review-tools) (10) · [Documentation agents](#documentation-agents) (22) · [Test generation agents](#test-generation-agents) (4)
+[Repo automation tools](#repo-automation-tools) (27) · [AI code review tools](#ai-code-review-tools) (10) · [Documentation agents](#documentation-agents) (23) · [Test generation agents](#test-generation-agents) (6)
 
 ## Comparison Matrix
 
@@ -134,6 +134,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 | [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Docs](https://modelcontextprotocol.io/docs/tools/inspector) / [Repo](https://github.com/modelcontextprotocol/inspector) |
 | [mcp-cli (wong2)](https://www.npmjs.com/package/@wong2/mcp-cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Website](https://www.npmjs.com/package/@wong2/mcp-cli) / [Repo](https://github.com/wong2/mcp-cli) |
 | [Redis + Ollama RAG Stack](https://github.com/TtheBC01/redis-ollama-RAG#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://github.com/TtheBC01/redis-ollama-RAG#readme) / [Repo](https://github.com/TtheBC01/redis-ollama-RAG) |
+| [Ruflo](https://github.com/ruvnet/ruflo) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Docs](https://github.com/ruvnet/ruflo#readme) / [Repo](https://github.com/ruvnet/ruflo) |
 | [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
 | [Smithery CLI](https://smithery.ai) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Website](https://smithery.ai) / [Docs](https://smithery.ai/docs/concepts/cli) / [Repo](https://github.com/smithery-ai/cli) |
 | [Zed](https://zed.dev/) | IDE assistants | Yes | Yes | No | No | Yes | Yes | [Website](https://zed.dev/) / [Docs](https://zed.dev/releases/stable/0.233.5) / [Repo](https://github.com/zed-industries/zed) |
@@ -141,7 +142,6 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 | [Nosia Installer Stack](https://get.nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://get.nosia.ai) / [Docs](https://nosia.ai/readme/) |
 | [Roo Code](https://roocode.com/) | Coding agents | Yes | No | No | Yes | Yes | Yes | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
 | [Agent Skills](https://github.com/datalayer/agent-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/datalayer/agent-skills) |
-| [AgentSkills MCP](https://github.com/zouyingcao/agentskills-mcp) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/zouyingcao/agentskills-mcp) |
 
 ## Browse The Shelves
 
@@ -173,6 +173,7 @@ Agentic tools that can inspect, modify, and reason about source code.
 | [Qwen Code](https://qwen.ai/) | Open-source terminal coding agent optimized for Qwen models and large repository tasks. | CLI · Local | [Website](https://qwen.ai/) / [Repo](https://github.com/QwenLM/qwen-code) |
 | [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE · Web · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) / [Repo](https://github.com/smallcloudai/refact-vscode) |
 | [Roo Code](https://roocode.com/) | Open-source coding agent for VS Code and cloud agents that can code, review, and automate repository tasks. | CLI · IDE · Web · Hybrid | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
+| [Ruflo](https://github.com/ruvnet/ruflo) | Enterprise-grade multi-agent orchestration framework for Claude that deploys 60+ specialized AI agents with shared memory, RAG, and swarm coordination across machines and teams. | API · CLI · Web · Self-hosted | [Docs](https://github.com/ruvnet/ruflo#readme) / [Repo](https://github.com/ruvnet/ruflo) |
 | [SWE-agent](https://swe-agent.com/) | Open-source agent for resolving real repository issues and automating software engineering tasks. | CLI · Local | [Website](https://swe-agent.com/) / [Docs](https://swe-agent.com/latest/) / [Repo](https://github.com/swe-agent/swe-agent) |
 | [Sweep](https://sweep.dev/) | JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration. | IDE · Hybrid | [Website](https://sweep.dev/) / [Docs](https://docs.sweep.dev/) / [Repo](https://github.com/sweepai/sweep) |
 | [Windsurf Editor](https://windsurf.com/) | AI code editor with repo-aware agent workflows for multi-file edits and developer automation. | Desktop · Hybrid | [Website](https://windsurf.com/) / [Docs](https://docs.windsurf.com/) |
@@ -414,6 +415,7 @@ Evaluation frameworks and systems for agents, LLM apps, and developer workflows.
 | [nuclia-eval](https://pypi.org/project/nuclia-eval/) | Python library for evaluating RAG experiences with Nuclia’s REMi models using RAG triad metrics. | Framework · Library | [Website](https://pypi.org/project/nuclia-eval/) / [Repo](https://github.com/nuclia/nuclia-eval) |
 | [Open RAG Eval](https://www.vectara.com/blog/introducing-open-rag-eval-the-open-source-framework-for-comparing-rag-solutions) | Python toolkit from Vectara for evaluating and comparing RAG pipelines using TREC-RAG style metrics. | CLI · Framework · Library | [Website](https://www.vectara.com/blog/introducing-open-rag-eval-the-open-source-framework-for-comparing-rag-solutions) / [Docs](https://docs.vectara.com/docs/hallucination-and-evaluation/open-eval-framework) / [Repo](https://github.com/vectara/open-rag-eval) |
 | [OpenAI HumanEval Harness](https://github.com/openai/human-eval) | Evaluation harness and dataset for assessing LLM code generation via functional correctness tests. | CLI · Framework · Library | [Repo](https://github.com/openai/human-eval) |
+| [promptfoo](https://github.com/promptfoo/promptfoo) | CLI and framework for testing and evaluating LLM prompts with regression tests, grids, and CI integration. | CLI · Framework · Local | [Docs](https://promptfoo.dev) / [Repo](https://github.com/promptfoo/promptfoo) |
 | [Promptfoo](https://www.promptfoo.dev) | Open-source framework and CLI for testing prompts, models, RAG pipelines, and LLM security via automated evals and red teaming. | CLI · Framework · Library · Web | [Website](https://www.promptfoo.dev) / [Docs](https://www.promptfoo.dev/docs) / [Repo](https://github.com/promptfoo/promptfoo) |
 | [PyHDL-Eval](https://github.com/cornell-brg/pyhdl-eval) | Domain-specific LLM evaluation framework for assessing hardware design code generation using Python-embedded DSLs and RTL tasks. | CLI · Framework · Library | [Repo](https://github.com/cornell-brg/pyhdl-eval) |
 | [RAG Evaluation Harnesses](https://github.com/RulinShao/RAG-evaluation-harnesses) | Evaluation harness adapted from lm-evaluation-harness for retrieval-augmented generation tasks. | CLI · Framework · Library | [Repo](https://github.com/RulinShao/RAG-evaluation-harnesses) |
@@ -446,6 +448,7 @@ Self-hostable platforms and infrastructure for AI developer workflows.
 | [Pleng](https://pleng.dev) | Self-hosted AI platform engineer that installs a Docker-based PaaS with AI agents and automation on your own cloud. | CLI · Web · Self-hosted | [Website](https://pleng.dev) / [Docs](https://github.com/mutonby/pleng#readme) / [Repo](https://github.com/mutonby/pleng) |
 | [Redis + Ollama RAG Stack](https://github.com/TtheBC01/redis-ollama-RAG#readme) | Docker-based stack using RedisVL, Ollama, FastAPI, and RQ worker to build a local RAG pipeline. | API · CLI · Self-hosted | [Docs](https://github.com/TtheBC01/redis-ollama-RAG#readme) / [Repo](https://github.com/TtheBC01/redis-ollama-RAG) |
 | [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE · Web · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) / [Repo](https://github.com/smallcloudai/refact-vscode) |
+| [Ruflo](https://github.com/ruvnet/ruflo) | Enterprise-grade multi-agent orchestration framework for Claude that deploys 60+ specialized AI agents with shared memory, RAG, and swarm coordination across machines and teams. | API · CLI · Web · Self-hosted | [Docs](https://github.com/ruvnet/ruflo#readme) / [Repo](https://github.com/ruvnet/ruflo) |
 | [Scalable Agentic RAG Platform (FareedKhan-dev)](https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme) | Production-grade agentic RAG platform with Kubernetes, Ray, LangGraph, and multi-plane architecture. | CLI · Self-hosted | [Docs](https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme) / [Repo](https://github.com/FareedKhan-dev/scalable-rag-pipeline) |
 | [Self-hosted AI Package](https://sourceforge.net/projects/self-hosted-ai-package.mirror/) | Open-source Docker Compose starter kit bundling Ollama, n8n, Supabase, Open WebUI, Flowise, Neo4j, Langfuse, and related tools. | API · Web · Self-hosted | [Website](https://sourceforge.net/projects/self-hosted-ai-package.mirror/) / [Repo](https://github.com/coleam00/ai-agents-masterclass) |
 | [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Docker Compose-based local AI and low-code stack bundling n8n, Ollama, Qdrant, PostgreSQL, and related services. | API · CLI · Web · Self-hosted | [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
@@ -510,6 +513,7 @@ AI tools that automate repository checks, changes, pull requests, or maintenance
 | [GitHub Stale Action](https://github.com/actions/stale) | Official GitHub Action that marks inactive issues and pull requests as stale and optionally closes them. | GitHub app | [Repo](https://github.com/actions/stale) |
 | [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop · GitHub app · IDE · MCP · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
 | [Pull Request Labeler (actions/labeler)](https://github.com/marketplace/actions/labeler) | GitHub Action that automatically labels pull requests based on changed file paths or branch names. | GitHub app | [Docs](https://github.com/marketplace/actions/labeler) / [Repo](https://github.com/actions/labeler) |
+| [Qodo-Cover](https://github.com/qodo-ai/qodo-cover) | AI-powered tool that automatically generates unit tests and improves code coverage, runnable as a CLI or in CI. | CLI · GitHub app · Hybrid | [Docs](https://github.com/qodo-ai/qodo-cover#readme) / [Repo](https://github.com/qodo-ai/qodo-cover) |
 | [Release Please](https://github.com/googleapis/release-please-action) | Tool and GitHub Action that automates changelog updates, GitHub releases, and version bumps using Conventional Commits. | CLI · GitHub app | [Docs](https://github.com/googleapis/release-please-action) / [Repo](https://github.com/googleapis/release-please) |
 | [release-it](https://github.com/release-it/release-it) | Generic CLI tool to automate versioning, tagging, changelog, and package publishing as part of release workflows. | CLI · Local | [Repo](https://github.com/release-it/release-it) |
 | [Renovate](https://docs.renovatebot.com) | Automated dependency update bot that scans repositories and opens pull requests to keep dependencies up to date. | CLI · GitHub app · Hybrid | [Docs](https://docs.renovatebot.com) / [Repo](https://github.com/renovatebot/renovate) |
@@ -574,6 +578,7 @@ AI tools that generate, maintain, or reason over developer documentation.
 | [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE · Web · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) / [Repo](https://github.com/smallcloudai/refact-vscode) |
 | [RepoGPT](https://github.com/mbarinov/repogpt) | Open-source GitHub assistant that can generate documentation and answer questions about repositories. | Web | [Repo](https://github.com/mbarinov/repogpt) |
 | [Stenography](https://stenography.dev) | AI-powered codebase documenter with API and editor extensions for automatic code explanations and docs. | API · IDE · Hosted | [Docs](https://stenography.dev) |
+| [write-the](https://github.com/Wytamma/write-the) | AI-powered Python tool that auto-generates documentation and tests from code, and assists with refactoring. | CLI · Library · Local | [Docs](https://github.com/Wytamma/write-the#readme) / [Repo](https://github.com/Wytamma/write-the) |
 
 ### Test generation agents
 
@@ -584,18 +589,20 @@ AI tools that create, improve, or maintain automated tests.
 | [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
 | [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
 | [Qodo](https://www.qodo.ai/) | Code review and IDE assistant product focused on reviewing diffs, tests, and repository context. | GitHub app · IDE · Hosted | [Website](https://www.qodo.ai/) / [Docs](https://docs.qodo.ai/) |
+| [Qodo-Cover](https://github.com/qodo-ai/qodo-cover) | AI-powered tool that automatically generates unit tests and improves code coverage, runnable as a CLI or in CI. | CLI · GitHub app · Hybrid | [Docs](https://github.com/qodo-ai/qodo-cover#readme) / [Repo](https://github.com/qodo-ai/qodo-cover) |
 | [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE · Web · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) / [Repo](https://github.com/smallcloudai/refact-vscode) |
+| [write-the](https://github.com/Wytamma/write-the) | AI-powered Python tool that auto-generates documentation and tests from code, and assists with refactoring. | CLI · Library · Local | [Docs](https://github.com/Wytamma/write-the#readme) / [Repo](https://github.com/Wytamma/write-the) |
 
 ## New Arrivals
 
+- 2026-05-15: [promptfoo](https://github.com/promptfoo/promptfoo)
+- 2026-05-15: [Qodo-Cover](https://github.com/qodo-ai/qodo-cover)
+- 2026-05-15: [Ruflo](https://github.com/ruvnet/ruflo)
+- 2026-05-15: [write-the](https://github.com/Wytamma/write-the)
 - 2026-05-10: [agenttrace](https://luoyuctl.github.io/agenttrace/)
 - 2026-05-08: [Agent Browser](https://github.com/vercel-labs/agent-browser)
 - 2026-05-08: [Agent Eval Framework](https://github.com/goker/agent-eval-framework)
 - 2026-05-08: [Agent Powerups](https://github.com/yeaight7/agent-powerups)
-- 2026-05-08: [Agent-E](https://github.com/EmergenceAI/Agent-E)
-- 2026-05-08: [Agent-WebVoyager](https://github.com/mrmoxon/Agent-WebVoyager)
-- 2026-05-08: [Agentic Security](https://github.com/msoedov/agentic_security)
-- 2026-05-08: [AI Document Creator](https://woden-ai.com)
 
 ## Needs review
 
@@ -607,24 +614,24 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | [action-github-changelog-generator](https://github.com/marketplace/actions/generate-changelog) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/generate-changelog) |
 | [AI-Agent (Browser-Use WebUI)](https://github.com/kiranimmadi2/AI-Agent) | Browser agents | Draft: needs-human-review. | [Repo](https://github.com/kiranimmadi2/AI-Agent) |
 | [ai-smart-doc-generator](https://github.com/madakkuni/ai-smart-doc-generator) | Documentation agents | Draft: source_model=not specified. | [Repo](https://github.com/madakkuni/ai-smart-doc-generator) |
+| [AIFLow Dev](https://github.com/aiflow-dev/aiflow) | Self-hosted AI dev stacks | Draft: position vs. Dify / AnythingLLM. | [Docs](https://github.com/aiflow-dev/aiflow#readme) / [Repo](https://github.com/aiflow-dev/aiflow) |
 | [Auto Documentation & Docstrings Action](https://github.com/marketplace/actions/auto-documentation-docstrings) | Documentation agents | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/auto-documentation-docstrings) |
 | [auto-generate-changelog](https://github.com/marketplace/actions/auto-generate-changelog) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/auto-generate-changelog) |
 | [Auto-Merge Pull Request](https://github.com/marketplace/actions/auto-merge-pull-request) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/auto-merge-pull-request) |
 | [Automatic Pull Request (AutoPR)](https://github.com/marketplace/actions/automatic-pull-request) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/automatic-pull-request) |
 | [Automatic Pull Request Review](https://github.com/marketplace/actions/automatic-pull-request-review) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/automatic-pull-request-review) |
+| [Autopilot](https://github.com/princeton-nlp/Autopilot) | Coding agents | Draft: confirm stability and supported providers. | [Docs](https://github.com/princeton-nlp/Autopilot#readme) / [Repo](https://github.com/princeton-nlp/Autopilot) |
 | [Awesome Codex Skills](https://github.com/ComposioHQ/awesome-codex-skills) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/ComposioHQ/awesome-codex-skills) |
 | [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers) | MCP servers | Draft: curated list rather than a runtime tool, but matches existing awesome-* style entries. | [Repo](https://github.com/appcypher/awesome-mcp-servers) |
 | [ci-debug-action](https://github.com/alpacahq/ci-debug-action) | Repo automation tools | Draft: source_model=not specified. | [Repo](https://github.com/alpacahq/ci-debug-action) |
 | [Cline Prompts](https://github.com/cline/prompts) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/cline/prompts) |
+| [CodiumAI TestGen](https://github.com/Codium-ai/codiumai-vscode-release) | IDE assistants | Draft: VS Code-focused; categorize under test-generation. | [Docs](https://github.com/Codium-ai/codiumai-vscode-release#readme) / [Repo](https://github.com/Codium-ai/codiumai-vscode-release) |
+| [CrewAI](https://github.com/crewAIInc/crewAI) | Coding agents | Draft: primarily framework, but widely used for agentic dev. | [Docs](https://docs.crewai.com) / [Repo](https://github.com/crewAIInc/crewAI) |
 | [Deepchecks LLM Evaluation](https://deepchecks.com/llm-evaluation/) | Agent evals | Draft: source_model=not specified. | [Website](https://deepchecks.com/llm-evaluation/) / [Docs](https://deepchecks.com/deepchecks-llm-evaluation/) / [Repo](https://github.com/deepchecks/llm-evals-demos) |
 | [Dependencies Autoupdate Action](https://github.com/marketplace/actions/dependencies-autoupdate) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/dependencies-autoupdate) |
 | [Developer Documentation AI Assistant](https://www.linkedin.com/posts/ephrem0001_developerproductivity-documentation-aitools-activity-7370959376548929536-mLz5) | Documentation agents | Draft: needs-human-review. | [Website](https://www.linkedin.com/posts/ephrem0001_developerproductivity-documentation-aitools-activity-7370959376548929536-mLz5) |
-| [DocMind](https://github.com/kanugurajesh/DocMind) | Documentation agents | Draft: source_model=not specified. | [Repo](https://github.com/kanugurajesh/DocMind) |
-| [DrMLlm](https://github.com/Vybhav448/DrMLlm#readme) | Self-hosted AI dev stacks | Draft: source_model=not specified. | [Docs](https://github.com/Vybhav448/DrMLlm#readme) / [Repo](https://github.com/Vybhav448/DrMLlm) |
-| [Generate AI Documentation Action](https://github.com/marketplace/actions/generate-ai-documentation) | Documentation agents | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/generate-ai-documentation) |
-| [git-housekeeper](https://github.com/mediamonks/git-housekeeper) | Repo automation tools | Draft: source_model=not specified. | [Repo](https://github.com/mediamonks/git-housekeeper) |
 
-_Showing 20 of 53 draft entries. Full queue in `data/tools.yml`._
+_Showing 20 of 65 draft entries. Full queue in `data/tools.yml`._
 
 ## Submit a tool
 
