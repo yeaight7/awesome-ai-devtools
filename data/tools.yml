@@ -226,6 +226,32 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/mrmoxon/Agent-WebVoyager
+- slug: agenta
+  name: Agenta
+  description: Open-source platform to build, evaluate, and deploy LLM apps and agents with experiments and tracing.
+  website_url: https://github.com/Agenta-AI/agenta
+  repo_url: https://github.com/Agenta-AI/agenta
+  docs_url: https://docs.agenta.ai
+  categories:
+    - agent-evals
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - evals
+    - experiments
+    - open-source
+  interfaces:
+    - api
+    - web
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: broad platform similar to Dify/Langfuse."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/Agenta-AI/agenta
 - slug: agentic-security
   name: Agentic Security
   description: Open-source vulnerability scanner and red-teaming kit for LLM agents and workflows focused on security evaluation.
@@ -257,6 +283,56 @@
     - https://github.com/msoedov/agentic_security
     - https://starlog.is/articles/cybersecurity/msoedov-agentic-security/
     - https://www.linkedin.com/posts/kongsec_github-msoedovagenticsecurity-agentic-activity-7209892356588765185-jnW9
+- slug: agentkit
+  name: Agentkit
+  description: Coinbase open-source toolkit for building onchain agents using wallet, transaction, and blockchain tools.
+  website_url: https://github.com/coinbase/agentkit
+  repo_url: https://github.com/coinbase/agentkit
+  docs_url: https://github.com/coinbase/agentkit#readme
+  categories:
+    - agent-skill-packs
+  tags:
+    - agents
+    - blockchain
+    - open-source
+    - wallet
+  interfaces:
+    - library
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: specialized but relevant for devtool-style onchain skills."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/coinbase/agentkit
+- slug: agentops
+  name: AgentOps
+  description: Open-source Python library and hosted service for monitoring, replaying, and debugging agent workflows.
+  website_url: https://github.com/agentops-ai/agentops
+  repo_url: https://github.com/agentops-ai/agentops
+  docs_url: https://docs.agentops.ai
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - debugging
+    - observability
+    - open-source
+    - replay
+  interfaces:
+    - api
+    - library
+  deployment: hybrid
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: newer but fits observability niche."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/agentops-ai/agentops
 - slug: agentskills-mcp
   name: AgentSkills MCP
   description: MCP server that brings Anthropic Agent Skills to any MCP-compatible agent with progressive disclosure architecture.
@@ -3980,6 +4056,30 @@
   sources:
     - https://grafana.com
     - https://grafana.com/docs/grafana-cloud/monitor-applications/ai-observability/genai/observability/
+- slug: guardrails-ai
+  name: Guardrails AI
+  description: Python library for enforcing structured outputs, validations, and safety constraints on LLM and agent responses.
+  website_url: https://github.com/ShreyaR/guardrails
+  repo_url: https://github.com/ShreyaR/guardrails
+  docs_url: https://www.guardrailsai.com
+  categories:
+    - agent-evals
+  tags:
+    - open-source
+    - safety
+    - structured-output
+    - validation
+  interfaces:
+    - framework
+    - library
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/ShreyaR/guardrails
 - slug: harbor-cli-stack
   name: Harbor CLI Stack
   description: CLI tool that spins up a local LLM stack (Ollama, Open WebUI, others) with a single command using container orchestration.
@@ -7075,6 +7175,30 @@
     - https://openobserve.ai/blog/llm-observability-tools/
     - https://openobserve.ai/blog/observability-for-ai-applications-using-openobserve-and-openlit/
     - https://openobserve.ai/docs
+- slug: evals-by-openpipe
+  name: OpenPipe Evals
+  description: Evaluation harness and datasets for comparing prompts, models, and agent behaviors built by OpenPipe.
+  website_url: https://github.com/openpipe/evals
+  repo_url: https://github.com/openpipe/evals
+  docs_url: https://github.com/openpipe/evals#readme
+  categories:
+    - agent-evals
+  tags:
+    - benchmarking
+    - datasets
+    - evals
+    - open-source
+  interfaces:
+    - framework
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: complements LangChain/Langsmith evals."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/openpipe/evals
 - slug: openrag
   name: OpenRAG
   description: Open-source RAG stack combining Langflow, Docling, and OpenSearch with single-command Docker Compose deployment.
@@ -7585,6 +7709,31 @@
   sources:
     - https://github.com/pulumi/agent-skills
     - https://www.pulumi.com/docs/ai/skills/
+- slug: pydantic-ai
+  name: PydanticAI
+  description: Pydantic-based framework for building typed LLM apps and agents with validation, tools, and structured outputs.
+  website_url: https://github.com/pydantic/pydantic-ai
+  repo_url: https://github.com/pydantic/pydantic-ai
+  docs_url: https://ai.pydantic.dev
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - agents
+    - open-source
+    - python
+    - structured-output
+    - validation
+  interfaces:
+    - framework
+    - library
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/pydantic/pydantic-ai
 - slug: pyhdl-eval
   name: PyHDL-Eval
   description: Domain-specific LLM evaluation framework for assessing hardware design code generation using Python-embedded DSLs and RTL tasks.
@@ -8571,6 +8720,30 @@
   sources:
     - https://github.com/smithery-ai/smithery-cli-mcp
     - https://smithery.ai/docs/concepts/cli
+- slug: smol-dev
+  name: smol-dev
+  description: Tiny AI devtools that generate small, focused code changes or scripts rather than entire projects.
+  website_url: https://github.com/smol-ai/developer
+  repo_url: https://github.com/smol-ai/developer
+  docs_url: https://github.com/smol-ai/developer#readme
+  categories:
+    - coding-agents
+    - terminal-agents
+  tags:
+    - coding
+    - open-source
+    - scripts
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: lightweight but aligns with AI devtools aesthetic."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/smol-ai/developer
 - slug: stack-attack
   name: stack-attack
   description: CLI tool that helps developers create, manipulate, and land stacks of pull requests instead of single large PRs.
@@ -9018,6 +9191,31 @@
   sources:
     - http://github.com/reworkd/tarsier
     - https://github.com/reworkd/tarsier
+- slug: testcontainers-llm
+  name: Testcontainers LLM
+  description: Java Testcontainers modules for spinning up LLM-related services like Ollama and LocalAI for integration tests.
+  website_url: https://github.com/testcontainers/testcontainers-java/tree/main/modules/ollama
+  repo_url: https://github.com/testcontainers/testcontainers-java
+  docs_url: https://github.com/testcontainers/testcontainers-java/tree/main/modules/ollama
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - docker
+    - java
+    - local-llm
+    - open-source
+    - testing
+  interfaces:
+    - library
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: infra-focused but useful DX for devs testing AI stacks."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/testcontainers/testcontainers-java
 - slug: text-generation-inference
   name: Text Generation Inference
   description: High-performance Rust and Python server for deploying and serving open-source LLMs via HTTP and gRPC.
@@ -9431,6 +9629,30 @@
   sources:
     - https://code.visualstudio.com
     - https://code.visualstudio.com/docs/copilot/guides/browser-agent-testing-guide
+- slug: vscode-chatcopilot-samples
+  name: VS Code Chat Copilot Samples
+  description: Sample VS Code extensions demonstrating AI chat, code actions, and workspace-aware tools using the GitHub Copilot Chat API.
+  website_url: https://github.com/microsoft/vscode-chat-copilot-samples
+  repo_url: https://github.com/microsoft/vscode-chat-copilot-samples
+  docs_url: https://github.com/microsoft/vscode-chat-copilot-samples#readme
+  categories:
+    - ide-assistants
+  tags:
+    - copilot
+    - examples
+    - open-source
+    - vscode
+  interfaces:
+    - ide
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: more sample code, but great for building custom AI tools."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/microsoft/vscode-chat-copilot-samples
 - slug: web-browser-mcp-server
   name: Web Browser MCP Server
   description: Playwright-based MCP server offering a headless browsing API with multi-tab support and advanced element interaction for agents.
