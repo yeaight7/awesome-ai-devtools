@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>339 tools</code> <code>266 reviewed</code> <code>73 draft</code> <code>17 active reviewed shelves</code></p>
+<p align="center"><code>347 tools</code> <code>267 reviewed</code> <code>80 draft</code> <code>17 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -86,7 +86,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Automate repo work
 
-[Repo automation tools](#repo-automation-tools) (27) · [AI code review tools](#ai-code-review-tools) (10) · [Documentation agents](#documentation-agents) (23) · [Test generation agents](#test-generation-agents) (6)
+[Repo automation tools](#repo-automation-tools) (27) · [AI code review tools](#ai-code-review-tools) (10) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (6)
 
 ## Comparison Matrix
 
@@ -577,6 +577,7 @@ AI tools that generate, maintain, or reason over developer documentation.
 | [ReadMe Agent & Ask AI](https://readme.com) | AI documentation assistant for ReadMe that edits docs and answers user questions grounded in API docs. | Web · Hosted | [Website](https://readme.com) / [Docs](https://docs.readme.com/main/docs/aiagent) |
 | [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE · Web · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) / [Repo](https://github.com/smallcloudai/refact-vscode) |
 | [RepoGPT](https://github.com/mbarinov/repogpt) | Open-source GitHub assistant that can generate documentation and answer questions about repositories. | Web | [Repo](https://github.com/mbarinov/repogpt) |
+| [RepoMix](https://github.com/microsoft/repomix) | CLI that summarizes and compresses a repository into a single prompt-friendly file using heuristics and optional LLM support. | CLI · Local | [Docs](https://github.com/microsoft/repomix#readme) / [Repo](https://github.com/microsoft/repomix) |
 | [Stenography](https://stenography.dev) | AI-powered codebase documenter with API and editor extensions for automatic code explanations and docs. | API · IDE · Hosted | [Docs](https://stenography.dev) |
 | [write-the](https://github.com/Wytamma/write-the) | AI-powered Python tool that auto-generates documentation and tests from code, and assists with refactoring. | CLI · Library · Local | [Docs](https://github.com/Wytamma/write-the#readme) / [Repo](https://github.com/Wytamma/write-the) |
 
@@ -597,12 +598,12 @@ AI tools that create, improve, or maintain automated tests.
 
 - 2026-05-15: [promptfoo](https://github.com/promptfoo/promptfoo)
 - 2026-05-15: [Qodo-Cover](https://github.com/qodo-ai/qodo-cover)
+- 2026-05-15: [RepoMix](https://github.com/microsoft/repomix)
 - 2026-05-15: [Ruflo](https://github.com/ruvnet/ruflo)
 - 2026-05-15: [write-the](https://github.com/Wytamma/write-the)
 - 2026-05-10: [agenttrace](https://luoyuctl.github.io/agenttrace/)
 - 2026-05-08: [Agent Browser](https://github.com/vercel-labs/agent-browser)
 - 2026-05-08: [Agent Eval Framework](https://github.com/goker/agent-eval-framework)
-- 2026-05-08: [Agent Powerups](https://github.com/yeaight7/agent-powerups)
 
 ## Needs review
 
@@ -623,15 +624,15 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | [Autopilot](https://github.com/princeton-nlp/Autopilot) | Coding agents | Draft: confirm stability and supported providers. | [Docs](https://github.com/princeton-nlp/Autopilot#readme) / [Repo](https://github.com/princeton-nlp/Autopilot) |
 | [Awesome Codex Skills](https://github.com/ComposioHQ/awesome-codex-skills) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/ComposioHQ/awesome-codex-skills) |
 | [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers) | MCP servers | Draft: curated list rather than a runtime tool, but matches existing awesome-* style entries. | [Repo](https://github.com/appcypher/awesome-mcp-servers) |
+| [ChatGPT Retrieval Plugin](https://github.com/openai/chatgpt-retrieval-plugin) | Local LLM developer tools | Draft: historical but still a reference retrieval implementation. | [Docs](https://github.com/openai/chatgpt-retrieval-plugin#readme) / [Repo](https://github.com/openai/chatgpt-retrieval-plugin) |
 | [ci-debug-action](https://github.com/alpacahq/ci-debug-action) | Repo automation tools | Draft: source_model=not specified. | [Repo](https://github.com/alpacahq/ci-debug-action) |
 | [Cline Prompts](https://github.com/cline/prompts) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/cline/prompts) |
+| [Code Summarizer Action](https://github.com/marketplace/actions/code-summarizer) | Repo automation tools | Draft: verify current marketplace listing and name. | [Website](https://github.com/marketplace/actions/code-summarizer) / [Docs](https://github.com/kubescape/code-summarizer#readme) / [Repo](https://github.com/kubescape/code-summarizer) |
+| [Codebrush](https://github.com/tldraw/codebrush) | Data and ML coding assistants | Draft: narrow language focus but good DX tool. | [Docs](https://github.com/tldraw/codebrush#readme) / [Repo](https://github.com/tldraw/codebrush) |
+| [Codex Docs](https://github.com/codex-src/codex-docs) | Documentation agents | Draft: self-hosted docs portal with AI features. | [Docs](https://github.com/codex-src/codex-docs#readme) / [Repo](https://github.com/codex-src/codex-docs) |
 | [CodiumAI TestGen](https://github.com/Codium-ai/codiumai-vscode-release) | IDE assistants | Draft: VS Code-focused; categorize under test-generation. | [Docs](https://github.com/Codium-ai/codiumai-vscode-release#readme) / [Repo](https://github.com/Codium-ai/codiumai-vscode-release) |
-| [CrewAI](https://github.com/crewAIInc/crewAI) | Coding agents | Draft: primarily framework, but widely used for agentic dev. | [Docs](https://docs.crewai.com) / [Repo](https://github.com/crewAIInc/crewAI) |
-| [Deepchecks LLM Evaluation](https://deepchecks.com/llm-evaluation/) | Agent evals | Draft: source_model=not specified. | [Website](https://deepchecks.com/llm-evaluation/) / [Docs](https://deepchecks.com/deepchecks-llm-evaluation/) / [Repo](https://github.com/deepchecks/llm-evals-demos) |
-| [Dependencies Autoupdate Action](https://github.com/marketplace/actions/dependencies-autoupdate) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/dependencies-autoupdate) |
-| [Developer Documentation AI Assistant](https://www.linkedin.com/posts/ephrem0001_developerproductivity-documentation-aitools-activity-7370959376548929536-mLz5) | Documentation agents | Draft: needs-human-review. | [Website](https://www.linkedin.com/posts/ephrem0001_developerproductivity-documentation-aitools-activity-7370959376548929536-mLz5) |
 
-_Showing 20 of 73 draft entries. Full queue in `data/tools.yml`._
+_Showing 20 of 80 draft entries. Full queue in `data/tools.yml`._
 
 ## Submit a tool
 
