@@ -1218,6 +1218,30 @@
   sources:
     - https://awesome-copilot.github.com/tools/
     - https://github.com/github/awesome-copilot
+- slug: awesome-mcp-servers
+  name: Awesome MCP Servers
+  description: Community-curated list of Model Context Protocol servers, including official and community implementations for Claude Desktop and other MCP clients.
+  website_url: https://github.com/appcypher/awesome-mcp-servers
+  repo_url: https://github.com/appcypher/awesome-mcp-servers
+  categories:
+    - mcp-servers
+  tags:
+    - curated-list
+    - mcp
+    - model-context-protocol
+    - open-source
+    - registry
+  interfaces:
+    - template
+  deployment: not specified
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: curated list rather than a runtime tool, but matches existing awesome-* style entries."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/appcypher/awesome-mcp-servers
 - slug: awesome-rules
   name: Awesome Rules
   description: Collection of useful markdown rules with YAML frontmatter for coding assistants including testing, DevOps, and documentation categories.
@@ -5270,6 +5294,31 @@
   sources:
     - https://github.com/wong2/mcp-cli
     - https://www.npmjs.com/package/@wong2/mcp-cli
+- slug: mcp-client-go
+  name: mcp-client-go
+  description: Go client library for the Model Context Protocol that manages registration and interaction with multiple MCP servers through a unified API.
+  website_url: https://github.com/yincongcyincong/mcp-client-go
+  repo_url: https://github.com/yincongcyincong/mcp-client-go
+  docs_url: https://github.com/yincongcyincong/mcp-client-go#readme
+  categories:
+    - mcp-tooling
+  tags:
+    - client-library
+    - devtools
+    - golang
+    - mcp
+    - model-context-protocol
+  interfaces:
+    - library
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: verify stability of API surface and supported MCP servers."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/yincongcyincong/mcp-client-go
 - slug: mcpscan-ai
   name: mcpscan.ai
   description: Web-based security scanner for discovering vulnerabilities in MCP server implementations and configurations.
@@ -5296,6 +5345,34 @@
     - https://arxiv.org/html/2510.23673v1
     - https://fluidattacks.com/blog/model-context-protocol-mcp-security
     - https://mcpscan.ai
+- slug: mcptools
+  name: mcptools
+  description: R package that implements the Model Context Protocol, enabling R sessions to act as MCP servers and to consume third-party MCP servers from R apps.
+  website_url: https://posit-dev.github.io/mcptools/
+  repo_url: https://github.com/posit-dev/mcptools
+  docs_url: https://posit-dev.github.io/mcptools/
+  categories:
+    - mcp-servers
+    - mcp-tooling
+  tags:
+    - client-library
+    - devtools
+    - mcp
+    - model-context-protocol
+    - r
+    - server
+  interfaces:
+    - library
+    - mcp
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: capture concrete examples of R-based tools exposed over MCP for agents."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://posit-dev.github.io/mcptools/
 - slug: microsoft-skills
   name: Microsoft Skills
   description: Skills, custom agents, AGENTS.md templates, and MCP configurations for AI coding agents working with Azure SDKs and Microsoft AI Foundry.
@@ -6567,6 +6644,34 @@
     - https://posthog.com/docs/ai-engineering
     - https://posthog.com/docs/ai-engineering/llm-analytics
     - https://www.youtube.com/watch?v=wonEbaSnzOI
+- slug: pr-test-generator-action
+  name: PR Test Generator Action
+  description: GitHub Action that analyzes pull requests, auto-generates end-to-end tests using Claude, runs them, and comments results back on the PR.
+  website_url: https://github.com/marketplace/actions/pr-test-generator
+  repo_url: https://github.com/ka-brian/pr-test-generator
+  docs_url: https://github.com/marketplace/actions/pr-test-generator
+  categories:
+    - repo-automation-tools
+    - test-generation-agents
+  tags:
+    - automation
+    - ci
+    - github
+    - pull-requests
+    - test-generation
+    - testing
+  interfaces:
+    - github-app
+  deployment: cloud
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: confirm supported languages/frameworks and required Claude configuration."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/ka-brian/pr-test-generator
+    - https://github.com/marketplace/actions/pr-test-generator
 - slug: proactive-documentation-assistant
   name: Proactive Documentation Assistant
   description: Agent that monitors Git repos and suggests README and docstring updates based on code changes.
@@ -6790,6 +6895,34 @@
     - https://docs.qodo.ai/
     - https://docs.qodo.ai/qodo-ide
     - https://www.qodo.ai/
+- slug: qodo-cover
+  name: Qodo-Cover
+  description: AI-powered tool that automatically generates unit tests and improves code coverage, runnable as a CLI or in GitHub CI workflows.
+  website_url: https://github.com/qodo-ai/qodo-cover
+  repo_url: https://github.com/qodo-ai/qodo-cover
+  docs_url: https://github.com/qodo-ai/qodo-cover#readme
+  categories:
+    - repo-automation-tools
+    - test-generation-agents
+  tags:
+    - automation
+    - ci
+    - code-coverage
+    - github
+    - test-generation
+    - testing
+  interfaces:
+    - cli
+    - github-app
+  deployment: hybrid
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: needs-human-review for language support, model configuration, and license details."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/qodo-ai/qodo-cover
 - slug: quickgithub
   name: QuickGitHub
   description: Open-source service that generates multi-page system design documentation for any public GitHub repository.
@@ -8656,6 +8789,34 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/marketplace/actions/workflow-housekeeper
+- slug: write-the
+  name: write-the
+  description: AI-powered Python tool that auto-generates documentation and tests from code, and assists with refactoring to improve code quality.
+  website_url: https://github.com/Wytamma/write-the
+  repo_url: https://github.com/Wytamma/write-the
+  docs_url: https://github.com/Wytamma/write-the#readme
+  categories:
+    - documentation-agents
+    - test-generation-agents
+  tags:
+    - automation
+    - cli
+    - documentation
+    - python
+    - refactoring
+    - test-generation
+  interfaces:
+    - cli
+    - library
+  deployment: local
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: confirm supported Python versions and recommended LLM backends."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/Wytamma/write-the
 - slug: wshobson-agents
   name: wshobson/agents
   description: Unified repository with 185 specialized agents, 16 orchestrators, 153 skills, and 100 commands for Claude Code automation.
@@ -8735,164 +8896,3 @@
   sources:
     - https://zenity.io
     - https://zenity.io/platform/ai-observability
-- slug: qodo-cover
-  name: Qodo-Cover
-  description: AI-powered tool that automatically generates unit tests and improves code coverage, runnable as a CLI or in GitHub CI workflows.
-  website_url: https://github.com/qodo-ai/qodo-cover
-  repo_url: https://github.com/qodo-ai/qodo-cover
-  docs_url: https://github.com/qodo-ai/qodo-cover#readme
-  categories:
-    - test-generation-agents
-    - repo-automation-tools
-  tags:
-    - automation
-    - testing
-    - test-generation
-    - code-coverage
-    - github
-    - ci
-  interfaces:
-    - cli
-    - github-app
-  deployment: hybrid
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Draft: needs-human-review for language support, model configuration, and license details."
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/qodo-ai/qodo-cover
-- slug: write-the
-  name: write-the
-  description: AI-powered Python tool that auto-generates documentation and tests from code, and assists with refactoring to improve code quality.
-  website_url: https://github.com/Wytamma/write-the
-  repo_url: https://github.com/Wytamma/write-the
-  docs_url: https://github.com/Wytamma/write-the#readme
-  categories:
-    - documentation-agents
-    - test-generation-agents
-  tags:
-    - automation
-    - python
-    - documentation
-    - test-generation
-    - refactoring
-    - cli
-  interfaces:
-    - cli
-    - library
-  deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Draft: confirm supported Python versions and recommended LLM backends."
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/Wytamma/write-the
-- slug: awesome-mcp-servers
-  name: Awesome MCP Servers
-  description: Community-curated list of Model Context Protocol servers, including official and community implementations for Claude Desktop and other MCP clients.
-  website_url: https://github.com/appcypher/awesome-mcp-servers
-  repo_url: https://github.com/appcypher/awesome-mcp-servers
-  categories:
-    - mcp-servers
-  tags:
-    - mcp
-    - model-context-protocol
-    - curated-list
-    - registry
-    - open-source
-  interfaces:
-    - template
-  deployment: not specified
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Draft: curated list rather than a runtime tool, but matches existing awesome-* style entries."
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/appcypher/awesome-mcp-servers
-- slug: mcp-client-go
-  name: mcp-client-go
-  description: Go client library for the Model Context Protocol that manages registration and interaction with multiple MCP servers through a unified API.
-  website_url: https://github.com/yincongcyincong/mcp-client-go
-  repo_url: https://github.com/yincongcyincong/mcp-client-go
-  docs_url: https://github.com/yincongcyincong/mcp-client-go#readme
-  categories:
-    - mcp-tooling
-  tags:
-    - mcp
-    - model-context-protocol
-    - golang
-    - devtools
-    - client-library
-  interfaces:
-    - library
-  deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Draft: verify stability of API surface and supported MCP servers."
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/yincongcyincong/mcp-client-go
-- slug: mcptools
-  name: mcptools
-  description: R package that implements the Model Context Protocol, enabling R sessions to act as MCP servers and to consume third-party MCP servers from R apps.
-  website_url: https://posit-dev.github.io/mcptools/
-  repo_url: https://github.com/posit-dev/mcptools
-  docs_url: https://posit-dev.github.io/mcptools/
-  categories:
-    - mcp-tooling
-    - mcp-servers
-  tags:
-    - mcp
-    - model-context-protocol
-    - r
-    - devtools
-    - server
-    - client-library
-  interfaces:
-    - library
-    - mcp
-  deployment: local
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Draft: capture concrete examples of R-based tools exposed over MCP for agents."
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://posit-dev.github.io/mcptools/
-- slug: pr-test-generator-action
-  name: PR Test Generator Action
-  description: GitHub Action that analyzes pull requests, auto-generates end-to-end tests using Claude, runs them, and comments results back on the PR.
-  website_url: https://github.com/marketplace/actions/pr-test-generator
-  repo_url: https://github.com/ka-brian/pr-test-generator
-  docs_url: https://github.com/marketplace/actions/pr-test-generator
-  categories:
-    - test-generation-agents
-    - repo-automation-tools
-  tags:
-    - automation
-    - testing
-    - test-generation
-    - github
-    - pull-requests
-    - ci
-  interfaces:
-    - github-app
-  deployment: cloud
-  source_model: not specified
-  license: not specified
-  curation_status: draft
-  review_notes: "Draft: confirm supported languages/frameworks and required Claude configuration."
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/marketplace/actions/pr-test-generator
-    - https://github.com/ka-brian/pr-test-generator
