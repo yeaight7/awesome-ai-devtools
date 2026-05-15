@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>355 tools</code> <code>271 reviewed</code> <code>84 draft</code> <code>17 active reviewed shelves</code></p>
+<p align="center"><code>364 tools</code> <code>273 reviewed</code> <code>91 draft</code> <code>17 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,11 +78,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (40) · [Agent evals](#agent-evals) (22)
+[Agent observability](#agent-observability) (40) · [Agent evals](#agent-evals) (23)
 
 ### Run locally/self-host
 
-[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (25) · [Local LLM developer tools](#local-llm-developer-tools) (32)
+[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (25) · [Local LLM developer tools](#local-llm-developer-tools) (33)
 
 ### Automate repo work
 
@@ -408,6 +408,7 @@ Evaluation frameworks and systems for agents, LLM apps, and developer workflows.
 | [AWS Agent Evaluation](https://awslabs.github.io/agent-evaluation/) | Generative AI-powered framework from AWS Labs to test virtual agents via multi-turn conversations and CI-friendly workflows. | CLI · Framework · Library | [Docs](https://awslabs.github.io/agent-evaluation/) / [Repo](https://github.com/awslabs/agent-evaluation) |
 | [DeepEval](https://deepeval.com) | Python framework for unit testing and benchmarking LLM applications, RAG systems, and agents with research-backed metrics. | CLI · Framework · Library | [Website](https://deepeval.com) / [Repo](https://github.com/confident-ai/deepeval) |
 | [DeepTeam](https://github.com/confident-ai/deepteam) | Open-source LLM red teaming framework for simulating attacks and evaluating safety of LLM systems using DeepEval metrics. | CLI · Framework · Library | [Repo](https://github.com/confident-ai/deepteam) |
+| [Guardrails AI](https://github.com/ShreyaR/guardrails) | Python library for enforcing structured outputs, validations, and safety constraints on LLM and agent responses. | Framework · Library · Local | [Docs](https://www.guardrailsai.com) / [Repo](https://github.com/ShreyaR/guardrails) |
 | [LangChain OpenEvals](https://github.com/langchain-ai/openevals) | Open-source collection of ready-made evaluators for LLM applications in the LangChain ecosystem. | Framework · Library | [Repo](https://github.com/langchain-ai/openevals) |
 | [LangFair](https://cvs-health.github.io/langfair/) | Python library for use-case level LLM bias and fairness assessment using bring-your-own-prompts workflows. | Framework · Library | [Docs](https://cvs-health.github.io/langfair/) / [Repo](https://github.com/cvs-health/langfair) |
 | [Langfuse](https://langfuse.com/docs) | Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations. | API · Web · Hybrid | [Docs](https://langfuse.com/docs) / [Repo](https://github.com/langfuse/langfuse) |
@@ -487,6 +488,7 @@ Tools that help developers run or integrate local models in coding workflows.
 | [MLX Engine for LM Studio](https://github.com/lmstudio-ai/mlx-engine#readme) | Apple MLX-based inference engine used by LM Studio to run quantized text and vision models locally on macOS. | Library · Local | [Docs](https://github.com/lmstudio-ai/mlx-engine#readme) / [Repo](https://github.com/lmstudio-ai/mlx-engine) |
 | [mlx-lm](https://github.com/ml-explore/mlx-lm#readme) | Apple MLX-based Python package for running and fine-tuning LLMs on Apple silicon, with an HTTP server similar to OpenAI chat API. | API · CLI · Library · Local | [Docs](https://github.com/ml-explore/mlx-lm#readme) / [Repo](https://github.com/ml-explore/mlx-lm) |
 | [Ollama](https://ollama.com) | Local LLM runtime and model manager that runs open models on your machine with an OpenAI-compatible Chat Completions API. | API · CLI · Local | [Website](https://ollama.com) / [Docs](https://docs.ollama.com) / [Repo](https://github.com/ollama/ollama) |
+| [PydanticAI](https://github.com/pydantic/pydantic-ai) | Pydantic-based framework for building typed LLM apps and agents with validation, tools, and structured outputs. | Framework · Library · Local | [Docs](https://ai.pydantic.dev) / [Repo](https://github.com/pydantic/pydantic-ai) |
 | [Tabby](https://www.tabbyml.com/) | Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development. | API · IDE · Self-hosted | [Website](https://www.tabbyml.com/) / [Docs](https://tabby.tabbyml.com/docs/) / [Repo](https://github.com/TabbyML/tabby) |
 | [Tabby](https://github.com/TabbyML/tabby) | Self-hosted AI coding assistant with OpenAI-compatible API and IDE plugins for VS Code and JetBrains. | API · Web · Self-hosted | [Docs](https://tabby.tabbyml.com) / [Repo](https://github.com/TabbyML/tabby) |
 | [TabbyAPI](https://github.com/theroyallab/tabbyAPI#readme) | FastAPI-based backend server for ExLlamaV2 that exposes local text generation over HTTP for coding and chat workloads. | API · Self-hosted | [Docs](https://github.com/theroyallab/tabbyAPI#readme) / [Repo](https://github.com/theroyallab/tabbyAPI) |
@@ -601,14 +603,14 @@ AI tools that create, improve, or maintain automated tests.
 
 ## New Arrivals
 
+- 2026-05-15: [Guardrails AI](https://github.com/ShreyaR/guardrails)
 - 2026-05-15: [Haystack](https://github.com/deepset-ai/haystack)
 - 2026-05-15: [LiteLLM Gateway](https://github.com/BerriAI/litellm)
 - 2026-05-15: [promptfoo](https://github.com/promptfoo/promptfoo)
+- 2026-05-15: [PydanticAI](https://github.com/pydantic/pydantic-ai)
 - 2026-05-15: [Qodo-Cover](https://github.com/qodo-ai/qodo-cover)
 - 2026-05-15: [RepoMix](https://github.com/microsoft/repomix)
 - 2026-05-15: [Ruflo](https://github.com/ruvnet/ruflo)
-- 2026-05-15: [Tabby](https://github.com/TabbyML/tabby)
-- 2026-05-15: [vLLM](https://github.com/vllm-project/vllm)
 
 ## Needs review
 
@@ -618,6 +620,9 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | --- | --- | --- | --- |
 | [Action to update GitHub Action documentation](https://github.com/marketplace/actions/action-to-update-github-action-documentation) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/action-to-update-github-action-documentation) |
 | [action-github-changelog-generator](https://github.com/marketplace/actions/generate-changelog) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/generate-changelog) |
+| [Agenta](https://github.com/Agenta-AI/agenta) | Agent evals | Draft: broad platform similar to Dify/Langfuse. | [Docs](https://docs.agenta.ai) / [Repo](https://github.com/Agenta-AI/agenta) |
+| [Agentkit](https://github.com/coinbase/agentkit) | Agent skill packs | Draft: specialized but relevant for devtool-style onchain skills. | [Docs](https://github.com/coinbase/agentkit#readme) / [Repo](https://github.com/coinbase/agentkit) |
+| [AgentOps](https://github.com/agentops-ai/agentops) | Agent observability | Draft: newer but fits observability niche. | [Docs](https://docs.agentops.ai) / [Repo](https://github.com/agentops-ai/agentops) |
 | [AI-Agent (Browser-Use WebUI)](https://github.com/kiranimmadi2/AI-Agent) | Browser agents | Draft: needs-human-review. | [Repo](https://github.com/kiranimmadi2/AI-Agent) |
 | [ai-smart-doc-generator](https://github.com/madakkuni/ai-smart-doc-generator) | Documentation agents | Draft: source_model=not specified. | [Repo](https://github.com/madakkuni/ai-smart-doc-generator) |
 | [AIFLow Dev](https://github.com/aiflow-dev/aiflow) | Self-hosted AI dev stacks | Draft: position vs. Dify / AnythingLLM. | [Docs](https://github.com/aiflow-dev/aiflow#readme) / [Repo](https://github.com/aiflow-dev/aiflow) |
@@ -633,11 +638,8 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | [ci-debug-action](https://github.com/alpacahq/ci-debug-action) | Repo automation tools | Draft: source_model=not specified. | [Repo](https://github.com/alpacahq/ci-debug-action) |
 | [Cline Prompts](https://github.com/cline/prompts) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/cline/prompts) |
 | [Code Summarizer Action](https://github.com/marketplace/actions/code-summarizer) | Repo automation tools | Draft: verify current marketplace listing and name. | [Website](https://github.com/marketplace/actions/code-summarizer) / [Docs](https://github.com/kubescape/code-summarizer#readme) / [Repo](https://github.com/kubescape/code-summarizer) |
-| [Codebrush](https://github.com/tldraw/codebrush) | Data and ML coding assistants | Draft: narrow language focus but good DX tool. | [Docs](https://github.com/tldraw/codebrush#readme) / [Repo](https://github.com/tldraw/codebrush) |
-| [CodeGeeX](https://github.com/THUDM/CodeGeeX2) | IDE assistants | Draft: more of a model + extension than generic stack. | [Docs](https://github.com/THUDM/CodeGeeX2#readme) / [Repo](https://github.com/THUDM/CodeGeeX2) |
-| [Codex Docs](https://github.com/codex-src/codex-docs) | Documentation agents | Draft: self-hosted docs portal with AI features. | [Docs](https://github.com/codex-src/codex-docs#readme) / [Repo](https://github.com/codex-src/codex-docs) |
 
-_Showing 20 of 84 draft entries. Full queue in `data/tools.yml`._
+_Showing 20 of 91 draft entries. Full queue in `data/tools.yml`._
 
 ## Submit a tool
 
