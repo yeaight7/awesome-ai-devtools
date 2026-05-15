@@ -2033,6 +2033,30 @@
   last_checked: 2026-05-15
   sources:
     - https://github.com/tldraw/codebrush
+- slug: codegeex
+  name: CodeGeeX
+  description: Open-source code completion model and VS Code extension with local and cloud inference options.
+  website_url: https://github.com/THUDM/CodeGeeX2
+  repo_url: https://github.com/THUDM/CodeGeeX2
+  docs_url: https://github.com/THUDM/CodeGeeX2#readme
+  categories:
+    - ide-assistants
+    - local-llm-developer-tools
+  tags:
+    - code-completion
+    - coding
+    - open-source
+  interfaces:
+    - ide
+  deployment: hybrid
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: more of a model + extension than generic stack."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/THUDM/CodeGeeX2
 - slug: coderabbit
   name: CodeRabbit
   description: AI code review agent for pull requests, local IDE review, and terminal-based review workflows.
@@ -3988,6 +4012,30 @@
     - https://github.com/harbor-ai/harbor
     - https://github.com/harbor-ai/harbor#readme
     - https://www.reddit.com/r/LocalLLM/comments/1q7qb62/harbor_manage_local_llm_stack_with_a_single/
+- slug: haystack
+  name: Haystack
+  description: Open-source framework for building RAG pipelines, agents, and semantic search over private data.
+  website_url: https://github.com/deepset-ai/haystack
+  repo_url: https://github.com/deepset-ai/haystack
+  docs_url: https://docs.haystack.deepset.ai
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - agents
+    - open-source
+    - rag
+    - search
+  interfaces:
+    - api
+    - framework
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/deepset-ai/haystack
 - slug: helderberto-skills
   name: helderberto/skills
   description: Reusable AI agent skills for development workflows including code review, refactoring, TDD, security audit, and git automation.
@@ -4421,6 +4469,31 @@
     - https://github.com/LostRuins/koboldcpp
     - https://github.com/LostRuins/koboldcpp/wiki
     - https://koboldcpp.com
+- slug: llm-gateway-kong
+  name: Kong LLM Gateway
+  description: Reference implementation of an LLM gateway built on Kong, routing model traffic and collecting metrics for AI workloads.
+  website_url: https://github.com/Kong/ai-gateway
+  repo_url: https://github.com/Kong/ai-gateway
+  docs_url: https://github.com/Kong/ai-gateway#readme
+  categories:
+    - agent-observability
+    - local-llm-developer-tools
+  tags:
+    - gateway
+    - observability
+    - open-source
+    - routing
+  interfaces:
+    - api
+  deployment: self-hosted
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: more infra-focused but fits dev stacks for AI."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/Kong/ai-gateway
 - slug: langchain-openevals
   name: LangChain OpenEvals
   description: Open-source collection of ready-made evaluators for LLM applications in the LangChain ecosystem.
@@ -4673,6 +4746,30 @@
     - https://github.com/lavague-ai
     - https://github.com/lavague-ai/LaVague
     - https://sumbits.ai/links/176
+- slug: litellm-gateway
+  name: LiteLLM Gateway
+  description: Drop-in proxy that unifies many LLM providers behind an OpenAI-compatible API, with logging and rate limiting.
+  website_url: https://github.com/BerriAI/litellm
+  repo_url: https://github.com/BerriAI/litellm
+  docs_url: https://docs.litellm.ai
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - gateway
+    - open-source
+    - openai-compatible
+    - proxy
+  interfaces:
+    - api
+    - cli
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/BerriAI/litellm
 - slug: litellm-otel
   name: LiteLLM OTEL Observability
   description: LiteLLM OpenTelemetry exporter for tracing LLM and agent calls across providers with standardized spans.
@@ -4772,6 +4869,30 @@
     - https://github.com/ggml-org/llama.cpp
     - https://github.com/ggml-org/llama.cpp/discussions/7712
     - https://github.com/ggml-org/llama.cpp/tree/master/examples
+- slug: llamacpp-dockers
+  name: llama.cpp Dockers
+  description: Docker images and compose files around llama.cpp for quickly spinning up local LLM HTTP servers.
+  website_url: https://github.com/abetlen/llama-cpp-python/tree/main/docker
+  repo_url: https://github.com/abetlen/llama-cpp-python
+  docs_url: https://github.com/abetlen/llama-cpp-python/tree/main/docker
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - docker
+    - local-llm
+    - model-serving
+    - open-source
+  interfaces:
+    - template
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: thin wrapper around llama-cpp-python but useful for stack recipes."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/abetlen/llama-cpp-python
 - slug: llamafile
   name: Llamafile
   description: Single-file local LLM runtime bundling llama.cpp and web UI, with an OpenAI-compatible /v1 chat completions endpoint.
@@ -8818,6 +8939,31 @@
     - https://tabby.tabbyml.com/docs/
     - https://www.tabbyml.com/
     - https://www.tabbyml.com/agent
+- slug: tabby
+  name: Tabby
+  description: Self-hosted AI coding assistant with OpenAI-compatible API and IDE plugins for VS Code and JetBrains.
+  website_url: https://github.com/TabbyML/tabby
+  repo_url: https://github.com/TabbyML/tabby
+  docs_url: https://tabby.tabbyml.com
+  categories:
+    - ide-assistants
+    - local-llm-developer-tools
+  tags:
+    - code-completion
+    - coding
+    - open-source
+    - self-hosted
+  interfaces:
+    - api
+    - web
+  deployment: self-hosted
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/TabbyML/tabby
 - slug: tabbyapi
   name: TabbyAPI
   description: FastAPI-based backend server for ExLlamaV2 that exposes local text generation over HTTP for coding and chat workloads.
@@ -8903,6 +9049,30 @@
     - https://github.com/huggingface/text-generation-inference
     - https://huggingface.co/docs/text-generation-inference
     - https://huggingface.co/docs/text-generation-inference/index
+- slug: text-generation-inference
+  name: Text Generation Inference
+  description: Hugging Face LLM inference server for text-generation models with gRPC and OpenAI-compatible HTTP APIs.
+  website_url: https://github.com/huggingface/text-generation-inference
+  repo_url: https://github.com/huggingface/text-generation-inference
+  docs_url: https://github.com/huggingface/text-generation-inference#readme
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - gpu
+    - inference
+    - model-serving
+    - open-source
+  interfaces:
+    - api
+  deployment: self-hosted
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: already widely used as backend for Hugging Face Inference."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/huggingface/text-generation-inference
 - slug: text-generation-webui
   name: text-generation-webui
   description: Self-hosted Gradio/Web UI and API for running diverse local text generation models on CPUs and GPUs.
@@ -9211,6 +9381,30 @@
     - https://github.com/vllm-project/vllm
     - https://raw.githubusercontent.com/openai/openai-cookbook/main/articles/gpt-oss/run-vllm.md
     - https://vllm.ai
+- slug: vllm
+  name: vLLM
+  description: High-throughput LLM inference engine with OpenAI-compatible API for serving large models on GPUs.
+  website_url: https://github.com/vllm-project/vllm
+  repo_url: https://github.com/vllm-project/vllm
+  docs_url: https://docs.vllm.ai
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - gpu
+    - inference
+    - open-source
+    - openai-compatible
+  interfaces:
+    - api
+    - cli
+  deployment: self-hosted
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/vllm-project/vllm
 - slug: vs-code-browser-agent-tools
   name: VS Code Browser Agent Tools
   description: Visual Studio Code Copilot feature set that lets AI agents open pages, read content, click elements, and run Playwright code in an integrated browser.
