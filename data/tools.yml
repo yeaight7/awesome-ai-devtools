@@ -1689,6 +1689,31 @@
     - https://github.com/TickTockBent/charlotte
     - https://vibehackers.io/mcp/charlotte
     - https://www.colaberry.ai/aixcelerator/mcp/charlotte
+- slug: chatgpt-retrieval-plugin
+  name: ChatGPT Retrieval Plugin
+  description: Open-source retrieval plugin for ChatGPT that indexes documents into a vector DB and exposes a simple search API.
+  website_url: https://github.com/openai/chatgpt-retrieval-plugin
+  repo_url: https://github.com/openai/chatgpt-retrieval-plugin
+  docs_url: https://github.com/openai/chatgpt-retrieval-plugin#readme
+  categories:
+    - documentation-agents
+    - local-llm-developer-tools
+  tags:
+    - embeddings
+    - open-source
+    - rag
+    - vector-database
+  interfaces:
+    - api
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: historical but still a reference retrieval implementation."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/openai/chatgpt-retrieval-plugin
 - slug: cheqd-mcp-toolkit
   name: cheqd MCP Toolkit
   description: Modular MCP toolkit and server framework for decentralized identity workflows on the Cheqd network.
@@ -1926,6 +1951,32 @@
   sources:
     - https://github.com/cline/prompts
     - https://www.reddit.com/r/CLine/comments/1kh8iwo/new_clinerules_library_github_repo_from_the_cline/
+- slug: code-summarizer-action
+  name: Code Summarizer Action
+  description: GitHub Action that generates AI summaries of code changes or files and posts them as PR comments.
+  website_url: https://github.com/marketplace/actions/code-summarizer
+  repo_url: https://github.com/kubescape/code-summarizer
+  docs_url: https://github.com/kubescape/code-summarizer#readme
+  categories:
+    - documentation-agents
+    - repo-automation-tools
+  tags:
+    - automation
+    - documentation
+    - github
+    - pull-requests
+    - summaries
+  interfaces:
+    - github-app
+  deployment: cloud
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: verify current marketplace listing and name."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/kubescape/code-summarizer
 - slug: code2docs
   name: Code2Docs
   description: AI system and CLI that converts GitHub repositories into structured markdown documentation and exports docs.
@@ -1956,6 +2007,32 @@
     - https://github.com/code2docs-ai
     - https://github.com/xKarinSan/Code2Docs
     - https://www.automateed.com/code2docs-review
+- slug: codebrush
+  name: Codebrush
+  description: AI-assisted code refactoring and documentation generator for JavaScript/TypeScript projects with a CLI interface.
+  website_url: https://github.com/tldraw/codebrush
+  repo_url: https://github.com/tldraw/codebrush
+  docs_url: https://github.com/tldraw/codebrush#readme
+  categories:
+    - data-ml-coding-assistants
+    - documentation-agents
+  tags:
+    - documentation
+    - javascript
+    - open-source
+    - refactoring
+    - typescript
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: narrow language focus but good DX tool."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/tldraw/codebrush
 - slug: coderabbit
   name: CodeRabbit
   description: AI code review agent for pull requests, local IDE review, and terminal-based review workflows.
@@ -1988,6 +2065,30 @@
     - https://coderabbit.ai/
     - https://coderabbit.ai/cli
     - https://docs.coderabbit.ai/
+- slug: codex-docs
+  name: Codex Docs
+  description: Next.js-based app that reads a Git repo and generates interactive API documentation with AI assistance.
+  website_url: https://github.com/codex-src/codex-docs
+  repo_url: https://github.com/codex-src/codex-docs
+  docs_url: https://github.com/codex-src/codex-docs#readme
+  categories:
+    - documentation-agents
+  tags:
+    - api-docs
+    - documentation
+    - open-source
+    - repo-analysis
+  interfaces:
+    - web
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: self-hosted docs portal with AI features."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/codex-src/codex-docs
 - slug: codium-ai-testgen
   name: CodiumAI TestGen
   description: Extension and CLI that generates unit tests from code and docstrings for multiple languages using AI.
@@ -3766,6 +3867,30 @@
     - https://github.com/aaif-goose/goose
     - https://goose-docs.ai/
     - https://goose-docs.ai/docs/quickstart/
+- slug: gpt-repository-loader
+  name: GPT Repository Loader
+  description: Tool that crawls and chunks a Git repository into JSON or Markdown ready for RAG or AI-powered documentation.
+  website_url: https://github.com/mpaepper/gpt-repository-loader
+  repo_url: https://github.com/mpaepper/gpt-repository-loader
+  docs_url: https://github.com/mpaepper/gpt-repository-loader#readme
+  categories:
+    - documentation-agents
+  tags:
+    - embeddings
+    - open-source
+    - rag
+    - repo-analysis
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: lower-level building block vs turnkey doc generator."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/mpaepper/gpt-repository-loader
 - slug: gpt4all
   name: GPT4All
   description: Local LLM desktop client and Python library with optional OpenAI-compatible API server on localhost.
@@ -5777,6 +5902,31 @@
     - https://www.mintlify.com
     - https://www.mintlify.com/blog/auto-generate-docs-from-repos
     - https://www.mintlify.com/docs
+- slug: mintlify-scrape-docs
+  name: Mintlify Scrape Docs
+  description: Open-source scraper that converts existing docs sites into Mintlify-ready Markdown using AI chunking and parsing.
+  website_url: https://github.com/mintlify/scrape-docs
+  repo_url: https://github.com/mintlify/scrape-docs
+  docs_url: https://github.com/mintlify/scrape-docs#readme
+  categories:
+    - documentation-agents
+  tags:
+    - documentation
+    - markdown
+    - migration
+    - open-source
+    - scraping
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: auxiliary but very relevant to docs automation."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/mintlify/scrape-docs
 - slug: mistral-inference
   name: Mistral Inference
   description: Official inference library for running Mistral models via CLI and Python on local or server hardware.
@@ -6082,6 +6232,30 @@
     - https://github.com/monocle2ai/monocle
     - https://lfaidata.foundation/projects/monocle/
     - https://monocle2ai.org
+- slug: monodoc
+  name: Monodoc
+  description: CLI that uses LLMs to generate unified documentation for monorepos, including READMEs for packages and workspaces.
+  website_url: https://github.com/monodoc-org/monodoc
+  repo_url: https://github.com/monodoc-org/monodoc
+  docs_url: https://github.com/monodoc-org/monodoc#readme
+  categories:
+    - documentation-agents
+  tags:
+    - automation
+    - documentation
+    - monorepo
+    - open-source
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: explicitly geared toward monorepos."
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/monodoc-org/monodoc
 - slug: newrelic-ai-monitoring
   name: New Relic AI Monitoring
   description: Example instruments and quickstarts for sending LLM and agent telemetry into New Relic for tracing and dashboards.
@@ -7800,6 +7974,29 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/mbarinov/repogpt
+- slug: repomix
+  name: RepoMix
+  description: CLI that summarizes and compresses a repository into a single prompt-friendly file using heuristics and optional LLM support.
+  website_url: https://github.com/microsoft/repomix
+  repo_url: https://github.com/microsoft/repomix
+  docs_url: https://github.com/microsoft/repomix#readme
+  categories:
+    - documentation-agents
+  tags:
+    - cli
+    - open-source
+    - repo-analysis
+    - summarization
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-05-15
+  last_checked: 2026-05-15
+  sources:
+    - https://github.com/microsoft/repomix
 - slug: respan
   name: Respan
   description: LLM engineering platform that unifies observability, evals, prompt optimization, and gateway for AI applications.
