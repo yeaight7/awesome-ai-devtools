@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>357 tools</code> <code>270 reviewed</code> <code>87 draft</code> <code>17 active reviewed shelves</code></p>
+<p align="center"><code>358 tools</code> <code>271 reviewed</code> <code>87 draft</code> <code>17 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (40) · [Agent evals](#agent-evals) (22)
+[Agent observability](#agent-observability) (41) · [Agent evals](#agent-evals) (22)
 
 ### Run locally/self-host
 
@@ -383,6 +383,7 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 | [Noveum AI Agent Monitoring](https://noveum.ai/en/solutions/ai-agent-monitoring) | Enterprise AI agent monitoring platform with real-time tracing of LLM calls, RAG steps, and tool interactions. | API · Web · Hosted | [Website](https://noveum.ai/en/solutions/ai-agent-monitoring) |
 | [Okahu](https://www.okahu.ai) | AI observability platform and tools for debugging, testing, and monitoring agentic and LLM-based applications. | API · Web · Hosted | [Website](https://www.okahu.ai) / [Docs](https://docs.okahu.ai) / [Repo](https://github.com/okahu-demos) |
 | [OpenAI Traces and Evals](https://platform.openai.com) | Built-in OpenAI platform capabilities for tracing agent workflows and running evaluations on traces and datasets. | API · Web · Hosted | [Website](https://platform.openai.com) / [Docs](https://developers.openai.com/api/docs/guides/agent-evals) / [Repo](https://github.com/openai/evals) |
+| [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) | Real-time monitoring dashboard for OpenClaw agents — track task execution, token usage, and agent activity with an intuitive UI. | Web Ui · Self-hosted | [Repo](https://github.com/flik2002/openclaw-monitor) |
 | [OpenInference](https://arize-ai.github.io/openinference/) | Open-source OpenTelemetry-based specification and instrumentations for tracing AI and LLM applications. | Library · Local | [Docs](https://arize-ai.github.io/openinference/) / [Repo](https://github.com/Arize-ai/openinference) |
 | [OpenLIT](https://openlit.io) | Open-source OpenTelemetry-native observability and evaluations platform for GenAI and LLM applications. | API · CLI · Web · Self-hosted | [Website](https://openlit.io) / [Docs](https://docs.openlit.io) / [Repo](https://github.com/openlit/openlit) |
 | [OpenObserve LLM Observability](https://openobserve.ai) | Open-source observability platform that unifies infrastructure and LLM observability with logs, metrics, and traces. | API · Web · Hybrid | [Website](https://openobserve.ai) / [Docs](https://openobserve.ai/docs) / [Repo](https://github.com/openobserve/openobserve) |
@@ -599,6 +600,7 @@ AI tools that create, improve, or maintain automated tests.
 
 ## New Arrivals
 
+- 2026-05-18: [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor)
 - 2026-05-15: [Guardrails AI](https://github.com/ShreyaR/guardrails)
 - 2026-05-15: [Haystack](https://github.com/deepset-ai/haystack)
 - 2026-05-15: [LiteLLM Gateway](https://github.com/BerriAI/litellm)
@@ -606,7 +608,6 @@ AI tools that create, improve, or maintain automated tests.
 - 2026-05-15: [Qodo-Cover](https://github.com/qodo-ai/qodo-cover)
 - 2026-05-15: [RepoMix](https://github.com/microsoft/repomix)
 - 2026-05-15: [Ruflo](https://github.com/ruvnet/ruflo)
-- 2026-05-15: [write-the](https://github.com/Wytamma/write-the)
 
 ## Needs review
 
