@@ -9945,3 +9945,30 @@
   sources:
     - https://zenity.io
     - https://zenity.io/platform/ai-observability
+- slug: openclaw-monitor
+  name: OpenClaw Monitor
+  description: Real-time monitoring dashboard for OpenClaw agents — track task execution, token usage, and agent activity with an intuitive UI.
+  website_url: https://github.com/flik2002/openclaw-monitor
+  repo_url: https://github.com/flik2002/openclaw-monitor
+  docs_url: https://github.com/flik2002/openclaw-monitor
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - cost-tracking
+    - debugging
+    - local-first
+    - monitoring
+    - observability
+    - open-source
+    - openclaw
+  interfaces:
+    - web-ui
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-05-18
+  last_checked: 2026-05-18
+  sources:
+    - https://github.com/flik2002/openclaw-monitor
