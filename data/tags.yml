@@ -208,6 +208,9 @@
 - slug: openai-compatible
   name: OpenAI-compatible
   description: Exposes an API compatible with the OpenAI API format.
+- slug: openclaw
+  name: openclaw
+  description: An open-source claw robot control system.
 - slug: opentelemetry
   name: OpenTelemetry
   description: Implements or integrates with OpenTelemetry tracing standards.
