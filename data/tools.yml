@@ -6993,7 +6993,7 @@
     - open-source
     - openclaw
   interfaces:
-    - web-ui
+    - web
   deployment: self-hosted
   source_model: open-source
   license: MIT
