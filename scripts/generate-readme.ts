@@ -110,7 +110,8 @@ export function buildReadme(catalog: CatalogData): string {
     ...selectMatrixTools(reviewedTools).map((tool) => renderMatrixRow(tool, catalog.categories)),
     "",
     "<p align=\"center\"><img src=\"assets/awesome-ai-devtools-social-preview.gif\" alt=\"Awesome AI Devtools ecosystem map\" width=\"100%\"></p>",
-    "## Browse The Shelves",
+    "",
+	"## Browse The Shelves",
     ""
   ];
 
