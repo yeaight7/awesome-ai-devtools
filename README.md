@@ -143,6 +143,8 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 | [Roo Code](https://roocode.com/) | Coding agents | Yes | No | No | Yes | Yes | Yes | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
 | [Agent Skills](https://github.com/datalayer/agent-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/datalayer/agent-skills) |
 
+<p align="center"><img src="assets/awesome-ai-devtools-social-preview.gif" alt="Awesome AI Devtools ecosystem map" width="100%"></p>
+
 ## Browse The Shelves
 
 ### Coding agents
