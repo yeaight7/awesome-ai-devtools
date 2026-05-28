@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>358 tools</code> <code>271 reviewed</code> <code>87 draft</code> <code>17 active reviewed shelves</code></p>
+<p align="center"><code>359 tools</code> <code>272 reviewed</code> <code>87 draft</code> <code>17 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,7 +70,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (26) · [Terminal agents](#terminal-agents) (13) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (23)
+[Coding agents](#coding-agents) (26) · [Terminal agents](#terminal-agents) (13) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
 
 ### Extend agents
 
@@ -244,6 +244,7 @@ Tools that can inspect, drive, or test browser-based developer workflows.
 | [Firecrawl](https://www.firecrawl.dev) | Open-source web data API for AI that lets agents search, scrape, and interact with the web at scale via HTTP, SDKs, CLI, and MCP. | API · CLI · Library · MCP · Hybrid | [Docs](https://www.firecrawl.dev) / [Repo](https://github.com/firecrawl/firecrawl) |
 | [Firecrawl Web Agent](https://github.com/firecrawl/web-agent) | Autonomous web data agent built on Firecrawl and browser-use to execute web tasks over an HTTP API for downstream applications. | API · Framework | [Repo](https://github.com/firecrawl/web-agent) |
 | [HyperAgent](https://github.com/hyperbrowserai/HyperAgent) | TypeScript SDK and CLI that layers AI commands like page.ai and executeTask on top of Playwright for intelligent browser automation. | CLI · Library | [Repo](https://github.com/hyperbrowserai/HyperAgent) |
+| [Komos](https://www.komos.ai/browser-automation-tools) | Hosted browser automation platform for reusable AI tasks that drive websites, call APIs, process files, and run operations workflows. | API · Browser · Web · Hybrid | [Website](https://www.komos.ai/browser-automation-tools) / [Docs](https://docs.komos.ai/) |
 | [LaVague](https://github.com/lavague-ai/LaVague) | Large Action Model framework that turns natural language instructions into Selenium-based browser interactions for AI web agents. | Framework · Library | [Repo](https://github.com/lavague-ai/LaVague) |
 | [OpenAgents Web Agent](https://openagents.org) | Web Agent inside the OpenAgents platform that performs autonomous web browsing with open-source code and UI for real-world tasks. | Framework · Web | [Website](https://openagents.org) / [Repo](https://github.com/xlang-ai/openagents) |
 | [OpenAI Computer Use](https://developers.openai.com) | OpenAI API capability that lets models operate software through the UI, including navigating and interacting with browser windows. | API · Hosted | [Website](https://developers.openai.com) / [Docs](https://developers.openai.com/api/docs/guides/tools-computer-use) |
@@ -602,6 +603,7 @@ AI tools that create, improve, or maintain automated tests.
 
 ## New Arrivals
 
+- 2026-05-28: [Komos](https://www.komos.ai/browser-automation-tools)
 - 2026-05-18: [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor)
 - 2026-05-15: [Guardrails AI](https://github.com/ShreyaR/guardrails)
 - 2026-05-15: [Haystack](https://github.com/deepset-ai/haystack)
@@ -609,7 +611,6 @@ AI tools that create, improve, or maintain automated tests.
 - 2026-05-15: [PydanticAI](https://github.com/pydantic/pydantic-ai)
 - 2026-05-15: [Qodo-Cover](https://github.com/qodo-ai/qodo-cover)
 - 2026-05-15: [RepoMix](https://github.com/microsoft/repomix)
-- 2026-05-15: [Ruflo](https://github.com/ruvnet/ruflo)
 
 ## Needs review
 
