@@ -4569,6 +4569,34 @@
     - https://github.com/LostRuins/koboldcpp
     - https://github.com/LostRuins/koboldcpp/wiki
     - https://koboldcpp.com
+- slug: komos
+  name: Komos
+  description: Hosted browser automation platform for reusable AI tasks that drive websites, call APIs, process files, and run operations workflows.
+  website_url: https://www.komos.ai/browser-automation-tools
+  docs_url: https://docs.komos.ai/
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - automation
+    - browser-agents
+    - browser-automation
+    - data-extraction
+    - web-automation
+    - workflow-automation
+  interfaces:
+    - api
+    - browser
+    - web
+  deployment: hybrid
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
+  added: 2026-05-28
+  last_checked: 2026-05-28
+  sources:
+    - https://docs.komos.ai/
+    - https://www.komos.ai/browser-automation-tools
 - slug: llm-gateway-kong
   name: Kong LLM Gateway
   description: Reference implementation of an LLM gateway built on Kong, routing model traffic and collecting metrics for AI workloads.
