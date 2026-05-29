@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>360 tools</code> <code>272 reviewed</code> <code>88 draft</code> <code>17 active reviewed shelves</code></p>
+<p align="center"><code>360 tools</code> <code>273 reviewed</code> <code>87 draft</code> <code>17 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,7 +70,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (26) · [Terminal agents](#terminal-agents) (13) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
+[Coding agents](#coding-agents) (27) · [Terminal agents](#terminal-agents) (13) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
 
 ### Extend agents
 
@@ -166,6 +166,7 @@ Agentic tools that can inspect, modify, and reason about source code.
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Open-source terminal coding agent that uses tool calls and MCP servers to work on repository tasks. | CLI · MCP · Local | [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
 | [Gemini Code Assist](https://developers.google.com/gemini-code-assist) | Google's coding assistant for IDEs and GitHub with agent mode, PR summaries, and code review. | GitHub app · IDE · Hosted | [Website](https://developers.google.com/gemini-code-assist) / [Docs](https://developers.google.com/gemini-code-assist/docs/overview) |
 | [Goose](https://goose-docs.ai/) | Open-source local agent with desktop, CLI, and API surfaces for editing, running, and testing code. | API · CLI · Desktop · Local | [Website](https://goose-docs.ai/) / [Docs](https://goose-docs.ai/docs/quickstart/) / [Repo](https://github.com/aaif-goose/goose) |
+| [Ivy Tendril](https://tendril.ivy.app) | Open-source AI coding orchestrator that manages Claude Code, Codex, Antigravity, Copilot and more through a plan-based lifecycle with verification gates and self-improving memory. | Desktop · Local | [Website](https://tendril.ivy.app) / [Docs](https://tendril.ivy.app/getting-started/installation) |
 | [Jules](https://jules.google/) | Google asynchronous coding agent for GitHub that fixes bugs, adds features, and updates documentation. | API · Web · Hosted | [Website](https://jules.google/) / [Docs](https://jules.google/docs/) |
 | [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
 | [OpenAI Codex CLI](https://github.com/openai/codex) | Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace. | CLI · Hybrid | [Docs](https://developers.openai.com/codex/cli/) / [Repo](https://github.com/openai/codex) |
@@ -603,6 +604,7 @@ AI tools that create, improve, or maintain automated tests.
 
 ## New Arrivals
 
+- 2026-05-28: [Ivy Tendril](https://tendril.ivy.app)
 - 2026-05-28: [Komos](https://www.komos.ai/browser-automation-tools)
 - 2026-05-18: [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor)
 - 2026-05-15: [Guardrails AI](https://github.com/ShreyaR/guardrails)
@@ -610,7 +612,6 @@ AI tools that create, improve, or maintain automated tests.
 - 2026-05-15: [LiteLLM Gateway](https://github.com/BerriAI/litellm)
 - 2026-05-15: [PydanticAI](https://github.com/pydantic/pydantic-ai)
 - 2026-05-15: [Qodo-Cover](https://github.com/qodo-ai/qodo-cover)
-- 2026-05-15: [RepoMix](https://github.com/microsoft/repomix)
 
 ## Needs review
 
@@ -639,7 +640,7 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | [Cline Prompts](https://github.com/cline/prompts) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/cline/prompts) |
 | [Code Summarizer Action](https://github.com/marketplace/actions/code-summarizer) | Repo automation tools | Draft: verify current marketplace listing and name. | [Website](https://github.com/marketplace/actions/code-summarizer) / [Docs](https://github.com/kubescape/code-summarizer#readme) / [Repo](https://github.com/kubescape/code-summarizer) |
 
-_Showing 20 of 88 draft entries. Full queue in `data/tools.yml`._
+_Showing 20 of 87 draft entries. Full queue in `data/tools.yml`._
 
 ## Submit a tool
 
