@@ -214,6 +214,9 @@
 - slug: opentelemetry
   name: OpenTelemetry
   description: Implements or integrates with OpenTelemetry tracing standards.
+- slug: orchestration
+  name: Orchestration
+  description: Orchestrates complex AI workflows, pipelines, or agents.
 - slug: playwright
   name: Playwright
   description: Built on or integrates with Playwright for browser automation.
@@ -322,6 +325,9 @@
 - slug: vector-database
   name: Vector database
   description: Integrates with a vector store or embedding database.
+- slug: verification
+  name: Verification
+  description: Tools or frameworks for verifying code, outputs, or agent actions.
 - slug: vscode
   name: VS Code
   description: Supports Visual Studio Code workflows.
