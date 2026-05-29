@@ -4407,6 +4407,30 @@
   sources:
     - https://github.com/marketplace/issue-labeler-bot
     - https://probot.github.io/apps/issuelabeler/
+- slug: ivy-tendril
+  name: Ivy Tendril
+  description: Open-source AI coding orchestrator that manages Claude Code, Codex, Antigravity, Copilot, and OpenCode through a plan-based lifecycle with verification gates and self-improving memory.
+  website_url: https://tendril.ivy.app
+  docs_url: https://tendril.ivy.app/getting-started/installation
+  categories:
+    - coding-agents
+  primary_category: coding-agents
+  tags:
+    - agent
+    - multi-agent
+    - orchestration
+    - verification
+    - worktree
+  interfaces:
+    - desktop
+  deployment: local
+  source_model: open-source
+  license: FSL-1.1-ALv2
+  curation_status: draft
+  added: 2026-05-28
+  last_checked: 2026-05-28
+  sources:
+    - https://github.com/Ivy-Interactive/Ivy-Tendril
 - slug: jan-server
   name: Jan Server
   description: Self-hosted agentic AI platform powered by local models with Docker Compose-based infrastructure files.
@@ -10000,27 +10024,3 @@
   sources:
     - https://zenity.io
     - https://zenity.io/platform/ai-observability
-- slug: ivy-tendril
-  name: Ivy Tendril
-  description: Open-source AI coding orchestrator that manages Claude Code, Codex, Antigravity, Copilot, and OpenCode through a plan-based lifecycle with verification gates and self-improving memory.
-  website_url: https://tendril.ivy.app
-  docs_url: https://tendril.ivy.app/getting-started/installation
-  categories:
-    - coding-agents
-  primary_category: coding-agents
-  tags:
-    - agent
-    - orchestration
-    - multi-agent
-    - verification
-    - worktree
-  interfaces:
-    - desktop
-  deployment: local
-  source_model: open-source
-  license: FSL-1.1-ALv2
-  curation_status: draft
-  added: 2026-05-28
-  last_checked: 2026-05-28
-  sources:
-    - https://github.com/Ivy-Interactive/Ivy-Tendril
