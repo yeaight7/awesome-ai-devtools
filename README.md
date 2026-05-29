@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>359 tools</code> <code>272 reviewed</code> <code>87 draft</code> <code>17 active reviewed shelves</code></p>
+<p align="center"><code>360 tools</code> <code>272 reviewed</code> <code>88 draft</code> <code>17 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -639,7 +639,7 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | [Cline Prompts](https://github.com/cline/prompts) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/cline/prompts) |
 | [Code Summarizer Action](https://github.com/marketplace/actions/code-summarizer) | Repo automation tools | Draft: verify current marketplace listing and name. | [Website](https://github.com/marketplace/actions/code-summarizer) / [Docs](https://github.com/kubescape/code-summarizer#readme) / [Repo](https://github.com/kubescape/code-summarizer) |
 
-_Showing 20 of 87 draft entries. Full queue in `data/tools.yml`._
+_Showing 20 of 88 draft entries. Full queue in `data/tools.yml`._
 
 ## Submit a tool
 
