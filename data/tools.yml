@@ -4409,7 +4409,7 @@
     - https://probot.github.io/apps/issuelabeler/
 - slug: ivy-tendril
   name: Ivy Tendril
-  description: Open-source AI coding orchestrator that manages Claude Code, Codex, Antigravity, Copilot, and OpenCode through a plan-based lifecycle with verification gates and self-improving memory.
+  description: Open-source AI coding orchestrator that manages Claude Code, Codex, Antigravity, Copilot and more through a plan-based lifecycle with verification gates and self-improving memory.
   website_url: https://tendril.ivy.app
   docs_url: https://tendril.ivy.app/getting-started/installation
   categories:
@@ -4420,13 +4420,12 @@
     - multi-agent
     - orchestration
     - verification
-    - worktree
   interfaces:
     - desktop
   deployment: local
   source_model: open-source
   license: FSL-1.1-ALv2
-  curation_status: draft
+  curation_status: reviewed
   added: 2026-05-28
   last_checked: 2026-05-28
   sources:
