@@ -168,9 +168,7 @@ export function buildReadme(catalog: CatalogData): string {
     "",
     "## Roadmap",
     "",
-    "- Review and promote the ~47 queued draft entries, prioritising thin shelves.",
-    "- Expand thin shelves: test generation agents (4 reviewed), MCP clients (6), data and ML coding assistants (1).",
-    "- Populate empty shelves when quality entries are found: AI devtools security, DevOps/SRE agents, prompt and workflow libraries.",
+    ...renderRoadmap(draftTools, catalog.categories, reviewedByCategory),
     "- Add stale-entry and broken-link checks.",
     "- Improve generated filter views and category-level comparisons.",
     "- Keep the schema small and strict as the catalog grows.",
@@ -178,6 +176,45 @@ export function buildReadme(catalog: CatalogData): string {
   );
 
   return `${lines.join("\n").replace(/\n{3,}/g, "\n\n")}\n`;
+}
+
+function renderRoadmap(draftTools: Tool[], categories: Category[], reviewedByCategory: Map<string, Tool[]>): string[] {
+  const categoryOrder = new Map(categories.map((category, index) => [category.slug, index]));
+  const reviewedCounts = categories.map((category) => ({
+    category,
+    count: reviewedByCategory.get(category.slug)?.length ?? 0
+  }));
+  const thinShelves = reviewedCounts
+    .filter((item) => item.count > 0)
+    .sort((left, right) => left.count - right.count || (categoryOrder.get(left.category.slug) ?? 0) - (categoryOrder.get(right.category.slug) ?? 0))
+    .slice(0, 3);
+  const emptyShelves = reviewedCounts.filter((item) => item.count === 0).map((item) => item.category);
+
+  return [
+    draftTools.length === 0
+      ? "- Keep the reviewed shelves current while the draft queue is clear."
+      : `- Review and promote ${draftTools.length} queued draft ${pluralizeEntry(draftTools.length)}, prioritising thin shelves.`,
+    thinShelves.length === 0
+      ? "- Expand thin reviewed shelves as quality entries are found."
+      : `- Expand thin reviewed shelves: ${formatCategoryCounts(thinShelves)}.`,
+    emptyShelves.length === 0
+      ? "- Revisit shelf coverage as new AI devtool categories emerge."
+      : `- Populate empty shelves when quality entries are found: ${formatCategoryNames(emptyShelves)}.`
+  ];
+}
+
+function formatCategoryCounts(items: { category: Category; count: number }[]): string {
+  return items
+    .map((item) => `${item.category.name} (${item.count} reviewed)`)
+    .join(", ");
+}
+
+function formatCategoryNames(categories: Category[]): string {
+  return categories.map((category) => category.name).join(", ");
+}
+
+function pluralizeEntry(count: number): string {
+  return count === 1 ? "entry" : "entries";
 }
 
 function groupToolsByCategory(tools: Tool[]): Map<string, Tool[]> {
