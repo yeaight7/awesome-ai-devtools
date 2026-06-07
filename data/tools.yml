@@ -1262,7 +1262,7 @@
   website_url: https://github.com/heilcheng/awesome-agent-skills
   repo_url: https://github.com/heilcheng/awesome-agent-skills
   categories:
-    - agent-skill-packs
+    - registries
   tags:
     - agent-skills
     - coding
@@ -1283,7 +1283,7 @@
   website_url: https://github.com/ComposioHQ/awesome-codex-skills
   repo_url: https://github.com/ComposioHQ/awesome-codex-skills
   categories:
-    - agent-skill-packs
+    - registries
   tags:
     - agent-skills
     - automation
@@ -1307,7 +1307,7 @@
   website_url: https://github.com/PatrickJS/awesome-cursorrules
   repo_url: https://github.com/PatrickJS/awesome-cursorrules
   categories:
-    - agent-skill-packs
+    - registries
   tags:
     - coding
     - open-source
@@ -1328,7 +1328,7 @@
   website_url: https://github.com/github/awesome-copilot
   repo_url: https://github.com/github/awesome-copilot
   categories:
-    - agent-skill-packs
+    - registries
   tags:
     - agent-skills
     - open-source
@@ -1352,20 +1352,17 @@
   website_url: https://github.com/appcypher/awesome-mcp-servers
   repo_url: https://github.com/appcypher/awesome-mcp-servers
   categories:
-    - mcp-servers
+    - registries
   tags:
-    - curated-list
     - mcp
     - model-context-protocol
     - open-source
-    - registry
   interfaces:
     - template
   deployment: not specified
   source_model: not specified
   license: not specified
-  curation_status: draft
-  review_notes: "Draft: curated list rather than a runtime tool, but matches existing awesome-* style entries."
+  curation_status: reviewed
   added: 2026-05-15
   last_checked: 2026-05-15
   sources:
@@ -1376,7 +1373,7 @@
   website_url: https://github.com/continuedev/awesome-rules
   repo_url: https://github.com/continuedev/awesome-rules
   categories:
-    - agent-skill-packs
+    - registries
   tags:
     - agent-skills
     - coding
@@ -4722,7 +4719,7 @@
     - web
   deployment: hybrid
   source_model: open-source
-  license: MIT except enterprise folders
+  license: NOASSERTION
   curation_status: reviewed
   added: 2026-05-07
   last_checked: 2026-05-07
@@ -4861,7 +4858,7 @@
     - web
   deployment: hybrid
   source_model: source-available
-  license: BSL-1.1
+  license: BUSL-1.1
   curation_status: reviewed
   added: 2026-05-08
   last_checked: 2026-05-08
