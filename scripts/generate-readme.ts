@@ -105,6 +105,8 @@ export function buildReadme(catalog: CatalogData): string {
     ...renderIntentGroups(categoryBySlug, reviewedByCategory),
     "## Comparison Matrix",
     "",
+    `_Showing a curated top ${MATRIX_LIMIT} tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all ${reviewedTools.length} reviewed tools._`,
+    "",
     "| Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |",
     "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
     ...selectMatrixTools(reviewedTools).map((tool) => renderMatrixRow(tool, catalog.categories)),
@@ -164,7 +166,7 @@ export function buildReadme(catalog: CatalogData): string {
     "npm test",
     "```",
     "",
-    "Use official sources, keep descriptions factual, and leave uncertain metadata as `not specified` instead of guessing. See [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/submission-guide.md](docs/submission-guide.md).",
+    "Use official sources, keep descriptions factual, and leave uncertain metadata as `not specified` instead of guessing. See [CONTRIBUTING.md](CONTRIBUTING.md).",
     "",
     "## Roadmap",
     "",
@@ -473,6 +475,30 @@ function isCliEntrypoint(): boolean {
 if (isCliEntrypoint()) {
   const rootDir = process.cwd();
   const catalog = loadCatalog(rootDir);
+  
   const content = buildReadme(catalog);
   writeFileSync(join(rootDir, ROOT_FILES.readme), content);
+
+  const comparisonContent = buildComparisonMatrix(catalog);
+  writeFileSync(join(rootDir, "docs", "COMPARISON.md"), comparisonContent);
+}
+
+export function buildComparisonMatrix(catalog: CatalogData): string {
+  const sorted = sortTools(catalog.tools);
+  const reviewedTools = sorted.filter((tool) => tool.curation_status === "reviewed");
+
+  const lines: string[] = [
+    "<!-- GENERATED FILE: edit data/tools.yml, data/categories.yml, data/tags.yml, then run npm run generate. -->",
+    "",
+    "# Full Comparison Matrix",
+    "",
+    `This is the complete comparison matrix for all ${reviewedTools.length} reviewed tools.`,
+    "",
+    "| Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |",
+    "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+    ...reviewedTools.map((tool) => renderMatrixRow(tool, catalog.categories)),
+    ""
+  ];
+
+  return lines.join("\n") + "\n";
 }
