@@ -9,6 +9,7 @@
     "import:candidates": "tsx scripts/import-candidates.ts",
     "sort": "tsx scripts/sort-tools.ts",
     "validate": "tsx scripts/validate.ts",
+    "check:links": "tsx scripts/check-links.ts",
     "check:types": "tsc --noEmit",
     "test:unit": "node --import tsx --test tests/*.test.ts",
     "test": "npm run check:types && npm run test:unit && npm run validate"
@@ -17,10 +18,12 @@
     "node": ">=20"
   },
   "dependencies": {
+    "spdx-expression-parse": "^4.0.0",
     "yaml": "^2.7.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
+    "@types/spdx-expression-parse": "^4.0.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   }
