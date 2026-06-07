@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 273 reviewed tools.
+This is the complete comparison matrix for all 274 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -39,10 +39,11 @@ This is the complete comparison matrix for all 273 reviewed tools.
 | [AutoCodeDocs](https://autocodedocs.ai) | Documentation agents | No | No | No | No | No | No | [Docs](https://autocodedocs.ai) |
 | [AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ#readme) | Local LLM developer tools | Yes | Yes | No | No | No | No | [Docs](https://github.com/AutoGPTQ/AutoGPTQ#readme) / [Repo](https://github.com/AutoGPTQ/AutoGPTQ) |
 | [automerge-action](https://github.com/marketplace/actions/merge-pull-requests-automerge-action) | Repo automation tools | Yes | No | No | No | No | No | [Docs](https://github.com/marketplace/actions/merge-pull-requests-automerge-action) / [Repo](https://github.com/pascalgn/automerge-action) |
-| [Awesome Agent Skills](https://github.com/heilcheng/awesome-agent-skills) | Agent skill packs | Yes | No | No | No | No | No | [Repo](https://github.com/heilcheng/awesome-agent-skills) |
-| [Awesome Cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | Agent skill packs | Yes | Yes | No | No | No | No | [Repo](https://github.com/PatrickJS/awesome-cursorrules) |
-| [Awesome GitHub Copilot](https://github.com/github/awesome-copilot) | Agent skill packs | Yes | No | No | No | No | No | [Repo](https://github.com/github/awesome-copilot) |
-| [Awesome Rules](https://github.com/continuedev/awesome-rules) | Agent skill packs | Yes | Yes | No | No | No | No | [Repo](https://github.com/continuedev/awesome-rules) |
+| [Awesome Agent Skills](https://github.com/heilcheng/awesome-agent-skills) | Registries and curated lists | Yes | No | No | No | No | No | [Repo](https://github.com/heilcheng/awesome-agent-skills) |
+| [Awesome Cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | Registries and curated lists | Yes | Yes | No | No | No | No | [Repo](https://github.com/PatrickJS/awesome-cursorrules) |
+| [Awesome GitHub Copilot](https://github.com/github/awesome-copilot) | Registries and curated lists | Yes | No | No | No | No | No | [Repo](https://github.com/github/awesome-copilot) |
+| [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers) | Registries and curated lists | Yes | No | No | No | No | Yes | [Repo](https://github.com/appcypher/awesome-mcp-servers) |
+| [Awesome Rules](https://github.com/continuedev/awesome-rules) | Registries and curated lists | Yes | Yes | No | No | No | No | [Repo](https://github.com/continuedev/awesome-rules) |
 | [AWS Agent Evaluation](https://awslabs.github.io/agent-evaluation/) | Agent evals | Yes | No | No | Yes | No | No | [Docs](https://awslabs.github.io/agent-evaluation/) / [Repo](https://github.com/awslabs/agent-evaluation) |
 | [AWS Documentation MCP Server](https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server) | Documentation agents | Yes | No | No | No | No | Yes | [Docs](https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server) / [Repo](https://github.com/awslabs/mcp) |
 | [Azure DevOps Skills](https://github.com/microsoft/azure-devops-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/microsoft/azure-devops-skills) |
