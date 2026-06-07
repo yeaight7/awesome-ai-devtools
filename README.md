@@ -656,9 +656,9 @@ Use official sources, keep descriptions factual, and leave uncertain metadata as
 
 ## Roadmap
 
-- Review and promote the ~47 queued draft entries, prioritising thin shelves.
-- Expand thin shelves: test generation agents (4 reviewed), MCP clients (6), data and ML coding assistants (1).
-- Populate empty shelves when quality entries are found: AI devtools security, DevOps/SRE agents, prompt and workflow libraries.
+- Review and promote 87 queued draft entries, prioritising thin shelves.
+- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), MCP clients (6 reviewed), Test generation agents (6 reviewed).
+- Populate empty shelves when quality entries are found: Prompt and workflow libraries, AI devtools security, DevOps and SRE agents.
 - Add stale-entry and broken-link checks.
 - Improve generated filter views and category-level comparisons.
 - Keep the schema small and strict as the catalog grows.
