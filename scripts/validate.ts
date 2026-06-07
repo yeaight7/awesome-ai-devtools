@@ -17,6 +17,7 @@ import {
   serializeTools,
   slugItemMap
 } from "./lib.ts";
+import parseSpdx from "spdx-expression-parse";
 
 const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const ARTIFACT_PATTERNS: RegExp[] = [/\[web:/, /filecite/, /<file_attachment/, /【/, /】/];
@@ -183,6 +184,14 @@ function validateTool(
   validateNotUnknown(label, "deployment", tool.deployment, errors);
   validateNotUnknown(label, "source_model", tool.source_model, errors);
   validateNotUnknown(label, "license", tool.license, errors);
+
+  if (tool.license && tool.license !== "not specified" && tool.license !== "NOASSERTION") {
+    try {
+      parseSpdx(tool.license);
+    } catch (e: any) {
+      errors.push(`${label}: invalid license "${tool.license}". Must be a valid SPDX expression. Details: ${e.message}`);
+    }
+  }
 
   if (tool.slug && !SLUG_PATTERN.test(tool.slug)) {
     errors.push(`${label}: slug must match ${SLUG_PATTERN}.`);
