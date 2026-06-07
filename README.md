@@ -90,6 +90,8 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 273 reviewed tools._
+
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Agent Powerups](https://github.com/yeaight7/agent-powerups) | Agent skill packs | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/yeaight7/agent-powerups) |
@@ -652,7 +654,7 @@ npm run generate
 npm test
 ```
 
-Use official sources, keep descriptions factual, and leave uncertain metadata as `not specified` instead of guessing. See [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/submission-guide.md](docs/submission-guide.md).
+Use official sources, keep descriptions factual, and leave uncertain metadata as `not specified` instead of guessing. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Roadmap
 
