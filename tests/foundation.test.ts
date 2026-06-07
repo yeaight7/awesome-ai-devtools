@@ -115,6 +115,26 @@ test("buildReadme renders grouped navigation, start here, matrix, reviewed shelv
   assert.match(readme, /### Coding agents/);
   assert.match(readme, /Small factual entry used to verify generated README output\./);
   assert.doesNotMatch(readme, /\| \[Draft Agent\]\(https:\/\/draft\.example\.com\) \| Draft candidate that should stay out of reviewed README shelves\./);
+  assert.match(readme, /- Review and promote 1 queued draft entry, prioritising thin shelves\./);
+  assert.match(readme, /- Expand thin reviewed shelves: Coding agents \(1 reviewed\), Agent skill packs \(1 reviewed\)\./);
+  assert.doesNotMatch(readme, /~\d+ queued draft/);
+});
+
+test("buildReadme derives roadmap empty-shelf guidance from catalog categories", () => {
+  const readme = buildReadme({
+    ...sampleCatalog,
+    categories: [
+      ...sampleCatalog.categories,
+      {
+        slug: "empty-shelf",
+        name: "Empty shelf",
+        description: "Shelf with no reviewed entries yet."
+      }
+    ]
+  });
+
+  assert.match(readme, /- Populate empty shelves when quality entries are found: Empty shelf\./);
+  assert.doesNotMatch(readme, /AI devtools security, DevOps\/SRE agents, prompt and workflow libraries/);
 });
 
 test("validateCatalog reports duplicate slugs and unknown category references", () => {
@@ -299,6 +319,8 @@ test("buildReadme truncates draft queue to DRAFT_QUEUE_LIMIT when there are many
   // Truncation notice must be present
   assert.match(readme, new RegExp(`Showing ${DRAFT_QUEUE_LIMIT} of ${DRAFT_QUEUE_LIMIT + 5}`));
   assert.match(readme, /data\/tools\.yml/);
+  assert.match(readme, new RegExp(`Review and promote ${DRAFT_QUEUE_LIMIT + 5} queued draft entries`));
+  assert.doesNotMatch(readme, /queued draft entrys/);
 });
 
 test("validateCatalog enforces primary_category rules for reviewed multi-category tools", () => {
