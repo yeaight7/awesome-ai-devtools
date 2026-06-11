@@ -2186,6 +2186,32 @@
   last_checked: 2026-05-15
   sources:
     - https://github.com/codex-src/codex-docs
+- slug: codex-profile
+  name: codex-profiles
+  description: Bash CLI that launches Codex CLI or Desktop with isolated CODEX_HOME profiles for account and context switching.
+  website_url: https://ducksss.github.io/codex-profiles/
+  repo_url: https://github.com/Ducksss/codex-profiles
+  docs_url: https://github.com/Ducksss/codex-profiles#readme
+  categories:
+    - terminal-agents
+  tags:
+    - cli
+    - developer-experience
+    - local-first
+    - open-source
+    - terminal
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-06-11
+  last_checked: 2026-06-11
+  sources:
+    - https://ducksss.github.io/codex-profiles/
+    - https://github.com/Ducksss/codex-profiles
+    - https://www.npmjs.com/package/codex-profile
 - slug: codium-ai-testgen
   name: CodiumAI TestGen
   description: Extension and CLI that generates unit tests from code and docstrings for multiple languages using AI.

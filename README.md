@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>360 tools</code> <code>274 reviewed</code> <code>86 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>361 tools</code> <code>275 reviewed</code> <code>86 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,7 +70,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (27) · [Terminal agents](#terminal-agents) (13) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
+[Coding agents](#coding-agents) (27) · [Terminal agents](#terminal-agents) (14) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
 
 ### Extend agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 274 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 275 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -196,6 +196,7 @@ AI developer tools primarily operated from a command-line interface.
 | [Augment Code](https://www.augmentcode.com/) | Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases. | CLI · IDE · Hybrid | [Website](https://www.augmentcode.com/) / [Docs](https://docs.augmentcode.com/introduction) |
 | [Claude Code](https://code.claude.com/docs/en/setup) | Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context. | CLI · Hybrid | [Docs](https://code.claude.com/docs/en/setup) |
 | [CodeRabbit](https://coderabbit.ai/) | AI code review agent for pull requests, local IDE review, and terminal-based review workflows. | CLI · GitHub app · IDE · Hybrid | [Website](https://coderabbit.ai/) / [Docs](https://docs.coderabbit.ai/) |
+| [codex-profiles](https://ducksss.github.io/codex-profiles/) | Bash CLI that launches Codex CLI or Desktop with isolated CODEX_HOME profiles for account and context switching. | CLI · Local | [Website](https://ducksss.github.io/codex-profiles/) / [Docs](https://github.com/Ducksss/codex-profiles#readme) / [Repo](https://github.com/Ducksss/codex-profiles) |
 | [Factory Droid](https://factory.ai/) | Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows. | API · CLI · Desktop · Hybrid | [Website](https://factory.ai/) / [Docs](https://docs.factory.ai/welcome) |
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Open-source terminal coding agent that uses tool calls and MCP servers to work on repository tasks. | CLI · MCP · Local | [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
 | [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
@@ -614,6 +615,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-06-11: [codex-profiles](https://ducksss.github.io/codex-profiles/)
 - 2026-05-28: [Ivy Tendril](https://tendril.ivy.app)
 - 2026-05-28: [Komos](https://www.komos.ai/browser-automation-tools)
 - 2026-05-18: [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor)
@@ -621,7 +623,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-05-15: [Guardrails AI](https://github.com/ShreyaR/guardrails)
 - 2026-05-15: [Haystack](https://github.com/deepset-ai/haystack)
 - 2026-05-15: [LiteLLM Gateway](https://github.com/BerriAI/litellm)
-- 2026-05-15: [PydanticAI](https://github.com/pydantic/pydantic-ai)
 
 ## Needs review
 
