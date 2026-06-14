@@ -8794,6 +8794,30 @@
   last_checked: 2026-05-15
   sources:
     - https://github.com/smol-ai/developer
+- slug: source-trace
+  name: Source Trace
+  description: AI git blame for every commit. See which lines came from AI and which model wrote them. Compare models by code survival rate. Team dashboard for adoption and AI metrics.
+  website_url: https://srctrace.com
+  docs_url: https://srctrace.com/docs/
+  categories:
+    - agent-observability
+  tags:
+    - analytics
+    - attribution
+    - git
+    - team-analytics
+    - vscode
+  interfaces:
+    - vs-code-extension
+  deployment: cloud
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: Zero-config VS Code extension. No git or agent hooks required.
+  added: 2026-06-14
+  last_checked: 2026-06-14
+  sources:
+    - https://srctrace.com
 - slug: stack-attack
   name: stack-attack
   description: CLI tool that helps developers create, manipulate, and land stacks of pull requests instead of single large PRs.
