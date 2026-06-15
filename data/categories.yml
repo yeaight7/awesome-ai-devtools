@@ -58,3 +58,6 @@
 - slug: devops-sre-agents
   name: DevOps and SRE agents
   description: AI tools for infrastructure, deployment, operations, and reliability workflows.
+- slug: registries
+  name: Registries and curated lists
+  description: Directories, curated lists, and registries of AI developer tools and resources.

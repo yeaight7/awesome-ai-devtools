@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>360 tools</code> <code>273 reviewed</code> <code>87 draft</code> <code>17 active reviewed shelves</code></p>
+<p align="center"><code>362 tools</code> <code>275 reviewed</code> <code>87 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,11 +70,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (27) · [Terminal agents](#terminal-agents) (13) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
+[Coding agents](#coding-agents) (27) · [Terminal agents](#terminal-agents) (14) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (15) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (30)
+[MCP servers](#mcp-servers) (15) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (26)
 
 ### Operate agents
 
@@ -89,6 +89,8 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 [Repo automation tools](#repo-automation-tools) (27) · [AI code review tools](#ai-code-review-tools) (10) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (6)
 
 ## Comparison Matrix
+
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 275 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -194,6 +196,7 @@ AI developer tools primarily operated from a command-line interface.
 | [Augment Code](https://www.augmentcode.com/) | Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases. | CLI · IDE · Hybrid | [Website](https://www.augmentcode.com/) / [Docs](https://docs.augmentcode.com/introduction) |
 | [Claude Code](https://code.claude.com/docs/en/setup) | Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context. | CLI · Hybrid | [Docs](https://code.claude.com/docs/en/setup) |
 | [CodeRabbit](https://coderabbit.ai/) | AI code review agent for pull requests, local IDE review, and terminal-based review workflows. | CLI · GitHub app · IDE · Hybrid | [Website](https://coderabbit.ai/) / [Docs](https://docs.coderabbit.ai/) |
+| [codex-profiles](https://ducksss.github.io/codex-profiles/) | Bash CLI that launches Codex CLI or Desktop with isolated CODEX_HOME profiles for account and context switching. | CLI · Local | [Website](https://ducksss.github.io/codex-profiles/) / [Docs](https://github.com/Ducksss/codex-profiles#readme) / [Repo](https://github.com/Ducksss/codex-profiles) |
 | [Factory Droid](https://factory.ai/) | Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows. | API · CLI · Desktop · Hybrid | [Website](https://factory.ai/) / [Docs](https://docs.factory.ai/welcome) |
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Open-source terminal coding agent that uses tool calls and MCP servers to work on repository tasks. | CLI · MCP · Local | [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
 | [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
@@ -328,10 +331,6 @@ Reusable instruction, workflow, or capability packs for coding agents.
 | [Anthropic Knowledge Work Plugins](https://github.com/anthropics/knowledge-work-plugins) | Official open-source plugins for Claude Cowork and Claude Code with skills, commands, and MCP connectors for knowledge workers. | MCP · Local | [Repo](https://github.com/anthropics/knowledge-work-plugins) |
 | [Anthropic Skills](https://github.com/anthropics/skills) | Official public repository of Agent Skills for Claude demonstrating creative, technical, and enterprise workflow patterns. | Skill Pack · Local | [Repo](https://github.com/anthropics/skills) |
 | [Astronomer Agents](https://github.com/astronomer/agents) | AI agent tooling for data engineering workflows with Airflow MCP server and skills for DAG development, lineage, and dbt integration. | MCP · Local | [Repo](https://github.com/astronomer/agents) |
-| [Awesome Agent Skills](https://github.com/heilcheng/awesome-agent-skills) | Community-curated directory of agent skills, tutorials, and guides for Claude, Copilot, Codex, and other AI assistants. | Skill Pack | [Repo](https://github.com/heilcheng/awesome-agent-skills) |
-| [Awesome Cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | Community collection of configuration files that enhance Cursor AI editor with custom rules and behaviors. | Template · Local | [Repo](https://github.com/PatrickJS/awesome-cursorrules) |
-| [Awesome GitHub Copilot](https://github.com/github/awesome-copilot) | Community collection of custom agents, instructions, skills, hooks, workflows, and plugins for GitHub Copilot. | Skill Pack · Template | [Repo](https://github.com/github/awesome-copilot) |
-| [Awesome Rules](https://github.com/continuedev/awesome-rules) | Collection of useful markdown rules with YAML frontmatter for coding assistants including testing, DevOps, and documentation categories. | Skill Pack · Template · Local | [Repo](https://github.com/continuedev/awesome-rules) |
 | [Azure DevOps Skills](https://github.com/microsoft/azure-devops-skills) | Example skills for GitHub Copilot integrating with Azure DevOps via MCP server for work items, iterations, and builds. | MCP · Local | [Repo](https://github.com/microsoft/azure-devops-skills) |
 | [CC DevOps Skills](https://github.com/akin-ozer/cc-devops-skills) | Practical agent skill pack with 31 skills for DevOps work in Claude Code and Codex including generators, validators, and debuggers. | CLI · Local | [Repo](https://github.com/akin-ozer/cc-devops-skills) |
 | [Claude Skills](https://github.com/alirezarezvani/claude-skills) | Repository of 232+ Claude Code skills and agent plugins convertible to 12 AI coding tools including Codex, Cursor, and Windsurf. | CLI · Local | [Repo](https://github.com/alirezarezvani/claude-skills) |
@@ -602,16 +601,28 @@ AI tools that create, improve, or maintain automated tests.
 | [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE · Web · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) / [Repo](https://github.com/smallcloudai/refact-vscode) |
 | [write-the](https://github.com/Wytamma/write-the) | AI-powered Python tool that auto-generates documentation and tests from code, and assists with refactoring. | CLI · Library · Local | [Docs](https://github.com/Wytamma/write-the#readme) / [Repo](https://github.com/Wytamma/write-the) |
 
+### Registries and curated lists
+
+Directories, curated lists, and registries of AI developer tools and resources.
+
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Awesome Agent Skills](https://github.com/heilcheng/awesome-agent-skills) | Community-curated directory of agent skills, tutorials, and guides for Claude, Copilot, Codex, and other AI assistants. | Skill Pack | [Repo](https://github.com/heilcheng/awesome-agent-skills) |
+| [Awesome Cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | Community collection of configuration files that enhance Cursor AI editor with custom rules and behaviors. | Template · Local | [Repo](https://github.com/PatrickJS/awesome-cursorrules) |
+| [Awesome GitHub Copilot](https://github.com/github/awesome-copilot) | Community collection of custom agents, instructions, skills, hooks, workflows, and plugins for GitHub Copilot. | Skill Pack · Template | [Repo](https://github.com/github/awesome-copilot) |
+| [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers) | Community-curated list of Model Context Protocol servers, including official and community implementations for Claude Desktop and other MCP clients. | Template | [Repo](https://github.com/appcypher/awesome-mcp-servers) |
+| [Awesome Rules](https://github.com/continuedev/awesome-rules) | Collection of useful markdown rules with YAML frontmatter for coding assistants including testing, DevOps, and documentation categories. | Skill Pack · Template · Local | [Repo](https://github.com/continuedev/awesome-rules) |
+
 ## New Arrivals
 
+- 2026-06-11: [codex-profiles](https://ducksss.github.io/codex-profiles/)
 - 2026-05-28: [Ivy Tendril](https://tendril.ivy.app)
 - 2026-05-28: [Komos](https://www.komos.ai/browser-automation-tools)
 - 2026-05-18: [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor)
+- 2026-05-15: [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers)
 - 2026-05-15: [Guardrails AI](https://github.com/ShreyaR/guardrails)
 - 2026-05-15: [Haystack](https://github.com/deepset-ai/haystack)
 - 2026-05-15: [LiteLLM Gateway](https://github.com/BerriAI/litellm)
-- 2026-05-15: [PydanticAI](https://github.com/pydantic/pydantic-ai)
-- 2026-05-15: [Qodo-Cover](https://github.com/qodo-ai/qodo-cover)
 
 ## Needs review
 
@@ -633,12 +644,12 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | [Automatic Pull Request (AutoPR)](https://github.com/marketplace/actions/automatic-pull-request) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/automatic-pull-request) |
 | [Automatic Pull Request Review](https://github.com/marketplace/actions/automatic-pull-request-review) | Repo automation tools | Draft: source_model=not specified. | [Docs](https://github.com/marketplace/actions/automatic-pull-request-review) |
 | [Autopilot](https://github.com/princeton-nlp/Autopilot) | Coding agents | Draft: confirm stability and supported providers. | [Docs](https://github.com/princeton-nlp/Autopilot#readme) / [Repo](https://github.com/princeton-nlp/Autopilot) |
-| [Awesome Codex Skills](https://github.com/ComposioHQ/awesome-codex-skills) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/ComposioHQ/awesome-codex-skills) |
-| [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers) | MCP servers | Draft: curated list rather than a runtime tool, but matches existing awesome-* style entries. | [Repo](https://github.com/appcypher/awesome-mcp-servers) |
+| [Awesome Codex Skills](https://github.com/ComposioHQ/awesome-codex-skills) | Registries and curated lists | Draft: source_model=not specified. | [Repo](https://github.com/ComposioHQ/awesome-codex-skills) |
 | [ChatGPT Retrieval Plugin](https://github.com/openai/chatgpt-retrieval-plugin) | Local LLM developer tools | Draft: historical but still a reference retrieval implementation. | [Docs](https://github.com/openai/chatgpt-retrieval-plugin#readme) / [Repo](https://github.com/openai/chatgpt-retrieval-plugin) |
 | [ci-debug-action](https://github.com/alpacahq/ci-debug-action) | Repo automation tools | Draft: source_model=not specified. | [Repo](https://github.com/alpacahq/ci-debug-action) |
 | [Cline Prompts](https://github.com/cline/prompts) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/cline/prompts) |
 | [Code Summarizer Action](https://github.com/marketplace/actions/code-summarizer) | Repo automation tools | Draft: verify current marketplace listing and name. | [Website](https://github.com/marketplace/actions/code-summarizer) / [Docs](https://github.com/kubescape/code-summarizer#readme) / [Repo](https://github.com/kubescape/code-summarizer) |
+| [Codebrush](https://github.com/tldraw/codebrush) | Data and ML coding assistants | Draft: narrow language focus but good DX tool. | [Docs](https://github.com/tldraw/codebrush#readme) / [Repo](https://github.com/tldraw/codebrush) |
 
 _Showing 20 of 87 draft entries. Full queue in `data/tools.yml`._
 
@@ -652,12 +663,12 @@ npm run generate
 npm test
 ```
 
-Use official sources, keep descriptions factual, and leave uncertain metadata as `not specified` instead of guessing. See [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/submission-guide.md](docs/submission-guide.md).
+Use official sources, keep descriptions factual, and leave uncertain metadata as `not specified` instead of guessing. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Roadmap
 
 - Review and promote 87 queued draft entries, prioritising thin shelves.
-- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), MCP clients (6 reviewed), Test generation agents (6 reviewed).
+- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (5 reviewed), MCP clients (6 reviewed).
 - Populate empty shelves when quality entries are found: Prompt and workflow libraries, AI devtools security, DevOps and SRE agents.
 - Add stale-entry and broken-link checks.
 - Improve generated filter views and category-level comparisons.
