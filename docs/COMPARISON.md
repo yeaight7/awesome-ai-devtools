@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 275 reviewed tools.
+This is the complete comparison matrix for all 276 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -46,6 +46,7 @@ This is the complete comparison matrix for all 275 reviewed tools.
 | [Awesome Rules](https://github.com/continuedev/awesome-rules) | Registries and curated lists | Yes | Yes | No | No | No | No | [Repo](https://github.com/continuedev/awesome-rules) |
 | [AWS Agent Evaluation](https://awslabs.github.io/agent-evaluation/) | Agent evals | Yes | No | No | Yes | No | No | [Docs](https://awslabs.github.io/agent-evaluation/) / [Repo](https://github.com/awslabs/agent-evaluation) |
 | [AWS Documentation MCP Server](https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server) | Documentation agents | Yes | No | No | No | No | Yes | [Docs](https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server) / [Repo](https://github.com/awslabs/mcp) |
+| [ax](https://github.com/Necmttn/ax) | Agent observability | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/Necmttn/ax) |
 | [Azure DevOps Skills](https://github.com/microsoft/azure-devops-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/microsoft/azure-devops-skills) |
 | [Bito AI Code Review Agent](https://bito.ai/product/ai-code-review-agent/) | AI code review tools | No | No | No | No | No | No | [Website](https://bito.ai/product/ai-code-review-agent/) / [Docs](https://docs.bito.ai/ai-code-reviews-in-git/install-run-using-bito-cloud/guide-for-github) |
 | [Braintrust](https://www.braintrust.dev) | Agent observability | No | No | No | No | No | No | [Website](https://www.braintrust.dev) / [Docs](https://docs.braintrust.dev) |

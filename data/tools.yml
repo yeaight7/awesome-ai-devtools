@@ -1446,6 +1446,39 @@
   sources:
     - https://github.com/awslabs/mcp
     - https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server
+- slug: ax
+  name: ax
+  description: Local telemetry and recall graph for AI coding agents, with CLI, dashboard, MCP queries, and OTLP ingestion.
+  website_url: https://github.com/Necmttn/ax
+  repo_url: https://github.com/Necmttn/ax
+  docs_url: https://github.com/Necmttn/ax
+  categories:
+    - agent-observability
+    - mcp-servers
+    - terminal-agents
+  primary_category: agent-observability
+  tags:
+    - agent
+    - cli
+    - cost-tracking
+    - local-first
+    - mcp
+    - observability
+    - open-source
+    - opentelemetry
+    - tracing
+  interfaces:
+    - cli
+    - mcp
+    - web
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-06-20
+  last_checked: 2026-06-20
+  sources:
+    - https://github.com/Necmttn/ax
 - slug: azure-devops-skills
   name: Azure DevOps Skills
   description: Example skills for GitHub Copilot integrating with Azure DevOps via MCP server for work items, iterations, and builds.
