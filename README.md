@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>362 tools</code> <code>275 reviewed</code> <code>87 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>363 tools</code> <code>276 reviewed</code> <code>87 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,15 +70,15 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (27) · [Terminal agents](#terminal-agents) (14) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
+[Coding agents](#coding-agents) (27) · [Terminal agents](#terminal-agents) (15) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (15) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (26)
+[MCP servers](#mcp-servers) (16) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (26)
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (41) · [Agent evals](#agent-evals) (22)
+[Agent observability](#agent-observability) (42) · [Agent evals](#agent-evals) (22)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 275 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 276 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -124,6 +124,7 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [LocalAI](https://localai.io) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://localai.io) / [Docs](https://localai.io/docs) / [Repo](https://github.com/go-skynet/LocalAI) |
 | [vLLM](https://vllm.ai) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Website](https://vllm.ai) / [Docs](https://docs.vllm.ai/en/stable/serving/openai_compatible_server.html) / [Repo](https://github.com/vllm-project/vllm) |
 | [Athenaeum](https://github.com/herakles-dev/athenaeum#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | Yes | [Docs](https://github.com/herakles-dev/athenaeum#readme) / [Repo](https://github.com/herakles-dev/athenaeum) |
+| [ax](https://github.com/Necmttn/ax) | Agent observability | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/Necmttn/ax) |
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
 | [Goose](https://goose-docs.ai/) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Website](https://goose-docs.ai/) / [Docs](https://goose-docs.ai/docs/quickstart/) / [Repo](https://github.com/aaif-goose/goose) |
 | [Harbor CLI Stack](https://github.com/harbor-ai/harbor#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://github.com/harbor-ai/harbor#readme) / [Repo](https://github.com/harbor-ai/harbor) |
@@ -143,7 +144,6 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [Nosia](https://nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://nosia.ai) / [Docs](https://nosia.ai/readme/) |
 | [Nosia Installer Stack](https://get.nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://get.nosia.ai) / [Docs](https://nosia.ai/readme/) |
 | [Roo Code](https://roocode.com/) | Coding agents | Yes | No | No | Yes | Yes | Yes | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
-| [Agent Skills](https://github.com/datalayer/agent-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/datalayer/agent-skills) |
 
 <p align="center"><img src="assets/awesome-ai-devtools-social-preview.gif" alt="Awesome AI Devtools ecosystem map" width="100%"></p>
 
@@ -194,6 +194,7 @@ AI developer tools primarily operated from a command-line interface.
 | [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
 | [Amp](https://ampcode.com/) | Terminal-centric coding agent with deep codebase context, editor links, and automation-oriented SDK features. | API · CLI · Hybrid | [Website](https://ampcode.com/) / [Docs](https://ampcode.com/manual) |
 | [Augment Code](https://www.augmentcode.com/) | Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases. | CLI · IDE · Hybrid | [Website](https://www.augmentcode.com/) / [Docs](https://docs.augmentcode.com/introduction) |
+| [ax](https://github.com/Necmttn/ax) | Local telemetry and recall graph for AI coding agents, with CLI, dashboard, MCP queries, and OTLP ingestion. | CLI · MCP · Web · Local | [Repo](https://github.com/Necmttn/ax) |
 | [Claude Code](https://code.claude.com/docs/en/setup) | Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context. | CLI · Hybrid | [Docs](https://code.claude.com/docs/en/setup) |
 | [CodeRabbit](https://coderabbit.ai/) | AI code review agent for pull requests, local IDE review, and terminal-based review workflows. | CLI · GitHub app · IDE · Hybrid | [Website](https://coderabbit.ai/) / [Docs](https://docs.coderabbit.ai/) |
 | [codex-profiles](https://ducksss.github.io/codex-profiles/) | Bash CLI that launches Codex CLI or Desktop with isolated CODEX_HOME profiles for account and context switching. | CLI · Local | [Website](https://ducksss.github.io/codex-profiles/) / [Docs](https://github.com/Ducksss/codex-profiles#readme) / [Repo](https://github.com/Ducksss/codex-profiles) |
@@ -267,6 +268,7 @@ Model Context Protocol servers that expose tools, resources, or prompts.
 | --- | --- | --- | --- |
 | [Anki MCP Server](https://ankimcp.ai) | MCP server that lets AI assistants interact with Anki flashcards and spaced-repetition workflows. | MCP · Local | [Website](https://ankimcp.ai) / [Repo](https://github.com/ankimcp/anki-mcp-server) |
 | [ArXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server) | MCP server for searching arXiv papers and exposing academic paper content to AI assistants. | MCP · Local | [Repo](https://github.com/blazickjp/arxiv-mcp-server) |
+| [ax](https://github.com/Necmttn/ax) | Local telemetry and recall graph for AI coding agents, with CLI, dashboard, MCP queries, and OTLP ingestion. | CLI · MCP · Web · Local | [Repo](https://github.com/Necmttn/ax) |
 | [Browserbase MCP Server](https://browserbase.com) | MCP server that lets AI agents control cloud browsers through Browserbase and Stagehand. | MCP · Hybrid | [Website](https://browserbase.com) / [Repo](https://github.com/browserbase/mcp-server-browserbase) |
 | [Chrome DevTools MCP](https://developer.chrome.com/blog/chrome-devtools-mcp) | MCP server that gives AI agents Chrome DevTools debugging capabilities for web applications. | MCP · Local | [Docs](https://developer.chrome.com/blog/chrome-devtools-mcp) / [Repo](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
 | [Context7 MCP Server](https://context7.com) | MCP server for retrieving up-to-date library documentation and code examples for AI coding assistants. | MCP · Hybrid | [Website](https://context7.com) / [Repo](https://github.com/upstash/context7) |
@@ -361,6 +363,7 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 | [Amazon CloudWatch GenAI Observability](https://aws.amazon.com/cloudwatch/) | CloudWatch capabilities for monitoring and tracing generative AI agents, workloads, and quality metrics on AWS. | API · Web · Hosted | [Website](https://aws.amazon.com/cloudwatch/) / [Docs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GenAI-observability.html) / [Repo](https://github.com/aws-samples/sample-amazon-cloudwatch-generative-ai-observability) |
 | [Arize AX](https://arize.com/ai-agents/agent-observability/) | Commercial agent and LLM observability platform built on Phoenix for tracing, evaluation, and monitoring production AI systems. | API · Web · Hosted | [Website](https://arize.com/ai-agents/agent-observability/) / [Docs](https://arize.com/docs/ax/observe/quickstart-llm) |
 | [Arize Phoenix](https://arize.com/phoenix) | Open-source AI observability platform with tracing, evals, datasets, and experiments for LLM, agent, and RAG systems. | API · Web · Self-hosted | [Website](https://arize.com/phoenix) / [Docs](https://arize.com/docs/phoenix) / [Repo](https://github.com/arize-ai/phoenix) |
+| [ax](https://github.com/Necmttn/ax) | Local telemetry and recall graph for AI coding agents, with CLI, dashboard, MCP queries, and OTLP ingestion. | CLI · MCP · Web · Local | [Repo](https://github.com/Necmttn/ax) |
 | [Braintrust](https://www.braintrust.dev) | AI observability and evaluation platform that logs LLM and agent traces and turns production logs into test datasets. | API · Web · Hosted | [Website](https://www.braintrust.dev) / [Docs](https://docs.braintrust.dev) |
 | [Comet Opik](https://www.comet.com) | Open-source LLM observability framework for tracing, evaluating, and monitoring LLM, RAG, and agent workflows. | API · Web · Hybrid | [Website](https://www.comet.com) / [Docs](https://docs.comet.com/docs/opik-overview) / [Repo](https://github.com/comet-ml/opik) |
 | [Confident AI](https://www.confident-ai.com) | Evaluation and observability platform that traces LLM apps and runs DeepEval metrics on components and end-to-end workflows. | API · Web · Hosted | [Website](https://www.confident-ai.com) / [Docs](https://www.confident-ai.com/docs) |
@@ -615,6 +618,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-06-20: [ax](https://github.com/Necmttn/ax)
 - 2026-06-11: [codex-profiles](https://ducksss.github.io/codex-profiles/)
 - 2026-05-28: [Ivy Tendril](https://tendril.ivy.app)
 - 2026-05-28: [Komos](https://www.komos.ai/browser-automation-tools)
@@ -622,7 +626,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-05-15: [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers)
 - 2026-05-15: [Guardrails AI](https://github.com/ShreyaR/guardrails)
 - 2026-05-15: [Haystack](https://github.com/deepset-ai/haystack)
-- 2026-05-15: [LiteLLM Gateway](https://github.com/BerriAI/litellm)
 
 ## Needs review
 
