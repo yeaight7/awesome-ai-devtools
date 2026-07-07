@@ -9396,6 +9396,37 @@
     - https://github.com/traceloop/openllmetry-js
     - https://github.com/traceloop/openllmetry-ruby
     - https://traceloop.com
+- slug: tree-ring-memory
+  name: Tree Ring Memory
+  description: Local-first Rust CLI/TUI for agent memory lifecycle with SQLite/FTS recall, audit, forgetting, and source-linked evidence.
+  website_url: https://terminallylazy.github.io/Tree-Ring-Memory/
+  repo_url: https://github.com/TerminallyLazy/Tree-Ring-Memory
+  docs_url: https://terminallylazy.github.io/Tree-Ring-Memory/press-kit.md
+  categories:
+    - agent-skill-packs
+    - terminal-agents
+  primary_category: terminal-agents
+  tags:
+    - agent-skills
+    - cli
+    - developer-experience
+    - devtools
+    - local-first
+    - open-source
+    - terminal
+  interfaces:
+    - cli
+    - skill-pack
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-07-07
+  last_checked: 2026-07-07
+  sources:
+    - https://github.com/TerminallyLazy/Tree-Ring-Memory
+    - https://terminallylazy.github.io/Tree-Ring-Memory/
+    - https://terminallylazy.github.io/Tree-Ring-Memory/press-kit.md
 - slug: trulens
   name: TruLens
   description: Open-source library for tracing and evaluating AI agents, RAG systems, and LLM applications with feedback functions.
