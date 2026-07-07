@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 276 reviewed tools.
+This is the complete comparison matrix for all 277 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -265,6 +265,7 @@ This is the complete comparison matrix for all 276 reviewed tools.
 | [Text Generation Inference](https://huggingface.co/docs/text-generation-inference) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Website](https://huggingface.co/docs/text-generation-inference) / [Docs](https://huggingface.co/docs/text-generation-inference/index) / [Repo](https://github.com/huggingface/text-generation-inference) |
 | [text-generation-webui](https://github.com/oobabooga/text-generation-webui#readme) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Docs](https://github.com/oobabooga/text-generation-webui#readme) / [Repo](https://github.com/oobabooga/text-generation-webui) |
 | [Traceloop OpenLLMetry](https://traceloop.com) | Agent observability | Yes | Yes | Yes | No | No | No | [Website](https://traceloop.com) / [Docs](https://docs.traceloop.com) / [Repo](https://github.com/traceloop/openllmetry) |
+| [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/) | Terminal agents | Yes | Yes | No | Yes | No | No | [Website](https://terminallylazy.github.io/Tree-Ring-Memory/) / [Docs](https://terminallylazy.github.io/Tree-Ring-Memory/press-kit.md) / [Repo](https://github.com/TerminallyLazy/Tree-Ring-Memory) |
 | [TruLens](https://www.trulens.org) | Agent observability | Yes | Yes | No | No | No | No | [Website](https://www.trulens.org) / [Docs](https://www.trulens.org/docs) / [Repo](https://github.com/truera/trulens) |
 | [Unitxt](https://www.unitxt.ai) | Agent evals | Yes | No | No | Yes | No | No | [Website](https://www.unitxt.ai) / [Docs](https://www.unitxt.ai/en/main/docs/introduction.html) / [Repo](https://github.com/ibm/unitxt) |
 | [UpdateBot](https://github.com/jenkins-x/updatebot) | Repo automation tools | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/jenkins-x/updatebot) |

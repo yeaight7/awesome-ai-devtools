@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>363 tools</code> <code>276 reviewed</code> <code>87 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>364 tools</code> <code>277 reviewed</code> <code>87 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,11 +70,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (27) · [Terminal agents](#terminal-agents) (15) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
+[Coding agents](#coding-agents) (27) · [Terminal agents](#terminal-agents) (16) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (16) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (26)
+[MCP servers](#mcp-servers) (16) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (27)
 
 ### Operate agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 276 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 277 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -204,6 +204,7 @@ AI developer tools primarily operated from a command-line interface.
 | [OpenAI Codex CLI](https://github.com/openai/codex) | Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace. | CLI · Hybrid | [Docs](https://developers.openai.com/codex/cli/) / [Repo](https://github.com/openai/codex) |
 | [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop · GitHub app · IDE · MCP · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
 | [Qwen Code](https://qwen.ai/) | Open-source terminal coding agent optimized for Qwen models and large repository tasks. | CLI · Local | [Website](https://qwen.ai/) / [Repo](https://github.com/QwenLM/qwen-code) |
+| [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/) | Local-first Rust CLI/TUI for agent memory lifecycle with SQLite/FTS recall, audit, forgetting, and source-linked evidence. | CLI · Skill Pack · Local | [Website](https://terminallylazy.github.io/Tree-Ring-Memory/) / [Docs](https://terminallylazy.github.io/Tree-Ring-Memory/press-kit.md) / [Repo](https://github.com/TerminallyLazy/Tree-Ring-Memory) |
 
 ### IDE assistants
 
@@ -351,6 +352,7 @@ Reusable instruction, workflow, or capability packs for coding agents.
 | [Superpowers](https://github.com/obra/superpowers) | Core skills library for Claude Code with TDD, debugging, collaboration patterns, and systematic problem-solving techniques. | Skill Pack · Local | [Repo](https://github.com/obra/superpowers) |
 | [Superpowers Lab](https://github.com/obra/superpowers-lab) | Experimental skills for Claude Code including semantic duplicate detection, tmux automation, and on-demand MCP server usage. | Skill Pack · Local | [Repo](https://github.com/obra/superpowers-lab) |
 | [Swarms](https://github.com/am-will/swarms) | Multi-agent orchestration skills for Claude Code and Codex with dependency-aware planning and wave-based parallel execution. | Framework · Skill Pack · Local | [Repo](https://github.com/am-will/swarms) |
+| [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/) | Local-first Rust CLI/TUI for agent memory lifecycle with SQLite/FTS recall, audit, forgetting, and source-linked evidence. | CLI · Skill Pack · Local | [Website](https://terminallylazy.github.io/Tree-Ring-Memory/) / [Docs](https://terminallylazy.github.io/Tree-Ring-Memory/press-kit.md) / [Repo](https://github.com/TerminallyLazy/Tree-Ring-Memory) |
 | [wshobson/agents](https://github.com/wshobson/agents) | Unified repository with 185 specialized agents, 16 orchestrators, 153 skills, and 100 commands for Claude Code automation. | CLI · Local | [Repo](https://github.com/wshobson/agents) |
 
 ### Agent observability
@@ -618,6 +620,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-07-07: [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/)
 - 2026-06-20: [ax](https://github.com/Necmttn/ax)
 - 2026-06-11: [codex-profiles](https://ducksss.github.io/codex-profiles/)
 - 2026-05-28: [Ivy Tendril](https://tendril.ivy.app)
@@ -625,7 +628,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-05-18: [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor)
 - 2026-05-15: [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers)
 - 2026-05-15: [Guardrails AI](https://github.com/ShreyaR/guardrails)
-- 2026-05-15: [Haystack](https://github.com/deepset-ai/haystack)
 
 ## Needs review
 
