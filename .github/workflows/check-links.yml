@@ -1,15 +1,25 @@
-name: Check Links
+name: Catalog maintenance
+
+# Network-dependent maintenance lives here, out of PR validation:
+# link results vary with network conditions, so they only run on a
+# schedule or on demand. Pull-request validation (validate.yml) stays
+# fully offline and deterministic.
 
 on:
   schedule:
-    - cron: '0 0 * * 1' # Run every Monday at midnight UTC
-  workflow_dispatch: # Allow manual triggering
+    - cron: '0 0 * * 1' # Every Monday at midnight UTC
+  workflow_dispatch:
+    inputs:
+      max_age_days:
+        description: 'Stale threshold in days for the last_checked report'
+        required: false
+        default: '180'
 
 permissions:
   contents: read
 
 jobs:
-  check-links:
+  maintenance:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -24,5 +34,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Check all catalog links
+      # Fails only on confirmed-broken links (404/410/dead DNS verified on
+      # a second attempt). Rate limits, timeouts, and bot walls are listed
+      # as inconclusive and do not fail the run.
+      - name: Check catalog links
         run: npm run check:links
+
+      # Report only: aging entries are surfaced, never a failure.
+      - name: Stale entry report
+        if: always()
+        run: npm run check:stale -- --max-age-days "${{ github.event.inputs.max_age_days || '180' }}"
