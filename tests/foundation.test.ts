@@ -1,8 +1,8 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { buildReadme, DRAFT_QUEUE_LIMIT } from "../scripts/generate-readme.ts";
+import { buildComparisonMatrix, buildReadme, DRAFT_QUEUE_LIMIT } from "../scripts/generate-readme.ts";
 import { validateCatalog } from "../scripts/validate.ts";
-import type { CatalogData } from "../scripts/lib.ts";
+import { serializeTools, type CatalogData } from "../scripts/lib.ts";
 
 const sampleCatalog: CatalogData = {
   categories: [
@@ -137,6 +137,34 @@ test("buildReadme derives roadmap empty-shelf guidance from catalog categories",
   assert.doesNotMatch(readme, /AI devtools security, DevOps\/SRE agents, prompt and workflow libraries/);
 });
 
+test("validateCatalog accepts CRLF file content when the underlying data matches", () => {
+  // Windows checkouts with core.autocrlf=true read generated files back with
+  // CRLF endings; that must not be reported as stale or unsorted.
+  const toCrlf = (value: string) => value.replace(/\n/g, "\r\n");
+
+  const result = validateCatalog(sampleCatalog, {
+    readmeContent: toCrlf(buildReadme(sampleCatalog)),
+    toolsFileContent: toCrlf(serializeTools(sampleCatalog.tools)),
+    comparisonContent: toCrlf(buildComparisonMatrix(sampleCatalog))
+  });
+
+  assert.deepEqual(result.errors, []);
+  assert.equal(result.ok, true);
+});
+
+test("validateCatalog still reports genuinely stale generated output", () => {
+  const result = validateCatalog(sampleCatalog, {
+    readmeContent: "# stale readme",
+    toolsFileContent: "stale: yaml",
+    comparisonContent: "# stale comparison"
+  });
+
+  assert.equal(result.ok, false);
+  assert(result.errors.some((error) => error.includes("README.md is stale")));
+  assert(result.errors.some((error) => error.includes("data/tools.yml is not sorted")));
+  assert(result.errors.some((error) => error.includes("docs/COMPARISON.md is stale")));
+});
+
 test("validateCatalog reports duplicate slugs and unknown category references", () => {
   const invalidCatalog: CatalogData = {
     ...sampleCatalog,
@@ -158,6 +186,49 @@ test("validateCatalog reports duplicate slugs and unknown category references", 
   assert.equal(result.ok, false);
   assert(result.errors.some((error) => error.includes("duplicate tool slug")));
   assert(result.errors.some((error) => error.includes("unknown category")));
+});
+
+test("validateCatalog rejects duplicate tool names and warns on shared URLs", () => {
+  const duplicateNameCatalog: CatalogData = {
+    ...sampleCatalog,
+    tools: [
+      sampleCatalog.tools[0],
+      {
+        ...sampleCatalog.tools[0],
+        slug: "sample-agent-two",
+        name: "Sample Agent",
+        website_url: "https://other.example.com",
+        repo_url: undefined,
+        docs_url: undefined,
+        sources: ["https://other.example.com"]
+      }
+    ]
+  };
+
+  const nameResult = validateCatalog(duplicateNameCatalog, { checkGeneratedReadme: false, checkSorted: false });
+  assert.equal(nameResult.ok, false);
+  assert(nameResult.errors.some((error) => error.includes('duplicate tool name "sample agent"')));
+
+  const sharedUrlCatalog: CatalogData = {
+    ...sampleCatalog,
+    tools: [
+      sampleCatalog.tools[0],
+      {
+        ...sampleCatalog.tools[0],
+        slug: "same-repo-facet",
+        name: "Same Repo Facet Tool With Long Enough Name",
+        website_url: "https://github.com/example/sample-agent/",
+        repo_url: "https://github.com/example/sample-agent",
+        docs_url: undefined,
+        sources: ["https://github.com/example/sample-agent"]
+      }
+    ]
+  };
+
+  const urlResult = validateCatalog(sharedUrlCatalog, { checkGeneratedReadme: false, checkSorted: false });
+  // Shared URLs must warn (curation decision), not fail validation.
+  assert.equal(urlResult.ok, true);
+  assert(urlResult.warnings.some((warning) => warning.includes("share the same repo_url")));
 });
 
 test("validateCatalog enforces 40-180 character descriptions", () => {

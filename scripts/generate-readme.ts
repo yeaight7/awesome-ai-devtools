@@ -171,7 +171,7 @@ export function buildReadme(catalog: CatalogData): string {
     "## Roadmap",
     "",
     ...renderRoadmap(draftTools, catalog.categories, reviewedByCategory),
-    "- Add stale-entry and broken-link checks.",
+    "- Act on the weekly maintenance reports: fix confirmed-broken links and re-verify stale entries.",
     "- Improve generated filter views and category-level comparisons.",
     "- Keep the schema small and strict as the catalog grows.",
     ""
@@ -480,7 +480,7 @@ if (isCliEntrypoint()) {
   writeFileSync(join(rootDir, ROOT_FILES.readme), content);
 
   const comparisonContent = buildComparisonMatrix(catalog);
-  writeFileSync(join(rootDir, "docs", "COMPARISON.md"), comparisonContent);
+  writeFileSync(join(rootDir, ROOT_FILES.comparison), comparisonContent);
 }
 
 export function buildComparisonMatrix(catalog: CatalogData): string {

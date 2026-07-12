@@ -1,7 +1,7 @@
 import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
-import { buildReadme } from "./generate-readme.ts";
+import { buildComparisonMatrix, buildReadme } from "./generate-readme.ts";
 import {
   CatalogData,
   CURATION_STATUS_TYPES,
@@ -13,6 +13,7 @@ import {
   isHttpUrl,
   isValidDate,
   loadCatalog,
+  normalizeEol,
   readText,
   serializeTools,
   slugItemMap
@@ -102,9 +103,89 @@ const KNOWN_EVIDENCE_HOSTS = new Set([
   "theodo.com",
 ]);
 
+// Description language policy. Calibrated against the existing catalog:
+// the promotional tier (validation errors) has zero matches in current data,
+// so it only blocks new hype copy; the subjective tier (warnings) surfaces
+// soft marketing wording without failing validation. Patterns are word-bounded
+// phrases with exceptions for legitimate technical idioms ("best practices",
+// "smart contract", "awesome list"), so factual text and product names pass.
+const PROMOTIONAL_LANGUAGE_PATTERNS: RegExp[] = [
+  /\b(?:best[ -]in[ -]class|world[ -]class|industry[ -]leading|market[ -]leading|award[ -]winning|top[ -]rated)\b/i,
+  /\b(?:revolutionary|groundbreaking|game[ -]chang(?:ing|er))\b/i,
+  /\b(?:cutting[ -]edge|state[ -]of[ -]the[ -]art)\b/i,
+  /\b(?:blazing(?:ly)?|lightning)[ -]fast\b/i,
+  /\bblazingly\b/i,
+  /\b(?:unmatched|unparalleled|unrivaled|second to none)\b/i,
+  /\b(?:supercharge|turbocharge)[sd]?\b/i,
+  /\bon steroids\b/i,
+  /(?:^|[\s(])#1\b/,
+  /\bnumber[ -]one\b/i,
+  /\bworld'?s (?:best|first|fastest|leading|largest|most)\b/i,
+  /\bthe best\b(?!\s+(?:practices?|effort))/i,
+  /\b(?:fastest|easiest|simplest|smartest)\b/i,
+  /\bmost (?:powerful|advanced|popular|complete|comprehensive|accurate|capable|intelligent)\b/i,
+  /\b(?:amazing|incredible|phenomenal|magical)\b/i,
+  /\b(?:trusted|loved) by\b/i,
+  /\b\d+x (?:faster|better|more)\b/i
+];
+
+const SUBJECTIVE_LANGUAGE_PATTERNS: RegExp[] = [
+  /\bpowerful\b/i,
+  /\bseamless(?:ly)?\b/i,
+  /\beffortless(?:ly)?\b/i,
+  /\bintuitive(?:ly)?\b/i,
+  /\belegant(?:ly)?\b/i,
+  /\bbeautiful(?:ly)?\b/i,
+  /\b(?:gorgeous|stunning|delightful)\b/i,
+  /\benterprise[ -]grade\b/i,
+  /\bproduction[ -]ready\b/i,
+  /\bbattle[ -]tested\b/i,
+  /\bfeature[ -]rich\b/i,
+  /\b(?:frictionless|painless(?:ly)?|hassle[ -]free)\b/i,
+  /\brobust\b/i,
+  /\bintelligent(?:ly)?\b/i,
+  /\bsmart\b(?!\s+contracts?)/i,
+  /\bnext[ -]gen(?:eration)?\b/i,
+  /\bawesome\b(?!\s+lists?)/i,
+  /\b(?:superior|ultimate|innovative)\b/i
+];
+
+export interface DescriptionLanguageIssues {
+  promotional: string[];
+  subjective: string[];
+}
+
+export function findDescriptionLanguageIssues(description: string): DescriptionLanguageIssues {
+  const promotional: string[] = [];
+  const subjective: string[] = [];
+
+  for (const pattern of PROMOTIONAL_LANGUAGE_PATTERNS) {
+    const match = description.match(pattern);
+    if (match) {
+      promotional.push(match[0].trim());
+    }
+  }
+  if (description.includes("!")) {
+    promotional.push("exclamation mark");
+  }
+  if (/\p{Extended_Pictographic}/u.test(description)) {
+    promotional.push("emoji");
+  }
+
+  for (const pattern of SUBJECTIVE_LANGUAGE_PATTERNS) {
+    const match = description.match(pattern);
+    if (match) {
+      subjective.push(match[0].trim());
+    }
+  }
+
+  return { promotional, subjective };
+}
+
 export interface ValidationOptions {
   readmeContent?: string;
   toolsFileContent?: string;
+  comparisonContent?: string;
   checkGeneratedReadme?: boolean;
   checkSorted?: boolean;
 }
@@ -126,6 +207,8 @@ export function validateCatalog(catalog: CatalogData, options: ValidationOptions
   validateSlugSet("category", catalog.categories, errors);
   validateSlugSet("tag", catalog.tags, errors);
   validateSlugSet("tool", catalog.tools, errors);
+  validateUniqueNames(catalog.tools, errors);
+  validateUniqueUrls(catalog.tools, warnings);
 
   for (const category of catalog.categories) {
     validateRequiredString(`category ${category.slug}`, "name", category.name, errors);
@@ -143,15 +226,22 @@ export function validateCatalog(catalog: CatalogData, options: ValidationOptions
 
   if (checkSorted && options.toolsFileContent !== undefined) {
     const expected = serializeTools(catalog.tools);
-    if (options.toolsFileContent !== expected) {
+    if (normalizeEol(options.toolsFileContent) !== expected) {
       errors.push("data/tools.yml is not sorted or normalized. Run `npm run sort`.");
     }
   }
 
   if (checkGeneratedReadme && options.readmeContent !== undefined) {
     const expected = buildReadme(catalog);
-    if (options.readmeContent !== expected) {
+    if (normalizeEol(options.readmeContent) !== expected) {
       errors.push("README.md is stale. Run `npm run generate`.");
+    }
+  }
+
+  if (checkGeneratedReadme && options.comparisonContent !== undefined) {
+    const expected = buildComparisonMatrix(catalog);
+    if (normalizeEol(options.comparisonContent) !== expected) {
+      errors.push("docs/COMPARISON.md is stale. Run `npm run generate`.");
     }
   }
 
@@ -201,6 +291,16 @@ function validateTool(
     errors.push(
       `${label}: description must be ${TOOL_DESCRIPTION_MIN}-${TOOL_DESCRIPTION_MAX} characters. Current length: ${tool.description.length}.`
     );
+  }
+
+  if (typeof tool.description === "string") {
+    const language = findDescriptionLanguageIssues(tool.description);
+    for (const phrase of language.promotional) {
+      errors.push(`${label}: description contains promotional language ("${phrase}"). Keep descriptions factual and neutral.`);
+    }
+    for (const phrase of language.subjective) {
+      warnings.push(`${label}: description uses subjective wording ("${phrase}"); prefer neutral phrasing.`);
+    }
   }
 
   validateNoArtifacts(label, "name", tool.name, errors);
@@ -311,6 +411,44 @@ function validateSlugSet(label: string, items: Array<{ slug?: string }>, errors:
   }
 }
 
+function validateUniqueNames(tools: Tool[], errors: string[]): void {
+  const byName = new Map<string, string[]>();
+  for (const tool of tools) {
+    if (typeof tool.name !== "string" || tool.name.trim() === "") continue;
+    const key = tool.name.trim().toLowerCase();
+    const slugs = byName.get(key) ?? [];
+    slugs.push(tool.slug ?? "<missing slug>");
+    byName.set(key, slugs);
+  }
+  for (const [name, slugs] of byName) {
+    if (slugs.length > 1) {
+      errors.push(`duplicate tool name "${name}" used by: ${slugs.join(", ")}.`);
+    }
+  }
+}
+
+// Shared URLs usually mean the same project was entered twice (for example a
+// draft facet of an already reviewed tool). Merging is a curation decision,
+// so this warns instead of failing.
+function validateUniqueUrls(tools: Tool[], warnings: string[]): void {
+  for (const field of ["website_url", "repo_url"] as const) {
+    const byUrl = new Map<string, string[]>();
+    for (const tool of tools) {
+      const value = tool[field];
+      if (typeof value !== "string" || value.trim() === "") continue;
+      const key = value.trim().replace(/\/+$/, "").toLowerCase();
+      const slugs = byUrl.get(key) ?? [];
+      slugs.push(tool.slug ?? "<missing slug>");
+      byUrl.set(key, slugs);
+    }
+    for (const [url, slugs] of byUrl) {
+      if (slugs.length > 1) {
+        warnings.push(`tools ${slugs.join(", ")} share the same ${field} "${url}"; merge or differentiate the entries.`);
+      }
+    }
+  }
+}
+
 function validateNoArtifacts(label: string, field: string, value: unknown, errors: string[]): void {
   if (typeof value !== "string") return;
   for (const pattern of ARTIFACT_PATTERNS) {
@@ -393,9 +531,11 @@ if (isCliEntrypoint()) {
   const catalog = loadCatalog(rootDir);
   const readmePath = join(rootDir, ROOT_FILES.readme);
   const toolsPath = join(rootDir, ROOT_FILES.tools);
+  const comparisonPath = join(rootDir, ROOT_FILES.comparison);
   const result = validateCatalog(catalog, {
     readmeContent: existsSync(readmePath) ? readText(readmePath) : "",
     toolsFileContent: readText(toolsPath),
+    comparisonContent: existsSync(comparisonPath) ? readText(comparisonPath) : "",
     checkGeneratedReadme: true,
     checkSorted: true
   });

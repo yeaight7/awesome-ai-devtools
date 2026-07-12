@@ -5,18 +5,14 @@ Use this checklist before tagging a new release.
 ## Pre-release checks
 
 - [ ] `npm test` passes (types + unit tests + validation).
-- [ ] README is up to date: `npm run generate && git diff --exit-code README.md`.
-- [ ] No citation artifacts in public fields (`[web:`, `filecite`, `<file_attachment`, `【`, `】`) — validation blocks these automatically.
-- [ ] No empty Links cells in README — scan for `|  |` or trailing ` |` in table rows.
-- [ ] Reviewed shelf counts look reasonable — check `Explore by intent` section.
-- [ ] Draft queue in README is compact (capped at 20 rows).
+- [ ] Generated output is fresh: `npm run generate && git diff --exit-code README.md docs/COMPARISON.md`.
 - [ ] CI green on the target commit.
+- [ ] The latest scheduled `Catalog maintenance` run is green, or its confirmed-broken links have been fixed. Re-run on demand with `npm run check:links`.
+- [ ] Review the stale-entry report (`npm run check:stale`) and decide whether any old entries need re-verification before the release.
+- [ ] Reviewed shelf counts look reasonable — check the `Explore by intent` section of the README.
+- [ ] Thin and empty shelves are acceptable — the README `Roadmap` section lists them automatically.
 
-## Catalog state to verify
-
-- [ ] All reviewed multi-category tools have `primary_category` set.
-- [ ] No reviewed tool references an undefined category or tag slug.
-- [ ] No `curation_status: unknown` or missing `review_notes` on draft entries.
+Validation already blocks citation artifacts, promotional description language, missing `primary_category` on reviewed multi-category tools, undefined category/tag references, and missing `review_notes` on drafts, so those need no manual scan.
 
 ## Tagging
 
@@ -28,18 +24,3 @@ git push origin v0.1.1
 ```
 
 Then create a GitHub release from the tag with a short changelog summary.
-
-## Known shelf gaps at v0.1.0
-
-The following shelves have fewer than 10 reviewed entries and are documented as ongoing work:
-
-| Shelf | Reviewed | Status |
-| --- | --- | --- |
-| `test-generation-agents` | 4 | Active — tooling is emerging |
-| `mcp-clients` | 6 | Active — many clients are multi-category |
-| `data-ml-coding-assistants` | 1 | Thin — needs dedicated research pass |
-| `prompt-workflow-libraries` | 0 | Empty — no entries yet |
-| `ai-devtools-security` | 0 | Empty — no entries yet |
-| `devops-sre-agents` | 0 | Empty — no entries yet |
-
-These are not release blockers; they are reflected accurately in the README roadmap.
