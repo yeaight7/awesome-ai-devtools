@@ -10,6 +10,7 @@
     "sort": "tsx scripts/sort-tools.ts",
     "validate": "tsx scripts/validate.ts",
     "check:links": "tsx scripts/check-links.ts",
+    "check:stale": "tsx scripts/check-stale.ts",
     "check:types": "tsc --noEmit",
     "test:unit": "node --import tsx --test tests/*.test.ts",
     "test": "npm run check:types && npm run test:unit && npm run validate"
