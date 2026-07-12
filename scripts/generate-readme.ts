@@ -480,7 +480,7 @@ if (isCliEntrypoint()) {
   writeFileSync(join(rootDir, ROOT_FILES.readme), content);
 
   const comparisonContent = buildComparisonMatrix(catalog);
-  writeFileSync(join(rootDir, "docs", "COMPARISON.md"), comparisonContent);
+  writeFileSync(join(rootDir, ROOT_FILES.comparison), comparisonContent);
 }
 
 export function buildComparisonMatrix(catalog: CatalogData): string {

@@ -1,8 +1,8 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { buildReadme, DRAFT_QUEUE_LIMIT } from "../scripts/generate-readme.ts";
+import { buildComparisonMatrix, buildReadme, DRAFT_QUEUE_LIMIT } from "../scripts/generate-readme.ts";
 import { validateCatalog } from "../scripts/validate.ts";
-import type { CatalogData } from "../scripts/lib.ts";
+import { serializeTools, type CatalogData } from "../scripts/lib.ts";
 
 const sampleCatalog: CatalogData = {
   categories: [
@@ -135,6 +135,34 @@ test("buildReadme derives roadmap empty-shelf guidance from catalog categories",
 
   assert.match(readme, /- Populate empty shelves when quality entries are found: Empty shelf\./);
   assert.doesNotMatch(readme, /AI devtools security, DevOps\/SRE agents, prompt and workflow libraries/);
+});
+
+test("validateCatalog accepts CRLF file content when the underlying data matches", () => {
+  // Windows checkouts with core.autocrlf=true read generated files back with
+  // CRLF endings; that must not be reported as stale or unsorted.
+  const toCrlf = (value: string) => value.replace(/\n/g, "\r\n");
+
+  const result = validateCatalog(sampleCatalog, {
+    readmeContent: toCrlf(buildReadme(sampleCatalog)),
+    toolsFileContent: toCrlf(serializeTools(sampleCatalog.tools)),
+    comparisonContent: toCrlf(buildComparisonMatrix(sampleCatalog))
+  });
+
+  assert.deepEqual(result.errors, []);
+  assert.equal(result.ok, true);
+});
+
+test("validateCatalog still reports genuinely stale generated output", () => {
+  const result = validateCatalog(sampleCatalog, {
+    readmeContent: "# stale readme",
+    toolsFileContent: "stale: yaml",
+    comparisonContent: "# stale comparison"
+  });
+
+  assert.equal(result.ok, false);
+  assert(result.errors.some((error) => error.includes("README.md is stale")));
+  assert(result.errors.some((error) => error.includes("data/tools.yml is not sorted")));
+  assert(result.errors.some((error) => error.includes("docs/COMPARISON.md is stale")));
 });
 
 test("validateCatalog reports duplicate slugs and unknown category references", () => {

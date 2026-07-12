@@ -69,8 +69,15 @@ export const ROOT_FILES = {
   categories: join("data", "categories.yml"),
   tags: join("data", "tags.yml"),
   tools: join("data", "tools.yml"),
-  readme: "README.md"
+  readme: "README.md",
+  comparison: join("docs", "COMPARISON.md")
 } as const;
+
+// Windows checkouts with core.autocrlf=true contain CRLF line endings, while
+// generators always emit LF. Freshness comparisons must ignore that difference.
+export function normalizeEol(value: string): string {
+  return value.replace(/\r\n/g, "\n");
+}
 
 export function loadCatalog(rootDir = process.cwd()): CatalogData {
   return {

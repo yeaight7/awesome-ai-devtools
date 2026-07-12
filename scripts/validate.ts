@@ -1,7 +1,7 @@
 import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
-import { buildReadme } from "./generate-readme.ts";
+import { buildComparisonMatrix, buildReadme } from "./generate-readme.ts";
 import {
   CatalogData,
   CURATION_STATUS_TYPES,
@@ -13,6 +13,7 @@ import {
   isHttpUrl,
   isValidDate,
   loadCatalog,
+  normalizeEol,
   readText,
   serializeTools,
   slugItemMap
@@ -105,6 +106,7 @@ const KNOWN_EVIDENCE_HOSTS = new Set([
 export interface ValidationOptions {
   readmeContent?: string;
   toolsFileContent?: string;
+  comparisonContent?: string;
   checkGeneratedReadme?: boolean;
   checkSorted?: boolean;
 }
@@ -143,15 +145,22 @@ export function validateCatalog(catalog: CatalogData, options: ValidationOptions
 
   if (checkSorted && options.toolsFileContent !== undefined) {
     const expected = serializeTools(catalog.tools);
-    if (options.toolsFileContent !== expected) {
+    if (normalizeEol(options.toolsFileContent) !== expected) {
       errors.push("data/tools.yml is not sorted or normalized. Run `npm run sort`.");
     }
   }
 
   if (checkGeneratedReadme && options.readmeContent !== undefined) {
     const expected = buildReadme(catalog);
-    if (options.readmeContent !== expected) {
+    if (normalizeEol(options.readmeContent) !== expected) {
       errors.push("README.md is stale. Run `npm run generate`.");
+    }
+  }
+
+  if (checkGeneratedReadme && options.comparisonContent !== undefined) {
+    const expected = buildComparisonMatrix(catalog);
+    if (normalizeEol(options.comparisonContent) !== expected) {
+      errors.push("docs/COMPARISON.md is stale. Run `npm run generate`.");
     }
   }
 
@@ -393,9 +402,11 @@ if (isCliEntrypoint()) {
   const catalog = loadCatalog(rootDir);
   const readmePath = join(rootDir, ROOT_FILES.readme);
   const toolsPath = join(rootDir, ROOT_FILES.tools);
+  const comparisonPath = join(rootDir, ROOT_FILES.comparison);
   const result = validateCatalog(catalog, {
     readmeContent: existsSync(readmePath) ? readText(readmePath) : "",
     toolsFileContent: readText(toolsPath),
+    comparisonContent: existsSync(comparisonPath) ? readText(comparisonPath) : "",
     checkGeneratedReadme: true,
     checkSorted: true
   });
