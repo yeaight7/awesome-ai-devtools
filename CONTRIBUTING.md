@@ -60,14 +60,13 @@ Categories describe the main role of a tool. Tags describe secondary traits.
 - Do not describe future or rumored features as current facts.
 - Do not scrape or bulk import data by hand.
 - Prefer omitted optional URLs over unofficial mirrors.
+- Write descriptions in factual, neutral language. Validation rejects promotional phrasing (superlatives, hype phrases, exclamation marks, emoji) and warns about soft subjective wording such as "intuitive" or "enterprise-grade".
 
 ## Maintenance Policy
 
-### Source Of Truth
-Structured YAML in `data/` is the source of truth. `README.md` is generated. If tool listings are stale, run `npm run generate` instead of editing them manually.
+Structured YAML in `data/` is the source of truth. `README.md` and `docs/COMPARISON.md` are generated. If tool listings are stale, run `npm run generate` instead of editing them manually.
 
-### Sorting
-Tools are sorted by display name using English locale comparison, then by slug as a tiebreaker. Tool category, tag, interface, and source arrays are normalized alphabetically. `primary_category` is preserved as-is during sorting; it is not sorted into the category array.
+Sorting rules, validation coverage, and the scheduled link/staleness maintenance model are documented in [docs/maintenance-policy.md](docs/maintenance-policy.md).
 
 ## Import Draft Candidates
 
