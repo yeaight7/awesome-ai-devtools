@@ -207,6 +207,8 @@ export function validateCatalog(catalog: CatalogData, options: ValidationOptions
   validateSlugSet("category", catalog.categories, errors);
   validateSlugSet("tag", catalog.tags, errors);
   validateSlugSet("tool", catalog.tools, errors);
+  validateUniqueNames(catalog.tools, errors);
+  validateUniqueUrls(catalog.tools, warnings);
 
   for (const category of catalog.categories) {
     validateRequiredString(`category ${category.slug}`, "name", category.name, errors);
@@ -406,6 +408,44 @@ function validateSlugSet(label: string, items: Array<{ slug?: string }>, errors:
       errors.push(`duplicate ${label} slug "${item.slug}".`);
     }
     seen.add(item.slug);
+  }
+}
+
+function validateUniqueNames(tools: Tool[], errors: string[]): void {
+  const byName = new Map<string, string[]>();
+  for (const tool of tools) {
+    if (typeof tool.name !== "string" || tool.name.trim() === "") continue;
+    const key = tool.name.trim().toLowerCase();
+    const slugs = byName.get(key) ?? [];
+    slugs.push(tool.slug ?? "<missing slug>");
+    byName.set(key, slugs);
+  }
+  for (const [name, slugs] of byName) {
+    if (slugs.length > 1) {
+      errors.push(`duplicate tool name "${name}" used by: ${slugs.join(", ")}.`);
+    }
+  }
+}
+
+// Shared URLs usually mean the same project was entered twice (for example a
+// draft facet of an already reviewed tool). Merging is a curation decision,
+// so this warns instead of failing.
+function validateUniqueUrls(tools: Tool[], warnings: string[]): void {
+  for (const field of ["website_url", "repo_url"] as const) {
+    const byUrl = new Map<string, string[]>();
+    for (const tool of tools) {
+      const value = tool[field];
+      if (typeof value !== "string" || value.trim() === "") continue;
+      const key = value.trim().replace(/\/+$/, "").toLowerCase();
+      const slugs = byUrl.get(key) ?? [];
+      slugs.push(tool.slug ?? "<missing slug>");
+      byUrl.set(key, slugs);
+    }
+    for (const [url, slugs] of byUrl) {
+      if (slugs.length > 1) {
+        warnings.push(`tools ${slugs.join(", ")} share the same ${field} "${url}"; merge or differentiate the entries.`);
+      }
+    }
   }
 }
 
