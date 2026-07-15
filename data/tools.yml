@@ -1619,6 +1619,35 @@
     - https://browser-use.com
     - https://dzone.com/articles/build-ai-browser-agent-llms-playwright-browser-use
     - https://github.com/browser-use/browser-use
+- slug: browser-act
+  name: BrowserAct
+  description: Browser automation CLI for AI agents with local Chrome reuse, isolated sessions, optional managed browsers, and human handoff.
+  website_url: https://www.browseract.com
+  repo_url: https://github.com/browser-act/skills
+  docs_url: https://github.com/browser-act/skills/tree/main/docs
+  categories:
+    - browser-agents
+  tags:
+    - agent-skills
+    - automation
+    - browser-agents
+    - browser-automation
+    - cli
+    - open-source
+    - web-automation
+  interfaces:
+    - cli
+  deployment: hybrid
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  review_notes: "Draft: verify the current deployment model and product scope."
+  added: 2026-07-15
+  last_checked: 2026-07-15
+  sources:
+    - https://github.com/browser-act/skills
+    - https://github.com/browser-act/skills/tree/main/docs
+    - https://www.browseract.com
 - slug: browserbase
   name: Browserbase
   description: Cloud headless browser infrastructure built for AI agents and web automation, providing scalable browser sessions with anti-detection features.
