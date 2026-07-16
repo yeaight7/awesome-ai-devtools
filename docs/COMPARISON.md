@@ -2,12 +2,13 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 277 reviewed tools.
+This is the complete comparison matrix for all 278 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Agent Browser](https://github.com/vercel-labs/agent-browser) | Browser agents | Yes | No | No | Yes | No | No | [Repo](https://github.com/vercel-labs/agent-browser) |
 | [Agent Eval Framework](https://github.com/goker/agent-eval-framework) | Agent evals | Yes | No | No | No | No | No | [Repo](https://github.com/goker/agent-eval-framework) |
+| [Agent Island](https://agent-island.dev) | Agent observability | Yes | Yes | No | No | No | No | [Website](https://agent-island.dev) / [Repo](https://github.com/tristan666666/agent-island) |
 | [Agent Powerups](https://github.com/yeaight7/agent-powerups) | Agent skill packs | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/yeaight7/agent-powerups) |
 | [Agent Skills](https://github.com/datalayer/agent-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/datalayer/agent-skills) |
 | [Agent Skills Specification](https://github.com/agentskills/agentskills) | Agent skill packs | Yes | No | No | No | No | No | [Repo](https://github.com/agentskills/agentskills) |

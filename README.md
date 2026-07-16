@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>365 tools</code> <code>277 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>366 tools</code> <code>278 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (42) · [Agent evals](#agent-evals) (22)
+[Agent observability](#agent-observability) (43) · [Agent evals](#agent-evals) (22)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 277 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 278 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -361,6 +361,7 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
+| [Agent Island](https://agent-island.dev) | Open-source local desktop status companion for Claude Code and Codex that shows live session state and sends your-turn alerts. | Desktop · Local | [Website](https://agent-island.dev) / [Repo](https://github.com/tristan666666/agent-island) |
 | [agenttrace](https://luoyuctl.github.io/agenttrace/) | Local CLI/TUI that turns AI coding agent session logs into cost, token, latency, failure, and health reports. | CLI · Local | [Website](https://luoyuctl.github.io/agenttrace/) / [Docs](https://github.com/luoyuctl/agenttrace#readme) / [Repo](https://github.com/luoyuctl/agenttrace) |
 | [Amazon CloudWatch GenAI Observability](https://aws.amazon.com/cloudwatch/) | CloudWatch capabilities for monitoring and tracing generative AI agents, workloads, and quality metrics on AWS. | API · Web · Hosted | [Website](https://aws.amazon.com/cloudwatch/) / [Docs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GenAI-observability.html) / [Repo](https://github.com/aws-samples/sample-amazon-cloudwatch-generative-ai-observability) |
 | [Arize AX](https://arize.com/ai-agents/agent-observability/) | Commercial agent and LLM observability platform built on Phoenix for tracing, evaluation, and monitoring production AI systems. | API · Web · Hosted | [Website](https://arize.com/ai-agents/agent-observability/) / [Docs](https://arize.com/docs/ax/observe/quickstart-llm) |
@@ -620,6 +621,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-07-16: [Agent Island](https://agent-island.dev)
 - 2026-07-07: [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/)
 - 2026-06-20: [ax](https://github.com/Necmttn/ax)
 - 2026-06-11: [codex-profiles](https://ducksss.github.io/codex-profiles/)
@@ -627,7 +629,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-05-28: [Komos](https://www.komos.ai/browser-automation-tools)
 - 2026-05-18: [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor)
 - 2026-05-15: [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers)
-- 2026-05-15: [Guardrails AI](https://github.com/ShreyaR/guardrails)
 
 ## Needs review
 
