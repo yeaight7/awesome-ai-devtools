@@ -9519,6 +9519,35 @@
     - https://www.trulens.org
     - https://www.trulens.org/cookbook/frameworks/llamaindex/llama_index_evaluate_agent_workflow_multi/
     - https://www.trulens.org/docs
+- slug: uizze
+  name: UIZZE
+  description: UI reference platform and agent skill providing web and iOS screen patterns, design contracts, and finish-gate reviews for coding agents.
+  website_url: https://uizze.com
+  docs_url: https://uizze.com/docs
+  categories:
+    - agent-skill-packs
+    - mcp-servers
+  primary_category: agent-skill-packs
+  tags:
+    - agent-skills
+    - coding
+    - developer-experience
+    - mcp
+    - model-context-protocol
+    - prompts
+  interfaces:
+    - mcp
+    - skill-pack
+    - web
+  deployment: hosted
+  source_model: not specified
+  license: not specified
+  curation_status: reviewed
+  added: 2026-07-22
+  last_checked: 2026-07-22
+  sources:
+    - https://uizze.com
+    - https://uizze.com/docs
 - slug: unitxt
   name: Unitxt
   description: IBM-backed library and catalog for textual data preparation and evaluation of generative language models across many tasks.
