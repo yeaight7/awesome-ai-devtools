@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>366 tools</code> <code>278 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>367 tools</code> <code>279 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -74,7 +74,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (16) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (27)
+[MCP servers](#mcp-servers) (17) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (28)
 
 ### Operate agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 278 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 279 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -283,6 +283,7 @@ Model Context Protocol servers that expose tools, resources, or prompts.
 | [Playwright MCP Server](https://playwright.dev/docs/getting-started-mcp) | MCP server that uses Playwright to let AI agents interact with web pages through accessibility snapshots. | MCP · Local | [Docs](https://playwright.dev/docs/getting-started-mcp) / [Repo](https://github.com/microsoft/playwright-mcp) |
 | [ServiceGraph MCP](https://github.com/servicegraph/mcp-server) | MCP server for exposing observability data such as service metrics and logs to AI agents. | MCP · Hosted | [Repo](https://github.com/servicegraph/mcp-server) |
 | [Supabase MCP Server](https://github.com/supabase-community/supabase-mcp) | Official Supabase MCP server for connecting AI assistants to Supabase projects and database operations. | MCP · Hosted | [Repo](https://github.com/supabase-community/supabase-mcp) |
+| [UIZZE](https://uizze.com) | UI reference platform and agent skill providing web and iOS screen patterns, design contracts, and finish-gate reviews for coding agents. | MCP · Skill Pack · Web · Hosted | [Website](https://uizze.com) / [Docs](https://uizze.com/docs) |
 
 ### MCP clients
 
@@ -353,6 +354,7 @@ Reusable instruction, workflow, or capability packs for coding agents.
 | [Superpowers Lab](https://github.com/obra/superpowers-lab) | Experimental skills for Claude Code including semantic duplicate detection, tmux automation, and on-demand MCP server usage. | Skill Pack · Local | [Repo](https://github.com/obra/superpowers-lab) |
 | [Swarms](https://github.com/am-will/swarms) | Multi-agent orchestration skills for Claude Code and Codex with dependency-aware planning and wave-based parallel execution. | Framework · Skill Pack · Local | [Repo](https://github.com/am-will/swarms) |
 | [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/) | Local-first Rust CLI/TUI for agent memory lifecycle with SQLite/FTS recall, audit, forgetting, and source-linked evidence. | CLI · Skill Pack · Local | [Website](https://terminallylazy.github.io/Tree-Ring-Memory/) / [Docs](https://terminallylazy.github.io/Tree-Ring-Memory/press-kit.md) / [Repo](https://github.com/TerminallyLazy/Tree-Ring-Memory) |
+| [UIZZE](https://uizze.com) | UI reference platform and agent skill providing web and iOS screen patterns, design contracts, and finish-gate reviews for coding agents. | MCP · Skill Pack · Web · Hosted | [Website](https://uizze.com) / [Docs](https://uizze.com/docs) |
 | [wshobson/agents](https://github.com/wshobson/agents) | Unified repository with 185 specialized agents, 16 orchestrators, 153 skills, and 100 commands for Claude Code automation. | CLI · Local | [Repo](https://github.com/wshobson/agents) |
 
 ### Agent observability
@@ -621,6 +623,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-07-22: [UIZZE](https://uizze.com)
 - 2026-07-16: [Agent Island](https://agent-island.dev)
 - 2026-07-07: [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/)
 - 2026-06-20: [ax](https://github.com/Necmttn/ax)
@@ -628,7 +631,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-05-28: [Ivy Tendril](https://tendril.ivy.app)
 - 2026-05-28: [Komos](https://www.komos.ai/browser-automation-tools)
 - 2026-05-18: [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor)
-- 2026-05-15: [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers)
 
 ## Needs review
 

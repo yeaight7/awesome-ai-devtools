@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 278 reviewed tools.
+This is the complete comparison matrix for all 279 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -268,6 +268,7 @@ This is the complete comparison matrix for all 278 reviewed tools.
 | [Traceloop OpenLLMetry](https://traceloop.com) | Agent observability | Yes | Yes | Yes | No | No | No | [Website](https://traceloop.com) / [Docs](https://docs.traceloop.com) / [Repo](https://github.com/traceloop/openllmetry) |
 | [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/) | Terminal agents | Yes | Yes | No | Yes | No | No | [Website](https://terminallylazy.github.io/Tree-Ring-Memory/) / [Docs](https://terminallylazy.github.io/Tree-Ring-Memory/press-kit.md) / [Repo](https://github.com/TerminallyLazy/Tree-Ring-Memory) |
 | [TruLens](https://www.trulens.org) | Agent observability | Yes | Yes | No | No | No | No | [Website](https://www.trulens.org) / [Docs](https://www.trulens.org/docs) / [Repo](https://github.com/truera/trulens) |
+| [UIZZE](https://uizze.com) | Agent skill packs | No | No | No | No | No | Yes | [Website](https://uizze.com) / [Docs](https://uizze.com/docs) |
 | [Unitxt](https://www.unitxt.ai) | Agent evals | Yes | No | No | Yes | No | No | [Website](https://www.unitxt.ai) / [Docs](https://www.unitxt.ai/en/main/docs/introduction.html) / [Repo](https://github.com/ibm/unitxt) |
 | [UpdateBot](https://github.com/jenkins-x/updatebot) | Repo automation tools | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/jenkins-x/updatebot) |
 | [Vectara Open Evaluation UI](https://www.vectara.com/blog/open-evaluation) | Agent evals | No | No | No | No | No | No | [Website](https://www.vectara.com/blog/open-evaluation) / [Docs](https://docs.vectara.com/docs/hallucination-and-evaluation/open-eval-framework) |
