@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 280 reviewed tools.
+This is the complete comparison matrix for all 278 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -44,7 +44,6 @@ This is the complete comparison matrix for all 280 reviewed tools.
 | [Awesome Cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | Registries and curated lists | Yes | Yes | No | No | No | No | [Repo](https://github.com/PatrickJS/awesome-cursorrules) |
 | [Awesome GitHub Copilot](https://github.com/github/awesome-copilot) | Registries and curated lists | Yes | No | No | No | No | No | [Repo](https://github.com/github/awesome-copilot) |
 | [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers) | Registries and curated lists | Yes | No | No | No | No | Yes | [Repo](https://github.com/appcypher/awesome-mcp-servers) |
-| [Awesome Rules](https://github.com/continuedev/awesome-rules) | Registries and curated lists | Yes | Yes | No | No | No | No | [Repo](https://github.com/continuedev/awesome-rules) |
 | [AWS Agent Evaluation](https://awslabs.github.io/agent-evaluation/) | Agent evals | Yes | No | No | Yes | No | No | [Docs](https://awslabs.github.io/agent-evaluation/) / [Repo](https://github.com/awslabs/agent-evaluation) |
 | [AWS Documentation MCP Server](https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server) | Documentation agents | Yes | No | No | No | No | Yes | [Docs](https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server) / [Repo](https://github.com/awslabs/mcp) |
 | [ax](https://github.com/Necmttn/ax) | Agent observability | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/Necmttn/ax) |
@@ -176,7 +175,7 @@ This is the complete comparison matrix for all 280 reviewed tools.
 | [Microsoft Skills](https://github.com/microsoft/skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/microsoft/skills) |
 | [Mintlify](https://www.mintlify.com) | Documentation agents | No | No | No | No | No | No | [Website](https://www.mintlify.com) / [Docs](https://www.mintlify.com/docs) |
 | [Mistral Inference](https://github.com/mistralai/mistral-inference#readme) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Docs](https://github.com/mistralai/mistral-inference#readme) / [Repo](https://github.com/mistralai/mistral-inference) |
-| [mistral.rs](https://github.com/EricLBuehler/mistral.rs/blob/master/docs/README.md) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Docs](https://github.com/EricLBuehler/mistral.rs/blob/master/docs/README.md) / [Repo](https://github.com/EricLBuehler/mistral.rs) |
+| [mistral.rs](https://ericlbuehler.github.io/mistral.rs/) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Docs](https://ericlbuehler.github.io/mistral.rs/) / [Repo](https://github.com/EricLBuehler/mistral.rs) |
 | [MLC LLM](https://mlc.ai) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Website](https://mlc.ai) / [Docs](https://llmc-en.readthedocs.io/en/stable/backend/mlcllm.html) / [Repo](https://github.com/mlc-ai/mlc-llm) |
 | [MLflow AI Observability](https://mlflow.org) | Agent observability | Yes | No | No | Yes | No | No | [Website](https://mlflow.org) / [Docs](https://mlflow.org/docs/latest/llm/index.html) / [Repo](https://github.com/mlflow/mlflow) |
 | [MLX Engine for LM Studio](https://github.com/lmstudio-ai/mlx-engine#readme) | Local LLM developer tools | Yes | Yes | No | No | No | No | [Docs](https://github.com/lmstudio-ai/mlx-engine#readme) / [Repo](https://github.com/lmstudio-ai/mlx-engine) |
@@ -237,7 +236,6 @@ This is the complete comparison matrix for all 280 reviewed tools.
 | [Roo Code](https://roocode.com/) | Coding agents | Yes | No | No | Yes | Yes | Yes | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
 | [roomode](https://github.com/upamune/roomode) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/upamune/roomode) |
 | [Ruflo](https://github.com/ruvnet/ruflo) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Docs](https://github.com/ruvnet/ruflo#readme) / [Repo](https://github.com/ruvnet/ruflo) |
-| [rules](https://github.com/continuedev/rules) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/continuedev/rules) |
 | [Scalable Agentic RAG Platform (FareedKhan-dev)](https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme) | Self-hosted AI dev stacks | Yes | No | Yes | Yes | No | No | [Docs](https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme) / [Repo](https://github.com/FareedKhan-dev/scalable-rag-pipeline) |
 | [Self-hosted AI Package](https://sourceforge.net/projects/self-hosted-ai-package.mirror/) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | No | [Website](https://sourceforge.net/projects/self-hosted-ai-package.mirror/) / [Repo](https://github.com/coleam00/ai-agents-masterclass) |
 | [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
