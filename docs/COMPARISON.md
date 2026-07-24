@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 279 reviewed tools.
+This is the complete comparison matrix for all 280 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -278,6 +278,7 @@ This is the complete comparison matrix for all 279 reviewed tools.
 | [WebMCP JavaScript Library](https://webmcp.dev) | MCP tooling | Yes | Yes | No | No | No | Yes | [Website](https://webmcp.dev) / [Docs](https://docs.mcp-b.ai/explanation/webmcp-vs-mcp) / [Repo](https://github.com/webmachinelearning/webmcp) |
 | [WebVoyager](https://github.com/MinorJerry/WebVoyager) | Browser agents | Yes | No | No | No | No | No | [Repo](https://github.com/MinorJerry/WebVoyager) |
 | [Weights & Biases Weave](https://wandb.ai) | Agent observability | Yes | No | No | No | No | No | [Website](https://wandb.ai) / [Docs](https://docs.wandb.ai/guides/weave) / [Repo](https://github.com/wandb/weave) |
+| [whatbroke](https://github.com/arthi-arumugam-git/whatbroke) | Agent evals | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/arthi-arumugam-git/whatbroke) |
 | [WhyLabs OpenLLMTelemetry](https://whylabs.ai) | Agent observability | Yes | Yes | No | No | No | No | [Website](https://whylabs.ai) / [Docs](https://docs.whylabs.ai/docs/openllmtelemetry) / [Repo](https://github.com/whylabs/openllmtelemetry) |
 | [Windsurf Editor](https://windsurf.com/) | IDE assistants | No | No | No | No | Yes | No | [Website](https://windsurf.com/) / [Docs](https://docs.windsurf.com/) |
 | [Winy RAG Sample Stack](https://github.com/mfranzon/winy) | Self-hosted AI dev stacks | Yes | No | Yes | No | No | No | [Docs](https://github.com/mfranzon/winy#readme) / [Repo](https://github.com/mfranzon/winy) |
