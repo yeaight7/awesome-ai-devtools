@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>367 tools</code> <code>279 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>368 tools</code> <code>280 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (43) · [Agent evals](#agent-evals) (22)
+[Agent observability](#agent-observability) (43) · [Agent evals](#agent-evals) (23)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 279 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 280 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -435,6 +435,7 @@ Evaluation frameworks and systems for agents, LLM apps, and developer workflows.
 | [Rhesis AI](https://www.rhesis.ai) | Open-source collaborative testing platform for LLM and agentic applications with UI, SDK, and CI integration. | API · CLI · Framework · Web | [Website](https://www.rhesis.ai) / [Docs](https://docs.rhesis.ai) / [Repo](https://github.com/rhesis-ai/rhesis) |
 | [Unitxt](https://www.unitxt.ai) | IBM-backed library and catalog for textual data preparation and evaluation of generative language models across many tasks. | CLI · Framework · Library | [Website](https://www.unitxt.ai) / [Docs](https://www.unitxt.ai/en/main/docs/introduction.html) / [Repo](https://github.com/ibm/unitxt) |
 | [Vectara Open Evaluation UI](https://www.vectara.com/blog/open-evaluation) | Web UI for loading reports from Open RAG Eval and comparing RAG configurations across queries and metrics. | Framework · Web | [Website](https://www.vectara.com/blog/open-evaluation) / [Docs](https://docs.vectara.com/docs/hallucination-and-evaluation/open-eval-framework) |
+| [whatbroke](https://github.com/arthi-arumugam-git/whatbroke) | CLI that diffs an AI agent's behavior between two runs, comparing tool calls, args, cost, latency, and outcome flips. | CLI · Local | [Repo](https://github.com/arthi-arumugam-git/whatbroke) |
 
 ### Self-hosted AI dev stacks
 
@@ -623,6 +624,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-07-24: [whatbroke](https://github.com/arthi-arumugam-git/whatbroke)
 - 2026-07-22: [UIZZE](https://uizze.com)
 - 2026-07-16: [Agent Island](https://agent-island.dev)
 - 2026-07-07: [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/)
@@ -630,7 +632,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-06-11: [codex-profiles](https://ducksss.github.io/codex-profiles/)
 - 2026-05-28: [Ivy Tendril](https://tendril.ivy.app)
 - 2026-05-28: [Komos](https://www.komos.ai/browser-automation-tools)
-- 2026-05-18: [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor)
 
 ## Needs review
 

@@ -10002,6 +10002,32 @@
     - https://venturebeat.com/ai/weights-biases-new-llmops-capabilities-ai-development-model-monitoring
     - https://wandb.ai
     - https://wandb.ai/onlineinference/genai-research/reports/A-guide-to-LLM-debugging-tracing-and-monitoring--VmlldzoxMzk1MjAyOQ
+- slug: whatbroke
+  name: whatbroke
+  description: CLI that diffs an AI agent's behavior between two runs, comparing tool calls, args, cost, latency, and outcome flips.
+  website_url: https://github.com/arthi-arumugam-git/whatbroke
+  repo_url: https://github.com/arthi-arumugam-git/whatbroke
+  categories:
+    - agent-evals
+  tags:
+    - agent-evals
+    - cli
+    - debugging
+    - evals
+    - open-source
+    - regression-testing
+    - testing
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-07-24
+  last_checked: 2026-07-24
+  sources:
+    - https://github.com/arthi-arumugam-git/whatbroke
+    - https://www.npmjs.com/package/whatbroke-cli
 - slug: whylabs-openllmtelemetry
   name: WhyLabs OpenLLMTelemetry
   description: Python library that instruments LLM calls and sends OpenTelemetry traces and safeguards data to WhyLabs.
