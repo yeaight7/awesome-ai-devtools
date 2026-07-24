@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>365 tools</code> <code>278 reviewed</code> <code>87 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>362 tools</code> <code>278 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,11 +78,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (43) · [Agent evals](#agent-evals) (23)
+[Agent observability](#agent-observability) (44) · [Agent evals](#agent-evals) (23)
 
 ### Run locally/self-host
 
-[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (25) · [Local LLM developer tools](#local-llm-developer-tools) (31)
+[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (25) · [Local LLM developer tools](#local-llm-developer-tools) (30)
 
 ### Automate repo work
 
@@ -385,6 +385,7 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 | [LangSmith](https://www.langchain.com/langsmith-platform) | Hosted observability and evaluation platform for tracing, debugging, and monitoring LangChain and other LLM or agent applications. | API · Web · Hosted | [Website](https://www.langchain.com/langsmith-platform) / [Docs](https://www.langchain.com/langsmith/observability) |
 | [Langtrace](https://langtrace.ai) | Open-source OpenTelemetry-based observability tool and dashboard for tracing, evaluating, and debugging LLM applications. | API · Web · Self-hosted | [Website](https://langtrace.ai) / [Docs](https://docs.langtrace.ai) / [Repo](https://github.com/Scale3-Labs/langtrace) |
 | [LangWatch](https://langwatch.ai) | LLM observability and evaluation platform focused on tracing, debugging, and optimizing AI agents and applications. | API · Web · Hybrid | [Website](https://langwatch.ai) / [Docs](https://docs.langwatch.ai) / [Repo](https://github.com/langwatch/langwatch) |
+| [LiteLLM](https://github.com/BerriAI/litellm/) | LiteLLM OpenTelemetry/Gateway exporter for tracing LLM and agent calls across providers with standardized spans. | API · CLI · Library · Self-hosted | [Docs](https://github.com/BerriAI/litellm/README.md) / [Repo](https://github.com/BerriAI/litellm/) |
 | [Lunary](https://lunary.ai) | Open-source observability and prompt platform for LLM chatbots with analytics, logs, traces, and evaluations. | API · Library · Web · Hybrid | [Website](https://lunary.ai) / [Docs](https://docs.lunary.ai) / [Repo](https://github.com/lunary-ai/lunary) |
 | [Mastra Observability](https://mastra.ai) | Observability module in Mastra for tracing, monitoring, and evaluating LLM agents and workflows via OpenTelemetry. | API · Web · Hybrid | [Website](https://mastra.ai) / [Docs](https://mastra.ai/docs/observability) / [Repo](https://github.com/mastra-ai/mastra) |
 | [Maxim AI](https://getmaxim.ai) | End-to-end AI evaluation and observability platform for testing and monitoring agents and LLM applications. | API · Web · Hosted | [Website](https://getmaxim.ai) / [Docs](https://docs.getbifrost.ai/features/observability/maxim) / [Repo](https://github.com/maximhq) |
@@ -396,11 +397,11 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 | [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) | Real-time monitoring dashboard for OpenClaw agents — track task execution, token usage, and agent activity with an intuitive UI. | Web · Self-hosted | [Repo](https://github.com/flik2002/openclaw-monitor) |
 | [OpenInference](https://arize-ai.github.io/openinference/) | Open-source OpenTelemetry-based specification and instrumentations for tracing AI and LLM applications. | Library · Local | [Docs](https://arize-ai.github.io/openinference/) / [Repo](https://github.com/Arize-ai/openinference) |
 | [OpenLIT](https://openlit.io) | Open-source OpenTelemetry-native observability and evaluations platform for GenAI and LLM applications. | API · CLI · Web · Self-hosted | [Website](https://openlit.io) / [Docs](https://docs.openlit.io) / [Repo](https://github.com/openlit/openlit) |
+| [openllmetry](https://traceloop.com) | Open-source observability stack for LLM apps and agents built on OpenTelemetry, with collectors and dashboards for traces and metrics. | API · Web · Local | [Website](https://traceloop.com) / [Docs](https://docs.traceloop.com) / [Repo](https://github.com/traceloop/openllmetry) |
 | [OpenObserve LLM Observability](https://openobserve.ai) | Open-source observability platform that unifies infrastructure and LLM observability with logs, metrics, and traces. | API · Web · Hybrid | [Website](https://openobserve.ai) / [Docs](https://openobserve.ai/docs) / [Repo](https://github.com/openobserve/openobserve) |
 | [OpenSearch GenAI Observability SDK](https://opensearch.org) | OpenTelemetry-native Python SDK for one-line LLM observability using OpenSearch and Data Prepper as backend. | Library · Local | [Website](https://opensearch.org) / [Docs](https://github.com/opensearch-project/genai-observability-sdk-py#readme) / [Repo](https://github.com/opensearch-project/genai-observability-sdk-py) |
 | [PostHog LLM Analytics](https://posthog.com) | LLM observability product in PostHog that captures traces, spans, and sessions for AI-powered applications. | API · Web · Hosted | [Website](https://posthog.com) / [Docs](https://posthog.com/docs/ai-engineering/llm-analytics) / [Repo](https://github.com/PostHog/posthog) |
 | [Respan](https://respan.ai) | LLM engineering platform that unifies observability, evals, prompt optimization, and gateway for AI applications. | API · Web · Hosted | [Website](https://respan.ai) |
-| [Traceloop OpenLLMetry](https://traceloop.com) | Open-source OpenTelemetry extensions and SDKs for providing LLM and RAG observability across backends. | API · Local | [Website](https://traceloop.com) / [Docs](https://docs.traceloop.com) / [Repo](https://github.com/traceloop/openllmetry) |
 | [TruLens](https://www.trulens.org) | Open-source library for tracing and evaluating AI agents, RAG systems, and LLM applications with feedback functions. | Web · Local | [Website](https://www.trulens.org) / [Docs](https://www.trulens.org/docs) / [Repo](https://github.com/truera/trulens) |
 | [Weights & Biases Weave](https://wandb.ai) | Framework and UI for debugging, tracing, and monitoring LLM applications with W&B observability. | API · Web · Hybrid | [Website](https://wandb.ai) / [Docs](https://docs.wandb.ai/guides/weave) / [Repo](https://github.com/wandb/weave) |
 | [WhyLabs OpenLLMTelemetry](https://whylabs.ai) | Python library that instruments LLM calls and sends OpenTelemetry traces and safeguards data to WhyLabs. | API · Local | [Website](https://whylabs.ai) / [Docs](https://docs.whylabs.ai/docs/openllmtelemetry) / [Repo](https://github.com/whylabs/openllmtelemetry) |
@@ -482,7 +483,6 @@ Tools that help developers run or integrate local models in coding workflows.
 | [Haystack](https://github.com/deepset-ai/haystack) | Open-source framework for building RAG pipelines, agents, and semantic search over private data. | API · Framework · Local | [Docs](https://docs.haystack.deepset.ai) / [Repo](https://github.com/deepset-ai/haystack) |
 | [Intel Neural Compressor](https://github.com/intel/neural-compressor) | Open-source compression toolkit supporting quantization and pruning for deep learning and LLM workloads. | Library · Local | [Docs](https://intel.github.io/neural-compressor) / [Repo](https://github.com/intel/neural-compressor) |
 | [KoboldCpp](https://koboldcpp.com) | Single-file local LLM server and web UI for GGUF models with Kobold-style API and OpenAI-like integrations. | API · CLI · Web · Local | [Website](https://koboldcpp.com) / [Docs](https://github.com/LostRuins/koboldcpp/wiki) / [Repo](https://github.com/LostRuins/koboldcpp) |
-| [LiteLLM Gateway](https://github.com/BerriAI/litellm) | Drop-in proxy that unifies many LLM providers behind an OpenAI-compatible API, with logging and rate limiting. | API · CLI · Self-hosted | [Docs](https://docs.litellm.ai) / [Repo](https://github.com/BerriAI/litellm) |
 | [llama-cpp-python](https://llama-cpp-python.readthedocs.io) | Python bindings and OpenAI-compatible web server for llama.cpp, exposing local models via HTTP and Python APIs. | API · CLI · Library · Self-hosted | [Docs](https://llama-cpp-python.readthedocs.io) / [Repo](https://github.com/abetlen/llama-cpp-python) |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/examples) | C/C++ LLM inference library and tools for running quantized models on CPUs and GPUs with optional HTTP and OpenAI-style servers. | API · CLI · Library · Self-hosted | [Docs](https://github.com/ggml-org/llama.cpp/tree/master/examples) / [Repo](https://github.com/ggml-org/llama.cpp) |
 | [Llamafile](https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md) | Single-file local LLM runtime bundling llama.cpp and web UI, with an OpenAI-compatible /v1 chat completions endpoint. | API · CLI · Web · Local | [Docs](https://github.com/Mozilla-Ocho/llamafile/blob/main/README.md) / [Repo](https://github.com/Mozilla-Ocho/llamafile) |
@@ -658,7 +658,7 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | [Cline Prompts](https://github.com/cline/prompts) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/cline/prompts) |
 | [Code Summarizer Action](https://github.com/marketplace/actions/code-summarizer) | Repo automation tools | Draft: verify current marketplace listing and name. | [Website](https://github.com/marketplace/actions/code-summarizer) / [Docs](https://github.com/kubescape/code-summarizer#readme) / [Repo](https://github.com/kubescape/code-summarizer) |
 
-_Showing 20 of 87 draft entries. Full queue in `data/tools.yml`._
+_Showing 20 of 84 draft entries. Full queue in `data/tools.yml`._
 
 ## Submit a tool
 
@@ -674,7 +674,7 @@ Use official sources, keep descriptions factual, and leave uncertain metadata as
 
 ## Roadmap
 
-- Review and promote 87 queued draft entries, prioritising thin shelves.
+- Review and promote 84 queued draft entries, prioritising thin shelves.
 - Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed), MCP clients (6 reviewed).
 - Populate empty shelves when quality entries are found: Prompt and workflow libraries, AI devtools security, DevOps and SRE agents.
 - Act on the weekly maintenance reports: fix confirmed-broken links and re-verify stale entries.
