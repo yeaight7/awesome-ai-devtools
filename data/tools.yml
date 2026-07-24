@@ -1394,31 +1394,6 @@
   last_checked: 2026-05-15
   sources:
     - https://github.com/appcypher/awesome-mcp-servers
-- slug: awesome-rules
-  name: Awesome Rules
-  description: Collection of useful markdown rules with YAML frontmatter for coding assistants including testing, DevOps, and documentation categories.
-  website_url: https://github.com/continuedev/awesome-rules
-  repo_url: https://github.com/continuedev/awesome-rules
-  categories:
-    - registries
-  tags:
-    - agent-skills
-    - coding
-    - devops
-    - documentation
-    - open-source
-    - testing
-  interfaces:
-    - skill-pack
-    - template
-  deployment: local
-  source_model: open-source
-  license: CC0-1.0
-  curation_status: reviewed
-  added: 2026-05-07
-  last_checked: 2026-05-07
-  sources:
-    - https://github.com/continuedev/awesome-rules
 - slug: aws-agent-evaluation
   name: AWS Agent Evaluation
   description: Generative AI-powered framework from AWS Labs to test virtual agents via multi-turn conversations and CI-friendly workflows.
@@ -2251,30 +2226,6 @@
     - https://coderabbit.ai/
     - https://coderabbit.ai/cli
     - https://docs.coderabbit.ai/
-- slug: codex-docs
-  name: Codex Docs
-  description: Next.js-based app that reads a Git repo and generates interactive API documentation with AI assistance.
-  website_url: https://github.com/codex-src/codex-docs
-  repo_url: https://github.com/codex-src/codex-docs
-  docs_url: https://github.com/codex-src/codex-docs#readme
-  categories:
-    - documentation-agents
-  tags:
-    - api-docs
-    - documentation
-    - open-source
-    - repo-analysis
-  interfaces:
-    - web
-  deployment: self-hosted
-  source_model: open-source
-  license: MIT
-  curation_status: draft
-  review_notes: "Draft: self-hosted docs portal with AI features."
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/codex-src/codex-docs
 - slug: codex-profile
   name: codex-profiles
   description: Bash CLI that launches Codex CLI or Desktop with isolated CODEX_HOME profiles for account and context switching.
@@ -4313,9 +4264,9 @@
 - slug: honeycomb-ai-observability
   name: Honeycomb AI Observability
   description: Honeycomb configuration and sample code for tracing LLM and agent workloads via OpenTelemetry into Honeycomb.
-  website_url: https://github.com/honeycombio/examples/tree/main/ai-observability
+  website_url: https://www.honeycomb.io/
   repo_url: https://github.com/honeycombio/examples
-  docs_url: https://github.com/honeycombio/examples/tree/main/ai-observability
+  docs_url: https://github.com/honeycombio/examples
   categories:
     - agent-observability
   tags:
@@ -5038,7 +4989,7 @@
   description: LiteLLM OpenTelemetry exporter for tracing LLM and agent calls across providers with standardized spans.
   website_url: https://github.com/BerriAI/litellm
   repo_url: https://github.com/BerriAI/litellm
-  docs_url: https://github.com/BerriAI/litellm/tree/main/docs/my-website/docs/observability
+  docs_url: https://github.com/BerriAI/litellm/blob/litellm_internal_staging/README.md
   categories:
     - agent-observability
   tags:
@@ -5616,7 +5567,6 @@
   last_checked: 2026-05-08
   sources:
     - https://docs.lunary.ai
-    - https://github.com/BerriAI/litellm/blob/main/docs/my-website/docs/observability/lunary_integration.md
     - https://github.com/lunary-ai/lunary
     - https://lunary.ai
 - slug: magnolia-mcp-framework
@@ -6343,9 +6293,9 @@
 - slug: mistral-rs
   name: mistral.rs
   description: Rust-based engine for fast, flexible LLM inference with OpenAI-compatible APIs, web UI, and extensive quantization options.
-  website_url: https://github.com/EricLBuehler/mistral.rs/blob/master/docs/README.md
+  website_url: https://ericlbuehler.github.io/mistral.rs/
   repo_url: https://github.com/EricLBuehler/mistral.rs
-  docs_url: https://github.com/EricLBuehler/mistral.rs/blob/master/docs/README.md
+  docs_url: https://ericlbuehler.github.io/mistral.rs/
   categories:
     - local-llm-developer-tools
   tags:
@@ -6374,7 +6324,6 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/EricLBuehler/mistral.rs
-    - https://github.com/EricLBuehler/mistral.rs/blob/master/docs/README.md
     - https://github.com/EricLBuehler/mistral.rs/blob/master/README.md
 - slug: mlc-llm
   name: MLC LLM
@@ -8558,29 +8507,6 @@
     - https://github.com/ruvnet/ruflo
     - https://myaiguide.co/repos/ruflo
     - https://www.agentupdate.ai/product/ruflo/
-- slug: rules
-  name: rules
-  description: CLI tool to create, manage, and convert rule sets for code guidance across Cursor, Continue.dev, Claude, Copilot, and Codex.
-  website_url: https://github.com/continuedev/rules
-  repo_url: https://github.com/continuedev/rules
-  categories:
-    - agent-skill-packs
-  tags:
-    - agent-skills
-    - automation
-    - cli
-    - coding
-    - open-source
-  interfaces:
-    - cli
-  deployment: local
-  source_model: open-source
-  license: Apache-2.0
-  curation_status: reviewed
-  added: 2026-05-07
-  last_checked: 2026-05-07
-  sources:
-    - https://github.com/continuedev/rules
 - slug: sanctum
   name: Sanctum
   description: Self-hosted AI coding agent that runs inside your infra with filesystem, git, and shell access to implement changes securely.
