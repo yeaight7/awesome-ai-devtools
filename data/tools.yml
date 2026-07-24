@@ -4960,54 +4960,33 @@
     - https://github.com/lavague-ai
     - https://github.com/lavague-ai/LaVague
     - https://sumbits.ai/links/176
-- slug: litellm-gateway
-  name: LiteLLM Gateway
-  description: Drop-in proxy that unifies many LLM providers behind an OpenAI-compatible API, with logging and rate limiting.
-  website_url: https://github.com/BerriAI/litellm
-  repo_url: https://github.com/BerriAI/litellm
-  docs_url: https://docs.litellm.ai
-  categories:
-    - local-llm-developer-tools
-  tags:
-    - gateway
-    - open-source
-    - openai-compatible
-    - proxy
-  interfaces:
-    - api
-    - cli
-  deployment: self-hosted
-  source_model: open-source
-  license: MIT
-  curation_status: reviewed
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/BerriAI/litellm
-- slug: litellm-otel
-  name: LiteLLM OTEL Observability
-  description: LiteLLM OpenTelemetry exporter for tracing LLM and agent calls across providers with standardized spans.
-  website_url: https://github.com/BerriAI/litellm
-  repo_url: https://github.com/BerriAI/litellm
-  docs_url: https://github.com/BerriAI/litellm/blob/litellm_internal_staging/README.md
+- slug: litellm
+  name: LiteLLM
+  description: LiteLLM OpenTelemetry/Gateway exporter for tracing LLM and agent calls across providers with standardized spans.
+  website_url: https://github.com/BerriAI/litellm/
+  repo_url: https://github.com/BerriAI/litellm/
+  docs_url: https://github.com/BerriAI/litellm/README.md
   categories:
     - agent-observability
   tags:
     - gateway
     - llmops
+    - local-llm
     - open-source
+    - openai-compatible
     - opentelemetry
+    - proxy
     - tracing
   interfaces:
     - api
+    - cli
     - library
   deployment: self-hosted
   source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Draft: categorize only the observability component of LiteLLM."
+  curation_status: reviewed
   added: 2026-05-15
-  last_checked: 2026-05-15
+  last_checked: 2026-07-24
   sources:
     - https://github.com/BerriAI/litellm
 - slug: llama-cpp-python
@@ -5083,30 +5062,6 @@
     - https://github.com/ggml-org/llama.cpp
     - https://github.com/ggml-org/llama.cpp/discussions/7712
     - https://github.com/ggml-org/llama.cpp/tree/master/examples
-- slug: llamacpp-dockers
-  name: llama.cpp Dockers
-  description: Docker images and compose files around llama.cpp for quickly spinning up local LLM HTTP servers.
-  website_url: https://github.com/abetlen/llama-cpp-python/tree/main/docker
-  repo_url: https://github.com/abetlen/llama-cpp-python
-  docs_url: https://github.com/abetlen/llama-cpp-python/tree/main/docker
-  categories:
-    - self-hosted-ai-dev-stacks
-  tags:
-    - docker
-    - local-llm
-    - model-serving
-    - open-source
-  interfaces:
-    - template
-  deployment: self-hosted
-  source_model: open-source
-  license: MIT
-  curation_status: draft
-  review_notes: "Draft: thin wrapper around llama-cpp-python but useful for stack recipes."
-  added: 2026-05-15
-  last_checked: 2026-05-15
-  sources:
-    - https://github.com/abetlen/llama-cpp-python
 - slug: llamafile
   name: Llamafile
   description: Single-file local LLM runtime bundling llama.cpp and web UI, with an OpenAI-compatible /v1 chat completions endpoint.
@@ -7256,9 +7211,9 @@
 - slug: openllmetry
   name: openllmetry
   description: Open-source observability stack for LLM apps and agents built on OpenTelemetry, with collectors and dashboards for traces and metrics.
-  website_url: https://github.com/traceloop/openllmetry
+  website_url: https://traceloop.com
   repo_url: https://github.com/traceloop/openllmetry
-  docs_url: https://github.com/traceloop/openllmetry#readme
+  docs_url: https://docs.traceloop.com
   categories:
     - agent-observability
   tags:
@@ -7270,15 +7225,18 @@
   interfaces:
     - api
     - web
-  deployment: self-hosted
+  deployment: local
   source_model: open-source
-  license: MIT
-  curation_status: draft
-  review_notes: "Draft: position as competitor/alternative to Langfuse/Langtrace."
+  license: Apache-2.0
+  curation_status: reviewed
   added: 2026-05-15
-  last_checked: 2026-05-15
+  last_checked: 2026-07-24
   sources:
+    - https://docs.traceloop.com
     - https://github.com/traceloop/openllmetry
+    - https://github.com/traceloop/openllmetry-js
+    - https://github.com/traceloop/openllmetry-ruby
+    - https://traceloop.com
 - slug: openobserve-llm-observability
   name: OpenObserve LLM Observability
   description: Open-source observability platform that unifies infrastructure and LLM observability with logs, metrics, and traces.
@@ -9343,41 +9301,6 @@
     - https://github.com/oobabooga/text-generation-webui
     - https://github.com/oobabooga/text-generation-webui#readme
     - https://github.com/ymcui/Chinese-LLaMA-Alpaca-3/wiki/text-generation-webui_en
-- slug: traceloop-openllmetry
-  name: Traceloop OpenLLMetry
-  description: Open-source OpenTelemetry extensions and SDKs for providing LLM and RAG observability across backends.
-  website_url: https://traceloop.com
-  repo_url: https://github.com/traceloop/openllmetry
-  docs_url: https://docs.traceloop.com
-  categories:
-    - agent-observability
-  tags:
-    - agents
-    - api
-    - library
-    - llmops
-    - monitoring
-    - observability
-    - open-source
-    - opentelemetry
-    - rag
-    - self-hosted
-    - tool-calling
-    - tracing
-  interfaces:
-    - api
-  deployment: local
-  source_model: open-source
-  license: Apache-2.0
-  curation_status: reviewed
-  added: 2026-05-08
-  last_checked: 2026-05-08
-  sources:
-    - https://docs.traceloop.com
-    - https://github.com/traceloop/openllmetry
-    - https://github.com/traceloop/openllmetry-js
-    - https://github.com/traceloop/openllmetry-ruby
-    - https://traceloop.com
 - slug: tree-ring-memory
   name: Tree Ring Memory
   description: Local-first Rust CLI/TUI for agent memory lifecycle with SQLite/FTS recall, audit, forgetting, and source-linked evidence.
