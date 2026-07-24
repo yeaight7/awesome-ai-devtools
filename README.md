@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>368 tools</code> <code>280 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>365 tools</code> <code>278 reviewed</code> <code>87 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -74,7 +74,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (17) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (28)
+[MCP servers](#mcp-servers) (17) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (27)
 
 ### Operate agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 280 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 278 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -349,7 +349,6 @@ Reusable instruction, workflow, or capability packs for coding agents.
 | [Microsoft Skills](https://github.com/microsoft/skills) | Skills, custom agents, AGENTS.md templates, and MCP configurations for AI coding agents working with Azure SDKs and Microsoft AI Foundry. | MCP · Local | [Repo](https://github.com/microsoft/skills) |
 | [Pulumi Agent Skills](https://github.com/pulumi/agent-skills) | Agent Skills for infrastructure-as-code workflows teaching AI assistants Pulumi migrations, components, and secrets management. | Skill Pack · Template · Local | [Repo](https://github.com/pulumi/agent-skills) |
 | [roomode](https://github.com/upamune/roomode) | CLI tool to create, list, export, and import custom modes for RooCode defined in markdown files. | CLI · Local | [Repo](https://github.com/upamune/roomode) |
-| [rules](https://github.com/continuedev/rules) | CLI tool to create, manage, and convert rule sets for code guidance across Cursor, Continue.dev, Claude, Copilot, and Codex. | CLI · Local | [Repo](https://github.com/continuedev/rules) |
 | [Superpowers](https://github.com/obra/superpowers) | Core skills library for Claude Code with TDD, debugging, collaboration patterns, and systematic problem-solving techniques. | Skill Pack · Local | [Repo](https://github.com/obra/superpowers) |
 | [Superpowers Lab](https://github.com/obra/superpowers-lab) | Experimental skills for Claude Code including semantic duplicate detection, tmux automation, and on-demand MCP server usage. | Skill Pack · Local | [Repo](https://github.com/obra/superpowers-lab) |
 | [Swarms](https://github.com/am-will/swarms) | Multi-agent orchestration skills for Claude Code and Codex with dependency-aware planning and wave-based parallel execution. | Framework · Skill Pack · Local | [Repo](https://github.com/am-will/swarms) |
@@ -494,7 +493,7 @@ Tools that help developers run or integrate local models in coding workflows.
 | [LMDeploy](https://lmdeploy.readthedocs.io) | OpenAI-compatible API server for deploying multimodal models with LMDeploy on GPUs, locally or via Docker. | API · CLI · Self-hosted | [Website](https://lmdeploy.readthedocs.io) / [Docs](https://lmdeploy.readthedocs.io/en/latest/multi_modal/api_server_vl.html) / [Repo](https://github.com/InternLM/lmdeploy) |
 | [LocalAI](https://localai.io) | Self-hosted REST server that emulates the OpenAI API to run local ggml/llama.cpp and related models on your own hardware. | API · CLI · Self-hosted | [Website](https://localai.io) / [Docs](https://localai.io/docs) / [Repo](https://github.com/go-skynet/LocalAI) |
 | [Mistral Inference](https://github.com/mistralai/mistral-inference#readme) | Official inference library for running Mistral models via CLI and Python on local or server hardware. | CLI · Library · Self-hosted | [Docs](https://github.com/mistralai/mistral-inference#readme) / [Repo](https://github.com/mistralai/mistral-inference) |
-| [mistral.rs](https://github.com/EricLBuehler/mistral.rs/blob/master/docs/README.md) | Rust-based engine for fast, flexible LLM inference with OpenAI-compatible APIs, web UI, and extensive quantization options. | API · CLI · Library · Web · Self-hosted | [Docs](https://github.com/EricLBuehler/mistral.rs/blob/master/docs/README.md) / [Repo](https://github.com/EricLBuehler/mistral.rs) |
+| [mistral.rs](https://ericlbuehler.github.io/mistral.rs/) | Rust-based engine for fast, flexible LLM inference with OpenAI-compatible APIs, web UI, and extensive quantization options. | API · CLI · Library · Web · Self-hosted | [Docs](https://ericlbuehler.github.io/mistral.rs/) / [Repo](https://github.com/EricLBuehler/mistral.rs) |
 | [MLC LLM](https://mlc.ai) | Universal LLM deployment engine and compiler for running quantized models natively across many hardware backends. | API · CLI · Library · Self-hosted | [Website](https://mlc.ai) / [Docs](https://llmc-en.readthedocs.io/en/stable/backend/mlcllm.html) / [Repo](https://github.com/mlc-ai/mlc-llm) |
 | [MLX Engine for LM Studio](https://github.com/lmstudio-ai/mlx-engine#readme) | Apple MLX-based inference engine used by LM Studio to run quantized text and vision models locally on macOS. | Library · Local | [Docs](https://github.com/lmstudio-ai/mlx-engine#readme) / [Repo](https://github.com/lmstudio-ai/mlx-engine) |
 | [mlx-lm](https://github.com/ml-explore/mlx-lm#readme) | Apple MLX-based Python package for running and fine-tuning LLMs on Apple silicon, with an HTTP server similar to OpenAI chat API. | API · CLI · Library · Local | [Docs](https://github.com/ml-explore/mlx-lm#readme) / [Repo](https://github.com/ml-explore/mlx-lm) |
@@ -620,7 +619,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 | [Awesome Cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | Community collection of configuration files that enhance Cursor AI editor with custom rules and behaviors. | Template · Local | [Repo](https://github.com/PatrickJS/awesome-cursorrules) |
 | [Awesome GitHub Copilot](https://github.com/github/awesome-copilot) | Community collection of custom agents, instructions, skills, hooks, workflows, and plugins for GitHub Copilot. | Skill Pack · Template | [Repo](https://github.com/github/awesome-copilot) |
 | [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers) | Community-curated list of Model Context Protocol servers, including official and community implementations for Claude Desktop and other MCP clients. | Template | [Repo](https://github.com/appcypher/awesome-mcp-servers) |
-| [Awesome Rules](https://github.com/continuedev/awesome-rules) | Collection of useful markdown rules with YAML frontmatter for coding assistants including testing, DevOps, and documentation categories. | Skill Pack · Template · Local | [Repo](https://github.com/continuedev/awesome-rules) |
 
 ## New Arrivals
 
@@ -660,7 +658,7 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | [Cline Prompts](https://github.com/cline/prompts) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/cline/prompts) |
 | [Code Summarizer Action](https://github.com/marketplace/actions/code-summarizer) | Repo automation tools | Draft: verify current marketplace listing and name. | [Website](https://github.com/marketplace/actions/code-summarizer) / [Docs](https://github.com/kubescape/code-summarizer#readme) / [Repo](https://github.com/kubescape/code-summarizer) |
 
-_Showing 20 of 88 draft entries. Full queue in `data/tools.yml`._
+_Showing 20 of 87 draft entries. Full queue in `data/tools.yml`._
 
 ## Submit a tool
 
@@ -676,8 +674,8 @@ Use official sources, keep descriptions factual, and leave uncertain metadata as
 
 ## Roadmap
 
-- Review and promote 88 queued draft entries, prioritising thin shelves.
-- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (5 reviewed), MCP clients (6 reviewed).
+- Review and promote 87 queued draft entries, prioritising thin shelves.
+- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed), MCP clients (6 reviewed).
 - Populate empty shelves when quality entries are found: Prompt and workflow libraries, AI devtools security, DevOps and SRE agents.
 - Act on the weekly maintenance reports: fix confirmed-broken links and re-verify stale entries.
 - Improve generated filter views and category-level comparisons.
