@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>362 tools</code> <code>278 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>363 tools</code> <code>279 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,7 +70,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (27) · [Terminal agents](#terminal-agents) (16) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
+[Coding agents](#coding-agents) (28) · [Terminal agents](#terminal-agents) (16) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
 
 ### Extend agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 278 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 279 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -162,6 +162,7 @@ Agentic tools that can inspect, modify, and reason about source code.
 | [Claude Code](https://code.claude.com/docs/en/setup) | Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context. | CLI · Hybrid | [Docs](https://code.claude.com/docs/en/setup) |
 | [Cline](https://docs.cline.bot/introduction/overview) | Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension. | Browser · CLI · IDE · Hybrid | [Docs](https://docs.cline.bot/introduction/overview) / [Repo](https://github.com/cline/cline) |
 | [Cursor](https://cursor.com/) | AI code editor built around chat, codebase context, agents, rules, MCP, and terminal-assisted development workflows. | CLI · Desktop · IDE · Hybrid | [Website](https://cursor.com/) / [Docs](https://cursor.com/docs) |
+| [cursor-bridge](https://github.com/hkc5/cursor-bridge) | Rust proxy that routes Claude Code through Cursor's backend, using your Cursor subscription instead of Anthropic API. | CLI · Local | [Repo](https://github.com/hkc5/cursor-bridge) |
 | [Devin](https://devin.ai/) | Cloud software engineering agent for teams that works on repositories and can run tasks in parallel. | Web · Hosted | [Website](https://devin.ai/) / [Docs](https://docs.devin.ai/es/get-started/devin-intro) |
 | [Ellipsis](https://www.ellipsis.dev/) | GitHub agent that reviews pull requests, answers repo questions, and can generate changes or release notes. | GitHub app · Web · Hosted | [Website](https://www.ellipsis.dev/) / [Docs](https://docs.ellipsis.dev/introduction) |
 | [Factory Droid](https://factory.ai/) | Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows. | API · CLI · Desktop · Hybrid | [Website](https://factory.ai/) / [Docs](https://docs.factory.ai/welcome) |
@@ -622,6 +623,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-07-27: [cursor-bridge](https://github.com/hkc5/cursor-bridge)
 - 2026-07-24: [whatbroke](https://github.com/arthi-arumugam-git/whatbroke)
 - 2026-07-22: [UIZZE](https://uizze.com)
 - 2026-07-16: [Agent Island](https://agent-island.dev)
@@ -629,7 +631,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-06-20: [ax](https://github.com/Necmttn/ax)
 - 2026-06-11: [codex-profiles](https://ducksss.github.io/codex-profiles/)
 - 2026-05-28: [Ivy Tendril](https://tendril.ivy.app)
-- 2026-05-28: [Komos](https://www.komos.ai/browser-automation-tools)
 
 ## Needs review
 

@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 278 reviewed tools.
+This is the complete comparison matrix for all 279 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -75,6 +75,7 @@ This is the complete comparison matrix for all 278 reviewed tools.
 | [Continue](https://docs.continue.dev/) | IDE assistants | Yes | No | No | Yes | Yes | No | [Docs](https://docs.continue.dev/) / [Repo](https://github.com/continuedev/continue) |
 | [Cursor](https://cursor.com/) | IDE assistants | No | No | No | Yes | Yes | Yes | [Website](https://cursor.com/) / [Docs](https://cursor.com/docs) |
 | [Cursor Rules](https://github.com/survivorforge/cursor-rules) | Agent skill packs | Yes | Yes | No | No | No | No | [Repo](https://github.com/survivorforge/cursor-rules) |
+| [cursor-bridge](https://github.com/hkc5/cursor-bridge) | Coding agents | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/hkc5/cursor-bridge) |
 | [Cursorrules Collection](https://github.com/nedcodes-ok/cursorrules-collection) | Agent skill packs | Yes | Yes | No | No | No | No | [Repo](https://github.com/nedcodes-ok/cursorrules-collection) |
 | [Custom Modes for Roo Code](https://github.com/jtgsystems/Custom-Modes-Roo-Code) | Agent skill packs | Yes | Yes | No | No | No | No | [Repo](https://github.com/jtgsystems/Custom-Modes-Roo-Code) |
 | [Datadog LLM Observability](https://www.datadoghq.com/product/ai/llm-observability/) | Agent observability | No | No | No | No | No | No | [Website](https://www.datadoghq.com/product/ai/llm-observability/) / [Docs](https://docs.datadoghq.com/tracing/llm_observability/) / [Repo](https://github.com/DataDog/llm-observability) |

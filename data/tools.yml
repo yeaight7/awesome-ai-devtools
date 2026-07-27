@@ -2472,6 +2472,30 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/survivorforge/cursor-rules
+- slug: cursor-bridge
+  name: cursor-bridge
+  description: Rust proxy that routes Claude Code through Cursor's backend, using your Cursor subscription instead of Anthropic API.
+  website_url: https://github.com/hkc5/cursor-bridge
+  repo_url: https://github.com/hkc5/cursor-bridge
+  categories:
+    - coding-agents
+  primary_category: coding-agents
+  tags:
+    - agentic-coding
+    - cli
+    - coding
+    - open-source
+    - proxy
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-07-27
+  last_checked: 2026-07-27
+  sources:
+    - https://github.com/hkc5/cursor-bridge
 - slug: cursorrules-collection
   name: Cursorrules Collection
   description: 110+ tested .cursorrules and .mdc rule files for Cursor, Claude Code, Copilot, Windsurf, Gemini CLI, and Codex.
