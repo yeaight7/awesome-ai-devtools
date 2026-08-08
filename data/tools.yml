@@ -99,7 +99,7 @@
     - https://pypi.org/project/agent-eval-framework/
 - slug: agent-island
   name: Agent Island
-  description: Open-source local desktop status companion for Claude Code and Codex that shows live session state and sends your-turn alerts.
+  description: Local desktop companion for Claude, Codex, Gemini, and Grok session status, with provider usage tracking that also supports Cursor.
   website_url: https://agent-island.dev
   repo_url: https://github.com/tristan666666/agent-island
   categories:
@@ -118,12 +118,12 @@
   license: MIT
   curation_status: reviewed
   added: 2026-07-16
-  last_checked: 2026-07-16
+  last_checked: 2026-08-08
   sources:
     - https://agent-island.dev
     - https://github.com/tristan666666/agent-island
     - https://github.com/tristan666666/agent-island/blob/main/LICENSE
-    - https://github.com/tristan666666/agent-island/releases/tag/v1.6.1
+    - https://github.com/tristan666666/agent-island/releases/tag/v2.1.1
 - slug: agent-powerups
   name: Agent Powerups
   description: Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents.
