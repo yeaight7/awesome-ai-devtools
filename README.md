@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>363 tools</code> <code>279 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>364 tools</code> <code>280 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,11 +70,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (28) · [Terminal agents](#terminal-agents) (16) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
+[Coding agents](#coding-agents) (29) · [Terminal agents](#terminal-agents) (17) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (17) · [MCP clients](#mcp-clients) (6) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (27)
+[MCP servers](#mcp-servers) (17) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (27)
 
 ### Operate agents
 
@@ -82,7 +82,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Run locally/self-host
 
-[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (25) · [Local LLM developer tools](#local-llm-developer-tools) (30)
+[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (25) · [Local LLM developer tools](#local-llm-developer-tools) (31)
 
 ### Automate repo work
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 279 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 280 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -124,6 +124,7 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [LocalAI](https://localai.io) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://localai.io) / [Docs](https://localai.io/docs) / [Repo](https://github.com/go-skynet/LocalAI) |
 | [vLLM](https://vllm.ai) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Website](https://vllm.ai) / [Docs](https://docs.vllm.ai/en/stable/serving/openai_compatible_server.html) / [Repo](https://github.com/vllm-project/vllm) |
 | [Athenaeum](https://github.com/herakles-dev/athenaeum#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | Yes | [Docs](https://github.com/herakles-dev/athenaeum#readme) / [Repo](https://github.com/herakles-dev/athenaeum) |
+| [Atomic Agent](https://atomicagent.io) | Terminal agents | Yes | Yes | No | Yes | No | Yes | [Website](https://atomicagent.io) / [Docs](https://atomicagent.io/docs) / [Repo](https://github.com/AtomicBot-ai/atomic-agent) |
 | [ax](https://github.com/Necmttn/ax) | Agent observability | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/Necmttn/ax) |
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
 | [Goose](https://goose-docs.ai/) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Website](https://goose-docs.ai/) / [Docs](https://goose-docs.ai/docs/quickstart/) / [Repo](https://github.com/aaif-goose/goose) |
@@ -143,7 +144,6 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [Zed](https://zed.dev/) | IDE assistants | Yes | Yes | No | No | Yes | Yes | [Website](https://zed.dev/) / [Docs](https://zed.dev/releases/stable/0.233.5) / [Repo](https://github.com/zed-industries/zed) |
 | [Nosia](https://nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://nosia.ai) / [Docs](https://nosia.ai/readme/) |
 | [Nosia Installer Stack](https://get.nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://get.nosia.ai) / [Docs](https://nosia.ai/readme/) |
-| [Roo Code](https://roocode.com/) | Coding agents | Yes | No | No | Yes | Yes | Yes | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
 
 <p align="center"><img src="assets/awesome-ai-devtools-social-preview.gif" alt="Awesome AI Devtools ecosystem map" width="100%"></p>
 
@@ -158,6 +158,7 @@ Agentic tools that can inspect, modify, and reason about source code.
 | [Aider](https://aider.chat/) | Open-source terminal pair programmer that edits tracked files in a local Git repository. | CLI · Local | [Website](https://aider.chat/) / [Docs](https://aider.chat/docs/) / [Repo](https://github.com/Aider-AI/aider) |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
 | [Amp](https://ampcode.com/) | Terminal-centric coding agent with deep codebase context, editor links, and automation-oriented SDK features. | API · CLI · Hybrid | [Website](https://ampcode.com/) / [Docs](https://ampcode.com/manual) |
+| [Atomic Agent](https://atomicagent.io) | Local-first CLI and TUI coding agent that runs open-weight models on your machine via llama.cpp, with 56 built-in tools and MCP support. | CLI · MCP · Local | [Website](https://atomicagent.io) / [Docs](https://atomicagent.io/docs) / [Repo](https://github.com/AtomicBot-ai/atomic-agent) |
 | [Augment Code](https://www.augmentcode.com/) | Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases. | CLI · IDE · Hybrid | [Website](https://www.augmentcode.com/) / [Docs](https://docs.augmentcode.com/introduction) |
 | [Claude Code](https://code.claude.com/docs/en/setup) | Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context. | CLI · Hybrid | [Docs](https://code.claude.com/docs/en/setup) |
 | [Cline](https://docs.cline.bot/introduction/overview) | Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension. | Browser · CLI · IDE · Hybrid | [Docs](https://docs.cline.bot/introduction/overview) / [Repo](https://github.com/cline/cline) |
@@ -194,6 +195,7 @@ AI developer tools primarily operated from a command-line interface.
 | [Aider](https://aider.chat/) | Open-source terminal pair programmer that edits tracked files in a local Git repository. | CLI · Local | [Website](https://aider.chat/) / [Docs](https://aider.chat/docs/) / [Repo](https://github.com/Aider-AI/aider) |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
 | [Amp](https://ampcode.com/) | Terminal-centric coding agent with deep codebase context, editor links, and automation-oriented SDK features. | API · CLI · Hybrid | [Website](https://ampcode.com/) / [Docs](https://ampcode.com/manual) |
+| [Atomic Agent](https://atomicagent.io) | Local-first CLI and TUI coding agent that runs open-weight models on your machine via llama.cpp, with 56 built-in tools and MCP support. | CLI · MCP · Local | [Website](https://atomicagent.io) / [Docs](https://atomicagent.io/docs) / [Repo](https://github.com/AtomicBot-ai/atomic-agent) |
 | [Augment Code](https://www.augmentcode.com/) | Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases. | CLI · IDE · Hybrid | [Website](https://www.augmentcode.com/) / [Docs](https://docs.augmentcode.com/introduction) |
 | [ax](https://github.com/Necmttn/ax) | Local telemetry and recall graph for AI coding agents, with CLI, dashboard, MCP queries, and OTLP ingestion. | CLI · MCP · Web · Local | [Repo](https://github.com/Necmttn/ax) |
 | [Claude Code](https://code.claude.com/docs/en/setup) | Anthropic coding agent for terminal workflows that can read code, edit files, run commands, and use project context. | CLI · Hybrid | [Docs](https://code.claude.com/docs/en/setup) |
@@ -292,6 +294,7 @@ Applications and agents that connect to Model Context Protocol servers.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
+| [Atomic Agent](https://atomicagent.io) | Local-first CLI and TUI coding agent that runs open-weight models on your machine via llama.cpp, with 56 built-in tools and MCP support. | CLI · MCP · Local | [Website](https://atomicagent.io) / [Docs](https://atomicagent.io/docs) / [Repo](https://github.com/AtomicBot-ai/atomic-agent) |
 | [Augment Code](https://www.augmentcode.com/) | Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases. | CLI · IDE · Hybrid | [Website](https://www.augmentcode.com/) / [Docs](https://docs.augmentcode.com/introduction) |
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Open-source terminal coding agent that uses tool calls and MCP servers to work on repository tasks. | CLI · MCP · Local | [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
 | [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop · GitHub app · IDE · MCP · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
@@ -476,6 +479,7 @@ Tools that help developers run or integrate local models in coding workflows.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
+| [Atomic Agent](https://atomicagent.io) | Local-first CLI and TUI coding agent that runs open-weight models on your machine via llama.cpp, with 56 built-in tools and MCP support. | CLI · MCP · Local | [Website](https://atomicagent.io) / [Docs](https://atomicagent.io/docs) / [Repo](https://github.com/AtomicBot-ai/atomic-agent) |
 | [AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ#readme) | Python library for GPTQ weight-only quantization of Transformer language models for efficient local inference. | Library · Local | [Docs](https://github.com/AutoGPTQ/AutoGPTQ#readme) / [Repo](https://github.com/AutoGPTQ/AutoGPTQ) |
 | [ChromaDB](https://www.trychroma.com) | Lightweight vector database and Python library for local embeddings storage and RAG-style similarity search. | API · Library · Local | [Website](https://www.trychroma.com) / [Docs](https://docs.trychroma.com) / [Repo](https://github.com/chroma-core/chroma) |
 | [Docker Model Runner](https://www.docker.com/products/model-runner) | Docker Desktop-integrated local model runtime that runs GGUF models via an OpenAI-compatible API. | API · CLI · Local | [Website](https://www.docker.com/products/model-runner) / [Docs](https://docs.docker.com/ai/model-runner/) |
@@ -623,6 +627,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-08-13: [Atomic Agent](https://atomicagent.io)
 - 2026-07-27: [cursor-bridge](https://github.com/hkc5/cursor-bridge)
 - 2026-07-24: [whatbroke](https://github.com/arthi-arumugam-git/whatbroke)
 - 2026-07-22: [UIZZE](https://uizze.com)
@@ -630,7 +635,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-07-07: [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/)
 - 2026-06-20: [ax](https://github.com/Necmttn/ax)
 - 2026-06-11: [codex-profiles](https://ducksss.github.io/codex-profiles/)
-- 2026-05-28: [Ivy Tendril](https://tendril.ivy.app)
 
 ## Needs review
 
@@ -676,7 +680,7 @@ Use official sources, keep descriptions factual, and leave uncertain metadata as
 ## Roadmap
 
 - Review and promote 84 queued draft entries, prioritising thin shelves.
-- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed), MCP clients (6 reviewed).
+- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed), Test generation agents (6 reviewed).
 - Populate empty shelves when quality entries are found: Prompt and workflow libraries, AI devtools security, DevOps and SRE agents.
 - Act on the weekly maintenance reports: fix confirmed-broken links and re-verify stale entries.
 - Improve generated filter views and category-level comparisons.

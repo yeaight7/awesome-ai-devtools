@@ -1005,6 +1005,42 @@
   sources:
     - https://github.com/herakles-dev/athenaeum
     - https://github.com/herakles-dev/athenaeum#readme
+- slug: atomic-agent
+  name: Atomic Agent
+  description: Local-first CLI and TUI coding agent that runs open-weight models on your machine via llama.cpp, with 56 built-in tools and MCP support.
+  website_url: https://atomicagent.io
+  repo_url: https://github.com/AtomicBot-ai/atomic-agent
+  docs_url: https://atomicagent.io/docs
+  categories:
+    - coding-agents
+    - local-llm-developer-tools
+    - mcp-clients
+    - terminal-agents
+  primary_category: terminal-agents
+  tags:
+    - agentic-coding
+    - browser-automation
+    - cli
+    - coding
+    - local-first
+    - local-llm
+    - mcp
+    - offline
+    - open-source
+    - terminal-agent
+  interfaces:
+    - cli
+    - mcp
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-08-13
+  last_checked: 2026-08-13
+  sources:
+    - https://atomicagent.io
+    - https://atomicagent.io/docs
+    - https://github.com/AtomicBot-ai/atomic-agent
 - slug: augment-code
   name: Augment Code
   description: Repo-aware coding agent for editors and terminal that edits files, uses tools, and understands large codebases.
