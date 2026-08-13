@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 279 reviewed tools.
+This is the complete comparison matrix for all 280 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -35,6 +35,7 @@ This is the complete comparison matrix for all 279 reviewed tools.
 | [Astronomer Agents](https://github.com/astronomer/agents) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/astronomer/agents) |
 | [Async Labs LLM Eval (PHP)](https://github.com/Aysnc-Labs/llm-eval) | Agent evals | Yes | No | No | No | No | No | [Repo](https://github.com/Aysnc-Labs/llm-eval) |
 | [Athenaeum](https://github.com/herakles-dev/athenaeum#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | Yes | [Docs](https://github.com/herakles-dev/athenaeum#readme) / [Repo](https://github.com/herakles-dev/athenaeum) |
+| [Atomic Agent](https://atomicagent.io) | Terminal agents | Yes | Yes | No | Yes | No | Yes | [Website](https://atomicagent.io) / [Docs](https://atomicagent.io/docs) / [Repo](https://github.com/AtomicBot-ai/atomic-agent) |
 | [Augment Code](https://www.augmentcode.com/) | Coding agents | No | No | No | Yes | Yes | Yes | [Website](https://www.augmentcode.com/) / [Docs](https://docs.augmentcode.com/introduction) |
 | [auto-changelog (cookpete)](https://github.com/cookpete/auto-changelog) | Repo automation tools | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/cookpete/auto-changelog) |
 | [AutoCodeDocs](https://autocodedocs.ai) | Documentation agents | No | No | No | No | No | No | [Docs](https://autocodedocs.ai) |
