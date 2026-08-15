@@ -8552,7 +8552,7 @@
     - https://github.com/hotcoder/sanctum
 - slug: sandbase-cli
   name: SandBase CLI
-  description: Open-source CLI and MCP bridge that connects AI coding agents to 2,000+ AI models and APIs through one account.
+  description: Open-source CLI and MCP bridge that connects AI coding agents to 2,000+ AI models through one account.
   website_url: https://github.com/sandbaseai/cli
   repo_url: https://github.com/sandbaseai/cli
   docs_url: https://github.com/sandbaseai/cli#readme
