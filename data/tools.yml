@@ -156,6 +156,44 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/yeaight7/agent-powerups
+- slug: agent-qa
+  name: Agent QA
+  description: TypeScript QA agent that authors, runs, and repairs natural-language web and mobile tests through a CLI, dashboard, MCP server, and agent skills.
+  website_url: https://vostride.com/docs/agent-qa
+  repo_url: https://github.com/vostride/agent-qa
+  docs_url: https://vostride.com/docs/agent-qa/quickstart
+  categories:
+    - browser-agents
+    - mcp-servers
+    - test-generation-agents
+  primary_category: test-generation-agents
+  tags:
+    - agent
+    - automation
+    - browser-agents
+    - browser-automation
+    - mcp
+    - playwright
+    - regression-testing
+    - testing
+    - web-automation
+  interfaces:
+    - cli
+    - mcp
+    - skill-pack
+    - web
+  deployment: local
+  source_model: source-available
+  license: FSL-1.1-ALv2
+  curation_status: reviewed
+  added: 2026-08-16
+  last_checked: 2026-08-16
+  sources:
+    - https://github.com/vostride/agent-qa
+    - https://github.com/vostride/agent-qa/blob/main/LICENSE.md
+    - https://vostride.com/docs/agent-qa
+    - https://vostride.com/docs/agent-qa/quickstart
+    - https://www.npmjs.com/package/agent-qa
 - slug: agent-skills
   name: Agent Skills
   description: Python package to create, manage, and execute reusable code-based tool compositions for AI agents with MCP integration.

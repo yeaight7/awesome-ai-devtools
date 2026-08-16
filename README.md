@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>364 tools</code> <code>280 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>365 tools</code> <code>281 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,11 +70,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (29) · [Terminal agents](#terminal-agents) (17) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (24)
+[Coding agents](#coding-agents) (29) · [Terminal agents](#terminal-agents) (17) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (17) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (27)
+[MCP servers](#mcp-servers) (18) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (27)
 
 ### Operate agents
 
@@ -86,11 +86,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Automate repo work
 
-[Repo automation tools](#repo-automation-tools) (27) · [AI code review tools](#ai-code-review-tools) (10) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (6)
+[Repo automation tools](#repo-automation-tools) (27) · [AI code review tools](#ai-code-review-tools) (10) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 280 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 281 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -240,6 +240,7 @@ Tools that can inspect, drive, or test browser-based developer workflows.
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
 | [Agent Browser](https://github.com/vercel-labs/agent-browser) | Rust-based headless browser automation CLI designed for AI agents, wrapping Chromium control behind a simple command-line tool. | CLI | [Repo](https://github.com/vercel-labs/agent-browser) |
+| [Agent QA](https://vostride.com/docs/agent-qa) | TypeScript QA agent that authors, runs, and repairs natural-language web and mobile tests through a CLI, dashboard, MCP server, and agent skills. | CLI · MCP · Skill Pack · Web · Local | [Website](https://vostride.com/docs/agent-qa) / [Docs](https://vostride.com/docs/agent-qa/quickstart) / [Repo](https://github.com/vostride/agent-qa) |
 | [Agent-E](https://github.com/EmergenceAI/Agent-E) | Open-source agent system focused on browser automation, offering a natural-language web automation API and local agent runtime. | Framework · Library | [Repo](https://github.com/EmergenceAI/Agent-E) |
 | [Agent-WebVoyager](https://github.com/mrmoxon/Agent-WebVoyager) | Implementation showcasing an autonomous WebVoyager-style agent that navigates and extracts data from sites via visual interactions. | Framework · Library | [Repo](https://github.com/mrmoxon/Agent-WebVoyager) |
 | [Anchor Browser](https://anchorbrowser.io) | Cloud-hosted browser fleet built for AI agents, providing human-like Chromium instances and deterministic browser task execution APIs. | API · Hosted | [Docs](https://anchorbrowser.io) |
@@ -270,6 +271,7 @@ Model Context Protocol servers that expose tools, resources, or prompts.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
+| [Agent QA](https://vostride.com/docs/agent-qa) | TypeScript QA agent that authors, runs, and repairs natural-language web and mobile tests through a CLI, dashboard, MCP server, and agent skills. | CLI · MCP · Skill Pack · Web · Local | [Website](https://vostride.com/docs/agent-qa) / [Docs](https://vostride.com/docs/agent-qa/quickstart) / [Repo](https://github.com/vostride/agent-qa) |
 | [Anki MCP Server](https://ankimcp.ai) | MCP server that lets AI assistants interact with Anki flashcards and spaced-repetition workflows. | MCP · Local | [Website](https://ankimcp.ai) / [Repo](https://github.com/ankimcp/anki-mcp-server) |
 | [ArXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server) | MCP server for searching arXiv papers and exposing academic paper content to AI assistants. | MCP · Local | [Repo](https://github.com/blazickjp/arxiv-mcp-server) |
 | [ax](https://github.com/Necmttn/ax) | Local telemetry and recall graph for AI coding agents, with CLI, dashboard, MCP queries, and OTLP ingestion. | CLI · MCP · Web · Local | [Repo](https://github.com/Necmttn/ax) |
@@ -607,6 +609,7 @@ AI tools that create, improve, or maintain automated tests.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
+| [Agent QA](https://vostride.com/docs/agent-qa) | TypeScript QA agent that authors, runs, and repairs natural-language web and mobile tests through a CLI, dashboard, MCP server, and agent skills. | CLI · MCP · Skill Pack · Web · Local | [Website](https://vostride.com/docs/agent-qa) / [Docs](https://vostride.com/docs/agent-qa/quickstart) / [Repo](https://github.com/vostride/agent-qa) |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
 | [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
 | [Qodo](https://www.qodo.ai/) | Code review and IDE assistant product focused on reviewing diffs, tests, and repository context. | GitHub app · IDE · Hosted | [Website](https://www.qodo.ai/) / [Docs](https://docs.qodo.ai/) |
@@ -627,6 +630,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-08-16: [Agent QA](https://vostride.com/docs/agent-qa)
 - 2026-08-13: [Atomic Agent](https://atomicagent.io)
 - 2026-07-27: [cursor-bridge](https://github.com/hkc5/cursor-bridge)
 - 2026-07-24: [whatbroke](https://github.com/arthi-arumugam-git/whatbroke)
@@ -634,7 +638,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-07-16: [Agent Island](https://agent-island.dev)
 - 2026-07-07: [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/)
 - 2026-06-20: [ax](https://github.com/Necmttn/ax)
-- 2026-06-11: [codex-profiles](https://ducksss.github.io/codex-profiles/)
 
 ## Needs review
 
@@ -680,7 +683,7 @@ Use official sources, keep descriptions factual, and leave uncertain metadata as
 ## Roadmap
 
 - Review and promote 84 queued draft entries, prioritising thin shelves.
-- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed), Test generation agents (6 reviewed).
+- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed), MCP clients (7 reviewed).
 - Populate empty shelves when quality entries are found: Prompt and workflow libraries, AI devtools security, DevOps and SRE agents.
 - Act on the weekly maintenance reports: fix confirmed-broken links and re-verify stale entries.
 - Improve generated filter views and category-level comparisons.
