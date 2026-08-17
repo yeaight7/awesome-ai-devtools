@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 281 reviewed tools.
+This is the complete comparison matrix for all 282 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -141,6 +141,7 @@ This is the complete comparison matrix for all 281 reviewed tools.
 | [Junie](https://www.jetbrains.com/junie/) | Coding agents | No | No | No | Yes | Yes | No | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
 | [Keywords AI](https://keywordsai.co) | Agent observability | No | No | No | No | No | No | [Website](https://keywordsai.co) / [Docs](https://docs.keywordsai.co) |
 | [KoboldCpp](https://koboldcpp.com) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://koboldcpp.com) / [Docs](https://github.com/LostRuins/koboldcpp/wiki) / [Repo](https://github.com/LostRuins/koboldcpp) |
+| [Kolega Code](https://github.com/kolega-ai/kolega-code) | Coding agents | Yes | Yes | No | Yes | No | No | [Docs](https://kolega-ai.github.io/kolega-code/) / [Repo](https://github.com/kolega-ai/kolega-code) |
 | [Komos](https://www.komos.ai/browser-automation-tools) | Browser agents | No | No | No | No | No | No | [Website](https://www.komos.ai/browser-automation-tools) / [Docs](https://docs.komos.ai/) |
 | [LangChain OpenEvals](https://github.com/langchain-ai/openevals) | Agent evals | Yes | No | No | No | No | No | [Repo](https://github.com/langchain-ai/openevals) |
 | [LangFair](https://cvs-health.github.io/langfair/) | Agent evals | Yes | No | No | No | No | No | [Docs](https://cvs-health.github.io/langfair/) / [Repo](https://github.com/cvs-health/langfair) |
