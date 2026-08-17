@@ -4774,8 +4774,7 @@
   deployment: local
   source_model: open-source
   license: Apache-2.0
-  curation_status: draft
-  review_notes: "Draft: new submission awaiting review."
+  curation_status: reviewed
   added: 2026-08-17
   last_checked: 2026-08-17
   sources:
