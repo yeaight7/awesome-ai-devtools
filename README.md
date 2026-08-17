@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>365 tools</code> <code>281 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>366 tools</code> <code>281 reviewed</code> <code>85 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -666,7 +666,7 @@ Draft entries stay out of the main shelves until their metadata and sources are 
 | [Cline Prompts](https://github.com/cline/prompts) | Agent skill packs | Draft: source_model=not specified. | [Repo](https://github.com/cline/prompts) |
 | [Code Summarizer Action](https://github.com/marketplace/actions/code-summarizer) | Repo automation tools | Draft: verify current marketplace listing and name. | [Website](https://github.com/marketplace/actions/code-summarizer) / [Docs](https://github.com/kubescape/code-summarizer#readme) / [Repo](https://github.com/kubescape/code-summarizer) |
 
-_Showing 20 of 84 draft entries. Full queue in `data/tools.yml`._
+_Showing 20 of 85 draft entries. Full queue in `data/tools.yml`._
 
 ## Submit a tool
 
@@ -682,7 +682,7 @@ Use official sources, keep descriptions factual, and leave uncertain metadata as
 
 ## Roadmap
 
-- Review and promote 84 queued draft entries, prioritising thin shelves.
+- Review and promote 85 queued draft entries, prioritising thin shelves.
 - Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed), MCP clients (7 reviewed).
 - Populate empty shelves when quality entries are found: Prompt and workflow libraries, AI devtools security, DevOps and SRE agents.
 - Act on the weekly maintenance reports: fix confirmed-broken links and re-verify stale entries.

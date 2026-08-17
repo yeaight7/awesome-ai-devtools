@@ -4753,6 +4753,34 @@
     - https://github.com/LostRuins/koboldcpp
     - https://github.com/LostRuins/koboldcpp/wiki
     - https://koboldcpp.com
+- slug: kolega-code
+  name: Kolega Code
+  description: Open-source terminal coding agent where the model writes its own multi-agent workflows (Gigacode) for repo-wide tasks.
+  website_url: https://github.com/kolega-ai/kolega-code
+  repo_url: https://github.com/kolega-ai/kolega-code
+  docs_url: https://kolega-ai.github.io/kolega-code/
+  categories:
+    - coding-agents
+    - terminal-agents
+  primary_category: coding-agents
+  tags:
+    - agentic-coding
+    - coding
+    - open-source
+    - repo-editing
+    - terminal-agent
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: draft
+  review_notes: "Draft: new submission awaiting review."
+  added: 2026-08-17
+  last_checked: 2026-08-17
+  sources:
+    - https://github.com/kolega-ai/kolega-code
+    - https://kolega-ai.github.io/kolega-code/
 - slug: komos
   name: Komos
   description: Hosted browser automation platform for reusable AI tasks that drive websites, call APIs, process files, and run operations workflows.
