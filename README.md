@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>366 tools</code> <code>282 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>367 tools</code> <code>283 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -74,7 +74,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (18) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (17) · [Agent skill packs](#agent-skill-packs) (27)
+[MCP servers](#mcp-servers) (19) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (18) · [Agent skill packs](#agent-skill-packs) (27)
 
 ### Operate agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 282 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 283 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -139,11 +139,11 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [mcp-cli (wong2)](https://www.npmjs.com/package/@wong2/mcp-cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Website](https://www.npmjs.com/package/@wong2/mcp-cli) / [Repo](https://github.com/wong2/mcp-cli) |
 | [Redis + Ollama RAG Stack](https://github.com/TtheBC01/redis-ollama-RAG#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://github.com/TtheBC01/redis-ollama-RAG#readme) / [Repo](https://github.com/TtheBC01/redis-ollama-RAG) |
 | [Ruflo](https://github.com/ruvnet/ruflo) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Docs](https://github.com/ruvnet/ruflo#readme) / [Repo](https://github.com/ruvnet/ruflo) |
+| [SandBase CLI](https://github.com/sandbaseai/cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/sandbaseai/cli#readme) / [Repo](https://github.com/sandbaseai/cli) |
 | [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
 | [Smithery CLI](https://smithery.ai) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Website](https://smithery.ai) / [Docs](https://smithery.ai/docs/concepts/cli) / [Repo](https://github.com/smithery-ai/cli) |
 | [Zed](https://zed.dev/) | IDE assistants | Yes | Yes | No | No | Yes | Yes | [Website](https://zed.dev/) / [Docs](https://zed.dev/releases/stable/0.233.5) / [Repo](https://github.com/zed-industries/zed) |
 | [Nosia](https://nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://nosia.ai) / [Docs](https://nosia.ai/readme/) |
-| [Nosia Installer Stack](https://get.nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://get.nosia.ai) / [Docs](https://nosia.ai/readme/) |
 
 <p align="center"><img src="assets/awesome-ai-devtools-social-preview.gif" alt="Awesome AI Devtools ecosystem map" width="100%"></p>
 
@@ -288,6 +288,7 @@ Model Context Protocol servers that expose tools, resources, or prompts.
 | [Next.js DevTools MCP](https://github.com/vercel/next-devtools-mcp) | MCP server for exposing Next.js development tools and diagnostics to coding agents. | MCP · Local | [Repo](https://github.com/vercel/next-devtools-mcp) |
 | [Playwright Code Runner](https://playwright.dev) | MCP-related tool for running Playwright code as part of browser automation workflows. | MCP · Local | [Website](https://playwright.dev) / [Repo](https://github.com/exe-language/playwright-mcp) |
 | [Playwright MCP Server](https://playwright.dev/docs/getting-started-mcp) | MCP server that uses Playwright to let AI agents interact with web pages through accessibility snapshots. | MCP · Local | [Docs](https://playwright.dev/docs/getting-started-mcp) / [Repo](https://github.com/microsoft/playwright-mcp) |
+| [SandBase CLI](https://github.com/sandbaseai/cli) | Local CLI and MCP bridge connecting 25 AI clients to 2,000+ models and APIs with OAuth onboarding, diagnostics, and rollback. | CLI · MCP · Local | [Docs](https://github.com/sandbaseai/cli#readme) / [Repo](https://github.com/sandbaseai/cli) |
 | [ServiceGraph MCP](https://github.com/servicegraph/mcp-server) | MCP server for exposing observability data such as service metrics and logs to AI agents. | MCP · Hosted | [Repo](https://github.com/servicegraph/mcp-server) |
 | [Supabase MCP Server](https://github.com/supabase-community/supabase-mcp) | Official Supabase MCP server for connecting AI assistants to Supabase projects and database operations. | MCP · Hosted | [Repo](https://github.com/supabase-community/supabase-mcp) |
 | [UIZZE](https://uizze.com) | UI reference platform and agent skill providing web and iOS screen patterns, design contracts, and finish-gate reviews for coding agents. | MCP · Skill Pack · Web · Hosted | [Website](https://uizze.com) / [Docs](https://uizze.com/docs) |
@@ -326,6 +327,7 @@ Developer tools for building, testing, debugging, or managing MCP systems.
 | [Model Context Protocol Specification Repo](https://modelcontextprotocol.io) | Official repository containing the MCP specification, schemas, and documentation website sources. | Library | [Website](https://modelcontextprotocol.io) / [Repo](https://github.com/modelcontextprotocol/modelcontextprotocol) |
 | [Model Context Protocol TypeScript SDK](https://modelcontextprotocol.io/docs/sdk) | Official TypeScript SDK for building MCP servers and clients with stdio and HTTP transports. | Library | [Website](https://modelcontextprotocol.io/docs/sdk) / [Docs](https://www.npmjs.com/package/@modelcontextprotocol/sdk) / [Repo](https://github.com/modelcontextprotocol/typescript-sdk) |
 | [PulseMCP Registry](https://www.pulsemcp.com) | MCP-focused registry and API that aggregates, enriches, and exposes metadata about public MCP servers. | API · Web · Hosted | [Website](https://www.pulsemcp.com) / [Docs](https://www.pulsemcp.com/api) |
+| [SandBase CLI](https://github.com/sandbaseai/cli) | Local CLI and MCP bridge connecting 25 AI clients to 2,000+ models and APIs with OAuth onboarding, diagnostics, and rollback. | CLI · MCP · Local | [Docs](https://github.com/sandbaseai/cli#readme) / [Repo](https://github.com/sandbaseai/cli) |
 | [Smithery CLI](https://smithery.ai) | CLI to search, install, run, publish, and inspect MCP servers and skills across clients. | CLI · Local | [Website](https://smithery.ai) / [Docs](https://smithery.ai/docs/concepts/cli) / [Repo](https://github.com/smithery-ai/cli) |
 | [Smithery MCP Installer Server](https://github.com/smithery-ai/smithery-cli-mcp) | Official MCP server for Smithery CLI that finds, configures, and installs MCP servers for local clients. | MCP · Self-hosted | [Repo](https://github.com/smithery-ai/smithery-cli-mcp) |
 | [WebMCP JavaScript Library](https://webmcp.dev) | JavaScript library and runtime for exposing website functionality as WebMCP tools to MCP-aware agents. | Library | [Website](https://webmcp.dev) / [Docs](https://docs.mcp-b.ai/explanation/webmcp-vs-mcp) / [Repo](https://github.com/webmachinelearning/webmcp) |
@@ -632,6 +634,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-08-28: [SandBase CLI](https://github.com/sandbaseai/cli)
 - 2026-08-17: [Kolega Code](https://github.com/kolega-ai/kolega-code)
 - 2026-08-16: [Agent QA](https://vostride.com/docs/agent-qa)
 - 2026-08-13: [Atomic Agent](https://atomicagent.io)
@@ -639,7 +642,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-07-24: [whatbroke](https://github.com/arthi-arumugam-git/whatbroke)
 - 2026-07-22: [UIZZE](https://uizze.com)
 - 2026-07-16: [Agent Island](https://agent-island.dev)
-- 2026-07-07: [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/)
 
 ## Needs review
 

@@ -8615,6 +8615,36 @@
   last_checked: 2026-05-15
   sources:
     - https://github.com/hotcoder/sanctum
+- slug: sandbase-cli
+  name: SandBase CLI
+  description: Local CLI and MCP bridge connecting 25 AI clients to 2,000+ models and APIs with OAuth onboarding, diagnostics, and rollback.
+  website_url: https://github.com/sandbaseai/cli
+  repo_url: https://github.com/sandbaseai/cli
+  docs_url: https://github.com/sandbaseai/cli#readme
+  categories:
+    - mcp-servers
+    - mcp-tooling
+  primary_category: mcp-tooling
+  tags:
+    - cli
+    - client-management
+    - gateway
+    - mcp
+    - model-context-protocol
+    - open-source
+  interfaces:
+    - cli
+    - mcp
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-08-28
+  last_checked: 2026-08-28
+  sources:
+    - https://github.com/sandbaseai/cli
+    - https://github.com/sandbaseai/cli/blob/main/LICENSE
+    - https://github.com/sandbaseai/cli/releases/tag/v0.1.17
 - slug: scalable-agentic-rag-platform-fareedkhan-dev
   name: Scalable Agentic RAG Platform (FareedKhan-dev)
   description: Production-grade agentic RAG platform with Kubernetes, Ray, LangGraph, and multi-plane architecture.
