@@ -265,6 +265,36 @@
   sources:
     - https://awesome.ecosyste.ms/projects/github.com%2FEmergenceAI%2FAgent-E
     - https://github.com/EmergenceAI/Agent-E
+- slug: agent-watch
+  name: agent-watch
+  description: POSIX shell scripts that classify background coding-agent runs and distinguish transport failures from credential failures before launch.
+  website_url: https://github.com/soul-sol/agent-watch
+  repo_url: https://github.com/soul-sol/agent-watch
+  docs_url: https://github.com/soul-sol/agent-watch#readme
+  categories:
+    - agent-observability
+    - terminal-agents
+  primary_category: agent-observability
+  tags:
+    - cli
+    - debugging
+    - local-first
+    - monitoring
+    - observability
+    - open-source
+    - terminal
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-09-04
+  last_checked: 2026-09-04
+  sources:
+    - https://github.com/soul-sol/agent-watch
+    - https://github.com/soul-sol/agent-watch/releases/tag/v0.2.0
+    - https://github.com/soul-sol/agent-watch/releases/tag/v0.3.0
 - slug: agent-webvoyager
   name: Agent-WebVoyager
   description: Implementation showcasing an autonomous WebVoyager-style agent that navigates and extracts data from sites via visual interactions.

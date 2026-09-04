@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>367 tools</code> <code>283 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>368 tools</code> <code>284 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,7 +70,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (30) · [Terminal agents](#terminal-agents) (18) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
+[Coding agents](#coding-agents) (30) · [Terminal agents](#terminal-agents) (19) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
 
 ### Extend agents
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (44) · [Agent evals](#agent-evals) (23)
+[Agent observability](#agent-observability) (45) · [Agent evals](#agent-evals) (23)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 283 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 284 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -192,6 +192,7 @@ AI developer tools primarily operated from a command-line interface.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
+| [agent-watch](https://github.com/soul-sol/agent-watch) | POSIX shell scripts that classify background coding-agent runs and distinguish transport failures from credential failures before launch. | CLI · Local | [Docs](https://github.com/soul-sol/agent-watch#readme) / [Repo](https://github.com/soul-sol/agent-watch) |
 | [agenttrace](https://luoyuctl.github.io/agenttrace/) | Local CLI/TUI that turns AI coding agent session logs into cost, token, latency, failure, and health reports. | CLI · Local | [Website](https://luoyuctl.github.io/agenttrace/) / [Docs](https://github.com/luoyuctl/agenttrace#readme) / [Repo](https://github.com/luoyuctl/agenttrace) |
 | [Aider](https://aider.chat/) | Open-source terminal pair programmer that edits tracked files in a local Git repository. | CLI · Local | [Website](https://aider.chat/) / [Docs](https://aider.chat/docs/) / [Repo](https://github.com/Aider-AI/aider) |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
@@ -373,6 +374,7 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
 | [Agent Island](https://agent-island.dev) | Local desktop companion that shows quota, cost, and live session state for Claude Code, Codex, Antigravity, Grok, and Cursor in the macOS notch or Windows tray. | Desktop · Local | [Website](https://agent-island.dev) / [Repo](https://github.com/tristan666666/agent-island) |
+| [agent-watch](https://github.com/soul-sol/agent-watch) | POSIX shell scripts that classify background coding-agent runs and distinguish transport failures from credential failures before launch. | CLI · Local | [Docs](https://github.com/soul-sol/agent-watch#readme) / [Repo](https://github.com/soul-sol/agent-watch) |
 | [agenttrace](https://luoyuctl.github.io/agenttrace/) | Local CLI/TUI that turns AI coding agent session logs into cost, token, latency, failure, and health reports. | CLI · Local | [Website](https://luoyuctl.github.io/agenttrace/) / [Docs](https://github.com/luoyuctl/agenttrace#readme) / [Repo](https://github.com/luoyuctl/agenttrace) |
 | [Amazon CloudWatch GenAI Observability](https://aws.amazon.com/cloudwatch/) | CloudWatch capabilities for monitoring and tracing generative AI agents, workloads, and quality metrics on AWS. | API · Web · Hosted | [Website](https://aws.amazon.com/cloudwatch/) / [Docs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GenAI-observability.html) / [Repo](https://github.com/aws-samples/sample-amazon-cloudwatch-generative-ai-observability) |
 | [Arize AX](https://arize.com/ai-agents/agent-observability/) | Commercial agent and LLM observability platform built on Phoenix for tracing, evaluation, and monitoring production AI systems. | API · Web · Hosted | [Website](https://arize.com/ai-agents/agent-observability/) / [Docs](https://arize.com/docs/ax/observe/quickstart-llm) |
@@ -634,6 +636,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-09-04: [agent-watch](https://github.com/soul-sol/agent-watch)
 - 2026-08-28: [SandBase CLI](https://github.com/sandbaseai/cli)
 - 2026-08-17: [Kolega Code](https://github.com/kolega-ai/kolega-code)
 - 2026-08-16: [Agent QA](https://vostride.com/docs/agent-qa)
@@ -641,7 +644,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-07-27: [cursor-bridge](https://github.com/hkc5/cursor-bridge)
 - 2026-07-24: [whatbroke](https://github.com/arthi-arumugam-git/whatbroke)
 - 2026-07-22: [UIZZE](https://uizze.com)
-- 2026-07-16: [Agent Island](https://agent-island.dev)
 
 ## Needs review
 

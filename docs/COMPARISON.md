@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 283 reviewed tools.
+This is the complete comparison matrix for all 284 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,6 +14,7 @@ This is the complete comparison matrix for all 283 reviewed tools.
 | [Agent Skills](https://github.com/datalayer/agent-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/datalayer/agent-skills) |
 | [Agent Skills Specification](https://github.com/agentskills/agentskills) | Agent skill packs | Yes | No | No | No | No | No | [Repo](https://github.com/agentskills/agentskills) |
 | [Agent-E](https://github.com/EmergenceAI/Agent-E) | Browser agents | Yes | No | No | No | No | No | [Repo](https://github.com/EmergenceAI/Agent-E) |
+| [agent-watch](https://github.com/soul-sol/agent-watch) | Agent observability | Yes | Yes | No | Yes | No | No | [Docs](https://github.com/soul-sol/agent-watch#readme) / [Repo](https://github.com/soul-sol/agent-watch) |
 | [Agent-WebVoyager](https://github.com/mrmoxon/Agent-WebVoyager) | Browser agents | Yes | No | No | No | No | No | [Repo](https://github.com/mrmoxon/Agent-WebVoyager) |
 | [Agentic Security](https://github.com/msoedov/agentic_security) | Agent evals | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/msoedov/agentic_security) |
 | [AgentSkills MCP](https://github.com/zouyingcao/agentskills-mcp) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/zouyingcao/agentskills-mcp) |
