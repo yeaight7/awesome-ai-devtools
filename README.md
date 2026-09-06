@@ -82,7 +82,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Run locally/self-host
 
-[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (25) · [Local LLM developer tools](#local-llm-developer-tools) (31)
+[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (26) · [Local LLM developer tools](#local-llm-developer-tools) (31)
 
 ### Automate repo work
 
@@ -461,6 +461,7 @@ Self-hostable platforms and infrastructure for AI developer workflows.
 | [Clawix AI Platform](https://github.com/ClawixAI/clawix#readme) | Open-source, self-hosted multi-agent AI orchestration platform running agents in isolated Docker containers. | CLI · Web · Self-hosted | [Docs](https://github.com/ClawixAI/clawix#readme) / [Repo](https://github.com/ClawixAI/clawix) |
 | [DevBox AI Dev Stack](https://github.com/gl0bal01/devbox#readme) | Zero-trust dev environment repository including an AI dev stack installer for Docker-based tools on a VPS. | CLI · Self-hosted | [Docs](https://github.com/gl0bal01/devbox#readme) / [Repo](https://github.com/gl0bal01/devbox) |
 | [Dify](https://dify.ai) | Open-source LLMOps platform with visual studio for chatbots, workflows, agents, and RAG that supports self-hosted deployment. | API · Web · Hybrid | [Website](https://dify.ai) / [Docs](https://docs.dify.ai) / [Repo](https://github.com/langgenius/dify) |
+| [Gateway From Scratch](https://github.com/yingsuan-ai/gateway-from-scratch) | A minimal OpenAI-compatible API gateway teaching scaffold with multi-provider fallback, written in Node.js for learning gateway internals. | API · Template · Self-hosted | [Docs](https://github.com/yingsuan-ai/gateway-from-scratch/blob/main/docs/architecture.md) / [Repo](https://github.com/yingsuan-ai/gateway-from-scratch) |
 | [Harbor CLI Stack](https://github.com/harbor-ai/harbor#readme) | CLI tool that spins up a local LLM stack (Ollama, Open WebUI, others) with a single command using container orchestration. | CLI · Template · Local | [Docs](https://github.com/harbor-ai/harbor#readme) / [Repo](https://github.com/harbor-ai/harbor) |
 | [Jan Server](https://jan.ai) | Self-hosted agentic AI platform powered by local models with Docker Compose-based infrastructure files. | API · CLI · Framework · Web · Self-hosted | [Website](https://jan.ai) / [Docs](https://github.com/janhq/server#readme) / [Repo](https://github.com/janhq/server) |
 | [Langfuse](https://langfuse.com/docs) | Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations. | API · Web · Hybrid | [Docs](https://langfuse.com/docs) / [Repo](https://github.com/langfuse/langfuse) |
@@ -639,13 +640,13 @@ Directories, curated lists, and registries of AI developer tools and resources.
 ## New Arrivals
 
 - 2026-09-06: [YYLO](https://github.com/yylo-dev/yylo)
+- 2026-09-05: [Gateway From Scratch](https://github.com/yingsuan-ai/gateway-from-scratch)
 - 2026-09-04: [agent-watch](https://github.com/soul-sol/agent-watch)
 - 2026-08-28: [SandBase CLI](https://github.com/sandbaseai/cli)
 - 2026-08-17: [Kolega Code](https://github.com/kolega-ai/kolega-code)
 - 2026-08-16: [Agent QA](https://vostride.com/docs/agent-qa)
 - 2026-08-13: [Atomic Agent](https://atomicagent.io)
 - 2026-07-27: [cursor-bridge](https://github.com/hkc5/cursor-bridge)
-- 2026-07-24: [whatbroke](https://github.com/arthi-arumugam-git/whatbroke)
 
 ## Needs review
 
