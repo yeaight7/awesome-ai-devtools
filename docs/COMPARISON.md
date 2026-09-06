@@ -289,6 +289,7 @@ This is the complete comparison matrix for all 285 reviewed tools.
 | [Winy RAG Sample Stack](https://github.com/mfranzon/winy) | Self-hosted AI dev stacks | Yes | No | Yes | No | No | No | [Docs](https://github.com/mfranzon/winy#readme) / [Repo](https://github.com/mfranzon/winy) |
 | [write-the](https://github.com/Wytamma/write-the) | Documentation agents | Yes | Yes | No | Yes | No | No | [Docs](https://github.com/Wytamma/write-the#readme) / [Repo](https://github.com/Wytamma/write-the) |
 | [wshobson/agents](https://github.com/wshobson/agents) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/wshobson/agents) |
+| [YYLO](https://github.com/yylo-dev/yylo) | Terminal agents | Yes | Yes | No | Yes | No | No | [Docs](https://github.com/yylo-dev/yylo#readme) / [Repo](https://github.com/yylo-dev/yylo) |
 | [Zed](https://zed.dev/) | IDE assistants | Yes | Yes | No | No | Yes | Yes | [Website](https://zed.dev/) / [Docs](https://zed.dev/releases/stable/0.233.5) / [Repo](https://github.com/zed-industries/zed) |
 | [Zenity AI Observability Platform](https://zenity.io/platform/ai-observability) | Agent observability | No | No | No | No | No | No | [Website](https://zenity.io/platform/ai-observability) |
 
