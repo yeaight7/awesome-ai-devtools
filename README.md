@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>368 tools</code> <code>284 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>369 tools</code> <code>285 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,7 +70,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (30) · [Terminal agents](#terminal-agents) (19) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
+[Coding agents](#coding-agents) (30) · [Terminal agents](#terminal-agents) (20) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
 
 ### Extend agents
 
@@ -86,11 +86,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Automate repo work
 
-[Repo automation tools](#repo-automation-tools) (27) · [AI code review tools](#ai-code-review-tools) (10) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
+[Repo automation tools](#repo-automation-tools) (28) · [AI code review tools](#ai-code-review-tools) (10) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 284 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 285 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -211,6 +211,7 @@ AI developer tools primarily operated from a command-line interface.
 | [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop · GitHub app · IDE · MCP · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
 | [Qwen Code](https://qwen.ai/) | Open-source terminal coding agent optimized for Qwen models and large repository tasks. | CLI · Local | [Website](https://qwen.ai/) / [Repo](https://github.com/QwenLM/qwen-code) |
 | [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/) | Local-first Rust CLI/TUI for agent memory lifecycle with SQLite/FTS recall, audit, forgetting, and source-linked evidence. | CLI · Skill Pack · Local | [Website](https://terminallylazy.github.io/Tree-Ring-Memory/) / [Docs](https://terminallylazy.github.io/Tree-Ring-Memory/press-kit.md) / [Repo](https://github.com/TerminallyLazy/Tree-Ring-Memory) |
+| [YYLO](https://github.com/yylo-dev/yylo) | Command-line orchestrator for coding agents where each task runs in a dedicated branch/worktree with typed task, validation, merge, and release-readiness boundaries. | CLI · Local | [Docs](https://github.com/yylo-dev/yylo#readme) / [Repo](https://github.com/yylo-dev/yylo) |
 
 ### IDE assistants
 
@@ -552,6 +553,7 @@ AI tools that automate repository checks, changes, pull requests, or maintenance
 | [stack-pr](https://github.com/modular/stack-pr) | CLI tool that manages stacked pull requests on GitHub, creating and updating PR stacks from a series of commits. | CLI · Local | [Repo](https://github.com/modular/stack-pr) |
 | [stale-repos Action](https://github.com/marketplace/actions/stale-repos) | GitHub Action that identifies inactive repositories in an organization and reports them for archival decisions. | GitHub app | [Docs](https://github.com/marketplace/actions/stale-repos) / [Repo](https://github.com/github/stale-repos) |
 | [UpdateBot](https://github.com/jenkins-x/updatebot) | Bot that scans git repositories and automatically updates dependencies across multiple projects via configuration. | CLI · Local | [Repo](https://github.com/jenkins-x/updatebot) |
+| [YYLO](https://github.com/yylo-dev/yylo) | Command-line orchestrator for coding agents where each task runs in a dedicated branch/worktree with typed task, validation, merge, and release-readiness boundaries. | CLI · Local | [Docs](https://github.com/yylo-dev/yylo#readme) / [Repo](https://github.com/yylo-dev/yylo) |
 
 ### AI code review tools
 
@@ -636,6 +638,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-09-06: [YYLO](https://github.com/yylo-dev/yylo)
 - 2026-09-04: [agent-watch](https://github.com/soul-sol/agent-watch)
 - 2026-08-28: [SandBase CLI](https://github.com/sandbaseai/cli)
 - 2026-08-17: [Kolega Code](https://github.com/kolega-ai/kolega-code)
@@ -643,7 +646,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-08-13: [Atomic Agent](https://atomicagent.io)
 - 2026-07-27: [cursor-bridge](https://github.com/hkc5/cursor-bridge)
 - 2026-07-24: [whatbroke](https://github.com/arthi-arumugam-git/whatbroke)
-- 2026-07-22: [UIZZE](https://uizze.com)
 
 ## Needs review
 
