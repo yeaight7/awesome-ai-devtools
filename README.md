@@ -647,7 +647,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-08-16: [Agent QA](https://vostride.com/docs/agent-qa)
 - 2026-08-13: [Atomic Agent](https://atomicagent.io)
 - 2026-07-27: [cursor-bridge](https://github.com/hkc5/cursor-bridge)
-- 2026-07-24: [whatbroke](https://github.com/arthi-arumugam-git/whatbroke)
 
 ## Needs review
 
