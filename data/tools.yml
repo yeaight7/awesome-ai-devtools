@@ -3671,6 +3671,32 @@
     - https://galileo.ai
     - https://galileo.ai/blog/best-llm-observability-tools-compared-for-2024
     - https://galileo.ai/blog/llm-monitoring-vs-observability-understanding-the-key-differences
+- slug: gateway-from-scratch
+  name: Gateway From Scratch
+  description: A minimal OpenAI-compatible API gateway teaching scaffold with multi-provider fallback, written in Node.js for learning gateway internals.
+  website_url: https://github.com/yingsuan-ai/gateway-from-scratch
+  repo_url: https://github.com/yingsuan-ai/gateway-from-scratch
+  docs_url: https://github.com/yingsuan-ai/gateway-from-scratch/blob/main/docs/architecture.md
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - api
+    - gateway
+    - open-source
+    - openai-compatible
+    - proxy
+    - self-hosted
+  interfaces:
+    - api
+    - template
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-09-05
+  last_checked: 2026-09-05
+  sources:
+    - https://github.com/yingsuan-ai/gateway-from-scratch
 - slug: gemini-cli
   name: Gemini CLI
   description: Open-source terminal coding agent that uses tool calls and MCP servers to work on repository tasks.
