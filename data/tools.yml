@@ -8894,6 +8894,32 @@
   last_checked: 2026-05-08
   sources:
     - https://shelfi.sh/features/github-ai-bot/
+- slug: sillage
+  name: Sillage
+  description: Self-hosted, mobile-first web UI that drives the native Claude Code and Codex CLIs on your machine, with server-side session journals, worktrees, and full-text search.
+  website_url: https://github.com/MarlBurroW/sillage
+  repo_url: https://github.com/MarlBurroW/sillage
+  categories:
+    - coding-agents
+  tags:
+    - claude
+    - coding
+    - docker
+    - open-source
+    - self-hosted
+    - web-app
+  interfaces:
+    - cli
+    - mcp
+    - web
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-09-21
+  last_checked: 2026-09-21
+  sources:
+    - https://github.com/MarlBurroW/sillage
 - slug: skyvern
   name: Skyvern
   description: AI browser automation framework that uses LLMs and computer vision to automate multi-step workflows across websites via an API and SDK.

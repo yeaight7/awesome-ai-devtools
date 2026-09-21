@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>372 tools</code> <code>288 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>373 tools</code> <code>289 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,7 +70,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (30) · [Terminal agents](#terminal-agents) (20) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
+[Coding agents](#coding-agents) (31) · [Terminal agents](#terminal-agents) (20) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
 
 ### Extend agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 288 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 289 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -142,8 +142,8 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [Ruflo](https://github.com/ruvnet/ruflo) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Docs](https://github.com/ruvnet/ruflo#readme) / [Repo](https://github.com/ruvnet/ruflo) |
 | [SandBase CLI](https://github.com/sandbaseai/cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/sandbaseai/cli#readme) / [Repo](https://github.com/sandbaseai/cli) |
 | [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
+| [Sillage](https://github.com/MarlBurroW/sillage) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Repo](https://github.com/MarlBurroW/sillage) |
 | [Smithery CLI](https://smithery.ai) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Website](https://smithery.ai) / [Docs](https://smithery.ai/docs/concepts/cli) / [Repo](https://github.com/smithery-ai/cli) |
-| [Zed](https://zed.dev/) | IDE assistants | Yes | Yes | No | No | Yes | Yes | [Website](https://zed.dev/) / [Docs](https://zed.dev/releases/stable/0.233.5) / [Repo](https://github.com/zed-industries/zed) |
 
 <p align="center"><img src="assets/awesome-ai-devtools-social-preview.gif" alt="Awesome AI Devtools ecosystem map" width="100%"></p>
 
@@ -182,6 +182,7 @@ Agentic tools that can inspect, modify, and reason about source code.
 | [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE · Web · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) / [Repo](https://github.com/smallcloudai/refact-vscode) |
 | [Roo Code](https://roocode.com/) | Open-source coding agent for VS Code and cloud agents that can code, review, and automate repository tasks. | CLI · IDE · Web · Hybrid | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
 | [Ruflo](https://github.com/ruvnet/ruflo) | Enterprise-grade multi-agent orchestration framework for Claude that deploys 60+ specialized AI agents with shared memory, RAG, and swarm coordination across machines and teams. | API · CLI · Web · Self-hosted | [Docs](https://github.com/ruvnet/ruflo#readme) / [Repo](https://github.com/ruvnet/ruflo) |
+| [Sillage](https://github.com/MarlBurroW/sillage) | Self-hosted, mobile-first web UI that drives the native Claude Code and Codex CLIs on your machine, with server-side session journals, worktrees, and full-text search. | CLI · MCP · Web · Self-hosted | [Repo](https://github.com/MarlBurroW/sillage) |
 | [SWE-agent](https://swe-agent.com/) | Open-source agent for resolving real repository issues and automating software engineering tasks. | CLI · Local | [Website](https://swe-agent.com/) / [Docs](https://swe-agent.com/latest/) / [Repo](https://github.com/swe-agent/swe-agent) |
 | [Sweep](https://sweep.dev/) | JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration. | IDE · Hybrid | [Website](https://sweep.dev/) / [Docs](https://docs.sweep.dev/) / [Repo](https://github.com/sweepai/sweep) |
 | [Windsurf Editor](https://windsurf.com/) | AI code editor with repo-aware agent workflows for multi-file edits and developer automation. | Desktop · Hybrid | [Website](https://windsurf.com/) / [Docs](https://docs.windsurf.com/) |
@@ -641,6 +642,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-09-21: [Sillage](https://github.com/MarlBurroW/sillage)
 - 2026-09-20: [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)
 - 2026-09-18: [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark)
 - 2026-09-06: [YYLO](https://github.com/yylo-dev/yylo)
@@ -648,7 +650,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-09-04: [agent-watch](https://github.com/soul-sol/agent-watch)
 - 2026-08-28: [SandBase CLI](https://github.com/sandbaseai/cli)
 - 2026-08-17: [Kolega Code](https://github.com/kolega-ai/kolega-code)
-- 2026-08-16: [Agent QA](https://vostride.com/docs/agent-qa)
 
 ## Needs review
 

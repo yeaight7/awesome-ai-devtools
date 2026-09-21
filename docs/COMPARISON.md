@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 288 reviewed tools.
+This is the complete comparison matrix for all 289 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -251,6 +251,7 @@ This is the complete comparison matrix for all 288 reviewed tools.
 | [semantic-release](https://semantic-release.gitbook.io/semantic-release/recipes/ci-configurations/github-actions) | Repo automation tools | Yes | Yes | No | Yes | No | No | [Docs](https://semantic-release.gitbook.io/semantic-release/recipes/ci-configurations/github-actions) / [Repo](https://github.com/semantic-release/semantic-release) |
 | [ServiceGraph MCP](https://github.com/servicegraph/mcp-server) | MCP servers | Yes | No | No | No | No | Yes | [Repo](https://github.com/servicegraph/mcp-server) |
 | [Shelfi AI GitHub Bot](https://shelfi.sh/features/github-ai-bot/) | Repo automation tools | No | No | No | No | No | No | [Docs](https://shelfi.sh/features/github-ai-bot/) |
+| [Sillage](https://github.com/MarlBurroW/sillage) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Repo](https://github.com/MarlBurroW/sillage) |
 | [Skyvern](https://pypi.org/project/skyvern/0.1.70/) | Browser agents | Yes | No | No | No | No | No | [Docs](https://pypi.org/project/skyvern/0.1.70/) / [Repo](https://github.com/Skyvern-AI/skyvern) |
 | [Smithery CLI](https://smithery.ai) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Website](https://smithery.ai) / [Docs](https://smithery.ai/docs/concepts/cli) / [Repo](https://github.com/smithery-ai/cli) |
 | [Smithery MCP Installer Server](https://github.com/smithery-ai/smithery-cli-mcp) | MCP tooling | Yes | No | Yes | No | No | Yes | [Repo](https://github.com/smithery-ai/smithery-cli-mcp) |
