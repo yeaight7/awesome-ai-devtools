@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 289 reviewed tools.
+This is the complete comparison matrix for all 290 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -188,6 +188,7 @@ This is the complete comparison matrix for all 289 reviewed tools.
 | [mlx-lm](https://github.com/ml-explore/mlx-lm#readme) | Local LLM developer tools | Yes | Yes | No | Yes | No | No | [Docs](https://github.com/ml-explore/mlx-lm#readme) / [Repo](https://github.com/ml-explore/mlx-lm) |
 | [Model Context Protocol Specification Repo](https://modelcontextprotocol.io) | MCP tooling | Yes | No | No | No | No | Yes | [Website](https://modelcontextprotocol.io) / [Repo](https://github.com/modelcontextprotocol/modelcontextprotocol) |
 | [Model Context Protocol TypeScript SDK](https://modelcontextprotocol.io/docs/sdk) | MCP tooling | Yes | No | No | No | No | Yes | [Website](https://modelcontextprotocol.io/docs/sdk) / [Docs](https://www.npmjs.com/package/@modelcontextprotocol/sdk) / [Repo](https://github.com/modelcontextprotocol/typescript-sdk) |
+| [molt](https://solvyx.xyz/work/molt) | Coding agents | Yes | Yes | No | Yes | No | No | [Website](https://solvyx.xyz/work/molt) / [Repo](https://github.com/solvyxtech/molt) |
 | [Monocle](https://monocle2ai.org) | Agent observability | Yes | Yes | Yes | No | No | No | [Website](https://monocle2ai.org) / [Docs](https://docs.monocle.sh) / [Repo](https://github.com/monocle2ai/monocle) |
 | [Next.js DevTools MCP](https://github.com/vercel/next-devtools-mcp) | MCP servers | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/vercel/next-devtools-mcp) |
 | [Nosia](https://nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://nosia.ai) / [Docs](https://nosia.ai/readme/) |

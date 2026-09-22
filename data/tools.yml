@@ -6668,6 +6668,34 @@
     - https://modelcontextprotocol.info/docs/quickstart/server/
     - https://modelcontextprotocol.io/docs/sdk
     - https://www.npmjs.com/package/@modelcontextprotocol/sdk
+- slug: molt
+  name: molt
+  description: Open-source coding agent for terminal and desktop that refuses done until project checks pass on disk.
+  website_url: https://solvyx.xyz/work/molt
+  repo_url: https://github.com/solvyxtech/molt
+  docs_url: https://github.com/solvyxtech/molt
+  categories:
+    - coding-agents
+    - terminal-agents
+  primary_category: coding-agents
+  tags:
+    - agentic-coding
+    - coding
+    - open-source
+    - repo-editing
+    - terminal-agent
+  interfaces:
+    - cli
+    - desktop
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-09-22
+  last_checked: 2026-09-22
+  sources:
+    - https://github.com/solvyxtech/molt
+    - https://solvyx.xyz/work/molt
 - slug: monocle
   name: Monocle
   description: Linux Foundation project providing a framework to trace GenAI app code and agent workflows with minimal code changes.
