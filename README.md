@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>373 tools</code> <code>289 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>374 tools</code> <code>290 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,7 +70,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (31) · [Terminal agents](#terminal-agents) (20) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
+[Coding agents](#coding-agents) (32) · [Terminal agents](#terminal-agents) (21) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
 
 ### Extend agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 289 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 290 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -174,6 +174,7 @@ Agentic tools that can inspect, modify, and reason about source code.
 | [Jules](https://jules.google/) | Google asynchronous coding agent for GitHub that fixes bugs, adds features, and updates documentation. | API · Web · Hosted | [Website](https://jules.google/) / [Docs](https://jules.google/docs/) |
 | [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
 | [Kolega Code](https://github.com/kolega-ai/kolega-code) | Open-source terminal coding agent where the model writes its own multi-agent workflows (Gigacode) for repo-wide tasks. | CLI · Local | [Docs](https://kolega-ai.github.io/kolega-code/) / [Repo](https://github.com/kolega-ai/kolega-code) |
+| [molt](https://solvyx.xyz/work/molt) | Open-source coding agent for terminal and desktop that refuses done until project checks pass on disk. | CLI · Desktop · Local | [Website](https://solvyx.xyz/work/molt) / [Repo](https://github.com/solvyxtech/molt) |
 | [OpenAI Codex CLI](https://github.com/openai/codex) | Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace. | CLI · Hybrid | [Docs](https://developers.openai.com/codex/cli/) / [Repo](https://github.com/openai/codex) |
 | [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop · GitHub app · IDE · MCP · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
 | [OpenHands](https://openhands.dev/) | Open-source software agent platform with GUI, CLI, SDK, and self-hosted or cloud deployment options. | API · CLI · Web · Hybrid | [Website](https://openhands.dev/) / [Docs](https://docs.openhands.dev/overview/quickstart) / [Repo](https://github.com/OpenHands/OpenHands) |
@@ -208,6 +209,7 @@ AI developer tools primarily operated from a command-line interface.
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Open-source terminal coding agent that uses tool calls and MCP servers to work on repository tasks. | CLI · MCP · Local | [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
 | [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
 | [Kolega Code](https://github.com/kolega-ai/kolega-code) | Open-source terminal coding agent where the model writes its own multi-agent workflows (Gigacode) for repo-wide tasks. | CLI · Local | [Docs](https://kolega-ai.github.io/kolega-code/) / [Repo](https://github.com/kolega-ai/kolega-code) |
+| [molt](https://solvyx.xyz/work/molt) | Open-source coding agent for terminal and desktop that refuses done until project checks pass on disk. | CLI · Desktop · Local | [Website](https://solvyx.xyz/work/molt) / [Repo](https://github.com/solvyxtech/molt) |
 | [OpenAI Codex CLI](https://github.com/openai/codex) | Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace. | CLI · Hybrid | [Docs](https://developers.openai.com/codex/cli/) / [Repo](https://github.com/openai/codex) |
 | [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop · GitHub app · IDE · MCP · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
 | [Qwen Code](https://qwen.ai/) | Open-source terminal coding agent optimized for Qwen models and large repository tasks. | CLI · Local | [Website](https://qwen.ai/) / [Repo](https://github.com/QwenLM/qwen-code) |
@@ -642,6 +644,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-09-22: [molt](https://solvyx.xyz/work/molt)
 - 2026-09-21: [Sillage](https://github.com/MarlBurroW/sillage)
 - 2026-09-20: [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)
 - 2026-09-18: [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark)
@@ -649,7 +652,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-09-05: [Gateway From Scratch](https://github.com/yingsuan-ai/gateway-from-scratch)
 - 2026-09-04: [agent-watch](https://github.com/soul-sol/agent-watch)
 - 2026-08-28: [SandBase CLI](https://github.com/sandbaseai/cli)
-- 2026-08-17: [Kolega Code](https://github.com/kolega-ai/kolega-code)
 
 ## Needs review
 
