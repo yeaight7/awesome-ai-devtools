@@ -2908,6 +2908,48 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/marketplace/actions/dependencies-autoupdate
+- slug: deploycheck
+  name: DeployCheck
+  description: Pre-deploy audit API for link checking, llms.txt auditing, and HTTPS migration checks with machine-readable pass/fail verdicts.
+  website_url: https://github.com/cjaime708/x402-extract-service
+  categories:
+    - ai-devtools-security
+  tags:
+    - api
+    - security
+    - web-app
+  interfaces:
+    - api
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: community addition; source_model=proprietary."
+  added: 2026-09-26
+  last_checked: 2026-09-26
+  sources:
+    - https://github.com/cjaime708/x402-extract-service
+- slug: deployreview
+  name: DeployReview
+  description: Poe-hosted AI bot that reviews pull request diffs and flags bugs, style issues, and security risks before merge.
+  website_url: https://poe.com/DeployReview
+  categories:
+    - ai-code-review-tools
+  tags:
+    - code-review
+    - debugging
+    - pull-requests
+  interfaces:
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: community addition; source_model=proprietary."
+  added: 2026-09-26
+  last_checked: 2026-09-26
+  sources:
+    - https://poe.com/DeployReview
 - slug: devbox-ai-dev-stack
   name: DevBox AI Dev Stack
   description: Zero-trust dev environment repository including an AI dev stack installer for Docker-based tools on a VPS.
@@ -3008,6 +3050,27 @@
   last_checked: 2026-05-15
   sources:
     - https://github.com/diffblue/cover-community-edition
+- slug: diffexplainerhq
+  name: DiffExplainerHQ
+  description: Poe-hosted AI bot that explains code diffs and pull request changes in plain language for reviewers.
+  website_url: https://poe.com/DiffExplainerHQ
+  categories:
+    - documentation-agents
+  tags:
+    - code-review
+    - debugging
+    - documentation
+  interfaces:
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: community addition; source_model=proprietary."
+  added: 2026-09-26
+  last_checked: 2026-09-26
+  sources:
+    - https://poe.com/DiffExplainerHQ
 - slug: dify
   name: Dify
   description: Open-source LLMOps platform with visual studio for chatbots, workflows, agents, and RAG that supports self-hosted deployment.
@@ -5440,6 +5503,27 @@
   sources:
     - https://github.com/simonw/llm-llamafile
     - https://github.com/simonw/llm-llamafile#readme
+- slug: llmauditor
+  name: LLMAuditor
+  description: Poe-hosted AI bot that audits LLM system prompts and llms.txt files for clarity, quality, and common mistakes.
+  website_url: https://poe.com/LLMAuditor
+  categories:
+    - prompt-workflow-libraries
+  tags:
+    - llm-apps
+    - prompt-management
+    - prompts
+  interfaces:
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: community addition; source_model=proprietary."
+  added: 2026-09-26
+  last_checked: 2026-09-26
+  sources:
+    - https://poe.com/LLMAuditor
 - slug: lm-studio
   name: LM Studio
   description: Cross-platform desktop app and SDKs to discover, run, and serve local LLMs with an OpenAI-compatible server mode.
