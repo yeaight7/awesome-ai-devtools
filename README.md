@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>380 tools</code> <code>292 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>381 tools</code> <code>293 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -74,7 +74,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (19) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (27)
+[MCP servers](#mcp-servers) (20) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (27)
 
 ### Operate agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 292 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 293 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -129,6 +129,7 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
 | [Goose](https://goose-docs.ai/) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Website](https://goose-docs.ai/) / [Docs](https://goose-docs.ai/docs/quickstart/) / [Repo](https://github.com/aaif-goose/goose) |
 | [Harbor CLI Stack](https://github.com/harbor-ai/harbor#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://github.com/harbor-ai/harbor#readme) / [Repo](https://github.com/harbor-ai/harbor) |
+| [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) | MCP servers | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/louis030195/hyperconsciousness#readme) / [Repo](https://github.com/louis030195/hyperconsciousness) |
 | [IBM MCP CLI](https://github.com/IBM/mcp-cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/IBM/mcp-cli) |
 | [Jan Server](https://jan.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://jan.ai) / [Docs](https://github.com/janhq/server#readme) / [Repo](https://github.com/janhq/server) |
 | [KoboldCpp](https://koboldcpp.com) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://koboldcpp.com) / [Docs](https://github.com/LostRuins/koboldcpp/wiki) / [Repo](https://github.com/LostRuins/koboldcpp) |
@@ -143,7 +144,6 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [SandBase CLI](https://github.com/sandbaseai/cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/sandbaseai/cli#readme) / [Repo](https://github.com/sandbaseai/cli) |
 | [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
 | [Sillage](https://github.com/MarlBurroW/sillage) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Repo](https://github.com/MarlBurroW/sillage) |
-| [Smithery CLI](https://smithery.ai) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Website](https://smithery.ai) / [Docs](https://smithery.ai/docs/concepts/cli) / [Repo](https://github.com/smithery-ai/cli) |
 
 <p align="center"><img src="assets/awesome-ai-devtools-social-preview.gif" alt="Awesome AI Devtools ecosystem map" width="100%"></p>
 
@@ -290,6 +290,7 @@ Model Context Protocol servers that expose tools, resources, or prompts.
 | [Exa MCP Server](https://github.com/exa-labs/exa-mcp-server) | MCP server for connecting AI assistants to Exa web search, crawling, and research tools. | MCP · Hosted | [Repo](https://github.com/exa-labs/exa-mcp-server) |
 | [GitHub MCP Server](https://github.com/github/github-mcp-server) | Official GitHub MCP server for repository access, issues, pull requests, code analysis, and workflow automation. | MCP · Hybrid | [Repo](https://github.com/github/github-mcp-server) |
 | [Google MCP Servers](https://github.com/google/mcp) | Collection of Google MCP servers for Google Cloud services such as BigQuery, Maps, Cloud SQL, and Cloud Storage. | MCP · Hosted | [Repo](https://github.com/google/mcp) |
+| [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) | Developer-alpha Rust knowledge store for agent notes and task handoffs, with encrypted append-only records and scoped, expiring MCP access. | API · CLI · MCP · Local | [Docs](https://github.com/louis030195/hyperconsciousness#readme) / [Repo](https://github.com/louis030195/hyperconsciousness) |
 | [MCP Bundles (MCPB)](https://modelcontextprotocol.io/docs/develop/build-with-agent-skills) | CLI tool for packaging local MCP servers into installable .mcpb files. | CLI · Local | [Docs](https://modelcontextprotocol.io/docs/develop/build-with-agent-skills) / [Repo](https://github.com/modelcontextprotocol/mcpb) |
 | [Next.js DevTools MCP](https://github.com/vercel/next-devtools-mcp) | MCP server for exposing Next.js development tools and diagnostics to coding agents. | MCP · Local | [Repo](https://github.com/vercel/next-devtools-mcp) |
 | [Playwright Code Runner](https://playwright.dev) | MCP-related tool for running Playwright code as part of browser automation workflows. | MCP · Local | [Website](https://playwright.dev) / [Repo](https://github.com/exe-language/playwright-mcp) |
@@ -647,6 +648,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-09-30: [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness)
 - 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)
 - 2026-09-26: [Tokenade](https://tokenade.net/en)
 - 2026-09-22: [molt](https://solvyx.xyz/work/molt)
@@ -654,7 +656,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-09-20: [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)
 - 2026-09-18: [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark)
 - 2026-09-06: [YYLO](https://github.com/yylo-dev/yylo)
-- 2026-09-05: [Gateway From Scratch](https://github.com/yingsuan-ai/gateway-from-scratch)
 
 ## Needs review
 

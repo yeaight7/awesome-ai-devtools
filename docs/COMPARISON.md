@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 292 reviewed tools.
+This is the complete comparison matrix for all 293 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -134,6 +134,7 @@ This is the complete comparison matrix for all 292 reviewed tools.
 | [helderberto/skills](https://github.com/helderberto/skills) | Agent skill packs | Yes | Yes | No | No | No | No | [Repo](https://github.com/helderberto/skills) |
 | [Helicone](https://www.helicone.ai) | Agent observability | Yes | No | Yes | No | No | No | [Website](https://www.helicone.ai) / [Docs](https://docs.helicone.ai) / [Repo](https://github.com/Helicone/helicone) |
 | [HyperAgent](https://github.com/hyperbrowserai/HyperAgent) | Browser agents | Yes | No | No | Yes | No | No | [Repo](https://github.com/hyperbrowserai/HyperAgent) |
+| [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) | MCP servers | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/louis030195/hyperconsciousness#readme) / [Repo](https://github.com/louis030195/hyperconsciousness) |
 | [IBM Instana GenAI Observability](https://www.ibm.com/instana) | Agent observability | No | No | No | No | No | No | [Website](https://www.ibm.com/instana) / [Docs](https://www.ibm.com/docs/en/instana-observability) |
 | [IBM MCP CLI](https://github.com/IBM/mcp-cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/IBM/mcp-cli) |
 | [Intel Neural Compressor](https://github.com/intel/neural-compressor) | Local LLM developer tools | Yes | Yes | No | No | No | No | [Docs](https://intel.github.io/neural-compressor) / [Repo](https://github.com/intel/neural-compressor) |
