@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>383 tools</code> <code>295 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>384 tools</code> <code>296 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (24)
+[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (25)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 295 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 296 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -440,6 +440,7 @@ Evaluation frameworks and systems for agents, LLM apps, and developer workflows.
 | [Agentic Security](https://github.com/msoedov/agentic_security) | Open-source vulnerability scanner and red-teaming kit for LLM agents and workflows focused on security evaluation. | CLI · Framework · Library | [Repo](https://github.com/msoedov/agentic_security) |
 | [Async Labs LLM Eval (PHP)](https://github.com/Aysnc-Labs/llm-eval) | PHP package for evaluating LLM outputs to test prompts and validate responses in PHP applications. | Framework · Library | [Repo](https://github.com/Aysnc-Labs/llm-eval) |
 | [AWS Agent Evaluation](https://awslabs.github.io/agent-evaluation/) | Generative AI-powered framework from AWS Labs to test virtual agents via multi-turn conversations and CI-friendly workflows. | CLI · Framework · Library | [Docs](https://awslabs.github.io/agent-evaluation/) / [Repo](https://github.com/awslabs/agent-evaluation) |
+| [cap-evolve](https://skillberry-ai.github.io/cap-evolve/) | Optimizes an agent's prompts, tool code, and skills from failed evaluation traces, gated by a held-out significance test. | CLI · Framework · Skill Pack · Local | [Docs](https://skillberry-ai.github.io/cap-evolve/) / [Repo](https://github.com/skillberry-ai/cap-evolve) |
 | [DeepEval](https://deepeval.com) | Python framework for unit testing and benchmarking LLM applications, RAG systems, and agents with research-backed metrics. | CLI · Framework · Library | [Website](https://deepeval.com) / [Repo](https://github.com/confident-ai/deepeval) |
 | [DeepTeam](https://github.com/confident-ai/deepteam) | Open-source LLM red teaming framework for simulating attacks and evaluating safety of LLM systems using DeepEval metrics. | CLI · Framework · Library | [Repo](https://github.com/confident-ai/deepteam) |
 | [Guardrails AI](https://github.com/ShreyaR/guardrails) | Python library for enforcing structured outputs, validations, and safety constraints on LLM and agent responses. | Framework · Library · Local | [Docs](https://www.guardrailsai.com) / [Repo](https://github.com/ShreyaR/guardrails) |
@@ -651,6 +652,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 - 2026-10-05: [Context Guru](https://rossoctl.github.io/context-guru/)
 - 2026-10-05: [Orbi](https://orbi.build/)
 - 2026-10-03: [LogNorm](https://lognorm.com)
@@ -658,7 +660,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-09-26: [Tokenade](https://tokenade.net/en)
 - 2026-09-22: [molt](https://solvyx.xyz/work/molt)
 - 2026-09-21: [Sillage](https://github.com/MarlBurroW/sillage)
-- 2026-09-20: [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)
 
 ## Needs review
 
