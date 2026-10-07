@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 296 reviewed tools.
+This is the complete comparison matrix for all 297 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -194,6 +194,7 @@ This is the complete comparison matrix for all 296 reviewed tools.
 | [Model Context Protocol TypeScript SDK](https://modelcontextprotocol.io/docs/sdk) | MCP tooling | Yes | No | No | No | No | Yes | [Website](https://modelcontextprotocol.io/docs/sdk) / [Docs](https://www.npmjs.com/package/@modelcontextprotocol/sdk) / [Repo](https://github.com/modelcontextprotocol/typescript-sdk) |
 | [molt](https://solvyx.xyz/work/molt) | Coding agents | Yes | Yes | No | Yes | No | No | [Website](https://solvyx.xyz/work/molt) / [Repo](https://github.com/solvyxtech/molt) |
 | [Monocle](https://monocle2ai.org) | Agent observability | Yes | Yes | Yes | No | No | No | [Website](https://monocle2ai.org) / [Docs](https://docs.monocle.sh) / [Repo](https://github.com/monocle2ai/monocle) |
+| [mu](https://github.com/qybaihe/mu) | Coding agents | Yes | Yes | No | Yes | No | No | [Docs](https://github.com/qybaihe/mu/tree/main/docs) / [Repo](https://github.com/qybaihe/mu) |
 | [Next.js DevTools MCP](https://github.com/vercel/next-devtools-mcp) | MCP servers | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/vercel/next-devtools-mcp) |
 | [Nosia](https://nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://nosia.ai) / [Docs](https://nosia.ai/readme/) |
 | [Nosia Installer Stack](https://get.nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://get.nosia.ai) / [Docs](https://nosia.ai/readme/) |

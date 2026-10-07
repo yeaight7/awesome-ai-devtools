@@ -6937,6 +6937,35 @@
   last_checked: 2026-05-15
   sources:
     - https://github.com/monodoc-org/monodoc
+- slug: mu
+  name: mu
+  description: Open-source coding agent built on pi in which a small judge model answers routine decisions, such as which tool output enters the context.
+  website_url: https://github.com/qybaihe/mu
+  repo_url: https://github.com/qybaihe/mu
+  docs_url: https://github.com/qybaihe/mu/tree/main/docs
+  categories:
+    - coding-agents
+    - terminal-agents
+  primary_category: coding-agents
+  tags:
+    - agentic-coding
+    - coding
+    - desktop-app
+    - open-source
+    - repo-editing
+    - terminal-agent
+  interfaces:
+    - cli
+    - desktop
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-10-08
+  last_checked: 2026-10-08
+  sources:
+    - https://github.com/qybaihe/mu
+    - https://www.npmjs.com/package/mu-agent
 - slug: newrelic-ai-monitoring
   name: New Relic AI Monitoring
   description: Example instruments and quickstarts for sending LLM and agent telemetry into New Relic for tracing and dashboards.
