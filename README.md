@@ -654,7 +654,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
-- 2026-10-08: [mu](https://github.com/qybaihe/mu)
+- 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 - 2026-10-05: [Context Guru](https://rossoctl.github.io/context-guru/)
 - 2026-10-05: [Orbi](https://orbi.build/)

@@ -6959,10 +6959,10 @@
     - desktop
   deployment: local
   source_model: open-source
-  license: MIT
+  license: MIT AND Apache-2.0
   curation_status: reviewed
-  added: 2026-10-08
-  last_checked: 2026-10-08
+  added: 2026-10-07
+  last_checked: 2026-10-07
   sources:
     - https://github.com/qybaihe/mu
     - https://www.npmjs.com/package/mu-agent
