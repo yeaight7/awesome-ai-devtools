@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 297 reviewed tools.
+This is the complete comparison matrix for all 298 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -277,6 +277,7 @@ This is the complete comparison matrix for all 297 reviewed tools.
 | [Synaplan AI Platform](https://synaplan.com/solutions/developers) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | No | [Website](https://synaplan.com/solutions/developers) / [Docs](https://synaplan.com/docs) |
 | [Tabby](https://www.tabbyml.com/) | Self-hosted AI dev stacks | Yes | No | Yes | No | Yes | No | [Website](https://www.tabbyml.com/) / [Docs](https://tabby.tabbyml.com/docs/) / [Repo](https://github.com/TabbyML/tabby) |
 | [TabbyAPI](https://github.com/theroyallab/tabbyAPI#readme) | Local LLM developer tools | Yes | No | Yes | No | No | No | [Docs](https://github.com/theroyallab/tabbyAPI#readme) / [Repo](https://github.com/theroyallab/tabbyAPI) |
+| [Tale](https://tale.dev) | Self-hosted AI dev stacks | Yes | No | Yes | No | No | Yes | [Website](https://tale.dev) / [Docs](https://docs.tale.dev) / [Repo](https://github.com/tale-project/tale) |
 | [Tarsier](https://github.com/reworkd/tarsier) | Browser agents | Yes | No | No | No | No | No | [Repo](https://github.com/reworkd/tarsier) |
 | [Text Generation Inference](https://huggingface.co/docs/text-generation-inference) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Website](https://huggingface.co/docs/text-generation-inference) / [Docs](https://huggingface.co/docs/text-generation-inference/index) / [Repo](https://github.com/huggingface/text-generation-inference) |
 | [text-generation-webui](https://github.com/oobabooga/text-generation-webui#readme) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Docs](https://github.com/oobabooga/text-generation-webui#readme) / [Repo](https://github.com/oobabooga/text-generation-webui) |

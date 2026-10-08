@@ -9724,6 +9724,37 @@
     - https://github.com/theroyallab/tabbyAPI
     - https://github.com/theroyallab/tabbyAPI#readme
     - https://github.com/turboderp-org/exllamav2
+- slug: tale
+  name: Tale
+  description: Self-hosted project workspace for assigning tasks to AI agents, sharing context, and reviewing reports and deliverables.
+  website_url: https://tale.dev
+  repo_url: https://github.com/tale-project/tale
+  docs_url: https://docs.tale.dev
+  categories:
+    - mcp-servers
+    - self-hosted-ai-dev-stacks
+  primary_category: self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - automation
+    - mcp
+    - self-hosted
+  interfaces:
+    - api
+    - mcp
+    - web
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  review_notes: Metadata checked against official sources; no independent runtime testing. Community software is free to self-host; infrastructure and model usage cost separately.
+  added: 2026-10-08
+  last_checked: 2026-10-08
+  sources:
+    - https://docs.tale.dev/develop/mcp-endpoint
+    - https://docs.tale.dev/platform/projects/project-agents
+    - https://docs.tale.dev/self-hosted/install/quickstart
+    - https://github.com/tale-project/tale
 - slug: tarsier
   name: Tarsier
   description: Vision utility library that gives web interaction agents structured, OCR-backed views of pages by tagging interactable elements.
