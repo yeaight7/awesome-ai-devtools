@@ -2326,6 +2326,32 @@
   last_checked: 2026-05-15
   sources:
     - https://github.com/THUDM/CodeGeeX2
+- slug: codeotter
+  name: CodeOtter
+  description: Self-hosted AI pull request reviewer for GitHub, Forgejo and Gitea that scores PRs, enforces merge gates and posts inline fixes using local or API models.
+  website_url: https://codeotter.io/
+  repo_url: https://github.com/dharmeshgurnani/CodeOtter
+  docs_url: https://codeotter.io/docs/
+  categories:
+    - ai-code-review-tools
+  tags:
+    - code-review
+    - docker
+    - github
+    - local-llm
+    - pull-requests
+    - self-hosted
+  interfaces:
+    - web
+  deployment: self-hosted
+  source_model: source-available
+  license: Elastic-2.0
+  curation_status: reviewed
+  added: 2026-10-08
+  last_checked: 2026-10-08
+  sources:
+    - https://codeotter.io/
+    - https://github.com/dharmeshgurnani/CodeOtter
 - slug: coderabbit
   name: CodeRabbit
   description: AI code review agent for pull requests, local IDE review, and terminal-based review workflows.
