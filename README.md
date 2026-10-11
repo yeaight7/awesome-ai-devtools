@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>385 tools</code> <code>297 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>386 tools</code> <code>298 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -86,11 +86,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Automate repo work
 
-[Repo automation tools](#repo-automation-tools) (28) · [AI code review tools](#ai-code-review-tools) (11) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
+[Repo automation tools](#repo-automation-tools) (28) · [AI code review tools](#ai-code-review-tools) (12) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 297 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 298 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -578,6 +578,7 @@ AI-assisted tools for reviewing changes, pull requests, and code quality.
 | --- | --- | --- | --- |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
 | [Bito AI Code Review Agent](https://bito.ai/product/ai-code-review-agent/) | Repository review agent for GitHub, GitLab, and Bitbucket pull or merge request workflows. | GitHub app · Hosted | [Website](https://bito.ai/product/ai-code-review-agent/) / [Docs](https://docs.bito.ai/ai-code-reviews-in-git/install-run-using-bito-cloud/guide-for-github) |
+| [CodeOtter](https://codeotter.io/) | Self-hosted AI pull request reviewer for GitHub, Forgejo and Gitea that scores PRs, enforces merge gates and posts inline fixes using local or API models. | Web · Self-hosted | [Website](https://codeotter.io/) / [Docs](https://codeotter.io/docs/) / [Repo](https://github.com/dharmeshgurnani/CodeOtter) |
 | [CodeRabbit](https://coderabbit.ai/) | AI code review agent for pull requests, local IDE review, and terminal-based review workflows. | CLI · GitHub app · IDE · Hybrid | [Website](https://coderabbit.ai/) / [Docs](https://docs.coderabbit.ai/) |
 | [Continue](https://docs.continue.dev/) | Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows. | CLI · IDE · Hybrid | [Docs](https://docs.continue.dev/) / [Repo](https://github.com/continuedev/continue) |
 | [Factory Droid](https://factory.ai/) | Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows. | API · CLI · Desktop · Hybrid | [Website](https://factory.ai/) / [Docs](https://docs.factory.ai/welcome) |
@@ -654,6 +655,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-10-08: [CodeOtter](https://codeotter.io/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 - 2026-10-05: [Context Guru](https://rossoctl.github.io/context-guru/)
@@ -661,7 +663,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-03: [LogNorm](https://lognorm.com)
 - 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)
 - 2026-09-26: [Tokenade](https://tokenade.net/en)
-- 2026-09-22: [molt](https://solvyx.xyz/work/molt)
 
 ## Needs review
 
