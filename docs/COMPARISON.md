@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 297 reviewed tools.
+This is the complete comparison matrix for all 298 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -78,6 +78,7 @@ This is the complete comparison matrix for all 297 reviewed tools.
 | [Confident AI](https://www.confident-ai.com) | Agent observability | No | No | No | No | No | No | [Website](https://www.confident-ai.com) / [Docs](https://www.confident-ai.com/docs) |
 | [Context Guru](https://rossoctl.github.io/context-guru/) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Docs](https://rossoctl.github.io/context-guru/) / [Repo](https://github.com/rossoctl/context-guru) |
 | [Context7 MCP Server](https://context7.com) | MCP servers | Yes | No | No | No | No | Yes | [Website](https://context7.com) / [Repo](https://github.com/upstash/context7) |
+| [contexttax](https://github.com/henrikdukefoss/contexttax) | Agent observability | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/henrikdukefoss/contexttax#readme) / [Repo](https://github.com/henrikdukefoss/contexttax) |
 | [Continue](https://docs.continue.dev/) | IDE assistants | Yes | No | No | Yes | Yes | No | [Docs](https://docs.continue.dev/) / [Repo](https://github.com/continuedev/continue) |
 | [Cursor](https://cursor.com/) | IDE assistants | No | No | No | Yes | Yes | Yes | [Website](https://cursor.com/) / [Docs](https://cursor.com/docs) |
 | [Cursor Rules](https://github.com/survivorforge/cursor-rules) | Agent skill packs | Yes | Yes | No | No | No | No | [Repo](https://github.com/survivorforge/cursor-rules) |
