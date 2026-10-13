@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 297 reviewed tools.
+This is the complete comparison matrix for all 298 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -297,6 +297,7 @@ This is the complete comparison matrix for all 297 reviewed tools.
 | [WhyLabs OpenLLMTelemetry](https://whylabs.ai) | Agent observability | Yes | Yes | No | No | No | No | [Website](https://whylabs.ai) / [Docs](https://docs.whylabs.ai/docs/openllmtelemetry) / [Repo](https://github.com/whylabs/openllmtelemetry) |
 | [Windsurf Editor](https://windsurf.com/) | IDE assistants | No | No | No | No | Yes | No | [Website](https://windsurf.com/) / [Docs](https://docs.windsurf.com/) |
 | [Winy RAG Sample Stack](https://github.com/mfranzon/winy) | Self-hosted AI dev stacks | Yes | No | Yes | No | No | No | [Docs](https://github.com/mfranzon/winy#readme) / [Repo](https://github.com/mfranzon/winy) |
+| [workkit](https://github.com/ITW-Creative-Works/workkit) | Agent skill packs | No | Yes | No | Yes | No | No | [Docs](https://github.com/ITW-Creative-Works/workkit/blob/main/docs/project-state.md) / [Repo](https://github.com/ITW-Creative-Works/workkit) |
 | [write-the](https://github.com/Wytamma/write-the) | Documentation agents | Yes | Yes | No | Yes | No | No | [Docs](https://github.com/Wytamma/write-the#readme) / [Repo](https://github.com/Wytamma/write-the) |
 | [wshobson/agents](https://github.com/wshobson/agents) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/wshobson/agents) |
 | [YYLO](https://github.com/yylo-dev/yylo) | Terminal agents | Yes | Yes | No | Yes | No | No | [Docs](https://github.com/yylo-dev/yylo#readme) / [Repo](https://github.com/yylo-dev/yylo) |

@@ -10551,6 +10551,34 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/marketplace/actions/workflow-housekeeper
+- slug: workkit
+  name: workkit
+  description: Claude Code plugin that runs GitHub Issues as a labeled pipeline from spec to ship, with subagent builds, blind review and a test-gated commit hook.
+  website_url: https://github.com/ITW-Creative-Works/workkit
+  repo_url: https://github.com/ITW-Creative-Works/workkit
+  docs_url: https://github.com/ITW-Creative-Works/workkit/blob/main/docs/project-state.md
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - agentic-coding
+    - claude
+    - github
+    - issues
+    - plugins
+    - workflow-automation
+  interfaces:
+    - cli
+    - skill-pack
+  deployment: local
+  source_model: source-available
+  license: FSL-1.1-MIT
+  curation_status: reviewed
+  added: 2026-10-13
+  last_checked: 2026-10-13
+  sources:
+    - https://github.com/ITW-Creative-Works/workkit
+    - https://github.com/ITW-Creative-Works/workkit/blob/main/LICENSE.md
 - slug: write-the
   name: write-the
   description: AI-powered Python tool that auto-generates documentation and tests from code, and assists with refactoring.

@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>385 tools</code> <code>297 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>386 tools</code> <code>298 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -74,7 +74,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (20) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (28)
+[MCP servers](#mcp-servers) (20) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (29)
 
 ### Operate agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 297 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 298 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -376,6 +376,7 @@ Reusable instruction, workflow, or capability packs for coding agents.
 | [Swarms](https://github.com/am-will/swarms) | Multi-agent orchestration skills for Claude Code and Codex with dependency-aware planning and wave-based parallel execution. | Framework · Skill Pack · Local | [Repo](https://github.com/am-will/swarms) |
 | [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/) | Local-first Rust CLI/TUI for agent memory lifecycle with SQLite/FTS recall, audit, forgetting, and source-linked evidence. | CLI · Skill Pack · Local | [Website](https://terminallylazy.github.io/Tree-Ring-Memory/) / [Docs](https://terminallylazy.github.io/Tree-Ring-Memory/press-kit.md) / [Repo](https://github.com/TerminallyLazy/Tree-Ring-Memory) |
 | [UIZZE](https://uizze.com) | UI reference platform and agent skill providing web and iOS screen patterns, design contracts, and finish-gate reviews for coding agents. | MCP · Skill Pack · Web · Hosted | [Website](https://uizze.com) / [Docs](https://uizze.com/docs) |
+| [workkit](https://github.com/ITW-Creative-Works/workkit) | Claude Code plugin that runs GitHub Issues as a labeled pipeline from spec to ship, with subagent builds, blind review and a test-gated commit hook. | CLI · Skill Pack · Local | [Docs](https://github.com/ITW-Creative-Works/workkit/blob/main/docs/project-state.md) / [Repo](https://github.com/ITW-Creative-Works/workkit) |
 | [wshobson/agents](https://github.com/wshobson/agents) | Unified repository with 185 specialized agents, 16 orchestrators, 153 skills, and 100 commands for Claude Code automation. | CLI · Local | [Repo](https://github.com/wshobson/agents) |
 
 ### Agent observability
@@ -654,6 +655,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-10-13: [workkit](https://github.com/ITW-Creative-Works/workkit)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 - 2026-10-05: [Context Guru](https://rossoctl.github.io/context-guru/)
@@ -661,7 +663,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-03: [LogNorm](https://lognorm.com)
 - 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)
 - 2026-09-26: [Tokenade](https://tokenade.net/en)
-- 2026-09-22: [molt](https://solvyx.xyz/work/molt)
 
 ## Needs review
 
