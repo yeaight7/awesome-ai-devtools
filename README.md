@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>385 tools</code> <code>297 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>386 tools</code> <code>298 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -74,11 +74,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (20) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (28)
+[MCP servers](#mcp-servers) (20) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (20) · [Agent skill packs](#agent-skill-packs) (28)
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (25)
+[Agent observability](#agent-observability) (48) · [Agent evals](#agent-evals) (25)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 297 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 298 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -126,6 +126,7 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [Athenaeum](https://github.com/herakles-dev/athenaeum#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | Yes | [Docs](https://github.com/herakles-dev/athenaeum#readme) / [Repo](https://github.com/herakles-dev/athenaeum) |
 | [Atomic Agent](https://atomicagent.io) | Terminal agents | Yes | Yes | No | Yes | No | Yes | [Website](https://atomicagent.io) / [Docs](https://atomicagent.io/docs) / [Repo](https://github.com/AtomicBot-ai/atomic-agent) |
 | [ax](https://github.com/Necmttn/ax) | Agent observability | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/Necmttn/ax) |
+| [contexttax](https://github.com/henrikdukefoss/contexttax) | Agent observability | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/henrikdukefoss/contexttax#readme) / [Repo](https://github.com/henrikdukefoss/contexttax) |
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
 | [Goose](https://goose-docs.ai/) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Website](https://goose-docs.ai/) / [Docs](https://goose-docs.ai/docs/quickstart/) / [Repo](https://github.com/aaif-goose/goose) |
 | [Harbor CLI Stack](https://github.com/harbor-ai/harbor#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://github.com/harbor-ai/harbor#readme) / [Repo](https://github.com/harbor-ai/harbor) |
@@ -143,7 +144,6 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [SandBase CLI](https://github.com/sandbaseai/cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/sandbaseai/cli#readme) / [Repo](https://github.com/sandbaseai/cli) |
 | [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
 | [Sillage](https://github.com/MarlBurroW/sillage) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Repo](https://github.com/MarlBurroW/sillage) |
-| [Smithery CLI](https://smithery.ai) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Website](https://smithery.ai) / [Docs](https://smithery.ai/docs/concepts/cli) / [Repo](https://github.com/smithery-ai/cli) |
 
 <p align="center"><img src="assets/awesome-ai-devtools-social-preview.gif" alt="Awesome AI Devtools ecosystem map" width="100%"></p>
 
@@ -324,6 +324,7 @@ Developer tools for building, testing, debugging, or managing MCP systems.
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
 | [cheqd MCP Toolkit](https://github.com/cheqd/mcp-toolkit) | Modular MCP toolkit and server framework for decentralized identity workflows on the Cheqd network. | Framework | [Docs](https://github.com/cheqd/mcp-toolkit#readme) / [Repo](https://github.com/cheqd/mcp-toolkit) |
+| [contexttax](https://github.com/henrikdukefoss/contexttax) | Local CLI that estimates the tokens agent instruction files, rules, skill descriptions, and MCP tool schemas add to each coding-agent request. | CLI · Local | [Docs](https://github.com/henrikdukefoss/contexttax#readme) / [Repo](https://github.com/henrikdukefoss/contexttax) |
 | [IBM MCP CLI](https://github.com/IBM/mcp-cli) | IBM command-line interface for interacting with MCP servers from scripts and terminals. | CLI · Local | [Repo](https://github.com/IBM/mcp-cli) |
 | [MCP C# SDK](https://csharp.sdk.modelcontextprotocol.io) | Official C# SDK for MCP servers and clients, maintained with Microsoft and published to NuGet. | Library | [Docs](https://csharp.sdk.modelcontextprotocol.io) / [Repo](https://github.com/modelcontextprotocol/csharp-sdk) |
 | [MCP Clients Registry](https://github.com/TianqiZhang/mcp-client-registry) | Community-maintained registry mapping MCP client identifiers to official client names and metadata. | Library | [Repo](https://github.com/TianqiZhang/mcp-client-registry) |
@@ -395,6 +396,7 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 | [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay) | Windows desktop companion for Codex that displays quota limits, reset countdowns, and a local usage dashboard. | Desktop · Local | [Repo](https://github.com/cpys/codex-quota-overlay) |
 | [Comet Opik](https://www.comet.com) | Open-source LLM observability framework for tracing, evaluating, and monitoring LLM, RAG, and agent workflows. | API · Web · Hybrid | [Website](https://www.comet.com) / [Docs](https://docs.comet.com/docs/opik-overview) / [Repo](https://github.com/comet-ml/opik) |
 | [Confident AI](https://www.confident-ai.com) | Evaluation and observability platform that traces LLM apps and runs DeepEval metrics on components and end-to-end workflows. | API · Web · Hosted | [Website](https://www.confident-ai.com) / [Docs](https://www.confident-ai.com/docs) |
+| [contexttax](https://github.com/henrikdukefoss/contexttax) | Local CLI that estimates the tokens agent instruction files, rules, skill descriptions, and MCP tool schemas add to each coding-agent request. | CLI · Local | [Docs](https://github.com/henrikdukefoss/contexttax#readme) / [Repo](https://github.com/henrikdukefoss/contexttax) |
 | [Datadog LLM Observability](https://www.datadoghq.com/product/ai/llm-observability/) | Datadog product for tracing, monitoring, and evaluating LLM and agent applications with integrated APM views. | API · Library · Web · Hosted | [Website](https://www.datadoghq.com/product/ai/llm-observability/) / [Docs](https://docs.datadoghq.com/tracing/llm_observability/) / [Repo](https://github.com/DataDog/llm-observability) |
 | [Dunetrace](https://dunetrace.dev) | Open-source anomaly detection layer that monitors agent traces for structural failures and alerts in real time. | API · Self-hosted | [Website](https://dunetrace.dev) / [Docs](https://github.com/dunetrace/dunetrace#readme) / [Repo](https://github.com/dunetrace/dunetrace) |
 | [Evidently AI](https://www.evidentlyai.com) | Open-source library and cloud service for evaluating, testing, and monitoring ML and LLM systems, including RAG and agents. | API · Web · Hybrid | [Website](https://www.evidentlyai.com) / [Docs](https://docs.evidentlyai.com) / [Repo](https://github.com/evidentlyai/evidently) |
@@ -654,6 +656,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-10-13: [contexttax](https://github.com/henrikdukefoss/contexttax)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 - 2026-10-05: [Context Guru](https://rossoctl.github.io/context-guru/)
@@ -661,7 +664,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-03: [LogNorm](https://lognorm.com)
 - 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)
 - 2026-09-26: [Tokenade](https://tokenade.net/en)
-- 2026-09-22: [molt](https://solvyx.xyz/work/molt)
 
 ## Needs review
 

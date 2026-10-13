@@ -2555,6 +2555,34 @@
   sources:
     - https://context7.com
     - https://github.com/upstash/context7
+- slug: contexttax
+  name: contexttax
+  description: Local CLI that estimates the tokens agent instruction files, rules, skill descriptions, and MCP tool schemas add to each coding-agent request.
+  website_url: https://github.com/henrikdukefoss/contexttax
+  repo_url: https://github.com/henrikdukefoss/contexttax
+  docs_url: https://github.com/henrikdukefoss/contexttax#readme
+  categories:
+    - agent-observability
+    - mcp-tooling
+  primary_category: agent-observability
+  tags:
+    - agentic-coding
+    - cli
+    - cost-tracking
+    - local-first
+    - mcp
+    - open-source
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-10-13
+  last_checked: 2026-10-13
+  sources:
+    - https://github.com/henrikdukefoss/contexttax
+    - https://github.com/henrikdukefoss/contexttax/blob/master/LICENSE
 - slug: continue
   name: Continue
   description: Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows.
