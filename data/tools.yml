@@ -591,6 +591,39 @@
     - https://github.com/madakkuni/ai-smart-doc-generator
     - https://github.com/topics/ai-documentation-generator
     - https://github.com/topics/genai-documentation
+- slug: aident-loadout
+  name: Aident Loadout
+  description: Hosted remote MCP server that connects Codex, Claude Code, Cursor, and other agents to apps and 400+ Skills via one setup with Vault and Audit.
+  website_url: https://aident.ai
+  repo_url: https://github.com/Aident-AI/aident-skill
+  docs_url: https://docs.aident.ai/loadout/overview
+  categories:
+    - mcp-servers
+  tags:
+    - agent
+    - agent-skills
+    - agents
+    - api
+    - claude
+    - mcp
+    - model-context-protocol
+    - tool-calling
+    - workflow-automation
+  interfaces:
+    - cli
+    - mcp
+    - web
+  deployment: hosted
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-10-15
+  last_checked: 2026-10-15
+  sources:
+    - https://aident.ai
+    - https://docs.aident.ai/loadout/overview
+    - https://github.com/Aident-AI/aident-skill
+    - https://loadout.aident.ai/mcp
 - slug: aider
   name: Aider
   description: Open-source terminal pair programmer that edits tracked files in a local Git repository.

@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>386 tools</code> <code>298 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>387 tools</code> <code>299 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -74,7 +74,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (21) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (28)
+[MCP servers](#mcp-servers) (22) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (28)
 
 ### Operate agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 298 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 299 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -283,6 +283,7 @@ Model Context Protocol servers that expose tools, resources, or prompts.
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
 | [Agent QA](https://vostride.com/docs/agent-qa) | TypeScript QA agent that authors, runs, and repairs natural-language web and mobile tests through a CLI, dashboard, MCP server, and agent skills. | CLI · MCP · Skill Pack · Web · Local | [Website](https://vostride.com/docs/agent-qa) / [Docs](https://vostride.com/docs/agent-qa/quickstart) / [Repo](https://github.com/vostride/agent-qa) |
+| [Aident Loadout](https://aident.ai) | Hosted remote MCP server that connects Codex, Claude Code, Cursor, and other agents to apps and 400+ Skills via one setup with Vault and Audit. | CLI · MCP · Web · Hosted | [Website](https://aident.ai) / [Docs](https://docs.aident.ai/loadout/overview) / [Repo](https://github.com/Aident-AI/aident-skill) |
 | [Anki MCP Server](https://ankimcp.ai) | MCP server that lets AI assistants interact with Anki flashcards and spaced-repetition workflows. | MCP · Local | [Website](https://ankimcp.ai) / [Repo](https://github.com/ankimcp/anki-mcp-server) |
 | [ArXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server) | MCP server for searching arXiv papers and exposing academic paper content to AI assistants. | MCP · Local | [Repo](https://github.com/blazickjp/arxiv-mcp-server) |
 | [ax](https://github.com/Necmttn/ax) | Local telemetry and recall graph for AI coding agents, with CLI, dashboard, MCP queries, and OTLP ingestion. | CLI · MCP · Web · Local | [Repo](https://github.com/Necmttn/ax) |
@@ -655,6 +656,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-10-15: [Aident Loadout](https://aident.ai)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
@@ -662,7 +664,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-05: [Orbi](https://orbi.build/)
 - 2026-10-03: [LogNorm](https://lognorm.com)
 - 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)
-- 2026-09-26: [Tokenade](https://tokenade.net/en)
 
 ## Needs review
 
