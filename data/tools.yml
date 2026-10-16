@@ -5283,6 +5283,29 @@
     - https://github.com/lavague-ai
     - https://github.com/lavague-ai/LaVague
     - https://sumbits.ai/links/176
+- slug: limitwatch
+  name: LimitWatch
+  description: Dated change log of usage limits and prices for AI coding plans, with sources, a JSON feed and embeddable badges.
+  website_url: https://codingplanlimits.com
+  repo_url: https://github.com/limitwatch/limitwatch-data
+  categories:
+    - registries
+  tags:
+    - api
+    - cost-tracking
+  interfaces:
+    - api
+    - web
+  deployment: hosted
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: source_model=not specified."
+  added: 2026-10-16
+  last_checked: 2026-10-16
+  sources:
+    - https://codingplanlimits.com
+    - https://github.com/limitwatch/limitwatch-data
 - slug: litellm
   name: LiteLLM
   description: LiteLLM OpenTelemetry/Gateway exporter for tracing LLM and agent calls across providers with standardized spans.
