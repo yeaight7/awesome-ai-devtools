@@ -2611,6 +2611,30 @@
   sources:
     - https://docs.crewai.com
     - https://github.com/crewAIInc/crewAI
+- slug: curlshot-mcp
+  name: CurlShot MCP
+  description: Hosted MCP server and screenshot API that lets AI agents capture web pages as PNG, JPEG, WebP, PDF, or scrolling video.
+  website_url: https://curlshot.com
+  repo_url: https://github.com/SergiuPogor/curlshot-mcp
+  docs_url: https://curlshot.com/docs
+  categories:
+    - mcp-servers
+  tags:
+    - api
+    - headless-browser
+    - mcp
+  interfaces:
+    - api
+    - mcp
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
+  added: 2026-10-16
+  last_checked: 2026-10-16
+  sources:
+    - https://curlshot.com/docs
+    - https://github.com/SergiuPogor/curlshot-mcp
 - slug: cursor
   name: Cursor
   description: AI code editor built around chat, codebase context, agents, rules, MCP, and terminal-assisted development workflows.
