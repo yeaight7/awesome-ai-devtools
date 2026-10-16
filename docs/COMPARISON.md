@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 298 reviewed tools.
+This is the complete comparison matrix for all 299 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -21,6 +21,7 @@ This is the complete comparison matrix for all 298 reviewed tools.
 | [agenttrace](https://luoyuctl.github.io/agenttrace/) | Agent observability | Yes | Yes | No | Yes | No | No | [Website](https://luoyuctl.github.io/agenttrace/) / [Docs](https://github.com/luoyuctl/agenttrace#readme) / [Repo](https://github.com/luoyuctl/agenttrace) |
 | [AI Document Creator](https://woden-ai.com) | Documentation agents | No | No | No | No | No | No | [Website](https://woden-ai.com) / [Docs](https://github.com/marketplace/ai-document-creator) |
 | [ai-doc-gen](https://github.com/divar-ir/ai-doc-gen) | Documentation agents | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/divar-ir/ai-doc-gen) |
+| [Aident Loadout](https://aident.ai) | MCP servers | Yes | No | No | Yes | No | Yes | [Website](https://aident.ai) / [Docs](https://docs.aident.ai/loadout/overview) / [Repo](https://github.com/Aident-AI/aident-skill) |
 | [Aider](https://aider.chat/) | Coding agents | Yes | Yes | No | Yes | No | No | [Website](https://aider.chat/) / [Docs](https://aider.chat/docs/) / [Repo](https://github.com/Aider-AI/aider) |
 | [AIGNE DocSmith](https://www.aigne.io) | Documentation agents | Yes | No | No | Yes | No | No | [Website](https://www.aigne.io) / [Repo](https://github.com/AIGNE-io/aigne-doc-smith) |
 | [Amazon CloudWatch GenAI Observability](https://aws.amazon.com/cloudwatch/) | Agent observability | Yes | No | No | No | No | No | [Website](https://aws.amazon.com/cloudwatch/) / [Docs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GenAI-observability.html) / [Repo](https://github.com/aws-samples/sample-amazon-cloudwatch-generative-ai-observability) |
