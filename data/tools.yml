@@ -2812,6 +2812,34 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/yeaight7/dbt-semguard
+- slug: deed-page
+  name: deed.page
+  description: Hosted MCP server and HTTP API that publishes HTML files or static folders from coding agents to permanent subdomain URLs, with no account needed to publish.
+  website_url: https://deed.page
+  repo_url: https://github.com/f-o-x11/deed-page-skill
+  docs_url: https://deed.page/docs
+  categories:
+    - agent-skill-packs
+    - mcp-servers
+  primary_category: mcp-servers
+  tags:
+    - agent-skills
+    - api
+    - cloud
+    - mcp
+  interfaces:
+    - api
+    - mcp
+    - skill-pack
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
+  added: 2026-10-22
+  last_checked: 2026-10-22
+  sources:
+    - https://deed.page/docs
+    - https://github.com/f-o-x11/deed-page-skill
 - slug: deepchecks-llm-evaluation
   name: Deepchecks LLM Evaluation
   description: Enterprise platform and tooling for evaluating, comparing, and monitoring LLM-based applications across quality and safety metrics.

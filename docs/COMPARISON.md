@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 298 reviewed tools.
+This is the complete comparison matrix for all 299 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -87,6 +87,7 @@ This is the complete comparison matrix for all 298 reviewed tools.
 | [Datadog LLM Observability](https://www.datadoghq.com/product/ai/llm-observability/) | Agent observability | No | No | No | No | No | No | [Website](https://www.datadoghq.com/product/ai/llm-observability/) / [Docs](https://docs.datadoghq.com/tracing/llm_observability/) / [Repo](https://github.com/DataDog/llm-observability) |
 | [dbt Agent Skills](https://github.com/dbt-labs/dbt-agent-skills) | Agent skill packs | Yes | Yes | No | No | No | No | [Repo](https://github.com/dbt-labs/dbt-agent-skills) |
 | [dbt-semguard](https://github.com/yeaight7/dbt-semguard) | Data and ML coding assistants | Yes | No | No | Yes | No | No | [Docs](https://github.com/yeaight7/dbt-semguard#readme) / [Repo](https://github.com/yeaight7/dbt-semguard) |
+| [deed.page](https://deed.page) | MCP servers | No | No | No | No | No | Yes | [Website](https://deed.page) / [Docs](https://deed.page/docs) / [Repo](https://github.com/f-o-x11/deed-page-skill) |
 | [DeepDocs](https://deepdocs.dev) | Documentation agents | No | No | No | No | No | No | [Website](https://deepdocs.dev) / [Docs](https://deepdocs.dev/homepage/) |
 | [DeepEval](https://deepeval.com) | Agent evals | Yes | Yes | No | Yes | No | No | [Website](https://deepeval.com) / [Repo](https://github.com/confident-ai/deepeval) |
 | [DeepTeam](https://github.com/confident-ai/deepteam) | Agent evals | Yes | No | No | Yes | No | No | [Repo](https://github.com/confident-ai/deepteam) |
