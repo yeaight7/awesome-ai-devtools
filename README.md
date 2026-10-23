@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>386 tools</code> <code>298 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>387 tools</code> <code>299 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -86,11 +86,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Automate repo work
 
-[Repo automation tools](#repo-automation-tools) (28) · [AI code review tools](#ai-code-review-tools) (11) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
+[Repo automation tools](#repo-automation-tools) (28) · [AI code review tools](#ai-code-review-tools) (12) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 298 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 299 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -585,6 +585,7 @@ AI-assisted tools for reviewing changes, pull requests, and code quality.
 | [Gemini Code Assist](https://developers.google.com/gemini-code-assist) | Google's coding assistant for IDEs and GitHub with agent mode, PR summaries, and code review. | GitHub app · IDE · Hosted | [Website](https://developers.google.com/gemini-code-assist) / [Docs](https://developers.google.com/gemini-code-assist/docs/overview) |
 | [GitHub Copilot](https://github.com/features/copilot) | GitHub AI coding assistant for IDEs and GitHub workflows, including code suggestions, chat, and pull request support. | GitHub app · IDE · Web · Hosted | [Website](https://github.com/features/copilot) / [Docs](https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot) |
 | [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
+| [MergeJudge](https://mergejudge.si) | GitHub App and self-hosted GitHub Action that reviews pull requests with AI and sorts each one into an auto, review or block risk lane. | GitHub app · Hybrid | [Website](https://mergejudge.si) / [Docs](https://mergejudge.si/guide/) / [Repo](https://github.com/gauravsharmaGG/mergejudge-runner) |
 | [Orbi](https://orbi.build/) | Open-source agent that takes labeled GitHub issues to reviewed pull requests, merges only reviewed work, and cuts tagged releases. | CLI · Web · Hybrid | [Website](https://orbi.build/) / [Docs](https://docs.orbi.build/) / [Repo](https://github.com/orbi-build/orbi) |
 | [Qodo](https://www.qodo.ai/) | Code review and IDE assistant product focused on reviewing diffs, tests, and repository context. | GitHub app · IDE · Hosted | [Website](https://www.qodo.ai/) / [Docs](https://docs.qodo.ai/) |
 | [Sweep](https://sweep.dev/) | JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration. | IDE · Hybrid | [Website](https://sweep.dev/) / [Docs](https://docs.sweep.dev/) / [Repo](https://github.com/sweepai/sweep) |
@@ -655,6 +656,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-10-23: [MergeJudge](https://mergejudge.si)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
@@ -662,7 +664,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-05: [Orbi](https://orbi.build/)
 - 2026-10-03: [LogNorm](https://lognorm.com)
 - 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)
-- 2026-09-26: [Tokenade](https://tokenade.net/en)
 
 ## Needs review
 

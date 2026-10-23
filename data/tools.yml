@@ -6501,6 +6501,32 @@
   last_checked: 2026-05-15
   sources:
     - https://posit-dev.github.io/mcptools/
+- slug: mergejudge
+  name: MergeJudge
+  description: GitHub App and self-hosted GitHub Action that reviews pull requests with AI and sorts each one into an auto, review or block risk lane.
+  website_url: https://mergejudge.si
+  repo_url: https://github.com/gauravsharmaGG/mergejudge-runner
+  docs_url: https://mergejudge.si/guide/
+  categories:
+    - ai-code-review-tools
+  tags:
+    - ci
+    - code-review
+    - github
+    - open-source
+    - self-hosted
+  interfaces:
+    - github-app
+  deployment: hybrid
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-10-23
+  last_checked: 2026-10-23
+  sources:
+    - https://github.com/apps/mergejudge
+    - https://github.com/gauravsharmaGG/mergejudge-runner
+    - https://mergejudge.si
 - slug: microsoft-skills
   name: Microsoft Skills
   description: Skills, custom agents, AGENTS.md templates, and MCP configurations for AI coding agents working with Azure SDKs and Microsoft AI Foundry.
