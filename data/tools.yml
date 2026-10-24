@@ -1608,6 +1608,27 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/microsoft/azure-devops-skills
+- slug: bestllmfor-quantization-recommender
+  name: BestLLMFor Quantization Recommender
+  description: Browser calculator that suggests catalogue models and quantizations from a memory budget, context length, and coding-use filter; estimates only, without running models.
+  website_url: https://bestllmfor.com/recommandeur-quantification/
+  categories:
+    - local-llm-developer-tools
+  tags:
+    - local-llm
+    - quantization
+    - web-app
+  interfaces:
+    - web
+  deployment: hosted
+  source_model: not specified
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: memory planning for local coding models; category fit and unspecified source license need maintainer review. Does not run models."
+  added: 2026-10-24
+  last_checked: 2026-10-24
+  sources:
+    - https://bestllmfor.com/recommandeur-quantification/
 - slug: bito-ai-code-review-agent
   name: Bito AI Code Review Agent
   description: Repository review agent for GitHub, GitLab, and Bitbucket pull or merge request workflows.
