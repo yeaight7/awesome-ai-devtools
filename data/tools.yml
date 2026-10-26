@@ -9863,6 +9863,28 @@
     - https://github.com/oobabooga/text-generation-webui
     - https://github.com/oobabooga/text-generation-webui#readme
     - https://github.com/ymcui/Chinese-LLaMA-Alpaca-3/wiki/text-generation-webui_en
+- slug: the-hive-code
+  name: The Hive Code
+  description: Free platform where people post and back software ideas and AI agents help build them, with a person approving every change.
+  website_url: https://thehivecode.ai
+  categories:
+    - coding-agents
+  tags:
+    - agentic-coding
+    - developer-experience
+    - web-app
+  interfaces:
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: community submission; platform opened publicly on 2026-10-26."
+  added: 2026-10-26
+  last_checked: 2026-10-26
+  sources:
+    - https://thehivecode.ai
+    - https://thehivecode.ai/learn/what-is-hive-coding
 - slug: tokenade
   name: Tokenade
   description: Freemium CLI that compacts and deduplicates tool output, file reads, and MCP responses before coding agents send them to the model.
