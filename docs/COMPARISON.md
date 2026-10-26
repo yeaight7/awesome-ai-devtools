@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 298 reviewed tools.
+This is the complete comparison matrix for all 299 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -169,6 +169,7 @@ This is the complete comparison matrix for all 298 reviewed tools.
 | [Local LLM Docker (mythrantic)](https://github.com/mythrantic/ollama-docker#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | No | [Docs](https://github.com/mythrantic/ollama-docker#readme) / [Repo](https://github.com/mythrantic/ollama-docker) |
 | [LocalAI](https://localai.io) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://localai.io) / [Docs](https://localai.io/docs) / [Repo](https://github.com/go-skynet/LocalAI) |
 | [LogNorm](https://lognorm.com) | MCP servers | No | No | No | No | No | Yes | [Website](https://lognorm.com) / [Docs](https://lognorm.com/docs/agents) / [Repo](https://github.com/lognorm/lognorm-mcp) |
+| [Lookout for VS Code](https://github.com/nimrod-teich/lookout) | Agent observability | Yes | Yes | No | No | Yes | No | [Docs](https://github.com/nimrod-teich/lookout#readme) / [Repo](https://github.com/nimrod-teich/lookout) |
 | [Lunary](https://lunary.ai) | Agent observability | Yes | No | Yes | No | No | No | [Website](https://lunary.ai) / [Docs](https://docs.lunary.ai) / [Repo](https://github.com/lunary-ai/lunary) |
 | [Mastra Observability](https://mastra.ai) | Agent observability | Yes | No | No | No | No | No | [Website](https://mastra.ai) / [Docs](https://mastra.ai/docs/observability) / [Repo](https://github.com/mastra-ai/mastra) |
 | [Maxim AI](https://getmaxim.ai) | Agent observability | No | No | No | No | No | No | [Website](https://getmaxim.ai) / [Docs](https://docs.getbifrost.ai/features/observability/maxim) / [Repo](https://github.com/maximhq) |

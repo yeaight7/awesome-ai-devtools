@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>386 tools</code> <code>298 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>387 tools</code> <code>299 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (25)
+[Agent observability](#agent-observability) (48) · [Agent evals](#agent-evals) (25)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 298 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 299 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -411,6 +411,7 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 | [Langtrace](https://langtrace.ai) | Open-source OpenTelemetry-based observability tool and dashboard for tracing, evaluating, and debugging LLM applications. | API · Web · Self-hosted | [Website](https://langtrace.ai) / [Docs](https://docs.langtrace.ai) / [Repo](https://github.com/Scale3-Labs/langtrace) |
 | [LangWatch](https://langwatch.ai) | LLM observability and evaluation platform focused on tracing, debugging, and optimizing AI agents and applications. | API · Web · Hybrid | [Website](https://langwatch.ai) / [Docs](https://docs.langwatch.ai) / [Repo](https://github.com/langwatch/langwatch) |
 | [LiteLLM](https://github.com/BerriAI/litellm/) | LiteLLM OpenTelemetry/Gateway exporter for tracing LLM and agent calls across providers with standardized spans. | API · CLI · Library · Self-hosted | [Docs](https://github.com/BerriAI/litellm/README.md) / [Repo](https://github.com/BerriAI/litellm/) |
+| [Lookout for VS Code](https://github.com/nimrod-teich/lookout) | VS Code extension that shows Claude Code, Codex and Copilot CLI sessions on one board, quotes what a waiting session asks, and jumps to its tab or terminal. | IDE · Local | [Docs](https://github.com/nimrod-teich/lookout#readme) / [Repo](https://github.com/nimrod-teich/lookout) |
 | [Lunary](https://lunary.ai) | Open-source observability and prompt platform for LLM chatbots with analytics, logs, traces, and evaluations. | API · Library · Web · Hybrid | [Website](https://lunary.ai) / [Docs](https://docs.lunary.ai) / [Repo](https://github.com/lunary-ai/lunary) |
 | [Mastra Observability](https://mastra.ai) | Observability module in Mastra for tracing, monitoring, and evaluating LLM agents and workflows via OpenTelemetry. | API · Web · Hybrid | [Website](https://mastra.ai) / [Docs](https://mastra.ai/docs/observability) / [Repo](https://github.com/mastra-ai/mastra) |
 | [Maxim AI](https://getmaxim.ai) | End-to-end AI evaluation and observability platform for testing and monitoring agents and LLM applications. | API · Web · Hosted | [Website](https://getmaxim.ai) / [Docs](https://docs.getbifrost.ai/features/observability/maxim) / [Repo](https://github.com/maximhq) |
@@ -655,6 +656,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-10-26: [Lookout for VS Code](https://github.com/nimrod-teich/lookout)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
@@ -662,7 +664,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-05: [Orbi](https://orbi.build/)
 - 2026-10-03: [LogNorm](https://lognorm.com)
 - 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)
-- 2026-09-26: [Tokenade](https://tokenade.net/en)
 
 ## Needs review
 

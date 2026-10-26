@@ -5852,6 +5852,33 @@
     - https://github.com/lognorm/lognorm-mcp
     - https://lognorm.com
     - https://lognorm.com/docs/agents
+- slug: lookout-for-vs-code
+  name: Lookout for VS Code
+  description: VS Code extension that shows Claude Code, Codex and Copilot CLI sessions on one board, quotes what a waiting session asks, and jumps to its tab or terminal.
+  website_url: https://github.com/nimrod-teich/lookout
+  repo_url: https://github.com/nimrod-teich/lookout
+  docs_url: https://github.com/nimrod-teich/lookout#readme
+  categories:
+    - agent-observability
+  tags:
+    - agentic-coding
+    - local-first
+    - monitoring
+    - observability
+    - open-source
+    - search
+    - vscode
+  interfaces:
+    - ide
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-10-26
+  last_checked: 2026-10-26
+  sources:
+    - https://github.com/nimrod-teich/lookout
+    - https://github.com/nimrod-teich/lookout/releases/tag/v0.1.2
 - slug: lunary
   name: Lunary
   description: Open-source observability and prompt platform for LLM chatbots with analytics, logs, traces, and evaluations.
