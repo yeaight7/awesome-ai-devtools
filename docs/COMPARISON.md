@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 298 reviewed tools.
+This is the complete comparison matrix for all 299 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -93,6 +93,7 @@ This is the complete comparison matrix for all 298 reviewed tools.
 | [DeepWiki](https://deepwiki.com) | Documentation agents | No | No | No | No | No | No | [Website](https://deepwiki.com) / [Docs](https://deepwiki.directory) |
 | [DevBox AI Dev Stack](https://github.com/gl0bal01/devbox#readme) | Self-hosted AI dev stacks | Yes | No | Yes | Yes | No | No | [Docs](https://github.com/gl0bal01/devbox#readme) / [Repo](https://github.com/gl0bal01/devbox) |
 | [Devin](https://devin.ai/) | Coding agents | No | No | No | No | No | No | [Website](https://devin.ai/) / [Docs](https://docs.devin.ai/es/get-started/devin-intro) |
+| [DevIntern](https://devintern.com/) | Coding agents | No | No | Yes | Yes | No | No | [Website](https://devintern.com/) / [Docs](https://devintern.com/docs/code/quick-start/) / [Repo](https://github.com/getdevintern/devintern) |
 | [Dify](https://dify.ai) | Self-hosted AI dev stacks | Yes | No | Yes | No | No | No | [Website](https://dify.ai) / [Docs](https://docs.dify.ai) / [Repo](https://github.com/langgenius/dify) |
 | [Docker Model Runner](https://www.docker.com/products/model-runner) | Local LLM developer tools | No | Yes | No | Yes | No | No | [Website](https://www.docker.com/products/model-runner) / [Docs](https://docs.docker.com/ai/model-runner/) |
 | [Docs.dev](https://docs.dev) | Documentation agents | No | No | No | No | No | No | [Website](https://docs.dev) / [Docs](https://learn.docs.dev/) |

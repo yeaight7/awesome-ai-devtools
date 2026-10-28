@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>386 tools</code> <code>298 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>387 tools</code> <code>299 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,7 +70,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (34) · [Terminal agents](#terminal-agents) (23) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
+[Coding agents](#coding-agents) (35) · [Terminal agents](#terminal-agents) (23) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
 
 ### Extend agents
 
@@ -86,11 +86,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Automate repo work
 
-[Repo automation tools](#repo-automation-tools) (28) · [AI code review tools](#ai-code-review-tools) (11) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
+[Repo automation tools](#repo-automation-tools) (29) · [AI code review tools](#ai-code-review-tools) (11) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 298 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 299 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -165,6 +165,7 @@ Agentic tools that can inspect, modify, and reason about source code.
 | [Cursor](https://cursor.com/) | AI code editor built around chat, codebase context, agents, rules, MCP, and terminal-assisted development workflows. | CLI · Desktop · IDE · Hybrid | [Website](https://cursor.com/) / [Docs](https://cursor.com/docs) |
 | [cursor-bridge](https://github.com/hkc5/cursor-bridge) | Rust proxy that routes Claude Code through Cursor's backend, using your Cursor subscription instead of Anthropic API. | CLI · Local | [Repo](https://github.com/hkc5/cursor-bridge) |
 | [Devin](https://devin.ai/) | Cloud software engineering agent for teams that works on repositories and can run tasks in parallel. | Web · Hosted | [Website](https://devin.ai/) / [Docs](https://docs.devin.ai/es/get-started/devin-intro) |
+| [DevIntern](https://devintern.com/) | Self-hosted worker that turns ready Jira, Linear, GitHub Issues and other tracker tickets into pull requests using Claude Code, Codex, Cursor or OpenCode. | CLI · Self-hosted | [Website](https://devintern.com/) / [Docs](https://devintern.com/docs/code/quick-start/) / [Repo](https://github.com/getdevintern/devintern) |
 | [Ellipsis](https://www.ellipsis.dev/) | GitHub agent that reviews pull requests, answers repo questions, and can generate changes or release notes. | GitHub app · Web · Hosted | [Website](https://www.ellipsis.dev/) / [Docs](https://docs.ellipsis.dev/introduction) |
 | [Factory Droid](https://factory.ai/) | Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows. | API · CLI · Desktop · Hybrid | [Website](https://factory.ai/) / [Docs](https://docs.factory.ai/welcome) |
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Open-source terminal coding agent that uses tool calls and MCP servers to work on repository tasks. | CLI · MCP · Local | [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
@@ -551,6 +552,7 @@ AI tools that automate repository checks, changes, pull requests, or maintenance
 | [CodeRabbit](https://coderabbit.ai/) | AI code review agent for pull requests, local IDE review, and terminal-based review workflows. | CLI · GitHub app · IDE · Hybrid | [Website](https://coderabbit.ai/) / [Docs](https://docs.coderabbit.ai/) |
 | [Continue](https://docs.continue.dev/) | Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows. | CLI · IDE · Hybrid | [Docs](https://docs.continue.dev/) / [Repo](https://github.com/continuedev/continue) |
 | [dbt-semguard](https://github.com/yeaight7/dbt-semguard) | CLI and GitHub Action that detects breaking or risky semantic changes in dbt metrics before production. | CLI · Hybrid | [Docs](https://github.com/yeaight7/dbt-semguard#readme) / [Repo](https://github.com/yeaight7/dbt-semguard) |
+| [DevIntern](https://devintern.com/) | Self-hosted worker that turns ready Jira, Linear, GitHub Issues and other tracker tickets into pull requests using Claude Code, Codex, Cursor or OpenCode. | CLI · Self-hosted | [Website](https://devintern.com/) / [Docs](https://devintern.com/docs/code/quick-start/) / [Repo](https://github.com/getdevintern/devintern) |
 | [Factory Droid](https://factory.ai/) | Coding agent platform with CLI, desktop, and headless automation for code changes, review, and CI workflows. | API · CLI · Desktop · Hybrid | [Website](https://factory.ai/) / [Docs](https://docs.factory.ai/welcome) |
 | [Gemini Code Assist](https://developers.google.com/gemini-code-assist) | Google's coding assistant for IDEs and GitHub with agent mode, PR summaries, and code review. | GitHub app · IDE · Hosted | [Website](https://developers.google.com/gemini-code-assist) / [Docs](https://developers.google.com/gemini-code-assist/docs/overview) |
 | [GitHub Dependabot](https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook/analyze-security/manage-dependency-updates) | GitHub-native service that configures and runs automated security and version dependency update pull requests. | GitHub app · Hosted | [Docs](https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook/analyze-security/manage-dependency-updates) |
@@ -655,6 +657,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-10-28: [DevIntern](https://devintern.com/)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
@@ -662,7 +665,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-05: [Orbi](https://orbi.build/)
 - 2026-10-03: [LogNorm](https://lognorm.com)
 - 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)
-- 2026-09-26: [Tokenade](https://tokenade.net/en)
 
 ## Needs review
 

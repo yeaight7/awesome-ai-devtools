@@ -3105,6 +3105,38 @@
   sources:
     - https://devin.ai/
     - https://docs.devin.ai/es/get-started/devin-intro
+- slug: devintern
+  name: DevIntern
+  description: Self-hosted worker that turns ready Jira, Linear, GitHub Issues and other tracker tickets into pull requests using Claude Code, Codex, Cursor or OpenCode.
+  website_url: https://devintern.com/
+  repo_url: https://github.com/getdevintern/devintern
+  docs_url: https://devintern.com/docs/code/quick-start/
+  categories:
+    - coding-agents
+    - repo-automation-tools
+  primary_category: coding-agents
+  tags:
+    - agentic-coding
+    - automation
+    - cli
+    - github
+    - issues
+    - pull-requests
+    - self-hosted
+    - workflow-automation
+  interfaces:
+    - cli
+  deployment: self-hosted
+  source_model: source-available
+  license: FSL-1.1-ALv2
+  curation_status: reviewed
+  added: 2026-10-28
+  last_checked: 2026-10-28
+  sources:
+    - https://devintern.com/
+    - https://devintern.com/pricing/
+    - https://github.com/getdevintern/devintern
+    - https://github.com/getdevintern/devintern/blob/main/LICENSE.md
 - slug: diffblue-cover-community
   name: Diffblue Cover Community
   description: Java-focused AI unit test generator that integrates with Maven/Gradle and can run in CI pipelines.
