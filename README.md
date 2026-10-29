@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>386 tools</code> <code>298 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>387 tools</code> <code>299 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,11 +70,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (34) · [Terminal agents](#terminal-agents) (23) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
+[Coding agents](#coding-agents) (34) · [Terminal agents](#terminal-agents) (23) · [IDE assistants](#ide-assistants) (18) · [Browser agents](#browser-agents) (25)
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (21) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (28)
+[MCP servers](#mcp-servers) (21) · [MCP clients](#mcp-clients) (8) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (28)
 
 ### Operate agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 298 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 299 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -241,6 +241,7 @@ AI assistants embedded in editors or IDEs for coding workflows.
 | [Roo Code](https://roocode.com/) | Open-source coding agent for VS Code and cloud agents that can code, review, and automate repository tasks. | CLI · IDE · Web · Hybrid | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
 | [Sweep](https://sweep.dev/) | JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration. | IDE · Hybrid | [Website](https://sweep.dev/) / [Docs](https://docs.sweep.dev/) / [Repo](https://github.com/sweepai/sweep) |
 | [Tabby](https://www.tabbyml.com/) | Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development. | API · IDE · Self-hosted | [Website](https://www.tabbyml.com/) / [Docs](https://tabby.tabbyml.com/docs/) / [Repo](https://github.com/TabbyML/tabby) |
+| [Volt](https://github.com/LeulAria/volt) | Open-source agentic workspace on the VS Code core that runs Claude Code, Codex, and other ACP agents or local Ollama models, with hunk-level review of agent edits. | Desktop · MCP · Local | [Repo](https://github.com/LeulAria/volt) |
 | [Windsurf Editor](https://windsurf.com/) | AI code editor with repo-aware agent workflows for multi-file edits and developer automation. | Desktop · Hybrid | [Website](https://windsurf.com/) / [Docs](https://docs.windsurf.com/) |
 | [Zed](https://zed.dev/) | Code editor with built-in agent workflows, external agent support, and MCP-connected coding assistance. | Desktop · MCP · Local | [Website](https://zed.dev/) / [Docs](https://zed.dev/releases/stable/0.233.5) / [Repo](https://github.com/zed-industries/zed) |
 
@@ -316,6 +317,7 @@ Applications and agents that connect to Model Context Protocol servers.
 | [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop · GitHub app · IDE · MCP · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
 | [Roo Code](https://roocode.com/) | Open-source coding agent for VS Code and cloud agents that can code, review, and automate repository tasks. | CLI · IDE · Web · Hybrid | [Website](https://roocode.com/) / [Docs](https://docs.roocode.com/) / [Repo](https://github.com/RooCodeInc/Roo-Code) |
 | [Sweep](https://sweep.dev/) | JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration. | IDE · Hybrid | [Website](https://sweep.dev/) / [Docs](https://docs.sweep.dev/) / [Repo](https://github.com/sweepai/sweep) |
+| [Volt](https://github.com/LeulAria/volt) | Open-source agentic workspace on the VS Code core that runs Claude Code, Codex, and other ACP agents or local Ollama models, with hunk-level review of agent edits. | Desktop · MCP · Local | [Repo](https://github.com/LeulAria/volt) |
 | [Zed](https://zed.dev/) | Code editor with built-in agent workflows, external agent support, and MCP-connected coding assistance. | Desktop · MCP · Local | [Website](https://zed.dev/) / [Docs](https://zed.dev/releases/stable/0.233.5) / [Repo](https://github.com/zed-industries/zed) |
 
 ### MCP tooling
@@ -655,6 +657,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-10-28: [Volt](https://github.com/LeulAria/volt)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
@@ -662,7 +665,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-05: [Orbi](https://orbi.build/)
 - 2026-10-03: [LogNorm](https://lognorm.com)
 - 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)
-- 2026-09-26: [Tokenade](https://tokenade.net/en)
 
 ## Needs review
 
@@ -708,7 +710,7 @@ Use official sources, keep descriptions factual, and leave uncertain metadata as
 ## Roadmap
 
 - Review and promote 88 queued draft entries, prioritising thin shelves.
-- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed), MCP clients (7 reviewed).
+- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed), Test generation agents (7 reviewed).
 - Populate empty shelves when quality entries are found: Prompt and workflow libraries, AI devtools security, DevOps and SRE agents.
 - Act on the weekly maintenance reports: fix confirmed-broken links and re-verify stale entries.
 - Improve generated filter views and category-level comparisons.

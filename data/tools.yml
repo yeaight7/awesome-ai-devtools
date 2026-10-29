@@ -10165,6 +10165,34 @@
     - https://github.com/vllm-project/vllm
     - https://raw.githubusercontent.com/openai/openai-cookbook/main/articles/gpt-oss/run-vllm.md
     - https://vllm.ai
+- slug: volt
+  name: Volt
+  description: Open-source agentic workspace on the VS Code core that runs Claude Code, Codex, and other ACP agents or local Ollama models, with hunk-level review of agent edits.
+  website_url: https://github.com/LeulAria/volt
+  repo_url: https://github.com/LeulAria/volt
+  categories:
+    - ide-assistants
+    - mcp-clients
+  primary_category: ide-assistants
+  tags:
+    - agentic-coding
+    - desktop-app
+    - ide
+    - local-llm
+    - mcp
+    - open-source
+    - vscode
+  interfaces:
+    - desktop
+    - mcp
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-10-28
+  last_checked: 2026-10-28
+  sources:
+    - https://github.com/LeulAria/volt
 - slug: vs-code-browser-agent-tools
   name: VS Code Browser Agent Tools
   description: Visual Studio Code Copilot feature set that lets AI agents open pages, read content, click elements, and run Playwright code in an integrated browser.

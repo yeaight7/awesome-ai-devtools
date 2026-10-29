@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 298 reviewed tools.
+This is the complete comparison matrix for all 299 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -289,6 +289,7 @@ This is the complete comparison matrix for all 298 reviewed tools.
 | [UpdateBot](https://github.com/jenkins-x/updatebot) | Repo automation tools | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/jenkins-x/updatebot) |
 | [Vectara Open Evaluation UI](https://www.vectara.com/blog/open-evaluation) | Agent evals | No | No | No | No | No | No | [Website](https://www.vectara.com/blog/open-evaluation) / [Docs](https://docs.vectara.com/docs/hallucination-and-evaluation/open-eval-framework) |
 | [vLLM](https://vllm.ai) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Website](https://vllm.ai) / [Docs](https://docs.vllm.ai/en/stable/serving/openai_compatible_server.html) / [Repo](https://github.com/vllm-project/vllm) |
+| [Volt](https://github.com/LeulAria/volt) | IDE assistants | Yes | Yes | No | No | Yes | Yes | [Repo](https://github.com/LeulAria/volt) |
 | [Webagent (webagent-cloud)](https://github.com/webagent-cloud/webagent) | Browser agents | Yes | No | No | No | No | No | [Repo](https://github.com/webagent-cloud/webagent) |
 | [WebLLM](https://webllm.mlc.ai) | Local LLM developer tools | Yes | Yes | No | No | No | No | [Website](https://webllm.mlc.ai) / [Docs](https://github.com/mlc-ai/web-llm#readme) / [Repo](https://github.com/mlc-ai/web-llm) |
 | [WebMCP JavaScript Library](https://webmcp.dev) | MCP tooling | Yes | Yes | No | No | No | Yes | [Website](https://webmcp.dev) / [Docs](https://docs.mcp-b.ai/explanation/webmcp-vs-mcp) / [Repo](https://github.com/webmachinelearning/webmcp) |
