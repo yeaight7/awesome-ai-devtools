@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 300 reviewed tools.
+This is the complete comparison matrix for all 301 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -80,6 +80,7 @@ This is the complete comparison matrix for all 300 reviewed tools.
 | [Context Guru](https://rossoctl.github.io/context-guru/) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Docs](https://rossoctl.github.io/context-guru/) / [Repo](https://github.com/rossoctl/context-guru) |
 | [Context7 MCP Server](https://context7.com) | MCP servers | Yes | No | No | No | No | Yes | [Website](https://context7.com) / [Repo](https://github.com/upstash/context7) |
 | [Continue](https://docs.continue.dev/) | IDE assistants | Yes | No | No | Yes | Yes | No | [Docs](https://docs.continue.dev/) / [Repo](https://github.com/continuedev/continue) |
+| [CurlShot MCP](https://curlshot.com) | MCP servers | No | No | No | No | No | Yes | [Website](https://curlshot.com) / [Docs](https://curlshot.com/docs) / [Repo](https://github.com/SergiuPogor/curlshot-mcp) |
 | [Cursor](https://cursor.com/) | IDE assistants | No | No | No | Yes | Yes | Yes | [Website](https://cursor.com/) / [Docs](https://cursor.com/docs) |
 | [Cursor Rules](https://github.com/survivorforge/cursor-rules) | Agent skill packs | Yes | Yes | No | No | No | No | [Repo](https://github.com/survivorforge/cursor-rules) |
 | [cursor-bridge](https://github.com/hkc5/cursor-bridge) | Coding agents | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/hkc5/cursor-bridge) |
