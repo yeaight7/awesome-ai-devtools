@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 300 reviewed tools.
+This is the complete comparison matrix for all 301 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -265,6 +265,7 @@ This is the complete comparison matrix for all 300 reviewed tools.
 | [Skyvern](https://pypi.org/project/skyvern/0.1.70/) | Browser agents | Yes | No | No | No | No | No | [Docs](https://pypi.org/project/skyvern/0.1.70/) / [Repo](https://github.com/Skyvern-AI/skyvern) |
 | [Smithery CLI](https://smithery.ai) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Website](https://smithery.ai) / [Docs](https://smithery.ai/docs/concepts/cli) / [Repo](https://github.com/smithery-ai/cli) |
 | [Smithery MCP Installer Server](https://github.com/smithery-ai/smithery-cli-mcp) | MCP tooling | Yes | No | Yes | No | No | Yes | [Repo](https://github.com/smithery-ai/smithery-cli-mcp) |
+| [SpaceApp](https://spaceapp.dev/) | Self-hosted AI dev stacks | Yes | No | Yes | Yes | No | Yes | [Website](https://spaceapp.dev/) / [Docs](https://spaceapp.dev/docs/) / [Repo](https://github.com/oll4com/spaceapp) |
 | [stack-attack](https://github.com/taneliang/stack-attack) | Repo automation tools | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/taneliang/stack-attack) |
 | [stack-pr](https://github.com/modular/stack-pr) | Repo automation tools | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/modular/stack-pr) |
 | [Stagehand](https://stagehand.dev) | Browser agents | Yes | No | No | No | No | No | [Website](https://stagehand.dev) / [Repo](https://github.com/browserbase/stagehand) |
