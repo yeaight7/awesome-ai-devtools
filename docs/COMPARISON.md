@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 300 reviewed tools.
+This is the complete comparison matrix for all 301 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -76,6 +76,7 @@ This is the complete comparison matrix for all 300 reviewed tools.
 | [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay) | Agent observability | Yes | Yes | No | No | No | No | [Repo](https://github.com/cpys/codex-quota-overlay) |
 | [codex-profiles](https://ducksss.github.io/codex-profiles/) | Terminal agents | Yes | Yes | No | Yes | No | No | [Website](https://ducksss.github.io/codex-profiles/) / [Docs](https://github.com/Ducksss/codex-profiles#readme) / [Repo](https://github.com/Ducksss/codex-profiles) |
 | [Comet Opik](https://www.comet.com) | Agent observability | Yes | No | No | No | No | No | [Website](https://www.comet.com) / [Docs](https://docs.comet.com/docs/opik-overview) / [Repo](https://github.com/comet-ml/opik) |
+| [Concord](https://getconcord.ai) | MCP servers | Yes | No | No | Yes | No | Yes | [Website](https://getconcord.ai) / [Repo](https://github.com/Get-Concord-AI/concord-mcp) |
 | [Confident AI](https://www.confident-ai.com) | Agent observability | No | No | No | No | No | No | [Website](https://www.confident-ai.com) / [Docs](https://www.confident-ai.com/docs) |
 | [Context Guru](https://rossoctl.github.io/context-guru/) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Docs](https://rossoctl.github.io/context-guru/) / [Repo](https://github.com/rossoctl/context-guru) |
 | [Context7 MCP Server](https://context7.com) | MCP servers | Yes | No | No | No | No | Yes | [Website](https://context7.com) / [Repo](https://github.com/upstash/context7) |
