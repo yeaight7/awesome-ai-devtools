@@ -9434,6 +9434,35 @@
   last_checked: 2026-06-14
   sources:
     - https://srctrace.com
+- slug: spaceapp
+  name: SpaceApp
+  description: Self-hosted web workspace that runs coding CLIs such as OpenCode, Codex, Claude Code and Gemini CLI side by side as terminal panes in persistent rooms.
+  website_url: https://spaceapp.dev/
+  repo_url: https://github.com/oll4com/spaceapp
+  docs_url: https://spaceapp.dev/docs/
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - coding
+    - docker
+    - multi-agent
+    - self-hosted
+    - terminal
+    - web-app
+  interfaces:
+    - cli
+    - mcp
+    - web
+  deployment: self-hosted
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-11-02
+  last_checked: 2026-11-02
+  sources:
+    - https://github.com/oll4com/spaceapp
+    - https://spaceapp.dev/
+    - https://spaceapp.dev/docs/
 - slug: stack-attack
   name: stack-attack
   description: CLI tool that helps developers create, manipulate, and land stacks of pull requests instead of single large PRs.

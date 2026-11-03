@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>389 tools</code> <code>301 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>390 tools</code> <code>302 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -82,7 +82,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Run locally/self-host
 
-[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (26) · [Local LLM developer tools](#local-llm-developer-tools) (31)
+[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (27) · [Local LLM developer tools](#local-llm-developer-tools) (31)
 
 ### Automate repo work
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 301 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 302 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -497,6 +497,7 @@ Self-hostable platforms and infrastructure for AI developer workflows.
 | [Scalable Agentic RAG Platform (FareedKhan-dev)](https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme) | Production-grade agentic RAG platform with Kubernetes, Ray, LangGraph, and multi-plane architecture. | CLI · Self-hosted | [Docs](https://github.com/FareedKhan-dev/scalable-rag-pipeline#readme) / [Repo](https://github.com/FareedKhan-dev/scalable-rag-pipeline) |
 | [Self-hosted AI Package](https://sourceforge.net/projects/self-hosted-ai-package.mirror/) | Open-source Docker Compose starter kit bundling Ollama, n8n, Supabase, Open WebUI, Flowise, Neo4j, Langfuse, and related tools. | API · Web · Self-hosted | [Website](https://sourceforge.net/projects/self-hosted-ai-package.mirror/) / [Repo](https://github.com/coleam00/ai-agents-masterclass) |
 | [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Docker Compose-based local AI and low-code stack bundling n8n, Ollama, Qdrant, PostgreSQL, and related services. | API · CLI · Web · Self-hosted | [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
+| [SpaceApp](https://spaceapp.dev/) | Self-hosted web workspace that runs coding CLIs such as OpenCode, Codex, Claude Code and Gemini CLI side by side as terminal panes in persistent rooms. | CLI · MCP · Web · Self-hosted | [Website](https://spaceapp.dev/) / [Docs](https://spaceapp.dev/docs/) / [Repo](https://github.com/oll4com/spaceapp) |
 | [Synaplan AI Platform](https://synaplan.com/solutions/developers) | Open-source, self-hosted AI platform with full stack deployment via Docker Compose and local inference via Ollama. | API · Web · Self-hosted | [Website](https://synaplan.com/solutions/developers) / [Docs](https://synaplan.com/docs) |
 | [Tabby](https://www.tabbyml.com/) | Self-hosted AI coding assistant for teams that want private code assistance and repository-aware development. | API · IDE · Self-hosted | [Website](https://www.tabbyml.com/) / [Docs](https://tabby.tabbyml.com/docs/) / [Repo](https://github.com/TabbyML/tabby) |
 | [Winy RAG Sample Stack](https://github.com/mfranzon/winy) | Sample RAG application with Ollama, Qdrant, and Streamlit web app orchestrated via Docker Compose. | Web · Self-hosted | [Docs](https://github.com/mfranzon/winy#readme) / [Repo](https://github.com/mfranzon/winy) |
@@ -659,13 +660,13 @@ Directories, curated lists, and registries of AI developer tools and resources.
 ## New Arrivals
 
 - 2026-11-02: [Concord](https://getconcord.ai)
+- 2026-11-02: [SpaceApp](https://spaceapp.dev/)
 - 2026-10-28: [Agent Notifications](https://agent-notifications.com/)
 - 2026-10-20: [PlaceCall](https://voygr.tech/placecall/)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 - 2026-10-05: [Context Guru](https://rossoctl.github.io/context-guru/)
-- 2026-10-05: [Orbi](https://orbi.build/)
 
 ## Needs review
 
