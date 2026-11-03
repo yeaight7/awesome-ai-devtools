@@ -291,6 +291,7 @@ Model Context Protocol servers that expose tools, resources, or prompts.
 | [Chrome DevTools MCP](https://developer.chrome.com/blog/chrome-devtools-mcp) | MCP server that gives AI agents Chrome DevTools debugging capabilities for web applications. | MCP · Local | [Docs](https://developer.chrome.com/blog/chrome-devtools-mcp) / [Repo](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
 | [Concord](https://getconcord.ai) | MCP server and CLI that lets coding agents such as Claude Code, Codex, Cursor and Gemini CLI message each other, claim work, share task memory and hand off. | CLI · MCP · Hybrid | [Website](https://getconcord.ai) / [Repo](https://github.com/Get-Concord-AI/concord-mcp) |
 | [Context7 MCP Server](https://context7.com) | MCP server for retrieving up-to-date library documentation and code examples for AI coding assistants. | MCP · Hybrid | [Website](https://context7.com) / [Repo](https://github.com/upstash/context7) |
+| [CurlShot MCP](https://curlshot.com) | Hosted MCP server and screenshot API that lets AI agents capture web pages as PNG, JPEG, WebP, PDF, or scrolling video. | API · MCP · Hosted | [Website](https://curlshot.com) / [Docs](https://curlshot.com/docs) / [Repo](https://github.com/SergiuPogor/curlshot-mcp) |
 | [e2b-mcp](https://e2b.dev) | CLI and API for running MCP servers inside isolated E2B cloud sandboxes. | CLI · Hosted | [Website](https://e2b.dev) / [Repo](https://github.com/cased/e2b-mcp) |
 | [Exa MCP Server](https://github.com/exa-labs/exa-mcp-server) | MCP server for connecting AI assistants to Exa web search, crawling, and research tools. | MCP · Hosted | [Repo](https://github.com/exa-labs/exa-mcp-server) |
 | [GitHub MCP Server](https://github.com/github/github-mcp-server) | Official GitHub MCP server for repository access, issues, pull requests, code analysis, and workflow automation. | MCP · Hybrid | [Repo](https://github.com/github/github-mcp-server) |
@@ -661,6 +662,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-11-02: [Concord](https://getconcord.ai)
 - 2026-10-28: [Agent Notifications](https://agent-notifications.com/)
 - 2026-10-20: [PlaceCall](https://voygr.tech/placecall/)
+- 2026-10-16: [CurlShot MCP](https://curlshot.com)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
