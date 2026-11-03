@@ -2504,6 +2504,29 @@
     - https://www.comet.com
     - https://www.comet.com/site/opik/
     - https://www.youtube.com/watch?v=V17CvwJK0Jc
+- slug: concord
+  name: Concord
+  description: MCP server and CLI that lets coding agents such as Claude Code, Codex, Cursor and Gemini CLI message each other, claim work, share task memory and hand off.
+  website_url: https://getconcord.ai
+  repo_url: https://github.com/Get-Concord-AI/concord-mcp
+  categories:
+    - mcp-servers
+  tags:
+    - cli
+    - mcp
+    - multi-agent
+  interfaces:
+    - cli
+    - mcp
+  deployment: hybrid
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-11-02
+  last_checked: 2026-11-02
+  sources:
+    - https://getconcord.ai
+    - https://github.com/Get-Concord-AI/concord-mcp
 - slug: confident-ai
   name: Confident AI
   description: Evaluation and observability platform that traces LLM apps and runs DeepEval metrics on components and end-to-end workflows.
