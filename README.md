@@ -47,6 +47,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 - [Chrome DevTools MCP](https://developer.chrome.com/blog/chrome-devtools-mcp) - MCP server that gives AI agents Chrome DevTools debugging capabilities for web applications.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official GitHub MCP server for repository access, issues, pull requests, code analysis, and workflow automation.
 - [Context7 MCP Server](https://context7.com) - MCP server for retrieving up-to-date library documentation and code examples for AI coding assistants.
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, with proof of exploitation.
 - [Browserbase MCP Server](https://browserbase.com) - MCP server that lets AI agents control cloud browsers through Browserbase and Stagehand.
 - [Agent Powerups](https://github.com/yeaight7/agent-powerups) - Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents.
 
