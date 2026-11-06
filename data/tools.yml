@@ -10239,6 +10239,28 @@
   sources:
     - https://github.com/vercel-labs/agent-eval
     - https://github.com/vercel-labs/agent-eval/releases
+- slug: vibe-coding-rules-starter
+  name: Vibe Coding Rules Starter
+  description: Free MIT AGENTS.md, CLAUDE.md and Cursor security rule that keep coding agents in scope and secrets out of the repo.
+  website_url: https://github.com/theodorecreatesco/vibe-coding-rules-starter
+  repo_url: https://github.com/theodorecreatesco/vibe-coding-rules-starter
+  categories:
+    - prompt-workflow-libraries
+  tags:
+    - coding
+    - open-source
+    - workflow-library
+    - agent-skills
+  interfaces:
+    - template
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: draft
+  added: 2026-11-06
+  last_checked: 2026-11-06
+  sources:
+    - https://github.com/theodorecreatesco/vibe-coding-rules-starter
 - slug: vllm
   name: vLLM
   description: High-throughput LLM inference engine with an OpenAI-compatible HTTP server for serving models locally or on servers.
