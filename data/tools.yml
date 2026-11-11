@@ -10032,6 +10032,34 @@
     - https://github.com/TerminallyLazy/Tree-Ring-Memory
     - https://terminallylazy.github.io/Tree-Ring-Memory/
     - https://terminallylazy.github.io/Tree-Ring-Memory/press-kit.md
+- slug: treeharbor
+  name: TreeHarbor
+  description: Self-hosted workspaces for parallel coding agents with pinned Git revisions, retained changes after cleanup, and draft pull requests on GitHub.
+  website_url: https://github.com/ArtAndrew/TreeHarbor
+  repo_url: https://github.com/ArtAndrew/TreeHarbor
+  docs_url: https://github.com/ArtAndrew/TreeHarbor/blob/v0.1.19-alpha.1/docs/try-treeharbor.md
+  categories:
+    - self-hosted-ai-dev-stacks
+  primary_category: self-hosted-ai-dev-stacks
+  tags:
+    - github
+    - repo-automation
+  interfaces:
+    - api
+    - cli
+    - mcp
+  deployment: self-hosted
+  source_model: source-available
+  license: Elastic-2.0
+  curation_status: reviewed
+  added: 2026-11-11
+  last_checked: 2026-11-11
+  sources:
+    - https://github.com/ArtAndrew/TreeHarbor
+    - https://github.com/ArtAndrew/TreeHarbor/blob/v0.1.19-alpha.1/docs/mcp.md
+    - https://github.com/ArtAndrew/TreeHarbor/blob/v0.1.19-alpha.1/docs/try-treeharbor.md
+    - https://github.com/ArtAndrew/TreeHarbor/blob/v0.1.19-alpha.1/LICENSE
+    - https://github.com/ArtAndrew/TreeHarbor/releases/tag/v0.1.19-alpha.1
 - slug: trulens
   name: TruLens
   description: Open-source library for tracing and evaluating AI agents, RAG systems, and LLM applications with feedback functions.

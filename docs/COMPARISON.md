@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 302 reviewed tools.
+This is the complete comparison matrix for all 303 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -287,6 +287,7 @@ This is the complete comparison matrix for all 302 reviewed tools.
 | [text-generation-webui](https://github.com/oobabooga/text-generation-webui#readme) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Docs](https://github.com/oobabooga/text-generation-webui#readme) / [Repo](https://github.com/oobabooga/text-generation-webui) |
 | [Tokenade](https://tokenade.net/en) | Terminal agents | No | Yes | No | Yes | No | Yes | [Website](https://tokenade.net/en) / [Docs](https://github.com/pi-infected/tokenade-npm#readme) / [Repo](https://github.com/pi-infected/tokenade-npm) |
 | [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/) | Terminal agents | Yes | Yes | No | Yes | No | No | [Website](https://terminallylazy.github.io/Tree-Ring-Memory/) / [Docs](https://terminallylazy.github.io/Tree-Ring-Memory/press-kit.md) / [Repo](https://github.com/TerminallyLazy/Tree-Ring-Memory) |
+| [TreeHarbor](https://github.com/ArtAndrew/TreeHarbor) | Self-hosted AI dev stacks | No | No | Yes | Yes | No | Yes | [Docs](https://github.com/ArtAndrew/TreeHarbor/blob/v0.1.19-alpha.1/docs/try-treeharbor.md) / [Repo](https://github.com/ArtAndrew/TreeHarbor) |
 | [TruLens](https://www.trulens.org) | Agent observability | Yes | Yes | No | No | No | No | [Website](https://www.trulens.org) / [Docs](https://www.trulens.org/docs) / [Repo](https://github.com/truera/trulens) |
 | [UIZZE](https://uizze.com) | Agent skill packs | No | No | No | No | No | Yes | [Website](https://uizze.com) / [Docs](https://uizze.com/docs) |
 | [Unitxt](https://www.unitxt.ai) | Agent evals | Yes | No | No | Yes | No | No | [Website](https://www.unitxt.ai) / [Docs](https://www.unitxt.ai/en/main/docs/introduction.html) / [Repo](https://github.com/ibm/unitxt) |
