@@ -9885,6 +9885,30 @@
   sources:
     - http://github.com/reworkd/tarsier
     - https://github.com/reworkd/tarsier
+- slug: telemio
+  name: Telemio
+  description: Hosted OpenTelemetry observability platform for investigating production logs, traces, metrics, and incidents through an MCP server.
+  website_url: https://telemio.sh
+  repo_url: https://github.com/wundercorp/telemio-mcp
+  docs_url: https://telemio.sh/mcp-server
+  categories:
+    - mcp-servers
+  tags:
+    - mcp
+    - observability
+    - opentelemetry
+  interfaces:
+    - mcp
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
+  added: 2026-11-11
+  last_checked: 2026-11-11
+  sources:
+    - https://github.com/wundercorp/telemio-mcp
+    - https://telemio.sh/mcp-server
 - slug: testcontainers-llm
   name: Testcontainers LLM
   description: Java Testcontainers modules for spinning up LLM-related services like Ollama and LocalAI for integration tests.

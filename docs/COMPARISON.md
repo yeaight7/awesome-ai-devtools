@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 302 reviewed tools.
+This is the complete comparison matrix for all 303 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -283,6 +283,7 @@ This is the complete comparison matrix for all 302 reviewed tools.
 | [Tabby](https://www.tabbyml.com/) | Self-hosted AI dev stacks | Yes | No | Yes | No | Yes | No | [Website](https://www.tabbyml.com/) / [Docs](https://tabby.tabbyml.com/docs/) / [Repo](https://github.com/TabbyML/tabby) |
 | [TabbyAPI](https://github.com/theroyallab/tabbyAPI#readme) | Local LLM developer tools | Yes | No | Yes | No | No | No | [Docs](https://github.com/theroyallab/tabbyAPI#readme) / [Repo](https://github.com/theroyallab/tabbyAPI) |
 | [Tarsier](https://github.com/reworkd/tarsier) | Browser agents | Yes | No | No | No | No | No | [Repo](https://github.com/reworkd/tarsier) |
+| [Telemio](https://telemio.sh) | MCP servers | No | No | No | No | No | Yes | [Website](https://telemio.sh) / [Docs](https://telemio.sh/mcp-server) / [Repo](https://github.com/wundercorp/telemio-mcp) |
 | [Text Generation Inference](https://huggingface.co/docs/text-generation-inference) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Website](https://huggingface.co/docs/text-generation-inference) / [Docs](https://huggingface.co/docs/text-generation-inference/index) / [Repo](https://github.com/huggingface/text-generation-inference) |
 | [text-generation-webui](https://github.com/oobabooga/text-generation-webui#readme) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Docs](https://github.com/oobabooga/text-generation-webui#readme) / [Repo](https://github.com/oobabooga/text-generation-webui) |
 | [Tokenade](https://tokenade.net/en) | Terminal agents | No | Yes | No | Yes | No | Yes | [Website](https://tokenade.net/en) / [Docs](https://github.com/pi-infected/tokenade-npm#readme) / [Repo](https://github.com/pi-infected/tokenade-npm) |
