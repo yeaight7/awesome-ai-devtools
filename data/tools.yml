@@ -7544,6 +7544,39 @@
     - https://developers.openai.com/api/docs/guides/agent-evals
     - https://platform.openai.com
     - https://www.youtube.com/watch?v=T2ytN20H-BQ
+- slug: openaidr
+  name: OpenAIDR
+  description: Inventories AI coding agents and MCP servers, enforces policies at supported hooks, and tracks usage and estimated cost; model-backed checks use a hosted service.
+  website_url: https://github.com/opensecurainc/openaidr
+  repo_url: https://github.com/opensecurainc/openaidr
+  docs_url: https://github.com/opensecurainc/openaidr/blob/main/docs/guide.md
+  categories:
+    - agent-observability
+    - ai-devtools-security
+  primary_category: ai-devtools-security
+  tags:
+    - cost-tracking
+    - desktop-app
+    - local-first
+    - monitoring
+    - observability
+    - security
+    - self-hosted
+  interfaces:
+    - desktop
+    - web
+  deployment: hybrid
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  review_notes: Apache-2.0 covers the client components; model-backed guardrail checks use OpenSecura's hosted Intelligence service.
+  added: 2026-11-10
+  last_checked: 2026-11-10
+  sources:
+    - https://github.com/opensecurainc/openaidr
+    - https://github.com/opensecurainc/openaidr/blob/main/docs/guide.md
+    - https://github.com/opensecurainc/openaidr/blob/main/docs/open-source-plan.md
+    - https://github.com/opensecurainc/openaidr/blob/main/LICENSE
 - slug: openclaw-monitor
   name: OpenClaw Monitor
   description: Real-time monitoring dashboard for OpenClaw agents — track task execution, token usage, and agent activity with an intuitive UI.

@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 302 reviewed tools.
+This is the complete comparison matrix for all 303 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -213,6 +213,7 @@ This is the complete comparison matrix for all 302 reviewed tools.
 | [OpenAI Computer Use](https://developers.openai.com) | Browser agents | No | No | No | No | No | No | [Website](https://developers.openai.com) / [Docs](https://developers.openai.com/api/docs/guides/tools-computer-use) |
 | [OpenAI HumanEval Harness](https://github.com/openai/human-eval) | Agent evals | Yes | No | No | Yes | No | No | [Repo](https://github.com/openai/human-eval) |
 | [OpenAI Traces and Evals](https://platform.openai.com) | Agent observability | Yes | No | No | No | No | No | [Website](https://platform.openai.com) / [Docs](https://developers.openai.com/api/docs/guides/agent-evals) / [Repo](https://github.com/openai/evals) |
+| [OpenAIDR](https://github.com/opensecurainc/openaidr) | AI devtools security | Yes | Yes | Yes | No | No | No | [Docs](https://github.com/opensecurainc/openaidr/blob/main/docs/guide.md) / [Repo](https://github.com/opensecurainc/openaidr) |
 | [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) | Agent observability | Yes | Yes | Yes | No | No | No | [Repo](https://github.com/flik2002/openclaw-monitor) |
 | [OpenCode](https://opencode.ai/) | Coding agents | Yes | Yes | No | Yes | Yes | Yes | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
 | [OpenHands](https://openhands.dev/) | Coding agents | Yes | No | Yes | Yes | No | No | [Website](https://openhands.dev/) / [Docs](https://docs.openhands.dev/overview/quickstart) / [Repo](https://github.com/OpenHands/OpenHands) |
