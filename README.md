@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>390 tools</code> <code>302 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>391 tools</code> <code>303 reviewed</code> <code>88 draft</code> <code>19 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (25)
+[Agent observability](#agent-observability) (48) · [Agent evals](#agent-evals) (25) · [AI devtools security](#ai-devtools-security) (1)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 302 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 303 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -382,6 +382,14 @@ Reusable instruction, workflow, or capability packs for coding agents.
 | [UIZZE](https://uizze.com) | UI reference platform and agent skill providing web and iOS screen patterns, design contracts, and finish-gate reviews for coding agents. | MCP · Skill Pack · Web · Hosted | [Website](https://uizze.com) / [Docs](https://uizze.com/docs) |
 | [wshobson/agents](https://github.com/wshobson/agents) | Unified repository with 185 specialized agents, 16 orchestrators, 153 skills, and 100 commands for Claude Code automation. | CLI · Local | [Repo](https://github.com/wshobson/agents) |
 
+### AI devtools security
+
+Security tools and guidance for AI-assisted software development systems.
+
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [OpenAIDR](https://github.com/opensecurainc/openaidr) | Inventories AI coding agents and MCP servers, enforces policies at supported hooks, and tracks usage and estimated cost; model-backed checks use a hosted service. | Desktop · Web · Hybrid | [Docs](https://github.com/opensecurainc/openaidr/blob/main/docs/guide.md) / [Repo](https://github.com/opensecurainc/openaidr) |
+
 ### Agent observability
 
 Tools for tracing, monitoring, and debugging agent or LLM application behavior.
@@ -422,6 +430,7 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 | [Noveum AI Agent Monitoring](https://noveum.ai/en/solutions/ai-agent-monitoring) | Enterprise AI agent monitoring platform with real-time tracing of LLM calls, RAG steps, and tool interactions. | API · Web · Hosted | [Website](https://noveum.ai/en/solutions/ai-agent-monitoring) |
 | [Okahu](https://www.okahu.ai) | AI observability platform and tools for debugging, testing, and monitoring agentic and LLM-based applications. | API · Web · Hosted | [Website](https://www.okahu.ai) / [Docs](https://docs.okahu.ai) / [Repo](https://github.com/okahu-demos) |
 | [OpenAI Traces and Evals](https://platform.openai.com) | Built-in OpenAI platform capabilities for tracing agent workflows and running evaluations on traces and datasets. | API · Web · Hosted | [Website](https://platform.openai.com) / [Docs](https://developers.openai.com/api/docs/guides/agent-evals) / [Repo](https://github.com/openai/evals) |
+| [OpenAIDR](https://github.com/opensecurainc/openaidr) | Inventories AI coding agents and MCP servers, enforces policies at supported hooks, and tracks usage and estimated cost; model-backed checks use a hosted service. | Desktop · Web · Hybrid | [Docs](https://github.com/opensecurainc/openaidr/blob/main/docs/guide.md) / [Repo](https://github.com/opensecurainc/openaidr) |
 | [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) | Real-time monitoring dashboard for OpenClaw agents — track task execution, token usage, and agent activity with an intuitive UI. | Web · Self-hosted | [Repo](https://github.com/flik2002/openclaw-monitor) |
 | [OpenInference](https://arize-ai.github.io/openinference/) | Open-source OpenTelemetry-based specification and instrumentations for tracing AI and LLM applications. | Library · Local | [Docs](https://arize-ai.github.io/openinference/) / [Repo](https://github.com/Arize-ai/openinference) |
 | [OpenLIT](https://openlit.io) | Open-source OpenTelemetry-native observability and evaluations platform for GenAI and LLM applications. | API · CLI · Web · Self-hosted | [Website](https://openlit.io) / [Docs](https://docs.openlit.io) / [Repo](https://github.com/openlit/openlit) |
@@ -659,6 +668,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-11-10: [OpenAIDR](https://github.com/opensecurainc/openaidr)
 - 2026-11-02: [Concord](https://getconcord.ai)
 - 2026-11-02: [SpaceApp](https://spaceapp.dev/)
 - 2026-10-28: [Agent Notifications](https://agent-notifications.com/)
@@ -666,7 +676,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
-- 2026-10-05: [Context Guru](https://rossoctl.github.io/context-guru/)
 
 ## Needs review
 
@@ -712,8 +721,8 @@ Use official sources, keep descriptions factual, and leave uncertain metadata as
 ## Roadmap
 
 - Review and promote 88 queued draft entries, prioritising thin shelves.
-- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed), MCP clients (7 reviewed).
-- Populate empty shelves when quality entries are found: Prompt and workflow libraries, AI devtools security, DevOps and SRE agents.
+- Expand thin reviewed shelves: AI devtools security (1 reviewed), Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed).
+- Populate empty shelves when quality entries are found: Prompt and workflow libraries, DevOps and SRE agents.
 - Act on the weekly maintenance reports: fix confirmed-broken links and re-verify stale entries.
 - Improve generated filter views and category-level comparisons.
 - Keep the schema small and strict as the catalog grows.
