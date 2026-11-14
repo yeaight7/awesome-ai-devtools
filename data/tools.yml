@@ -2250,6 +2250,33 @@
   sources:
     - https://github.com/cline/prompts
     - https://www.reddit.com/r/CLine/comments/1kh8iwo/new_clinerules_library_github_repo_from_the_cline/
+- slug: cloudgpu-mcp
+  name: CloudGPU MCP
+  description: MCP server and REST API that let AI agents quote, rent, run jobs on and stop GPU instances under a scoped API key with a spending limit.
+  website_url: https://cloudgpu.app/docs/mcp
+  repo_url: https://github.com/cloudgpu-app/cloudgpu-mcp
+  docs_url: https://cloudgpu.app/docs/mcp
+  categories:
+    - mcp-servers
+  tags:
+    - api
+    - cloud
+    - gpu
+    - mcp
+  interfaces:
+    - api
+    - mcp
+  deployment: hybrid
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-11-14
+  last_checked: 2026-11-14
+  sources:
+    - https://cloudgpu.app/.well-known/mcp/server-card.json
+    - https://cloudgpu.app/docs/mcp
+    - https://github.com/cloudgpu-app/cloudgpu-mcp
+    - https://www.npmjs.com/package/cloudgpu-mcp
 - slug: code-summarizer-action
   name: Code Summarizer Action
   description: GitHub Action that generates AI summaries of code changes or files and posts them as PR comments.
