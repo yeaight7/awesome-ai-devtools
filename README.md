@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>390 tools</code> <code>302 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>391 tools</code> <code>303 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,11 +70,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (34) · [Terminal agents](#terminal-agents) (23) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
+[Coding agents](#coding-agents) (35) · [Terminal agents](#terminal-agents) (23) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (24) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (28)
+[MCP servers](#mcp-servers) (24) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (20) · [Agent skill packs](#agent-skill-packs) (28)
 
 ### Operate agents
 
@@ -82,7 +82,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Run locally/self-host
 
-[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (27) · [Local LLM developer tools](#local-llm-developer-tools) (31)
+[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (28) · [Local LLM developer tools](#local-llm-developer-tools) (31)
 
 ### Automate repo work
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 302 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 303 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -133,6 +133,7 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [IBM MCP CLI](https://github.com/IBM/mcp-cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/IBM/mcp-cli) |
 | [Jan Server](https://jan.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://jan.ai) / [Docs](https://github.com/janhq/server#readme) / [Repo](https://github.com/janhq/server) |
 | [KoboldCpp](https://koboldcpp.com) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://koboldcpp.com) / [Docs](https://github.com/LostRuins/koboldcpp/wiki) / [Repo](https://github.com/LostRuins/koboldcpp) |
+| [Kodama](https://github.com/optimiware/kodama) | Self-hosted AI dev stacks | Yes | No | Yes | Yes | No | Yes | [Docs](https://github.com/optimiware/kodama/tree/master/docs) / [Repo](https://github.com/optimiware/kodama) |
 | [llama-cpp-python](https://llama-cpp-python.readthedocs.io) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Docs](https://llama-cpp-python.readthedocs.io) / [Repo](https://github.com/abetlen/llama-cpp-python) |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/examples) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Docs](https://github.com/ggml-org/llama.cpp/tree/master/examples) / [Repo](https://github.com/ggml-org/llama.cpp) |
 | [MCP Bundles (MCPB)](https://modelcontextprotocol.io/docs/develop/build-with-agent-skills) | MCP servers | Yes | Yes | No | Yes | No | Yes | [Docs](https://modelcontextprotocol.io/docs/develop/build-with-agent-skills) / [Repo](https://github.com/modelcontextprotocol/mcpb) |
@@ -143,7 +144,6 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [Ruflo](https://github.com/ruvnet/ruflo) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Docs](https://github.com/ruvnet/ruflo#readme) / [Repo](https://github.com/ruvnet/ruflo) |
 | [SandBase CLI](https://github.com/sandbaseai/cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/sandbaseai/cli#readme) / [Repo](https://github.com/sandbaseai/cli) |
 | [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
-| [Sillage](https://github.com/MarlBurroW/sillage) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Repo](https://github.com/MarlBurroW/sillage) |
 
 <p align="center"><img src="assets/awesome-ai-devtools-social-preview.gif" alt="Awesome AI Devtools ecosystem map" width="100%"></p>
 
@@ -173,6 +173,7 @@ Agentic tools that can inspect, modify, and reason about source code.
 | [Ivy Tendril](https://tendril.ivy.app) | Open-source AI coding orchestrator that manages Claude Code, Codex, Antigravity, Copilot and more through a plan-based lifecycle with verification gates and self-improving memory. | Desktop · Local | [Website](https://tendril.ivy.app) / [Docs](https://tendril.ivy.app/getting-started/installation) |
 | [Jules](https://jules.google/) | Google asynchronous coding agent for GitHub that fixes bugs, adds features, and updates documentation. | API · Web · Hosted | [Website](https://jules.google/) / [Docs](https://jules.google/docs/) |
 | [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
+| [Kodama](https://github.com/optimiware/kodama) | API-first, multi-tenant Go platform running container pipelines and coding agents on Podman or Kubernetes with REST/MCP edges, model gateway, and approvals. | API · CLI · MCP · Self-hosted | [Docs](https://github.com/optimiware/kodama/tree/master/docs) / [Repo](https://github.com/optimiware/kodama) |
 | [Kolega Code](https://github.com/kolega-ai/kolega-code) | Open-source terminal coding agent where the model writes its own multi-agent workflows (Gigacode) for repo-wide tasks. | CLI · Local | [Docs](https://kolega-ai.github.io/kolega-code/) / [Repo](https://github.com/kolega-ai/kolega-code) |
 | [molt](https://solvyx.xyz/work/molt) | Open-source coding agent for terminal and desktop that refuses done until project checks pass on disk. | CLI · Desktop · Local | [Website](https://solvyx.xyz/work/molt) / [Repo](https://github.com/solvyxtech/molt) |
 | [mu](https://github.com/qybaihe/mu) | Open-source coding agent built on pi in which a small judge model answers routine decisions, such as which tool output enters the context. | CLI · Desktop · Local | [Docs](https://github.com/qybaihe/mu/tree/main/docs) / [Repo](https://github.com/qybaihe/mu) |
@@ -329,6 +330,7 @@ Developer tools for building, testing, debugging, or managing MCP systems.
 | --- | --- | --- | --- |
 | [cheqd MCP Toolkit](https://github.com/cheqd/mcp-toolkit) | Modular MCP toolkit and server framework for decentralized identity workflows on the Cheqd network. | Framework | [Docs](https://github.com/cheqd/mcp-toolkit#readme) / [Repo](https://github.com/cheqd/mcp-toolkit) |
 | [IBM MCP CLI](https://github.com/IBM/mcp-cli) | IBM command-line interface for interacting with MCP servers from scripts and terminals. | CLI · Local | [Repo](https://github.com/IBM/mcp-cli) |
+| [Kodama](https://github.com/optimiware/kodama) | API-first, multi-tenant Go platform running container pipelines and coding agents on Podman or Kubernetes with REST/MCP edges, model gateway, and approvals. | API · CLI · MCP · Self-hosted | [Docs](https://github.com/optimiware/kodama/tree/master/docs) / [Repo](https://github.com/optimiware/kodama) |
 | [MCP C# SDK](https://csharp.sdk.modelcontextprotocol.io) | Official C# SDK for MCP servers and clients, maintained with Microsoft and published to NuGet. | Library | [Docs](https://csharp.sdk.modelcontextprotocol.io) / [Repo](https://github.com/modelcontextprotocol/csharp-sdk) |
 | [MCP Clients Registry](https://github.com/TianqiZhang/mcp-client-registry) | Community-maintained registry mapping MCP client identifiers to official client names and metadata. | Library | [Repo](https://github.com/TianqiZhang/mcp-client-registry) |
 | [MCP Framework (QuantGeekDev)](https://mcp-framework.com/) | TypeScript-first framework and CLI for building MCP servers with automatic discovery and multi-transport support. | CLI · Framework | [Docs](https://mcp-framework.com/) / [Repo](https://github.com/QuantGeekDev/mcp-framework) |
@@ -482,6 +484,7 @@ Self-hostable platforms and infrastructure for AI developer workflows.
 | [Gateway From Scratch](https://github.com/yingsuan-ai/gateway-from-scratch) | A minimal OpenAI-compatible API gateway teaching scaffold with multi-provider fallback, written in Node.js for learning gateway internals. | API · Template · Self-hosted | [Docs](https://github.com/yingsuan-ai/gateway-from-scratch/blob/main/docs/architecture.md) / [Repo](https://github.com/yingsuan-ai/gateway-from-scratch) |
 | [Harbor CLI Stack](https://github.com/harbor-ai/harbor#readme) | CLI tool that spins up a local LLM stack (Ollama, Open WebUI, others) with a single command using container orchestration. | CLI · Template · Local | [Docs](https://github.com/harbor-ai/harbor#readme) / [Repo](https://github.com/harbor-ai/harbor) |
 | [Jan Server](https://jan.ai) | Self-hosted agentic AI platform powered by local models with Docker Compose-based infrastructure files. | API · CLI · Framework · Web · Self-hosted | [Website](https://jan.ai) / [Docs](https://github.com/janhq/server#readme) / [Repo](https://github.com/janhq/server) |
+| [Kodama](https://github.com/optimiware/kodama) | API-first, multi-tenant Go platform running container pipelines and coding agents on Podman or Kubernetes with REST/MCP edges, model gateway, and approvals. | API · CLI · MCP · Self-hosted | [Docs](https://github.com/optimiware/kodama/tree/master/docs) / [Repo](https://github.com/optimiware/kodama) |
 | [Langfuse](https://langfuse.com/docs) | Open-source LLM engineering platform for observability, tracing, prompt management, datasets, and evaluations. | API · Web · Hybrid | [Docs](https://langfuse.com/docs) / [Repo](https://github.com/langfuse/langfuse) |
 | [Local LLM Docker (mythrantic)](https://github.com/mythrantic/ollama-docker#readme) | Docker Compose setup for running Ollama and a web UI in containers with GPU optional. | Web · Self-hosted | [Docs](https://github.com/mythrantic/ollama-docker#readme) / [Repo](https://github.com/mythrantic/ollama-docker) |
 | [Nosia](https://nosia.ai) | Self-hosted RAG platform with OpenAI-compatible API, Docker Compose deployment, and web UI for chat over private documents. | API · CLI · Web · Self-hosted | [Website](https://nosia.ai) / [Docs](https://nosia.ai/readme/) |
@@ -659,6 +662,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-11-14: [Kodama](https://github.com/optimiware/kodama)
 - 2026-11-02: [Concord](https://getconcord.ai)
 - 2026-11-02: [SpaceApp](https://spaceapp.dev/)
 - 2026-10-28: [Agent Notifications](https://agent-notifications.com/)
@@ -666,7 +670,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
-- 2026-10-05: [Context Guru](https://rossoctl.github.io/context-guru/)
 
 ## Needs review
 
