@@ -5004,6 +5004,39 @@
     - https://github.com/LostRuins/koboldcpp
     - https://github.com/LostRuins/koboldcpp/wiki
     - https://koboldcpp.com
+- slug: kodama
+  name: Kodama
+  description: API-first, multi-tenant Go platform running container pipelines and coding agents on Podman or Kubernetes with REST/MCP edges, model gateway, and approvals.
+  website_url: https://github.com/optimiware/kodama
+  repo_url: https://github.com/optimiware/kodama
+  docs_url: https://github.com/optimiware/kodama/tree/master/docs
+  categories:
+    - coding-agents
+    - mcp-tooling
+    - self-hosted-ai-dev-stacks
+  primary_category: self-hosted-ai-dev-stacks
+  tags:
+    - agents
+    - api
+    - cli
+    - gateway
+    - kubernetes
+    - mcp
+    - orchestration
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+    - mcp
+  deployment: self-hosted
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-11-14
+  last_checked: 2026-11-14
+  sources:
+    - https://github.com/optimiware/kodama
+    - https://github.com/optimiware/kodama/tree/master/docs
 - slug: kolega-code
   name: Kolega Code
   description: Open-source terminal coding agent where the model writes its own multi-agent workflows (Gigacode) for repo-wide tasks.
