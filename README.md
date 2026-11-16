@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>390 tools</code> <code>302 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>391 tools</code> <code>303 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -86,11 +86,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Automate repo work
 
-[Repo automation tools](#repo-automation-tools) (28) · [AI code review tools](#ai-code-review-tools) (11) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
+[Repo automation tools](#repo-automation-tools) (29) · [AI code review tools](#ai-code-review-tools) (11) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 302 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 303 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -560,6 +560,7 @@ AI tools that automate repository checks, changes, pull requests, or maintenance
 | [GitHub Dependabot](https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook/analyze-security/manage-dependency-updates) | GitHub-native service that configures and runs automated security and version dependency update pull requests. | GitHub app · Hosted | [Docs](https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook/analyze-security/manage-dependency-updates) |
 | [GitHub Stacked PRs (gh stack)](https://github.github.com/gh-stack/) | Native GitHub feature and gh CLI support for creating and managing stacked pull requests for large changes. | CLI · Local | [Docs](https://github.github.com/gh-stack/) |
 | [GitHub Stale Action](https://github.com/actions/stale) | Official GitHub Action that marks inactive issues and pull requests as stale and optionally closes them. | GitHub app | [Repo](https://github.com/actions/stale) |
+| [LLMIntel Deadline Check](https://github.com/marketplace/actions/llm-model-deadline-check) | GitHub Action that scans a repository for hard-coded LLM model IDs and warns when a provider deprecation or retirement date is near. | GitHub app · Hybrid | [Website](https://github.com/marketplace/actions/llm-model-deadline-check) / [Docs](https://github.com/hivemindunit/llmintel-deadline-check#readme) / [Repo](https://github.com/hivemindunit/llmintel-deadline-check) |
 | [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop · GitHub app · IDE · MCP · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
 | [Pull Request Labeler (actions/labeler)](https://github.com/marketplace/actions/labeler) | GitHub Action that automatically labels pull requests based on changed file paths or branch names. | GitHub app | [Docs](https://github.com/marketplace/actions/labeler) / [Repo](https://github.com/actions/labeler) |
 | [Qodo-Cover](https://github.com/qodo-ai/qodo-cover) | AI-powered tool that automatically generates unit tests and improves code coverage, runnable as a CLI or in CI. | CLI · GitHub app · Hybrid | [Docs](https://github.com/qodo-ai/qodo-cover#readme) / [Repo](https://github.com/qodo-ai/qodo-cover) |
@@ -659,6 +660,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-11-16: [LLMIntel Deadline Check](https://github.com/marketplace/actions/llm-model-deadline-check)
 - 2026-11-02: [Concord](https://getconcord.ai)
 - 2026-11-02: [SpaceApp](https://spaceapp.dev/)
 - 2026-10-28: [Agent Notifications](https://agent-notifications.com/)
@@ -666,7 +668,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
-- 2026-10-05: [Context Guru](https://rossoctl.github.io/context-guru/)
 
 ## Needs review
 
