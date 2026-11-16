@@ -5654,6 +5654,30 @@
   last_checked: 2026-09-27
   sources:
     - https://poe.com/LLMAuditor
+- slug: llmintel-deadline-check
+  name: LLMIntel Deadline Check
+  description: GitHub Action that scans a repository for hard-coded LLM model IDs and warns when a provider deprecation or retirement date is near.
+  website_url: https://github.com/marketplace/actions/llm-model-deadline-check
+  repo_url: https://github.com/hivemindunit/llmintel-deadline-check
+  docs_url: https://github.com/hivemindunit/llmintel-deadline-check#readme
+  categories:
+    - repo-automation-tools
+  tags:
+    - ci
+    - github
+    - llmops
+    - repo-automation
+  interfaces:
+    - github-app
+  deployment: hybrid
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-11-16
+  last_checked: 2026-11-16
+  sources:
+    - https://github.com/hivemindunit/llmintel-deadline-check
+    - https://github.com/marketplace/actions/llm-model-deadline-check
 - slug: lm-studio
   name: LM Studio
   description: Cross-platform desktop app and SDKs to discover, run, and serve local LLMs with an OpenAI-compatible server mode.
