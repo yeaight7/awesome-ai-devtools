@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 302 reviewed tools.
+This is the complete comparison matrix for all 303 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -166,6 +166,7 @@ This is the complete comparison matrix for all 302 reviewed tools.
 | [LLM Compressor](https://docs.vllm.ai/projects/llm-compressor/en/latest/) | Local LLM developer tools | Yes | Yes | No | No | No | No | [Docs](https://docs.vllm.ai/projects/llm-compressor/en/latest/) / [Repo](https://github.com/vllm-project/llm-compressor) |
 | [LLM Evaluation Framework (Inference-Time)](https://github.com/mmjerge/LLM-Evaluation-Framework) | Agent evals | Yes | No | No | No | No | No | [Repo](https://github.com/mmjerge/LLM-Evaluation-Framework) |
 | [llm-llamafile](https://github.com/simonw/llm-llamafile#readme) | Local LLM developer tools | Yes | Yes | No | Yes | No | No | [Docs](https://github.com/simonw/llm-llamafile#readme) / [Repo](https://github.com/simonw/llm-llamafile) |
+| [LLMIntel Deadline Check](https://github.com/marketplace/actions/llm-model-deadline-check) | Repo automation tools | Yes | No | No | No | No | No | [Website](https://github.com/marketplace/actions/llm-model-deadline-check) / [Docs](https://github.com/hivemindunit/llmintel-deadline-check#readme) / [Repo](https://github.com/hivemindunit/llmintel-deadline-check) |
 | [LM Studio](https://lmstudio.ai) | Local LLM developer tools | Yes | Yes | No | Yes | No | No | [Website](https://lmstudio.ai) / [Docs](https://lmstudio.ai/docs) / [Repo](https://github.com/lmstudio-ai) |
 | [LMDeploy](https://lmdeploy.readthedocs.io) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Website](https://lmdeploy.readthedocs.io) / [Docs](https://lmdeploy.readthedocs.io/en/latest/multi_modal/api_server_vl.html) / [Repo](https://github.com/InternLM/lmdeploy) |
 | [Local LLM Docker (mythrantic)](https://github.com/mythrantic/ollama-docker#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | No | [Docs](https://github.com/mythrantic/ollama-docker#readme) / [Repo](https://github.com/mythrantic/ollama-docker) |
