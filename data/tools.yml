@@ -6580,6 +6580,34 @@
   last_checked: 2026-05-15
   sources:
     - https://posit-dev.github.io/mcptools/
+- slug: mel
+  name: Mel
+  description: Multi-agent, multi-model AI terminal for coding on macOS, Windows, Linux, and VS Code with configurable approvals and BYOK support.
+  website_url: https://www.openmel.dev
+  docs_url: https://www.openmel.dev
+  categories:
+    - coding-agents
+    - mcp-clients
+    - terminal-agents
+  primary_category: terminal-agents
+  tags:
+    - agent
+    - mcp
+    - multi-agent
+    - terminal
+  interfaces:
+    - cli
+    - desktop
+    - vscode
+  deployment: hybrid
+  source_model: proprietary
+  license: not specified
+  curation_status: draft
+  review_notes: "Draft: proprietary terminal; free with user-provided API keys, Pro from $20/month."
+  added: 2026-11-17
+  last_checked: 2026-11-17
+  sources:
+    - https://www.openmel.dev
 - slug: microsoft-skills
   name: Microsoft Skills
   description: Skills, custom agents, AGENTS.md templates, and MCP configurations for AI coding agents working with Azure SDKs and Microsoft AI Foundry.
