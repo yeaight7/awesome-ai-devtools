@@ -3591,6 +3591,35 @@
     - https://docs.ellipsis.dev/features/code-review
     - https://docs.ellipsis.dev/introduction
     - https://www.ellipsis.dev/
+- slug: evalshift
+  name: EvalShift
+  description: CLI and capture SDK that replays recorded AI agent runs on a current and a candidate model and reports regressions with significance tests.
+  website_url: https://www.evalshift.dev/
+  repo_url: https://github.com/evalshift/evalshift-cli
+  docs_url: https://www.evalshift.dev/docs/cli
+  categories:
+    - agent-evals
+  tags:
+    - agent-evals
+    - ci
+    - cli
+    - evals
+    - open-source
+    - regression-testing
+    - tool-calling
+  interfaces:
+    - cli
+    - library
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-11-19
+  last_checked: 2026-11-19
+  sources:
+    - https://github.com/evalshift/evalshift-cli
+    - https://pypi.org/project/evalshift/
+    - https://www.evalshift.dev/
 - slug: everything-claude-code
   name: Everything Claude Code
   description: Agent harness performance system with skills, hooks, MCP configs, memory optimization, and cross-harness workflows.
