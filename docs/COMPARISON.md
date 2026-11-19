@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 303 reviewed tools.
+This is the complete comparison matrix for all 304 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24,6 +24,7 @@ This is the complete comparison matrix for all 303 reviewed tools.
 | [ai-doc-gen](https://github.com/divar-ir/ai-doc-gen) | Documentation agents | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/divar-ir/ai-doc-gen) |
 | [Aider](https://aider.chat/) | Coding agents | Yes | Yes | No | Yes | No | No | [Website](https://aider.chat/) / [Docs](https://aider.chat/docs/) / [Repo](https://github.com/Aider-AI/aider) |
 | [AIGNE DocSmith](https://www.aigne.io) | Documentation agents | Yes | No | No | Yes | No | No | [Website](https://www.aigne.io) / [Repo](https://github.com/AIGNE-io/aigne-doc-smith) |
+| [Althar](https://althar.ai/) | Coding agents | Yes | Yes | No | No | No | No | [Website](https://althar.ai/) / [Repo](https://github.com/AltharIDE/althar) |
 | [Amazon CloudWatch GenAI Observability](https://aws.amazon.com/cloudwatch/) | Agent observability | Yes | No | No | No | No | No | [Website](https://aws.amazon.com/cloudwatch/) / [Docs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GenAI-observability.html) / [Repo](https://github.com/aws-samples/sample-amazon-cloudwatch-generative-ai-observability) |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer/) | Coding agents | No | No | No | Yes | Yes | No | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
 | [Amp](https://ampcode.com/) | Coding agents | No | No | No | Yes | No | Yes | [Website](https://ampcode.com/) / [Docs](https://ampcode.com/manual) |
