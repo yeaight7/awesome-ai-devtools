@@ -2039,6 +2039,33 @@
   last_checked: 2026-05-15
   sources:
     - https://github.com/openai/chatgpt-retrieval-plugin
+- slug: cheapcarent
+  name: CheapCarRent
+  description: Read-only remote MCP server for searching rental cars and listing pickup cities and airports.
+  website_url: https://cheapcarent.com/developers
+  repo_url: https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp
+  docs_url: https://cheapcarent.com/developers
+  categories:
+    - mcp-servers
+  tags:
+    - api
+    - cloud
+    - mcp
+    - model-context-protocol
+    - tool-calling
+  interfaces:
+    - api
+    - mcp
+  deployment: hosted
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-11-19
+  last_checked: 2026-11-19
+  sources:
+    - https://cheapcarent.com/developers
+    - https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp
+    - https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp/blob/main/LICENSE
 - slug: cheqd-mcp-toolkit
   name: cheqd MCP Toolkit
   description: Modular MCP toolkit and server framework for decentralized identity workflows on the Cheqd network.
