@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 303 reviewed tools.
+This is the complete comparison matrix for all 304 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -65,6 +65,7 @@ This is the complete comparison matrix for all 303 reviewed tools.
 | [CC DevOps Skills](https://github.com/akin-ozer/cc-devops-skills) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/akin-ozer/cc-devops-skills) |
 | [changelog-generator (jaywcjlove)](https://github.com/jaywcjlove/changelog-generator) | Repo automation tools | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/jaywcjlove/changelog-generator) |
 | [Charlotte MCP Server](https://vibehackers.io/mcp/charlotte) | Browser agents | Yes | No | Yes | No | No | Yes | [Docs](https://vibehackers.io/mcp/charlotte) / [Repo](https://github.com/TickTockBent/charlotte) |
+| [CheapCarRent](https://cheapcarent.com/developers) | MCP servers | Yes | No | No | No | No | Yes | [Docs](https://cheapcarent.com/developers) / [Repo](https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp) |
 | [cheqd MCP Toolkit](https://github.com/cheqd/mcp-toolkit) | MCP tooling | Yes | No | No | No | No | Yes | [Docs](https://github.com/cheqd/mcp-toolkit#readme) / [Repo](https://github.com/cheqd/mcp-toolkit) |
 | [ChromaDB](https://www.trychroma.com) | Local LLM developer tools | Yes | Yes | Yes | No | No | No | [Website](https://www.trychroma.com) / [Docs](https://docs.trychroma.com) / [Repo](https://github.com/chroma-core/chroma) |
 | [Chrome DevTools MCP](https://developer.chrome.com/blog/chrome-devtools-mcp) | MCP servers | Yes | Yes | No | No | No | Yes | [Docs](https://developer.chrome.com/blog/chrome-devtools-mcp) / [Repo](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
