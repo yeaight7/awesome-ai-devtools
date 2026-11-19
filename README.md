@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>391 tools</code> <code>303 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>392 tools</code> <code>304 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (25)
+[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (26)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 303 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 304 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -450,6 +450,7 @@ Evaluation frameworks and systems for agents, LLM apps, and developer workflows.
 | [cap-evolve](https://skillberry-ai.github.io/cap-evolve/) | Optimizes an agent's prompts, tool code, and skills from failed evaluation traces, gated by a held-out significance test. | CLI · Framework · Skill Pack · Local | [Docs](https://skillberry-ai.github.io/cap-evolve/) / [Repo](https://github.com/skillberry-ai/cap-evolve) |
 | [DeepEval](https://deepeval.com) | Python framework for unit testing and benchmarking LLM applications, RAG systems, and agents with research-backed metrics. | CLI · Framework · Library | [Website](https://deepeval.com) / [Repo](https://github.com/confident-ai/deepeval) |
 | [DeepTeam](https://github.com/confident-ai/deepteam) | Open-source LLM red teaming framework for simulating attacks and evaluating safety of LLM systems using DeepEval metrics. | CLI · Framework · Library | [Repo](https://github.com/confident-ai/deepteam) |
+| [EvalShift](https://www.evalshift.dev/) | CLI and capture SDK that replays recorded AI agent runs on a current and a candidate model and reports regressions with significance tests. | CLI · Library · Local | [Website](https://www.evalshift.dev/) / [Docs](https://www.evalshift.dev/docs/cli) / [Repo](https://github.com/evalshift/evalshift-cli) |
 | [Guardrails AI](https://github.com/ShreyaR/guardrails) | Python library for enforcing structured outputs, validations, and safety constraints on LLM and agent responses. | Framework · Library · Local | [Docs](https://www.guardrailsai.com) / [Repo](https://github.com/ShreyaR/guardrails) |
 | [LangChain OpenEvals](https://github.com/langchain-ai/openevals) | Open-source collection of ready-made evaluators for LLM applications in the LangChain ecosystem. | Framework · Library | [Repo](https://github.com/langchain-ai/openevals) |
 | [LangFair](https://cvs-health.github.io/langfair/) | Python library for use-case level LLM bias and fairness assessment using bring-your-own-prompts workflows. | Framework · Library | [Docs](https://cvs-health.github.io/langfair/) / [Repo](https://github.com/cvs-health/langfair) |
@@ -660,6 +661,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-11-19: [EvalShift](https://www.evalshift.dev/)
 - 2026-11-14: [Althar](https://althar.ai/)
 - 2026-11-02: [Concord](https://getconcord.ai)
 - 2026-11-02: [SpaceApp](https://spaceapp.dev/)
@@ -667,7 +669,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-20: [PlaceCall](https://voygr.tech/placecall/)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
-- 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 
 ## Needs review
 
