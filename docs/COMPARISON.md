@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 303 reviewed tools.
+This is the complete comparison matrix for all 304 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -107,6 +107,7 @@ This is the complete comparison matrix for all 303 reviewed tools.
 | [Dunetrace](https://dunetrace.dev) | Agent observability | Yes | No | Yes | No | No | No | [Website](https://dunetrace.dev) / [Docs](https://github.com/dunetrace/dunetrace#readme) / [Repo](https://github.com/dunetrace/dunetrace) |
 | [e2b-mcp](https://e2b.dev) | MCP servers | Yes | No | No | Yes | No | Yes | [Website](https://e2b.dev) / [Repo](https://github.com/cased/e2b-mcp) |
 | [Ellipsis](https://www.ellipsis.dev/) | Coding agents | No | No | No | No | No | No | [Website](https://www.ellipsis.dev/) / [Docs](https://docs.ellipsis.dev/introduction) |
+| [EvalShift](https://www.evalshift.dev/) | Agent evals | Yes | Yes | No | Yes | No | No | [Website](https://www.evalshift.dev/) / [Docs](https://www.evalshift.dev/docs/cli) / [Repo](https://github.com/evalshift/evalshift-cli) |
 | [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) | Agent skill packs | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/affaan-m/everything-claude-code#readme) / [Repo](https://github.com/affaan-m/everything-claude-code) |
 | [Evidently AI](https://www.evidentlyai.com) | Agent observability | Yes | No | Yes | No | No | No | [Website](https://www.evidentlyai.com) / [Docs](https://docs.evidentlyai.com) / [Repo](https://github.com/evidentlyai/evidently) |
 | [Exa MCP Server](https://github.com/exa-labs/exa-mcp-server) | MCP servers | Yes | No | No | No | No | Yes | [Repo](https://github.com/exa-labs/exa-mcp-server) |
