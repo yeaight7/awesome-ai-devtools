@@ -10301,6 +10301,31 @@
     - https://github.com/vllm-project/vllm
     - https://raw.githubusercontent.com/openai/openai-cookbook/main/articles/gpt-oss/run-vllm.md
     - https://vllm.ai
+- slug: vouchity
+  name: Vouchity
+  description: Scores MCP servers from 0 to 100 using public GitHub and npm data, and offers a public MCP endpoint for agents.
+  website_url: https://www.vouchity.com
+  categories:
+    - ai-devtools-security
+  tags:
+    - api
+    - cloud
+    - mcp
+    - security
+  interfaces:
+    - api
+    - mcp
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
+  added: 2026-11-20
+  last_checked: 2026-11-20
+  sources:
+    - https://www.vouchity.com
+    - https://www.vouchity.com/api/mcp
+    - https://www.vouchity.com/pricing
 - slug: vs-code-browser-agent-tools
   name: VS Code Browser Agent Tools
   description: Visual Studio Code Copilot feature set that lets AI agents open pages, read content, click elements, and run Playwright code in an integrated browser.
