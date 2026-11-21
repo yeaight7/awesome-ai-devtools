@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 303 reviewed tools.
+This is the complete comparison matrix for all 304 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -207,6 +207,7 @@ This is the complete comparison matrix for all 303 reviewed tools.
 | [Okahu](https://www.okahu.ai) | Agent observability | Yes | No | No | No | No | No | [Website](https://www.okahu.ai) / [Docs](https://docs.okahu.ai) / [Repo](https://github.com/okahu-demos) |
 | [Ollama](https://ollama.com) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://ollama.com) / [Docs](https://docs.ollama.com) / [Repo](https://github.com/ollama/ollama) |
 | [Onyx](https://onyx.dotenv.dev) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | Yes | [Website](https://onyx.dotenv.dev) / [Docs](https://github.com/onyx-dot-app/onyx#readme) / [Repo](https://github.com/onyx-dot-app/onyx) |
+| [Open Agent API](https://openagentapi.pages.dev/) | Self-hosted AI dev stacks | Yes | No | Yes | Yes | No | No | [Website](https://openagentapi.pages.dev/) / [Docs](https://jiangxingfan1-coder.github.io/Open-Agent-API/docs/install.html#source) / [Repo](https://github.com/jiangxingfan1-coder/Open-Agent-API) |
 | [Open RAG Eval](https://www.vectara.com/blog/introducing-open-rag-eval-the-open-source-framework-for-comparing-rag-solutions) | Agent evals | Yes | No | No | Yes | No | No | [Website](https://www.vectara.com/blog/introducing-open-rag-eval-the-open-source-framework-for-comparing-rag-solutions) / [Docs](https://docs.vectara.com/docs/hallucination-and-evaluation/open-eval-framework) / [Repo](https://github.com/vectara/open-rag-eval) |
 | [Open WebUI Platform](https://openwebui.com) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | No | [Website](https://openwebui.com) / [Docs](https://docs.openwebui.com) / [Repo](https://github.com/open-webui/open-webui) |
 | [OpenAgents Web Agent](https://openagents.org) | Browser agents | Yes | No | No | No | No | No | [Website](https://openagents.org) / [Repo](https://github.com/xlang-ai/openagents) |
