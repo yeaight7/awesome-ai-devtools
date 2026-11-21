@@ -9911,6 +9911,31 @@
   sources:
     - http://github.com/reworkd/tarsier
     - https://github.com/reworkd/tarsier
+- slug: taskhold
+  name: Taskhold
+  description: Hosted task list that coding agents reach over MCP to plan steps, report progress and ask questions, with a live board.
+  website_url: https://taskhold.com/?ref=awesome-ai-devtools
+  repo_url: https://github.com/gettaskhold/taskhold-plugin
+  docs_url: https://taskhold.com/docs
+  categories:
+    - mcp-servers
+  tags:
+    - agents
+    - mcp
+    - workflow-automation
+  interfaces:
+    - api
+    - mcp
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
+  added: 2026-11-21
+  last_checked: 2026-11-21
+  sources:
+    - https://github.com/gettaskhold/taskhold-plugin
+    - https://taskhold.com/docs/mcp-tools
 - slug: testcontainers-llm
   name: Testcontainers LLM
   description: Java Testcontainers modules for spinning up LLM-related services like Ollama and LocalAI for integration tests.
