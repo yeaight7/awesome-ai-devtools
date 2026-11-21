@@ -7369,6 +7369,33 @@
     - https://github.com/onyx-dot-app/onyx
     - https://github.com/onyx-dot-app/onyx#readme
     - https://onyx.dotenv.dev
+- slug: open-agent-api
+  name: Open Agent API
+  description: Self-hosted gateway for publishing coding agents through SDK-compatible APIs, with background tasks and separate operator approvals.
+  website_url: https://openagentapi.pages.dev/
+  repo_url: https://github.com/jiangxingfan1-coder/Open-Agent-API
+  docs_url: https://jiangxingfan1-coder.github.io/Open-Agent-API/docs/install.html#source
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - api
+    - multi-agent
+    - orchestration
+    - self-hosted
+  interfaces:
+    - api
+    - cli
+    - web
+  deployment: self-hosted
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-11-22
+  last_checked: 2026-11-22
+  sources:
+    - https://github.com/jiangxingfan1-coder/Open-Agent-API
+    - https://github.com/jiangxingfan1-coder/Open-Agent-API/blob/main/docs/protocol.md
+    - https://jiangxingfan1-coder.github.io/Open-Agent-API/docs/install.html#source
 - slug: open-rag-eval
   name: Open RAG Eval
   description: Python toolkit from Vectara for evaluating and comparing RAG pipelines using TREC-RAG style metrics.

@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>391 tools</code> <code>303 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>392 tools</code> <code>304 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -82,7 +82,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Run locally/self-host
 
-[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (27) · [Local LLM developer tools](#local-llm-developer-tools) (31)
+[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (28) · [Local LLM developer tools](#local-llm-developer-tools) (31)
 
 ### Automate repo work
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 303 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 304 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -488,6 +488,7 @@ Self-hostable platforms and infrastructure for AI developer workflows.
 | [Nosia](https://nosia.ai) | Self-hosted RAG platform with OpenAI-compatible API, Docker Compose deployment, and web UI for chat over private documents. | API · CLI · Web · Self-hosted | [Website](https://nosia.ai) / [Docs](https://nosia.ai/readme/) |
 | [Nosia Installer Stack](https://get.nosia.ai) | Scripted Docker Compose stack that installs Nosia plus dependencies for self-hosted RAG and chat on local infrastructure. | CLI · Web · Self-hosted | [Website](https://get.nosia.ai) / [Docs](https://nosia.ai/readme/) |
 | [Onyx](https://onyx.dotenv.dev) | Open-source self-hostable AI platform offering chat UI with agents, RAG, MCP tools, and multi-provider model support. | API · MCP · Web · Self-hosted | [Website](https://onyx.dotenv.dev) / [Docs](https://github.com/onyx-dot-app/onyx#readme) / [Repo](https://github.com/onyx-dot-app/onyx) |
+| [Open Agent API](https://openagentapi.pages.dev/) | Self-hosted gateway for publishing coding agents through SDK-compatible APIs, with background tasks and separate operator approvals. | API · CLI · Web · Self-hosted | [Website](https://openagentapi.pages.dev/) / [Docs](https://jiangxingfan1-coder.github.io/Open-Agent-API/docs/install.html#source) / [Repo](https://github.com/jiangxingfan1-coder/Open-Agent-API) |
 | [Open WebUI Platform](https://openwebui.com) | Self-hosted AI platform and UI that supports Ollama and OpenAI-compatible APIs and can run entirely offline. | API · Web · Self-hosted | [Website](https://openwebui.com) / [Docs](https://docs.openwebui.com) / [Repo](https://github.com/open-webui/open-webui) |
 | [OpenRAG](https://github.com/langflow-ai/openrag) | Open-source RAG stack combining Langflow, Docling, and OpenSearch with single-command Docker Compose deployment. | API · Web · Self-hosted | [Docs](https://github.com/langflow-ai/openrag#readme) / [Repo](https://github.com/langflow-ai/openrag) |
 | [Paddler](https://github.com/intentee/paddler#readme) | Open-source LLMOps platform for hosting and scaling AI models in your own infrastructure. | API · CLI · Web · Self-hosted | [Docs](https://github.com/intentee/paddler#readme) / [Repo](https://github.com/intentee/paddler) |
@@ -660,6 +661,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-11-22: [Open Agent API](https://openagentapi.pages.dev/)
 - 2026-11-14: [Althar](https://althar.ai/)
 - 2026-11-02: [Concord](https://getconcord.ai)
 - 2026-11-02: [SpaceApp](https://spaceapp.dev/)
@@ -667,7 +669,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-20: [PlaceCall](https://voygr.tech/placecall/)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
-- 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 
 ## Needs review
 
