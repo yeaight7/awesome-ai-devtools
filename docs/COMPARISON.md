@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 303 reviewed tools.
+This is the complete comparison matrix for all 304 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19,6 +19,7 @@ This is the complete comparison matrix for all 303 reviewed tools.
 | [Agent-WebVoyager](https://github.com/mrmoxon/Agent-WebVoyager) | Browser agents | Yes | No | No | No | No | No | [Repo](https://github.com/mrmoxon/Agent-WebVoyager) |
 | [Agentic Security](https://github.com/msoedov/agentic_security) | Agent evals | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/msoedov/agentic_security) |
 | [AgentSkills MCP](https://github.com/zouyingcao/agentskills-mcp) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/zouyingcao/agentskills-mcp) |
+| [agentstats](https://github.com/RishabhPande/agentstats) | Agent evals | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/RishabhPande/agentstats) |
 | [agenttrace](https://luoyuctl.github.io/agenttrace/) | Agent observability | Yes | Yes | No | Yes | No | No | [Website](https://luoyuctl.github.io/agenttrace/) / [Docs](https://github.com/luoyuctl/agenttrace#readme) / [Repo](https://github.com/luoyuctl/agenttrace) |
 | [AI Document Creator](https://woden-ai.com) | Documentation agents | No | No | No | No | No | No | [Website](https://woden-ai.com) / [Docs](https://github.com/marketplace/ai-document-creator) |
 | [ai-doc-gen](https://github.com/divar-ir/ai-doc-gen) | Documentation agents | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/divar-ir/ai-doc-gen) |
