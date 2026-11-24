@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>391 tools</code> <code>303 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>392 tools</code> <code>304 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (25)
+[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (26)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 303 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 304 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -445,6 +445,7 @@ Evaluation frameworks and systems for agents, LLM apps, and developer workflows.
 | --- | --- | --- | --- |
 | [Agent Eval Framework](https://github.com/goker/agent-eval-framework) | Python package for production-grade evaluation and continuous improvement of AI agents across multiple quality dimensions. | Framework · Library | [Repo](https://github.com/goker/agent-eval-framework) |
 | [Agentic Security](https://github.com/msoedov/agentic_security) | Open-source vulnerability scanner and red-teaming kit for LLM agents and workflows focused on security evaluation. | CLI · Framework · Library | [Repo](https://github.com/msoedov/agentic_security) |
+| [agentstats](https://github.com/RishabhPande/agentstats) | Statistical tests, run-count planning and leaderboard uncertainty audits from repeated AI-agent benchmark run tables; does not execute agents. | CLI · Library · Local | [Repo](https://github.com/RishabhPande/agentstats) |
 | [Async Labs LLM Eval (PHP)](https://github.com/Aysnc-Labs/llm-eval) | PHP package for evaluating LLM outputs to test prompts and validate responses in PHP applications. | Framework · Library | [Repo](https://github.com/Aysnc-Labs/llm-eval) |
 | [AWS Agent Evaluation](https://awslabs.github.io/agent-evaluation/) | Generative AI-powered framework from AWS Labs to test virtual agents via multi-turn conversations and CI-friendly workflows. | CLI · Framework · Library | [Docs](https://awslabs.github.io/agent-evaluation/) / [Repo](https://github.com/awslabs/agent-evaluation) |
 | [cap-evolve](https://skillberry-ai.github.io/cap-evolve/) | Optimizes an agent's prompts, tool code, and skills from failed evaluation traces, gated by a held-out significance test. | CLI · Framework · Skill Pack · Local | [Docs](https://skillberry-ai.github.io/cap-evolve/) / [Repo](https://github.com/skillberry-ai/cap-evolve) |
@@ -660,6 +661,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-11-24: [agentstats](https://github.com/RishabhPande/agentstats)
 - 2026-11-14: [Althar](https://althar.ai/)
 - 2026-11-02: [Concord](https://getconcord.ai)
 - 2026-11-02: [SpaceApp](https://spaceapp.dev/)
@@ -667,7 +669,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-20: [PlaceCall](https://voygr.tech/placecall/)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
-- 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 
 ## Needs review
 
