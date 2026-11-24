@@ -2276,6 +2276,31 @@
   sources:
     - https://github.com/cline/prompts
     - https://www.reddit.com/r/CLine/comments/1kh8iwo/new_clinerules_library_github_repo_from_the_cline/
+- slug: cloudbrowser
+  name: Cloudbrowser
+  description: Hosted desktop Chrome for browser automation, with CDP access, persistent profiles, and a CLI and API to pause, resume, or fork browsers.
+  website_url: https://cloudbrowser.tv/
+  docs_url: https://cloudbrowser.tv/docs
+  categories:
+    - browser-agents
+  tags:
+    - agents
+    - browser-automation
+    - cloud
+  interfaces:
+    - api
+    - cli
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
+  added: 2026-11-24
+  last_checked: 2026-11-24
+  sources:
+    - https://cloudbrowser.tv/docs/browsers
+    - https://cloudbrowser.tv/docs/cli
+    - https://cloudbrowser.tv/docs/connections
 - slug: code-summarizer-action
   name: Code Summarizer Action
   description: GitHub Action that generates AI summaries of code changes or files and posts them as PR comments.
