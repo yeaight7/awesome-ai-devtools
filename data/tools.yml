@@ -480,6 +480,32 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/zouyingcao/agentskills-mcp
+- slug: agentstats
+  name: agentstats
+  description: Statistical tests, run-count planning and leaderboard uncertainty audits from repeated AI-agent benchmark run tables; does not execute agents.
+  website_url: https://github.com/RishabhPande/agentstats
+  repo_url: https://github.com/RishabhPande/agentstats
+  categories:
+    - agent-evals
+  tags:
+    - agent-evals
+    - benchmarking
+    - cli
+    - evals
+    - open-source
+    - python
+  interfaces:
+    - cli
+    - library
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-11-24
+  last_checked: 2026-11-24
+  sources:
+    - https://github.com/RishabhPande/agentstats
+    - https://github.com/RishabhPande/agentstats/blob/main/LICENSE
 - slug: agenttrace
   name: agenttrace
   description: Local CLI/TUI that turns AI coding agent session logs into cost, token, latency, failure, and health reports.
