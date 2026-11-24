@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>391 tools</code> <code>303 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>392 tools</code> <code>304 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -70,7 +70,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (35) · [Terminal agents](#terminal-agents) (23) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
+[Coding agents](#coding-agents) (35) · [Terminal agents](#terminal-agents) (23) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (26)
 
 ### Extend agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 303 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 304 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -263,6 +263,7 @@ Tools that can inspect, drive, or test browser-based developer workflows.
 | [BrowserPilot](https://github.com/handrew/browserpilot) | Python library that offers an intelligent web browsing agent controlled by natural language commands over a ChromeDriver-driven browser. | Library | [Repo](https://github.com/handrew/browserpilot) |
 | [Charlotte MCP Server](https://vibehackers.io/mcp/charlotte) | Open-source MCP server that renders web pages into structured, token-efficient representations using headless Chromium for agents. | MCP · Self-hosted | [Docs](https://vibehackers.io/mcp/charlotte) / [Repo](https://github.com/TickTockBent/charlotte) |
 | [Cline](https://docs.cline.bot/introduction/overview) | Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension. | Browser · CLI · IDE · Hybrid | [Docs](https://docs.cline.bot/introduction/overview) / [Repo](https://github.com/cline/cline) |
+| [Cloudbrowser](https://cloudbrowser.tv/) | Hosted desktop Chrome for browser automation, with CDP access, persistent profiles, and a CLI and API to pause, resume, or fork browsers. | API · CLI · Web · Hosted | [Website](https://cloudbrowser.tv/) / [Docs](https://cloudbrowser.tv/docs) |
 | [Firecrawl](https://www.firecrawl.dev) | Open-source web data API for AI that lets agents search, scrape, and interact with the web at scale via HTTP, SDKs, CLI, and MCP. | API · CLI · Library · MCP · Hybrid | [Docs](https://www.firecrawl.dev) / [Repo](https://github.com/firecrawl/firecrawl) |
 | [Firecrawl Web Agent](https://github.com/firecrawl/web-agent) | Autonomous web data agent built on Firecrawl and browser-use to execute web tasks over an HTTP API for downstream applications. | API · Framework | [Repo](https://github.com/firecrawl/web-agent) |
 | [HyperAgent](https://github.com/hyperbrowserai/HyperAgent) | TypeScript SDK and CLI that layers AI commands like page.ai and executeTask on top of Playwright for intelligent browser automation. | CLI · Library | [Repo](https://github.com/hyperbrowserai/HyperAgent) |
@@ -660,6 +661,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-11-24: [Cloudbrowser](https://cloudbrowser.tv/)
 - 2026-11-14: [Althar](https://althar.ai/)
 - 2026-11-02: [Concord](https://getconcord.ai)
 - 2026-11-02: [SpaceApp](https://spaceapp.dev/)
@@ -667,7 +669,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-20: [PlaceCall](https://voygr.tech/placecall/)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
-- 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 
 ## Needs review
 
