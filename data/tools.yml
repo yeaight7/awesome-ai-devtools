@@ -4996,6 +4996,33 @@
     - https://docs.mem0.ai/integrations/keywords
     - https://keywordsai.co
     - https://www.cognee.ai/blog/deep-dives/observability-for-semantic-workflows
+- slug: kite
+  name: Kite
+  description: Hosted MCP server for the Kite design tool that lets coding agents create and edit frames, text, components and auto layout in shared design files.
+  website_url: https://kite.new
+  repo_url: https://github.com/kitedotnew/kite-agent-plugins
+  docs_url: https://kite.new/docs
+  categories:
+    - mcp-servers
+  tags:
+    - claude
+    - mcp
+    - model-context-protocol
+    - tool-calling
+  interfaces:
+    - desktop
+    - mcp
+    - web
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
+  added: 2026-11-25
+  last_checked: 2026-11-25
+  sources:
+    - https://github.com/kitedotnew/kite-agent-plugins
+    - https://kite.new
+    - https://kite.new/api/mcp
 - slug: koboldcpp
   name: KoboldCpp
   description: Single-file local LLM server and web UI for GGUF models with Kobold-style API and OpenAI-like integrations.
