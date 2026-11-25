@@ -2276,6 +2276,35 @@
   sources:
     - https://github.com/cline/prompts
     - https://www.reddit.com/r/CLine/comments/1kh8iwo/new_clinerules_library_github_repo_from_the_cline/
+- slug: code-by-ai
+  name: Code By AI
+  description: Hosted API gateway for coding agents that serves Claude, GPT/Codex and Gemini on one key and balance via Anthropic, OpenAI and Gemini protocols, billed per token.
+  website_url: https://www.codebyai.net
+  docs_url: https://www.codebyai.net/docs
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agentic-coding
+    - api
+    - claude
+    - coding
+    - devtools
+    - gateway
+    - openai-compatible
+    - proxy
+  interfaces:
+    - api
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
+  added: 2026-11-25
+  last_checked: 2026-11-25
+  sources:
+    - https://www.codebyai.net
+    - https://www.codebyai.net/api/model-prices
+    - https://www.codebyai.net/docs
+    - https://www.codebyai.net/pricing
 - slug: code-summarizer-action
   name: Code Summarizer Action
   description: GitHub Action that generates AI summaries of code changes or files and posts them as PR comments.
