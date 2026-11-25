@@ -4795,6 +4795,33 @@
   last_checked: 2026-05-07
   sources:
     - https://github.com/invariantlabs-ai/testing
+- slug: ironheights
+  name: Ironheights
+  description: Rule-based CLI and MCP server that scans AI agent skills before install for prompt injection, credential reads, remote-exec installs, and persistence.
+  website_url: https://www.ironheights.dev
+  repo_url: https://github.com/Frank-Masciopinto/ironheights
+  categories:
+    - ai-devtools-security
+  tags:
+    - agent-skills
+    - cli
+    - mcp
+    - open-source
+    - openclaw
+    - security
+  interfaces:
+    - cli
+    - mcp
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-11-25
+  last_checked: 2026-11-25
+  sources:
+    - https://github.com/Frank-Masciopinto/ironheights
+    - https://github.com/Frank-Masciopinto/ironheights/blob/main/LICENSE
+    - https://www.ironheights.dev
 - slug: issue-triage-action
   name: Issue triage Action
   description: GitHub Action that detects stale issues, comments, labels them, and optionally closes them after configured time.

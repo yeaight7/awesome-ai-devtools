@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>391 tools</code> <code>303 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>392 tools</code> <code>304 reviewed</code> <code>88 draft</code> <code>19 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (25)
+[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (25) · [AI devtools security](#ai-devtools-security) (1)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 303 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 304 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -131,6 +131,7 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [Goose](https://goose-docs.ai/) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Website](https://goose-docs.ai/) / [Docs](https://goose-docs.ai/docs/quickstart/) / [Repo](https://github.com/aaif-goose/goose) |
 | [Harbor CLI Stack](https://github.com/harbor-ai/harbor#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://github.com/harbor-ai/harbor#readme) / [Repo](https://github.com/harbor-ai/harbor) |
 | [IBM MCP CLI](https://github.com/IBM/mcp-cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/IBM/mcp-cli) |
+| [Ironheights](https://www.ironheights.dev) | AI devtools security | Yes | Yes | No | Yes | No | Yes | [Website](https://www.ironheights.dev) / [Repo](https://github.com/Frank-Masciopinto/ironheights) |
 | [Jan Server](https://jan.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://jan.ai) / [Docs](https://github.com/janhq/server#readme) / [Repo](https://github.com/janhq/server) |
 | [KoboldCpp](https://koboldcpp.com) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://koboldcpp.com) / [Docs](https://github.com/LostRuins/koboldcpp/wiki) / [Repo](https://github.com/LostRuins/koboldcpp) |
 | [llama-cpp-python](https://llama-cpp-python.readthedocs.io) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Docs](https://llama-cpp-python.readthedocs.io) / [Repo](https://github.com/abetlen/llama-cpp-python) |
@@ -143,7 +144,6 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [Ruflo](https://github.com/ruvnet/ruflo) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Docs](https://github.com/ruvnet/ruflo#readme) / [Repo](https://github.com/ruvnet/ruflo) |
 | [SandBase CLI](https://github.com/sandbaseai/cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/sandbaseai/cli#readme) / [Repo](https://github.com/sandbaseai/cli) |
 | [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
-| [Sillage](https://github.com/MarlBurroW/sillage) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Repo](https://github.com/MarlBurroW/sillage) |
 
 <p align="center"><img src="assets/awesome-ai-devtools-social-preview.gif" alt="Awesome AI Devtools ecosystem map" width="100%"></p>
 
@@ -382,6 +382,14 @@ Reusable instruction, workflow, or capability packs for coding agents.
 | [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/) | Local-first Rust CLI/TUI for agent memory lifecycle with SQLite/FTS recall, audit, forgetting, and source-linked evidence. | CLI · Skill Pack · Local | [Website](https://terminallylazy.github.io/Tree-Ring-Memory/) / [Docs](https://terminallylazy.github.io/Tree-Ring-Memory/press-kit.md) / [Repo](https://github.com/TerminallyLazy/Tree-Ring-Memory) |
 | [UIZZE](https://uizze.com) | UI reference platform and agent skill providing web and iOS screen patterns, design contracts, and finish-gate reviews for coding agents. | MCP · Skill Pack · Web · Hosted | [Website](https://uizze.com) / [Docs](https://uizze.com/docs) |
 | [wshobson/agents](https://github.com/wshobson/agents) | Unified repository with 185 specialized agents, 16 orchestrators, 153 skills, and 100 commands for Claude Code automation. | CLI · Local | [Repo](https://github.com/wshobson/agents) |
+
+### AI devtools security
+
+Security tools and guidance for AI-assisted software development systems.
+
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [Ironheights](https://www.ironheights.dev) | Rule-based CLI and MCP server that scans AI agent skills before install for prompt injection, credential reads, remote-exec installs, and persistence. | CLI · MCP · Local | [Website](https://www.ironheights.dev) / [Repo](https://github.com/Frank-Masciopinto/ironheights) |
 
 ### Agent observability
 
@@ -660,6 +668,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-11-25: [Ironheights](https://www.ironheights.dev)
 - 2026-11-14: [Althar](https://althar.ai/)
 - 2026-11-02: [Concord](https://getconcord.ai)
 - 2026-11-02: [SpaceApp](https://spaceapp.dev/)
@@ -667,7 +676,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-20: [PlaceCall](https://voygr.tech/placecall/)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
-- 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 
 ## Needs review
 
@@ -713,8 +721,8 @@ Use official sources, keep descriptions factual, and leave uncertain metadata as
 ## Roadmap
 
 - Review and promote 88 queued draft entries, prioritising thin shelves.
-- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed), MCP clients (7 reviewed).
-- Populate empty shelves when quality entries are found: Prompt and workflow libraries, AI devtools security, DevOps and SRE agents.
+- Expand thin reviewed shelves: AI devtools security (1 reviewed), Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed).
+- Populate empty shelves when quality entries are found: Prompt and workflow libraries, DevOps and SRE agents.
 - Act on the weekly maintenance reports: fix confirmed-broken links and re-verify stale entries.
 - Improve generated filter views and category-level comparisons.
 - Keep the schema small and strict as the catalog grows.
