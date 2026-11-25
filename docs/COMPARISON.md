@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 303 reviewed tools.
+This is the complete comparison matrix for all 304 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -143,6 +143,7 @@ This is the complete comparison matrix for all 303 reviewed tools.
 | [IBM MCP CLI](https://github.com/IBM/mcp-cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/IBM/mcp-cli) |
 | [Intel Neural Compressor](https://github.com/intel/neural-compressor) | Local LLM developer tools | Yes | Yes | No | No | No | No | [Docs](https://intel.github.io/neural-compressor) / [Repo](https://github.com/intel/neural-compressor) |
 | [Invariant Testing](https://github.com/invariantlabs-ai/testing) | Agent skill packs | Yes | Yes | No | No | No | No | [Repo](https://github.com/invariantlabs-ai/testing) |
+| [Ironheights](https://www.ironheights.dev) | AI devtools security | Yes | Yes | No | Yes | No | Yes | [Website](https://www.ironheights.dev) / [Repo](https://github.com/Frank-Masciopinto/ironheights) |
 | [Ivy Tendril](https://tendril.ivy.app) | Coding agents | Yes | Yes | No | No | No | No | [Website](https://tendril.ivy.app) / [Docs](https://tendril.ivy.app/getting-started/installation) |
 | [Jan Server](https://jan.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://jan.ai) / [Docs](https://github.com/janhq/server#readme) / [Repo](https://github.com/janhq/server) |
 | [Jules](https://jules.google/) | Coding agents | No | No | No | No | No | No | [Website](https://jules.google/) / [Docs](https://jules.google/docs/) |
