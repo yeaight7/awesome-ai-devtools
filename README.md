@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>391 tools</code> <code>303 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>392 tools</code> <code>304 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -82,7 +82,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Run locally/self-host
 
-[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (27) · [Local LLM developer tools](#local-llm-developer-tools) (31)
+[Self-hosted AI dev stacks](#self-hosted-ai-dev-stacks) (28) · [Local LLM developer tools](#local-llm-developer-tools) (31)
 
 ### Automate repo work
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 303 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 304 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -478,6 +478,7 @@ Self-hostable platforms and infrastructure for AI developer workflows.
 | [AnythingLLM](https://useanything.com) | Self-hosted RAG and agent platform with no-code agent builder and Docker Compose deployment options. | API · CLI · Web · Hybrid | [Website](https://useanything.com) / [Docs](https://docs.useanything.com) / [Repo](https://github.com/Mintplex-Labs/anything-llm) |
 | [Athenaeum](https://github.com/herakles-dev/athenaeum#readme) | Self-hosted semantic library platform with embeddings, chat UI, pgvector, and MCP server support. | API · MCP · Web · Self-hosted | [Docs](https://github.com/herakles-dev/athenaeum#readme) / [Repo](https://github.com/herakles-dev/athenaeum) |
 | [Clawix AI Platform](https://github.com/ClawixAI/clawix#readme) | Open-source, self-hosted multi-agent AI orchestration platform running agents in isolated Docker containers. | CLI · Web · Self-hosted | [Docs](https://github.com/ClawixAI/clawix#readme) / [Repo](https://github.com/ClawixAI/clawix) |
+| [CodeI Lab](https://www.codeilab.com) | Hosted GPT API gateway for coding agents that serves OpenAI Responses/Chat Completions and Anthropic Messages over one API key and plan-based credit. | API · Hosted | [Website](https://www.codeilab.com) / [Docs](https://www.codeilab.com/docs) |
 | [DevBox AI Dev Stack](https://github.com/gl0bal01/devbox#readme) | Zero-trust dev environment repository including an AI dev stack installer for Docker-based tools on a VPS. | CLI · Self-hosted | [Docs](https://github.com/gl0bal01/devbox#readme) / [Repo](https://github.com/gl0bal01/devbox) |
 | [Dify](https://dify.ai) | Open-source LLMOps platform with visual studio for chatbots, workflows, agents, and RAG that supports self-hosted deployment. | API · Web · Hybrid | [Website](https://dify.ai) / [Docs](https://docs.dify.ai) / [Repo](https://github.com/langgenius/dify) |
 | [Gateway From Scratch](https://github.com/yingsuan-ai/gateway-from-scratch) | A minimal OpenAI-compatible API gateway teaching scaffold with multi-provider fallback, written in Node.js for learning gateway internals. | API · Template · Self-hosted | [Docs](https://github.com/yingsuan-ai/gateway-from-scratch/blob/main/docs/architecture.md) / [Repo](https://github.com/yingsuan-ai/gateway-from-scratch) |
@@ -660,6 +661,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-11-25: [CodeI Lab](https://www.codeilab.com)
 - 2026-11-14: [Althar](https://althar.ai/)
 - 2026-11-02: [Concord](https://getconcord.ai)
 - 2026-11-02: [SpaceApp](https://spaceapp.dev/)
@@ -667,7 +669,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-20: [PlaceCall](https://voygr.tech/placecall/)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
-- 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 
 ## Needs review
 

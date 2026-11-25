@@ -2382,6 +2382,34 @@
   last_checked: 2026-05-15
   sources:
     - https://github.com/THUDM/CodeGeeX2
+- slug: codei-lab
+  name: CodeI Lab
+  description: Hosted GPT API gateway for coding agents that serves OpenAI Responses/Chat Completions and Anthropic Messages over one API key and plan-based credit.
+  website_url: https://www.codeilab.com
+  docs_url: https://www.codeilab.com/docs
+  categories:
+    - self-hosted-ai-dev-stacks
+  tags:
+    - agentic-coding
+    - api
+    - coding
+    - devtools
+    - gateway
+    - openai-compatible
+    - proxy
+  interfaces:
+    - api
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
+  added: 2026-11-25
+  last_checked: 2026-11-25
+  sources:
+    - https://www.codeilab.com
+    - https://www.codeilab.com/docs
+    - https://www.codeilab.com/llms.txt
+    - https://www.codeilab.com/pricing
 - slug: coderabbit
   name: CodeRabbit
   description: AI code review agent for pull requests, local IDE review, and terminal-based review workflows.
