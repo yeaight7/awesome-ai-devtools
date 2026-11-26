@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 303 reviewed tools.
+This is the complete comparison matrix for all 304 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -94,6 +94,7 @@ This is the complete comparison matrix for all 303 reviewed tools.
 | [DeepEval](https://deepeval.com) | Agent evals | Yes | Yes | No | Yes | No | No | [Website](https://deepeval.com) / [Repo](https://github.com/confident-ai/deepeval) |
 | [DeepTeam](https://github.com/confident-ai/deepteam) | Agent evals | Yes | No | No | Yes | No | No | [Repo](https://github.com/confident-ai/deepteam) |
 | [DeepWiki](https://deepwiki.com) | Documentation agents | No | No | No | No | No | No | [Website](https://deepwiki.com) / [Docs](https://deepwiki.directory) |
+| [DESIGN:OS CLI](https://github.com/jangtrinh/design-os) | Agent skill packs | No | Yes | No | Yes | No | No | [Repo](https://github.com/jangtrinh/design-os) |
 | [DevBox AI Dev Stack](https://github.com/gl0bal01/devbox#readme) | Self-hosted AI dev stacks | Yes | No | Yes | Yes | No | No | [Docs](https://github.com/gl0bal01/devbox#readme) / [Repo](https://github.com/gl0bal01/devbox) |
 | [Devin](https://devin.ai/) | Coding agents | No | No | No | No | No | No | [Website](https://devin.ai/) / [Docs](https://docs.devin.ai/es/get-started/devin-intro) |
 | [Dify](https://dify.ai) | Self-hosted AI dev stacks | Yes | No | Yes | No | No | No | [Website](https://dify.ai) / [Docs](https://docs.dify.ai) / [Repo](https://github.com/langgenius/dify) |

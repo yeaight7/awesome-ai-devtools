@@ -3109,6 +3109,32 @@
   last_checked: 2026-09-27
   sources:
     - https://poe.com/DeployReview
+- slug: design-os-cli
+  name: DESIGN:OS CLI
+  description: CLI and agent skills that compile a project's tokens, components and docs into a design store that Claude Code or Codex loads, with deterministic UI gates.
+  website_url: https://github.com/jangtrinh/design-os
+  repo_url: https://github.com/jangtrinh/design-os
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - claude
+    - cli
+    - local-first
+    - verification
+  interfaces:
+    - cli
+    - skill-pack
+  deployment: local
+  source_model: source-available
+  license: LicenseRef-PolyForm-Shield-1.0.0
+  curation_status: reviewed
+  added: 2026-11-26
+  last_checked: 2026-11-26
+  sources:
+    - https://github.com/jangtrinh/design-os
+    - https://github.com/jangtrinh/design-os/blob/main/LICENSE
+    - https://www.npmjs.com/package/ease-design
 - slug: devbox-ai-dev-stack
   name: DevBox AI Dev Stack
   description: Zero-trust dev environment repository including an AI dev stack installer for Docker-based tools on a VPS.
