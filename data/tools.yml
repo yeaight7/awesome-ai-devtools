@@ -2039,6 +2039,32 @@
   last_checked: 2026-05-15
   sources:
     - https://github.com/openai/chatgpt-retrieval-plugin
+- slug: checkwash
+  name: checkwash
+  description: Local no-LLM CLI that flags loosened asserts, skipped tests, and weakened CI checks in a Git diff.
+  website_url: https://github.com/taipei49314/checkwash
+  repo_url: https://github.com/taipei49314/checkwash
+  docs_url: https://github.com/taipei49314/checkwash
+  categories:
+    - ai-devtools-security
+  tags:
+    - ci
+    - claude
+    - cli
+    - local-first
+    - security
+    - testing
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-11-26
+  last_checked: 2026-11-26
+  sources:
+    - https://github.com/taipei49314/checkwash
+    - https://pypi.org/project/checkwash/
 - slug: cheqd-mcp-toolkit
   name: cheqd MCP Toolkit
   description: Modular MCP toolkit and server framework for decentralized identity workflows on the Cheqd network.
