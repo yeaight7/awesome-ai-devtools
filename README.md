@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>391 tools</code> <code>303 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>392 tools</code> <code>304 reviewed</code> <code>88 draft</code> <code>19 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (25)
+[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (25) · [AI devtools security](#ai-devtools-security) (1)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 303 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 304 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -383,6 +383,14 @@ Reusable instruction, workflow, or capability packs for coding agents.
 | [UIZZE](https://uizze.com) | UI reference platform and agent skill providing web and iOS screen patterns, design contracts, and finish-gate reviews for coding agents. | MCP · Skill Pack · Web · Hosted | [Website](https://uizze.com) / [Docs](https://uizze.com/docs) |
 | [wshobson/agents](https://github.com/wshobson/agents) | Unified repository with 185 specialized agents, 16 orchestrators, 153 skills, and 100 commands for Claude Code automation. | CLI · Local | [Repo](https://github.com/wshobson/agents) |
 
+### AI devtools security
+
+Security tools and guidance for AI-assisted software development systems.
+
+| Tool | Good for | Experience | Links |
+| --- | --- | --- | --- |
+| [checkwash](https://github.com/taipei49314/checkwash) | Local no-LLM CLI that flags loosened asserts, skipped tests, and weakened CI checks in a Git diff. | CLI · Local | [Repo](https://github.com/taipei49314/checkwash) |
+
 ### Agent observability
 
 Tools for tracing, monitoring, and debugging agent or LLM application behavior.
@@ -660,6 +668,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-11-26: [checkwash](https://github.com/taipei49314/checkwash)
 - 2026-11-14: [Althar](https://althar.ai/)
 - 2026-11-02: [Concord](https://getconcord.ai)
 - 2026-11-02: [SpaceApp](https://spaceapp.dev/)
@@ -667,7 +676,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-10-20: [PlaceCall](https://voygr.tech/placecall/)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
-- 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 
 ## Needs review
 
@@ -713,8 +721,8 @@ Use official sources, keep descriptions factual, and leave uncertain metadata as
 ## Roadmap
 
 - Review and promote 88 queued draft entries, prioritising thin shelves.
-- Expand thin reviewed shelves: Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed), MCP clients (7 reviewed).
-- Populate empty shelves when quality entries are found: Prompt and workflow libraries, AI devtools security, DevOps and SRE agents.
+- Expand thin reviewed shelves: AI devtools security (1 reviewed), Data and ML coding assistants (1 reviewed), Registries and curated lists (4 reviewed).
+- Populate empty shelves when quality entries are found: Prompt and workflow libraries, DevOps and SRE agents.
 - Act on the weekly maintenance reports: fix confirmed-broken links and re-verify stale entries.
 - Improve generated filter views and category-level comparisons.
 - Keep the schema small and strict as the catalog grows.
