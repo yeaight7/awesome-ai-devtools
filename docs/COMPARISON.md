@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 303 reviewed tools.
+This is the complete comparison matrix for all 304 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -72,6 +72,7 @@ This is the complete comparison matrix for all 303 reviewed tools.
 | [Claude Skills](https://github.com/alirezarezvani/claude-skills) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/alirezarezvani/claude-skills) |
 | [Clawix AI Platform](https://github.com/ClawixAI/clawix#readme) | Self-hosted AI dev stacks | Yes | No | Yes | Yes | No | No | [Docs](https://github.com/ClawixAI/clawix#readme) / [Repo](https://github.com/ClawixAI/clawix) |
 | [Cline](https://docs.cline.bot/introduction/overview) | Coding agents | Yes | No | No | Yes | Yes | Yes | [Docs](https://docs.cline.bot/introduction/overview) / [Repo](https://github.com/cline/cline) |
+| [Cloudbrowser](https://cloudbrowser.tv/) | Browser agents | No | No | No | Yes | No | No | [Website](https://cloudbrowser.tv/) / [Docs](https://cloudbrowser.tv/docs) |
 | [Code2Docs](https://github.com/code2docs-ai) | Documentation agents | Yes | No | No | Yes | No | No | [Docs](https://github.com/code2docs-ai) / [Repo](https://github.com/xKarinSan/Code2Docs) |
 | [CodeRabbit](https://coderabbit.ai/) | AI code review tools | No | No | No | Yes | Yes | No | [Website](https://coderabbit.ai/) / [Docs](https://docs.coderabbit.ai/) |
 | [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay) | Agent observability | Yes | Yes | No | No | No | No | [Repo](https://github.com/cpys/codex-quota-overlay) |
