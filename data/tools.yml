@@ -10290,6 +10290,33 @@
   last_checked: 2026-05-08
   sources:
     - https://github.com/jenkins-x/updatebot
+- slug: usb-rea
+  name: usb-rea
+  description: CLI and MCP server that infers a USB device protocol from captured vendor-app traffic and generates a Python/libusb driver for Linux.
+  website_url: https://github.com/emirmrkaljevic/usb-rea
+  repo_url: https://github.com/emirmrkaljevic/usb-rea
+  docs_url: https://github.com/emirmrkaljevic/usb-rea/blob/main/docs/mcp.md
+  categories:
+    - mcp-servers
+  tags:
+    - cli
+    - debugging
+    - mcp
+    - open-source
+    - python
+  interfaces:
+    - cli
+    - mcp
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-11-27
+  last_checked: 2026-11-27
+  sources:
+    - https://github.com/emirmrkaljevic/usb-rea
+    - https://github.com/emirmrkaljevic/usb-rea/blob/main/docs/mcp.md
+    - https://pypi.org/project/usb-rea/
 - slug: vectara-open-evaluation-ui
   name: Vectara Open Evaluation UI
   description: Web UI for loading reports from Open RAG Eval and comparing RAG configurations across queries and metrics.

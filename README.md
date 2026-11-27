@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>394 tools</code> <code>306 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>395 tools</code> <code>307 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -74,7 +74,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (25) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (30)
+[MCP servers](#mcp-servers) (26) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (30)
 
 ### Operate agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 306 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 307 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -308,6 +308,7 @@ Model Context Protocol servers that expose tools, resources, or prompts.
 | [ServiceGraph MCP](https://github.com/servicegraph/mcp-server) | MCP server for exposing observability data such as service metrics and logs to AI agents. | MCP · Hosted | [Repo](https://github.com/servicegraph/mcp-server) |
 | [Supabase MCP Server](https://github.com/supabase-community/supabase-mcp) | Official Supabase MCP server for connecting AI assistants to Supabase projects and database operations. | MCP · Hosted | [Repo](https://github.com/supabase-community/supabase-mcp) |
 | [UIZZE](https://uizze.com) | UI reference platform and agent skill providing web and iOS screen patterns, design contracts, and finish-gate reviews for coding agents. | MCP · Skill Pack · Web · Hosted | [Website](https://uizze.com) / [Docs](https://uizze.com/docs) |
+| [usb-rea](https://github.com/emirmrkaljevic/usb-rea) | CLI and MCP server that infers a USB device protocol from captured vendor-app traffic and generates a Python/libusb driver for Linux. | CLI · MCP · Local | [Docs](https://github.com/emirmrkaljevic/usb-rea/blob/main/docs/mcp.md) / [Repo](https://github.com/emirmrkaljevic/usb-rea) |
 
 ### MCP clients
 
@@ -666,12 +667,12 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 - 2026-11-27: [100x Engineer Skill](https://github.com/DeadInternetStudios/100x-engineer-skill)
 - 2026-11-27: [Sandscale](https://sandscale.dev)
+- 2026-11-27: [usb-rea](https://github.com/emirmrkaljevic/usb-rea)
 - 2026-11-26: [DESIGN:OS CLI](https://github.com/jangtrinh/design-os)
 - 2026-11-14: [Althar](https://althar.ai/)
 - 2026-11-02: [Concord](https://getconcord.ai)
 - 2026-11-02: [SpaceApp](https://spaceapp.dev/)
 - 2026-10-28: [Agent Notifications](https://agent-notifications.com/)
-- 2026-10-20: [PlaceCall](https://voygr.tech/placecall/)
 
 ## Needs review
 

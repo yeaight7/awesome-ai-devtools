@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 306 reviewed tools.
+This is the complete comparison matrix for all 307 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -295,6 +295,7 @@ This is the complete comparison matrix for all 306 reviewed tools.
 | [UIZZE](https://uizze.com) | Agent skill packs | No | No | No | No | No | Yes | [Website](https://uizze.com) / [Docs](https://uizze.com/docs) |
 | [Unitxt](https://www.unitxt.ai) | Agent evals | Yes | No | No | Yes | No | No | [Website](https://www.unitxt.ai) / [Docs](https://www.unitxt.ai/en/main/docs/introduction.html) / [Repo](https://github.com/ibm/unitxt) |
 | [UpdateBot](https://github.com/jenkins-x/updatebot) | Repo automation tools | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/jenkins-x/updatebot) |
+| [usb-rea](https://github.com/emirmrkaljevic/usb-rea) | MCP servers | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/emirmrkaljevic/usb-rea/blob/main/docs/mcp.md) / [Repo](https://github.com/emirmrkaljevic/usb-rea) |
 | [Vectara Open Evaluation UI](https://www.vectara.com/blog/open-evaluation) | Agent evals | No | No | No | No | No | No | [Website](https://www.vectara.com/blog/open-evaluation) / [Docs](https://docs.vectara.com/docs/hallucination-and-evaluation/open-eval-framework) |
 | [vLLM](https://vllm.ai) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Website](https://vllm.ai) / [Docs](https://docs.vllm.ai/en/stable/serving/openai_compatible_server.html) / [Repo](https://github.com/vllm-project/vllm) |
 | [Webagent (webagent-cloud)](https://github.com/webagent-cloud/webagent) | Browser agents | Yes | No | No | No | No | No | [Repo](https://github.com/webagent-cloud/webagent) |
