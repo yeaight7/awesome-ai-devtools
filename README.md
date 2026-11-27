@@ -86,7 +86,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Automate repo work
 
-[Repo automation tools](#repo-automation-tools) (28) · [AI code review tools](#ai-code-review-tools) (11) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
+[Repo automation tools](#repo-automation-tools) (28) · [AI code review tools](#ai-code-review-tools) (12) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
 
 ## Comparison Matrix
 
@@ -354,6 +354,7 @@ Reusable instruction, workflow, or capability packs for coding agents.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
+| [100x Engineer Skill](https://github.com/DeadInternetStudios/100x-engineer-skill) | Skill and CLI for Claude Code, Cursor and Codex that checks formal properties and requires recorded review evidence before a run can finish. | CLI · Skill Pack · Local | [Docs](https://github.com/DeadInternetStudios/100x-engineer-skill#readme) / [Repo](https://github.com/DeadInternetStudios/100x-engineer-skill) |
 | [Agent Powerups](https://github.com/yeaight7/agent-powerups) | Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents. | CLI · Desktop · MCP · Skill Pack · Template · Local | [Repo](https://github.com/yeaight7/agent-powerups) |
 | [Agent Skills](https://github.com/datalayer/agent-skills) | Python package to create, manage, and execute reusable code-based tool compositions for AI agents with MCP integration. | MCP · Local | [Repo](https://github.com/datalayer/agent-skills) |
 | [Agent Skills Specification](https://github.com/agentskills/agentskills) | Open specification and documentation for Agent Skills format maintained by Anthropic with reference SDK and examples. | Framework · Skill Pack | [Repo](https://github.com/agentskills/agentskills) |
@@ -583,6 +584,7 @@ AI-assisted tools for reviewing changes, pull requests, and code quality.
 
 | Tool | Good for | Experience | Links |
 | --- | --- | --- | --- |
+| [100x Engineer Skill](https://github.com/DeadInternetStudios/100x-engineer-skill) | Skill and CLI for Claude Code, Cursor and Codex that checks formal properties and requires recorded review evidence before a run can finish. | CLI · Skill Pack · Local | [Docs](https://github.com/DeadInternetStudios/100x-engineer-skill#readme) / [Repo](https://github.com/DeadInternetStudios/100x-engineer-skill) |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
 | [Bito AI Code Review Agent](https://bito.ai/product/ai-code-review-agent/) | Repository review agent for GitHub, GitLab, and Bitbucket pull or merge request workflows. | GitHub app · Hosted | [Website](https://bito.ai/product/ai-code-review-agent/) / [Docs](https://docs.bito.ai/ai-code-reviews-in-git/install-run-using-bito-cloud/guide-for-github) |
 | [CodeRabbit](https://coderabbit.ai/) | AI code review agent for pull requests, local IDE review, and terminal-based review workflows. | CLI · GitHub app · IDE · Hybrid | [Website](https://coderabbit.ai/) / [Docs](https://docs.coderabbit.ai/) |
@@ -661,6 +663,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-11-27: [100x Engineer Skill](https://github.com/DeadInternetStudios/100x-engineer-skill)
 - 2026-11-26: [DESIGN:OS CLI](https://github.com/jangtrinh/design-os)
 - 2026-11-14: [Althar](https://althar.ai/)
 - 2026-11-02: [Concord](https://getconcord.ai)

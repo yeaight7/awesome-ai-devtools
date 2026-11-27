@@ -1,3 +1,30 @@
+- slug: 100x-engineer-skill
+  name: 100x Engineer Skill
+  description: Skill and CLI for Claude Code, Cursor and Codex that checks formal properties and requires recorded review evidence before a run can finish.
+  website_url: https://github.com/DeadInternetStudios/100x-engineer-skill
+  repo_url: https://github.com/DeadInternetStudios/100x-engineer-skill
+  docs_url: https://github.com/DeadInternetStudios/100x-engineer-skill#readme
+  categories:
+    - agent-skill-packs
+    - ai-code-review-tools
+  primary_category: agent-skill-packs
+  tags:
+    - agent-skills
+    - agentic-coding
+    - cli
+    - code-review
+    - open-source
+  interfaces:
+    - cli
+    - skill-pack
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-11-27
+  last_checked: 2026-11-27
+  sources:
+    - https://github.com/DeadInternetStudios/100x-engineer-skill
 - slug: action-to-update-github-action-documentation
   name: Action to update GitHub Action documentation
   description: GitHub Action that updates action and workflow documentation files, such as README, from action.yml definitions.
