@@ -2,10 +2,11 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 303 reviewed tools.
+This is the complete comparison matrix for all 304 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [100x Engineer Skill](https://github.com/DeadInternetStudios/100x-engineer-skill) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Docs](https://github.com/DeadInternetStudios/100x-engineer-skill#readme) / [Repo](https://github.com/DeadInternetStudios/100x-engineer-skill) |
 | [Agent Browser](https://github.com/vercel-labs/agent-browser) | Browser agents | Yes | No | No | Yes | No | No | [Repo](https://github.com/vercel-labs/agent-browser) |
 | [Agent Eval Framework](https://github.com/goker/agent-eval-framework) | Agent evals | Yes | No | No | No | No | No | [Repo](https://github.com/goker/agent-eval-framework) |
 | [Agent Island](https://agent-island.dev) | Agent observability | Yes | Yes | No | No | No | No | [Website](https://agent-island.dev) / [Repo](https://github.com/tristan666666/agent-island) |
