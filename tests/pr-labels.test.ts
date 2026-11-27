@@ -2,13 +2,14 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { existsSync, readFileSync } from "node:fs";
 import { createRequire } from "node:module";
+import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 
 const require = createRequire(import.meta.url);
 const scriptPath = new URL("../.github/scripts/pr-labels.cjs", import.meta.url);
 function automation() {
   assert.ok(existsSync(scriptPath), "PR labeling implementation must exist");
-  return require(scriptPath.pathname);
+  return require(fileURLToPath(scriptPath));
 }
 const taxonomy = YAML.stringify([
   { slug: "coding-agents", name: "Coding agents" },
