@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>394 tools</code> <code>306 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>395 tools</code> <code>307 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -74,7 +74,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (25) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (30)
+[MCP servers](#mcp-servers) (26) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (30)
 
 ### Operate agents
 
@@ -86,11 +86,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Automate repo work
 
-[Repo automation tools](#repo-automation-tools) (28) · [AI code review tools](#ai-code-review-tools) (12) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
+[Repo automation tools](#repo-automation-tools) (28) · [AI code review tools](#ai-code-review-tools) (12) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (8)
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 306 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 307 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -127,6 +127,7 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [Agent Notifications](https://agent-notifications.com/) | MCP servers | Yes | Yes | No | Yes | No | Yes | [Website](https://agent-notifications.com/) / [Docs](https://github.com/777genius/agent-notifications/blob/main/docs/INSTALLATION.md) / [Repo](https://github.com/777genius/agent-notifications) |
 | [Atomic Agent](https://atomicagent.io) | Terminal agents | Yes | Yes | No | Yes | No | Yes | [Website](https://atomicagent.io) / [Docs](https://atomicagent.io/docs) / [Repo](https://github.com/AtomicBot-ai/atomic-agent) |
 | [ax](https://github.com/Necmttn/ax) | Agent observability | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/Necmttn/ax) |
+| [behave](https://github.com/emirmrkaljevic/behave) | Test generation agents | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/emirmrkaljevic/behave/blob/main/docs/mcp.md) / [Repo](https://github.com/emirmrkaljevic/behave) |
 | [Gemini CLI](https://developers.google.com/gemini-code-assist/docs/gemini-cli) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli) / [Repo](https://github.com/google-gemini/gemini-cli) |
 | [Goose](https://goose-docs.ai/) | Coding agents | Yes | Yes | No | Yes | No | Yes | [Website](https://goose-docs.ai/) / [Docs](https://goose-docs.ai/docs/quickstart/) / [Repo](https://github.com/aaif-goose/goose) |
 | [Harbor CLI Stack](https://github.com/harbor-ai/harbor#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://github.com/harbor-ai/harbor#readme) / [Repo](https://github.com/harbor-ai/harbor) |
@@ -143,7 +144,6 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [Ruflo](https://github.com/ruvnet/ruflo) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Docs](https://github.com/ruvnet/ruflo#readme) / [Repo](https://github.com/ruvnet/ruflo) |
 | [SandBase CLI](https://github.com/sandbaseai/cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/sandbaseai/cli#readme) / [Repo](https://github.com/sandbaseai/cli) |
 | [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
-| [Sillage](https://github.com/MarlBurroW/sillage) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Repo](https://github.com/MarlBurroW/sillage) |
 
 <p align="center"><img src="assets/awesome-ai-devtools-social-preview.gif" alt="Awesome AI Devtools ecosystem map" width="100%"></p>
 
@@ -288,6 +288,7 @@ Model Context Protocol servers that expose tools, resources, or prompts.
 | [Anki MCP Server](https://ankimcp.ai) | MCP server that lets AI assistants interact with Anki flashcards and spaced-repetition workflows. | MCP · Local | [Website](https://ankimcp.ai) / [Repo](https://github.com/ankimcp/anki-mcp-server) |
 | [ArXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server) | MCP server for searching arXiv papers and exposing academic paper content to AI assistants. | MCP · Local | [Repo](https://github.com/blazickjp/arxiv-mcp-server) |
 | [ax](https://github.com/Necmttn/ax) | Local telemetry and recall graph for AI coding agents, with CLI, dashboard, MCP queries, and OTLP ingestion. | CLI · MCP · Web · Local | [Repo](https://github.com/Necmttn/ax) |
+| [behave](https://github.com/emirmrkaljevic/behave) | CLI and MCP server that records a command-line tool as a black box (cases generated from --help and the man page) and diffs a rewrite or refactor against that recording. | CLI · MCP · Local | [Docs](https://github.com/emirmrkaljevic/behave/blob/main/docs/mcp.md) / [Repo](https://github.com/emirmrkaljevic/behave) |
 | [Browserbase MCP Server](https://browserbase.com) | MCP server that lets AI agents control cloud browsers through Browserbase and Stagehand. | MCP · Hybrid | [Website](https://browserbase.com) / [Repo](https://github.com/browserbase/mcp-server-browserbase) |
 | [Chrome DevTools MCP](https://developer.chrome.com/blog/chrome-devtools-mcp) | MCP server that gives AI agents Chrome DevTools debugging capabilities for web applications. | MCP · Local | [Docs](https://developer.chrome.com/blog/chrome-devtools-mcp) / [Repo](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
 | [Concord](https://getconcord.ai) | MCP server and CLI that lets coding agents such as Claude Code, Codex, Cursor and Gemini CLI message each other, claim work, share task memory and hand off. | CLI · MCP · Hybrid | [Website](https://getconcord.ai) / [Repo](https://github.com/Get-Concord-AI/concord-mcp) |
@@ -645,6 +646,7 @@ AI tools that create, improve, or maintain automated tests.
 | --- | --- | --- | --- |
 | [Agent QA](https://vostride.com/docs/agent-qa) | TypeScript QA agent that authors, runs, and repairs natural-language web and mobile tests through a CLI, dashboard, MCP server, and agent skills. | CLI · MCP · Skill Pack · Web · Local | [Website](https://vostride.com/docs/agent-qa) / [Docs](https://vostride.com/docs/agent-qa/quickstart) / [Repo](https://github.com/vostride/agent-qa) |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS coding assistant with IDE, CLI, and GitHub agents for coding, testing, review, and transformations. | CLI · GitHub app · IDE · Hybrid | [Website](https://aws.amazon.com/q/developer/) / [Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) |
+| [behave](https://github.com/emirmrkaljevic/behave) | CLI and MCP server that records a command-line tool as a black box (cases generated from --help and the man page) and diffs a rewrite or refactor against that recording. | CLI · MCP · Local | [Docs](https://github.com/emirmrkaljevic/behave/blob/main/docs/mcp.md) / [Repo](https://github.com/emirmrkaljevic/behave) |
 | [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
 | [Qodo](https://www.qodo.ai/) | Code review and IDE assistant product focused on reviewing diffs, tests, and repository context. | GitHub app · IDE · Hosted | [Website](https://www.qodo.ai/) / [Docs](https://docs.qodo.ai/) |
 | [Qodo-Cover](https://github.com/qodo-ai/qodo-cover) | AI-powered tool that automatically generates unit tests and improves code coverage, runnable as a CLI or in CI. | CLI · GitHub app · Hybrid | [Docs](https://github.com/qodo-ai/qodo-cover#readme) / [Repo](https://github.com/qodo-ai/qodo-cover) |
@@ -665,13 +667,13 @@ Directories, curated lists, and registries of AI developer tools and resources.
 ## New Arrivals
 
 - 2026-11-27: [100x Engineer Skill](https://github.com/DeadInternetStudios/100x-engineer-skill)
+- 2026-11-27: [behave](https://github.com/emirmrkaljevic/behave)
 - 2026-11-27: [usb-rea](https://github.com/emirmrkaljevic/usb-rea)
 - 2026-11-26: [DESIGN:OS CLI](https://github.com/jangtrinh/design-os)
 - 2026-11-14: [Althar](https://althar.ai/)
 - 2026-11-02: [Concord](https://getconcord.ai)
 - 2026-11-02: [SpaceApp](https://spaceapp.dev/)
 - 2026-10-28: [Agent Notifications](https://agent-notifications.com/)
-- 2026-10-20: [PlaceCall](https://voygr.tech/placecall/)
 
 ## Needs review
 
