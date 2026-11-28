@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 306 reviewed tools.
+This is the complete comparison matrix for all 307 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -54,6 +54,7 @@ This is the complete comparison matrix for all 306 reviewed tools.
 | [AWS Documentation MCP Server](https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server) | Documentation agents | Yes | No | No | No | No | Yes | [Docs](https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server) / [Repo](https://github.com/awslabs/mcp) |
 | [ax](https://github.com/Necmttn/ax) | Agent observability | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/Necmttn/ax) |
 | [Azure DevOps Skills](https://github.com/microsoft/azure-devops-skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/microsoft/azure-devops-skills) |
+| [behave](https://github.com/emirmrkaljevic/behave) | Test generation agents | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/emirmrkaljevic/behave/blob/main/docs/mcp.md) / [Repo](https://github.com/emirmrkaljevic/behave) |
 | [Bito AI Code Review Agent](https://bito.ai/product/ai-code-review-agent/) | AI code review tools | No | No | No | No | No | No | [Website](https://bito.ai/product/ai-code-review-agent/) / [Docs](https://docs.bito.ai/ai-code-reviews-in-git/install-run-using-bito-cloud/guide-for-github) |
 | [Braintrust](https://www.braintrust.dev) | Agent observability | No | No | No | No | No | No | [Website](https://www.braintrust.dev) / [Docs](https://docs.braintrust.dev) |
 | [Browser MCP](https://browsermcp.io) | Browser agents | No | Yes | No | No | No | Yes | [Docs](https://browsermcp.io) |
