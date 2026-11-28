@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 307 reviewed tools.
+This is the complete comparison matrix for all 308 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -188,6 +188,7 @@ This is the complete comparison matrix for all 307 reviewed tools.
 | [MCP Rust SDK (rmcp)](https://crates.io/crates/rmcp) | MCP tooling | Yes | No | No | No | No | Yes | [Docs](https://crates.io/crates/rmcp) / [Repo](https://github.com/modelcontextprotocol/rust-sdk) |
 | [mcp-cli (wong2)](https://www.npmjs.com/package/@wong2/mcp-cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Website](https://www.npmjs.com/package/@wong2/mcp-cli) / [Repo](https://github.com/wong2/mcp-cli) |
 | [mcpscan.ai](https://mcpscan.ai) | MCP tooling | No | No | No | No | No | Yes | [Docs](https://mcpscan.ai) |
+| [Mercury CLI](https://mercury-cli.ai/) | Coding agents | Yes | Yes | No | Yes | No | No | [Website](https://mercury-cli.ai/) / [Docs](https://mercury-cli.ai/docs/) / [Repo](https://github.com/Whq02/MercuryCLI) |
 | [Microsoft Skills](https://github.com/microsoft/skills) | Agent skill packs | Yes | Yes | No | No | No | Yes | [Repo](https://github.com/microsoft/skills) |
 | [Mintlify](https://www.mintlify.com) | Documentation agents | No | No | No | No | No | No | [Website](https://www.mintlify.com) / [Docs](https://www.mintlify.com/docs) |
 | [Mistral Inference](https://github.com/mistralai/mistral-inference#readme) | Local LLM developer tools | Yes | No | Yes | Yes | No | No | [Docs](https://github.com/mistralai/mistral-inference#readme) / [Repo](https://github.com/mistralai/mistral-inference) |

@@ -6663,6 +6663,34 @@
   last_checked: 2026-05-15
   sources:
     - https://posit-dev.github.io/mcptools/
+- slug: mercury-cli
+  name: Mercury CLI
+  description: Open-source terminal coding agent with a built-in debugger (bundled Python and JavaScript adapters) and 57-language syntax-tree search and rewrite, on cloud or local models.
+  website_url: https://mercury-cli.ai/
+  repo_url: https://github.com/Whq02/MercuryCLI
+  docs_url: https://mercury-cli.ai/docs/
+  categories:
+    - coding-agents
+    - terminal-agents
+  primary_category: coding-agents
+  tags:
+    - agentic-coding
+    - cli
+    - debugging
+    - open-source
+    - terminal-agent
+  interfaces:
+    - cli
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-11-28
+  last_checked: 2026-11-28
+  sources:
+    - https://github.com/Whq02/MercuryCLI
+    - https://mercury-cli.ai/
+    - https://mercury-cli.ai/docs/
 - slug: microsoft-skills
   name: Microsoft Skills
   description: Skills, custom agents, AGENTS.md templates, and MCP configurations for AI coding agents working with Azure SDKs and Microsoft AI Foundry.
